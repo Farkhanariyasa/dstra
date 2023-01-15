@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cpPKL{
+    background-color: #ffab00;
+    background-color: #ffbc33;
+    background-color: #ffdd99;
+    background-color: #ffeecc;
+
+    background-color: #506396;
+    background-color: #7382ab;
+    background-color: #96a1c0;
+    background-color: #dce0ea;
+
+    background-color: #4b395f;
+    background-color: #6f617f;
+    background-color: #93889f;
+    background-color: #dbd7df;
+
+    background-color: #b35c74;
+    background-color: #c27d90;
+    background-color: #d19dac;
+    background-color: #f0dee3;
+}
+
+
+.titleRiset4Top{
+    color: #6F617F;
+    font-weight: bold;
+}
+
+.descRiset4{
+    color: #2A3144;
+    font-weight: 800;
+}
+
+.text-justify {
+    text-align: justify;
+}
