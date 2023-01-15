@@ -61,7 +61,7 @@ Contoh : `pvd_riset1_hasilsp`
 - Folder `pages` berisi file-file yang berfungsi sebagai halaman utama dari web.
 - Dari setiap folder diatas terbagi dalam beberapa folder yaitu folder `dasbor` dan `landing page`.
 - Letakkan file-file berdasarkan folder yang sesuai.
-- Gunakan format penamaan pascal_case untuk penamaan file atau folder. Contoh : `landing_page.php`
+- Gunakan format penamaan snake_case untuk penamaan file atau folder. Contoh : `landing_page.php`
 
 ## Aturan Routing
 
@@ -73,7 +73,7 @@ Contoh : `pvd_riset1_hasilsp`
 - Letakkan assets pada folder `public/pvd`.
 - Pada folder `pvd`, terdapat 3 folder yaitu folder `css`, folder `img` dan folder `js`.
 - Letakkan file-file berdasarkan folder yang sesuai.
-- Gunakan format penamaan pascal-case untuk penamaan file atau folder yang dibuat. Contoh : `landing-page.css`. Untuk file gambar, silahkan disesuaikan namanya sesuai dengan kebutuhan.
+- Gunakan format penamaan snake_case untuk penamaan file atau folder yang dibuat. Contoh : `landing_page.css`. Untuk file gambar, silahkan disesuaikan namanya sesuai dengan kebutuhan.
 - Jika terdapat file yang terkhusus untuk setiap riset, letakkan pada folder `public/pvd/[js]/[namariset]`. Contoh : `public/pvd/js/riset1`.
 
 ## Aturan Commit, Push dan Pull Request
@@ -92,7 +92,7 @@ Contoh : `pvd_riset1_hasilsp`
   - `Routing`
   - `Readme`
   - `Other`
-- Untuk commit, gunakan format `[tipeperubahan][spase][jenisperubahan] : [keterangan]`. Usahakan keterangan ditulis selengkap-lengkapnya. Contoh : `A Assets : Menambahkan file css landing page`
+- Untuk commit, gunakan format `[tipeperubahan][spasi][jenisperubahan] : [keterangan]`. Usahakan keterangan ditulis selengkap-lengkapnya. Contoh : `A Assets : Menambahkan file css landing page`
 - Lakukan commit untuk setiap perubahan file yang dilakukan dan 1 file percommit.
 - Sebelum melakukan push, pastikan terlebih dahulu bahwa file yang akan di push sudah di commit dan sudah di pull terlebih dahulu.
 
