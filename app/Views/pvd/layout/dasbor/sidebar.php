@@ -21,20 +21,20 @@
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('/') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Grafik</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('/') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
                 <span>Tabel</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('/') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
@@ -51,15 +51,23 @@
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 1</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Grafik</span>
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 2</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+                <i class="fa-solid fa-table"></i>
+                <span>Tabel</span>
+            </a>
+        </li>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>Peta Tematik</span>
             </a>
         </li>
 
@@ -72,18 +80,25 @@
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 1</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Grafik</span>
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 2</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+                <i class="fa-solid fa-table"></i>
+                <span>Tabel</span>
             </a>
         </li>
-
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>Peta Tematik</span>
+            </a>
+        </li>
         <hr class="sidebar-divider my-0">
 
         <li class="nav-item active">
@@ -93,15 +108,23 @@
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 1</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Grafik</span>
             </a>
         </li>
 
-        <li class="nav-item nav-item-sub">
-            <a class="nav-link " href="<?= base_url('/') ?>">
-                <span>Sub Menu 2</span>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
+                <i class="fa-solid fa-table"></i>
+                <span>Tabel</span>
+            </a>
+        </li>
+        <li class="nav-item nav-item-sub ">
+            <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>Peta Tematik</span>
             </a>
         </li>
 

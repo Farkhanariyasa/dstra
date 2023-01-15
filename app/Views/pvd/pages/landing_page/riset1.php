@@ -437,6 +437,12 @@
                     </div>
                     <div class="card mx-3 p-1 p-md-3 kgambar">
                         <div class="card-body kontener">
+                            <div class="overlay">
+                                <h1 class="text-center fw-bold">Judul</h1>
+                                <div class="d-grid gap-4 mx-auto ">
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -455,7 +461,7 @@
                             <div class="overlay">
                                 <h1 class="text-center fw-bold">Judul</h1>
                                 <div class="d-grid gap-4 mx-auto ">
-                                    <div id="map"></div>
+                                    <!-- <div id="map"></div> -->
                                 </div>
                             </div>
                         </div>

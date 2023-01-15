@@ -20,7 +20,7 @@
 
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--  -->
+    
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -38,7 +38,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
 
-    <link rel="stylesheet" href="<?= base_url('pvd/js/table2excel.js') ?>">
+    
 
     <!-- isotope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
@@ -55,13 +55,16 @@
 
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
+    <!-- export table -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="<?= base_url('pvd/js/table2excel.js') ?>">
 
     <!-- sankey -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
 
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/e0bb680df5.js" crossorigin="anonymous"></script>
 </head>
 
