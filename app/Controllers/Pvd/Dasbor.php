@@ -7,12 +7,14 @@ use App\Controllers\BaseController;
 use App\Models\Pvd\Riset1HasilSpModel;
 use App\Models\Pvd\Riset2HasilSpModel;
 use App\Models\Pvd\Riset3HasilSpModel;
+use App\Models\Pvd\Riset1HasilSp2Model;
 
 class Dasbor extends BaseController
 {
 
     // RISET 1
     protected $jumlahanggota;
+    protected $hasilsp2;
 
     // RISET 2
     protected $jeniskelamin;
@@ -27,6 +29,7 @@ class Dasbor extends BaseController
     {
         // // RISET 1
         $this->jumlahanggota = new Riset1HasilSpModel();
+        $this->hasilsp2 = new Riset1HasilSp2Model();
 
 
         // RISET 2
@@ -56,9 +59,51 @@ class Dasbor extends BaseController
 
                 ];
 
+                $jk = [
+                    "laki" => $this->hasilsp2->getJenisKelamin(1),
+                    "perempuan"=>$this->hasilsp2->getJenisKelamin(2)
+                ];
+
+                $b524 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata1(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata1(2),
+                ];
+
+                $b525 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata2(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata2(2),
+                ];
+
+                $b526 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata3(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata3(2),
+                ];
+
+                $b527 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata4(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata4(2),
+                ];
+
+                $b528 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata5(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata5(2),
+                ];
+                
+                $b529 = [
+                    "ya" => $this->hasilsp2->getMelakukanPerjalananWisata6(1),
+                    "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata6(2),
+                ];
+
                 $data = [
                     'judul' => $judul,
-                    'ja' => $ja
+                    'ja' => $ja,
+                    'jk' =>$jk,
+                    'b524' => $b524,
+                    'b525' => $b525,
+                    'b526' => $b526,
+                    'b527' => $b527,
+                    'b528' => $b528,
+                    'b529' => $b529,
                 ];
                 break;
 
