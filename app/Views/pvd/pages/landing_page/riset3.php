@@ -48,7 +48,17 @@
                 </div>
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in" data-aos-duration="1000">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p>
+                Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan 
+                berbagai kekayaan sumber daya alam dan keunikan budaya memiliki 
+                banyak potensi yang dapat dikembangkan terkait sektor pariwisata. 
+                Potensi tersebut meliputi : </p>
+                </p>1.Kemampuan dalam hal pembangunan destinasi pariwisata</p>
+                </p>2.Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</p>
+                </p>3.Pembangunan industri pariwisata</p>
+                </p>Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal 
+                tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor 
+                pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.</p>
             </div>
         </div>
     </section>
@@ -64,11 +74,13 @@
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </li>
+                    <li>Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri  pariwisata</li>
+                    <li>Menganalisis dinamika tenaga kerja di industri pariwisata.</li>
+                    <li>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</li>
+                    <li>Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.</li>
+
                 </ol>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+ 
             </div>
             <br><br><br>
         </div>
@@ -80,7 +92,7 @@
         <div class="container-fluid py-3 mt-5 mb-5">
             <div class="row konten">
                 <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class="headline text-center">Batasan Penelitian</h3>
+                    <h3 class="headline text-center">Manfaat Penelitian</h3>
                 </div>
             </div>
             <div class="fourth">
