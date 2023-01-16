@@ -135,15 +135,7 @@
           </div>
           <div class="row-8 ">
             <p class="card-text  text-left pdesclp">
-              Kota Batu sebagai salah satu kota wisata di Indonesia turut
-              merasakan dampak pandemi Covid-19, khususnya pada unit usaha
-              pariwisata. Pelaku dari unit usaha pariwisata belum memiliki
-              kecakapan dalam bidang teknis dalam hal penggunaan teknologi,
-              termasuk di dalamnya meliputi penerimaan dan pengadopsian TIK
-              di bidang pariwisata. Menurunnya jumlah kunjungan wisatawan
-              diikuti dengan peningkatan penggunaan internet pada masa pandemi
-              menjadi indikasi bahwa pemanfaatan internet serta TIK dalam
-              menunjang kegiatan pariwisata belum optimal.
+              Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari segi budaya. Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah kunjungan wisatawannya. Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya pandemi Covid-19. Ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan pariwisata. MPD (Mobile Positioning Data) dapat digunakan dalam mengumpulkan data sebagai pendekatan baru. Namun, pendekatan MPD sendiri masih memiliki kekurangan sehingga diperlukan alternatif pengumpulan data lain untuk melengkapi data wisnus yang belum mampu dihasilkan oleh pendekatan MPD, yaitu data perjalanan wisata di dalam kabupaten/kota. 
             </p>
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
