@@ -8,19 +8,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?= $judul; ?></title>
+    <title><?= $judul; ?> | Hasil PKL</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logoPKL.png') ?>">
+
+
     <!-- css -->
     <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/sidebar.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/bootstrap.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/riset1/style.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('pvd/CSS/fontawesome/fontawesome.min.css')?>">
-    
+    <link rel="stylesheet" href="<?= base_url('pvd/css/fontawesome/fontawesome.min.css') ?>">
+
+
 
 
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -38,7 +44,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
 
-    
+
 
     <!-- isotope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
@@ -48,7 +54,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    
+
 
     <!-- leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
