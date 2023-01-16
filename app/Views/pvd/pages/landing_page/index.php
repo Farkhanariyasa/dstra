@@ -179,15 +179,7 @@
           </div>
           <div class="row-8 ">
             <p class="card-text  text-left pdesclp">
-            Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan terkait sektor pariwisata. Potensi tersebut meliputi:
-            </p>
-            <ol>
-              <li>Kemampuan dalam hal pembangunan destinasi pariwisata,</li>
-              <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun,</li>
-              <li>Pembangunan industri pariwisata.</li>
-            </ol>
-            <p class="card-text  text-left pdesclp">
-            Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.
+            Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu penyumbang devisa terbesar di Indonesia. Untuk meningkatkan kontribusi pariwisata terhadap perekonomian Indonesia dapat dilakukan dengan meningkatkan jumlah dan kualitas tenaga kerja di sektor pariwisata. Sehingga riset ini bertujuan untuk menganalisis karakteristik tenaga kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi tenaga kerja di industri pariwisata untuk bekerja paruh waktu, menganalisis faktor-faktor yang memengaruhi kontrak kerja tenaga kerja di industri pariwisata, menganalisis dinamika tenaga kerja di industri pariwisata, menganalisis kualitas tenaga kerja di industri pariwisata, menganalisis tenaga kerja pariwisata menurut sadar wisata.
             </p>
           </div>
           <div class="row-2 bforce ">
