@@ -15,7 +15,7 @@
     <!-- css -->
     <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/bootstrap.css') ?>">
-
+    <link rel="stylesheet" href="<?= base_url('pvd/css/sidebar.css') ?>">
 
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
