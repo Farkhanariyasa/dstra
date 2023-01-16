@@ -8,7 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?= $judul; ?></title>
+    <title><?= $judul; ?> | Hasil PKL</title>
+
+     <!-- Favicon icon -->
+     <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logoPKL.png') ?>">
     <!-- css -->
     <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/bootstrap.css') ?>">
