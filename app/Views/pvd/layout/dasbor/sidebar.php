@@ -107,7 +107,7 @@
 
         <!-- Tentang Riset 2 -->
         <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('pvd/dasbor/riset4') ?>">
+            <a class="nav-link" href="<?= base_url('pvd/riset4/dasbor') ?>">
                 <i class=""></i>
                 <span>Riset 4</span>
             </a>
