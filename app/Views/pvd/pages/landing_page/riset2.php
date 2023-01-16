@@ -4,6 +4,7 @@
 
 <section id="hero" class="hero d-flex align-items-center">
 
+    <!-- Judul Landing Page -->
     <div class="container">
         <div class="row">
             <div class="col-lg-7 d-flex flex-column justify-content-center">
@@ -11,7 +12,7 @@
                 <h5 data-aos="fade-up" data-aos-delay="400" class="descRiset4">
                     Pilot Survei Wisatawan Nusantara
                 </h5>
-                <p data-aos="fade-up" data-aos-delay="400">
+                <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
                     Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari segi budaya. Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah kunjungan wisatawannya. Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya pandemi Covid-19. Ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan pariwisata. <i>Mobile Positioning Data</i> (MPD) dapat digunakan dalam mengumpulkan data sebagai pendekatan baru. Namun, pendekatan MPD sendiri masih memiliki kekurangan sehingga diperlukan alternatif pengumpulan data lain untuk melengkapi data wisnus yang belum mampu dihasilkan oleh pendekatan MPD, yaitu data perjalanan wisata di dalam kabupaten/kota.  
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
@@ -29,6 +30,7 @@
         </div>
     </div>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- Latar Belakang -->
     <section id="firstSec" class="offset-header">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
