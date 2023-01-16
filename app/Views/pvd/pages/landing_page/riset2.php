@@ -12,16 +12,7 @@
                     Pilot Survei Wisatawan Nusantara
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400">
-                    Kota Batu sebagai salah satu kota wisata di Indonesia
-                    turut merasakan dampak pandemi Covid-19, khususnya
-                    pada unit usaha pariwisata. Pelaku dari unit usaha
-                    pariwisata belum memiliki kecakapan dalam bidang teknis
-                    dalam hal penggunaan teknologi, termasuk di dalamnya
-                    meliputi penerimaan dan pengadopsian TIK di bidang
-                    pariwisata. Menurunnya jumlah kunjungan wisatawan
-                    diikuti dengan peningkatan penggunaan internet pada
-                    masa pandemi menjadi indikasi bahwa pemanfaatan internet
-                    serta TIK dalam menunjang kegiatan pariwisata belum optimal.
+                    Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari segi budaya. Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah kunjungan wisatawannya. Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya pandemi Covid-19. Ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan pariwisata. MPD (Mobile Positioning Data) dapat digunakan dalam mengumpulkan data sebagai pendekatan baru. Namun, pendekatan MPD sendiri masih memiliki kekurangan sehingga diperlukan alternatif pengumpulan data lain untuk melengkapi data wisnus yang belum mampu dihasilkan oleh pendekatan MPD, yaitu data perjalanan wisata di dalam kabupaten/kota.  
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
@@ -48,7 +39,60 @@
                 </div>
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in" data-aos-duration="1000">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p class="text-justify">
+                    Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari segi budaya. 
+                    Hal ini didukung oleh laporan Travel & Tourism Development Index 2021 World Economic Forum (WEF) edisi 
+                    Mei 2022 yang menyatakan bahwa industri pariwisata tanah air menempati peringkat ke-32 dari total 117 
+                    negara di dunia dan peringkat ke-8 di Asia Pasifik. Sejalan dengan yang dikemukakan oleh Pendit (2006) bahwa 
+                    kehadiran pariwisata dapat mempercepat pertumbuhan ekonomi, penyediaan lapangan pekerjaan, meningkatkan 
+                    penghasilan, meningkatkan standar hidup, serta merangsang sektor-sektor produktif lainnya. Menurut Archer 
+                    (2000), jumlah pengeluaran wisatawan dapat meningkatkan PDRB melalui sektor perdagangan, hotel, dan restoran. 
+                    Potensi dari sektor pariwisata dapat juga dilihat performanya dari nilai kontribusi Tourism Direct Gross Domestic 
+                    Product (TDGDP) Indonesia.
+                </p>
+                <p class="text-justify">
+                    Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah 
+                    kunjungan wisatawannya. Wisatawan adalah seseorang yang melakukan perjalanan untuk mengunjungi suatu lokasi yang 
+                    bukan tempat tinggal kesehariannya dengan periode dan tujuan tertentu, selain untuk memperoleh penghasilan di 
+                    tempat dikunjungi (BPS, 2022). Di Indonesia, wisatawan dapat dikelompokkan menjadi wisatawan nusantara (wisnus) 
+                    dan wisatawan mancanegara (wisman). Wisnus menjadi penyumbang proporsi wisatawan terbanyak untuk setiap tahunnya (BPS, 2022). 
+                    Perkembangan jumlah perjalanan wisata wisnus diduga memiliki hubungan yang kuat dengan kontribusi sektor pariwisata (TDGDP) terhadap PDB.
+                </p>
+                <p class="text-justify">
+                    Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya 
+                    pandemi Covid-19. Dengan adanya pandemi, pemerintah terpaksa mengeluarkan kebijakan pembatasan kegiatan 
+                    masyarakat guna mencegah semakin luasnya penyebaran virus ini. Kebijakan pembatasan dan adanya kekhawatiran 
+                    masyarakat untuk bepergian berdampak pada menurunnya volume arus perlintasan manusia dan volume penerbangan 
+                    secara drastis sehingga memberikan hantaman besar bagi sektor pariwisata nasional (Drajat, 2021). Selain itu, 
+                    konsumsi rumah tangga sebagai sisi pengeluaran rumah tangga yang merupakan pendorong utama pariwisata juga 
+                    mengalami kontraksi sehingga jumlah kunjungan wisata ikut mengalami penurunan (Rusiawan, 2021). Oleh karena itu, 
+                    ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan 
+                    pariwisata. Dari sisi wisatawan atau pengunjung, informasi dibutuhkan untuk merencanakan perjalanan dari tempat 
+                    tinggal atau asal hingga ke tempat tujuan dan perencanaan selama berada di sana hingga kembali ke tempat asal atau 
+                    tempat tinggal (Manongga et al., 2010). Data dan informasi karakteristik wisnus dan kegiatan perjalanan pariwisata 
+                    harus dikumpulkan secara lengkap dan berkesinambungan.
+                </p>
+                <p class="text-justify">
+                    Untuk memenuhi kebutuhan tersebut, Badan Pusat Statistik (BPS) telah melakukan kegiatan 
+                    pendataan wisnus sejak tahun 1981 (BPS, 2020). Dalam perkembangannya, kegiatan pendataan 
+                    ini mengalami beberapa perubahan metode. Pada tahun 1981 yang merupakan awal pelaksanaannya, 
+                    pendataan wisnus dilakukan pada kegiatan Survei Sosial Ekonomi Nasional (Susenas) sebagai salah 
+                    satu modul pada kegiatan tersebut. Namun, adanya urgensi kebutuhan data wisnus yang tidak cukup 
+                    jika hanya mengandalkan Susenas KOR, BPS melakukan kegiatan Kajian Data Pariwisata Nusantara bersama 
+                    dengan Kementerian Pariwisata untuk melengkapi pendataan Susenas KOR pada tahun 2016 dan 2017 (BPS, 2020).  
+                </p>
+                <p class="text-justify">
+                    Penggunaan MPD sebagai pendekatan baru dalam mengumpulkan data wisnus masih memiliki beberapa kelemahan. 
+                    Salah satu kelemahannya adalah tidak mampu mendapatkan karakteristik rinci dari wisnus (BPS, 2022). Hal ini 
+                    diperkuat juga dengan sulitnya mengestimasi perjalanan wisata di dalam kabupaten/kota meskipun level penyajian 
+                    data sudah mampu pada tingkat kabupaten/kota. Apabila data wisata dalam kabupaten/kota ini tidak tertangkap, 
+                    kekurangan data wisatawan akan terjadi. Hal ini didukung oleh temuan Richards (2017) bahwa masyarakat sekarang 
+                    ini cenderung bekerja di suatu bagian kota dan akan mengunjungi bagian lain kota dengan rasa ingin tahu dan 
+                    penjelajahan yang sama seperti saat berlibur di tempat lain. Selain itu, kekurangan data wisnus dalam kabupaten/kota 
+                    akan sangat merugikan mengingat pengembangan wisata dalam kabupaten/kota menjadi hal terdekat yang dapat dilakukan 
+                    guna memulihkan sektor pariwisata.  Oleh karena itu, diperlukan alternatif pengumpulan data lain untuk melengkapi 
+                    data wisnus yang belum mampu dihasilkan oleh pendekatan MPD, yaitu data perjalanan wisata di dalam kabupaten/kota.  
+                </p>
             </div>
         </div>
     </section>
@@ -64,11 +108,11 @@
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </li>
+                    <li>Mendapatkan estimasi banyaknya wisatawan dan jumlah perjalanan wisata dalam kota di Kota Malang.</li>
+                    <li>Mendapatkan estimasi rata-rata lama perjalanan dan rata-rata lama kunjungan wisata dalam kota yang dilakukan wisatawan Kota Malang.</li>
+                    <li>Mendapatkan gambaran karakteristik wisatawan nusantara dalam Kota Malang.</li>
+                    <li>Mengetahui faktor-faktor yang memengaruhi jumlah perjalanan wisata wisatawan nusantara dalam kabupaten/kota.</li>
                 </ol>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
             </div>
             <br><br><br>
         </div>
@@ -95,32 +139,24 @@
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Place</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p class="card-title text-uppercase"><strong>Unit Analisis</strong></p>
+                                <p class="card-text">Unit analisis yang digunakan pada penelitian ini adalah individu yang melakukan perjalanan wisata dalam kabupaten/kota.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Product</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="card-title text-uppercase"><strong>Wilayah Penelitian</strong></p>
+                                <p class="card-text">Penelitian ini berfokus pada kegiatan wisata yang terjadi di Kota Malang, Jawa Timur.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Scale</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                        <div class="card text-center third5 shadow box">
-                            <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Technology</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="card-title text-uppercase"><strong>Referensi Waktu Penelitian</strong></p>
+                                <p class="card-text">Referensi waktu yang digunakan dalam penelitian ini adalah triwulan terakhir pada tahun 2022.</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +229,7 @@
                         <div class="card text-center third5 shadow box pt-4">
                             <div class="card-body p-3">
                                 <h6 class="card-title text-uppercase"><strong>Populasi</strong></h6>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p class="card-text text-center">Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022.</p>
                             </div>
                         </div>
                     </div>
@@ -201,7 +237,7 @@
                         <div class="card text-center third5 shadow box pt-4">
                             <div class="card-body p-3">
                                 <h6 class="card-title text-uppercase"><strong>Populasi Target</strong></h6>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="card-text text-center">Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota dan telah kembali pada Triwulan IV  tahun 2022.</p>
                             </div>
                         </div>
                     </div>
@@ -209,7 +245,7 @@
                         <div class="card text-center third5 shadow box pt-4">
                             <div class="card-body p-3">
                                 <h6 class="card-title text-uppercase"><strong>Unit Analisis</strong></h6>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="card-text text-center">Anggota rumah tangga di Kota Malang yang pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022.</p>
                             </div>
                         </div>
                     </div>
