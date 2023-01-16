@@ -33,14 +33,14 @@
         </div>
         <div class="row-6 ">
           <div class="row">
-            <p class="fs-6 text-center logoslogantop">
+            <span class="fs-6 text-center logoslogantop">
               Bersinergi dengan Data,
-            </p>
+            </span>
           </div>
           <div class="row ">
-            <p class="fs-6 text-center logosloganbot">
+            <span class="fs-6 text-center logosloganbot">
               Majukan Pariwisata Nusantara
-            </p>
+            </span>
           </div>
         </div>
       </div>
@@ -174,20 +174,20 @@
         <div class="col-lg-7 col-md-8 " data-aos="zoom-out" data-aos-delay="200">
           <div class="row-2 d-flex flex-row ">
             <h3 data-aos="fade-up">
-              Tourism Employment
+            Tenaga Kerja di Industri Pariwisata
             </h3>
           </div>
           <div class="row-8 ">
             <p class="card-text  text-left pdesclp">
-              Kota Batu sebagai salah satu kota wisata di Indonesia turut
-              merasakan dampak pandemi Covid-19, khususnya pada unit usaha
-              pariwisata. Pelaku dari unit usaha pariwisata belum memiliki
-              kecakapan dalam bidang teknis dalam hal penggunaan teknologi,
-              termasuk di dalamnya meliputi penerimaan dan pengadopsian TIK
-              di bidang pariwisata. Menurunnya jumlah kunjungan wisatawan
-              diikuti dengan peningkatan penggunaan internet pada masa pandemi
-              menjadi indikasi bahwa pemanfaatan internet serta TIK dalam
-              menunjang kegiatan pariwisata belum optimal.
+            Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan terkait sektor pariwisata. Potensi tersebut meliputi:
+            </p>
+            <ol>
+              <li>Kemampuan dalam hal pembangunan destinasi pariwisata,</li>
+              <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun,</li>
+              <li>Pembangunan industri pariwisata.</li>
+            </ol>
+            <p class="card-text  text-left pdesclp">
+            Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.
             </p>
           </div>
           <div class="row-2 bforce ">
