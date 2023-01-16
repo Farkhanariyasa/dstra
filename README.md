@@ -6,6 +6,7 @@ Proyek ini menggunakan framework CodeIgniter 4 dan berlisensi MIT.
 Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika melakukan perubahan mayor seperti merubah struktur basis data.
 
 - 15-01-2023 : Pembuatan Awal Proyek Dasbor Hasil PKL 62
+- 17-01-2023 : Perubahan URL yang awalnya `pvd` menjadi `hasil-pkl`
 
 ## Cara Instalasi
 
