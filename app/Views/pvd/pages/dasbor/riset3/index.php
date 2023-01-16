@@ -22,7 +22,7 @@
       <?php include('dummy_riset3.php') ?>
     </div>
   </div>
-
+  <?php var_dump($pt); ?>
 
 </section>
 <script>
@@ -63,14 +63,15 @@
 
 <!-- const for chart -->
 <script>
-   
     const datajenisindustri = <?= json_encode($ji);?>;
+    const datapendidikantertinggi = <?= json_encode($pt);?>;
 </script>
 
 <!-- chart -->
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_bar.js') ?>"></script>
+<!-- <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_bar.js') ?>"></script> -->
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_doughnut.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
 
 <!-- <script src="<?= base_url('pvd/js/riset3/bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/pie.js') ?>"></script>
