@@ -214,9 +214,7 @@
         <div class="col-lg-7 col-md-3">
           <div class="row-2 d-flex  flex-row justify-content-center ">
             <h3 data-aos="fade-up">
-              Kesiapan Usaha Pariwisata Kota Batu dalam
-              Mewujudkan Smart Tourism Destination
-              Pasca Pandemi Covid-19
+              Pemanfaatan TIK pada Sektor Pariwisata dan Ekonomi Kreatif
             </h3>
           </div>
           <div class="row-8 ">
