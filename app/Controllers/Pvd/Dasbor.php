@@ -20,7 +20,7 @@ class Dasbor extends BaseController
 
     // RISET 3
     protected $jenisindustri;
-
+    protected $pendidikantertinggi;
     // Riset 4
 
     public function __construct()
@@ -35,6 +35,7 @@ class Dasbor extends BaseController
 
         // RISET 3
         $this->jenisindustri = new Riset3HasilSpModel();
+        $this->pendidikantertinggi = new Riset3HasilSpModel();
     }
 
     public function index($riset)
@@ -90,6 +91,7 @@ class Dasbor extends BaseController
 
             case 'riset3':
                 $judul = 'Dasbor Riset 3';
+                // jenis usaha
                 $ji = [
                     'ji1'=> $this->jenisindustri->getByJenisIndustri("1"),
                     'ji2'=> $this->jenisindustri->getByJenisIndustri("2"),
@@ -103,9 +105,25 @@ class Dasbor extends BaseController
                     'ji10'=> $this->jenisindustri->getByJenisIndustri("10"),
                     'ji11'=> $this->jenisindustri->getByJenisIndustri("11")
                 ];
+
+                // pendidikan tertinggi
+                $pt =[
+                    'pt1'=> $this->pendidikantertinggi->getByPendidikanTertinggi("1"),
+                    'pt2'=> $this->pendidikantertinggi->getByPendidikanTertinggi("2"),
+                    'pt3'=> $this->pendidikantertinggi->getByPendidikanTertinggi("3"),
+                    'pt4'=> $this->pendidikantertinggi->getByPendidikanTertinggi("4"),
+                    'pt5'=> $this->pendidikantertinggi->getByPendidikanTertinggi("5"),
+                    'pt6'=> $this->pendidikantertinggi->getByPendidikanTertinggi("6"),
+                    'pt7'=> $this->pendidikantertinggi->getByPendidikanTertinggi("7"),
+                    'pt8'=> $this->pendidikantertinggi->getByPendidikanTertinggi("8"),
+                    'pt9'=> $this->pendidikantertinggi->getByPendidikanTertinggi("9"),
+
+                ];
+
                 $data = [
                     'judul' => $judul,
-                    'ji' =>$ji
+                    'ji' =>$ji,
+                    'pt' => $pt
                 ];
                 break;
 
