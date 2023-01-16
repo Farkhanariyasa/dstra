@@ -29,7 +29,20 @@
         datajenisindustri.ji9,
         datajenisindustri.ji10,
         datajenisindustri.ji11,],
-    borderWidth: 1
+    borderWidth: 1,
+    backgroundColor: [
+      "#ffab00",
+      "#ffbc33",
+      "#ffdd99",
+      "#ffeecc",
+      "#506396",
+      "#7832ab",
+      "#96a1c0",
+      "#dce0ea",
+      "#4b395f",
+      "#6f617f",
+      "#93889f"
+  ],
      }]
    },
     options:{
@@ -39,7 +52,19 @@
         tooltip:{
           enabled: true
         },
+        title: {
+          display: true,
+          text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
+          font: {
+              size: 20
+          }
+        },
+        legend:{
+          display: true,
+          position: 'bottom',
+        },
         datalabels:{
+          color :'black',
           formatter:(value,context)=>{
             const datapoints =context.chart.data.datasets[0].data;
             function totalSum(total,datapoint){
@@ -51,7 +76,7 @@
             return `${persenvalue}%`
           }
         }
-      }
+      },
     }, plugins: [ChartDataLabels]
  });
 
@@ -91,7 +116,7 @@
              'jasa pariwisata lainnya'];
              // console.log(batang.data.datasets[0].data)
              console.log('jenisindustri');
- 
+             
              pie.update();
      } else {
              pie.data.datasets[0].data = 
