@@ -8,6 +8,14 @@
                     <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="fa-solid fa-download"></i>
                     </button>
+                    <div class="selectBox">
+                        <form action="">
+                            <select id="forBarChart">
+                                <option value="a">Jenis Industri</option>
+                                <option value="b">Pendidikan Tertinggi</option>
+                            </select>
+                        </form>
+                    </div>
                 </div>
                 <canvas id="ji_batang"></canvas>
             </div>
@@ -77,6 +85,7 @@
     <!-- <div id="map" class="mt-4"></div>             -->
 </div>
 
+<?php var_dump($ji) ?>
 
 <!-- Modal Riset 3  -->
 <?php include('modal_riset3.php') ?>
