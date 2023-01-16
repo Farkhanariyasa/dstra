@@ -1,6 +1,6 @@
 const hasil1 = document.getElementById('hasil1');
 
-const batang = new Chart(hasil1, {
+const pie = new Chart(hasil1, {
     type: 'doughnut',
     data: {
         labels: [
@@ -11,7 +11,7 @@ const batang = new Chart(hasil1, {
         ],
 
         datasets: [{
-            label: 'Population',
+            label: 'Unit Usaha',
             data: [
                 unitUsahaTIK.uu1,
                 unitUsahaTIK.uu2,
