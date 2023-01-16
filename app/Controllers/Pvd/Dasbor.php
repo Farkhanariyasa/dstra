@@ -4,13 +4,15 @@ namespace App\Controllers\Pvd;
 
 use App\Controllers\BaseController;
 
+use App\Models\Pvd\Riset1HasilSpModel;
 use App\Models\Pvd\Riset2HasilSpModel;
 use App\Models\Pvd\Riset3HasilSpModel;
 
 class Dasbor extends BaseController
 {
 
-    // Riset 1
+    // RISET 1
+    protected $jumlahanggota;
 
     // RISET 2
     protected $jeniskelamin;
@@ -24,10 +26,8 @@ class Dasbor extends BaseController
     public function __construct()
     {
         // // RISET 1
-        // $this->datariset1 = new Riset1Model();
-        // $this->data_riset1_hasil1 = new Riset1Hasil1Model();
-        // $this->data_riset1_hasil3 = new Riset1Hasil3Model();
-        // $this->data_riset2_hasil1 = new Riset2Hasil1Model();
+        $this->jumlahanggota = new Riset1HasilSpModel();
+
 
         // RISET 2
         $this->jeniskelamin = new Riset2HasilSpModel();
@@ -44,8 +44,20 @@ class Dasbor extends BaseController
             case 'riset1':
                 
                 $judul = 'Dasbor Riset 1';
+
+                $ja = [
+                    "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
+                    "ja1" => $this->jumlahanggota->getByJumlahAnggota(1),
+                    "ja2" => $this->jumlahanggota->getByJumlahAnggota(2),
+                    "ja3" => $this->jumlahanggota->getByJumlahAnggota(3),
+                    "ja4" => $this->jumlahanggota->getByJumlahAnggota(4),
+                    "ja5" => $this->jumlahanggota->getByJumlahAnggota(5),
+
+                ];
+
                 $data = [
                     'judul' => $judul,
+                    'ja' => $ja
                 ];
                 break;
 
