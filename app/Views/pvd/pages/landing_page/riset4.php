@@ -13,16 +13,20 @@
                     dalam Menerapkan Smart Tourism Destination
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400">
-                    Kota Batu sebagai salah satu kota wisata di Indonesia
-                    turut merasakan dampak pandemi Covid-19, khususnya
-                    pada unit usaha pariwisata. Pelaku dari unit usaha
-                    pariwisata belum memiliki kecakapan dalam bidang teknis
-                    dalam hal penggunaan teknologi, termasuk di dalamnya
-                    meliputi penerimaan dan pengadopsian TIK di bidang
-                    pariwisata. Menurunnya jumlah kunjungan wisatawan
-                    diikuti dengan peningkatan penggunaan internet pada
-                    masa pandemi menjadi indikasi bahwa pemanfaatan internet
-                    serta TIK dalam menunjang kegiatan pariwisata belum optimal.
+                    Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu. 
+                    Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, 
+                    penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan 
+                    <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i> 
+                    atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data 
+                    yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk 
+                    bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB, 
+                    kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan 
+                    jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 
+                    dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial 
+                    bagi perekonomian Kota Batu sehingga perlu dilakukan upaya 
+                    pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu 
+                    dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi 
+                    melalui penerapan <i>Smart Tourism Destination</i>.
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
@@ -153,32 +157,33 @@
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Place</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p class="card-title text-uppercase"><strong>Wilayah Penelitian</strong></p>
+                                <p class="card-text text-justify">
+                                    Analisis kesiapan dilakukan pada unit usaha pariwisata di tiga kecamatan Kota 
+                                    Batu yang meliputi Kecamatan Batu, Bumiaji, dan Junrejo.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Product</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="card-title text-uppercase"><strong>Usaha Pariwisata</strong></p>
+                                <p class="card-text text-justify">
+                                    Penelitian ini dibatasi pada tiga usaha pariwisata antara lain Jasa Transportasi 
+                                    Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="card text-center third5 shadow box">
                             <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Scale</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                        <div class="card text-center third5 shadow box">
-                            <div class="card-body p-3">
-                                <p class="card-title text-uppercase"><strong>Technology</strong></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="card-title text-uppercase"><strong>Skala Usaha</strong></p>
+                                <p class="card-text text-justify">
+                                    Penelitian ini berfokus pada unit usaha pariwisata dengan mengambil dua kategori skala 
+                                    usaha, yaitu skala mikro dan skala kecil.
+                                </p>
                             </div>
                         </div>
                     </div>
