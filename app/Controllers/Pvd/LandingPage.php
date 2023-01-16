@@ -20,16 +20,16 @@ class LandingPage extends BaseController
         $judul = '';
         switch ($riset) {
             case 'riset1':
-                $judul = 'Hasil PKL Riset 1';
+                $judul = 'Riset 1';
                 break;
             case 'riset2':
-                $judul = 'Hasil PKL Riset 2';
+                $judul = 'Riset 2';
                 break;
             case 'riset3':
-                $judul = 'Hasil PKL Riset 3';
+                $judul = 'Riset 3';
                 break;
             case 'riset4':
-                $judul = 'Hasil PKL Riset 4';
+                $judul = 'Riset 4';
                 break;
         }
         $data = [

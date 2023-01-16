@@ -2,14 +2,14 @@
     <ul class="navbar-nav bg-sidebar sidebar sidebar-dark anchorover" id="accordionSidebar">
 
         <a class="sidebar-pkl d-flex align-items-center justify-content-center" href="<?= base_url('/') ?>">
-            <div class="mx-3">PKL Polstat STIS</div>
+            <div class="mx-3">Hasil PKL 62</div>
         </a>
 
         <hr class="sidebar-divider my-0">
 
         <li class="nav-item active">
-            <a class="nav-link " href="<?= base_url('pvd/riset1') ?>">
-                <span>Awal</span>
+            <a class="nav-link " href="<?= base_url('pvd/beranda') ?>">
+                <span>Beranda</span>
             </a>
         </li>
 
@@ -125,14 +125,6 @@
             <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
-            </a>
-        </li>
-
-        <hr class="sidebar-divider my-0">
-        <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('pvd/beranda') ?>">
-                <i class=""></i>
-                <span>Beranda</span>
             </a>
         </li>
         <hr class="sidebar-divider my-0">
