@@ -28,7 +28,7 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-           <?php include('dummy_riset3.php') ?>
+           <?php include('dummy_riset1.php') ?>
         </div>
 </section>
 
