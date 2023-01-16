@@ -29,7 +29,10 @@ const batang =new Chart(ctx, {
                 datajenisindustri.ji10,
                 datajenisindustri.ji11,
             ],
-            borderWidth: 1
+            borderWidth: 1,
+            backgroundColor: [
+                "#4b395f"
+            ],
         }]
     },
     options: {
@@ -38,6 +41,15 @@ const batang =new Chart(ctx, {
         beginAtZero: true
         }
     },
+    plugins:{
+        title: {
+            display: true,
+            text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
+            font: {
+                size: 20
+            }
+          }
+        },
     maintainAspectRatio: false
     }
 });
