@@ -13,24 +13,24 @@
                     dalam Menerapkan Smart Tourism Destination
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu. 
-                    Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, 
-                    penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan 
-                    <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i> 
-                    atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data 
-                    yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk 
-                    bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB, 
-                    kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan 
-                    jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 
-                    dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial 
-                    bagi perekonomian Kota Batu sehingga perlu dilakukan upaya 
-                    pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu 
-                    dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi 
+                    Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu.
+                    Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata,
+                    penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan
+                    <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i>
+                    atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data
+                    yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk
+                    bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB,
+                    kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan
+                    jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19
+                    dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial
+                    bagi perekonomian Kota Batu sehingga perlu dilakukan upaya
+                    pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu
+                    dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
                     melalui penerapan <i>Smart Tourism Destination</i>.
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="<?= base_url('pvd/riset4/dasbor') ?>" class="tombol btn-for">
+                        <a href="<?= base_url('hasil-pkl/riset4/dasbor') ?>" class="tombol btn-for">
                             <span>Hasil PKL</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>

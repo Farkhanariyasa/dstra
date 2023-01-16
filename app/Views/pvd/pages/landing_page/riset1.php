@@ -22,7 +22,7 @@
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="<?= base_url('pvd/riset1/dasbor') ?>" class="tombol btn-for">
+                        <a href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for">
                             <span>Hasil PKL</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
