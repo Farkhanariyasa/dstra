@@ -9,7 +9,7 @@
 
         <li class="nav-item active">
             <a class="nav-link " href="<?= base_url('pvd/beranda') ?>">
-                <span>Home</span>
+                <span>Beranda</span>
             </a>
         </li>
 
@@ -17,27 +17,27 @@
         <li class="nav-item active">
             <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
 
-                <span>Hasil Kajian</span>
+                <span>Riset 1</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
-                <span>Analisis</span>
+                <span>Grafik</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
-                <span>Submenu</span>
+                <span>Tabel</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
-                <span>Submenu</span>
+                <span>Peta Tematik</span>
             </a>
         </li>
 
@@ -48,11 +48,11 @@
         <li class="nav-item active">
             <a class="nav-link" href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class=""></i>
-                <span>Peta Tematik</span>
+                <span>Riset 2</span>
             </a>
         </li>
 
-        <!-- <li class="nav-item nav-item-sub ">
+        <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Grafik</span>
@@ -70,7 +70,7 @@
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
-        </li> -->
+        </li>
 
         <hr class="sidebar-divider my-0">
 
@@ -78,27 +78,27 @@
         <li class="nav-item active">
             <a class="nav-link" href="<?= base_url('pvd/riset3/dasbor') ?>">
                 <i class=""></i>
-                <span>Tabel Dinamis</span>
+                <span>Riset 3</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
-                <span>Submenu</span>
+                <span>Tabel</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
-                <span>Submenu</span>
+                <span>Grafik</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
-                <span>Submenu</span>
+                <span>Peta Tematik</span>
             </a>
         </li>
         <hr class="sidebar-divider my-0">
@@ -107,11 +107,11 @@
         <li class="nav-item active">
             <a class="nav-link" href="<?= base_url('pvd/riset4/dasbor') ?>">
                 <i class=""></i>
-                <span>Tentang Riset 2</span>
+                <span>Riset 4</span>
             </a>
         </li>
 
-        <!-- <li class="nav-item nav-item-sub ">
+        <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Grafik</span>
@@ -129,7 +129,7 @@
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
-        </li> -->
+        </li>
         <hr class="sidebar-divider my-0">
 
     </ul>
