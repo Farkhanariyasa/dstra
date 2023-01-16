@@ -15,27 +15,27 @@
 
         <!-- Hasil Kajian -->
         <li class="nav-item active">
-            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
 
                 <span>Riset 1</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Grafik</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
                 <span>Tabel</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
