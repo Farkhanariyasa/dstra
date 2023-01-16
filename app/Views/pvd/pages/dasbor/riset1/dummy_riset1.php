@@ -82,21 +82,15 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php
-                                $i = 1;
-                                foreach ($datamhs as $v) :
-                                ?>
+                                
                                     <tr>
-                                        <th scope="row"><?php echo $i; ?></th>
-                                        <td><?php echo $v["nama"]; ?></td>
-                                        <td><?php echo $v["jeniskelamin"]; ?></td>
-                                        <td><?php echo $v["jurusan"]; ?></td>
-                                        <td><?php echo $v["tingkat"]; ?></td>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><</td>
                                     </tr>
-                                <?php
-                                    $i++;
-                                endforeach;
-                                ?>
+                                
                             </tbody>
                         </table>
                     </div>
