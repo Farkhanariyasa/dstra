@@ -9,10 +9,14 @@
     <div class="row">
       <div class="col-lg-7 col-md-6  d-flex flex-column justify-content-center">
         <h1 data-aos="fade-up">Praktik Kerja Lapangan</h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">Politeknik Statistika STIS T.A 2022/2023</h2><br><br>
+        <h2 data-aos="fade-up" data-aos-delay="400">Politeknik Statistika STIS TA 2022/2023</h2><br><br>
         <p data-aos="fade-up" data-aos-delay="400">
-          "Praktik Kerja Lapangan Mahasiswa Tingkat 3 Politeknik Statistika STIS <strong> T.A. 2022/2023</strong> diadakan di 10 Kabupaten/Kota terpilih pada Provinsi Jawa Timur.
-          PKL tahun ini mengambil tema <strong><i>Pariwisata</i></strong> (Bersinergi Dengan Data, Majukan Pariwisata Nusantara)"
+          Praktik Kerja Lapangan Mahasiswa Tingkat &#8546; Politeknik Statistika STIS 
+          <strong> TA 2022/2023</strong> diadakan di empat Kabupaten/Kota terpilih di 
+          Provinsi Jawa Timur, yaitu <strong>Kabupaten Malang</strong>, <strong>Kota 
+          Batu</strong>, <strong>Kota Malang</strong>, dan <strong>Kota Surabaya</strong>.
+          PKL tahun ini mengambil tema <strong>Pariwisata</strong> dengan slogan 
+          "<i>Bersinergi Dengan Data, Majukan Pariwisata Nusantara</i>".
         </p>
         <div data-aos="fade-up" data-aos-delay="200">
           <div class="text-center text-lg-start mt-5">
@@ -219,15 +223,20 @@
           </div>
           <div class="row-8 ">
             <p class="card-text  text-left pdesclp">
-              Kota Batu sebagai salah satu kota wisata di Indonesia turut
-              merasakan dampak pandemi Covid-19, khususnya pada unit usaha
-              pariwisata. Pelaku dari unit usaha pariwisata belum memiliki
-              kecakapan dalam bidang teknis dalam hal penggunaan teknologi,
-              termasuk di dalamnya meliputi penerimaan dan pengadopsian TIK
-              di bidang pariwisata. Menurunnya jumlah kunjungan wisatawan
-              diikuti dengan peningkatan penggunaan internet pada masa pandemi
-              menjadi indikasi bahwa pemanfaatan internet serta TIK dalam
-              menunjang kegiatan pariwisata belum optimal.
+            Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu. 
+            Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, 
+            penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan 
+            <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i> 
+            atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data 
+            yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk 
+            bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB, 
+            kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan 
+            jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 
+            dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial 
+            bagi perekonomian Kota Batu sehingga perlu dilakukan upaya 
+            pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu 
+            dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi 
+            melalui penerapan <i>Smart Tourism Destination</i>.
             </p>
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
