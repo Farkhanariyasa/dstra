@@ -2,9 +2,15 @@
 
 <?= $this->section('content'); ?>
 
+
+
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" >
-    <div class="judulriset3">riset 3</div>
+    <br><br>
+      <header class="section-header">
+        <p>Tenaga Kerja di Industri Pariwisata</p>
+      </header>
+    <hr class="hrjudul">
 
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center" >
@@ -22,7 +28,7 @@
       <?php include('dummy_riset3.php') ?>
     </div>
   </div>
-  <?php var_dump($pt); ?>
+  
 
 </section>
 <script>
