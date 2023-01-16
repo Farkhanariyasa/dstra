@@ -15,7 +15,7 @@ const doughnut=new Chart(ctx5, {
             'jasa pariwisata lainnya'
           ],
         datasets: [{
-            label: 'Pendidikan Tertinggi',
+            label: 'Jenis Industri',
             data: [   
                datajenisindustri.ji1,
                datajenisindustri.ji2,
@@ -29,7 +29,20 @@ const doughnut=new Chart(ctx5, {
                datajenisindustri.ji10,
                datajenisindustri.ji11,
            ],
-            borderWidth: 1
+            borderWidth: 1,
+            backgroundColor: [
+                "#ffab00",
+                "#ffbc33",
+                "#ffdd99",
+                "#ffeecc",
+                "#506396",
+                "#7832ab",
+                "#96a1c0",
+                "#dce0ea",
+                "#4b395f",
+                "#6f617f",
+                "#93889f"
+            ],
         }]
   },
   options:{
@@ -39,7 +52,19 @@ const doughnut=new Chart(ctx5, {
       tooltip:{
         enabled: true
       },
+      title: {
+        display: true,
+        text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
+        font: {
+            size: 20
+        }
+      },
+      legend:{
+        display: true,
+        position: 'bottom',
+      },
       datalabels:{
+        color: "black",
         formatter:(value,context)=>{
           const datapoints =context.chart.data.datasets[0].data;
           function totalSum(total,datapoint){
@@ -94,7 +119,7 @@ const doughnutChart = document.getElementById('forDoughnutChart');
              console.log('jenisindustri');
  
              doughnut.update();
-     } else {
+     } if (doughnutChart.value =='b'){
              doughnut.data.datasets[0].data = 
              [   
                 datapendidikantertinggi.pt1,
@@ -121,5 +146,19 @@ const doughnutChart = document.getElementById('forDoughnutChart');
              console.log('pendidikan tertinggi');
  
              doughnut.update();
+     } if(doughnutChart.value =='c'){
+      doughnut.data.datasets[0].data = 
+             [   
+                datajeniskelamin_riset3.jk_11,
+                datajeniskelamin_riset3.jk_12
+             ];
+             doughnut.data.labels = ['Laki-laki',
+             'Perempuan'
+             ];
+             // console.log(doughnut.data.datasets[0].data)
+             console.log('Jenis Kelamin');
+ 
+             doughnut.update();
+
      }
  }
