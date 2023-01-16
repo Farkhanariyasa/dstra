@@ -43,7 +43,7 @@ class Dasbor extends BaseController
         switch ($riset) {
             case 'riset1':
                 
-                $judul = 'Riset 1';
+                $judul = 'Dasbor Riset 1';
                 $data = [
                     'judul' => $judul,
                 ];
@@ -68,7 +68,7 @@ class Dasbor extends BaseController
                     'jpu9' => $this->jenispekerjaanutama->getByJenisPekerjaanUtama("9")
                 ];
                 
-                $judul = 'Riset 2';
+                $judul = 'Dasbor Riset 2';
                 $data = [
                     'judul' => $judul,
                     'jk' => $jk,
@@ -77,7 +77,7 @@ class Dasbor extends BaseController
                 break;
 
             case 'riset3':
-                $judul = 'Riset 3';
+                $judul = 'Dasbor Riset 3';
                 $ji = [
                     'ji1'=> $this->jenisindustri->getByJenisIndustri("1"),
                     'ji2'=> $this->jenisindustri->getByJenisIndustri("2"),
@@ -98,7 +98,7 @@ class Dasbor extends BaseController
                 break;
 
             case 'riset4':
-                $judul = 'Riset 4';
+                $judul = 'Dasbor Riset 4';
                 $data = [
                     'judul' => $judul,
                 ];
