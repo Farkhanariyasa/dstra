@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\pvd;
+namespace App\Models\Pvd;
 
 use CodeIgniter\Model;
 
