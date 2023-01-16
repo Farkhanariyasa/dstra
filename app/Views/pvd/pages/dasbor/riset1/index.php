@@ -4,7 +4,7 @@
 
 
 <section id="portfolio" class="portfolio section-bg">
-    <div class="container" data-aos="fade-up">
+    <div class="container">
 
         <header class="section-header">
             <p>Kajian Pemanfaatan Mobile Positioning Data (MPD) dalam Menunjang Statistik Pariwisata</p>
@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row portfolio-container">
            <?php include('dummy_riset1.php') ?>
         </div>
 </section>
@@ -41,11 +41,21 @@
 <!-- const for chart -->
 <script>
     const jumlahanggota = <?= json_encode($ja) ?>;
+    const jeniskelamin = <?= json_encode($jk)?>;
+    const mpw1 = <?= json_encode($b524) ?>;
+    const mpw2 = <?= json_encode($b525) ?>;
+    const mpw3 = <?= json_encode($b526) ?>;
+    const mpw4 = <?= json_encode($b527) ?>;
+    const mpw5 = <?= json_encode($b528) ?>;
+    const mpw6 = <?= json_encode($b529) ?>;
+
     
 </script>
 
 <!-- chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
+<!-- <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_jk_bar.js') ?>"></script> -->
+<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>

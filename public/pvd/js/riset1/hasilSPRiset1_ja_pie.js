@@ -1,6 +1,6 @@
 const riset1_hasil1 = document.getElementById('riset1_hasil1');
 
-new Chart(riset1_hasil1, {
+const batang = new Chart(riset1_hasil1, {
     type: 'doughnut',
     data: {
         labels: [
@@ -77,4 +77,44 @@ new Chart(riset1_hasil1, {
     },
     plugins: [ChartDataLabels]
 });
+
+const barchart = document.getElementById('forBarChart');
+barchart.addEventListener('change',tampilData);
+
+function tampilData(){
+    if (barchart.value =='b') {
+        console.log(barchart.value);
+        batang.data.datasets[0].data = 
+            [   jeniskelamin.laki,
+                jeniskelamin.perempuan
+            ];
+            batang.data.labels = [
+                'Laki-laki',
+                'Perempuan'
+            ];
+            // console.log(batang.data.datasets[0].data)
+            batang.update();
+    } else {
+            console.log(barchart.value);
+            batang.data.datasets[0].data = 
+            [   
+                jumlahanggota.ja0,
+                jumlahanggota.ja1,
+                jumlahanggota.ja2,
+                jumlahanggota.ja3,
+                jumlahanggota.ja4,
+                jumlahanggota.ja5
+            ];
+            batang.data.datasets[0].label = [
+                'Jumlah Anggota 0',
+                'Jumlah Anggota 1',
+                'Jumlah Anggota 2',
+                'Jumlah Anggota 3',
+                'Jumlah Anggota 4',
+                'Jumlah Anggota 5'
+            ];
+            // console.log(batang.data.datasets[0].data)
+            batang.update();
+    }
+}
 
