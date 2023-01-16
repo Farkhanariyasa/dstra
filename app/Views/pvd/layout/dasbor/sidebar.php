@@ -15,27 +15,27 @@
 
         <!-- Hasil Kajian -->
         <li class="nav-item active">
-            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
 
                 <span>Riset 1</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Grafik</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
                 <span>Tabel</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset1/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
@@ -51,6 +51,7 @@
                 <span>Riset 2</span>
             </a>
         </li>
+<<<<<<< HEAD
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
@@ -72,31 +73,33 @@
             </a>
         </li>
 
+=======
+>>>>>>> cfdd604a465f4a2f9c4cb8cd0c1d57b29cbb1594
         <hr class="sidebar-divider my-0">
 
         <!-- Tabel Dinamis -->
         <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('pvd/riset3/dasbor') ?>">
+            <a class="nav-link" href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class=""></i>
                 <span>Riset 3</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-chart-pie"></i>
                 <span>Tabel</span>
             </a>
         </li>
 
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-table"></i>
                 <span>Grafik</span>
             </a>
         </li>
         <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('pvd/riset3/dasbor') ?>">
+            <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
                 <i class="fa-solid fa-map-location-dot"></i>
                 <span>Peta Tematik</span>
             </a>
@@ -105,11 +108,12 @@
 
         <!-- Tentang Riset 2 -->
         <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('pvd/riset4/dasbor') ?>">
+            <a class="nav-link" href="<?= base_url('pvd/riset2') ?>">
                 <i class=""></i>
                 <span>Riset 4</span>
             </a>
         </li>
+<<<<<<< HEAD
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
@@ -130,6 +134,8 @@
                 <span>Peta Tematik</span>
             </a>
         </li>
+=======
+>>>>>>> cfdd604a465f4a2f9c4cb8cd0c1d57b29cbb1594
         <hr class="sidebar-divider my-0">
 
     </ul>
