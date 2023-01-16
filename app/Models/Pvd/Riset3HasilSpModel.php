@@ -17,6 +17,8 @@ class Riset3HasilSPModel extends Model
     public function getByPendidikanTertinggi($pt){
         return $this->where(['b705' => $pt])->countAllResults();
     }
-
+    public function getByJenisKelamin_Riset3($jk_1){
+        return $this->where(['b4_4' => $jk_1])-> countAllResults();
+    }
   
 }
