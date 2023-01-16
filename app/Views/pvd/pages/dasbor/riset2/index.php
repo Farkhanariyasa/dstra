@@ -11,7 +11,7 @@
     </header>
     <hr class="hrjudul">
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
@@ -21,7 +21,7 @@
           <li data-filter=".filter-riset2-tabel">Tabel dummy</li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
       <?php include('dummy_riset2.php') ?>
