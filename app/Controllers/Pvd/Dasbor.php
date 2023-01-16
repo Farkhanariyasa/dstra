@@ -5,9 +5,11 @@ namespace App\Controllers\Pvd;
 use App\Controllers\BaseController;
 
 use App\Models\Pvd\Riset1HasilSpModel;
+use App\Models\Pvd\Riset1HasilSp2Model;
 use App\Models\Pvd\Riset2HasilSpModel;
 use App\Models\Pvd\Riset3HasilSpModel;
-use App\Models\Pvd\Riset1HasilSp2Model;
+use App\Models\Pvd\Riset4HasilSpModel;
+
 
 class Dasbor extends BaseController
 {
@@ -23,14 +25,15 @@ class Dasbor extends BaseController
     // RISET 3
     protected $jenisindustri;
     protected $pendidikantertinggi;
-    // Riset 4
+
+    // RISET 4
+    protected $unitusahaTIK;
 
     public function __construct()
     {
-        // // RISET 1
+        // RISET 1
         $this->jumlahanggota = new Riset1HasilSpModel();
         $this->hasilsp2 = new Riset1HasilSp2Model();
-
 
         // RISET 2
         $this->jeniskelamin = new Riset2HasilSpModel();
@@ -39,6 +42,9 @@ class Dasbor extends BaseController
         // RISET 3
         $this->jenisindustri = new Riset3HasilSpModel();
         $this->pendidikantertinggi = new Riset3HasilSpModel();
+
+        // RISET 4
+        $this->unitusahaTIK = new Riset4HasilSpModel();
     }
 
     public function index($riset)
@@ -174,8 +180,18 @@ class Dasbor extends BaseController
 
             case 'riset4':
                 $judul = 'Dasbor Riset 4';
+
+                $uu = [
+                    'uu1' => $this->unitusahaTIK->getUnitUsahaTIK(1),
+                    'uu2' => $this->unitusahaTIK->getUnitUsahaTIK(2),
+                    'uu3' => $this->unitusahaTIK->getUnitUsahaTIK(3),
+                    'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
+                ];
+
+
                 $data = [
                     'judul' => $judul,
+                    'uu' => $uu
                 ];
                 break;
         }
