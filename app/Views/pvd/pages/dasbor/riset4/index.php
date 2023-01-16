@@ -39,11 +39,13 @@
 
 <!-- const for chart -->
 <script>
+  const unitUsahaTIK = <?= json_encode($uu) ?>;
 
 </script>
 
 <!-- chart -->
 <script src = "<?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
+<script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_uu_pie.js') ?>"></script>
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
