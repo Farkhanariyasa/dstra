@@ -51,7 +51,7 @@
                 <span>Riset 2</span>
             </a>
         </li>
-<<<<<<< HEAD
+
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset2/dasbor') ?>">
@@ -73,8 +73,7 @@
             </a>
         </li>
 
-=======
->>>>>>> cfdd604a465f4a2f9c4cb8cd0c1d57b29cbb1594
+
         <hr class="sidebar-divider my-0">
 
         <!-- Tabel Dinamis -->
@@ -113,7 +112,7 @@
                 <span>Riset 4</span>
             </a>
         </li>
-<<<<<<< HEAD
+
 
         <li class="nav-item nav-item-sub ">
             <a class="nav-link " href="<?= base_url('pvd/riset4/dasbor') ?>">
@@ -134,8 +133,7 @@
                 <span>Peta Tematik</span>
             </a>
         </li>
-=======
->>>>>>> cfdd604a465f4a2f9c4cb8cd0c1d57b29cbb1594
+
         <hr class="sidebar-divider my-0">
 
     </ul>
