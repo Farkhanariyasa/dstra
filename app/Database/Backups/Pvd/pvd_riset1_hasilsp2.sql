@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `summary_riset1repeat`
+-- Table structure for table `pvd_riset1_hasilsp2`
 --
 
-CREATE TABLE `summary_riset1repeat` (
+CREATE TABLE `pvd_riset1_hasilsp2` (
   `b504` int(1) DEFAULT NULL,
   `b516` int(1) DEFAULT NULL,
   `b517` int(1) DEFAULT NULL,
@@ -44,10 +44,10 @@ CREATE TABLE `summary_riset1repeat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `summary_riset1repeat`
+-- Dumping data for table `pvd_riset1_hasilsp2`
 --
 
-INSERT INTO `summary_riset1repeat` (`b504`, `b516`, `b517`, `b518`, `b519`, `b520`, `b521`, `b524`, `b525`, `b526`, `b527`, `b528`, `b529`) VALUES
+INSERT INTO `pvd_riset1_hasilsp2` (`b504`, `b516`, `b517`, `b518`, `b519`, `b520`, `b521`, `b524`, `b525`, `b526`, `b527`, `b528`, `b529`) VALUES
 (1, 1, 0, 0, 0, 0, 0, 2, 2, 2, '1', '2', '2'),
 (2, 1, 0, 0, 0, 0, 0, 2, 2, 2, '1', '2', '2'),
 (1, 0, 1, 0, 0, 0, 0, 2, 2, 2, '1', '2', '2'),
