@@ -9,7 +9,7 @@ class LandingPage extends BaseController
     public function index()
     {
         $data = [
-            'judul' => 'Hasil PKL Polstat STIS T.A 2022/2023',
+            'judul' => 'Beranda',
         ];
 
         return view('pvd/pages/landing_page/index', $data);
@@ -33,7 +33,7 @@ class LandingPage extends BaseController
                 break;
         }
         $data = [
-            'judul' => $judul,
+            'judul' => 'Tentang ' . $judul,
         ];
 
         return view('pvd/pages/landing_page/' . $riset, $data);
