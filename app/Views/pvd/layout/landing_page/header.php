@@ -52,4 +52,3 @@
 </head>
 
 <body id="page-top">
-    <div class="forbody">
