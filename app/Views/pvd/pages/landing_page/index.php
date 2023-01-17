@@ -20,7 +20,7 @@
         </p>
         <div data-aos="fade-up" data-aos-delay="200">
           <div class="text-center text-lg-start mt-5">
-            <a href="#" class="tombol btn-for">
+            <a href="#about" class="tombol btn-for">
               <span>Selengkapnya</span>
               <i class="bi bi-arrow-right"></i>
             </a>
@@ -31,13 +31,13 @@
         <div class="row-6 d-flex align-items-center justify-content-center">
           <img src="<?= base_url('pvd/img/landingpage/logolanding_top.png') ?>" class="img-fluid" alt="">
         </div>
-        <div class="row-6 ">
+        <div class="row-6">
           <div class="row">
             <span class="fs-6 text-center logoslogantop">
               Bersinergi dengan Data,
             </span>
           </div>
-          <div class="row ">
+          <div id="about" class="row">
             <span class="fs-6 text-center logosloganbot">
               Majukan Pariwisata Nusantara
             </span>
@@ -46,39 +46,48 @@
       </div>
     </div>
   </div>
+  </section><!-- End Hero -->
 
-  <!-- stis & 62 -->
-  <div class="container mt-5 ">
+  <section class="hero d-flex align-items-center">
+  <!-- About STIS & Angkatan 62 -->
+  <div class="container ">
     <div class="row">
       <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
-        <div data-aos="fade-up" class="card62" style="width: 18rem;">
-          <div class="card-body d-grid gap-3 bg-white">
+        <div data-aos="fade-up" class="card62">
+          <div class="card-body d-grid rounded bg-white">
             <h5 class="card-title text-center h5judullp">Politeknik Statistika STIS</h5>
-            <p class="card-text  text-center pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+            <p class="card-text text-center pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
               kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
               Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
               secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
               di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
               Tinggi.
             </p>
+            <div class="img text-center">
+              <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" alt="">
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 mb-2 hero-img d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
-        <div data-aos="fade-up" class="card62" style="width: 18rem; ">
-          <div class="card-body d-grid gap-3  bg-white">
+      <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
+        <div data-aos="fade-up" class="card62">
+          <div class="card-body d-grid rounded bg-white">
             <h5 class="card-title text-center h5judullp">Angkatan 62</h5>
-            <p class="card-text  text-center pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+            <p class="card-text text-center pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
               kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
               Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
               secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
               di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
               Tinggi.
             </p>
+            <div class="img text-center">
+              <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </section> <!-- End Hero -->
 
     <!-- riset 1 -->
     <div class="container mt-3">
@@ -244,10 +253,7 @@
         </div>
       </div>
     </div>
-    <br><br>
 
 
-
-</section><!-- End Hero -->
 
 <?= $this->endSection(); ?>
