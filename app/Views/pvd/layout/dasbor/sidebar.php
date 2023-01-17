@@ -7,86 +7,24 @@
 
         <hr class="sidebar-divider my-0">
 
-        <li class="nav-item active">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/beranda') ?>">
-                <span>Home</span>
-            </a>
-        </li>
-        <hr class="sidebar-divider my-0">
+        <?php foreach ($menu as $m) : ?>
+            <li class="nav-item active">
+                <a class="nav-link " href="<?= base_url('hasil-pkl' . $m['href']) ?>">
+                    <i class="<?= $m['icon']; ?>"></i>
+                    <span><?= $m['menu']; ?></span>
+                </a>
+            </li>
 
-
-        <!-- Hasil Kajian -->
-        <li class="nav-item active">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset1/dasbor') ?>">
-
-                <span>Hasil Kajian</span>
-            </a>
-        </li>
-
-        <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset1/dasbor') ?>">
-                <i class="fa-solid fa-chart-pie"></i>
-                <span>Analisis</span>
-            </a>
-        </li>
-
-        <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset1/dasbor') ?>">
-                <i class="fa-solid fa-table"></i>
-                <span>Submenu</span>
-            </a>
-        </li>
-        <hr class="sidebar-divider my-0">
-
-
-        <!-- Peta Tematik -->
-        <hr class="sidebar-divider my-0">
-
-        <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('hasil-pkl/riset2/dasbor') ?>">
-                <i class=""></i>
-                <span>Peta Tematik</span>
-            </a>
-        </li>
-        <hr class="sidebar-divider my-0">
-
-        <!-- Tabel Dinamis -->
-        <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/dasbor') ?>">
-                <i class=""></i>
-                <span>Tabel Dinamis</span>
-            </a>
-        </li>
-
-        <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset3/dasbor') ?>">
-                <i class="fa-solid fa-chart-pie"></i>
-                <span>Submenu</span>
-            </a>
-        </li>
-
-        <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset3/dasbor') ?>">
-                <i class="fa-solid fa-table"></i>
-                <span>Submenu</span>
-            </a>
-        </li>
-        <li class="nav-item nav-item-sub ">
-            <a class="nav-link " href="<?= base_url('hasil-pkl/riset3/dasbor') ?>">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <span>Submenu</span>
-            </a>
-        </li>
-        <hr class="sidebar-divider my-0">
-
-        <!-- Tentang Riset  -->
-        <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('hasil-pkl/riset4/dasbor') ?>">
-                <i class=""></i>
-                <span>Tentang Riset</span>
-            </a>
-        </li>
-        <hr class="sidebar-divider my-0">
+            <?php if (isset($m['subMenu'])) : ?>
+                <?php foreach ($m['subMenu'] as $sm) : ?>
+                    <li class="nav-item nav-item-sub ">
+                        <a class="nav-link " href="<?= base_url('hasil-pkl' . $sm['href']) ?>">
+                            <span><?= $sm['subMenu']; ?></span>
+                        </a>
+                    </li>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        <?php endforeach ?>
 
     </ul>
     <div id="content-wrapper" class="d-flex flex-column">
