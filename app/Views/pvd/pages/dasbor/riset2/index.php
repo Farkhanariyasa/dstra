@@ -3,7 +3,8 @@
 <?= $this->section('content'); ?>
 
 <section id="portfolio" class="portfolio section-bg">
-  <div class="container">
+  <div class="container" data-aos="fade-up">
+
     <br><br>
     <header class="section-header">
       <p>Pilot Survei Wisatawan Nusantara</p>
@@ -11,8 +12,8 @@
     
     <hr class="hrjudul">
 
-    <!-- <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
           <li data-filter=".filter-riset2-hasil1">Hasil 1</li>
@@ -23,41 +24,7 @@
       </div>
     </div> -->
 
-    <div class="row">
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    <div class="row portfolio-container" >
       <?php include('dummy_riset2.php') ?>
     </div>
   </div>
