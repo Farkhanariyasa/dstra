@@ -34,7 +34,7 @@ class Dasbor extends BaseController
     {
         // RISET 1
         $this->jumlahanggota = new Riset1HasilSpModel();
-        $this->hasilsp2 = new Riset1HasilSp2Model();
+        $this->hasilsp2 = new Riset1HasilSpModel();
 
         // RISET 2
         $this->jeniskelamin = new Riset2HasilSpModel();
