@@ -54,7 +54,7 @@ class Dasbor extends BaseController
         $judul = '';
         switch ($riset) {
             case 'riset1':
-                
+
                 $judul = 'Dasbor Riset 1';
 
                 $ja = [
@@ -69,9 +69,9 @@ class Dasbor extends BaseController
 
                 $jk = [
                     "laki" => $this->hasilsp2->getJenisKelamin(1),
-                    "perempuan"=>$this->hasilsp2->getJenisKelamin(2)
+                    "perempuan" => $this->hasilsp2->getJenisKelamin(2)
                 ];
-                
+
 
                 $b524 = [
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata1(1),
@@ -97,16 +97,19 @@ class Dasbor extends BaseController
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata5(1),
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata5(2),
                 ];
-                
+
                 $b529 = [
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata6(1),
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata6(2),
                 ];
 
+                $menu = getMenu();
+
                 $data = [
                     'judul' => $judul,
+                    'menu' => $menu[$riset],
                     'ja' => $ja,
-                    'jk' =>$jk,
+                    'jk' => $jk,
                     'b524' => $b524,
                     'b525' => $b525,
                     'b526' => $b526,
@@ -134,12 +137,16 @@ class Dasbor extends BaseController
                     'jpu8' => $this->jenispekerjaanutama->getByJenisPekerjaanUtama("8"),
                     'jpu9' => $this->jenispekerjaanutama->getByJenisPekerjaanUtama("9")
                 ];
-                
+
+                $menu = getMenu();
+
                 $judul = 'Dasbor Riset 2';
                 $data = [
                     'judul' => $judul,
+                    'menu' => $menu[$riset],
                     'jk' => $jk,
                     'jpu' => $jpu
+
                 ];
                 break;
 
@@ -147,30 +154,30 @@ class Dasbor extends BaseController
                 $judul = 'Dasbor Riset 3';
                 // jenis usaha
                 $ji = [
-                    'ji1'=> $this->jenisindustri->getByJenisIndustri("1"),
-                    'ji2'=> $this->jenisindustri->getByJenisIndustri("2"),
-                    'ji3'=> $this->jenisindustri->getByJenisIndustri("3"),
-                    'ji4'=> $this->jenisindustri->getByJenisIndustri("4"),
-                    'ji5'=> $this->jenisindustri->getByJenisIndustri("5"),
-                    'ji6'=> $this->jenisindustri->getByJenisIndustri("6"),
-                    'ji7'=> $this->jenisindustri->getByJenisIndustri("7"),
-                    'ji8'=> $this->jenisindustri->getByJenisIndustri("8"),
-                    'ji9'=> $this->jenisindustri->getByJenisIndustri("9"),
-                    'ji10'=> $this->jenisindustri->getByJenisIndustri("10"),
-                    'ji11'=> $this->jenisindustri->getByJenisIndustri("11")
+                    'ji1' => $this->jenisindustri->getByJenisIndustri("1"),
+                    'ji2' => $this->jenisindustri->getByJenisIndustri("2"),
+                    'ji3' => $this->jenisindustri->getByJenisIndustri("3"),
+                    'ji4' => $this->jenisindustri->getByJenisIndustri("4"),
+                    'ji5' => $this->jenisindustri->getByJenisIndustri("5"),
+                    'ji6' => $this->jenisindustri->getByJenisIndustri("6"),
+                    'ji7' => $this->jenisindustri->getByJenisIndustri("7"),
+                    'ji8' => $this->jenisindustri->getByJenisIndustri("8"),
+                    'ji9' => $this->jenisindustri->getByJenisIndustri("9"),
+                    'ji10' => $this->jenisindustri->getByJenisIndustri("10"),
+                    'ji11' => $this->jenisindustri->getByJenisIndustri("11")
                 ];
 
                 // pendidikan tertinggi
-                $pt =[
-                    'pt1'=> $this->pendidikantertinggi->getByPendidikanTertinggi("1"),
-                    'pt2'=> $this->pendidikantertinggi->getByPendidikanTertinggi("2"),
-                    'pt3'=> $this->pendidikantertinggi->getByPendidikanTertinggi("3"),
-                    'pt4'=> $this->pendidikantertinggi->getByPendidikanTertinggi("4"),
-                    'pt5'=> $this->pendidikantertinggi->getByPendidikanTertinggi("5"),
-                    'pt6'=> $this->pendidikantertinggi->getByPendidikanTertinggi("6"),
-                    'pt7'=> $this->pendidikantertinggi->getByPendidikanTertinggi("7"),
-                    'pt8'=> $this->pendidikantertinggi->getByPendidikanTertinggi("8"),
-                    'pt9'=> $this->pendidikantertinggi->getByPendidikanTertinggi("9"),
+                $pt = [
+                    'pt1' => $this->pendidikantertinggi->getByPendidikanTertinggi("1"),
+                    'pt2' => $this->pendidikantertinggi->getByPendidikanTertinggi("2"),
+                    'pt3' => $this->pendidikantertinggi->getByPendidikanTertinggi("3"),
+                    'pt4' => $this->pendidikantertinggi->getByPendidikanTertinggi("4"),
+                    'pt5' => $this->pendidikantertinggi->getByPendidikanTertinggi("5"),
+                    'pt6' => $this->pendidikantertinggi->getByPendidikanTertinggi("6"),
+                    'pt7' => $this->pendidikantertinggi->getByPendidikanTertinggi("7"),
+                    'pt8' => $this->pendidikantertinggi->getByPendidikanTertinggi("8"),
+                    'pt9' => $this->pendidikantertinggi->getByPendidikanTertinggi("9"),
 
                 ];
 
@@ -180,11 +187,14 @@ class Dasbor extends BaseController
                     'jk_12' => $this->jeniskelamin_riset3->getByJenisKelamin_Riset3("2")
                 ];
 
+                $menu = getMenu();
+
                 $data = [
                     'judul' => $judul,
-                    'ji' =>$ji,
+                    'menu' => $menu[$riset],
+                    'ji' => $ji,
                     'pt' => $pt,
-                    'jk_1'=> $jk_1
+                    'jk_1' => $jk_1
                 ];
                 break;
 
@@ -198,9 +208,11 @@ class Dasbor extends BaseController
                     'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
                 ];
 
+                $menu = getMenu();
 
                 $data = [
                     'judul' => $judul,
+                    'menu' => $menu[$riset],
                     'uu' => $uu
                 ];
                 break;
