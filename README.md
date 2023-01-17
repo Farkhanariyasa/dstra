@@ -7,6 +7,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 
 - 15-01-2023 : Pembuatan Awal Proyek Dasbor Hasil PKL 62
 - 17-01-2023 : Perubahan URL yang awalnya `pvd` menjadi `hasil-pkl`
+- 18-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
 
 ## Cara Instalasi
 
@@ -90,6 +91,7 @@ Contoh : `pvd_riset1_hasilsp`
   - `Controller`
   - `Model`
   - `Database`
+  - `Helper`
   - `Routing`
   - `Readme`
   - `Other`
