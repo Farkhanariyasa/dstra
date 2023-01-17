@@ -123,9 +123,59 @@
                 <div class="garis">
                 </div>
             </div>
+            <!-- Cakupan penelitian -->
             <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>CAKUPAN PENELITIAN</b>
+                </p>
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
+                    <li>
+                        Populasi Target <br>
+                        Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota pada Triwulan IV tahun 2022. <br><br>
+                    </li> 
+                    <li>
+                        Unit Sampling <br>
+                        Primary Sampling Unit	: Blok Sensus <br>
+                        Secondary Sampling Unit	: Rumah Tangga di Blok Sensus terpilih <br><br>
+                    </li>
+                    <li>
+                        Unit Analisis <br>
+                        Anggota rumah tangga di Kota Malang yang pernah melakukan perjalanan wisata dalam kota (untuk Riset II) atau luar kota (untuk Riset I) pada Triwulan IV tahun 2022.
+                    </li>
+                </p>
+            </div>
+            <!-- DESAIN SAMPLING -->
+            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>DESAIN SAMPLING</b>
+                </p>
+                <p class="text-justify">
+                    Two Stage Sampling
+                    <li>
+                        Tahap pertama, mengambil sejumlah blok sensus di Kota Malang dengan Probability Proportional to Size With Replacement dengan size <b>jumlah keluarga</b> di tiap blok sensus hasil pemutakhiran Sensus Penduduk 2020. <br> <br>
+                    </li>
+                    <li>
+                        Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
+                    </li> 
+                </p>
+            </div>
+            <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
+            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>PENENTUAN UKURAN SAMPEL MINIMUM</b>
+                </p>
+                <p class="text-justify">
+                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6 <br> <br>
+                    *input rumus* <br> <br>
+                    Keterangan: <br>
+                    n		: sampel minimum <br>
+                    r		: proporsi kejadian terhadap populasi target <br>
+                    deff	: design effect <br>
+                    RME	: relative margin <br>
+                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                    AveSize	: rata-rata jumlah ART <br>
+                    RR		: response rate <br> <br>
+                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                 </p>
             </div>
         </div>
