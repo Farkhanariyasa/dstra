@@ -13,7 +13,7 @@ const batang = new Chart(riset1_hasil1, {
         ],
 
         datasets: [{
-            label: 'Population',
+            label: 'Jumlah Anggota',
             data: [
                 jumlahanggota.ja0,
                 jumlahanggota.ja1,
@@ -105,7 +105,7 @@ function tampilData(){
                 jumlahanggota.ja4,
                 jumlahanggota.ja5
             ];
-            batang.data.datasets[0].label = [
+            batang.data.labels = [
                 'Jumlah Anggota 0',
                 'Jumlah Anggota 1',
                 'Jumlah Anggota 2',
