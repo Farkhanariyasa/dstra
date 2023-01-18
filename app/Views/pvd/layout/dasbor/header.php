@@ -14,7 +14,7 @@
   <!-- inject:css -->
   <!-- endinject -->
   <!-- Layout styles -->
-  <link rel="stylesheet" href="<?= base_url('pvd/css/style.css'); ?>">
+  <link rel="stylesheet" href="<?= base_url('pvd/css/dasbor.css'); ?>">
   <!-- End layout styles -->
   <title><?= $judul; ?> | Hasil PKL</title>
   <link rel="stylesheet" href="<?= base_url('pvd/css/fontawesome/fontawesome.min.css') ?>">

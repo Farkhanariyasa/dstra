@@ -36,7 +36,7 @@ function getMenu()
         [
           'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu2',
+          'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
