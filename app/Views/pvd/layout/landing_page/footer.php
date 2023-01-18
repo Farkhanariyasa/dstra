@@ -4,12 +4,12 @@
     <div class="container">
        <div class="row justify-content-center pt-3">
           <a class="w-auto" href="<?= base_url("hasil-pkl/beranda") ?>">
-            <img src="<?= base_url('pvd/img/LogoPKL.png') ?>" alt="" width="100px">
+            <img src="<?= base_url('pvd/img/LogoPKL.png') ?>" alt="" width="75px" class="my-2">
             <!-- <span>Tentang PKL 62</span> -->
           </a>
-         <div class="col-lg-12 text-center text-white my-4">
-           <h5>Dibuat Dengan Sepenuh Hati</h5>
-           <p>&copy; Divisi PVD TI PKL 62 2022/2023</p>
+         <div class="col-lg-12 text-center text-white ;">
+           <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <i class="fa fa-heart ml-1"></i></h5>
+           <p style="font-size: 14px;">&copy; Divisi PVD TI PKL 62 2022/2023</p>
          </div>
       </div>
     </div>
@@ -22,6 +22,7 @@
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
   </div>
 </footer><!-- End Footer -->
+
 <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 </body>
 <script>
