@@ -19,4 +19,8 @@ class Riset2HasilSpModel extends Model
     {
         return $this->where(['b511' => $jpu, 'kat' => 'WK'])->countAllResults();
     }
+    public function getByPendidikanTertinggi($pt)
+    {
+        return $this->where(['b508' => $pt, 'kat' => 'WK'])->countAllResults();
+    }
 }
