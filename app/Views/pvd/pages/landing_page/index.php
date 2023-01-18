@@ -22,7 +22,7 @@
           <div class="text-center text-lg-start mt-5">
             <a href="#" class="tombol btn-for text-decoration-none">
               <span>Selengkapnya</span>
-              <i class="bi bi-arrow-right"></i>
+              <i class="fas fa-arrow-circle-right"></i>
             </a>
           </div>
         </div>
