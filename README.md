@@ -7,7 +7,8 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 
 - 15-01-2023 : Pembuatan Awal Proyek Dasbor Hasil PKL 62
 - 17-01-2023 : Perubahan URL yang awalnya `pvd` menjadi `hasil-pkl`
-- 18-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
+- 17-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
+- 18-01-2023 : Perubahan struktur basis data. Penambahan migrasi tabel. Lakukan `php spark migrate` untuk melakukan migrasi tabel.
 
 ## Cara Instalasi
 

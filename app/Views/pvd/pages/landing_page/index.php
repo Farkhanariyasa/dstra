@@ -22,7 +22,7 @@
           <div class="text-center text-lg-start mt-5">
             <a href="#about" class="tombol btn-for">
               <span>Selengkapnya</span>
-              <i class="bi bi-arrow-right"></i>
+              <i class="bi bi-arrow-right fas fa-arrow-circle-right"></i>
             </a>
           </div>
         </div>
@@ -122,9 +122,9 @@
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for">
+                <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -144,15 +144,15 @@
           </div>
           <div class="row-8 ">
             <p class="card-text  text-left pdesclp">
-              Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari segi budaya. Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah kunjungan wisatawannya. Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya pandemi Covid-19. Ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan pariwisata. <i>Mobile Positioning Data</i> (MPD) dapat digunakan dalam mengumpulkan data sebagai pendekatan baru. Namun, pendekatan MPD sendiri masih memiliki kekurangan sehingga diperlukan alternatif pengumpulan data lain untuk melengkapi data wisnus yang belum mampu dihasilkan oleh pendekatan MPD, yaitu data perjalanan wisata di dalam kabupaten/kota. 
+              Kota Malang merupakan salah satu kota di Jawa Timur yang jumlah perjalanan wisatanya sangat terdampak oleh Covid-19. Hal ini dapat dilihat dari jumlah kunjungan wisata wisatawan nusantara tahun 2020 di Kota Malang yang mengalami penurunan drastis sehingga dibutuhkan pemulihan. Salah satu pemulihan perjalanan wisata pascapademi Covid-19 yang diusahakan oleh pemerintah adalah membangun confidence atau rasa aman yang dilanjutkan dengan pemulihan pariwisata domestik. Hal ini sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, yaitu meningkatnya perjalanan wisata yang dilakukan oleh wisatawan nusantara. Hal ini menyebabkan bahwa ketersediaan data wisnus sangat dibutuhkan untuk meninjau terjadinya peningkatan dan penurunan perjalanan pariwisata yang harus dikumpulkan secara lengkap dan berkesinambungan. Dalam memenuhi kebutuhan tersebut, Badan Pusat Statistik (BPS) telah melakukan kegiatan pendataan wisatawan nusantara. Pada tahun 2020, Survei Wisatawan Nusantara dilakukan dengan menggunakan metode baru, yakni Mobile Positioning Data (MPD). Salah satu kelemahan metode ini adalah tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci. 
             </p>
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for">
+                <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -194,9 +194,9 @@
           <div class="row-2 bforce ">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for">
+                <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -235,9 +235,9 @@
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for">
+                <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
