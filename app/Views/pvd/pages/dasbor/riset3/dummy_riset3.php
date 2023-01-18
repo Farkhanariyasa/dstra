@@ -10,6 +10,7 @@
                             <select id="forBarChart">
                                 <option value="a">Jenis Industri</option>
                                 <option value="b">Pendidikan Tertinggi</option>
+                                <option value="c">Jenis Kelamin</option>
                             </select>
                         </form>
                     </div>
@@ -37,6 +38,7 @@
                             <select id="forPieChart">
                                 <option value="a">Jenis Industri</option>
                                 <option value="b">Pendidikan Tertinggi</option>
+                                <option value="c">Jenis Kelamin</option>
                             </select>
                         </form>
                     </div>
