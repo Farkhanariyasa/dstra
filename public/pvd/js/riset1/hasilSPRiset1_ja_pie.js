@@ -36,6 +36,7 @@ const batang = new Chart(riset1_hasil1, {
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
@@ -46,7 +47,7 @@ const batang = new Chart(riset1_hasil1, {
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
