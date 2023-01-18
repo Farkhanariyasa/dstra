@@ -92,6 +92,8 @@ function tampilData(){
                 'Laki-laki',
                 'Perempuan'
             ];
+        
+        batang.options.plugins.title.text = 'Jenis Kelamin';
             // console.log(batang.data.datasets[0].data)
             batang.update();
     } else {
@@ -113,6 +115,8 @@ function tampilData(){
                 'Jumlah Anggota 4',
                 'Jumlah Anggota 5'
             ];
+
+            batang.options.plugins.title.text = 'Banyaknya Rumah Tangga berdasarkan Jumlah Anggota yang melakukan perjalanan';
             // console.log(batang.data.datasets[0].data)
             batang.update();
     }
