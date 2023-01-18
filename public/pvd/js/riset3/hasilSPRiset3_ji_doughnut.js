@@ -46,6 +46,7 @@ const doughnut=new Chart(ctx5, {
         }]
   },
   options:{
+    responsive:true,
     scales:{
     },
     plugins:{
@@ -81,15 +82,11 @@ const doughnut=new Chart(ctx5, {
 });
 
 const doughnutChart = document.getElementById('forDoughnutChart');
-
- doughnutChart.addEventListener('change', tampilData);
+doughnutChart.addEventListener('change', tampilData);
    
  function tampilData(){
-     console.log(doughnutChart.value);
-     // doughnutChart.value.split(',');
-     // batang.data.datasets[0].data=doughnutChart.value.split(',');
-     // batang.update();
      if (doughnutChart.value =='a') {
+        console.log(doughnutChart.value);
          doughnut.data.datasets[0].data = 
              [   
                 datajenisindustri.ji1,
@@ -115,11 +112,13 @@ const doughnutChart = document.getElementById('forDoughnutChart');
              'Jasa kebudayaan, olahraga dan rekreasi',
              'Aktivitas perdagangan barang-barang pariwisata',
              'jasa pariwisata lainnya'];
+          
              // console.log(batang.data.datasets[0].data)
-             console.log('jenisindustri');
- 
+             doughnut.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
              doughnut.update();
+
      } if (doughnutChart.value =='b'){
+             console.log(doughnutChart.value);
              doughnut.data.datasets[0].data = 
              [   
                 datapendidikantertinggi.pt1,
@@ -142,12 +141,14 @@ const doughnutChart = document.getElementById('forDoughnutChart');
              'Diploma IV',
              'S1/S2/S3'
              ];
-             // console.log(doughnut.data.datasets[0].data)
-             console.log('pendidikan tertinggi');
- 
+             //console.log(doughnut.data.datasets[0].data)
+            
+             doughnut.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Tingkat Pendidikan Tertinggi';
              doughnut.update();
+
      } if(doughnutChart.value =='c'){
-      doughnut.data.datasets[0].data = 
+            console.log(doughnutChart.value);
+            doughnut.data.datasets[0].data = 
              [   
                 datajeniskelamin_riset3.jk_11,
                 datajeniskelamin_riset3.jk_12
@@ -155,9 +156,9 @@ const doughnutChart = document.getElementById('forDoughnutChart');
              doughnut.data.labels = ['Laki-laki',
              'Perempuan'
              ];
+             
              // console.log(doughnut.data.datasets[0].data)
-             console.log('Jenis Kelamin');
- 
+             doughnut.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
              doughnut.update();
 
      }
