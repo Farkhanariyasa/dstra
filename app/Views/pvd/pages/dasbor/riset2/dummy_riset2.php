@@ -3,10 +3,10 @@
     <div class="container mt-5">
         <!-- add modal -->
         <!-- <button id="download_pw_sankey">Download image</button> add modal -->
-        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
-            <div style="width: 800px; height:500px;">
-                <div class="position-relative">
-                    <div class="position-absolute top-0 end-0">
+        <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
+            <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
+                <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
                         <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2-1">
                             <i class="fa-solid fa-download"></i>
                         </button>
@@ -23,10 +23,18 @@
     <div class="container mt-5">
         <!-- add modal -->
         <!-- <button id="download_jk_bar">Download image</button> -->
-        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
-            <div style="width: 800px; height:500px;">
-                <div class="position-relative">
-                    <div class="position-absolute top-0 end-0">
+        <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
+            <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
+                <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
+                    <div class="selectBox mt-2 me-2">
+                        <form action="">
+                            <select id="forBarChart">
+                                <option value="a">Jenis Kelamin</option>
+                                <option value="b">Kelompok Umur</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div>
                         <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2-2">
                             <i class="fa-solid fa-download"></i>
                         </button>
@@ -43,10 +51,18 @@
     <div class="container mt-5">
         <!-- add modal -->
         <!-- <button id="download_jpu_barhorizontal">Download image</button> -->
-        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
-            <div style="width: 800px; height:500px;">
-                <div class="position-relative">
-                    <div class="position-absolute top-0 end-0">
+        <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
+            <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
+                <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
+                    <div class="selectBox mt-2 me-2">
+                        <form action="">
+                            <select id="forBarChart">
+                                <option value="a">Jenis Pekerjaan Utama</option>
+                                <option value="b">Tingkat Pendidikan Terakhir</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div>
                         <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2-3">
                             <i class="fa-solid fa-download"></i>
                         </button>
