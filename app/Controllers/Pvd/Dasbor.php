@@ -21,6 +21,7 @@ class Dasbor extends BaseController
     // RISET 2
     protected $jeniskelamin;
     protected $jenispekerjaanutama;
+    protected $pendidikantertinggi_riset2;
 
     // RISET 3
     protected $jenisindustri;
@@ -39,6 +40,7 @@ class Dasbor extends BaseController
         // RISET 2
         $this->jeniskelamin = new Riset2HasilSpModel();
         $this->jenispekerjaanutama = new Riset2HasilSpModel();
+        $this->pendidikantertinggi_riset2 = new Riset2HasilSpModel();
 
         // RISET 3
         $this->jenisindustri = new Riset3HasilSpModel();
@@ -138,6 +140,16 @@ class Dasbor extends BaseController
                     'jpu9' => $this->jenispekerjaanutama->getByJenisPekerjaanUtama("9")
                 ];
 
+                $pt_2 = [
+                    'pt_21' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("1"),
+                    'pt_22' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("2"),
+                    'pt_23' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("3"),
+                    'pt_24' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("4"),
+                    'pt_25' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("5"),
+                    'pt_26' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("6"),
+                    'pt_27' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("7"),
+                ];
+
                 $menu = getMenu();
 
                 $judul = 'Dasbor Riset 2';
@@ -145,8 +157,8 @@ class Dasbor extends BaseController
                     'judul' => $judul,
                     'menu' => $menu[$riset],
                     'jk' => $jk,
-                    'jpu' => $jpu
-
+                    'jpu' => $jpu,
+                    'pt_2' => $pt_2
                 ];
                 break;
 
