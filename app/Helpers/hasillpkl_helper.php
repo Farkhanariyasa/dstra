@@ -20,30 +20,32 @@ function getMenu()
         [
           'menu' => 'Menu 2',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu2',
+          'id' => 'menu2',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset1/dasbor',
+              'href' => '/riset1/afdf',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset1/dasbor',
+              'href' => '/riset1/afgfx',
             ],
           ],
         ],
         [
           'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu2',
+          'id' => 'menu3',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset1/dasbor',
+              'href' => '/riset1/ddfdxfbor',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset1/dasbor',
+              'href' => '/riset1/ddfdxf',
             ],
           ],
         ],
@@ -69,30 +71,32 @@ function getMenu()
         [
           'menu' => 'Menu 2',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu2',
+          'id' => 'menu2',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset2/dasbor',
+              'href' => '/riset2/fgfx',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset2/dasbor',
+              'href' => '/riset2/fgfx',
             ],
           ],
         ],
         [
           'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu3',
+          'id' => 'menu3',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset2/dasbor',
+              'href' => '/riset2/gfg',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset2/dasbor',
+              'href' => '/riset2/sdz',
             ],
           ],
         ],
@@ -118,30 +122,32 @@ function getMenu()
         [
           'menu' => 'Menu 2',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu2',
+          'id' => 'menu2',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset3/dasbor',
+              'href' => '/riset3/dszdzs',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset3/dasbor',
+              'href' => '/riset3/dszds',
             ],
           ],
         ],
         [
           'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu3',
+          'id' => 'menu3',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset3/dasbor',
+              'href' => '/riset3/dsdsz',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset3/dasbor',
+              'href' => '/riset3/ddzs',
             ],
           ],
         ],
@@ -167,30 +173,32 @@ function getMenu()
         [
           'menu' => 'Menu 2',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu2',
+          'id' => 'menu2',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset4/dasbor',
+              'href' => '/riset4/sdszd',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset4/dasbor',
+              'href' => '/riset4/dszd',
             ],
           ],
         ],
         [
           'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
-          'href' => '#',
+          'href' => '#menu3',
+          'id' => 'menu3',
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset4/dasbor',
+              'href' => '/riset4/ads',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset4/dasbor',
+              'href' => '/riset4/ar',
             ],
           ],
         ],
