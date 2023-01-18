@@ -10,8 +10,12 @@
 
     <title><?= $judul; ?> | Hasil PKL</title>
 
-     <!-- Favicon icon -->
-     <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logoPKL.png') ?>">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logoPKL.png') ?>">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e0bb680df5.js" crossorigin="anonymous"></script>
+ 
     <!-- css -->
     <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/bootstrap.css') ?>">
