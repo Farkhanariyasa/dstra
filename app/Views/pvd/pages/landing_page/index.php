@@ -115,7 +115,7 @@
               <div class="text-center text-lg-start mt-5">
                 <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -143,7 +143,7 @@
               <div class="text-center text-lg-start mt-5">
                 <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right></i>
                 </a>
               </div>
             </div>
@@ -187,7 +187,7 @@
               <div class="text-center text-lg-start mt-5">
                 <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -228,7 +228,7 @@
               <div class="text-center text-lg-start mt-5">
                 <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
