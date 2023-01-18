@@ -84,7 +84,7 @@ const doughnut=new Chart(ctx5, {
 const doughnutChart = document.getElementById('forDoughnutChart');
 doughnutChart.addEventListener('change', tampilData);
    
- function tampilData(){
+function tampilData(){
      if (doughnutChart.value =='a') {
         console.log(doughnutChart.value);
          doughnut.data.datasets[0].data = 
@@ -143,7 +143,7 @@ doughnutChart.addEventListener('change', tampilData);
              ];
              //console.log(doughnut.data.datasets[0].data)
             
-             doughnut.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Tingkat Pendidikan Tertinggi';
+             doughnut.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Pendidikan Tertinggi';
              doughnut.update();
 
      } if(doughnutChart.value =='c'){
