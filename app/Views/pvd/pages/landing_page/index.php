@@ -20,9 +20,9 @@
         </p>
         <div data-aos="fade-up" data-aos-delay="200">
           <div class="text-center text-lg-start mt-5">
-            <a href="#" class="tombol btn-for text-decoration-none">
+            <a href="#" class="tombol btn-for">
               <span>Selengkapnya</span>
-              <i class="fas fa-arrow-circle-right"></i>
+              <i class="bi bi-arrow-right fas fa-arrow-circle-right"></i>
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for text-decoration-none">
+                <a href="#" class="tombol btn-for">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
                 </a>
@@ -141,9 +141,9 @@
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for text-decoration-none">
+                <a href="#" class="tombol btn-for">
                   <span>Selengkapnya</span>
-                  <i class="fas fa-arrow-circle-right></i>
+                  <i class="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
@@ -185,7 +185,7 @@
           <div class="row-2 bforce ">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for text-decoration-none">
+                <a href="#" class="tombol btn-for">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
                 </a>
@@ -226,7 +226,7 @@
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
               <div class="text-center text-lg-start mt-5">
-                <a href="#" class="tombol btn-for text-decoration-none">
+                <a href="#" class="tombol btn-for">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
                 </a>
