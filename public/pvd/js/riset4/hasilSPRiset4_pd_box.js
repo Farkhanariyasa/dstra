@@ -10,12 +10,13 @@ new Chart(hasil2, {
             label: 'Pendapatan',
             data: [pendapatan],
             backgroundColor: [
-                "#ffdd99",
+                "#506396",
             ],
         }]
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
@@ -24,7 +25,7 @@ new Chart(hasil2, {
                     size: 20
                 }
             },
-            
+
         }
     }
 });
