@@ -20947,17 +20947,19 @@ dl li {
 /* menu aktif sidebar */
 .sidebar .nav .nav-item.active {
   background: #e0e4ec;
+  opacity:0.6;
+
 }
 
 /* sidebar active menu */
 .sidebar .nav .nav-item.active>.nav-link .menu-title {
-  color: #4b395f;
+  color: #000000;
   font-family: "ubuntu-medium", sans-serif;
 }
 
 .sidebar .nav .nav-item.active>.nav-link i {
   /* icon menu active */
-  color: #4b395f;
+  color: #000000;
 }
 
 /* hover nav */
