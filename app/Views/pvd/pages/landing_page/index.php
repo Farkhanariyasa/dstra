@@ -89,7 +89,7 @@
     </div>
     </section> <!-- End Hero -->
 
-    <hr id="riset1">    
+    <br id="riset1">
     <br>
     <br>
     <br>
