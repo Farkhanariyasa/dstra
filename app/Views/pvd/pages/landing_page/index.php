@@ -19,7 +19,7 @@
           "<i>Bersinergi Dengan Data, Majukan Pariwisata Nusantara</i>".
         </p>
         <div data-aos="fade-up" data-aos-delay="200">
-          <div class="text-center text-lg-start mt-5">
+          <div class="text-center text-lg-start my-5">
             <a href="#about" class="tombol btn-for">
               <span>Selengkapnya</span>
               <i class="bi bi-arrow-right fas fa-arrow-circle-right"></i>
@@ -121,7 +121,7 @@
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start mt-5">
+              <div class="text-center text-lg-start my-5">
                 <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
@@ -149,7 +149,7 @@
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start mt-5">
+              <div class="text-center text-lg-start my-5">
                 <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
@@ -193,7 +193,7 @@
           </div>
           <div class="row-2 bforce ">
             <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start mt-5">
+              <div class="text-center text-lg-start my-5">
                 <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
@@ -234,7 +234,7 @@
           </div>
           <div class="row-2  d-flex flex-row justify-content-center align-items-center">
             <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start mt-5">
+              <div class="text-center text-lg-start my-5">
                 <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
                   <span>Selengkapnya</span>
                   <i class="fas fa-arrow-circle-right"></i>
