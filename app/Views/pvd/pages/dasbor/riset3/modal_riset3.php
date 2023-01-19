@@ -4,7 +4,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">dasbor Bar Chart</h5>
+                <h4 class="modal-title" id="exampleModalLabel">dasbor Bar Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="submit" id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -36,7 +36,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">dasbor Pie Chart</h5>
+                <h4 class="modal-title" id="exampleModalLabel">dasbor Pie Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="submit" id="btndownload" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -68,7 +68,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">dasbor D Chart</h5>
+                <h4 class="modal-title" id="exampleModalLabel">dasbor D Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="submit"id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>

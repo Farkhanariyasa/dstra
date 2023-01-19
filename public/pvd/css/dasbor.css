@@ -7308,7 +7308,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   color: #0d6efd;
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -20428,6 +20428,13 @@ dl li {
   border-bottom: 3px solid;
 }
 
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:focus {
+  /* menu navlink navbar aktif*/
+  color: #506396;
+  border-bottom: 3px solid;
+}
+
 @media (max-width: 767px) {
   .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
     margin-left: .8rem;
@@ -20887,7 +20894,7 @@ dl li {
   line-height: 1;
   margin-left: auto;
   /* icon color */
-  color: #ffffff;
+
 }
 
 .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {
@@ -20947,7 +20954,7 @@ dl li {
 /* menu aktif sidebar */
 .sidebar .nav .nav-item.active {
   background: #e0e4ec;
-  opacity:0.6;
+  opacity: 0.7;
 
 }
 
@@ -20965,7 +20972,8 @@ dl li {
 /* hover nav */
 .sidebar .nav .nav-item:hover {
   /* menu hover */
-  background: #0050e3;
+  background: #ffffff;
+  opacity: 1;
 }
 
 .sidebar .nav .nav-item.nav-profile .nav-link {
@@ -21024,7 +21032,7 @@ dl li {
 }
 
 .sidebar .nav:not(.sub-menu)>.nav-item:hover:not(.nav-category):not(.nav-profile)>.nav-link {
-  color: #29323d;
+  color: #506396;
 }
 
 .sidebar .nav.sub-menu {

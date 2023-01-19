@@ -29,6 +29,7 @@ const pie = new Chart(hasil1, {
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
