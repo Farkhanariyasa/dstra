@@ -58,6 +58,10 @@ flex-direction: row; }
     
 }
 
+.bg-bc23{
+    background-color: #DCE0EB;
+}
+
 .third2{
     background-color: #4b395f;
     color: white;
@@ -132,6 +136,10 @@ section {
 
 #content-wrapper::-webkit-scrollbar{
     display: none;
+}
+
+.modal-title{
+    font-weight: 600;
 }
 
 .tombol{
