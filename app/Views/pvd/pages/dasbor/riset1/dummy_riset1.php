@@ -3,7 +3,7 @@
     <div class="container mt-5">
         <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
         <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-            <div class="d-flex flex-row align-item-center justify-content-center">
+            <div class="d-flex flex-row align-item-center justify-content-center container text-center" style="width: 95%;height:80vh">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
                     <div class="selectBox mt-2 me-2">
                         <form action="">
@@ -33,7 +33,7 @@
             <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
@@ -92,8 +92,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td>
-                                        << /td>
+                                    <td></td>
                                 </tr>
 
                             </tbody>
@@ -105,5 +104,5 @@
     </div>
 </div>
 
-<!-- Modal Riset 3  -->
+<!-- Modal Riset 1  -->
 <?php include('modal_riset1.php') ?>
