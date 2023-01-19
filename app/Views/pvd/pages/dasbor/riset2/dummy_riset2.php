@@ -19,9 +19,35 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <!-- add modal -->
-        <!-- <button id="download_pw_sankey">Download image</button> add modal -->
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <!-- <div class="selectBox mt-2 me-2">
+                        <form action="">
+                            <select class="dropdownunduh1" id="forBarChart">
+                                <option value="a">Jenis Industri</option>
+                                <option value="b">Pendidikan Tertinggi</option>
+                                <option value="c">Jenis Kelamin</option>
+                            </select>
+                        </form>
+                    </div> -->
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="pw_sankey"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
             <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
                 <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
@@ -34,7 +60,7 @@
                 <canvas id="pw_sankey" aria-label="Sankey"></canvas>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="portfolio-item filter-riset2-hasil2">
@@ -57,27 +83,31 @@
             </div>
         </div>
     </div>
-    <div class="container mt-5">
-        <!-- add modal -->
-        <!-- <button id="download_jk_bar">Download image</button> -->
-        <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
-            <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
+
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                     <!-- <div class="selectBox mt-2 me-2">
                         <form action="">
-                            <select id="forBarChart">
-                                <option value="a">Jenis Kelamin</option>
-                                <option value="b">Kelompok Umur</option>
+                            <select class="dropdownunduh1" id="forBarChart">
+                                <option value="a">Jenis Industri</option>
+                                <option value="b">Pendidikan Tertinggi</option>
+                                <option value="c">Jenis Kelamin</option>
                             </select>
                         </form>
                     </div> -->
-                    <div>
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2-2">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
                 </div>
-                <canvas id="jk_bar"></canvas>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="jk_bar"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -104,27 +134,29 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <!-- add modal -->
-        <!-- <button id="download_jpu_barhorizontal">Download image</button> -->
-        <div class="card d-flex justify-content-center align-item-center flex-md primary pb-5 pt-5">
-            <div style="width: 900px; height:500px;" class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                     <div class="selectBox mt-2 me-2">
                         <form action="">
-                            <select id="forBarChart">
+                            <select class="dropdownunduh1" id="forBarChart">
                                 <option value = 1>Jenis Pekerjaan Utama</option>
-                                <option value = 2>Tingkat Pendidikan Terakhir</option>
+                                <option value = 2>Tingkat Pendidikan Tertinggi</option>
                             </select>
                         </form>
                     </div>
-                    <div>
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2-3">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
                 </div>
-                <canvas id="bar_horizontal"></canvas>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="bar_horizontal"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
