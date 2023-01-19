@@ -214,11 +214,6 @@ section {
     max-width: 25vw;
   }
 
-/* .card62 .card-body {
-    height: 75vh;
-    max-width: 25vw;
-} */
-
 .card62 .card-body .img {
     width: auto;
     height: fit-content;
@@ -250,6 +245,7 @@ section {
     padding: 50px 0 0;
     margin: 0 0 50px;
     width: 100%;
+    min-height: 80vh;
 }
 .hero h1 {
 margin: 0;
@@ -309,6 +305,9 @@ text-align: right;
 }
 .hero .hero-img img {
     width: 80%;
+}
+.card62 {
+    max-width: 100%;
 }
 }
 @media (max-width: 768px) {
