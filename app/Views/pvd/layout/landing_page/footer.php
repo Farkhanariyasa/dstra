@@ -6,7 +6,7 @@
           <img src="<?= base_url('pvd/img/LogoPKL.png') ?>" alt="" width="75px" class="my-2">
         </a>
         <div class="col-lg-12 text-center text-white ;">
-          <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <span class="text-danger"><i class="fa fa-heart ml-1"></i></span></h5>
+          <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <span class="text-danger">❤️</span></h5>
           <p style="font-size: 14px;">&copy; Divisi PVD TI PKL 62 2022/2023</p>
         </div>
       </div>
