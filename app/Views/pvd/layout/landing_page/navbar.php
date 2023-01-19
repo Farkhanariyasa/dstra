@@ -12,10 +12,9 @@
 
 		<div class="collapse navbar-collapse" id="ftco-nav">
 			<ul class="navbar-nav nav ml-auto mt-2" style="background:transparent !important">
-				<!-- <li class="nav-item"><a href="<?= base_url("hasil-pkl/beranda") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "beranda" ? "active" : "" ?>"><span>Beranda</span></a></li> -->
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset1") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>"><span>Riset 1</span></a></li>
-				<li class="nav-item"><a href="<?= base_url("hasil-pkl//riset2") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>"><span>Riset 2</span></a></li>
-				<li class="nav-item"><a href="<?= base_url("hasil-pkl//riset3") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>"><span>Riset 3</span></a></li>
+				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset2") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>"><span>Riset 2</span></a></li>
+				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset3") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>"><span>Riset 3</span></a></li>
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset4") ?>" class="nav-link nav-menu text-left <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>"><span>Riset 4</span></a></li>
 			</ul>
 		</div>

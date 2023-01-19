@@ -1,4 +1,4 @@
-<footer style="background-color: #7382AB;">
+<footer style="background-color: #506396;">
   <div class="footer-top">
     <div class="container">
        <div class="row justify-content-center pt-3">
@@ -7,7 +7,7 @@
             <!-- <span>Tentang PKL 62</span> -->
           </a>
          <div class="col-lg-12 text-center text-white ;">
-           <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <i class="fa fa-heart ml-1"></i></h5>
+           <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <span class="text-danger"><i class="fa fa-heart ml-1"></i></span></h5>
            <p style="font-size: 14px;">&copy; Divisi PVD TI PKL 62 2022/2023</p>
          </div>
       </div>
