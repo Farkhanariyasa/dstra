@@ -56,6 +56,7 @@
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
     <!-- <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_jk_bar.js') ?>"></script> -->
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 
     <!-- for download chart -->
     <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
