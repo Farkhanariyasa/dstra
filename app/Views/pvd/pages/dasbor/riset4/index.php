@@ -144,6 +144,8 @@
 <script>
   const unitUsahaTIK = <?= json_encode($uu) ?>;
   const pendapatan = <?= json_encode($pd) ?>;
+  const b401a = <?= json_encode($b401a) ?>;
+  const b407a = <?= json_encode($b407a) ?>;
 
 </script>
 
@@ -152,6 +154,8 @@
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_uu_pie.js') ?>"></script>
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_pd_box.js') ?>"></script>
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_scatter.js') ?>"></script>
+<script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_b401a_pie.js') ?>"></script>
+<script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
 
 
 <!-- for download chart -->

@@ -14,6 +14,14 @@ class Riset4HasilSpModel extends Model
         return $this->where(["b409a" => $uu])->countAllResults();
     }
 
+    public function getUnitUsahaTIK1($b401a){
+        return $this->where(["b401a" => $b401a])->countAllResults();
+    }
+
+    public function getUnitUsahaTIK2($b407a){
+        return $this->where(["b407a" => $b407a])->countAllResults();
+    }
+
     public function getPendapatan(){
         // get all row in column b309
         $pendapatan = $this->select('b309')->findAll();

@@ -246,6 +246,18 @@ class Dasbor extends BaseController
                     'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
                 ];
 
+                $b401a = [
+                    'tidak' => $this->unitusahaTIK->getUnitUsahaTIK1(1),
+                    'ya' => $this->unitusahaTIK->getUnitUsahaTIK1(2),
+                ];
+
+                $b407a = [
+                    'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
+                    'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
+                    'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
+                    'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
+                ];
+
                 $pd = $this->pendapatan->getPendapatan();
 
                 $menu = getMenu();
@@ -254,7 +266,9 @@ class Dasbor extends BaseController
                     'judul' => $judul,
                     'menu' => $menu[$riset],
                     'uu' => $uu,
-                    'pd' => $pd
+                    'pd' => $pd,
+                    'b401a' => $b401a,
+                    'b407a' => $b407a,
                 ];
                 break;
         }

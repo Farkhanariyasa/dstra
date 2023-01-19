@@ -18,6 +18,26 @@
     </div>
 </div>
 
+<!-- Riset 4 Hasil 1 -->
+<div class="portfolio-item filter-riset4-hasil1">
+    <div class="container mt-5">
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
+            <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
+                <div class="position-relative">
+                    <div class="position-absolute top-0 end-0">
+                        <!-- tambah modal -->
+                        <!-- <button class="tombol btn-for" id="btndownload3"><i class="fa-solid fa-download"></i></button> -->
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1-3">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="hasil2"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Riset 4 Hasil 2 -->
 <div class="portfolio-item filter-riset4-hasil2">
     <div class="container mt-5">
@@ -32,7 +52,27 @@
                         </button>
                     </div>
                 </div>
-                <canvas id="hasil2"></canvas>
+                <canvas id="hasil5"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Riset 4 Hasil 2 -->
+<div class="portfolio-item filter-riset4-hasil2">
+    <div class="container mt-5">
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
+            <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
+                <div class="position-relative">
+                    <div class="position-absolute top-0 end-0">
+                        <!-- tambah modal -->
+                        <!-- <button class="tombol btn-for" id="btndownload3"><i class="fa-solid fa-download"></i></button> -->
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1-3">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="hasil3"></canvas>
             </div>
         </div>
     </div>
