@@ -17,6 +17,7 @@ class Dasbor extends BaseController
     // RISET 1
     protected $jumlahanggota;
     protected $hasilsp2;
+    protected $simcard;
 
     // RISET 2
     protected $jeniskelamin;
@@ -36,6 +37,7 @@ class Dasbor extends BaseController
         // RISET 1
         $this->jumlahanggota = new Riset1HasilSpModel();
         $this->hasilsp2 = new Riset1HasilSpModel();
+        $this->simcard = new Riset1HasilSpModel();
 
         // RISET 2
         $this->jeniskelamin = new Riset2HasilSpModel();
@@ -105,6 +107,23 @@ class Dasbor extends BaseController
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata6(2),
                 ];
 
+                $indosat = [
+                    "ya"=>$this->simcard->getindosat(1)
+                ];
+                $xl = [
+                    "ya"=>$this->simcard->getxlaxiata(1)
+                ];
+                $tri = [
+                    "ya"=>$this->simcard->get3(1)
+                ];
+                $smartfren = [
+                    "ya"=>$this->simcard->getsmartfren(1),
+                ];
+                $lainnya = [
+                    "ya"=>$this->simcard->getlainnya(1),
+                ];
+                
+                
                 $menu = getMenu();
 
                 $data = [
@@ -118,6 +137,11 @@ class Dasbor extends BaseController
                     'b527' => $b527,
                     'b528' => $b528,
                     'b529' => $b529,
+                    'indosat'=> $indosat,
+                    'xl'=>$xl,
+                    'tri'=>$tri,
+                    'smartfren'=>$smartfren,
+                    'lainnya'=>$lainnya
                 ];
                 break;
 
