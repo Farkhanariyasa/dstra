@@ -22,7 +22,7 @@
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                        <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for text-decoration-none">
                             <span>Hasil PKL</span>
                             <i class="fas fa-arrow-circle-right"></i>
                         </a>
@@ -53,27 +53,35 @@
                     (Koranti, Sriyanto & Sidik, 2017). Hal ini penting untuk dianalisis apakah untuk menentukan
                     seseorang termasuk ke dalam satu rumah tangga dapat diidentifikasi berdasarkan usual environment dan
                     pola perjalanan wisata yang dilakukan melalui MPD.
+                    <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        [<strong><i>Tampilkan Semua</i></strong>]
+                    </a>
                 </p>
-                <p class="text-justify">
-                    Setiap operator baik Telkomsel maupun Indosat memungkinkan mempunyai hasil mobile positioning
-                    berbeda satu sama lain, bahkan juga di operator itu sendiri meskipun orang tersebut berada di lokasi
-                    dan waktu yang sama. Penyebabnya adalah jarak tower seluler (BTS) tiap operator dan aktivitas
-                    seluler masing-masing pengguna berpengaruh, sehingga data mobile positioning yang dihasilkan tidak
-                    sama. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel sebagai penentu mobile
-                    positioning, wisatawan tersebut akan terhitung sebanyak dua kali. Dengan kata lain akan terjadi
-                    double counting pada data MPD.
-                </p>
-                <p class="text-justify">
-                    Dibalik kelebihan yang ditawarkannya, MPD juga memiliki kelemahan dalam mengumpulkan data wisatawan.
-                    Salah satunya adalah informasi mengenai karakteristik pengguna tidak dapat diperoleh jika hanya
-                    menggunakan MPD tanpa melakukan survei. Hal ini diperkuat juga dengan sulitnya mengestimasi jumlah
-                    perjalanan wisata di dalam kabupaten/kota (setingkat kecamatan) yang disebabkan tidak meratanya
-                    ketersediaan Base Transceiver Station (BTS) di setiap kecamatan di Indonesia. Apabila data wisata
-                    dalam kabupaten/kota ini tidak tertangkap, kekurangan data wisatawan akan terjadi. Selain itu, MPD
-                    juga tidak bisa menangkap jumlah perjalanan wisata yang tidak melibatkan penggunaan telepon seluler.
-                    Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat dibutuhkannya data wisata yang
-                    komprehensif dalam hal pengembangan wisata guna memulihkan sektor pariwisata.
-                </p>
+                <div class="collapse" id="collapseExample">
+                    <p class="text-justify">
+                        Setiap operator baik Telkomsel maupun Indosat memungkinkan mempunyai hasil mobile positioning
+                        berbeda satu sama lain, bahkan juga di operator itu sendiri meskipun orang tersebut berada di lokasi
+                        dan waktu yang sama. Penyebabnya adalah jarak tower seluler (BTS) tiap operator dan aktivitas
+                        seluler masing-masing pengguna berpengaruh, sehingga data mobile positioning yang dihasilkan tidak
+                        sama. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel sebagai penentu mobile
+                        positioning, wisatawan tersebut akan terhitung sebanyak dua kali. Dengan kata lain akan terjadi
+                        double counting pada data MPD.
+                    </p>
+                    <p class="text-justify">
+                        Dibalik kelebihan yang ditawarkannya, MPD juga memiliki kelemahan dalam mengumpulkan data wisatawan.
+                        Salah satunya adalah informasi mengenai karakteristik pengguna tidak dapat diperoleh jika hanya
+                        menggunakan MPD tanpa melakukan survei. Hal ini diperkuat juga dengan sulitnya mengestimasi jumlah
+                        perjalanan wisata di dalam kabupaten/kota (setingkat kecamatan) yang disebabkan tidak meratanya
+                        ketersediaan Base Transceiver Station (BTS) di setiap kecamatan di Indonesia. Apabila data wisata
+                        dalam kabupaten/kota ini tidak tertangkap, kekurangan data wisatawan akan terjadi. Selain itu, MPD
+                        juga tidak bisa menangkap jumlah perjalanan wisata yang tidak melibatkan penggunaan telepon seluler.
+                        Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat dibutuhkannya data wisata yang
+                        komprehensif dalam hal pengembangan wisata guna memulihkan sektor pariwisata.
+                        <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            [<strong><i>Tampilkan Sebagian</i></strong>]
+                        </a>
+                    </p>
+                </div>    
             </div>
         </div>
     </section>
