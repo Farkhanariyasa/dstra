@@ -13,10 +13,6 @@
     <script src="https://kit.fontawesome.com/e0bb680df5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Landing Page CSS-->
-    <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('pvd/css/navbar.css') ?>">
-
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -49,6 +45,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
+    <!-- Landing Page CSS-->
+    <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('pvd/css/navbar.css') ?>">
 </head>
 
 <body id="page-top">
