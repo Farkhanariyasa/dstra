@@ -36,6 +36,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
         $routes->get('/', 'LandingPage::riset/$1');
         $routes->get('dasbor', 'Dasbor::index/$1');
+
+        $routes->post('unduh','UnduhHasilPkl::unduh/$1');
     });
 });
 
