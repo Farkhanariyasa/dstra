@@ -297,6 +297,17 @@ transform: translateX(5px);
 .hero .hero-img {
 text-align: right;
 }
+
+.dropdownunduh1{
+    background-color: #506396;
+    border: transparent;
+    border-radius: 25px;
+    height: 30px;
+    color: white;
+    padding-left: 7px;
+    width: 155px;
+}
+
 @media (min-width: 1024px) {
 .hero {
     background-attachment: fixed;
