@@ -15,20 +15,20 @@
 
     <hr class="hrjudul">
 
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-lg-12 d-flex justify-content-center" >
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset3-hasil1">Hasil 1</li>
-          <li data-filter=".filter-riset3-hasil2">Hasil 2</li>
-          <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset3-tabeldummy">Hasil 4</li>
-
+          <li data-filter=".filter-riset4-hasil1">Hasil 1</li>
+          <li data-filter=".filter-riset4-hasil2">Hasil 2</li>
+          <li data-filter=".filter-riset4-hasil3">Hasil 3</li>
+          <li data-filter=".filter-riset4-hasil4">Hasil 4</li>
         </ul>
       </div>
-    </div> -->
+    </div>
 
-    <div class="row">
+    <!-- Kotak-Kotak Grafik Kosong -->
+    <!-- <div class="row">
       <div class="col-sm-6 my-2">
         <div class="card">
           <div class="card-body">
@@ -124,7 +124,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row portfolio-container" >
       <?php include('dummy_riset4.php') ?>
