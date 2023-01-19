@@ -20,7 +20,7 @@
         </p>
         <div data-aos="fade-up" data-aos-delay="200">
           <div class="text-center text-lg-start my-5">
-            <a href="#about" class="tombol btn-for">
+            <a href="#riset1" class="tombol btn-for">
               <span>Selengkapnya</span>
               <i class="bi bi-arrow-right fas fa-arrow-circle-right"></i>
             </a>
@@ -89,12 +89,17 @@
     </div>
     </section> <!-- End Hero -->
 
+    <hr id="riset1">    
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- riset 1 -->
-    <div class="container mt-3">
+    <div class="container mt-3"> 
       <div class="row">
-        <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center">
+        <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center" >
           <div class="d-flex flex-row align-items-center justify-content-center ">
-            <h1 data-aos="fade-up" class=" foreachriset">Riset 1</h1>
+            <h1 data-aos="fade-up" class=" foreachriset" >Riset 1</h1>
           </div>
         </div>
         <div class="col-lg-1 col-md-1 d-flex flex-row  justify-content-center">
@@ -102,7 +107,7 @@
         </div>
         <div class="col-lg-7 col-md-8  " data-aos="zoom-out" data-aos-delay="200">
           <div class="row-2 d-flex align-items-center flex-row justify-content-center ">
-            <h3 data-aos="fade-up">
+            <h3 data-aos="fade-up" >
               Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
             </h3>
           </div>
