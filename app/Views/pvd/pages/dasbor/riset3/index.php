@@ -19,7 +19,8 @@
           <li data-filter=".filter-riset3-hasil1">Hasil 1</li>
           <li data-filter=".filter-riset3-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset3-tabeldummy">Hasil 4</li>
+          <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset3-tabeldummy">Hasil 5</li>
 
         </ul>
       </div>
@@ -79,6 +80,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_doughnut.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
 
 
 <!-- <script src="<?= base_url('pvd/js/riset3/bar.js') ?>"></script>
@@ -90,6 +92,9 @@
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+
+<!-- form validation -->
+<script src="email.js"></script>
 
 </section><!-- End -->
 

@@ -5,10 +5,7 @@ const batang =new Chart(ctx, {
         labels: [
             'jasa akomodasi',
             'jasa makan dan minum',
-            'jasa angkutan rel',
             'jasa angkutan darat',
-            'jasa angkutan air',
-            'jasa angkutan udara',
             'jasa angkutan udara',
             'Agen perjalanan dan reservasi lainnya',
             'Jasa kebudayaan, olahraga dan rekreasi',
@@ -17,12 +14,10 @@ const batang =new Chart(ctx, {
         ],
         datasets: [{
             label: 'Jenis Industri',
-            data: [  datajenisindustri.ji1,
+            data: [  
+                datajenisindustri.ji1,
                 datajenisindustri.ji2,
-                datajenisindustri.ji3,
                 datajenisindustri.ji4,
-                datajenisindustri.ji5,
-                datajenisindustri.ji6,
                 datajenisindustri.ji7,
                 datajenisindustri.ji8,
                 datajenisindustri.ji9,
@@ -70,27 +65,23 @@ function tampilData(){
         batang.data.datasets[0].data = 
             [   datajenisindustri.ji1,
                 datajenisindustri.ji2,
-                datajenisindustri.ji3,
                 datajenisindustri.ji4,
-                datajenisindustri.ji5,
-                datajenisindustri.ji6,
                 datajenisindustri.ji7,
                 datajenisindustri.ji8,
                 datajenisindustri.ji9,
                 datajenisindustri.ji10,
                 datajenisindustri.ji11,
             ];
-            batang.data.labels = ['jasa akomodasi',
-            'jasa makan dan minum',
-            'jasa angkutan rel',
-            'jasa angkutan darat',
-            'jasa angkutan air',
-            'jasa angkutan udara',
-            'jasa angkutan udara',
-            'Agen perjalanan dan reservasi lainnya',
-            'Jasa kebudayaan, olahraga dan rekreasi',
-            'Aktivitas perdagangan barang-barang pariwisata',
-            'jasa pariwisata lainnya'];
+            batang.data.labels = [
+                'jasa akomodasi',
+                'jasa makan dan minum',
+                'jasa angkutan darat',
+                'jasa angkutan udara',
+                'Agen perjalanan dan reservasi lainnya',
+                'Jasa kebudayaan, olahraga dan rekreasi',
+                'Aktivitas perdagangan barang-barang pariwisata',
+                'jasa pariwisata lainnya'
+            ];
             // console.log(batang.data.datasets[0].data)
             batang.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
             batang.update();

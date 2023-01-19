@@ -2893,6 +2893,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: auto;
   -webkit-appearance: button;
 }
 
@@ -2954,6 +2955,7 @@ legend+* {
 
 [type="search"] {
   outline-offset: -2px;
+  appearance: auto;
   -webkit-appearance: textfield;
 }
 
@@ -5337,7 +5339,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .form-check-input[type="checkbox"] {
@@ -16033,6 +16035,7 @@ body {
 
 .form-control,
 .form-control:focus {
+  box-shadow: 5px 10px #888888;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
@@ -20280,7 +20283,7 @@ dl li {
   -ms-transition: width 0.25s ease;
   color: #9c9fa6;
   padding-left: 24px;
-  padding-right: 24px;
+  padding-right: 50px;
   width: calc(100% - 260px);
   height: 70px;
 }
@@ -20833,7 +20836,6 @@ dl li {
 
 /* Sidebar */
 .sidebar {
-
   min-height: calc(100vh - 70px);
   background: #506396;
   font-family: "ubuntu-regular", sans-serif;

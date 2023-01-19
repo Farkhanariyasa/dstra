@@ -7,15 +7,15 @@
                 <h4 class="modal-title" id="exampleModalLabel">dasbor Bar Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
-                        <label for="recipient-name" class="col-form-label">Nama</label>
+                        <label for="recipient-name" class="col-form-label" >Nama</label>
                         <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
                     <div class="mb-1">
-                        <label for="recipient-name" class="col-form-label">Email</label>
-                        <input type="text" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                        <label for="recipient-name" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text" onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi</label>
@@ -39,15 +39,15 @@
                 <h4 class="modal-title" id="exampleModalLabel">dasbor Pie Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama</label>
                         <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
                     <div class="mb-1">
-                        <label for="recipient-name" class="col-form-label">Email</label>
-                        <input type="text" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                        <label for="recipient-name" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text"   onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi</label>
@@ -71,15 +71,15 @@
                 <h4 class="modal-title" id="exampleModalLabel">dasbor D Chart</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" name="nama" class="col-form-label">Nama</label>
                         <input type="text" class="form-control" id="recipient-name" placeholder="Nama Anda">
                     </div>
                     <div class="mb-1">
-                        <label for="recipient-name" name="email" class="col-form-label">Email</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+                        <label for="recipient-name" name="email" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text"   onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" id="recipient-name" placeholder="Email Anda">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" name="instansi" class="col-form-label">Instansi</label>
