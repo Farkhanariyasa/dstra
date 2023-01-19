@@ -85,12 +85,12 @@
  pieChart.addEventListener('change', tampilData);
    
  function tampilData(){
-     console.log(pieChart.value);
      // pieChart.value.split(',');
      // batang.data.datasets[0].data=pieChart.value.split(',');
      // batang.update();
      if (pieChart.value =='a') {
-         pie.data.datasets[0].data = 
+          console.log(pieChart.value);
+          pie.data.datasets[0].data = 
              [   datajenisindustri.ji1,
                  datajenisindustri.ji2,
                  datajenisindustri.ji3,
@@ -115,10 +115,11 @@
              'Aktivitas perdagangan barang-barang pariwisata',
              'jasa pariwisata lainnya'];
              // console.log(batang.data.datasets[0].data)
-             console.log('jenisindustri');
-             
+             pie.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
              pie.update();
-     } else {
+
+     } if (pieChart.value =='b') {
+             console.log(pieChart.value);
              pie.data.datasets[0].data = 
              [   
                  datapendidikantertinggi.pt1,
@@ -142,8 +143,22 @@
              'S1/S2/S3'
              ];
              // console.log(pie.data.datasets[0].data)
-             console.log('pendidikan tertinggi');
- 
+             
+             pie.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Pendidikan Tertinggi';
+             pie.update();
+     } if (pieChart.value =='c'){
+            console.log(pieChart.value);
+            pie.data.datasets[0].data = 
+             [   
+                datajeniskelamin_riset3.jk_11,
+                datajeniskelamin_riset3.jk_12
+             ];
+             pie.data.labels = ['Laki-laki',
+             'Perempuan'
+             ];
+             
+             // console.log(doughnut.data.datasets[0].data)
+             pie.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
              pie.update();
      }
  }

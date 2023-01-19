@@ -4,21 +4,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">dasbor Bar Chart</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Nama</label>
+                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasib</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>   
@@ -28,21 +36,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">dasbor Pie Chart</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Nama</label>
+                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="btndownload" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
+                </div>
+            </form>
         </div>
     </div>
 </div> 
@@ -52,21 +68,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">dasbor D Chart</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
+            <form action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" name="nama" class="col-form-label">Nama</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Nama Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" name="email" class="col-form-label">Email</label>
                         <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" name="instansi" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Instansi Asal ">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit"id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>   

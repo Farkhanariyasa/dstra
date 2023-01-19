@@ -36,6 +36,7 @@ const batang = new Chart(riset1_hasil1, {
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
@@ -46,7 +47,7 @@ const batang = new Chart(riset1_hasil1, {
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
@@ -92,6 +93,8 @@ function tampilData(){
                 'Laki-laki',
                 'Perempuan'
             ];
+        
+        batang.options.plugins.title.text = 'Jenis Kelamin';
             // console.log(batang.data.datasets[0].data)
             batang.update();
     } else {
@@ -113,6 +116,8 @@ function tampilData(){
                 'Jumlah Anggota 4',
                 'Jumlah Anggota 5'
             ];
+
+            batang.options.plugins.title.text = 'Banyaknya Rumah Tangga berdasarkan Jumlah Anggota yang melakukan perjalanan';
             // console.log(batang.data.datasets[0].data)
             batang.update();
     }

@@ -16,8 +16,8 @@ const batang =new Chart(ctx, {
             'jasa pariwisata lainnya'
         ],
         datasets: [{
-            label: 'Pendidikan Tertinggi',
-            data: [   datajenisindustri.ji1,
+            label: 'Jenis Industri',
+            data: [  datajenisindustri.ji1,
                 datajenisindustri.ji2,
                 datajenisindustri.ji3,
                 datajenisindustri.ji4,
@@ -31,11 +31,12 @@ const batang =new Chart(ctx, {
             ],
             borderWidth: 1,
             backgroundColor: [
-                "#4b395f"
+                "#6f617f"
             ],
         }]
     },
     options: {
+    responsive:true,
     scales: {
         y: {
         beginAtZero: true
@@ -48,22 +49,24 @@ const batang =new Chart(ctx, {
             font: {
                 size: 20
             }
-          }
+          },
+        legend:{
+            display: false
+          } 
         },
     maintainAspectRatio: false
     }
 });
 
 const barChart = document.getElementById('forBarChart');
-
 barChart.addEventListener('change', tampilData);
   
 function tampilData(){
-    console.log(barChart.value);
     // barChart.value.split(',');
     // batang.data.datasets[0].data=barChart.value.split(',');
     // batang.update();
     if (barChart.value =='a') {
+        console.log(barChart.value);
         batang.data.datasets[0].data = 
             [   datajenisindustri.ji1,
                 datajenisindustri.ji2,
@@ -89,10 +92,11 @@ function tampilData(){
             'Aktivitas perdagangan barang-barang pariwisata',
             'jasa pariwisata lainnya'];
             // console.log(batang.data.datasets[0].data)
-            console.log('jenisindustri');
-
+            batang.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
             batang.update();
-    } else {
+
+    } if (barChart.value =='b') {
+            console.log(barChart.value);
             batang.data.datasets[0].data = 
             [   
                 datapendidikantertinggi.pt1,
@@ -116,8 +120,22 @@ function tampilData(){
             'S1/S2/S3'
             ];
             // console.log(batang.data.datasets[0].data)
-            console.log('pendidikan tertinggi');
-
+            batang.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Pendidikan Tertinggi ';
             batang.update();
+
+    } if (barChart.value =='c') {
+            console.log(barChart.value);
+            batang.data.datasets[0].data = 
+            [   
+                datajeniskelamin_riset3.jk_11,
+                datajeniskelamin_riset3.jk_12
+            ];
+            batang.data.labels = ['Laki-laki',
+            'Perempuan'
+            ];
+            // console.log(batang.data.datasets[0].data)
+            batang.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+            batang.update();
+
     }
 }

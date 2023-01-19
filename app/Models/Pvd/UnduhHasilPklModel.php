@@ -13,7 +13,7 @@ class UnduhHasilPklModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['email','nama','instansi'];
 
     // Dates
     protected $useTimestamps = false;

@@ -63,13 +63,14 @@
     </div>
   </div>
 </section>
-<script>
+
+<!-- <script>
     var map = L.map('map').setView([51.505, -0.09], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
 
-</script>
+</script> -->
 
 <script>
     $(document).ready(function() {
@@ -88,21 +89,23 @@
 <script>
     const datajeniskelamin = <?= json_encode($jk);?>;
     const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
-    // const hasil1 =  ?>;
+    const datapendidikantertinggi_riset2 = <?= json_encode($pt_2); ?>;
 </script>
 
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jpu_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
+
 <script src="<?= base_url('assets/PVD/js/main.js') ?>"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --> -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.2/chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
-<!-- </section> End Portfolio Section -->
 
 <?= $this->endSection(); ?>
