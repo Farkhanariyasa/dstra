@@ -17,7 +17,9 @@
 
 </body>
 <script>
-  AOS.init();
+  AOS.init({
+    once: true,
+  });
 </script>
 
 </html>
