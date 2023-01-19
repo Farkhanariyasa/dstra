@@ -48,7 +48,7 @@
   </div>
   </section><!-- End Hero -->
 
-  <section class="hero d-flex align-items-center" style="height: 80vh;">
+  <section class="hero d-flex align-items-center" style="height: fit-content;">
   <!-- About STIS & Angkatan 62 -->
   <div class="container ">
     <div class="row">
