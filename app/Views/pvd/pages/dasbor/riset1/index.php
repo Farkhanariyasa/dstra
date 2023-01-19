@@ -3,7 +3,7 @@
 <?= $this->section('content'); ?>
 
 <section id="portfolio" class="portfolio section-bg">
-    <div class="container" data-aos="fade-up">
+    <div class="container">
 
         <header class="section-header">
             <p>Kajian Pemanfaatan Mobile Positioning Data (MPD) dalam Menunjang Statistik Pariwisata</p>
@@ -11,7 +11,7 @@
         <hr class="hrjudul">
 
         <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">Semua</li>
                     <li data-filter=".filter-hasil1">Hasil 1</li>
@@ -45,6 +45,11 @@
         const mpw4 = <?= json_encode($b527) ?>;
         const mpw5 = <?= json_encode($b528) ?>;
         const mpw6 = <?= json_encode($b529) ?>;
+        const indosat = <?= json_encode($indosat) ?>;
+        const xl = <?= json_encode($xl) ?>;
+        const tri = <?= json_encode($tri) ?>;
+        const smartfren = <?= json_encode($smartfren) ?>;
+        const lainnya = <?= json_encode($lainnya) ?>;
     </script>
 
     <!-- chart -->
