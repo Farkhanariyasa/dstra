@@ -30,7 +30,7 @@
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="<?= base_url('hasil-pkl/riset4/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                        <a id="tombol" href="<?= base_url('hasil-pkl/riset4/dasbor') ?>" class="tombol btn-for text-decoration-none">
                             <span>Hasil PKL</span>
                             <i class="fas fa-arrow-circle-right"></i>
                         </a>
@@ -61,56 +61,64 @@
                     dengan jumlah wisatawan nusantara tertinggi, yakni sebesar 125,34 juta orang. Salah satu tujuan wisata unggulan di
                     Jawa Timur adalah Kota Batu yang memiliki beraneka ragam wisata dengan pariwisata sebagai sektor andalan dalam
                     menunjang perekonomian daerahnya.
+                    <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        [<strong><i>Tampilkan Semua</i></strong>]
+                    </a>
                 </p>
-                <p class="text-justify">
-                    Kota Batu juga memiliki posisi dan peran sebagai Kota Wisata, bahkan pemerintah daerah Kota Batu juga memiliki
-                    rencana untuk meningkatkan posisi dan peran Kota Batu dari Kota Wisata menjadi Sentra Wisata. Selain itu, berdasarkan
-                    jurnal Seminar Nasional Kepariwisataan oleh Hidayatullah dkk (2021), Batu dikenal sebagai salah satu kota wisata
-                    terkemuka di Indonesia karena potensi keindahan alam yang luar biasa dan dijuluki sebagai De Kleine Zwitserland atau
-                    Swiss Kecil di Pulau Jawa.
-                </p>
-                <p class="text-justify">
-                    Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, penelitian ini ingin melihat kesiapan Kota Batu dalam
-                    menerapkan Smart Tourism Destination (STD). Werthner dan Klein (1999) mendefinisikan smart tourism sebagai cara untuk
-                    memperoleh informasi pariwisata dengan memanfaatkan teknologi informasi dan komunikasi yang berguna untuk pemulihan
-                    pariwisata. Smart tourism berfokus pada beberapa tujuan yang berkaitan dengan pemenuhan kebutuhan wisatawan dengan
-                    memanfaatkan perkembangan TIK, mempromosikan, dan memperbesar skala industri pariwisata secara lebih luas dengan
-                    menggunakan platform informasi real time. Sedangkan konsep smart tourism destination merupakan penggabungan konsep
-                    antara smart city dan tourism destination atau dijelaskan sebagai keterhubungan dinamis melalui platform teknologi
-                    di mana informasi berkaitan dengan kegiatan pariwisata dapat diubah secara instan dan memiliki banyak informasi yang
-                    dapat diakses melalui berbagai perangkat pengguna yang akan meningkatkan efektivitas pengelolaan sumber daya
-                    pariwisata.
-                </p>
-                <p class="text-justify">
-                    Adapun pada tahun 2021, laju pertumbuhan ekonomi di Kota Batu kembali pada angka positif. Meskipun terjadi kenaikan,
-                    angka PDRB pada tahun 2021 belum dapat melampaui angka PDRB pada tahun 2019, yakni sebelum adanya pandemi Covid-19.
-                    Berdasarkan data yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk bagi unit usaha pariwisata di Kota
-                    Batu. Selain itu, jumlah kunjungan wisatawan di Kota Batu juga mengalami penurunan jika dibandingkan dengan periode
-                    sebelumnya. Berdasarkan data Badan Pusat Statistik (BPS) pada tahun 2020, jumlah kunjungan wisatawan mancanegara pada
-                    bulan Februari 2020 mengalami kontraksi hingga 30,42 persen dibandingkan pada Januari 2020 dan turun 28,85 persen
-                    dibandingkan dengan periode yang sama pada tahun sebelumnya. Adanya penurunan PDRB, kontraksi pada beberapa lapangan
-                    usaha pariwisata di Kota Batu, dan penurunan jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 dapat
-                    mengindikasikan bahwa pariwisata menjadi sektor yang krusial bagi perekonomian Kota Batu sehingga perlu dilakukan
-                    upaya pemulihan.
-                </p>
-                <p class="text-justify">
-                    Terdapat beberapa penelitian mengenai keberhasilan penerapan Smart Tourism Destination pada beberapa kota di
-                    Indonesia. Salah satu penelitiannya yaitu terkait Tourism Experience dari Smart Tourism Destination di Kota Bandung
-                    yang dilakukan oleh Sari, Linda Puspita dkk (2020), menunjukkan bahwa STD cukup dalam meningkatkan tourist experience
-                    di kota tersebut. Selain itu, penelitian oleh Damayanti dkk (2020) terkait penerapan Smart Tourism Destination di
-                    Kota Semarang juga memaparkan bahwa terdapat beberapa perkembangan di sektor pariwisata Kota Semarang yang telah
-                    mengadopsi perkembangan informasi dan teknologi saat ini melalui aplikasi WisSemar, website, media sosial, dan
-                    lain-lain.
-                </p>
-                <p class="text-justify">
-                    Dikarenakan keberhasilan penerapan Smart Tourism Destination pada beberapa kota di Indonesia, maka ketika konsep
-                    tersebut diterapkan secara lebih optimal di Kota Batu harapannya dapat mengatasi permasalahan di sektor pariwisata
-                    dengan cepat dan efektif khususnya pada usaha pariwisata. Untuk mewujudkan hal tersebut, dalam RPJMD Kota Batu,
-                    pemerintahan daerah Kota Batu memiliki tujuan untuk menjadikan Kota Batu sebagai Smart City dengan basis wisata.
-                    Salah satu aspek penting untuk mewujudkannya yaitu dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
-                    secara menyeluruh bagi masyarakat khususnya unit usaha pariwisata melalui penerapan Smart Tourism Destination. Oleh
-                    karena itu, perlu dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit usaha pariwisata di Kota Batu.
-                </p>
+                <div class="collapse" id="collapseExample">
+                    <p class="text-justify">
+                        Kota Batu juga memiliki posisi dan peran sebagai Kota Wisata, bahkan pemerintah daerah Kota Batu juga memiliki
+                        rencana untuk meningkatkan posisi dan peran Kota Batu dari Kota Wisata menjadi Sentra Wisata. Selain itu, berdasarkan
+                        jurnal Seminar Nasional Kepariwisataan oleh Hidayatullah dkk (2021), Batu dikenal sebagai salah satu kota wisata
+                        terkemuka di Indonesia karena potensi keindahan alam yang luar biasa dan dijuluki sebagai De Kleine Zwitserland atau
+                        Swiss Kecil di Pulau Jawa.
+                    </p>
+                    <p class="text-justify">
+                        Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, penelitian ini ingin melihat kesiapan Kota Batu dalam
+                        menerapkan Smart Tourism Destination (STD). Werthner dan Klein (1999) mendefinisikan smart tourism sebagai cara untuk
+                        memperoleh informasi pariwisata dengan memanfaatkan teknologi informasi dan komunikasi yang berguna untuk pemulihan
+                        pariwisata. Smart tourism berfokus pada beberapa tujuan yang berkaitan dengan pemenuhan kebutuhan wisatawan dengan
+                        memanfaatkan perkembangan TIK, mempromosikan, dan memperbesar skala industri pariwisata secara lebih luas dengan
+                        menggunakan platform informasi real time. Sedangkan konsep smart tourism destination merupakan penggabungan konsep
+                        antara smart city dan tourism destination atau dijelaskan sebagai keterhubungan dinamis melalui platform teknologi
+                        di mana informasi berkaitan dengan kegiatan pariwisata dapat diubah secara instan dan memiliki banyak informasi yang
+                        dapat diakses melalui berbagai perangkat pengguna yang akan meningkatkan efektivitas pengelolaan sumber daya
+                        pariwisata.
+                    </p>
+                    <p class="text-justify">
+                        Adapun pada tahun 2021, laju pertumbuhan ekonomi di Kota Batu kembali pada angka positif. Meskipun terjadi kenaikan,
+                        angka PDRB pada tahun 2021 belum dapat melampaui angka PDRB pada tahun 2019, yakni sebelum adanya pandemi Covid-19.
+                        Berdasarkan data yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk bagi unit usaha pariwisata di Kota
+                        Batu. Selain itu, jumlah kunjungan wisatawan di Kota Batu juga mengalami penurunan jika dibandingkan dengan periode
+                        sebelumnya. Berdasarkan data Badan Pusat Statistik (BPS) pada tahun 2020, jumlah kunjungan wisatawan mancanegara pada
+                        bulan Februari 2020 mengalami kontraksi hingga 30,42 persen dibandingkan pada Januari 2020 dan turun 28,85 persen
+                        dibandingkan dengan periode yang sama pada tahun sebelumnya. Adanya penurunan PDRB, kontraksi pada beberapa lapangan
+                        usaha pariwisata di Kota Batu, dan penurunan jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 dapat
+                        mengindikasikan bahwa pariwisata menjadi sektor yang krusial bagi perekonomian Kota Batu sehingga perlu dilakukan
+                        upaya pemulihan.
+                    </p>
+                    <p class="text-justify">
+                        Terdapat beberapa penelitian mengenai keberhasilan penerapan Smart Tourism Destination pada beberapa kota di
+                        Indonesia. Salah satu penelitiannya yaitu terkait Tourism Experience dari Smart Tourism Destination di Kota Bandung
+                        yang dilakukan oleh Sari, Linda Puspita dkk (2020), menunjukkan bahwa STD cukup dalam meningkatkan tourist experience
+                        di kota tersebut. Selain itu, penelitian oleh Damayanti dkk (2020) terkait penerapan Smart Tourism Destination di
+                        Kota Semarang juga memaparkan bahwa terdapat beberapa perkembangan di sektor pariwisata Kota Semarang yang telah
+                        mengadopsi perkembangan informasi dan teknologi saat ini melalui aplikasi WisSemar, website, media sosial, dan
+                        lain-lain.
+                    </p>
+                    <p class="text-justify">
+                        Dikarenakan keberhasilan penerapan Smart Tourism Destination pada beberapa kota di Indonesia, maka ketika konsep
+                        tersebut diterapkan secara lebih optimal di Kota Batu harapannya dapat mengatasi permasalahan di sektor pariwisata
+                        dengan cepat dan efektif khususnya pada usaha pariwisata. Untuk mewujudkan hal tersebut, dalam RPJMD Kota Batu,
+                        pemerintahan daerah Kota Batu memiliki tujuan untuk menjadikan Kota Batu sebagai Smart City dengan basis wisata.
+                        Salah satu aspek penting untuk mewujudkannya yaitu dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
+                        secara menyeluruh bagi masyarakat khususnya unit usaha pariwisata melalui penerapan Smart Tourism Destination. Oleh
+                        karena itu, perlu dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit usaha pariwisata di Kota Batu.
+                        <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            [<strong><i>Tampilkan Sebagian</i></strong>]
+                        </a>
+                    </p>
+                </div>    
             </div>
         </div>
     </section>
