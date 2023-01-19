@@ -1,7 +1,6 @@
 <?= $this->extend('pvd/layout/landing_page/template'); ?>
 
 <?= $this->section('content'); ?>
-<section>
 <section id="hero" class="hero d-flex align-items-center">
 
   <!-- PKL 62 -->
@@ -53,10 +52,10 @@
   <div class="container ">
     <div class="row">
       <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
-        <div data-aos="fade-up" class="card62" id="card1">
-          <div class="card-body d-grid rounded bg-white pr-4 pl-4">
+        <div data-aos="fade-up" class="card62 shadow">
+          <div class="card-body d-grid rounded pr-4 pl-4">
             <h5 class="card-title text-center h5judullp mt-4">Politeknik Statistika STIS</h5>
-            <p class="card-text text-center pdesclp text-justify">Politeknik Statistika STIS adalah perguruan tinggi
+            <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
               kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
               Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
               secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
@@ -70,16 +69,17 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
-        <div data-aos="fade-up" class="card62" id="card2">
-          <div class="card-body d-grid rounded bg-white pr-4 pl-4">
+        <div data-aos="fade-up" class="card62 shadow">
+          <div class="card-body d-grid rounded pr-4 pl-4 ">
             <h5 class="card-title text-center h5judullp mt-4">Angkatan 62</h5>
-            <p class="card-text text-center pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+            <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
               kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
               Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
               secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
               di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
               Tinggi.
             </p>
+            <br id="riset1">
             <div class="img text-center mb-4">
               <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
             </div>
@@ -87,14 +87,10 @@
         </div>
       </div>
     </div>
-    </section> <!-- End Hero -->
+    </section> <!-- End About -->
 
     
-    <br id="riset1">
-    <br>
-    <br>
-    <br>
-    <br>
+    <section class="hero">
     <!-- riset 1 -->
     <div class="container mt-3"> 
       <div class="row">
@@ -106,32 +102,34 @@
         <div class="col-lg-1 col-md-1 d-flex flex-row  justify-content-center">
           <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
         </div>
-        <div class="col-lg-7 col-md-8  " data-aos="zoom-out" data-aos-delay="200">
-          <div class="row-2 d-flex align-items-center flex-row justify-content-center ">
-            <h3 data-aos="fade-up" >
-              Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
-            </h3>
-          </div>
-          <div class="row-8 ">
-            <p class="card-text  text-left pdesclp">
-              Kota Batu sebagai salah satu kota wisata di Indonesia turut
-              merasakan dampak pandemi Covid-19, khususnya pada unit usaha
-              pariwisata. Pelaku dari unit usaha pariwisata belum memiliki
-              kecakapan dalam bidang teknis dalam hal penggunaan teknologi,
-              termasuk di dalamnya meliputi penerimaan dan pengadopsian TIK
-              di bidang pariwisata. Menurunnya jumlah kunjungan wisatawan
-              diikuti dengan peningkatan penggunaan internet pada masa pandemi
-              menjadi indikasi bahwa pemanfaatan internet serta TIK dalam
-              menunjang kegiatan pariwisata belum optimal.
-            </p>
-          </div>
-          <div class="row-2  d-flex flex-row justify-content-center align-items-center">
-            <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start my-5">
-                <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
-                  <span>Selengkapnya</span>
-                  <i class="fas fa-arrow-circle-right"></i>
-                </a>
+        <div class="card62 col-lg-7 col-md-8" data-aos="zoom-out" data-aos-delay="200">
+          <div class="card-body">
+            <div class="row-2 d-flex align-items-center flex-row justify-content-center ">
+              <h2 class="mt-0 mb-3" data-aos="fade-up" >
+                Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+              </h2>
+            </div>
+            <div class="row-8 ">
+              <p class="card-text text-justify pdesclp">
+                Kota Batu sebagai salah satu kota wisata di Indonesia turut
+                merasakan dampak pandemi Covid-19, khususnya pada unit usaha
+                pariwisata. Pelaku dari unit usaha pariwisata belum memiliki
+                kecakapan dalam bidang teknis dalam hal penggunaan teknologi,
+                termasuk di dalamnya meliputi penerimaan dan pengadopsian TIK
+                di bidang pariwisata. Menurunnya jumlah kunjungan wisatawan
+                diikuti dengan peningkatan penggunaan internet pada masa pandemi
+                menjadi indikasi bahwa pemanfaatan internet serta TIK dalam
+                menunjang kegiatan pariwisata belum optimal.
+              </p>
+            </div>
+            <div class="row-2 d-flex flex-row justify-content-center align-items-center">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center text-lg-start my-5">
+                  <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
+                    <span>Selengkapnya</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -142,24 +140,26 @@
     <!-- riset 2 -->
     <div class="container mt-3">
       <div class="row riset2">
-        <div class="col-lg-7 col-md-3 ">
-          <div class="row-2 d-flex ">
-            <h3 data-aos="fade-up">
-              Pilot Survei Wisatawan Nusantara
-            </h3>
-          </div>
-          <div class="row-8 ">
-            <p class="card-text  text-left pdesclp">
-            Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.  
-            </p>
-          </div>
-          <div class="row-2  d-flex flex-row justify-content-center align-items-center">
-            <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start my-5">
-                <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
-                  <span>Selengkapnya</span>
-                  <i class="fas fa-arrow-circle-right"></i>
-                </a>
+        <div class="card62 col-lg-7 col-md-3 ">
+          <div class="card-body">
+            <div class="row-2 d-flex ">
+              <h2 class="mt-0 mb-3" data-aos="fade-up">
+                Pilot Survei Wisatawan Nusantara
+              </h2>
+            </div>
+            <div class="row-8 ">
+              <p class="card-text text-justify pdesclp">
+              Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.  
+              </p>
+            </div>
+            <div class="row-2  d-flex flex-row justify-content-center align-items-center">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center text-lg-start my-5">
+                  <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
+                    <span>Selengkapnya</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -186,24 +186,26 @@
         <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
           <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
         </div>
-        <div class="col-lg-7 col-md-8 " data-aos="zoom-out" data-aos-delay="200">
-          <div class="row-2 d-flex flex-row ">
-            <h3 data-aos="fade-up">
-            Tenaga Kerja di Industri Pariwisata
-            </h3>
-          </div>
-          <div class="row-8 ">
-            <p class="card-text  text-left pdesclp">
-            Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu penyumbang devisa terbesar di Indonesia. Untuk meningkatkan kontribusi pariwisata terhadap perekonomian Indonesia dapat dilakukan dengan meningkatkan jumlah dan kualitas tenaga kerja di sektor pariwisata. Sehingga riset ini bertujuan untuk menganalisis karakteristik tenaga kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi tenaga kerja di industri pariwisata untuk bekerja paruh waktu, menganalisis faktor-faktor yang memengaruhi kontrak kerja tenaga kerja di industri pariwisata, menganalisis dinamika tenaga kerja di industri pariwisata, menganalisis kualitas tenaga kerja di industri pariwisata, menganalisis tenaga kerja pariwisata menurut sadar wisata.
-            </p>
-          </div>
-          <div class="row-2 bforce ">
-            <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start my-5">
-                <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
-                  <span>Selengkapnya</span>
-                  <i class="fas fa-arrow-circle-right"></i>
-                </a>
+        <div class="card62 col-lg-7 col-md-8" data-aos="zoom-out" data-aos-delay="200">
+          <div class="card-body">
+            <div class="row-2 d-flex flex-row ">
+              <h2 class="mt-0 mb-3" data-aos="fade-up">
+              Tenaga Kerja di Industri Pariwisata
+              </h2>
+            </div>
+            <div class="row-8 ">
+              <p class="card-text text-justify pdesclp">
+              Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu penyumbang devisa terbesar di Indonesia. Untuk meningkatkan kontribusi pariwisata terhadap perekonomian Indonesia dapat dilakukan dengan meningkatkan jumlah dan kualitas tenaga kerja di sektor pariwisata. Sehingga riset ini bertujuan untuk menganalisis karakteristik tenaga kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi tenaga kerja di industri pariwisata untuk bekerja paruh waktu, menganalisis faktor-faktor yang memengaruhi kontrak kerja tenaga kerja di industri pariwisata, menganalisis dinamika tenaga kerja di industri pariwisata, menganalisis kualitas tenaga kerja di industri pariwisata, menganalisis tenaga kerja pariwisata menurut sadar wisata.
+              </p>
+            </div>
+            <div class="row-2 bforce ">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center text-lg-start my-5">
+                  <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
+                    <span>Selengkapnya</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -214,37 +216,39 @@
     <!-- riset 4 -->
     <div class="container mt-3">
       <div class="row riset4">
-        <div class="col-lg-7 col-md-3">
-          <div class="row-2 d-flex  flex-row justify-content-center ">
-            <h3 data-aos="fade-up">
-              Pemanfaatan TIK pada Sektor Pariwisata dan Ekonomi Kreatif
-            </h3>
-          </div>
-          <div class="row-8 ">
-            <p class="card-text  text-left pdesclp">
-            Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu. 
-            Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, 
-            penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan 
-            <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i> 
-            atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data 
-            yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk 
-            bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB, 
-            kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan 
-            jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 
-            dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial 
-            bagi perekonomian Kota Batu sehingga perlu dilakukan upaya 
-            pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu 
-            dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi 
-            melalui penerapan <i>Smart Tourism Destination</i>.
-            </p>
-          </div>
-          <div class="row-2  d-flex flex-row justify-content-center align-items-center">
-            <div data-aos="fade-up" data-aos-delay="200">
-              <div class="text-center text-lg-start my-5">
-                <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
-                  <span>Selengkapnya</span>
-                  <i class="fas fa-arrow-circle-right"></i>
-                </a>
+        <div class="card62 col-lg-7 col-md-3">
+          <div class="card-body">
+            <div class="row-2 d-flex  flex-row justify-content-center ">
+              <h2 class="mt-0 mb-3" data-aos="fade-up">
+                Pemanfaatan TIK pada Sektor Pariwisata dan Ekonomi Kreatif
+              </h2>
+            </div>
+            <div class="row-8 ">
+              <p class="card-text text-justify pdesclp">
+              Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu. 
+              Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, 
+              penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan 
+              <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i> 
+              atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data 
+              yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk 
+              bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB, 
+              kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan 
+              jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 
+              dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial 
+              bagi perekonomian Kota Batu sehingga perlu dilakukan upaya 
+              pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu 
+              dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi 
+              melalui penerapan <i>Smart Tourism Destination</i>.
+              </p>
+            </div>
+            <div class="row-2  d-flex flex-row justify-content-center align-items-center">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center text-lg-start my-5">
+                  <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
+                    <span>Selengkapnya</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

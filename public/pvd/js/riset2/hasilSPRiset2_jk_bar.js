@@ -53,7 +53,7 @@ new Chart(jk_bar, {
         font: {
           size: 18,
         },
-        align: "start",
+        align: "center",
       },
       datalabels: {
         anchor: "start",

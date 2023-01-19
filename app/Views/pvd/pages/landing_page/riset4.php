@@ -57,10 +57,8 @@
                 <p class="text-justify">
                     Provinsi Jawa Timur berdasarkan data Badan Pusat Statistik merupakan dua besar provinsi dengan jumlah perjalanan
                     wisatawan nusantara tertinggi sejak tahun 2015. Jawa Timur berada pada peringkat kedua dengan jumlah wisatawan
-                    nusantara mencapai 99,58 juta orang pada tahun 2019. Sementara itu, pada tahun 2020, Jawa Timur menjadi provinsi
-                    dengan jumlah wisatawan nusantara tertinggi, yakni sebesar 125,34 juta orang. Salah satu tujuan wisata unggulan di
-                    Jawa Timur adalah Kota Batu yang memiliki beraneka ragam wisata dengan pariwisata sebagai sektor andalan dalam
-                    menunjang perekonomian daerahnya.
+                    nusantara mencapai 99,58 juta orang pada tahun 2019. Sementara itu, pada tahun 2020, Jawa Timur menjadi provinsi dengan jumlah wisatawan nusantara tertinggi, 
+                    yakni sebesar 125,34 juta orang.
                     <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         [<strong><i>Tampilkan Semua</i></strong>]
                     </a>
