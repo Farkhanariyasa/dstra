@@ -57,6 +57,26 @@
     </div>
 </div>
 
+<!-- Riset 4 Hasil 4 -->
+<div class="portfolio-item filter-riset4-hasil2">
+    <div class="container mt-5">
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
+            <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
+                <div class="position-relative">
+                    <div class="position-absolute top-0 end-0">
+                        <!-- tambah modal -->
+                        <!-- <button class="tombol btn-for" id="btndownload3"><i class="fa-solid fa-download"></i></button> -->
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1-3">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="hasil4"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Modal Riset 4  -->
 <?php include('modal_riset4.php') ?>
