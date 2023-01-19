@@ -4,13 +4,14 @@ new Chart(hasil2, {
     type: 'boxplot',
     data: {
         labels: [
-            "label"
+            "Pendapatan (Rupiah)"
         ],
         datasets: [{
             label: 'Pendapatan',
             data: [pendapatan],
             backgroundColor: [
                 "#506396",
+                "#ffeecc",
             ],
         }]
     },
@@ -20,12 +21,20 @@ new Chart(hasil2, {
         plugins: {
             title: {
                 display: true,
-                text : "Boxplot Pendapatan",
+                text : "Sebaran Pendapatan Usaha Selama Bulan Desember 2022 di Kota Batu",
                 font: {
                     size: 20
                 }
             },
 
+        }
+    },
+    scales: {
+        y: {
+            type: 'linear',
+            min: Math.min(pendapatan),
+            max: Math.max(pendapatan),
+            
         }
     }
 });
