@@ -65,12 +65,12 @@ const batang_horizontal = new Chart(bar_horizontal, {
             lineHeight: 2,
           },
         },
-        grid: {
+        grid: { 
           display: false,
         },
       },
     },
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     plugins: {
       title: {
         display: true,
@@ -80,8 +80,8 @@ const batang_horizontal = new Chart(bar_horizontal, {
         },
       },
       datalabels: {
-        anchor: "start",
-        align: "start",
+        anchor: "center",
+        align: "center",
         offset: -20,
       },
     },
