@@ -1,4 +1,4 @@
-const ctx = document.getElementById('jk_batang');
+const ctx = document.getElementById('riset1_hasil2');
 new Chart(ctx, {
     type:'bar',
     data: {
@@ -65,4 +65,15 @@ new Chart(ctx, {
         },maintainAspectRatio: false
     },plugins:[ChartDataLabels]
 });
+
+function responsivefonts(){
+    if (window.outerWidth < 414) {
+        console.log(window.outerWidth);
+        Chart.defaults.font.size=5;
+        
+
+    }if (window.outerWidth<380){
+        Chart.defaults.font.size=1;
+    }
+}
 
