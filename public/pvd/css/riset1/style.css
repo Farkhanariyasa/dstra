@@ -203,4 +203,10 @@
   
 }
 
+@media (max-width:380px){
+  .portfolio-container{
+    width: 165%;
+    left: -45px;
+  }
+}
 
