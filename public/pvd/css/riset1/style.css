@@ -184,3 +184,23 @@
 /* button{
   font-size: 2rem;
 } */
+
+/* .d-flex-flex-row-align-item-center-justify-content-center{
+  padding: 50px;
+  position: relative;
+  margin:auto;
+  width: 80vh;
+  height: 80vw;
+} */
+
+
+
+@media (max-width: 414px) {
+  .portfolio-container{
+    width: 150%;
+    left: -45px;
+  }
+  
+}
+
+
