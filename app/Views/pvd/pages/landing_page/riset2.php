@@ -14,6 +14,7 @@
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
                     Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci. 
+                    
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
