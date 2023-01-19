@@ -136,15 +136,21 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- boxplot -->
+<script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
+
+
 <!-- const for chart -->
 <script>
   const unitUsahaTIK = <?= json_encode($uu) ?>;
+  const pendapatan = <?= json_encode($pd) ?>;
 
 </script>
 
 <!-- chart -->
 <script src = "<?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_uu_pie.js') ?>"></script>
+<script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_pd_box.js') ?>"></script>
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
