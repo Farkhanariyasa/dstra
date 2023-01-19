@@ -303,6 +303,9 @@ text-align: right;
 }
 }
 @media (max-width: 991px) {
+.img-fluid {
+    width: 60%;
+}
 .hero {
     height: auto;
     /* padding: 120px 0 60px 0; */
@@ -311,9 +314,9 @@ text-align: right;
     text-align: center;
     margin-top: 80px;
 }
-.hero .hero-img img {
+/* .hero .hero-img img {
     width: 80%;
-}
+} */
 .card62 {
     max-width: 100%;
 }
@@ -328,6 +331,9 @@ text-align: right;
 }
 }
 @media (max-width: 768px) {
+    .img-fluid {
+        width: 60%;
+    }
 .hero {
     text-align: center;
 }
@@ -337,7 +343,7 @@ text-align: right;
 .hero h2 {
     font-size: 24px;
 }
-.hero .hero-img img {
+/* .hero .hero-img img {
     width: 100%;
-}
+} */
 }
