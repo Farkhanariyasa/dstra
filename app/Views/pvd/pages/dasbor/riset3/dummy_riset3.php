@@ -1,7 +1,32 @@
 <div class="portfolio-item filter-riset3-hasil1">
-    <!-- Visualisasi 1.1 -->
-    <div class="container">
-        <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="selectBox mt-2 me-2">
+                        <form action="">
+                            <select class="dropdownunduh1" id="forBarChart">
+                                <option value="a">Jenis Industri</option>
+                                <option value="b">Pendidikan Tertinggi</option>
+                                <option value="c">Jenis Kelamin</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="ji_batang"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- <div class="container">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5 pt-5">
             <div style="width: 900px; height:500px;">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -23,13 +48,31 @@
                 <canvas id="ji_batang"></canvas>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="portfolio-item filter-riset3-hasil2">
-    <!-- Visualisasi 1.2 -->
+    <div class="row">
+        <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                <h4 class="card-title">Line chart</h4>
+                <canvas class="mt1" id="tk_pie"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                <h4 class="card-title">Bar chart</h4>
+                <canvas id="j_doughnut"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
     <div class="container mt-5">
-        <!-- <button class="tombol btn-for" id="btndownload">Download image</button> -->
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5">
             <div style="width: 550px; height:600px;">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -52,12 +95,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="portfolio-item filter-riset3-hasil3">
-    <!-- Visualisasi 1.4 -->
+<!-- <div class="portfolio-item filter-riset3-hasil3">
     <div class="container mt-5">
-        <!-- <button class="tombol btn-for" id="btndownload2">Download image</button> -->
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary pt-5">
             <div style="width: 550px; height:600px;">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -80,8 +121,26 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
        
+<div class="portfolio-item filter-riset3-hasil4">
+    <!-- Visualisasi 1.4 -->
+    <div class="container mt-5">
+        <!-- <button class="tombol btn-for" id="btndownload">Download image</button> -->
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5">
+            <div style="width: 550px; height:600px;">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="stacked_barchart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Tabel dummy -->
 <div class="portfolio-item filter-riset3-tabeldummy">
