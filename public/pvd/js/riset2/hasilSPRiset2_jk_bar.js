@@ -56,8 +56,8 @@ new Chart(jk_bar, {
         align: "center",
       },
       datalabels: {
-        anchor: "start",
-        align: "start",
+        anchor: "center",
+        align: "center",
         offset: 150,
         color: "black",
         font: {
