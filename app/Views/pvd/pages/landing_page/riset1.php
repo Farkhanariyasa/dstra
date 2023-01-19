@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="<?= base_url('pvd/img/landingpage/riset2/riset2.png') ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('pvd/img/landingpage/riset1/riset1.png') ?>" class="img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -43,8 +43,6 @@
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
-                </div>
-                <div class="garis">
                 </div>
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
@@ -95,8 +93,6 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
@@ -122,9 +118,8 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Metodologi</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
+            <!-- konten -->
             <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
@@ -164,6 +159,7 @@
                     </ul>
                 </p>
             </div>
+            <!-- end konten -->
         </div>
     </section>
 
@@ -173,8 +169,6 @@
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Hasil Penelitian</h1>
-                </div>
-                <div class="garis">
                 </div>
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
@@ -201,8 +195,6 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Infografis</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
@@ -226,6 +218,6 @@
 
 </section>
 
-</section>
+</section><!-- End -->
 
 <?= $this->endSection(); ?>
