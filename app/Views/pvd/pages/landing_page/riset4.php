@@ -2,8 +2,9 @@
 
 <?= $this->section('content'); ?>
 
-<section id="hero" class="hero d-flex align-items-center">
-
+<section>
+    <section id="hero" class="hero d-flex align-items-center">
+    <!-- Judul Landing Page -->
     <div class="container">
         <div class="row">
             <div class="col-lg-7 d-flex flex-column justify-content-center">
@@ -42,18 +43,18 @@
             </div>
         </div>
     </div>
-
+    </section>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <!-- Latar Belakang -->
-    <section id="firstSec" class="offset-header">
+    <section class="hero">
+    <section class="offset-header">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Provinsi Jawa Timur berdasarkan data Badan Pusat Statistik merupakan dua besar provinsi dengan jumlah perjalanan
                     wisatawan nusantara tertinggi sejak tahun 2015. Jawa Timur berada pada peringkat kedua dengan jumlah wisatawan
@@ -122,56 +123,52 @@
     </section>
 
     <!-- Tujuan Penelitian -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <ol>
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <ol class="text-justify">
                     <li>Mengetahui karakteristik tiga unit usaha pariwisata di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination.</li>
                     <li>Menganalisis tingkat kesiapan pemanfaatan TIK dari unit usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>.</li>
                     <li>Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata di Kota Batu dalam pemanfaatan TIK.</li>
                     <li>Menganalisis pengaruh kesiapan unit usaha pariwisata di Kota Batu dalam pemanfaatan TIK terhadap omzetnya.</li>
                 </ol>
             </div>
-            <br><br><br>
         </div>
     </section>
 
     <!-- Metodologi -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Metodologi</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <!-- konten -->
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
+                data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p>
             </div>
+            <!-- end konten -->
         </div>
     </section>
 
     <!-- Hasil Penelitian -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Hasil Penelitian</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p>
@@ -180,22 +177,25 @@
     </section>
 
     <!-- Infografis -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Infografis</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-justify">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;"
+                data-aos="zoom-in" data-aos-duration="1000">
+                <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                </p>
+                </p> -->
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
             </div>
         </div>
     </section>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
 </section>
 
