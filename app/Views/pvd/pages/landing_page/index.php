@@ -135,7 +135,7 @@
 
     <!-- riset 2 -->
     <div class="container mt-3">
-      <div class="row">
+      <div class="row riset2">
         <div class="col-lg-7 col-md-3 ">
           <div class="row-2 d-flex ">
             <h3 data-aos="fade-up">
@@ -207,7 +207,7 @@
 
     <!-- riset 4 -->
     <div class="container mt-3">
-      <div class="row">
+      <div class="row riset4">
         <div class="col-lg-7 col-md-3">
           <div class="row-2 d-flex  flex-row justify-content-center ">
             <h3 data-aos="fade-up">

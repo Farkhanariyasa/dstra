@@ -305,7 +305,7 @@ text-align: right;
 @media (max-width: 991px) {
 .hero {
     height: auto;
-    padding: 120px 0 60px 0;
+    /* padding: 120px 0 60px 0; */
 }
 .hero .hero-img {
     text-align: center;
@@ -316,6 +316,15 @@ text-align: right;
 }
 .card62 {
     max-width: 100%;
+}
+.orangeline {
+    display: none;
+    height: 0;
+}
+.row.riset2, .row.riset4 {
+    /* Reverse Column Order */
+    -webkit-flex-flow: column-reverse;
+    flex-flow: column-reverse;
 }
 }
 @media (max-width: 768px) {
