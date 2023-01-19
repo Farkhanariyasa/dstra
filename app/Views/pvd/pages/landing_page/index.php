@@ -80,9 +80,9 @@
               Tinggi.
             </p>
             <div class="img text-center mb-4">
-              <br id="riset1">
               <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
             </div>
+            <br id="riset1">
           </div>
         </div>
       </div>
