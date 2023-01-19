@@ -303,6 +303,10 @@ text-align: right;
 }
 }
 @media (max-width: 991px) {
+    section{
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
 .img-fluid {
     width: 60%;
 }
@@ -331,6 +335,10 @@ text-align: right;
 }
 }
 @media (max-width: 768px) {
+    section{
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
     .img-fluid {
         width: 60%;
     }
