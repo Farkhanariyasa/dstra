@@ -126,9 +126,9 @@ section {
     text-decoration: none;
 }
 
-.portfolio{
+/* .portfolio{
     margin-left: 250px;
-}
+} */
 
 #content-wrapper::-webkit-scrollbar{
     display: none;
