@@ -8,12 +8,7 @@ function getMenu()
       'riset1' =>
       [
         [
-          'menu' => 'Beranda',
-          'icon' => 'fa fa-home',
-          'href' => '/beranda',
-        ],
-        [
-          'menu' => 'Dasbor Utama',
+          'menu' => 'Dasbor',
           'icon' => 'fas fa-newspaper',
           'href' => '/riset1/dasbor',
         ],
@@ -59,12 +54,7 @@ function getMenu()
       'riset2' =>
       [
         [
-          'menu' => 'Beranda',
-          'icon' => 'fa fa-home',
-          'href' => '/beranda',
-        ],
-        [
-          'menu' => 'Dasbor Utama',
+          'menu' => 'Dasbor',
           'icon' => 'fas fa-newspaper',
           'href' => '/riset2/dasbor',
         ],
@@ -110,12 +100,7 @@ function getMenu()
       'riset3' =>
       [
         [
-          'menu' => 'Beranda',
-          'icon' => 'fa fa-home',
-          'href' => '/beranda',
-        ],
-        [
-          'menu' => 'Dasbor Utama',
+          'menu' => 'Dasbor',
           'icon' => 'fas fa-newspaper',
           'href' => '/riset3/dasbor',
         ],
@@ -161,12 +146,7 @@ function getMenu()
       'riset4' =>
       [
         [
-          'menu' => 'Beranda',
-          'icon' => 'fa fa-home',
-          'href' => '/beranda',
-        ],
-        [
-          'menu' => 'Dasbor Utama',
+          'menu' => 'Dasbor',
           'icon' => 'fas fa-newspaper',
           'href' => '/riset4/dasbor',
         ],
