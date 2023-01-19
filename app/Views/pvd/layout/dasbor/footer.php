@@ -25,9 +25,12 @@
 </div>
 <!-- page-body-wrapper ends -->
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
 <script src="<?= base_url('pvd/vendors/js/vendor.bundle.base.js'); ?>"></script>
 <script src="<?= base_url('pvd/js/misc.js'); ?>"></script>
 <script src="<?= base_url('pvd/js/off-canvas.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/main.js') ?>"></script>
 </body>
 
 </html>
