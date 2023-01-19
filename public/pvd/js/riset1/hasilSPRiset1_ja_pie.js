@@ -94,7 +94,7 @@ function tampilData(){
                 'Perempuan'
             ];
         
-        batang.options.plugins.title.text = 'Jenis Kelamin';
+        batang.options.plugins.title.text = 'Jenis Kelamin Responden';
             // console.log(batang.data.datasets[0].data)
             batang.update();
     } else {

@@ -30,6 +30,7 @@ class Dasbor extends BaseController
 
     // RISET 4
     protected $unitusahaTIK;
+    protected $pendapatan;
 
     public function __construct()
     {
@@ -49,6 +50,7 @@ class Dasbor extends BaseController
 
         // RISET 4
         $this->unitusahaTIK = new Riset4HasilSpModel();
+        $this->pendapatan = new Riset4HasilSpModel();
     }
 
     public function index($riset)
@@ -220,12 +222,15 @@ class Dasbor extends BaseController
                     'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
                 ];
 
+                $pd = $this->pendapatan->getPendapatan();
+
                 $menu = getMenu();
 
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
-                    'uu' => $uu
+                    'uu' => $uu,
+                    'pd' => $pd
                 ];
                 break;
         }
