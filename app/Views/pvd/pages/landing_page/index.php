@@ -1,7 +1,7 @@
 <?= $this->extend('pvd/layout/landing_page/template'); ?>
 
 <?= $this->section('content'); ?>
-
+<section>
 <section id="hero" class="hero d-flex align-items-center">
 
   <!-- PKL 62 -->
@@ -89,6 +89,7 @@
     </div>
     </section> <!-- End Hero -->
 
+    
     <br id="riset1">
     <br>
     <br>
@@ -259,6 +260,6 @@
       </div>
     </div>
 
-
+    </section>
 
 <?= $this->endSection(); ?>
