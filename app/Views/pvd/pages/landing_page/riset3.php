@@ -17,7 +17,7 @@
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <a href="<?= base_url('hasil-pkl/riset3/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                        <a id="tombol" href="<?= base_url('hasil-pkl/riset3/dasbor') ?>" class="tombol btn-for text-decoration-none">
                             <span>Hasil PKL</span>
                             <i class="fas fa-arrow-circle-right"></i>
                         </a>
@@ -42,16 +42,28 @@
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
-                    Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan terkait sektor pariwisata. Potensi tersebut meliputi: </p>
-                <ol class="text-justify">
-                    <li>Kemampuan dalam hal pembangunan destinasi pariwisata</li>
-                    <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</li>
-                    <li>Pembangunan industri pariwisata</li>
-                </ol>
-                <p class="text-justify">
-                    Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal
-                    tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor
-                    pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.</p>
+                    Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan 
+                    sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan 
+                    terkait sektor pariwisata. Potensi tersebut meliputi: 
+                    <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        [<strong><i>Tampilkan Semua</i></strong>]
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <ol class="text-justify" style="color:#4b395f;">
+                        <li>Kemampuan dalam hal pembangunan destinasi pariwisata</li>
+                        <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</li>
+                        <li>Pembangunan industri pariwisata</li>
+                    </ol>
+                    <p class="text-justify">
+                        Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal
+                        tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor
+                        pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.
+                        <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            [<strong><i>Tampilkan Sebagian</i></strong>]
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
