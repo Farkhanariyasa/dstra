@@ -248,7 +248,7 @@ section {
 .konten {
     width: 75%;
 }
-.konten div{
+.info-item{
     width: 40vw;
 }
 
@@ -306,7 +306,7 @@ text-align: right;
 }
 
 h1.headline {
-    margin: 5px 0;
+    margin: 5px 0 20px 0;
     font-size: 35px;
     font-weight: 600;
     color: #4b395f;

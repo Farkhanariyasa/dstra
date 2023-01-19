@@ -2,8 +2,8 @@
 
 <?= $this->section('content'); ?>
 
-<section id="hero" class="hero d-flex align-items-center">
-
+<section>
+    <section id="hero" class="hero d-flex align-items-center">
     <!-- Judul Landing Page -->
     <div class="container">
         <div class="row">
@@ -34,9 +34,11 @@
             </div>
         </div>
     </div>
+    </section>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <!-- Latar Belakang -->
-    <section id="firstSec" class="offset-header">
+    <section class="hero">
+    <section class="offset-header">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
@@ -45,7 +47,7 @@
                 <div class="garis">
                 </div>
             </div>
-            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in"
+            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
                 data-aos-duration="1000">
                 <p class="text-justify">
                     Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
@@ -87,8 +89,8 @@
     </section>
 
     <!-- Tujuan Penelitian -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
@@ -96,9 +98,9 @@
                 <div class="garis">
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
-                <ol>
+                <ol class="text-justify">
                     <li>Menemukan metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga berdasarkan
                         usual environment dan pola perjalanan wisata (family grouping).
                     </li>
@@ -106,16 +108,16 @@
                         yang menggunakan lebih dari satu nomor Telkomsel dan/atau Indosat berbeda dalam satu perangkat.
                     </li>
                     <li>Menyajikan statistik wisatawan nusantara melalui pendekatan Mobile Positioning Data (MPD) dan
-                        survei konvensional di Kota Malang tahun 2022.</li>
+                        survei konvensional di Kota Malang tahun 2022.
+                    </li>
                 </ol>
             </div>
-            <br><br><br>
         </div>
     </section>
 
     <!-- Metodologi -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Metodologi</h1>
@@ -123,48 +125,51 @@
                 <div class="garis">
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
-                    Survei 1 : Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
-                    Metode Pengambilan Sampel : Purposive Sampling
-                    <li class="text-justify">Tahap pertama, Dari daftar pegawai diambil pegawai yang eligible, yaitu
-                        pegawai dengan provider
-                        telkomsel dan/atau indosat sebagai relawan dan dilakukan pencacahan tahap Pegawai.
-                    </li>
-                    <li class="text-justify">Tahap kedua, Dari pencacahan tahap pegawai dilakukan pencacahan ke level
-                        keluarga pegawai
-                        tersebut. Pada penelitian ini, keluarga pegawai yang dicacah dibatasi hanya yang berdomisili di
-                        Surabaya atau beberapa kecamatan (Kecamatan Taman, Sukodono, Buduran, Waru, Gedangan, dan
-                        Sedati) di
-                        Sidoarjo.
-                    </li>
+                    Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
+                    Metode Pengambilan Sampel: Purposive Sampling
+                    <ul>
+                        <li class="text-justify">Tahap pertama, Dari daftar pegawai diambil pegawai yang eligible, yaitu
+                            pegawai dengan provider
+                            telkomsel dan/atau indosat sebagai relawan dan dilakukan pencacahan tahap Pegawai.
+                        </li>
+                        <li class="text-justify">Tahap kedua, Dari pencacahan tahap pegawai dilakukan pencacahan ke level
+                            keluarga pegawai
+                            tersebut. Pada penelitian ini, keluarga pegawai yang dicacah dibatasi hanya yang berdomisili di
+                            Surabaya atau beberapa kecamatan (Kecamatan Taman, Sukodono, Buduran, Waru, Gedangan, dan
+                            Sedati) di
+                            Sidoarjo.
+                        </li>
+                    </ul>
                 </p>
             </div>
 
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
-                    Survei 2 : Survei Integrasi (Pilot Survei Riset 2)
-                    Metode Pengambilan Sampel : Two Stage Sampling
-                    <li class="text-justify">Tahap pertama, mengambil sejumlah blok sensus dengan Probability
-                        Proportional to Size With
-                        Replacement dengan size jumlah keluarga di tiap blok sensus hasil pemutakhiran Sensus Penduduk
-                        2020
-                    </li>
-                    <li class="text-justify">Tahap kedua, mengambil rumah tangga menggunakan Systematic Sampling dengan
-                        jumlah anggota rumah
-                        tangga sebagai variabel dasar pengurutan
-                    </li>
+                    Survei 2: Survei Integrasi (Pilot Survei Riset 2)
+                    Metode Pengambilan Sampel: Two Stage Sampling
+                    <ul>
+                        <li class="text-justify">Tahap pertama, mengambil sejumlah blok sensus dengan Probability
+                            Proportional to Size With
+                            Replacement dengan size jumlah keluarga di tiap blok sensus hasil pemutakhiran Sensus Penduduk
+                            2020
+                        </li>
+                        <li class="text-justify">Tahap kedua, mengambil rumah tangga menggunakan Systematic Sampling dengan
+                            jumlah anggota rumah
+                            tangga sebagai variabel dasar pengurutan
+                        </li>
+                    </ul>
                 </p>
             </div>
-            <br><br><br>
         </div>
     </section>
 
     <!-- Hasil Penelitian -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Hasil Penelitian</h1>
@@ -172,7 +177,7 @@
                 <div class="garis">
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
@@ -186,13 +191,12 @@
                     atque quidem aliquid placeat?
                 </p>
             </div>
-            <br><br><br>
         </div>
     </section>
 
     <!-- Infografis -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Infografis</h1>
@@ -200,9 +204,9 @@
                 <div class="garis">
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;"
                 data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-justify">
+                <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
                     nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam
                     quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit.
@@ -212,22 +216,15 @@
                     laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda
                     explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae
                     atque quidem aliquid placeat?
-                </p>
+                </p> -->
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
             </div>
-            <br><br><br>
         </div>
     </section>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
 </section>
-
-
-
-
-
-</script>
-
-
 
 </section>
 
