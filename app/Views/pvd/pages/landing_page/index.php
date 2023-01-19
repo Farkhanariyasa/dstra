@@ -79,8 +79,8 @@
               di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
               Tinggi.
             </p>
-            <br id="riset1">
             <div class="img text-center mb-4">
+              <br id="riset1">
               <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
             </div>
           </div>
@@ -123,14 +123,14 @@
               </p>
             </div>
             <div class="row-2 d-flex flex-row justify-content-center align-items-center">
-              <div data-aos="fade-up" data-aos-delay="200">
+              <!-- <div data-aos="fade-up" data-aos-delay="200"> -->
                 <div class="text-center text-lg-start my-5">
                   <a href="<?= base_url("hasil-pkl/riset1") ?>" class="tombol btn-for text-decoration-none">
                     <span>Selengkapnya</span>
                     <i class="fas fa-arrow-circle-right"></i>
                   </a>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@
     <!-- riset 2 -->
     <div class="container mt-3">
       <div class="row riset2">
-        <div class="card62 col-lg-7 col-md-3 ">
+        <div class="card62 col-lg-7 col-md-3" data-aos="zoom-out" data-aos-delay="200">
           <div class="card-body">
             <div class="row-2 d-flex ">
               <h2 class="mt-0 mb-3" data-aos="fade-up">
@@ -152,15 +152,15 @@
               Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.  
               </p>
             </div>
-            <div class="row-2  d-flex flex-row justify-content-center align-items-center">
-              <div data-aos="fade-up" data-aos-delay="200">
+            <div class="row-2 d-flex flex-row justify-content-center align-items-center">
+              <!-- <div data-aos="fade-up" data-aos-delay="200"> -->
                 <div class="text-center text-lg-start my-5">
                   <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
                     <span>Selengkapnya</span>
                     <i class="fas fa-arrow-circle-right"></i>
                   </a>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -199,14 +199,14 @@
               </p>
             </div>
             <div class="row-2 bforce ">
-              <div data-aos="fade-up" data-aos-delay="200">
+              <!-- <div data-aos="fade-up" data-aos-delay="200"> -->
                 <div class="text-center text-lg-start my-5">
                   <a href="<?= base_url("hasil-pkl/riset3") ?>" class="tombol btn-for text-decoration-none">
                     <span>Selengkapnya</span>
                     <i class="fas fa-arrow-circle-right"></i>
                   </a>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@
     <!-- riset 4 -->
     <div class="container mt-3">
       <div class="row riset4">
-        <div class="card62 col-lg-7 col-md-3">
+        <div class="card62 col-lg-7 col-md-3" data-aos="zoom-out" data-aos-delay="200">
           <div class="card-body">
             <div class="row-2 d-flex  flex-row justify-content-center ">
               <h2 class="mt-0 mb-3" data-aos="fade-up">
@@ -242,14 +242,14 @@
               </p>
             </div>
             <div class="row-2  d-flex flex-row justify-content-center align-items-center">
-              <div data-aos="fade-up" data-aos-delay="200">
+              <!-- <div data-aos="fade-up" data-aos-delay="200"> -->
                 <div class="text-center text-lg-start my-5">
                   <a href="<?= base_url("hasil-pkl/riset4") ?>" class="tombol btn-for text-decoration-none">
                     <span>Selengkapnya</span>
                     <i class="fas fa-arrow-circle-right"></i>
                   </a>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
