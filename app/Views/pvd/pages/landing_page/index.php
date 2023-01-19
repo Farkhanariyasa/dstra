@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<section id="hero" class="hero d-flex align-items-center" style="height: 80vh;">
+<section id="hero" class="hero d-flex align-items-center">
 
   <!-- PKL 62 -->
   <div class="container">
@@ -48,7 +48,7 @@
   </div>
   </section><!-- End Hero -->
 
-  <section class="hero d-flex align-items-center" style="height: fit-content;">
+  <section class="hero d-flex align-items-center">
   <!-- About STIS & Angkatan 62 -->
   <div class="container ">
     <div class="row">
