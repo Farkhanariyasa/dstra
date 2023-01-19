@@ -8,7 +8,7 @@ new Chart(ctx, {
                 'Ke Objek Wisata di Luar Kota',
                 'Menginap di Akomodasi Komersil di Luar Kota',
                 'Menuju Kota Lain'
-            ],
+        ],
         datasets: [{
             label: 'Ya',
             data:[
@@ -53,7 +53,7 @@ new Chart(ctx, {
             },
             legend:{
                 display:true,
-                position:'bottom',
+                position:'top',
             },
             tooltip:{
                 enabled:true,
@@ -65,3 +65,4 @@ new Chart(ctx, {
         },maintainAspectRatio: false
     },plugins:[ChartDataLabels]
 });
+

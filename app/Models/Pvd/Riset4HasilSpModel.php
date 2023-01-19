@@ -17,7 +17,18 @@ class Riset4HasilSpModel extends Model
     public function getPendapatan(){
         // get all row in column b309
         $pendapatan = $this->select('b309')->findAll();
+
+        // delete row with value 0 
+        foreach ($pendapatan as $key => $value) {
+            if ($value['b309'] == 70000000 || $value['b309'] == 0) {
+                unset($pendapatan[$key]);
+            }
+        }
+
+
         $pendapatan = array_column($pendapatan, 'b309');
+
+    
 
         return $pendapatan;
 

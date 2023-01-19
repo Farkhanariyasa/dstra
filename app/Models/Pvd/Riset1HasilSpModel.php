@@ -49,4 +49,19 @@ class Riset1HasilSpModel extends Model
         return $this->where(["b529" => $b529])->countAllResults();
 
     }
+    public function getindosat($indosat){
+        return $this->where(["b516"=> $indosat])->countAllResults();
+    }
+    public function getxlaxiata($xl){
+        return $this->where(["b517"=> $xl])->countAllResults();
+    }
+    public function get3($tri){
+        return $this->where(["b518"=> $tri])->countAllResults();
+    }
+    public function getsmartfren($smartfren){
+        return $this->where(["b519"=> $smartfren])->countAllResults();
+    }
+    public function getlainnya($lainnya){
+        return $this->where(["b520"=> $lainnya])->countAllResults();
+    }
 }
