@@ -36,7 +36,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Dashboard Hasil 1</h4>
+                <h4 class="modal-title" id="exampleModalLabel">Grafik Batang</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset2/unduh" method="POST">
@@ -68,7 +68,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Dashboard Hasil 1</h4>
+                <h4 class="modal-title" id="exampleModalLabel">Grafik Batang Horizontal</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset1/unduh" method="POST">
