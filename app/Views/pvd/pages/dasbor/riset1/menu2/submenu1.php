@@ -4,9 +4,9 @@
 
 <div class="container px-0">
       <header class="section-header">
-        <h4 style="color: #4b395f;"><strong>
+        <h6 style="color: #4b395f;"><strong>
           Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
-        </h4>
+        </h6>
       </header>
     <hr class="hrjudul">
 
