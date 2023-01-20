@@ -66,11 +66,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset2/fgfx',
+              'href' => '/riset2/menu2/submenu1',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset2/fgfx',
+              'href' => '/riset2/menu2/submenu2',
             ],
           ],
         ],
@@ -81,12 +81,12 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset2/gfg',
+              'subMenu' => 'Submenu 3',
+              'href' => '/riset2/menu3/submenu3',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset2/sdz',
+              'subMenu' => 'Submenu 4',
+              'href' => '/riset2/menu3/submenu4',
             ],
           ],
         ],
