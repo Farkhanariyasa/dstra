@@ -1,7 +1,24 @@
 <!-- Riset 4 Hasil 1 -->
 <body onresize="responsivefonts()">   
     <div class="portfolio-item filter-riset4-hasil1">
-        <div class="col-12 grid-margin stretch-card">
+        <div class="row">
+            <div class="col-6 grid-margin stretch-card">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-download"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div style=" height:500px;">
+                            <canvas id="hasil1"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -12,10 +29,11 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas id="hasil1"></canvas>
+                        <canvas id="hasil3"></canvas>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </body>
@@ -44,8 +62,8 @@
 
 
 <!-- Riset 4 Hasil 3 -->
-<body onresize="responsivefonts()">   
-    <div class="portfolio-item filter-riset4-hasil3">
+<!-- <body onresize="responsivefonts()">   
+    <div class="portfolio-item filter-riset4-hasil1">
         <div class="col-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
@@ -63,7 +81,7 @@
             </div>
         </div>
     </div>
-</body>
+</body> -->
 
 <!-- Riset 4 Hasil 4 -->
 <body onresize="responsivefonts()">   
@@ -145,7 +163,7 @@
                             </button>
                         </div>
                     </div>
-                    <div id="map" style="width: 95%; height:40vh;"></div>
+                    <div id="map" style="width: 95%; height:50vh;"></div>
                 </div>
             </div>
         </div>
