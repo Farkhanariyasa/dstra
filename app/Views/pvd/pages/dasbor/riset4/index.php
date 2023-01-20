@@ -21,10 +21,11 @@
           <li data-filter="*" class="filter-active">Semua</li>
           <li data-filter=".filter-riset4-hasil1">Pie Chart</li>
           <li data-filter=".filter-riset4-hasil2">BoxPlot</li>
-          <li data-filter=".filter-riset4-hasil3">Bar Plot</li>
-          <li data-filter=".filter-riset4-hasil4">Pie Chart (2)</li>
-          <li data-filter=".filter-riset4-hasil5">Peta Batu</li>
-          <li data-filter=".filter-riset4-hasil6">Scatter Plot</li>
+          <li data-filter=".filter-riset4-hasil3">Pie Chart (2)</li>
+          <li data-filter=".filter-riset4-hasil4">Scatter Plot</li>
+          <li data-filter=".filter-riset4-hasil5">Bar Plot</li>
+          <li data-filter=".filter-riset4-hasil6">Heat Map</li>
+          <li data-filter=".filter-riset4-hasil7">Peta Batu</li>
         </ul>
       </div>
     </div>
