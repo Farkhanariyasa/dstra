@@ -60,20 +60,6 @@ new Chart(hasil4, {
             position: "right"
           },
         tooltip:{
-            // callbacks:{
-            //     label: function(tooltipItems,data){
-            //         // var label = context.label,
-            //         // currentValue = context.raw,
-            //         // total = context.chart._metasets[context.].total;
-
-            //         // var percentage = parseFloat((currentValue/total*100).toFixed(1));
-              
-            //         // return label + ": " +currentValue + ' (' + percentage + '%)';
-                    
-            //         return data.datasets[tooltipItems.datasetIndex].label + ': ' + tooltipItems.xLabel + ' %';
-            //     }
-            // }
-
             enabled: true,
             callbacks: {
                 label: function(context){
