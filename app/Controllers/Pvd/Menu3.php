@@ -3,13 +3,16 @@
 namespace App\Controllers\Pvd;
 
 use App\Controllers\BaseController;
+use App\Models\Pvd\Riset1HasilSpModel;
 
 class Menu3 extends BaseController
 {
 
+    protected $jumlahanggota;
+
     public function __construct()
     {
-        
+        $this->jumlahanggota = new Riset1HasilSpModel();
     }
 
     public function index($riset)
@@ -74,12 +77,21 @@ class Menu3 extends BaseController
 
                 $judul = 'Menu 3 Riset 1';
 
-                
+                $ja = [
+                    "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
+                    "ja1" => $this->jumlahanggota->getByJumlahAnggota(1),
+                    "ja2" => $this->jumlahanggota->getByJumlahAnggota(2),
+                    "ja3" => $this->jumlahanggota->getByJumlahAnggota(3),
+                    "ja4" => $this->jumlahanggota->getByJumlahAnggota(4),
+                    "ja5" => $this->jumlahanggota->getByJumlahAnggota(5),
+                ];
+
                 $menu = getMenu();
 
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
+                    'ja' => $ja,
                     
                 ];
                 break;
