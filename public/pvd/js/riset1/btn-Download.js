@@ -8,7 +8,7 @@ document.getElementById('btndownload1').addEventListener('click', function(e) {
     createEl.href = canvasUrl;
 
     // This is the name of our downloaded file
-    createEl.download = "hasil-sp";
+    createEl.download = "Riset 1 Hasil 1";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -23,7 +23,7 @@ document.getElementById('btndownload2').addEventListener('click', function(e) {
     createEl.href = canvasUrl;
 
     // This is the name of our downloaded file
-    createEl.download = "hasil-sp";
+    createEl.download = "Riset 1 Hasil 2";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -38,7 +38,7 @@ document.getElementById('btndownload3').addEventListener('click', function(e) {
     createEl.href = canvasUrl;
 
     // This is the name of our downloaded file
-    createEl.download = "hasil-sp";
+    createEl.download = "Riset 1 Hasil 3";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();

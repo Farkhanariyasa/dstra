@@ -29,6 +29,7 @@ class Dasbor extends BaseController
     protected $jenisindustri;
     protected $pendidikantertinggi;
     protected $jeniskelamin_riset3;
+    protected $pendapatan_riset3;
 
     // RISET 4
     protected $unitusahaTIK;
@@ -52,6 +53,7 @@ class Dasbor extends BaseController
         $this->jenisindustri = new Riset3HasilSpModel();
         $this->pendidikantertinggi = new Riset3HasilSpModel();
         $this->jeniskelamin_riset3 = new Riset3HasilSpModel();
+        $this->pendapatan_riset3 = new Riset3HasilSpModel();
 
         // RISET 4
         $this->unitusahaTIK = new Riset4HasilSpModel();
@@ -221,6 +223,7 @@ class Dasbor extends BaseController
                     'jk_12' => $this->jeniskelamin_riset3->getByJenisKelamin_Riset3("2")
                 ];
 
+                $pd_1 = $this->pendapatan_riset3->getPendapatan_Riset3();
                 $menu = getMenu();
 
                 $data = [
@@ -229,7 +232,8 @@ class Dasbor extends BaseController
                     
                     'ji' => $ji,
                     'pt' => $pt,
-                    'jk_1' => $jk_1
+                    'jk_1' => $jk_1,
+                    'pd_1' => $pd_1
                 ];
                 break;
 
