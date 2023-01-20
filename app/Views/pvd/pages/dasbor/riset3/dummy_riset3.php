@@ -207,7 +207,7 @@
 </div>
 
 
-<!--<div class="portfolio-item filter-riset3-hasil5">
+<div class="portfolio-item filter-riset3-hasil5">
     <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5 shadow">
             <div style="width: 95%; height: 80vh;">
@@ -222,7 +222,7 @@
             </div>
         </div>
     </div>
-</div>-->
+</div>
 
 <div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
     <div class="container mt-5">
