@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container">
+<div class="container px-0">
       <header class="section-header">
         <h1 style="color: #4b395f;"><strong>Tenaga Kerja di Industri Pariwisata</strong></h1>
       </header>
