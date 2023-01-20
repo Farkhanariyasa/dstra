@@ -4,12 +4,12 @@
 
 <div class="container">
       <header class="section-header">
-        <h1>Tenaga Kerja di Industri Pariwisata</h1>
+        <h1><strong>Tenaga Kerja di Industri Pariwisata</strong></h1>
       </header>
     <hr class="hrjudul">
 
     <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
+      <div class="accordion-item my-3">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Gambaran Umum
@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item my-3">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Tujuan 1
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item my-3">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             Tujuan 2
@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item my-3">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             Tujuan 3
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item my-3">
         <h2 class="accordion-header" id="headingFive">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             Tujuan 4
