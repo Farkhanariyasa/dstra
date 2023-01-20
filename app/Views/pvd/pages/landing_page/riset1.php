@@ -12,7 +12,7 @@
                 <h5 data-aos="fade-up" data-aos-delay="400" class="descRiset4">
                     Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
                 </h5>
-                <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
+                <p data-aos="fade-up" data-aos-delay="400" class="text-justify" style="line-height: 25px;">
                     Kota Batu sebagai salah satu kota wisata di Indonesia turut merasakan dampak pandemi Covid-19,
                     khususnya pada unit usaha pariwisata. Pelaku dari unit usaha pariwisata belum memiliki kecakapan
                     dalam bidang teknis dalam hal penggunaan teknologi, termasuk di dalamnya meliputi penerimaan dan
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
-                data-aos-duration="1000">
+                data-aos-duration="1000" style="line-height: 25px;">
                 <p class="text-justify">
                     Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
                     wisata sebagian besar melakukan perjalanan wisata bersama keluarga atau kerabat terdekatnya
@@ -94,10 +94,10 @@
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <ol class="text-justify">
-                    <li>Menemukan metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga berdasarkan
+                    <li class="">Menemukan metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga berdasarkan
                         usual environment dan pola perjalanan wisata (family grouping).
                     </li>
                     <li>Menemukan metode untuk mengidentifikasi double counting berdasarkan pola perjalanan individu
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <!-- konten -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 25px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
@@ -141,7 +141,7 @@
                 </p>
             </div>
 
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Survei 2: Survei Integrasi (Pilot Survei Riset 2)
@@ -171,7 +171,7 @@
                     <h1 class="headline text-center">Hasil Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
@@ -197,7 +197,7 @@
                 </div>
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;"
-                data-aos="zoom-in" data-aos-duration="1000">
+                data-aos="zoom-in" data-aos-duration="1000" style="line-height: 25px;">
                 <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
                     nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam
