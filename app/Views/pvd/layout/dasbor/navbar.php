@@ -9,6 +9,33 @@
       <span class="mdi mdi-menu"></span>
     </button>
     <ul class="navbar-nav navbar-nav-left">
+      <li class="nav-item dropdown d-lg-none">
+        <a class="nav-link count-indicator dropdown-toggle" href="#" data-bs-toggle="dropdown">
+          <i class="mdi mdi-dots-horizontal"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
+          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>">
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 1</h6>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>">
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 2</h6>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>">
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>">
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 4</h6>
+            </div>
+          </a>
+        </div>
+      </li>
       <li class="nav-item d-none d-lg-block full-screen-link">
         <a class="nav-link">
           <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
