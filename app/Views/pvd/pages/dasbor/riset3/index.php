@@ -47,7 +47,7 @@
     </script>
 
 <script>
-    var map = L.map('map').setView([51.505, -0.09], 13);
+    var map = L.map('map').setView([-7.983, 112.621], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
@@ -67,6 +67,10 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- boxplot -->
+<script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
+
 
 <!-- const for chart -->
 <script>
