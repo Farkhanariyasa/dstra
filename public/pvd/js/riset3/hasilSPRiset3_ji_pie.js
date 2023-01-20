@@ -82,9 +82,10 @@
 
  const pieChart = document.getElementById('forPieChart');
  const pieChartLegend = document.getElementById('forPieChartLegend');
-
- pieChartLegend.addEventListener('change', update_value(chk_bx));
+ 
  pieChart.addEventListener('change', tampilData);
+ pieChartLegend.addEventListener('click', update_value(chk_bx));
+
 
  function update_value(chk_bx){
   
@@ -103,18 +104,18 @@
   }
 }
 
- function tampilLegend(){
+//  function tampilLegend(){
 
-  if (pieChartLegend.value =='show') {
-    console.log(pieChartLegend.value);
-      pie.options.plugins.legend.display=false;
-      pie.update();
+//   if (pieChartLegend.value =='show') {
+//     console.log(pieChartLegend.value);
+//       pie.options.plugins.legend.display=false;
+//       pie.update();
 
-  } else {
-    pie.options.plugins.legend.display=false;
-    pie.update();
- }
-}
+//   } else {
+//     pie.options.plugins.legend.display=false;
+//     pie.update();
+//  }
+// }
                 
 // }
 
