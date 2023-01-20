@@ -96,7 +96,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center" >
           <div class="d-flex flex-row align-items-center justify-content-center ">
-            <h1 data-aos="fade-up" class=" foreachriset" >Riset 1</h1>
+            <h1 data-aos="fade-up" class=" foreachriset" > Riset 1</h1>
           </div>
         </div>
         <div class="col-lg-1 col-md-1 d-flex flex-row  justify-content-center">
@@ -169,7 +169,7 @@
         </div>
         <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
           <div class="d-flex flex-row align-items-center justify-content-center ">
-            <h1 data-aos="fade-up" class=" foreachriset">Riset 2</h1>
+            <h1 data-aos="fade-up" class=" foreachriset"> <br> Riset 2</h1>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center ">
           <div data-aos="fade-up" class="d-flex flex-row align-items-center justify-content-center ">
-            <h1 class="text-center foreachriset">Riset 3</h1>
+            <h1 class="text-center foreachriset"> <br> Riset 3</h1>
           </div>
         </div>
         <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
@@ -258,7 +258,7 @@
         </div>
         <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center " data-aos="zoom-out" data-aos-delay="200">
           <div class="d-flex flex-row align-items-center justify-content-center text-center ">
-            <h1 data-aos="fade-up" class=" foreachriset">Riset 4</h1>
+            <h1 data-aos="fade-up" class=" foreachriset"> <br> Riset 4</h1>
           </div>
         </div>
       </div>
