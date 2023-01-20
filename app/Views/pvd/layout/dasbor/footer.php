@@ -19,7 +19,7 @@
 
 <!-- untuk dasbor -->
 <script src="<?= base_url('pvd/js/off-canvas.js'); ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/main.js') ?>"></script>
+<script src="<?= base_url('pvd/js/main.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
 
