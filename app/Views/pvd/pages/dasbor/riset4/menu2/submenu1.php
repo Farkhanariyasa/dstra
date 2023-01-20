@@ -4,9 +4,9 @@
 
 <div class="container px-0">
       <header class="section-header">
-        <h3 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
+        <h4 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
           <i>Smart Tourism Destination</i></strong>
-        </h3>
+        </h4>
       </header>
     <hr class="hrjudul">
 
@@ -19,7 +19,7 @@
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
               Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
               Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
               odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
@@ -39,7 +39,7 @@
         </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
               Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
               Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
               odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
@@ -59,7 +59,7 @@
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
               Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
               Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
               odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
@@ -79,7 +79,7 @@
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
               Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
               Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
               odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
@@ -99,7 +99,7 @@
         </h3>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
               Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
               Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
               odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
