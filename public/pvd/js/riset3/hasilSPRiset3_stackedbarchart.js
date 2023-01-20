@@ -20,6 +20,7 @@ new Chart(hasil4, {
       ]},
     options: {
     responsive:true,
+    maintainAspectRatio: false,
     scales: {
         x: {
           stacked: true,
