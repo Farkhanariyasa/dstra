@@ -81,9 +81,59 @@
  });
 
  const pieChart = document.getElementById('forPieChart');
+ const pieChartLegend = document.getElementById('forPieChartLegend');
 
+ pieChartLegend.addEventListener('change', update_value(chk_bx));
  pieChart.addEventListener('change', tampilData);
-   
+
+ function update_value(chk_bx){
+  
+  if(chk_bx.checked)
+  {
+      console.log('check');
+      pie.options.plugins.legend.display=true;
+      pie.update();
+  }
+      
+  else{
+    console.log('uncheck');
+    pie.options.plugins.legend.display=false;
+    pie.update();
+
+  }
+}
+
+ function tampilLegend(){
+
+  if (pieChartLegend.value =='show') {
+    console.log(pieChartLegend.value);
+      pie.options.plugins.legend.display=false;
+      pie.update();
+
+  } else {
+    pie.options.plugins.legend.display=false;
+    pie.update();
+ }
+}
+                
+// }
+
+// function tampilLegend(){
+                
+//     for(i = 0; i < pieChartLegend.length; i++) {
+//         if(pieChartLegend[1].checked){
+//           console.log(pieChartLegend.value);
+//                 pie.options.plugins.legend.display=false;
+//                 pie.update();  
+//         } 
+//         if(pieChartLegend[0].checked){
+//           pie.options.plugins.legend.display=true;
+//           pie.update();  
+//         }
+                  
+//   }
+// }
+
  function tampilData(){
      // pieChart.value.split(',');
      // batang.data.datasets[0].data=pieChart.value.split(',');
