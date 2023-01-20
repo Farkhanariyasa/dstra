@@ -176,6 +176,44 @@
     </div>
 </div>
 
+<div class="portfolio-item filter-riset3-hasil4">
+    <!-- Visualisasi 1.4 -->
+    <div class="container mt-5">
+        <!-- <button class="tombol btn-for" id="btndownload">Download image</button> -->
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5">
+            <div style="width: 550px; height:600px;">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="stacked_barchart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-item filter-riset3-hasil4">
+    <!-- Visualisasi 1.5 -->
+    <div class="container mt-5">
+        <!-- <button class="tombol btn-for" id="btndownload">Download image</button> -->
+        <div class="card d-flex justify-content-center align-item-center flex-md-row primary pb-5">
+            <div style="width: 550px; height:600px;">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="radar"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Tabel dummy -->
 <div class="portfolio-item filter-riset3-tabeldummy">
     <div class="">

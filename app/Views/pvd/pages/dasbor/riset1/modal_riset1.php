@@ -1,72 +1,96 @@
-<!-- Modal Riset 3  -->
+<!-- Modal Riset 1  -->
 <!-- 1 -->
-<div class="modal fade" id="exampleModal1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Dashboard Hasil 1</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset1/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label" >Nama</label>
+                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text" onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="btndownload1" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>   
 
 <!-- 2 -->
-<div class="modal fade" id="exampleModal1-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Dashboard Hasil 2</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset1/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Nama</label>
+                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text"   onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
+                </div>
+            </form>
         </div>
     </div>
 </div> 
 
 <!-- 3 -->
-<div class="modal fade" id="exampleModal1-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Dashboard Hasil 3</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset1/unduh" method="POST">
+                <div class="modal-body">
+                    <div class="mb-1">
+                        <label for="recipient-name" name="nama" class="col-form-label">Nama</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Nama Anda">
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button"id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
-            </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" name="email" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text"   onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" id="recipient-name" placeholder="Email Anda">
+                    </div>
+                    <div class="mb-1">
+                        <label for="recipient-name" name="instansi" class="col-form-label">Instansi</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Instansi Asal ">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit"id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>   

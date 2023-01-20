@@ -2,8 +2,8 @@
 
 <?= $this->section('content'); ?>
 
-<section id="hero" class="hero d-flex align-items-center">
-
+<section>
+    <section id="hero" class="hero d-flex align-items-center">
     <!-- Judul Landing Page -->
     <div class="container">
         <div class="row">
@@ -13,8 +13,7 @@
                     Pilot Survei Wisatawan Nusantara
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci. 
-                    
+                    Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.      
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
@@ -30,18 +29,18 @@
             </div>
         </div>
     </div>
+    </section>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <!-- Latar Belakang -->
-    <section id="firstSec" class="offset-header">
+    <section class="hero">
+    <section class="offset-header">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4 w-75" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari 
                     segi budaya. Hal ini didukung oleh laporan Travel & Tourism Development Index 2021 World 
@@ -112,17 +111,15 @@
     </section>
 
     <!-- Tujuan Penelitian -->
-    <section id="firstSecB" class="offset-header mt-5">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header mt-5">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <ol>
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <ol class="text-justify">
                     <li>Mendapatkan estimasi banyaknya wisatawan dan jumlah perjalanan wisata dalam kota di Kota Malang.</li>
                     <li>Mendapatkan estimasi rata-rata lama perjalanan dan rata-rata lama kunjungan wisata dalam kota yang dilakukan wisatawan Kota Malang.</li>
                     <li>Mendapatkan gambaran karakteristik wisatawan nusantara dalam Kota Malang.</li>
@@ -133,53 +130,51 @@
     </section>
 
     <!-- Metodologi -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Metodologi</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
             <!-- Cakupan penelitian -->
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>CAKUPAN PENELITIAN</b>
                 </p>
-                <p class="text-justify">
+                <ul class="text-justify">
                     <li>
                         Populasi Target <br>
-                        Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota pada Triwulan IV tahun 2022. <br><br>
+                        Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota pada Triwulan IV tahun 2022.
                     </li> 
                     <li>
                         Unit Sampling <br>
                         Primary Sampling Unit	: Blok Sensus <br>
-                        Secondary Sampling Unit	: Rumah Tangga di Blok Sensus terpilih <br><br>
+                        Secondary Sampling Unit	: Rumah Tangga di Blok Sensus terpilih
                     </li>
                     <li>
                         Unit Analisis <br>
                         Anggota rumah tangga di Kota Malang yang pernah melakukan perjalanan wisata dalam kota (untuk Riset II) atau luar kota (untuk Riset I) pada Triwulan IV tahun 2022.
                     </li>
-                </p>
+                </ul>
             </div>
             <!-- DESAIN SAMPLING -->
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>DESAIN SAMPLING</b>
                 </p>
-                <p class="text-justify">
-                    Two Stage Sampling
+                <p class="text-justify">Two Stage Sampling</p>
+                <ul class="text-justify">
                     <li>
-                        Tahap pertama, mengambil sejumlah blok sensus di Kota Malang dengan Probability Proportional to Size With Replacement dengan size <b>jumlah keluarga</b> di tiap blok sensus hasil pemutakhiran Sensus Penduduk 2020. <br> <br>
+                        Tahap pertama, mengambil sejumlah blok sensus di Kota Malang dengan Probability Proportional to Size With Replacement dengan size <b>jumlah keluarga</b> di tiap blok sensus hasil pemutakhiran Sensus Penduduk 2020.
                     </li>
                     <li>
                         Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
                     </li> 
-                </p>
+                </ul>
             </div>
             <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>PENENTUAN UKURAN SAMPEL MINIMUM</b>
                 </p>
@@ -201,16 +196,14 @@
     </section>
 
     <!-- Hasil Penelitian -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Hasil Penelitian</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p>
@@ -219,19 +212,19 @@
     </section>
 
     <!-- Infografis -->
-    <section id="firstSecB" class="offset-header">
-        <div class="container-fluid turun pb-5">
+    <section class="offset-header">
+        <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Infografis</h1>
                 </div>
-                <div class="garis">
-                </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 w-75 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-justify">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                </p>
+                </p> -->
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
             </div>
         </div>
     </section>
@@ -239,14 +232,6 @@
 
 </section>
 
-
-
-
-
-</script>
-
-
-
-</section>
+</section><!-- End -->
 
 <?= $this->endSection(); ?>

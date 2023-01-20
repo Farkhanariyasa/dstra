@@ -81,6 +81,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_doughnut.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
 
 
 <!-- <script src="<?= base_url('pvd/js/riset3/bar.js') ?>"></script>

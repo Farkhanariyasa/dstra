@@ -57,6 +57,7 @@ new Chart(pw_sankey, {
 
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       title: {
         display: true,
