@@ -247,25 +247,21 @@
                 <div class="card-body">
                     <div class="row-2 d-flex  flex-row justify-content-center ">
                         <h2 class="mt-0 mb-3" data-aos="fade-up">
-                            Pemanfaatan TIK pada Sektor Pariwisata dan Ekonomi Kreatif
+                            Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
+                            <i>Smart Tourism Destination</i>                        
                         </h2>
                     </div>
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
-                            Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu.
-                            Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata,
-                            penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan
-                            <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i>
-                            atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data
-                            yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk
-                            bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB,
-                            kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan
-                            jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19
-                            dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial
-                            bagi perekonomian Kota Batu sehingga perlu dilakukan upaya
-                            pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu
-                            dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
-                            melalui penerapan <i>Smart Tourism Destination</i>.
+                            Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
+                            <i>Smart Tourism Destination</i> dari sisi <i>enterprise</i> atau dalam penelitian ini adalah unit usaha pariwisata. 
+                            Pada saat pandemi Covid-19, unit usaha pariwisata mengalami kontraksi yang cukup signifikan. Padahal sektor 
+                            pariwisata memberikan kontribusi yang tinggi pada PAD Kota Batu melalui pajak hiburan, hotel, dan restoran, 
+                            sehingga sektor ini memerlukan upaya pemulihan. Salah satu faktor penting dalam pemulihan sektor pariwisata 
+                            adalah pemanfaatan TIK. Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit 
+                            usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Analisis kesiapan dilakukan melalui 
+                            Enterprise <i>E-Readiness Assessment Model</i> atau Model Kesiapan Unit Usaha Pariwisata yang terbentuk dari 
+                            beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
                         </p>
                     </div>
                     <div class="row-2  d-flex flex-row justify-content-center align-items-center">
