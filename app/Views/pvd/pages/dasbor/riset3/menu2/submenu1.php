@@ -4,7 +4,7 @@
 
 <div class="container">
       <header class="section-header">
-        <h1><strong>Tenaga Kerja di Industri Pariwisata</strong></h1>
+        <h1 style="color: #4b395f;"><strong>Tenaga Kerja di Industri Pariwisata</strong></h1>
       </header>
     <hr class="hrjudul">
 
