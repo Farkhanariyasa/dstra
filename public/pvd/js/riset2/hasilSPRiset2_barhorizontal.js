@@ -121,8 +121,8 @@ function tampilData() {
     ];
     batang_horizontal.options.plugins.title.text =
       "Sebaran Penduduk yang melakukan Perjalanan Wisata berdasarkan Jenis Pekerjaan Utama";
-    batang.options.scales.y.title.text = "Jenis Pekerjaan Utama";
-    batang.update();
+    batang_horizontal.options.scales.y.title.text = "Jenis Pekerjaan Utama";
+    batang_horizontal.update();
   }
 
   if (barchart.value == 2) {

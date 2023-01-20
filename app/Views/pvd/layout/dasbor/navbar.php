@@ -10,8 +10,8 @@
     </button>
     <ul class="navbar-nav navbar-nav-left">
       <li class="nav-item dropdown d-lg-none">
-        <a class="nav-link count-indicator dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <i class="mdi mdi-dots-horizontal"></i>
+        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
+          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>">

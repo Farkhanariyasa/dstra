@@ -36,12 +36,11 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
         $routes->get('/', 'LandingPage::riset/$1');
         $routes->get('dasbor', 'Dasbor::index/$1');
-        $routes->get('menu2/submenu1', 'Dasbor::submenu1/$1');
-        $routes->get('menu2/submenu2', 'Dasbor::submenu2/$1');
-        $routes->get('menu3/submenu3', 'Dasbor::submenu3/$1');
-        $routes->get('menu3/submenu4', 'Dasbor::submenu4/$1');
-
-        $routes->post('unduh','UnduhHasilPkl::unduh/$1');
+        $routes->get('menu2/submenu1', 'Menu2::submenu1/$1');
+        $routes->get('menu2/submenu2', 'Menu2::submenu2/$1');
+        $routes->get('menu3/submenu3', 'Menu3::submenu3/$1');
+        $routes->get('menu3/submenu4', 'Menu3::submenu4/$1');
+        $routes->post('unduh','Dasbor::unduh/$1');
     });
 });
 

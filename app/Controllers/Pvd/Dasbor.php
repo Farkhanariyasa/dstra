@@ -8,6 +8,8 @@ use App\Models\Pvd\Riset1HasilSpModel;
 use App\Models\Pvd\Riset2HasilSpModel;
 use App\Models\Pvd\Riset3HasilSpModel;
 use App\Models\Pvd\Riset4HasilSpModel;
+use App\Models\Pvd\UnduhHasilPklModel;
+use App\Models\Pvd\Riset1HasilSp2Model;
 
 
 class Dasbor extends BaseController
@@ -65,9 +67,7 @@ class Dasbor extends BaseController
         $judul = '';
         switch ($riset) {
             case 'riset1':
-
                 $judul = 'Dasbor Riset 1';
-
                 $ja = [
                     "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
                     "ja1" => $this->jumlahanggota->getByJumlahAnggota(1),
@@ -75,15 +75,11 @@ class Dasbor extends BaseController
                     "ja3" => $this->jumlahanggota->getByJumlahAnggota(3),
                     "ja4" => $this->jumlahanggota->getByJumlahAnggota(4),
                     "ja5" => $this->jumlahanggota->getByJumlahAnggota(5),
-
                 ];
-
                 $jk = [
                     "laki" => $this->hasilsp2->getJenisKelamin(1),
                     "perempuan" => $this->hasilsp2->getJenisKelamin(2)
                 ];
-
-
                 $b524 = [
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata1(1),
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata1(2),
@@ -93,7 +89,6 @@ class Dasbor extends BaseController
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata2(1),
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata2(2),
                 ];
-
                 $b526 = [
                     "ya" => $this->hasilsp2->getMelakukanPerjalananWisata3(1),
                     "tidak" => $this->hasilsp2->getMelakukanPerjalananWisata3(2),
@@ -115,24 +110,21 @@ class Dasbor extends BaseController
                 ];
 
                 $indosat = [
-                    "ya"=>$this->simcard->getindosat(1)
+                    "ya" => $this->simcard->getindosat(1)
                 ];
                 $xl = [
-                    "ya"=>$this->simcard->getxlaxiata(1)
+                    "ya" => $this->simcard->getxlaxiata(1)
                 ];
                 $tri = [
-                    "ya"=>$this->simcard->get3(1)
+                    "ya" => $this->simcard->get3(1)
                 ];
                 $smartfren = [
-                    "ya"=>$this->simcard->getsmartfren(1),
+                    "ya" => $this->simcard->getsmartfren(1),
                 ];
                 $lainnya = [
-                    "ya"=>$this->simcard->getlainnya(1),
+                    "ya" => $this->simcard->getlainnya(1),
                 ];
-                
-                
                 $menu = getMenu();
-
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
@@ -144,11 +136,11 @@ class Dasbor extends BaseController
                     'b527' => $b527,
                     'b528' => $b528,
                     'b529' => $b529,
-                    'indosat'=> $indosat,
-                    'xl'=>$xl,
-                    'tri'=>$tri,
-                    'smartfren'=>$smartfren,
-                    'lainnya'=>$lainnya
+                    'indosat' => $indosat,
+                    'xl' => $xl,
+                    'tri' => $tri,
+                    'smartfren' => $smartfren,
+                    'lainnya' => $lainnya
                 ];
                 break;
 
@@ -187,6 +179,7 @@ class Dasbor extends BaseController
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
+                    
                     'jk' => $jk,
                     'jpu' => $jpu,
                     'pt_2' => $pt_2
@@ -236,6 +229,7 @@ class Dasbor extends BaseController
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
+                    
                     'ji' => $ji,
                     'pt' => $pt,
                     'jk_1' => $jk_1,
@@ -264,14 +258,10 @@ class Dasbor extends BaseController
                     'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
                     'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
                 ];
-
                 $pd = $this->pendapatan->getPendapatan();
-
                 $umur = $this->umur->getUmur();
                 $pdnf = $this->pendapatanNoFilter->getPendapatanNoFilter();
-
                 $menu = getMenu();
-
                 $data = [
                     'judul' => $judul,
                     'menu' => $menu[$riset],
@@ -288,230 +278,15 @@ class Dasbor extends BaseController
         return view('pvd/pages/dasbor/' . $riset . '/index', $data);
     }
 
-    // menu 2
-    public function submenu1($riset)
+    public function unduh($riset)
     {
-        $judul = '';
-        switch ($riset) {
-            case 'riset1':
-
-                $judul = 'Menu 2 Riset 1';
-
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                    
-                ];
-                break;
-
-            case 'riset2':
-               
-                $menu = getMenu();
-
-                $judul = 'Menu 2 Riset 2';
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                   
-                ];
-                break;
-
-            case 'riset3':
-                $judul = 'Menu 2 Riset 3';
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-
-            case 'riset4':
-                $judul = 'Menu 2 Riset 4';
-
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-        }
-
-        return view('pvd/pages/dasbor/' . $riset . '/submenu1', $data);
+        $datapengunduh = new UnduhHasilPklModel();
+        $data = [
+            'email' => $this->request->getVar('email'),
+            'nama' => $this->request->getVar('nama'),
+            'instansi' => $this->request->getVar('instansi')
+        ];
+        $datapengunduh->insert($data);
+        return redirect()->to('hasil-pkl/' . $riset . '/dasbor');
     }
-
-    public function submenu2($riset)
-    {
-        $judul = '';
-        switch ($riset) {
-            case 'riset1':
-
-                $judul = 'Menu Riset 1';
-
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                    
-                ];
-                break;
-
-            case 'riset2':
-               
-                $menu = getMenu();
-
-                $judul = 'Menu 2 Riset 2';
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                   
-                ];
-                break;
-
-            case 'riset3':
-                $judul = 'Menu 2 Riset 3';
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-
-            case 'riset4':
-                $judul = 'Menu 2 Riset 4';
-
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-        }
-
-        return view('pvd/pages/dasbor/' . $riset . '/submenu2', $data);
-    }
-
-    // menu 3
-    public function submenu3($riset)
-    {
-        $judul = '';
-        switch ($riset) {
-            case 'riset1':
-
-                $judul = 'Menu 3 Riset 1';
-
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                    
-                ];
-                break;
-
-            case 'riset2':
-               
-                $menu = getMenu();
-
-                $judul = 'Menu 3 Riset 2';
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                   
-                ];
-                break;
-
-            case 'riset3':
-                $judul = 'Menu 3 Riset 3';
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-
-            case 'riset4':
-                $judul = 'Menu 3 Riset 4';
-
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-        }
-
-        return view('pvd/pages/dasbor/' . $riset . '/submenu3', $data);
-    }
-
-    public function submenu4($riset)
-    {
-        $judul = '';
-        switch ($riset) {
-            case 'riset1':
-
-                $judul = 'Menu 3 Riset 1';
-
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                    
-                ];
-                break;
-
-            case 'riset2':
-               
-                $menu = getMenu();
-
-                $judul = 'Menu 3 Riset 2';
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                   
-                ];
-                break;
-
-            case 'riset3':
-                $judul = 'Menu 3 Riset 3';
-                
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-
-            case 'riset4':
-                $judul = 'Menu 3 Riset 4';
-
-                $menu = getMenu();
-
-                $data = [
-                    'judul' => $judul,
-                    'menu' => $menu[$riset],
-                ];
-                break;
-        }
-
-        return view('pvd/pages/dasbor/' . $riset . '/submenu4', $data);
-    }
-
 }

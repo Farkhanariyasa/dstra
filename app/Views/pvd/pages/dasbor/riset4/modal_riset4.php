@@ -4,14 +4,14 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
                     </div>
                 </form>
             </div>
@@ -28,14 +28,14 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
                     </div>
                 </form>
             </div>
@@ -52,14 +52,14 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Inputkan Email Anda</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Email Anda">
+                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda">
                     </div>
                 </form>
             </div>
