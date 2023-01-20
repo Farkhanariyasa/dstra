@@ -19,7 +19,7 @@
                         </button>
                     </div>
                 </div>
-                    <div style=" height:500px;">
+                    <div class="chartBox" style=" height:500px;">
                         <canvas class="mt1" id="ji_batang"></canvas>
                     </div>
                 </div>
@@ -56,16 +56,50 @@
         <div class="col-lg-6 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                <h4 class="card-title">Line chart</h4>
-                <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="selectBox mt-2 me-2">
+                            <form action="">
+                                <select class="dropdownunduh1" id="forPieChart">
+                                    <option value="a">Jenis Industri</option>
+                                    <option value="b">Pendidikan Tertinggi</option>
+                                    <option value="c">Jenis Kelamin</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="tk_pie"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-6 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                <h4 class="card-title">Bar chart</h4>
-                <canvas id="j_doughnut"></canvas>
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="selectBox mt-2 me-2">
+                            <form action="">
+                                <select class="dropdownunduh1" id="forDoughnutChart">
+                                    <option value="a">Jenis Industri</option>
+                                    <option value="b">Pendidikan Tertinggi</option>
+                                    <option value="c">Jenis Kelamin</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas id="j_doughnut"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,7 +165,7 @@
             <div style="width: 550px; height:600px;">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
