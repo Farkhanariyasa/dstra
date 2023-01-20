@@ -98,7 +98,7 @@ CREATE TABLE `pvd_riset3_hasilsp` (
   `b505_minggu_menit` varchar(2) DEFAULT NULL,
   `b505_total` varchar(3) DEFAULT NULL,
   `b505_total_note` varchar(10) DEFAULT NULL,
-  `b506` varchar(7) DEFAULT NULL,
+  `b506` INTEGER DEFAULT NULL,
   `b507` varchar(1) DEFAULT NULL,
   `b508` varchar(1) DEFAULT NULL,
   `b509` varchar(1) DEFAULT NULL,
