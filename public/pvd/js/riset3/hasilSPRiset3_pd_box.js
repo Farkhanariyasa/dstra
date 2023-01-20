@@ -1,6 +1,6 @@
-const boxplot_riset3 = document.getElementById('boxplot_chart');
+const boxplot_chart = document.getElementById('boxplot_chart');
 
-new Chart(boxplot_riset3, {
+new Chart(boxplot_chart, {
     type: 'boxplot',
     data: {
         labels: [
@@ -8,7 +8,7 @@ new Chart(boxplot_riset3, {
         ],
         datasets: [{
             label: 'Pendapatan',
-            data: [pd_1],
+            data:[datapendapatan_riset3],
             backgroundColor: [
                 "#506396",
                 "#ffeecc",
@@ -32,8 +32,8 @@ new Chart(boxplot_riset3, {
     scales: {
         y: {
             type: 'linear',
-            min: Math.min(pd_1),
-            max: Math.max(pd_1),
+            min: Math.min(datapendapatan_riset3),
+            max: Math.max(datapendapatan_riset3),
             
         }
     }
