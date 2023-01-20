@@ -9393,7 +9393,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #f2edf3;
+  background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ebedf2;
   border-radius: 0.3rem;
@@ -21373,3 +21373,7 @@ dl li {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.btn-for {
+  background-color: #506396;
+}
