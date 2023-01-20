@@ -4,7 +4,7 @@
 
 <div class="container px-0">
       <header class="section-header">
-        <h4 style="color: #4b395f;"><strong>Pilot Survei Wisatawan Nusantara</strong></h4>
+        <h6 style="color: #4b395f;"><strong>Pilot Survei Wisatawan Nusantara</strong></h6>
       </header>
     <hr class="hrjudul">
 
