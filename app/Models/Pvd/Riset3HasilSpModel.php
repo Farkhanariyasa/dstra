@@ -23,9 +23,18 @@ class Riset3HasilSPModel extends Model
 
     public function getPendapatan_Riset3(){
         // get all row in column b506
-        $pd_1 = $this->select("b506")->findAll();
-        $pd_1 = array_column($pd_1, "b506");
-        return $pd_1;
-    }
+           
+        $pd_1 = $this->select('b506')->findAll();
+    
+            // delete row with value 0 
+            foreach ($pd_1 as $key => $value) {
+                if ($value['b506'] == 0) {
+                    unset($pd_1[$key]);
+                }
+            }
+    
+            $pd_1 = array_column($pd_1, 'b506');
+            return $pd_1;
+     }
   
 }
