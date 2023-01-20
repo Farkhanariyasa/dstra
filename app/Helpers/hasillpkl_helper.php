@@ -13,34 +13,34 @@ function getMenu()
           'href' => '/riset1/dasbor',
         ],
         [
-          'menu' => 'Double Counting',
+          'menu' => 'Menu 2',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Grafik',
+              'subMenu' => 'Submenu 1',
               'href' => '/riset1/menu2/submenu1',
             ],
             [
-              'subMenu' => 'Tabulasi',
+              'subMenu' => 'Submenu 2',
               'href' => '/riset1/menu2/submenu2',
             ],
           ],
         ],
         [
-          'menu' => 'Family Grouping',
+          'menu' => 'Menu 3',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Grafik',
-              'href' => '/riset1/menu3/submenu1',
+              'subMenu' => 'Submenu 3',
+              'href' => '/riset1/menu3/submenu3',
             ],
             [
-              'subMenu' => 'Tabulasi',
-              'href' => '/riset1/menu3/submenu2',
+              'subMenu' => 'Submenu 4',
+              'href' => '/riset1/menu3/submenu4',
             ],
           ],
         ],
@@ -158,11 +158,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset4/sdszd',
+              'href' => '/riset4/menu2/submenu1',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset4/dszd',
+              'href' => '/riset4/menu2/submenu2',
             ],
           ],
         ],
@@ -173,12 +173,12 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset4/ads',
+              'subMenu' => 'Submenu 3',
+              'href' => '/riset4/menu3/submenu3',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset4/ar',
+              'subMenu' => 'Submenu 4',
+              'href' => '/riset4/menu3/submenu4',
             ],
           ],
         ],
