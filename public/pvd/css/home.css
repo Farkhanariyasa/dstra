@@ -363,7 +363,7 @@ section{
 .konten {
     width: fit-content !important;
 }
-.konten div{
+.info-item{
     width: 60vw;
 }
 div.container-fluid.turun {
