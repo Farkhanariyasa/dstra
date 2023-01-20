@@ -20,5 +20,12 @@ class Riset3HasilSPModel extends Model
     public function getByJenisKelamin_Riset3($jk_1){
         return $this->where(['b4_4' => $jk_1])-> countAllResults();
     }
+
+    public function getPendapatan_Riset3(){
+        // get all row in column b506
+        $pd_1 = $this->select("b506")->findAll();
+        $pd_1 = array_column($pd_1, "b506");
+        return $pd_1;
+    }
   
 }

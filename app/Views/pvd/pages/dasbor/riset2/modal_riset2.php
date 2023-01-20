@@ -96,7 +96,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" id="download_jpu_barhorizontal" class="tombol btn-for" data-bs-dismiss="modal"
+                    <button type="submit" id="download_barhorizontal" class="tombol btn-for" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>

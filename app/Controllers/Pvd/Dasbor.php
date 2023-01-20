@@ -5,7 +5,6 @@ namespace App\Controllers\Pvd;
 use App\Controllers\BaseController;
 
 use App\Models\Pvd\Riset1HasilSpModel;
-use App\Models\Pvd\Riset1HasilSp2Model;
 use App\Models\Pvd\Riset2HasilSpModel;
 use App\Models\Pvd\Riset3HasilSpModel;
 use App\Models\Pvd\Riset4HasilSpModel;
@@ -28,6 +27,7 @@ class Dasbor extends BaseController
     protected $jenisindustri;
     protected $pendidikantertinggi;
     protected $jeniskelamin_riset3;
+    protected $pendapatan_riset3;
 
     // RISET 4
     protected $unitusahaTIK;
@@ -51,6 +51,7 @@ class Dasbor extends BaseController
         $this->jenisindustri = new Riset3HasilSpModel();
         $this->pendidikantertinggi = new Riset3HasilSpModel();
         $this->jeniskelamin_riset3 = new Riset3HasilSpModel();
+        $this->pendapatan_riset3 = new Riset3HasilSpModel();
 
         // RISET 4
         $this->unitusahaTIK = new Riset4HasilSpModel();
@@ -229,6 +230,7 @@ class Dasbor extends BaseController
                     'jk_12' => $this->jeniskelamin_riset3->getByJenisKelamin_Riset3("2")
                 ];
 
+                $pd_1 = $this->pendapatan_riset3->getPendapatan_Riset3();
                 $menu = getMenu();
 
                 $data = [
@@ -236,7 +238,8 @@ class Dasbor extends BaseController
                     'menu' => $menu[$riset],
                     'ji' => $ji,
                     'pt' => $pt,
-                    'jk_1' => $jk_1
+                    'jk_1' => $jk_1,
+                    'pd_1' => $pd_1
                 ];
                 break;
 
@@ -284,4 +287,231 @@ class Dasbor extends BaseController
 
         return view('pvd/pages/dasbor/' . $riset . '/index', $data);
     }
+
+    // menu 2
+    public function submenu1($riset)
+    {
+        $judul = '';
+        switch ($riset) {
+            case 'riset1':
+
+                $judul = 'Menu 2 Riset 1';
+
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                    
+                ];
+                break;
+
+            case 'riset2':
+               
+                $menu = getMenu();
+
+                $judul = 'Menu 2 Riset 2';
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                   
+                ];
+                break;
+
+            case 'riset3':
+                $judul = 'Menu 2 Riset 3';
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+
+            case 'riset4':
+                $judul = 'Menu 2 Riset 4';
+
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+        }
+
+        return view('pvd/pages/dasbor/' . $riset . '/submenu1', $data);
+    }
+
+    public function submenu2($riset)
+    {
+        $judul = '';
+        switch ($riset) {
+            case 'riset1':
+
+                $judul = 'Menu Riset 1';
+
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                    
+                ];
+                break;
+
+            case 'riset2':
+               
+                $menu = getMenu();
+
+                $judul = 'Menu 2 Riset 2';
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                   
+                ];
+                break;
+
+            case 'riset3':
+                $judul = 'Menu 2 Riset 3';
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+
+            case 'riset4':
+                $judul = 'Menu 2 Riset 4';
+
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+        }
+
+        return view('pvd/pages/dasbor/' . $riset . '/submenu2', $data);
+    }
+
+    // menu 3
+    public function submenu3($riset)
+    {
+        $judul = '';
+        switch ($riset) {
+            case 'riset1':
+
+                $judul = 'Menu 3 Riset 1';
+
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                    
+                ];
+                break;
+
+            case 'riset2':
+               
+                $menu = getMenu();
+
+                $judul = 'Menu 3 Riset 2';
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                   
+                ];
+                break;
+
+            case 'riset3':
+                $judul = 'Menu 3 Riset 3';
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+
+            case 'riset4':
+                $judul = 'Menu 3 Riset 4';
+
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+        }
+
+        return view('pvd/pages/dasbor/' . $riset . '/submenu3', $data);
+    }
+
+    public function submenu4($riset)
+    {
+        $judul = '';
+        switch ($riset) {
+            case 'riset1':
+
+                $judul = 'Menu 3 Riset 1';
+
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                    
+                ];
+                break;
+
+            case 'riset2':
+               
+                $menu = getMenu();
+
+                $judul = 'Menu 3 Riset 2';
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                   
+                ];
+                break;
+
+            case 'riset3':
+                $judul = 'Menu 3 Riset 3';
+                
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+
+            case 'riset4':
+                $judul = 'Menu 3 Riset 4';
+
+                $menu = getMenu();
+
+                $data = [
+                    'judul' => $judul,
+                    'menu' => $menu[$riset],
+                ];
+                break;
+        }
+
+        return view('pvd/pages/dasbor/' . $riset . '/submenu4', $data);
+    }
+
 }

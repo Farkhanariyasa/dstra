@@ -60,30 +60,41 @@ new Chart(hasil4, {
             position: "right"
           },
         tooltip:{
-            // callbacks:{
-            //     label: function(tooltipItems,data){
-            //         // var label = context.label,
-            //         // currentValue = context.raw,
-            //         // total = context.chart._metasets[context.].total;
+            enabled: true,
+            callbacks: {
+                label: function(context){
+                    // stacked 100%
+                    var label = context.label,
 
-            //         // var percentage = parseFloat((currentValue/total*100).toFixed(1));
-              
-            //         // return label + ": " +currentValue + ' (' + percentage + '%)';
-                    
-            //         return data.datasets[tooltipItems.datasetIndex].label + ': ' + tooltipItems.xLabel + ' %';
-            //     }
-            // }
+                    data1 = context.chart.data.datasets[0].data,
+                    data2 = context.chart.data.datasets[1].data,
+                    total = data1[context.dataIndex] + data2[context.dataIndex],
+
+
+                    currentValue = context.dataset.data[context.dataIndex],
+                    percentage = Math.floor(((currentValue/total) * 100)+0.5);
+                    return label + ": " +currentValue + ' (' + percentage + '%)';
+
+
+                }
+            }
         },
         datalabels:{
             display:true,
             color:'black',
-            // formatter: function(value, context) {
-            //     total = context.chart._metasets[context.datasetIndex].total;
-            //     percentage = parseFloat((value/total*100).toFixed(1));
-            //     return percentage + '%';
-            // }
+            formatter: function(value, context) {
+                var data1 = context.chart.data.datasets[0].data,
+                    data2 = context.chart.data.datasets[1].data,
+                    total = data1[context.dataIndex] + data2[context.dataIndex],
+                
+                    currentValue = context.dataset.data[context.dataIndex],
+                    percentage = Math.floor(((currentValue/total) * 100)+0.5);
+                    return percentage + '%';
+
+            }
         } 
         },
     maintainAspectRatio: false
-    }, plugins:[ChartDataLabels]
+    }, 
+    plugins:[ChartDataLabels]
 });
