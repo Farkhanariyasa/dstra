@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="btndownload" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="btndownload2" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="btndownload4" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="btndownload5" class="tombol btn-for" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
