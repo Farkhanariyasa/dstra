@@ -108,4 +108,7 @@
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
 
+<!-- form validation -->
+<script src="email.js"></script>
+
 <?= $this->endSection(); ?>
