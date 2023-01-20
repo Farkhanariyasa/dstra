@@ -71,7 +71,7 @@
                     <p class="text-center">
                         <!-- image atau chart.js -->
                         <img src="<?= base_url('pvd/img/landingpage/riset4/latar belakang.png')?>" 
-                            alt="Grafik kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020." 
+                            alt="Grafik kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020" 
                             class="responsive img-fluid">
                     </p>
                     <p class="text-justify">
