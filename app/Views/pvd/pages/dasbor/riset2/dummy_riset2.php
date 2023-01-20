@@ -19,7 +19,7 @@
         </div>
     </div> -->
 
-    <div class="row mt-5">
+    <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
@@ -121,7 +121,7 @@
         </div>
     </div> -->
 
-    <div class="row mt-5">
+    <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
@@ -171,7 +171,7 @@
         </div>
     </div> -->
 
-    <div class="row mt-5">
+    <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">

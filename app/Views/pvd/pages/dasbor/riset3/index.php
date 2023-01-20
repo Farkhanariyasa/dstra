@@ -6,7 +6,6 @@
 
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" >
-    <br><br>
       <header class="section-header">
         <p>Tenaga Kerja di Industri Pariwisata</p>
       </header>
