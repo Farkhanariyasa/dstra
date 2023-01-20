@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container">
+<div class="container px-0">
       <header class="section-header">
         <h3 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
           <i>Smart Tourism Destination</i></strong>
