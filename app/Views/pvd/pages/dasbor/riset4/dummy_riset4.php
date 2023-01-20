@@ -26,52 +26,57 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
-</div>
+</body>
 
 
 
 
 <!-- Riset 4 Hasil 2 -->
-<div class="portfolio-item filter-riset4-hasil2">
-    <div class="container mt-5">
-        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
-            <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
-                <div class="position-relative">
-                    <div class="position-absolute top-0 end-0">
-                        <!-- tambah modal -->
-                        <!-- <button class="tombol btn-for" id="btndownload3"><i class="fa-solid fa-download"></i></button> -->
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1-3">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
+<body onresize="responsivefonts()">   
+    <div class="portfolio-item filter-riset4-hasil2">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas id="hasil2"></canvas>
                     </div>
                 </div>
-                <canvas id="hasil2"></canvas>
             </div>
         </div>
     </div>
-</div>
+</body>
 
 
 <!-- Riset 4 Hasil 3 -->
-<div class="portfolio-item filter-riset4-hasil3">
-    <div class="container mt-5">
-        <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
-            <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
-                <div class="position-relative">
-                    <div class="position-absolute top-0 end-0">
-                        <!-- tambah modal -->
-                        <!-- <button class="tombol btn-for" id="btndownload3"><i class="fa-solid fa-download"></i></button> -->
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1-3">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
+<!-- <body onresize="responsivefonts()">   
+    <div class="portfolio-item filter-riset4-hasil1">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas id="hasil3"></canvas>
                     </div>
                 </div>
-                <canvas id="hasil3"></canvas>
             </div>
         </div>
     </div>
-</div>
+</body> -->
 
 <!-- Riset 4 Hasil 2 -->
 <div class="portfolio-item filter-riset4-hasil2">
@@ -87,11 +92,10 @@
                         </button>
                     </div>
                 </div>
-                <canvas id="hasil4"></canvas>
             </div>
         </div>
     </div>
-</div>
+</body>
 
 <!-- Riset 4 Hasil 5 -->
 <div class="portfolio-item filter-riset4-hasil3">
@@ -106,11 +110,10 @@
                         </button>
                     </div>
                 </div>
-                <canvas id="hasil5"></canvas>
             </div>
         </div>
     </div>
-</div>
+</body>
 
 <!-- Riset 4 Hasil 6 -->
 <div class="portfolio-item filter-riset4-hasil2">
@@ -125,8 +128,7 @@
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
-                </div>
-                <div id="hasil6">
+                    <div style=" height:500px;">
                     <figure class="heatmap-figure">
                         <div id="container"></div>
                     </figure>
@@ -149,12 +151,30 @@
                         </button>
                     </div>
                 </div>
-                <div id="map" style="width: 95%; height:80vh;"></div>
             </div>
         </div>
     </div>
-</div>
+</body>
 
+<!-- Riset 4 Hasil 7 -->
+<body onresize="responsivefonts()">   
+    <div class="portfolio-item filter-riset4-hasil7">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="map" style="width: 95%; height:50vh;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
 
 <!-- Modal Riset 4  -->
