@@ -32,6 +32,8 @@ class Dasbor extends BaseController
     // RISET 4
     protected $unitusahaTIK;
     protected $pendapatan;
+    protected $umur;
+    protected $pendapatanNoFilter;
 
     public function __construct()
     {
@@ -53,6 +55,8 @@ class Dasbor extends BaseController
         // RISET 4
         $this->unitusahaTIK = new Riset4HasilSpModel();
         $this->pendapatan = new Riset4HasilSpModel();
+        $this->umur = new Riset4HasilSpModel();
+        $this->pendapatanNoFilter = new Riset4HasilSpModel();
     }
 
     public function index($riset)
@@ -260,6 +264,9 @@ class Dasbor extends BaseController
 
                 $pd = $this->pendapatan->getPendapatan();
 
+                $umur = $this->umur->getUmur();
+                $pdnf = $this->pendapatanNoFilter->getPendapatanNoFilter();
+
                 $menu = getMenu();
 
                 $data = [
@@ -269,6 +276,8 @@ class Dasbor extends BaseController
                     'pd' => $pd,
                     'b401a' => $b401a,
                     'b407a' => $b407a,
+                    'umur' => $umur,
+                    'pdnf' => $pdnf
                 ];
                 break;
         }

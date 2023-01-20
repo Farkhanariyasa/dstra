@@ -1,21 +1,20 @@
 const scatter = document.getElementById('hasil4');
 
+var newArray = [];
+for (var i = 0; i < umur.length; i++) {
+    newArray.push([umur[i], pendapatanNoFilter[i]]);
+}
+
+
 new Chart(scatter, {
     type: 'scatter',
     data: {
         labels: "Scatter Plot",
         datasets: [{
-            label: 'Pendapatan',
-            data: [{
-                x: 1,
-                y: 1
-            }, {
-                x: 2,
-                y: 2
-            }, {
-                x: 3,
-                y: 3
-            }]
+            label: 'Dataset',
+            backgroundColor: "#ffbc33",
+            borderColor: "#7382ab",
+            data : newArray,
         }]
     },
     options: {
@@ -24,7 +23,7 @@ new Chart(scatter, {
         plugins: {
             title: {
                 display: true,
-                text : "Scatter Plot",
+                text : "Scatter Plot antara Umur (X) dan Pendapatan (Y)",
                 font: {
                     size: 20
                 }
@@ -34,6 +33,27 @@ new Chart(scatter, {
             x: {
                 type: 'linear',
                 position: 'bottom',
+                title: {
+                    display: true,
+                    text: 'Umur',
+                    font: {
+                        weight: 'bold',
+                        size: 15
+                    }
+                },
+            },
+            y: {
+                type: 'linear',
+                position: 'left',
+                title: {
+                    display: true,
+                    text: 'Pendapatan',
+                    font: { 
+                        weight: 'bold',
+                        size: 15
+                    } 
+                },
+
             }
         }
     }

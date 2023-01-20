@@ -33,13 +33,22 @@ class Riset4HasilSpModel extends Model
             }
         }
 
-
         $pendapatan = array_column($pendapatan, 'b309');
-
-    
-
         return $pendapatan;
+    }
 
+    public function getUmur(){
+        // get all row in column b302
+        $umur = $this->select("b302")->findAll();
+        $umur = array_column($umur, 'b302');
+        return $umur;
+    }
+
+    public function getPendapatanNoFilter(){
+        // get all row in column b309
+        $pendapatan = $this->select("b309")->findAll();
+        $pendapatan = array_column($pendapatan, "b309");
+        return $pendapatan;
     }
 
 }

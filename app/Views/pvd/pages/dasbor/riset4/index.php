@@ -146,6 +146,8 @@
   const pendapatan = <?= json_encode($pd) ?>;
   const b401a = <?= json_encode($b401a) ?>;
   const b407a = <?= json_encode($b407a) ?>;
+  const umur = <?= json_encode($umur) ?>;
+  const pendapatanNoFilter = <?= json_encode($pdnf) ?>;
 
 </script>
 
