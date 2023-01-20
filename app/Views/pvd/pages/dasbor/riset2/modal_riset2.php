@@ -71,7 +71,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Grafik Batang Horizontal</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset1/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset2/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama</label>
