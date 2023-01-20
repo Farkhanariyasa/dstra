@@ -151,18 +151,22 @@ function getMenu()
           'href' => '/riset4/dasbor',
         ],
         [
-          'menu' => 'Menu 2',
+          'menu' => 'Unit Usaha',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
+              'subMenu' => 'Karakteristik Umum',
               'href' => '/riset4/menu2/submenu1',
             ],
             [
-              'subMenu' => 'Submenu 2',
+              'subMenu' => 'Karakteristik Kesiapan',
               'href' => '/riset4/menu2/submenu2',
+            ],
+            [
+              'subMenu' => 'Indeks Kesiapan',
+              'href' => '/riset4/menu2/submenu3',
             ],
           ],
         ],
