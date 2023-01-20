@@ -23,40 +23,6 @@
       </div>
     </div>
 
-    <!-- <div class="row">
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="row portfolio-container" >
       <?php include('dummy_riset2.php') ?>
     </div>
