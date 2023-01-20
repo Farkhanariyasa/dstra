@@ -42,6 +42,7 @@
             <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
+                      
                         <label for="recipient-name" class="col-form-label">Nama</label>
                         <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda">
                     </div>
@@ -74,16 +75,16 @@
             <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/unduh" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
-                        <label for="recipient-name" name="nama" class="col-form-label">Nama</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Nama Anda">
+                        <label for="recipient-name"  class="col-form-label">Nama</label>
+                        <input type="text" name="nama" class="form-control" id="recipient-name" placeholder="Nama Anda">
                     </div>
                     <div class="mb-1">
-                        <label for="recipient-name" name="email" class="col-form-label" name="emailunduh">Email</label>
-                        <input type="text"   onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" id="recipient-name" placeholder="Email Anda">
+                        <label for="recipient-name" class="col-form-label" name="emailunduh">Email</label>
+                        <input type="text" name="email"  onclick="ValidateEmail(document.unduhVisualisasi.emailunduh)" class="form-control" id="recipient-name" placeholder="Email Anda">
                     </div>
                     <div class="mb-1">
-                        <label for="recipient-name" name="instansi" class="col-form-label">Instansi</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Instansi Asal ">
+                        <label for="recipient-name"  class="col-form-label">Instansi</label>
+                        <input type="text" name="instansi" class="form-control" id="recipient-name" placeholder="Instansi Asal ">
                     </div>
                 </div>
                 <div class="modal-footer">
