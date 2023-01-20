@@ -23,6 +23,8 @@
           <li data-filter=".filter-riset4-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset4-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset4-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset4-hasil5">Hasil 5</li>
+          <li data-filter=".filter-riset4-hasil6">Hasil 6</li>
         </ul>
       </div>
     </div>

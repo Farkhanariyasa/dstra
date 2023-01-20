@@ -18,8 +18,8 @@
     </div>
 </div>
 
-<!-- Riset 4 Hasil 1 -->
-<div class="portfolio-item filter-riset4-hasil1">
+<!-- Riset 4 Hasil 2 -->
+<div class="portfolio-item filter-riset4-hasil2">
     <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
             <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
@@ -38,8 +38,8 @@
     </div>
 </div>
 
-<!-- Riset 4 Hasil 2 -->
-<div class="portfolio-item filter-riset4-hasil2">
+<!-- Riset 4 Hasil 3 -->
+<div class="portfolio-item filter-riset4-hasil3">
     <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
             <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
@@ -58,8 +58,8 @@
     </div>
 </div>
 
-<!-- Riset 4 Hasil 2 -->
-<div class="portfolio-item filter-riset4-hasil2">
+<!-- Riset 4 Hasil 4 -->
+<div class="portfolio-item filter-riset4-hasil4">
     <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
             <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
@@ -78,8 +78,8 @@
     </div>
 </div>
 
-<!-- Riset 4 Hasil 2 -->
-<div class="portfolio-item filter-riset4-hasil3">
+<!-- Riset 4 Hasil 5 -->
+<div class="portfolio-item filter-riset4-hasil5">
 <div class="container mt-5">
         <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
         <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
@@ -97,8 +97,8 @@
     </div>
 </div>
 
-<!-- Riset 4 Hasil 4 -->
-<div class="portfolio-item filter-riset4-hasil2">
+<!-- Riset 4 Hasil 6 -->
+<div class="portfolio-item filter-riset4-hasil6">
     <div class="container mt-5">
         <div class="card d-flex justify-content-center align-item-center flex-md-row primary">
             <div class="content pl-4 mt-2" style="width: 95%; height:80vh;">
