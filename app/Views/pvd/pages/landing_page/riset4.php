@@ -108,7 +108,7 @@
                     <li>Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu dalam pemanfaatan TIK.</li>
                     <li>
                         Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha pariwisata skala mikro dan kecil di Kota Batu.
-                        <span id="goToMetodologi" class="invisilbe"></span>
+                        <!-- <span id="goToMetodologi" class="invisilbe"></span> -->
                     </li>
                 </ol>
             </div>
@@ -125,9 +125,8 @@
                 </div>
             </div>
             <!-- konten -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
-                data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-justify">
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <!-- <p class="text-justify">
                     Kegiatan pengumpulan data dilakukan di Kota Batu, Provinsi Jawa Timur. Kota Batu terdiri dari 3 kecamatan yaitu 
                     Kecamatan Batu, Kecamatan Bumiaji, dan Kecamatan Junrejo. Data yang digunakan bersumber dari data primer yang 
                     didapatkan dari wawancara langsung CAPI terhadap pemilik atau pengelola usaha pariwisata yang terpilih sebagai sampel 
@@ -136,8 +135,8 @@
                     <a id="metodologiAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseMetodologi" aria-expanded="false" aria-controls="collapseMetodologi">
                         [<strong><i>Tampilkan Semua</i></strong>]
                     </a>
-                </p>
-                <div class="collapse" id="collapseMetodologi">
+                </p> -->
+                <!-- <div class="collapse" id="collapseMetodologi">
                     <p class="text-justify">    
                         Populasi dalam penelitian ini adalah seluruh unit usaha pariwisata skala mikro dan kecil di Kota Batu tahun 2023. Populasi Target adalah 
                         seluruh unit usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi 
@@ -151,7 +150,24 @@
                                 [<strong><i>Tampilkan Sebagian</i></strong>]
                         </a>
                     </p>
-                </div>
+                </div> -->
+                <p class="text-justify">
+                    Kegiatan pengumpulan data dilakukan di Kota Batu, Provinsi Jawa Timur. Kota Batu terdiri dari 3 kecamatan yaitu 
+                    Kecamatan Batu, Kecamatan Bumiaji, dan Kecamatan Junrejo. Data yang digunakan bersumber dari data primer yang 
+                    didapatkan dari wawancara langsung CAPI terhadap pemilik atau pengelola usaha pariwisata yang terpilih sebagai sampel 
+                    dan menggunakan data sekunder yang diperoleh dari BPS berupa daftar jumlah usaha mikro dan kecil yang meliputi tiga 
+                    usaha pariwisata yang tercakup dalam penelitian ini.
+                </p>
+                <p class="text-justify">    
+                    Populasi dalam penelitian ini adalah seluruh unit usaha pariwisata skala mikro dan kecil di Kota Batu tahun 2023. Populasi Target adalah 
+                    seluruh unit usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi 
+                    di Kota Batu pada tahun 2023. Unit Observasi adalah pemilik atau pengelola usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi 
+                    Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023. Metode Penarikan Sampel yang digunakan adalah 
+                    <i>Two Stage Sampling</i>. Untuk pemilihan sampel tahap pertama, dari kerangka sampel blok sensus di Kota Batu, dipilih sejumlah 
+                    blok sensus secara PPS WR. Kemudian tahap kedua, dari blok sensus terpilih, dipilih sejumlah usaha pariwisata melalui pendekatan 
+                    pemilik atau pengelola dari seluruh penduduk di Kota Batu tahun 2023 meliputi tiga usaha pariwisata yang tercakup dalam penelitian. 
+                    Tahap kedua ini dilakukan secara <i>systematic</i> dengan <i>implicit stratification</i> berdasarkan jenis usahanya.               
+                </p>
             </div>
             <!-- end konten -->
         </div>
