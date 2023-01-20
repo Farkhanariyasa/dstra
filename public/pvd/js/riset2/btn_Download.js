@@ -30,7 +30,7 @@ document.getElementById("download_jk_bar").addEventListener("click", function (e
 
 document.getElementById("download_jpu_barhorizontal").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("jpu_barhorizontal").toDataURL();
+  let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
   // Create an anchor, and set the href value to our data URL
   const createEl = document.createElement("a");
   createEl.href = canvasUrl;

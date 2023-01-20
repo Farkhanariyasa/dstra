@@ -23,6 +23,8 @@
           <li data-filter=".filter-riset4-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset4-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset4-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset4-hasil5">Hasil 5</li>
+          <li data-filter=".filter-riset4-hasil6">Hasil 6</li>
         </ul>
       </div>
     </div>
@@ -152,6 +154,8 @@
   const pendapatan = <?= json_encode($pd) ?>;
   const b401a = <?= json_encode($b401a) ?>;
   const b407a = <?= json_encode($b407a) ?>;
+  const umur = <?= json_encode($umur) ?>;
+  const pendapatanNoFilter = <?= json_encode($pdnf) ?>;
 
 </script>
 
