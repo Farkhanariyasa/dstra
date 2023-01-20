@@ -19,6 +19,7 @@
           <li data-filter=".filter-riset3-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset3-hasil5">Hasil 5</li>
           <li data-filter=".filter-riset3-peta">Peta Lokus</li>
           <li data-filter=".filter-riset3-tabeldummy">Hasil 6</li>
 
