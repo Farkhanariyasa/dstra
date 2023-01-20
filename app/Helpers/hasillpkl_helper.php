@@ -59,33 +59,33 @@ function getMenu()
           'href' => '/riset2/dasbor',
         ],
         [
-          'menu' => 'Menu 2',
+          'menu' => 'Gambaran Umum',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
+              'subMenu' => 'Kajian 1',
               'href' => '/riset2/menu2/submenu1',
             ],
             [
-              'subMenu' => 'Submenu 2',
+              'subMenu' => 'Kajian 2',
               'href' => '/riset2/menu2/submenu2',
             ],
           ],
         ],
         [
-          'menu' => 'Menu 3',
+          'menu' => 'Tabel Dinamis',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 3',
+              'subMenu' => 'Kajian 1',
               'href' => '/riset2/menu3/submenu3',
             ],
             [
-              'subMenu' => 'Submenu 4',
+              'subMenu' => 'Kajian 2',
               'href' => '/riset2/menu3/submenu4',
             ],
           ],
