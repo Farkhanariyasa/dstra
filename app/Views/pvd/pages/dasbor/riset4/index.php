@@ -19,12 +19,12 @@
       <div class="col-lg-12 d-flex justify-content-center" >
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset4-hasil1">Hasil 1</li>
-          <li data-filter=".filter-riset4-hasil2">Hasil 2</li>
-          <li data-filter=".filter-riset4-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset4-hasil4">Hasil 4</li>
-          <li data-filter=".filter-riset4-hasil5">Hasil 5</li>
-          <li data-filter=".filter-riset4-hasil6">Hasil 6</li>
+          <li data-filter=".filter-riset4-hasil1">Pie Chart</li>
+          <li data-filter=".filter-riset4-hasil2">BoxPlot</li>
+          <li data-filter=".filter-riset4-hasil3">Bar Plot</li>
+          <li data-filter=".filter-riset4-hasil4">Pie Chart (2)</li>
+          <li data-filter=".filter-riset4-hasil5">Peta Batu</li>
+          <li data-filter=".filter-riset4-hasil6">Scatter Plot</li>
         </ul>
       </div>
     </div>
