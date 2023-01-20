@@ -95,7 +95,7 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 <!-- for download chart -->
-<script src="<?= base_url('pvd/js/riset1/btnDownload.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/btn-Download.js') ?>"></script>
 
 <!-- form validation -->
 <script src="email.js"></script>
