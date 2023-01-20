@@ -10,24 +10,19 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center">
                 <h1 data-aos="fade-up" class="titleRiset4Top">Riset 4</h1>
                 <h5 data-aos="fade-up" data-aos-delay="400" class="descRiset4">
-                    Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Kota Batu
-                    dalam Menerapkan Smart Tourism Destination
+                    Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
+                    <i>Smart Tourism Destination</i>                        
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu.
-                    Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata,
-                    penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan
-                    <i>Smart Tourism Destination</i> (STD) dari sisi <i>enterprise</i>
-                    atau dalam hal ini adalah unit usaha pariwisata. Berdasarkan data
-                    yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk
-                    bagi unit usaha pariwisata di Kota Batu. Adanya penurunan PDRB,
-                    kontraksi pada beberapa lapangan usaha pariwisata, dan penurunan
-                    jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19
-                    dapat mengindikasikan bahwa pariwisata menjadi sektor yang krusial
-                    bagi perekonomian Kota Batu sehingga perlu dilakukan upaya
-                    pemulihan. Salah satu aspek penting untuk mewujudkannya yaitu
-                    dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
-                    melalui penerapan <i>Smart Tourism Destination</i>.
+                    Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
+                    <i>Smart Tourism Destination</i> dari sisi <i>enterprise</i> atau dalam penelitian ini adalah unit usaha pariwisata. 
+                    Pada saat pandemi Covid-19, unit usaha pariwisata mengalami kontraksi yang cukup signifikan. Padahal sektor 
+                    pariwisata memberikan kontribusi yang tinggi pada PAD Kota Batu melalui pajak hiburan, hotel, dan restoran, 
+                    sehingga sektor ini memerlukan upaya pemulihan. Salah satu faktor penting dalam pemulihan sektor pariwisata 
+                    adalah pemanfaatan TIK. Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit 
+                    usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Analisis kesiapan dilakukan melalui 
+                    Enterprise <i>E-Readiness Assessment Model</i> atau Model Kesiapan Unit Usaha Pariwisata yang terbentuk dari 
+                    beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
@@ -56,63 +51,39 @@
             </div>
             <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
-                    Provinsi Jawa Timur berdasarkan data Badan Pusat Statistik merupakan dua besar provinsi dengan jumlah perjalanan
-                    wisatawan nusantara tertinggi sejak tahun 2015. Jawa Timur berada pada peringkat kedua dengan jumlah wisatawan
-                    nusantara mencapai 99,58 juta orang pada tahun 2019. Sementara itu, pada tahun 2020, Jawa Timur menjadi provinsi dengan jumlah wisatawan nusantara tertinggi, 
-                    yakni sebesar 125,34 juta orang.
+                    Jawa Timur termasuk ke dalam dua besar provinsi dengan jumlah perjalanan wisatawan nusantara tertinggi sejak tahun 2015. 
+                    Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu dengan pariwisata sebagai sektor andalan dalam menunjang 
+                    perekonomian daerahnya.
                     <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         [<strong><i>Tampilkan Semua</i></strong>]
                     </a>
                 </p>
                 <div class="collapse" id="collapseExample">
                     <p class="text-justify">
-                        Kota Batu juga memiliki posisi dan peran sebagai Kota Wisata, bahkan pemerintah daerah Kota Batu juga memiliki
-                        rencana untuk meningkatkan posisi dan peran Kota Batu dari Kota Wisata menjadi Sentra Wisata. Selain itu, berdasarkan
-                        jurnal Seminar Nasional Kepariwisataan oleh Hidayatullah dkk (2021), Batu dikenal sebagai salah satu kota wisata
-                        terkemuka di Indonesia karena potensi keindahan alam yang luar biasa dan dijuluki sebagai De Kleine Zwitserland atau
-                        Swiss Kecil di Pulau Jawa.
+                        <strong>Batu memiliki posisi dan peran sebagai Kota Wisata</strong>, bahkan pemerintah Kota Batu berencana untuk meningkatkan 
+                        peranan Kota Batu dari Kota Wisata menjadi Sentra Wisata yang tertuang dalam Peraturan Daerah Kota Batu Nomor 7 Tahun 2011 tentang 
+                        Rencana Tata Ruang Wilayah Kota Batu Tahun 2010-2030. Dengan adanya peran Kota Batu sebagai Kota Wisata, maka akan dilhat kesiapan 
+                        Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Menurut Wibowo (2020), terdapat beberapa aspek yang dapat digunakan untuk 
+                        mengukur kesiapan STD, salah satunya dapat dilihat dari sisi <i>enterprise</i> (unit usaha). Pada saat pandemi Covid-19, unit usaha 
+                        merupakan salah satu aspek dalam sektor pariwisata yang mengalami kontraksi cukup signifikan. Grafik berikut menggambarkan adanya 
+                        kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020.
+                    </p>
+                    <p class="text-center">
+                        <!-- image atau chart.js -->
+                        <img src="<?= base_url('pvd/img/landingpage/riset4/latar belakang.png')?>" 
+                            alt="Grafik kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020." 
+                            class="responsive img-fluid">
                     </p>
                     <p class="text-justify">
-                        Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata, penelitian ini ingin melihat kesiapan Kota Batu dalam
-                        menerapkan Smart Tourism Destination (STD). Werthner dan Klein (1999) mendefinisikan smart tourism sebagai cara untuk
-                        memperoleh informasi pariwisata dengan memanfaatkan teknologi informasi dan komunikasi yang berguna untuk pemulihan
-                        pariwisata. Smart tourism berfokus pada beberapa tujuan yang berkaitan dengan pemenuhan kebutuhan wisatawan dengan
-                        memanfaatkan perkembangan TIK, mempromosikan, dan memperbesar skala industri pariwisata secara lebih luas dengan
-                        menggunakan platform informasi real time. Sedangkan konsep smart tourism destination merupakan penggabungan konsep
-                        antara smart city dan tourism destination atau dijelaskan sebagai keterhubungan dinamis melalui platform teknologi
-                        di mana informasi berkaitan dengan kegiatan pariwisata dapat diubah secara instan dan memiliki banyak informasi yang
-                        dapat diakses melalui berbagai perangkat pengguna yang akan meningkatkan efektivitas pengelolaan sumber daya
-                        pariwisata.
-                    </p>
-                    <p class="text-justify">
-                        Adapun pada tahun 2021, laju pertumbuhan ekonomi di Kota Batu kembali pada angka positif. Meskipun terjadi kenaikan,
-                        angka PDRB pada tahun 2021 belum dapat melampaui angka PDRB pada tahun 2019, yakni sebelum adanya pandemi Covid-19.
-                        Berdasarkan data yang ada, dapat dikatakan bahwa pandemi Covid-19 berdampak buruk bagi unit usaha pariwisata di Kota
-                        Batu. Selain itu, jumlah kunjungan wisatawan di Kota Batu juga mengalami penurunan jika dibandingkan dengan periode
-                        sebelumnya. Berdasarkan data Badan Pusat Statistik (BPS) pada tahun 2020, jumlah kunjungan wisatawan mancanegara pada
-                        bulan Februari 2020 mengalami kontraksi hingga 30,42 persen dibandingkan pada Januari 2020 dan turun 28,85 persen
-                        dibandingkan dengan periode yang sama pada tahun sebelumnya. Adanya penurunan PDRB, kontraksi pada beberapa lapangan
-                        usaha pariwisata di Kota Batu, dan penurunan jumlah wisatawan dibandingkan periode sebelum pandemi Covid-19 dapat
-                        mengindikasikan bahwa pariwisata menjadi sektor yang krusial bagi perekonomian Kota Batu sehingga perlu dilakukan
-                        upaya pemulihan.
-                    </p>
-                    <p class="text-justify">
-                        Terdapat beberapa penelitian mengenai keberhasilan penerapan Smart Tourism Destination pada beberapa kota di
-                        Indonesia. Salah satu penelitiannya yaitu terkait Tourism Experience dari Smart Tourism Destination di Kota Bandung
-                        yang dilakukan oleh Sari, Linda Puspita dkk (2020), menunjukkan bahwa STD cukup dalam meningkatkan tourist experience
-                        di kota tersebut. Selain itu, penelitian oleh Damayanti dkk (2020) terkait penerapan Smart Tourism Destination di
-                        Kota Semarang juga memaparkan bahwa terdapat beberapa perkembangan di sektor pariwisata Kota Semarang yang telah
-                        mengadopsi perkembangan informasi dan teknologi saat ini melalui aplikasi WisSemar, website, media sosial, dan
-                        lain-lain.
-                    </p>
-                    <p class="text-justify">
-                        Dikarenakan keberhasilan penerapan Smart Tourism Destination pada beberapa kota di Indonesia, maka ketika konsep
-                        tersebut diterapkan secara lebih optimal di Kota Batu harapannya dapat mengatasi permasalahan di sektor pariwisata
-                        dengan cepat dan efektif khususnya pada usaha pariwisata. Untuk mewujudkan hal tersebut, dalam RPJMD Kota Batu,
-                        pemerintahan daerah Kota Batu memiliki tujuan untuk menjadikan Kota Batu sebagai Smart City dengan basis wisata.
-                        Salah satu aspek penting untuk mewujudkannya yaitu dengan adanya pemanfaatan Teknologi Informasi dan Komunikasi
-                        secara menyeluruh bagi masyarakat khususnya unit usaha pariwisata melalui penerapan Smart Tourism Destination. Oleh
-                        karena itu, perlu dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit usaha pariwisata di Kota Batu.
+                        Sektor pariwisata masih menjadi penyumbang PAD terbesar di Kota Batu dari tahun ke tahun bahkan memberikan hampir 40 persen dari total PAD 
+                        Kota Batu tahun 2020 melalui pajak hiburan, hotel, dan restoran, sehingga berkontribusi besar terhadap laju pertumbuhan ekonomi dan pemulihan 
+                        ekonomi. Namun, pajak yang dihasilkan dari ketiga sektor tersebut ternyata masih belum memenuhi target. Salah satu faktor penting dalam pemulihan 
+                        sektor pariwisata adalah dengan melakukan <strong>Teknologi Informasi dan Komunikasi</strong>. Sehingga hal tersebut sejalan dengan konsep 
+                        <i>Smart Tourism Destination</i> yang menitikberatkan pada pemanfaatan TIK. Penerapan STD pada berbagai kota di Indonesia mengalami keberhasilan, 
+                        sehingga ketika diterapkan secara lebih optimal di Kota Batu, harapannya permasalahan di sektor pariwisata dapat teratasi dengan cepat dan efektif 
+                        khususnya pada unit usaha pariwisata. Salah satu aspek penting untuk mewujudkannya adalah adanya pemanfaatan TIK secara menyeluruh bagi masyarakat khususnya 
+                        <strong>usaha pariwisata melalui penerapan <i>Smart Tourism Destination</i></strong>. Oleh karena itu, perlu dilakukan analisis mengenai kesiapan pemanfaatan 
+                        TIK dari sisi unit usaha pariwisata di Kota Batu.
                         <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             [<strong><i>Tampilkan Sebagian</i></strong>]
                         </a>
@@ -132,10 +103,13 @@
             </div>
             <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <ol class="text-justify">
-                    <li>Mengetahui karakteristik tiga unit usaha pariwisata di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination.</li>
-                    <li>Menganalisis tingkat kesiapan pemanfaatan TIK dari unit usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>.</li>
-                    <li>Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata di Kota Batu dalam pemanfaatan TIK.</li>
-                    <li>Menganalisis pengaruh kesiapan unit usaha pariwisata di Kota Batu dalam pemanfaatan TIK terhadap omzetnya.</li>
+                    <li>Mengetahui karakteristik tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>                 
+                    <li>Menganalisis tingkat kesiapan pemanfaatan TIK dari tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>                    
+                    <li>Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu dalam pemanfaatan TIK.</li>
+                    <li>
+                        Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha pariwisata skala mikro dan kecil di Kota Batu.
+                        <span id="goToMetodologi" class="invisilbe"></span>
+                    </li>
                 </ol>
             </div>
         </div>
@@ -143,6 +117,7 @@
 
     <!-- Metodologi -->
     <section class="offset-header">
+
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
@@ -153,8 +128,30 @@
             <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
+                    Kegiatan pengumpulan data dilakukan di Kota Batu, Provinsi Jawa Timur. Kota Batu terdiri dari 3 kecamatan yaitu 
+                    Kecamatan Batu, Kecamatan Bumiaji, dan Kecamatan Junrejo. Data yang digunakan bersumber dari data primer yang 
+                    didapatkan dari wawancara langsung CAPI terhadap pemilik atau pengelola usaha pariwisata yang terpilih sebagai sampel 
+                    dan menggunakan data sekunder yang diperoleh dari BPS berupa daftar jumlah usaha mikro dan kecil yang meliputi tiga 
+                    usaha pariwisata yang tercakup dalam penelitian ini. 
+                    <a id="metodologiAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseMetodologi" aria-expanded="false" aria-controls="collapseMetodologi">
+                        [<strong><i>Tampilkan Semua</i></strong>]
+                    </a>
                 </p>
+                <div class="collapse" id="collapseMetodologi">
+                    <p class="text-justify">    
+                        Populasi dalam penelitian ini adalah seluruh unit usaha pariwisata skala mikro dan kecil di Kota Batu tahun 2023. Populasi Target adalah 
+                        seluruh unit usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi 
+                        di Kota Batu pada tahun 2023. Unit Observasi adalah pemilik atau pengelola usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi 
+                        Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023. Metode Penarikan Sampel yang digunakan adalah 
+                        <i>Two Stage Sampling</i>. Untuk pemilihan sampel tahap pertama, dari kerangka sampel blok sensus di Kota Batu, dipilih sejumlah 
+                        blok sensus secara PPS WR. Kemudian tahap kedua, dari blok sensus terpilih, dipilih sejumlah usaha pariwisata melalui pendekatan 
+                        pemilik atau pengelola dari seluruh penduduk di Kota Batu tahun 2023 meliputi tiga usaha pariwisata yang tercakup dalam penelitian. 
+                        Tahap kedua ini dilakukan secara <i>systematic</i> dengan <i>implicit stratification</i> berdasarkan jenis usahanya.               
+                        <a id="metodologiBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseMetodologi" aria-expanded="false" aria-controls="collapseMetodologi">
+                                [<strong><i>Tampilkan Sebagian</i></strong>]
+                        </a>
+                    </p>
+                </div>
             </div>
             <!-- end konten -->
         </div>
