@@ -200,7 +200,7 @@
 </div>
 
 <!-- Tabel dummy -->
-<div class="portfolio-item filter-riset2-tabel">
+<!-- <div class="portfolio-item filter-riset2-tabel">
     <div class="container-fluid turun">
         <div class="kontenH mx-auto position-relative" data-aos="zoom-in" data-aos-duration="1000">
             <img src="" class="d-md-block d-none ornamen3" alt="">
@@ -237,7 +237,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Modal Riset 2  -->
 <?php include('modal_riset2.php') ?>

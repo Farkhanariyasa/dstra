@@ -18,7 +18,7 @@
           <li data-filter=".filter-riset2-hasil1">Hasil 1</li>
           <li data-filter=".filter-riset2-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset2-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset2-tabel">Tabel dummy</li>
+          <!-- <li data-filter=".filter-riset2-tabel">Tabel dummy</li> -->
         </ul>
       </div>
     </div>
