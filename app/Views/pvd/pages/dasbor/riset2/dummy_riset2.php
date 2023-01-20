@@ -84,7 +84,7 @@
                         </form>
                     </div> -->
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
@@ -133,7 +133,7 @@
                         </form>
                     </div>
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
