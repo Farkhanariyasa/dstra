@@ -74,6 +74,7 @@
     const datajenisindustri = <?= json_encode($ji);?>;
     const datapendidikantertinggi = <?= json_encode($pt);?>;
     const datajeniskelamin_riset3 = <?= json_encode($jk_1);?>;
+    const datapendapatan_riset3 = <?= json_encode($pd_1);?>;
 </script>
 
 <!-- chart -->
@@ -83,7 +84,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_boxplot.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_box.js') ?>"></script>
 
 
 <!-- <script src="<?= base_url('pvd/js/riset3/bar.js') ?>"></script>
