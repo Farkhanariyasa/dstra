@@ -19,6 +19,7 @@
           <li data-filter=".filter-riset1-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset1-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset1-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset1-peta">Peta Lokus</li>
           <li data-filter=".filter-riset1-tabeldummy">Tabel Dummy</li>
 
         </ul>
@@ -46,10 +47,6 @@
     </script>
 
 <script>
-    var map = L.map('map').setView([51.505, -0.09], 13);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
 
     $(document).ready(function() {
         $('#example').DataTable( {
@@ -90,7 +87,7 @@
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
-
+<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
 
 
 
@@ -98,7 +95,7 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 <!-- for download chart -->
-<script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/btnDownload.js') ?>"></script>
 
 <!-- form validation -->
 <script src="email.js"></script>
