@@ -9,7 +9,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 17-01-2023 : Perubahan URL yang awalnya `pvd` menjadi `hasil-pkl`
 - 17-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
 - 18-01-2023 : Perubahan struktur basis data. Penambahan migrasi tabel. Lakukan `php spark migrate` untuk melakukan migrasi tabel.
-
+- 20-01-2023 : Perubahan struktur basis data pada tabel `pvd_unduh_hasil_pkl`. Lakukan hapus terdahulu tabel yang sebelumnya dan `migrations` `php spark migrate` untuk melakukan migrasi tabel.
 ## Cara Instalasi
 
 - Clone repository ini ke dalam folder `htdocs` pada XAMPP atau sesuai konfigurasi server anda.
