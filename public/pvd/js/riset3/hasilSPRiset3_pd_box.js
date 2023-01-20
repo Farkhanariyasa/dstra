@@ -10,8 +10,7 @@ new Chart(boxplot_chart, {
             label: 'Pendapatan',
             data:[datapendapatan_riset3],
             backgroundColor: [
-                "#506396",
-                "#ffeecc",
+                "#4b395f"
             ],
         }]
     },
@@ -21,7 +20,7 @@ new Chart(boxplot_chart, {
         plugins: {
             title: {
                 display: true,
-                text : "Sebaran Pendapatan Usaha Selama Bulan Desember 2022 di Kota Batu",
+                text : "Sebaran Pendapatan Tenaga Kerja Pariwisata di Kabupaten Malang",
                 font: {
                     size: 20
                 }
