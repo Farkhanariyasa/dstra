@@ -7,7 +7,6 @@
 
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" >
-    <br><br>
 
     <header class="section-header">
       <p>Kesiapan Usaha Pariwisata Kota Batu dalam Mewujudkan Smart Tourism Destination Pasca Pandemi Covid-19</p>
