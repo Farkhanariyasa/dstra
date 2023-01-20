@@ -5,7 +5,6 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" data-aos="fade-up">
 
-    <br><br>
     <header class="section-header">
       <p>Pilot Survei Wisatawan Nusantara</p>
     </header>

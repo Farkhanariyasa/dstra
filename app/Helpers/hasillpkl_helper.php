@@ -13,34 +13,34 @@ function getMenu()
           'href' => '/riset1/dasbor',
         ],
         [
-          'menu' => 'Menu 2',
+          'menu' => 'Double Counting',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset1/afdf',
+              'subMenu' => 'Grafik',
+              'href' => '/riset1/menu2/submenu1',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset1/afgfx',
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset1/menu2/submenu2',
             ],
           ],
         ],
         [
-          'menu' => 'Menu 3',
+          'menu' => 'Family Grouping',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset1/ddfdxfbor',
+              'subMenu' => 'Grafik',
+              'href' => '/riset1/menu3/submenu1',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset1/ddfdxf',
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset1/menu3/submenu2',
             ],
           ],
         ],
