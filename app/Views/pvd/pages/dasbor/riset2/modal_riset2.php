@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="download_pw_sankey" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="download_jk_bar" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="tombol btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
                     <button type="submit" id="download_barhorizontal" class="tombol btn-for" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
