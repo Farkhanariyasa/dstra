@@ -15,7 +15,7 @@
                         </form>
                     </div>
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-boxplot">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -63,7 +63,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-scatter">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -85,7 +85,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -107,9 +107,9 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <!-- <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-heatmap">
                                 <i class="fa-solid fa-download"></i>
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                     <div style=" height:500px;">
@@ -132,9 +132,9 @@
                 <p class="card-text text-center">Kota Batu</p>
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <!-- <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-peta">
                                 <i class="fa-solid fa-download"></i>
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                     <div id="map" style="width: 95%; height:50vh;"></div>
