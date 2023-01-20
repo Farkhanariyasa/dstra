@@ -19,7 +19,7 @@ function getMenu()
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
+              'subMenu' => 'Grafik',
               'href' => '/riset1/menu2/submenu1',
             ],
             [
@@ -35,7 +35,7 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 3',
+              'subMenu' => 'Grafik',
               'href' => '/riset1/menu3/submenu3',
             ],
             [
