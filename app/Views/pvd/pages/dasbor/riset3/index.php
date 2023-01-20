@@ -21,6 +21,7 @@
           <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
           <li data-filter=".filter-riset3-hasil5">Hasil 5</li>
+          <li data-filter=".filter-riset3-tabeldummy">Hasil 6</li>
 
         </ul>
       </div>
@@ -82,6 +83,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_boxplot.js') ?>"></script>
 
 
 <!-- <script src="<?= base_url('pvd/js/riset3/bar.js') ?>"></script>
