@@ -36,3 +36,46 @@
 .text-justify {
     text-align: justify;
 }
+
+.heatmap-figure,
+.heatmap-data-table table {
+  min-width: 360px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.heatmap-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.heatmap-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.heatmap-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.heatmap-data-table td,
+.heatmap-data-table th,
+.heatmap-data-table caption {
+  padding: 0.5em;
+}
+
+.heatmap-data-table thead tr,
+.heatmap-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.heatmap-data-table tr:hover {
+  background: #f1f7ff;
+}
