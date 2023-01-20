@@ -13,7 +13,7 @@
                     Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Kota Batu
                     dalam Menerapkan Smart Tourism Destination
                 </h5>
-                <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
+                <p data-aos="fade-up" data-aos-delay="400" class="text-justify" style="line-height: 25px;">
                     Salah satu tujuan wisata unggulan di Jawa Timur adalah Kota Batu.
                     Dengan adanya posisi dan peran Kota Batu sebagai Kota Wisata,
                     penelitian ini ingin melihat kesiapan Kota Batu dalam menerapkan
@@ -54,7 +54,7 @@
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
                 </div>
             </div>
-            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
+            <div style="line-height: 25px;" class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Provinsi Jawa Timur berdasarkan data Badan Pusat Statistik merupakan dua besar provinsi dengan jumlah perjalanan
                     wisatawan nusantara tertinggi sejak tahun 2015. Jawa Timur berada pada peringkat kedua dengan jumlah wisatawan
@@ -130,7 +130,7 @@
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
                 <ol class="text-justify">
                     <li>Mengetahui karakteristik tiga unit usaha pariwisata di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination.</li>
                     <li>Menganalisis tingkat kesiapan pemanfaatan TIK dari unit usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>.</li>
@@ -150,7 +150,7 @@
                 </div>
             </div>
             <!-- konten -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 25px;" 
                 data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
@@ -168,7 +168,7 @@
                     <h1 class="headline text-center">Hasil Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p>
@@ -184,7 +184,7 @@
                     <h1 class="headline text-center">Infografis</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;"
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
