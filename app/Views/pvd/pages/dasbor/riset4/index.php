@@ -141,6 +141,12 @@
 <!-- boxplot -->
 <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
 
+<!-- heatmap -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/heatmap.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
 <!-- const for chart -->
 <script>
@@ -160,6 +166,7 @@
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_scatter.js') ?>"></script>
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_b401a_pie.js') ?>"></script>
 <script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
+<script src = "<?= base_url('pvd/js/riset4/hasilSPRiset4_heatmap.js') ?>"></script>
 
 
 <!-- for download chart -->
