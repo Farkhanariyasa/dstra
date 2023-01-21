@@ -51,7 +51,6 @@
                     <div>
                         <canvas class="mt1" id="riset1_hasil1"></canvas>
                     </div><br>
-
                     <div>
                         <p class="card-text text-justify">
                             Grafik menunjukkan banyaknya rumah tangga berdasarkan 
@@ -59,9 +58,13 @@
                             Terlihat bahwa hanya 5 rumah tangga (5,9%) yang 
                             jumlah anggotanya sebesar 5 orang yang melakukan perjalanan wisata.
                         </p>
-
                     </div>
-
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3">
+                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forBarChartLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Show Legend</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
