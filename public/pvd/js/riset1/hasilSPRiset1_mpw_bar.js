@@ -1,5 +1,5 @@
 const ctx = document.getElementById('riset1_hasil2');
-new Chart(ctx, {
+const bar = new Chart(ctx, {
     type:'bar',
     data: {
         labels: ['Ke Objek Wisata dalam Kota Sama',
@@ -37,6 +37,13 @@ new Chart(ctx, {
     },options:{
         responsive: true,
         maintainAspectRatio: false,
+        scales:{
+            x:{
+                ticks:{
+                    display:true
+                }
+            }
+        },
         plugins: {
             title:{
                 display:true,
@@ -75,5 +82,19 @@ function responsivefonts(){
     }if (window.outerWidth<380){
         Chart.defaults.font.size=1;
     }
-}
+};
+
+const barChartXAxis = document.getElementById("forBarChartXAxis");
+barChartXAxis.addEventListener("click", update_value(chk_bx));
+function update_value(chk_bx) {
+  if (chk_bx.checked) {
+    console.log("check");
+    bar.options.scales.x.ticks.display = true;
+    bar.update();
+  } else {
+    console.log("uncheck");
+    bar.options.scales.x.ticks.display = false;
+    bar.update();
+  }
+};
 
