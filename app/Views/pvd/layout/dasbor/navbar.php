@@ -11,7 +11,7 @@
     <ul class="navbar-nav navbar-nav-left">
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?>
+          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?> <i class="mdi mdi-chevron-down"></i>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>">
@@ -26,7 +26,7 @@
           </a>
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-              <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6>
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6> 
             </div>
           </a>
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>">
