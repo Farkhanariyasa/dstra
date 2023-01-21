@@ -32,7 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
-    $routes->get('beranda', 'LandingPage::index');
+    $routes->get('/', 'LandingPage::index');
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
         $routes->get('/', 'LandingPage::riset/$1');
         $routes->get('dasbor', 'Dasbor::index/$1');

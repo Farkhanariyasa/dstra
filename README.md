@@ -1,4 +1,5 @@
 # Dokumentasi Web Dasbor Hasil PKL 62
+
 Proyek ini menggunakan framework CodeIgniter 4 dan berlisensi MIT.
 
 ## Daftar Perubahan
@@ -10,6 +11,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 17-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
 - 18-01-2023 : Perubahan struktur basis data. Penambahan migrasi tabel. Lakukan `php spark migrate` untuk melakukan migrasi tabel.
 - 20-01-2023 : Perubahan struktur basis data pada tabel `pvd_unduh_hasil_pkl`. Lakukan hapus terdahulu tabel yang sebelumnya dan `migrations` `php spark migrate` untuk melakukan migrasi tabel.
+
 ## Cara Instalasi
 
 - Clone repository ini ke dalam folder `htdocs` pada XAMPP atau sesuai konfigurasi server anda.
@@ -21,7 +23,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - Lakukan konfigurasi pada file `.env` yang berada pada folder `app/Config` sesuai dengan konfigurasi basis data yang telah dibuat.
 - Lakukan `composer install` untuk menginstall library yang dibutuhkan.
 - Jalankan perintah `php spark serve` pada terminal untuk menjalankan server.
-- Buka browser dan ketikkan url `http://localhost:8080/pvd/beranda` untuk melihat hasil webnya.
+- Buka browser dan ketikkan url `http://localhost:8080/hasil-pkl` untuk melihat hasil webnya.
 
 ## Penamaan Basis Data dan Tabel
 
@@ -101,16 +103,18 @@ Contoh : `pvd_riset1_hasilsp`
 - Sebelum melakukan push, pastikan terlebih dahulu bahwa file yang akan di push sudah di commit dan sudah di pull terlebih dahulu.
 
 ## Aturan Penulisan Kode
-* Tambahkan komentar pada kode yang dibuat jika diperlukan.
-* Gunakan format penulisan kode yang rapi dan mudah dibaca.
-* Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-12](https://www.php-fig.org/psr/psr-12/).
-* Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-4](https://www.php-fig.org/psr/psr-4/).
-* Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-1](https://www.php-fig.org/psr/psr-1/).
-* Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-2](https://www.php-fig.org/psr/psr-2/).
+
+- Tambahkan komentar pada kode yang dibuat jika diperlukan.
+- Gunakan format penulisan kode yang rapi dan mudah dibaca.
+- Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-12](https://www.php-fig.org/psr/psr-12/).
+- Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-4](https://www.php-fig.org/psr/psr-4/).
+- Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-1](https://www.php-fig.org/psr/psr-1/).
+- Gunakan format penulisan kode yang sesuai dengan aturan penulisan kode yang ada pada [PSR-2](https://www.php-fig.org/psr/psr-2/).
 
 ## Lainnya
-* Web harus dibuat dengan tampilan yang responsif.
-* Cek console browser untuk mengetahui apakah terdapat error atau tidak.
-* Gunakan ekstensi yang mendukung pengembangan pada VSCode atau kode editor lainnya.
-* Gunakan ekstensi yang mendukung pengembangan pada browser.
-* Jika diperlukan bisa menggunkan IDE lain seperti PHPStorm.
+
+- Web harus dibuat dengan tampilan yang responsif.
+- Cek console browser untuk mengetahui apakah terdapat error atau tidak.
+- Gunakan ekstensi yang mendukung pengembangan pada VSCode atau kode editor lainnya.
+- Gunakan ekstensi yang mendukung pengembangan pada browser.
+- Jika diperlukan bisa menggunkan IDE lain seperti PHPStorm.
