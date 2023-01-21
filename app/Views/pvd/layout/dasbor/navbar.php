@@ -11,7 +11,7 @@
     <ul class="navbar-nav navbar-nav-left">
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?> <i class="mdi mdi-chevron-down"></i>
+          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>">
