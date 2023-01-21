@@ -20619,6 +20619,10 @@ dl li {
   line-height: 2;
 }
 
+.chartBox {
+  height: 500px;
+}
+
 @media (min-width: 992px) {
   .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
     margin-left: auto;
@@ -20665,6 +20669,14 @@ dl li {
 
   .navbar .navbar-brand-wrapper .brand-logo-mini {
     padding-top: 0px;
+  }
+
+  .chartBox {
+    height: fit-content;
+  }
+
+  .chartBox.bar {
+    min-height: 500px;
   }
 }
 
@@ -20883,7 +20895,7 @@ dl li {
   font-family: "ubuntu-regular", sans-serif;
   padding: 0;
   width: 260px;
-  z-index: 11;
+  z-index: 1001;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
