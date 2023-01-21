@@ -4783,12 +4783,12 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #ebedf2;
+  border-color: black;
 }
 
 .table> :not(caption)>*>* {
   padding: 0.5rem 0.5rem;
-  background-color: var(--bs-table-bg);
+  /* background-color: var(--bs-table-bg); */
   border-bottom-width: 1px;
   -webkit-box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
   box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
@@ -8193,7 +8193,7 @@ fieldset:disabled .btn {
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.00);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -20067,6 +20067,7 @@ dl li {
   border-bottom-width: 1px;
   font-family: "ubuntu-medium", sans-serif;
   font-weight: initial;
+  background-color: #506396;
 }
 
 .table thead th i {
@@ -20094,6 +20095,11 @@ dl li {
   margin-bottom: 0;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 .table.table-borderless {
   border: none;
 }
@@ -20106,7 +20112,7 @@ dl li {
 
 .table> :not(:last-child)> :last-child>*,
 .jsgrid .jsgrid-table> :not(:last-child)> :last-child>* {
-  border-bottom-color: #ebedf2;
+  border-bottom-color: black;
 }
 
 .table> :not(:first-child),
@@ -20431,19 +20437,13 @@ dl li {
   align-items: center;
 }
 
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item {
-  position: relative;
-  font-weight: 600;
-  margin: 10px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
   /* menu navlink navbar */
   color: #4b395f;
   font-size: 1rem;
   font-weight: bold;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20452,33 +20452,17 @@ dl li {
   align-items: center;
 }
 
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:hover,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:focus {
-  /* menu navlink navbar hover*/
-  color: #506396;
-}
-
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link.active {
   /* menu navlink navbar aktif*/
   color: #506396;
   border-bottom: 3px solid;
 }
 
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link::after {
-  position: absolute;
-  bottom: -0.5px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #506396;
-  width: 0%;
-  content: "";
-  height: 2.5px;
-  transition: all 0.5s;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:hover::after {
-  width: 100%;
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:focus {
+  /* menu navlink navbar aktif*/
+  color: #506396;
+  border-bottom: 3px solid;
 }
 
 @media (max-width: 767px) {
@@ -20619,10 +20603,6 @@ dl li {
   line-height: 2;
 }
 
-.chartBox {
-  height: 500px;
-}
-
 @media (min-width: 992px) {
   .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
     margin-left: auto;
@@ -20669,14 +20649,6 @@ dl li {
 
   .navbar .navbar-brand-wrapper .brand-logo-mini {
     padding-top: 0px;
-  }
-
-  .chartBox {
-    height: fit-content;
-  }
-
-  .chartBox.bar {
-    min-height: 500px;
   }
 }
 
@@ -20895,7 +20867,7 @@ dl li {
   font-family: "ubuntu-regular", sans-serif;
   padding: 0;
   width: 260px;
-  z-index: 1001;
+  z-index: 11;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
