@@ -161,9 +161,6 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
 
 </div>
@@ -174,6 +171,7 @@
 
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/btn-Download.js') ?>"></script>
 
 <?= $this->endSection(); ?>
 
