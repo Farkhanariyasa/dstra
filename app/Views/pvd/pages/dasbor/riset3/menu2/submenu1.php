@@ -17,14 +17,15 @@
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
-              Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
-              Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
-              odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
-              ultrices dignissim. Suspendisse mollis magna auctor enim posuere interdum. Phasellus suscipit, dolor vitae mattis consectetur, dui 
-              ex viverra nibh, sit amet elementum ligula lectus et quam. Sed et cursus neque. Morbi maximus in ipsum nec aliquam. Integer porttitor 
-              blandit augue, ut posuere dolor gravida vel. Nulla rutrum eu augue non semper. Proin sit amet dui felis. Sed vestibulum tempor urna, 
-              auctor viverra erat. 
+            <p class="text-justify">Tenaga kerja di industri pariwisata menggunakan pendekatan industri, yaitu
+              mencakup semua orang yang terlibat dalam kegiatan industri pariwisata baik yang
+              berpartisipasi dalam kegiatan yang bersifat pariwisata maupun kegiatan yang bersifat
+              non-pariwisata. Orang-orang yang terlibat dalam kegiatan karakteristik pariwisata dari suatu
+              perusahaan yang termasuk dalam industri non-pariwisata (misalnya, semua perusahaan
+              yang kegiatan utamanya bukan merupakan kegiatan karakteristik pariwisata) tidak termasuk
+              dalam tenaga kerja di industri pariwisata. Di sisi lain, orang-orang yang dipekerjakan di
+              suatu perusahaan milik industri pariwisata yang berpartisipasi dalam kegiatan karakteristik
+              non-pariwisata termasuk dalam tenaga kerja di industri pariwisata
             </p>           
           </div>
         </div>
@@ -37,14 +38,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
-              Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
-              Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
-              odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
-              ultrices dignissim. Suspendisse mollis magna auctor enim posuere interdum. Phasellus suscipit, dolor vitae mattis consectetur, dui 
-              ex viverra nibh, sit amet elementum ligula lectus et quam. Sed et cursus neque. Morbi maximus in ipsum nec aliquam. Integer porttitor 
-              blandit augue, ut posuere dolor gravida vel. Nulla rutrum eu augue non semper. Proin sit amet dui felis. Sed vestibulum tempor urna, 
-              auctor viverra erat. 
+            <p class="text-justify">Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.
             </p> 
           </div>
         </div>
@@ -57,14 +51,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
-              Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
-              Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
-              odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
-              ultrices dignissim. Suspendisse mollis magna auctor enim posuere interdum. Phasellus suscipit, dolor vitae mattis consectetur, dui 
-              ex viverra nibh, sit amet elementum ligula lectus et quam. Sed et cursus neque. Morbi maximus in ipsum nec aliquam. Integer porttitor 
-              blandit augue, ut posuere dolor gravida vel. Nulla rutrum eu augue non semper. Proin sit amet dui felis. Sed vestibulum tempor urna, 
-              auctor viverra erat. 
+            <p class="text-justify">Menganalisis dinamika tenaga kerja di industri pariwisata.
             </p>           
           </div>
         </div>
@@ -77,14 +64,7 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
-              Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
-              Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
-              odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
-              ultrices dignissim. Suspendisse mollis magna auctor enim posuere interdum. Phasellus suscipit, dolor vitae mattis consectetur, dui 
-              ex viverra nibh, sit amet elementum ligula lectus et quam. Sed et cursus neque. Morbi maximus in ipsum nec aliquam. Integer porttitor 
-              blandit augue, ut posuere dolor gravida vel. Nulla rutrum eu augue non semper. Proin sit amet dui felis. Sed vestibulum tempor urna, 
-              auctor viverra erat. 
+            <p class="text-justify">Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.
             </p>           
           </div>
         </div>
@@ -97,14 +77,7 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra neque ligula, at vehicula orci viverra at. 
-              Sed at lorem at tortor dapibus ultricies ut sed ipsum. Maecenas molestie elementum justo, in convallis urna eleifend et. 
-              Vestibulum mollis, tortor ut luctus scelerisque, eros est ullamcorper leo, quis tempor urna arcu sit amet tortor. Sed rhoncus 
-              odio non ipsum tempus porttitor. Nulla sagittis tincidunt aliquam. Cras commodo egestas commodo. Praesent consectetur mauris sed 
-              ultrices dignissim. Suspendisse mollis magna auctor enim posuere interdum. Phasellus suscipit, dolor vitae mattis consectetur, dui 
-              ex viverra nibh, sit amet elementum ligula lectus et quam. Sed et cursus neque. Morbi maximus in ipsum nec aliquam. Integer porttitor 
-              blandit augue, ut posuere dolor gravida vel. Nulla rutrum eu augue non semper. Proin sit amet dui felis. Sed vestibulum tempor urna, 
-              auctor viverra erat. 
+            <p class="text-justify">Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.
             </p>           
           </div>
         </div>
