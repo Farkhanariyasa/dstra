@@ -95,14 +95,64 @@
                     <h1 class="headline text-center">Metodologi</h1>
                 </div>
             </div>
-            <!-- konten -->
+            <!-- batasan penelitian -->
             <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
                 data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>BATASAN PENELITIAN</b>
+                </p>
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
+                Dalam penelitian ini, dipandang perlu untuk melakukan pembatasan terhadap masalah yang akan diteliti. Adapun batasan yang pertama adalah terkait objek dari penelitian ini yang berupa tenaga kerja pada industri pariwisata dengan meninjau luasnya cakupan dari sektor pariwisata di mana beberapa sektor umum yang juga berkaitan dengan aktivitas turis dapat tergolong ke dalam sektor ini. Industri Pariwisata yang dicakup mengacu pada KBLI 2015 Bidang Pariwisata. KBLI 2015 Bidang Pariwisata disusun menurut IRTS 2008 dan Undang-Undang Nomor 10 Tahun 2009 Tentang Pariwisata. Sumber pendukungnya adalah Peraturan Menteri Pariwisata No. 10 Tahun 2018 Tentang Pelayanan Perizinan Berusaha Terintegrasi Secara Elektronik Sektor Pariwisata dan Klasifikasi Baku Lapangan Usaha Indonesia 2015.</p>
+                <p class="text-justify">
+                Kemudian, cakupan wilayah dari penelitian ini hanya akan meliputi Kabupaten Malang, di mana wilayah ini dikenal sebagai daerah tujuan wisata utama Jawa Timur. Jenis destinasi wisata yang dimiliki cukup beragam, mulai dari kebun teh, gunung, pantai, museum, kuliner, dan taman rekreasi. Adapun wisata unggulan dari Kabupaten Malang di antaranya adalah air terjun Coban Glotak yang terletak di Desa Bedalisodo, Kecamatan Wagir, Kabupaten Malang. Wisata unggulan lainnya yang merupakan keunikan dari daerah Kabupaten Malang adalah pantai-pantai yang terdapat di wilayah selatannya, seperti Pantai Batu Bengkung dan Pantai Bowele.
                 </p>
             </div>
-            <!-- end konten -->
+            <!-- ruang lingkup -->
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
+                data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>RUANG LINGKUP</b>
+                </p>
+                <ol type="a" class="text-justify">
+                <b><li>Lokus penelitian</li></b>
+                <p>Kabupaten Malang dipilih sebagai lokus penelitian karena memiliki potensi pariwisata yang besar, yang mana tercatat memiliki jumlah wisatawan terbanyak di Jawa Timur pada tahun 2021, yaitu sekitar 1,5 juta wisatawan.</p> 
+                <b><li>Waktu penelitian</li></b>
+                <p>Waktu penelitian adalah dimulai sejak tanggal 12 Oktober 2022 hingga Maret 2023, yang dialokasikan pada 3 kegiatan utama, yaitu kegiatan pra-pencacahan (12 Oktober 2022 - 20 Januari 2023), kegiatan pencacahan (23 Januari - 3 Februari 2023), dan kegiatan pasca-pencacahan (10 Februari - Maret 2023).</p> 
+                <b><li>Data yang dikumpulkan</li></b> 
+                <p>Data dan keterangan yang dikumpulkan adalah karakteristik perumahan, keterangan ART yang bekerja di industri pariwisata, keterangan pekerjaan utama di industri pariwisata, keterangan ART yang selama tiga tahun terakhir pernah bekerja di Industri pariwisata, keterangan informasi pribadi ART, dan tingkat sadar wisata ART yang bekerja dan pernah bekerja di industri pariwisata.</p> 
+                <b><li>Cakupan penelitian</li></b> 
+                <p>Populasi: seluruh penduduk di Kabupaten Malang.<br>
+                Populasi Target: penduduk usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja (Tahun 2023) atau 3 tahun sebelum pencacahan (2020-2023) pernah bekerja di industri pariwisata.<br>
+                Unit Observasi: kepala rumah tangga atau anggota rumah tangga yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.<br>
+                Unit Sampling: <br>
+                Unit sampling pada penelitian ini terdiri atas tiga tahap, yaitu sebagai berikut.
+                <ol>
+                    <li>Primary sampling unit: Kecamatan</li> 
+                    <li>Secondary sampling unit: Blok Sensus</li>
+                    <li>Ultimate sampling unit: Rumah Tangga</li>
+                </ol>
+                </p> 
+                <p>Unit Analisis: anggota rumah tangga usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.<br>
+                Kerangka Sampel:<br>
+                Kerangka sampel yang digunakan dalam penelitian ini adalah sebagai berikut.
+                <ol>
+                    <li>Tahap pertama: daftar kecamatan di Kabupaten Malang.</li> 
+                    <li>Tahap kedua: daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</li>
+                    <li>Tahap ketiga: seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</li> 
+                </ol>
+                </p>
+            </div>
+            <!-- instrumen penelitian -->
+            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" 
+                data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>INSTRUMEN PENELITIAN</b>
+                </p>
+                <p class="text-justify">
+                Penelitian ini menggunakan sumber data primer dan sekunder. Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI). Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                <p class="text-justify">Moda pengumpulan data primer yang digunakan adalah <i>Computer Assisted Personal Interview</i> (CAPI). Pada moda pengumpulan data dengan CAPI, Petugas menggunakan kuesioner elektronik dalam gawai (HP) mereka dalam melakukan wawancara. Dengan CAPI, pewawancara melakukan wawancara dan entri data secara bersamaan.
+                </p>
+            </div>
         </div>
     </section>
 
