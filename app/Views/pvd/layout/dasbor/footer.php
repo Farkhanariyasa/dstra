@@ -18,7 +18,6 @@
 <script src="<?= base_url('pvd/js/misc.js'); ?>"></script>
 
 <!-- Datatables -->
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.js"></script>
 
