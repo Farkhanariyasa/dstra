@@ -39,7 +39,7 @@ function getMenu()
               'href' => '/riset1/menu3/submenu3',
             ],
             [
-              'subMenu' => 'Tabulasi',
+              'subMenu' => 'Kuesioner',
               'href' => '/riset1/menu3/submenu4',
             ],
           ],
