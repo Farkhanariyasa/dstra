@@ -1,6 +1,8 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 
 <?= $this->section('css'); ?>
+
+
 <style>
   table {
     table-layout: auto;
@@ -12,15 +14,15 @@
   }
 
   th {
-    white-space: normal !important; 
-    word-wrap: break-word; 
+    white-space: normal !important;
+    word-wrap: break-word;
     color: black;
     /* background-color: #04AA2D; */
   }
 
   td {
-    white-space: normal !important; 
-    word-wrap: break-word;  
+    white-space: normal !important;
+    word-wrap: break-word;
   }
 
   /* .card .card-body {
@@ -52,73 +54,87 @@
   <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
     <!-- style="padding:0px 0px 0px 0px;" -->
     <!-- <blockquote class="blockquote mb-0"> -->
-        <table class="table table-hover table-bordered table-responsive">
-        <thead style="color: #fff; font-weight:bold;">
-            <tr>
-                <th scope="col">No.</th>
-                <th scope="col">Kecamatan</th>
-                <th scope="col">Desa/Kelurahan</th>
-                <th scope="col">Jumlah Usaha Pariwisata</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-            </tr>            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-        </tbody>
-        </table>
+    <table class="table table-hover table-bordered table-responsive" id="example" style="width:100%">
+      <thead style="color: #fff; font-weight:bold;">
+        <tr>
+          <th scope="col">No.</th>
+          <th scope="col">Kecamatan</th>
+          <th scope="col">Desa/Kelurahan</th>
+          <th scope="col">Jumlah Usaha Pariwisata</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Batu</td>
+          <td>Batu</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Junrejo</td>
+          <td>Oro-oro Ombo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Bumiaji</td>
+          <td>Tulungrejo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Batu</td>
+          <td>Batu</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Junrejo</td>
+          <td>Oro-oro Ombo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Bumiaji</td>
+          <td>Tulungrejo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Batu</td>
+          <td>Batu</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Junrejo</td>
+          <td>Oro-oro Ombo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Bumiaji</td>
+          <td>Tulungrejo</td>
+          <td>100</td>
+      </tbody>
+    </table>
     <!-- </blockquote> -->
   </div>
 </div>
 
-<?= $this->endSection(); ?>
+<script>
+  $(document).ready(function() {
+    $('#example').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+    });
+});
+</script>
 
+<?= $this->endSection(); ?>
