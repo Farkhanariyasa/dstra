@@ -26,8 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-6 hero-img flex-column d-flex align-items-center justify-content-center mt-1 mb-1 "
-                data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-5 col-md-6 hero-img flex-column d-flex align-items-center justify-content-center mt-1 mb-1 " data-aos="zoom-out" data-aos-delay="200">
                 <div class="row-6 d-flex align-items-center justify-content-center">
                     <img src="<?= base_url('pvd/img/landingpage/logolanding_top.png') ?>" class="img-fluid" alt="">
                 </div>
@@ -52,8 +51,7 @@
     <!-- About STIS & Angkatan 62 -->
     <div class="container ">
         <div class="row">
-            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end "
-                data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
                 <div data-aos="fade-up" class="card62 shadow">
                     <div class="card-body d-grid rounded pr-4 pl-4">
                         <h5 class="card-title text-center h5judullp mt-4">Politeknik Statistika STIS</h5>
@@ -70,8 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out"
-                data-aos-delay="200">
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
                 <div data-aos="fade-up" class="card62 shadow">
                     <div class="card-body d-grid rounded pr-4 pl-4 ">
                         <h5 class="card-title text-center h5judullp mt-4">Angkatan 62</h5>
@@ -180,8 +177,7 @@
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
                 <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
             </div>
-            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center" data-aos="zoom-out"
-                data-aos-delay="200">
+            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center ">
                     <h1 data-aos="fade-up" class=" foreachriset">Riset 2</h1>
                 </div>
@@ -210,14 +206,13 @@
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
                             Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu
-                            penyumbang devisa terbesar di Indonesia. Untuk meningkatkan kontribusi pariwisata terhadap
-                            perekonomian Indonesia dapat dilakukan dengan meningkatkan jumlah dan kualitas tenaga kerja
-                            di sektor pariwisata. Sehingga riset ini bertujuan untuk menganalisis karakteristik tenaga
-                            kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi tenaga kerja di
-                            industri pariwisata untuk bekerja paruh waktu, menganalisis faktor-faktor yang memengaruhi
-                            kontrak kerja tenaga kerja di industri pariwisata, menganalisis dinamika tenaga kerja di
-                            industri pariwisata, menganalisis kualitas tenaga kerja di industri pariwisata, menganalisis
-                            tenaga kerja pariwisata menurut sadar wisata.
+                            penyumbang devisa terbesar di Indonesia. Peningkatan kontribusi pariwisata terhadap perekonomian 
+                            dapat dilakukan dengan meningkatkan kualitas tenaga kerja. Sehingga diperlukan data terkait 
+                            karakteristik dan kualitas tenaga kerja di industri pariwisata. Riset ini bertujuan untuk memperoleh 
+                            gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata, menganalisis dinamika tenaga 
+                            kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja di 
+                            industri pariwisata, dan mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan 
+                            indeks komposit.
                         </p>
                     </div>
                     <div class="row-2 bforce ">
@@ -242,20 +237,20 @@
                 <div class="card-body">
                     <div class="row-2 d-flex  flex-row justify-content-center ">
                         <h2 class="mt-0 mb-3" data-aos="fade-up">
-                            Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-                            <i>Smart Tourism Destination</i>                        
+                            Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan
+                            <i>Smart Tourism Destination</i>
                         </h2>
                     </div>
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
-                            Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
-                            <i>Smart Tourism Destination</i> dari sisi <i>enterprise</i> atau dalam penelitian ini adalah unit usaha pariwisata. 
-                            Pada saat pandemi Covid-19, unit usaha pariwisata mengalami kontraksi yang cukup signifikan. Padahal sektor 
-                            pariwisata memberikan kontribusi yang tinggi pada PAD Kota Batu melalui pajak hiburan, hotel, dan restoran, 
-                            sehingga sektor ini memerlukan upaya pemulihan. Salah satu faktor penting dalam pemulihan sektor pariwisata 
-                            adalah pemanfaatan TIK. Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit 
-                            usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Analisis kesiapan dilakukan melalui 
-                            Enterprise <i>E-Readiness Assessment Model</i> atau Model Kesiapan Unit Usaha Pariwisata yang terbentuk dari 
+                            Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan
+                            <i>Smart Tourism Destination</i> dari sisi <i>enterprise</i> atau dalam penelitian ini adalah unit usaha pariwisata.
+                            Pada saat pandemi Covid-19, unit usaha pariwisata mengalami kontraksi yang cukup signifikan. Padahal sektor
+                            pariwisata memberikan kontribusi yang tinggi pada PAD Kota Batu melalui pajak hiburan, hotel, dan restoran,
+                            sehingga sektor ini memerlukan upaya pemulihan. Salah satu faktor penting dalam pemulihan sektor pariwisata
+                            adalah pemanfaatan TIK. Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit
+                            usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Analisis kesiapan dilakukan melalui
+                            Enterprise <i>E-Readiness Assessment Model</i> atau Model Kesiapan Unit Usaha Pariwisata yang terbentuk dari
                             beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
                         </p>
                     </div>
@@ -274,8 +269,7 @@
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
                 <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
             </div>
-            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center " data-aos="zoom-out"
-                data-aos-delay="200">
+            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center " data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center text-center ">
                     <h1 data-aos="fade-up" class=" foreachriset">Riset 4</h1>
                 </div>

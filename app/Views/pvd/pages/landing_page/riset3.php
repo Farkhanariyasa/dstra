@@ -13,7 +13,14 @@
                     Tenaga Kerja di Industri Pariwisata
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu penyumbang devisa terbesar di Indonesia. Untuk meningkatkan kontribusi pariwisata terhadap perekonomian Indonesia dapat dilakukan dengan meningkatkan jumlah dan kualitas tenaga kerja di sektor pariwisata. Sehingga riset ini bertujuan untuk menganalisis karakteristik tenaga kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi tenaga kerja di industri pariwisata untuk bekerja paruh waktu, menganalisis faktor-faktor yang memengaruhi kontrak kerja tenaga kerja di industri pariwisata, menganalisis dinamika tenaga kerja di industri pariwisata, menganalisis kualitas tenaga kerja di industri pariwisata, menganalisis tenaga kerja pariwisata menurut sadar wisata.
+                    Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu
+                    penyumbang devisa terbesar di Indonesia. Peningkatan kontribusi pariwisata terhadap perekonomian 
+                    dapat dilakukan dengan meningkatkan kualitas tenaga kerja. Sehingga diperlukan data terkait 
+                    karakteristik dan kualitas tenaga kerja di industri pariwisata. Riset ini bertujuan untuk memperoleh 
+                    gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata, menganalisis dinamika tenaga 
+                    kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja di 
+                    industri pariwisata, dan mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan 
+                    indeks komposit.
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
