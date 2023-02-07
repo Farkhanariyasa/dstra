@@ -17,6 +17,16 @@
 <script src="<?= base_url('pvd/vendors/js/vendor.bundle.base.js'); ?>"></script>
 <script src="<?= base_url('pvd/js/misc.js'); ?>"></script>
 
+<!-- Datatables -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#table_id').DataTable();
+    });
+</script>
+
 <!-- untuk dasbor -->
 <script src="<?= base_url('pvd/js/off-canvas.js'); ?>"></script>
 <script src="<?= base_url('pvd/js/main.js') ?>"></script>
