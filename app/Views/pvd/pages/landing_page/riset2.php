@@ -179,8 +179,8 @@
                     <b>PENENTUAN UKURAN SAMPEL MINIMUM</b>
                 </p>
                 <p class="text-justify">
-                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6 <br> <br>
-                    *input rumus* <br> <br>
+                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                    <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                     Keterangan: <br>
                     n		: sampel minimum <br>
                     r		: proporsi kejadian terhadap populasi target <br>
@@ -233,5 +233,11 @@
 </section>
 
 </section><!-- End -->
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 
 <?= $this->endSection(); ?>
