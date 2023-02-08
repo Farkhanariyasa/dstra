@@ -46,7 +46,7 @@
 
 <div class="card">
   <div class="card-header">
-    <strong>Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</strong>
+    <strong>Data Responden Hasil Survei Pendahuluan</strong>
     <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                             <i class="fa-solid fa-download"></i>
    </button> -->
@@ -58,65 +58,26 @@
       <thead style="color: #fff; font-weight:bold;">
         <tr>
           <th scope="col">No.</th>
-          <th scope="col">Kecamatan</th>
+          <th scope="col">Nama</th>
           <th scope="col">Desa/Kelurahan</th>
-          <th scope="col">Jumlah Usaha Pariwisata</th>
+          <th scope="col">Kecamatan</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Batu</td>
-          <td>Batu</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Junrejo</td>
-          <td>Oro-oro Ombo</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Bumiaji</td>
-          <td>Tulungrejo</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Batu</td>
-          <td>Batu</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>Junrejo</td>
-          <td>Oro-oro Ombo</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>Bumiaji</td>
-          <td>Tulungrejo</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">7</th>
-          <td>Batu</td>
-          <td>Batu</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">8</th>
-          <td>Junrejo</td>
-          <td>Oro-oro Ombo</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <th scope="row">9</th>
-          <td>Bumiaji</td>
-          <td>Tulungrejo</td>
-          <td>100</td>
+        <?php
+        $i = 1;
+        foreach ($dataresponden as $v) :
+        ?>
+          <tr>
+            <th scope="row"><?php echo $i; ?></th>
+            <td><?php echo $v["b108"]; ?></td>
+            <td><?php echo $v["b104_deskel"]; ?></td>
+            <td><?php echo $v["b103_kec"]; ?></td>
+          </tr>
+        <?php
+          $i++;
+        endforeach;
+        ?>
       </tbody>
     </table>
     <!-- </blockquote> -->
