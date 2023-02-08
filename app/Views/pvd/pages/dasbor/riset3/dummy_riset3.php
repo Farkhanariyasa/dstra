@@ -22,7 +22,7 @@
                     </div>
                    
                     <div class="chartBox bar">
-                        <canvas class="mt1" id="ji_batang"></canvas>
+                        <canvas class="mt1" id="ji_batang" style="width: 95%; height:80vh;"></canvas>
                     </div>
                     
                 </div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="chartBox">
-                        <canvas id="j_doughnut"></canvas>
+                        <canvas id="j_doughnut" style="width: 95%; height:80vh;"></canvas>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="chartBox bar">
-                    <canvas id="stacked_barchart"></canvas>
+                    <canvas id="stacked_barchart" style="width: 95%; height:80vh;"></canvas>
                 </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="chartBox">
-                    <canvas id="radar"></canvas>
+                    <canvas id="radar" style="width: 95%; height:80vh;"></canvas>
                 </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 <div class="chartBox bar">
-                    <canvas id="boxplot_chart"></canvas>
+                    <canvas id="boxplot_chart" style="width: 95%; height:80vh;"></canvas>
                 </div>
                 </div>
             </div>
