@@ -2,7 +2,7 @@
   <div class="footer-top">
     <div class="container">
       <div class="row justify-content-center pt-3">
-        <a class="w-auto" href="<?= base_url("hasil-pkl/beranda") ?>">
+        <a class="w-auto" href="<?= base_url("hasil-pkl") ?>">
           <img src="<?= base_url('pvd/img/logo_pkl.png') ?>" alt="" width="75px" class="my-2">
         </a>
         <div class="col-lg-12 text-center text-white ;">
