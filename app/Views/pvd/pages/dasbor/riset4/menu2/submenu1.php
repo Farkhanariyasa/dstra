@@ -19,24 +19,11 @@
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-<<<<<<< HEAD
             <p class="text-justify">Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
               Smart Tourism Destination dari sisi enterprise atau dalam penelitian ini adalah unit usaha pariwisata.
               Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit usaha pariwisata di Kota Batu dalam menerapkan 
               Smart Tourism Destination. Analisis kesiapan dilakukan melalui Enterprise E-Readiness Assessment Model atau Model Kesiapan Unit Usaha 
               Pariwisata yang terbentuk dari beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
-=======
-            <p class="text-justify">
-              Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
-              <i>Smart Tourism Destination</i> dari sisi <i>enterprise</i> atau dalam penelitian ini adalah unit usaha pariwisata. 
-              Pada saat pandemi Covid-19, unit usaha pariwisata mengalami kontraksi yang cukup signifikan. Padahal sektor 
-              pariwisata memberikan kontribusi yang tinggi pada PAD Kota Batu melalui pajak hiburan, hotel, dan restoran, 
-              sehingga sektor ini memerlukan upaya pemulihan. Salah satu faktor penting dalam pemulihan sektor pariwisata 
-              adalah pemanfaatan TIK. Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit 
-              usaha pariwisata di Kota Batu dalam menerapkan <i>Smart Tourism Destination</i>. Analisis kesiapan dilakukan melalui 
-              Enterprise <i>E-Readiness Assessment Model</i> atau Model Kesiapan Unit Usaha Pariwisata yang terbentuk dari 
-              beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
->>>>>>> 1fdd553ca5a4ffdf3749556035a5b4260cc4dddf
             </p>           
           </div>
         </div>
@@ -49,15 +36,8 @@
         </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-<<<<<<< HEAD
             <p class="text-justify">Mengetahui karakteristik tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa 
               Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination. 
-=======
-            <p class="text-justify">
-              Mengetahui karakteristik tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang 
-              meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam 
-              menerapkan <i>Smart Tourism Destination</i>.
->>>>>>> 1fdd553ca5a4ffdf3749556035a5b4260cc4dddf
             </p> 
           </div>
         </div>
@@ -70,15 +50,8 @@
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-<<<<<<< HEAD
             <p class="text-justify">Menganalisis tingkat kesiapan pemanfaatan TIK dari tiga unit usaha pariwisata skala mikro dan kecil di Kota 
               Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination 
-=======
-            <p class="text-justify">
-              Menganalisis tingkat kesiapan pemanfaatan TIK dari tiga unit usaha pariwisata skala mikro dan kecil 
-              di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi 
-              dalam menerapkan <i>Smart Tourism Destination</i>.
->>>>>>> 1fdd553ca5a4ffdf3749556035a5b4260cc4dddf
             </p>           
           </div>
         </div>
@@ -91,13 +64,8 @@
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-<<<<<<< HEAD
             <p class="text-justify">Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu 
               dalam pemanfaatan TIK. 
-=======
-            <p class="text-justify">
-              Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu dalam pemanfaatan TIK.
->>>>>>> 1fdd553ca5a4ffdf3749556035a5b4260cc4dddf
             </p>           
           </div>
         </div>
@@ -110,13 +78,8 @@
         </h3>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-<<<<<<< HEAD
             <p class="text-justify">Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha 
               pariwisata skala mikro dan kecil di Kota Batu.
-=======
-            <p class="text-justify">
-              Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha pariwisata skala mikro dan kecil di Kota Batu.
->>>>>>> 1fdd553ca5a4ffdf3749556035a5b4260cc4dddf
             </p>           
           </div>
         </div>
