@@ -68,12 +68,6 @@
                         merupakan salah satu aspek dalam sektor pariwisata yang mengalami kontraksi cukup signifikan. Grafik berikut menggambarkan adanya 
                         kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020.
                     </p>
-                    <p class="text-center">
-                        <!-- image atau chart.js -->
-                        <img src="<?= base_url('pvd/img/landingpage/riset4/latar belakang.png')?>" 
-                            alt="Grafik kontraksi beberapa unit usaha pariwisata di Kota Batu pada periode 2019-2020" 
-                            class="responsive img-fluid">
-                    </p>
                     <p class="text-justify">
                         Sektor pariwisata masih menjadi penyumbang PAD terbesar di Kota Batu dari tahun ke tahun bahkan memberikan hampir 40 persen dari total PAD 
                         Kota Batu tahun 2020 melalui pajak hiburan, hotel, dan restoran, sehingga berkontribusi besar terhadap laju pertumbuhan ekonomi dan pemulihan 

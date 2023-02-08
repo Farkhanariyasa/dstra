@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row  justify-content-center">
-                <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
+                <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
             <div class="card62 col-lg-7 col-md-8" data-aos="zoom-out" data-aos-delay="200">
                 <div class="card-body">
@@ -175,7 +175,7 @@
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
-                <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
+                <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
             <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center ">
@@ -194,7 +194,7 @@
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
-                <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
+                <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
             <div class="card62 col-lg-7 col-md-8" data-aos="zoom-out" data-aos-delay="200">
                 <div class="card-body">
@@ -267,7 +267,7 @@
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
-                <img src="<?= base_url('pvd/img/landingpage/Line 1.png') ?>" class="orangeline" alt="">
+                <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
             <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center " data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center text-center ">

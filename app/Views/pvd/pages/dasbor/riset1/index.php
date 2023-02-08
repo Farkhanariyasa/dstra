@@ -2,8 +2,6 @@
 
 <?= $this->section('content'); ?>
 
-
-
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
@@ -76,15 +74,11 @@
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
 
 
-
-<script src="<?= base_url('assets/PVD/js/main.js') ?>"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 <!-- for download chart -->
-<script src="<?= base_url('pvd/js/riset1/btn-Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 
-<!-- form validation -->
-<script src="email.js"></script>
 
 </section><!-- End -->
 

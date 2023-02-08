@@ -1,8 +1,8 @@
 <?php $request = \Config\Services::request(); ?>
 <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-    <a class="navbar-brand brand-logo" href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_dasbor_max.png'); ?>" alt="logo" /></a>
-    <a class="navbar-brand brand-logo-mini" href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logoPKL.png'); ?>" alt="logo" /></a>
+    <a class="navbar-brand brand-logo" href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/dasbor/logo_dasbor_max.png'); ?>" alt="logo" /></a>
+    <a class="navbar-brand brand-logo-mini" href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-stretch">
     <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -11,7 +11,7 @@
     <ul class="navbar-nav navbar-nav-left">
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset '.substr($request->uri->getSegment(2), -1) ?>
+          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?> <span class="mdi mdi-chevron-down"></span>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>">
@@ -26,7 +26,7 @@
           </a>
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-              <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6> 
+              <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6>
             </div>
           </a>
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>">

@@ -11,6 +11,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 17-01-2023 : Terdapat 'helper' yang digunakan untuk memudahkan penggunaan fungsi-fungsi yang sering digunakan.
 - 18-01-2023 : Perubahan struktur basis data. Penambahan migrasi tabel. Lakukan `php spark migrate` untuk melakukan migrasi tabel.
 - 20-01-2023 : Perubahan struktur basis data pada tabel `pvd_unduh_hasil_pkl`. Lakukan hapus terdahulu tabel yang sebelumnya dan `migrations` `php spark migrate` untuk melakukan migrasi tabel.
+- 08-02-2023 : Perubahan Controller dan Routes. Diharapkan untuk memperhatikan perubahan tersebut.
 
 ## Cara Instalasi
 

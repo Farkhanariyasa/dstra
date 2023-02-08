@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $judul; ?> | Hasil PKL</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logoPKL.png') ?>">
+    <link rel="icon" type="image/png" href="<?= base_url('pvd/img/logo_pkl.png') ?>">
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/e0bb680df5.js" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
 
     <!-- Javascript -->
     <script src="<?= base_url('pvd/js/collapse.js') ?>"></script>
-    
+
     <!-- chartjs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -49,7 +49,7 @@
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
     <!-- Landing Page CSS-->
-    <link rel="stylesheet" href="<?= base_url('pvd/css/home.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('pvd/css/landing_page.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/navbar.css') ?>">
 </head>
 

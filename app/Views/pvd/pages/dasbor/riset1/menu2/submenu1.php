@@ -8,7 +8,7 @@
         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
     </h6>
   </header>
-  <hr class="hrjudul">
+<hr class="hrjudul">  
 
   <div class="accordion" id="accordionExample">
     <div class="accordion-item my-3">

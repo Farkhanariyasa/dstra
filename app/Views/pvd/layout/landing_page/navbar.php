@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg site-navbar-target sticky-top header-scrolled py-2 px-3 shadow ">
 	<div class="container">
 		<div class="mr-3">
-			<a href="<?= base_url("hasil-pkl") ?>"><img src="<?= base_url('pvd/img/LogoPKL.png') ?>" alt="logo" width="55px"></a>
+			<a href="<?= base_url("hasil-pkl") ?>"><img src="<?= base_url('pvd/img/logo_pkl.png') ?>" alt="logo" width="55px"></a>
 		</div>
 		<a class="navbar-brand mt-2" href="<?= base_url("hasil-pkl") ?>" style=" font-size: 120%; line-height: 25px"><span style="color: #4b395f;"><strong>WEB HASIL PKL 62</strong></span><br><span style="color: #506396; font-weight:600">T.A. 2022/2023</span></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

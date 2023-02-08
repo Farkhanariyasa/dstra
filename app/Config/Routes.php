@@ -29,19 +29,65 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Pvd\LandingPage::index');
 
+// Hasil PKL
 $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
+    // Landing Page
     $routes->get('/', 'LandingPage::index');
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
+        // Tentang Riset
         $routes->get('/', 'LandingPage::riset/$1');
-        $routes->get('dasbor', 'Dasbor::index/$1');
-        $routes->get('menu2/submenu1', 'Menu2::submenu1/$1');
-        $routes->get('menu2/submenu2', 'Menu2::submenu2/$1');
-        $routes->get('menu3/submenu3', 'Menu3::submenu3/$1');
-        $routes->get('menu3/submenu4', 'Menu3::submenu4/$1');
-        $routes->post('unduh','Dasbor::unduh/$1');
+        // Fungsi Unduh
+        $routes->post('unduh', 'Tools::unduh/$1');
     });
+    // Dasbor Riset 1
+    $routes->group('riset1', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
+        // Menu 1
+        $routes->get('dasbor', 'Riset1::index');
+        // Menu 2
+        $routes->get('menu2submenu1', 'Riset1::menu2submenu1'); // Menu 2 Submenu 1
+        $routes->get('menu2submenu2', 'Riset1::menu2submenu2'); // Menu 2 Submenu 2
+        // Menu 3
+        $routes->get('menu3submenu1', 'Riset1::menu3submenu1'); // Menu 3 Submenu 1
+        $routes->get('menu3submenu2', 'Riset1::menu3submenu2'); // Menu 3 Submenu 2
+    });
+    // Dasbor Riset 2
+    $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
+        // Menu 1
+        $routes->get('dasbor', 'Riset2::index');
+        // Menu 2
+        $routes->get('menu2submenu1', 'Riset2::menu2submenu1'); // Menu 2 Submenu 1
+        $routes->get('menu2submenu2', 'Riset2::menu2submenu2'); // Menu 2 Submenu 2
+        // Menu 3
+        $routes->get('menu3submenu1', 'Riset2::menu3submenu1'); // Menu 3 Submenu 1
+        $routes->get('menu3submenu2', 'Riset2::menu3submenu2'); // Menu 3 Submenu 2
+    });
+    // Dasbor Riset 3
+    $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
+        // Menu 1
+        $routes->get('dasbor', 'Riset3::index');
+        // Menu 2
+        $routes->get('menu2submenu1', 'Riset3::menu2submenu1'); // Menu 2 Submenu 1
+        $routes->get('menu2submenu2', 'Riset3::menu2submenu2'); // Menu 2 Submenu 2
+        // Menu 3
+        $routes->get('menu3submenu1', 'Riset3::menu3submenu1'); // Menu 3 Submenu 1
+        $routes->get('menu3submenu2', 'Riset3::menu3submenu2'); // Menu 3 Submenu 2
+    });
+    // Dasbor Riset 4
+    $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
+        // Menu 1
+        $routes->get('dasbor', 'Riset4::index');
+        // Menu 2
+        $routes->get('menu2submenu1', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
+        $routes->get('menu2submenu2', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
+        // Menu 3
+        $routes->get('menu3submenu1', 'Riset4::menu3submenu1'); // Menu 3 Submenu 1
+        $routes->get('menu3submenu2', 'Riset4::menu3submenu2'); // Menu 3 Submenu 2
+    });
+
+
+
 });
 
 /*

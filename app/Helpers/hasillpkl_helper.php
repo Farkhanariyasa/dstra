@@ -20,11 +20,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Grafik',
-              'href' => '/riset1/menu2/submenu1',
+              'href' => '/riset1/menu2submenu1',
             ],
             [
               'subMenu' => 'Tabulasi',
-              'href' => '/riset1/menu2/submenu2',
+              'href' => '/riset1/menu2submenu2',
             ],
           ],
         ],
@@ -36,11 +36,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Grafik',
-              'href' => '/riset1/menu3/submenu3',
+              'href' => '/riset1/menu3submenu1',
             ],
             [
               'subMenu' => 'Kuesioner',
-              'href' => '/riset1/menu3/submenu4',
+              'href' => '/riset1/menu3submenu2',
             ],
           ],
         ],
@@ -66,11 +66,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Kajian 1',
-              'href' => '/riset2/menu2/submenu1',
+              'href' => '/riset2/menu2submenu1',
             ],
             [
               'subMenu' => 'Kajian 2',
-              'href' => '/riset2/menu2/submenu2',
+              'href' => '/riset2/menu2submenu2',
             ],
           ],
         ],
@@ -82,11 +82,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Kajian 1',
-              'href' => '/riset2/menu3/submenu3',
+              'href' => '/riset2/menu3submenu1',
             ],
             [
               'subMenu' => 'Kajian 2',
-              'href' => '/riset2/menu3/submenu4',
+              'href' => '/riset2/menu3submenu2',
             ],
           ],
         ],
@@ -112,11 +112,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Submenu 1',
-              'href' => '/riset3/menu2/submenu1',
+              'href' => '/riset3/menu2submenu1',
             ],
             [
               'subMenu' => 'Submenu 2',
-              'href' => '/riset3/menu2/submenu2',
+              'href' => '/riset3/menu2submenu2',
             ],
           ],
         ],
@@ -127,12 +127,12 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 3',
-              'href' => '/riset3/menu3/submenu3',
+              'subMenu' => 'Submenu 1',
+              'href' => '/riset3/menu3submenu1',
             ],
             [
-              'subMenu' => 'Submenu 4',
-              'href' => '/riset3/menu3/submenu4',
+              'subMenu' => 'Submenu 2',
+              'href' => '/riset3/menu3submenu2',
             ],
           ],
         ],
@@ -158,15 +158,15 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Karakteristik Umum',
-              'href' => '/riset4/menu2/submenu1',
+              'href' => '/riset4/menu2submenu1',
             ],
             [
               'subMenu' => 'Karakteristik Kesiapan',
-              'href' => '/riset4/menu2/submenu2',
+              'href' => '/riset4/menu2submenu2',
             ],
             [
               'subMenu' => 'Indeks Kesiapan',
-              'href' => '/riset4/menu2/submenu3',
+              'href' => '/riset4/menu2submenu3',
             ],
           ],
         ],
@@ -177,12 +177,12 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 3',
-              'href' => '/riset4/menu3/submenu3',
+              'subMenu' => 'Submenu 1',
+              'href' => '/riset4/menu3submenu1',
             ],
             [
-              'subMenu' => 'Submenu 4',
-              'href' => '/riset4/menu3/submenu4',
+              'subMenu' => 'Submenu 2',
+              'href' => '/riset4/menu3submenu2',
             ],
           ],
         ],
