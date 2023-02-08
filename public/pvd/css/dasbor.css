@@ -2834,7 +2834,11 @@ th {
   text-align: -webkit-match-parent;
 }
 
-thead,
+thead {
+  color: #fff; 
+  font-weight:bold;
+}
+
 tbody,
 tfoot,
 tr,
