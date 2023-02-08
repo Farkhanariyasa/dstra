@@ -29,7 +29,8 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Pvd\LandingPage::index');
+// redirect link to landing page
+$routes->get('/', 'Home::index');
 
 // Hasil PKL
 $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
