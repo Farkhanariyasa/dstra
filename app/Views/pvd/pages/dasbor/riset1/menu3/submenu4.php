@@ -2,8 +2,61 @@
 
 <?= $this->section('content'); ?>
 
-<h1>Menu 3 submenu 4</h1>
+<style>
+    .konten-teks {
+        padding: 10%;
+        color: #506396;
+        font-family: 'Poppins', 'Courier', 'monospace';
+    }
 
-<script src="<?= base_url('pvd/js/riset1/btn-Download.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
+    .konten-teks .card-title {
+        font-weight: bold;
+        font-size: 56px;
+        font-family: 'Poppins', 'Courier', 'monospace';
+        color: #493a5a;
+    
+    }
+
+    .konten-teks .subs {
+        font-weight: bold;
+        font-size: 30px;
+    
+    }
+
+    .card-text {
+        font-family: 'Poppins', 'Courier', 'monospace';
+        color: #506396;
+    }
+
+</style>
+
+<div class="container" >
+    <br><br>
+      <header class="section-header">
+        <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
+      </header>
+    <hr class="hrjudul">
+
+    <h2>Kuesioner Listing</h2>
+    <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1"  style= "height: auto;">
+        <div class="row">  
+            <div style="width: 100%;">
+                <embed src="https://drive.google.com/file/d/1jfvZHFY-ovdka5aRW413RVrplv6zWD0u/preview" type="application/pdf" width=100% height="600px"/>
+            </div>
+        </div>
+    </div>
+
+
+    <h2>Kuesioner Pencacahan</h2>
+    <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1"  style= "height: auto;">
+        <div class="row">  
+            <div style="width: 100%;">
+                <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px"/>
+            </div>
+        </div>
+    </div>  
+
+</div>
+
+
 <?= $this->endSection(); ?>
