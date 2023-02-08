@@ -54,7 +54,7 @@
   <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
     <!-- style="padding:0px 0px 0px 0px;" -->
     <!-- <blockquote class="blockquote mb-0"> -->
-    <table class="table table-hover table-bordered table-responsive" id="example" style="width:100%">
+    <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
       <thead style="color: #fff; font-weight:bold;">
         <tr>
           <th scope="col">No.</th>
@@ -123,7 +123,7 @@
   </div>
 </div>
 
-<script>
+<!-- <script>
   $(document).ready(function() {
     $('#example').DataTable({
         dom: 'Bfrtip',
@@ -135,6 +135,6 @@
         ]
     });
 });
-</script>
+</script> -->
 
 <?= $this->endSection(); ?>
