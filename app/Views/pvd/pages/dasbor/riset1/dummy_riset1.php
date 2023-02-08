@@ -5,7 +5,7 @@
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                     <div class="selectBox mt-2 me-2">
                         <form action="">
-                            <select class="dropdownunduh1" id="forBarChart">
+                            <select class="dropdownunduh1 w-100" id="forBarChart">
                                 <option value="a">Jumlah ART Melakukan Perjalanan Wisata</option>
                                 <option value="b">Jenis Kelamin</option>
                             </select>
