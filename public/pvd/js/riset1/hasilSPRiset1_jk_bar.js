@@ -26,8 +26,11 @@ new Chart(ctx, {
                 display:true,
                 text: 'Jenis Kelamin ART',
                 font:{
-                    size:20
-                }
+                    size:16,
+                    family:'Poppins'
+
+                },
+                color:'#493a5a'
             },
             legend:{
                 display:true

@@ -47,10 +47,13 @@ const bar = new Chart(ctx, {
         plugins: {
             title:{
                 display:true,
-                text:'Tindakan Perjalanan Tidak Lebih dari 1 Tahun dan Telah Kembali dalam Periode Oktober 2022 - Desember 2022',
+                text:['Tindakan Perjalanan Tidak Lebih dari 1 Tahun dan', 'Telah Kembali dalam Periode Oktober 2022 - Desember 2022'],
                 font: {
-                    size:16
+                    size:16,
+                    family:'Poppins'
+
                 },
+                color:'#493a5a',
                 padding:{
                     top:5,
                     bottom:5,

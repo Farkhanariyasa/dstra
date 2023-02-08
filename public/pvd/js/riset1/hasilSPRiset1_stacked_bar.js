@@ -46,10 +46,12 @@ new Chart(hasil4, {
     plugins:{
         title: {
             display: true,
-            text : "Proporsi Tindakan Perjalanan Tidak Lebih dari 1 Tahun dan Telah Kembali dalam Periode Oktober 2022 - Desember 2022" ,
+            text : ["Proporsi Tindakan Perjalanan Tidak Lebih dari 1 Tahun dan", "Telah Kembali dalam Periode Oktober 2022 - Desember 2022"] ,
             font: {
-                size: 20
-            }
+                size: 16,
+                family: 'Poppins'
+            },
+            color: '#493a5a',
           },
           stacked100:{
             enable:true,

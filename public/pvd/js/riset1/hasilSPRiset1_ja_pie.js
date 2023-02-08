@@ -20,10 +20,12 @@ const batang = new Chart(riset1_hasil1, {
     plugins: {
       title: {
         display: true,
-        text: "Banyaknya Rumah Tangga berdasarkan Jumlah Anggota yang melakukan perjalanan",
+        text: ["Banyaknya Rumah Tangga berdasarkan", "Jumlah Anggota yang melakukan perjalanan"],
         font: {
-          size: 20,
+          size: 16,
+          family: "Poppins",
         },
+        color: "#493a5a",
       },
       legend: {
         display: true,
@@ -74,7 +76,7 @@ function tampilData() {
     batang.data.datasets[0].data = [jumlahanggota.ja0, jumlahanggota.ja1, jumlahanggota.ja2, jumlahanggota.ja3, jumlahanggota.ja4, jumlahanggota.ja5];
     batang.data.labels = ["Jumlah Anggota 0", "Jumlah Anggota 1", "Jumlah Anggota 2", "Jumlah Anggota 3", "Jumlah Anggota 4", "Jumlah Anggota 5"];
 
-    batang.options.plugins.title.text = "Banyaknya Rumah Tangga berdasarkan Jumlah Anggota yang melakukan perjalanan";
+    batang.options.plugins.title.text = ["Banyaknya Rumah Tangga berdasarkan", "Jumlah Anggota yang melakukan perjalanan"];
     // console.log(batang.data.datasets[0].data)
     batang.update();
   }

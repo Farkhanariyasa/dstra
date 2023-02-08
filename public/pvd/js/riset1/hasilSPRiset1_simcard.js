@@ -28,8 +28,10 @@ new Chart(riset1_hasil3, {
                 display:true,
                 text:'Jenis Kartu Provider yang digunakan oleh Responden',
                 font: {
-                    size:16
+                    size:16,
+                    family:'Poppins'
                 },
+                color:'#493a5a',
                 padding:{
                     top:5,
                     bottom:5,
