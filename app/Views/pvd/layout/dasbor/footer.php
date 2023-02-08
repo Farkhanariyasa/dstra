@@ -23,7 +23,11 @@
 
 <script>
     $(document).ready(function () {
-        $('#table_id').DataTable();
+        $('#table_id').DataTable({
+            "responsive": true,
+            "scrollX": true,
+            // "scrollY": "200px",
+        });
     });
 </script>
 
