@@ -37,7 +37,7 @@
   <!-- Datatables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.4/css/buttons.dataTables.min.css">
-  <link rel="stylesheet" href="<?= base_url('pvd/js/table2excel.js') ?>">
+  <script src="<?= base_url('pvd/js/table2excel.js'); ?>"></script>
 
   <!-- Dasbor CSS -->
   <link rel="stylesheet" href="<?= base_url('pvd/css/dasbor.css'); ?>">
