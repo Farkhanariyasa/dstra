@@ -18,7 +18,7 @@
           <li data-filter=".filter-riset2-hasil1">Hasil 1</li>
           <li data-filter=".filter-riset2-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset2-hasil3">Hasil 3</li>
-          <!-- <li data-filter=".filter-riset2-tabel">Tabel dummy</li> -->
+          <li data-filter=".filter-riset2-peta">Peta Lokus</li>
         </ul>
       </div>
     </div>
@@ -29,28 +29,6 @@
   </div>
 </section>
 
-<!-- <script>
-    var map = L.map('map').setView([51.505, -0.09], 13);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
-
-</script> -->
-
-<script>
-    $(document).ready(function() {
-        $('#example').DataTable({
-            dom: 'Bfrtip',
-            buttons: [
-                'copyHtml5',
-                'excelHtml5',
-                'csvHtml5',
-                'pdfHtml5'
-            ]
-        });
-    });
-</script>
-
 <script>
     const datajeniskelamin = <?= json_encode($jk);?>;
     const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
@@ -60,6 +38,8 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta.js') ?>"></script>
+
 
 <!-- for download chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
