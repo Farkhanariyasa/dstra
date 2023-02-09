@@ -10,12 +10,14 @@ class Riset2 extends BaseController
     protected $jeniskelamin;
     protected $jenispekerjaanutama;
     protected $pendidikantertinggi_riset2;
+    protected $data_tabel_sp_riset2;
 
     public function __construct()
     {
         $this->jeniskelamin = new Riset2HasilSpModel();
         $this->jenispekerjaanutama = new Riset2HasilSpModel();
         $this->pendidikantertinggi_riset2 = new Riset2HasilSpModel();
+        $this->data_tabel_sp_riset2 = new Riset2HasilSpModel();
     }
 
     public function index()
@@ -83,8 +85,10 @@ class Riset2 extends BaseController
     public function menu3submenu1()
     {
         $menu = getMenu();
+        $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
             'judul' => 'Menu 3 Submenu 1 Riset 2',
+            'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/menu3/submenu1', $data);
