@@ -10,12 +10,14 @@ class Riset1 extends BaseController
     protected $jumlahanggota;
     protected $hasilsp2;
     protected $simcard;
+    protected $dataresponden;
 
     public function __construct()
     {
         $this->jumlahanggota = new Riset1HasilSpModel();
         $this->hasilsp2 = new Riset1HasilSpModel();
         $this->simcard = new Riset1HasilSpModel();
+        $this->dataresponden = new Riset1HasilSpModel();
     }
 
     public function index()
@@ -110,8 +112,10 @@ class Riset1 extends BaseController
     public function menu2submenu2()
     {
         $menu = getMenu();
+        $dataresponden = $this->dataresponden->findAll();
         $data = [
             'judul' => 'Menu 2 Submenu 2 Riset 1',
+            'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/menu2/submenu2', $data);
