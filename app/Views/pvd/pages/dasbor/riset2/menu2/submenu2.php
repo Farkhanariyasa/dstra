@@ -42,82 +42,23 @@
 </header>
 <hr class="hrjudul">
 
-<div class="card">
-  <div class="card-header">
-    <strong>Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</strong>
-    <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                            <i class="fa-solid fa-download"></i>
-   </button> -->
-  </div>
-  <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-    <!-- style="padding:0px 0px 0px 0px;" -->
-    <!-- <blockquote class="blockquote mb-0"> -->
-        <table class="table table-hover table-bordered table-responsive">
-        <thead style="color: #fff; font-weight:bold;">
-            <tr>
-                <th scope="col">No.</th>
-                <th scope="col">Kecamatan</th>
-                <th scope="col">Desa/Kelurahan</th>
-                <th scope="col">Jumlah Usaha Pariwisata</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-            </tr>            <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-        </tbody>
-        </table>
-    <!-- </blockquote> -->
-  </div>
+<h2>Kuesioner Listing</h2>
+<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
+    <div class="row">
+        <div style="width: 100%;">
+            <embed src="https://drive.google.com/file/d/1jfvZHFY-ovdka5aRW413RVrplv6zWD0u/preview" type="application/pdf" width=100% height="600px" />
+        </div>
+    </div>
+</div>
+
+
+<h2>Kuesioner Pencacahan</h2>
+<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
+    <div class="row">
+        <div style="width: 100%;">
+            <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
+        </div>
+    </div>
 </div>
 
 <?= $this->endSection(); ?>
