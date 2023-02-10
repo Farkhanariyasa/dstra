@@ -46,7 +46,7 @@
 
 <div class="card">
   <div class="card-header">
-    <strong>Data Responden Hasil Survei Pendahuluan</strong>
+    <div class="card-title text-center mt-2">Data Responden Hasil Survei Pendahuluan Riset 1</div>
     <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                             <i class="fa-solid fa-download"></i>
    </button> -->
