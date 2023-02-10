@@ -1,5 +1,4 @@
 const riset1_hasil1 = document.getElementById("riset1_hasil1");
-
 const batang = new Chart(riset1_hasil1, {
   type: "doughnut",
   data: {
@@ -23,7 +22,7 @@ const batang = new Chart(riset1_hasil1, {
         text: ["Banyaknya Rumah Tangga berdasarkan", "Jumlah Anggota yang melakukan perjalanan"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
       },
@@ -41,7 +40,7 @@ const batang = new Chart(riset1_hasil1, {
 
             var percentage = parseFloat(((currentValue / total) * 100).toFixed(1));
 
-            return label + ": " + currentValue + " (" + percentage + "%)";
+            return "Responden : " + currentValue + " (" + percentage + "%)";
           },
         },
       },
