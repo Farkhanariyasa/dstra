@@ -209,33 +209,6 @@
 </div>
 
 
-<!-- Tabel dummy -->
-<div class="portfolio-item filter-riset1-tabeldummy">
-    <div class="">
-        <table id="example" class="table">
-            <thead>
-                <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Nama</th>
-                    <th scope="col">Jenis Kelamin</th>
-                    <th scope="col">Jurusan</th>
-                    <th scope="col">Tingkat</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th></th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div><br><br>
-    <!-- <div id="map" class="mt-4"></div>             -->
-</div>
-
 
 <!-- Modal Riset 3  -->
 <?php include('modal_riset1.php') ?>
