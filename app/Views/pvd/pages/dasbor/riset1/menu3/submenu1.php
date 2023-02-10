@@ -6,13 +6,13 @@
     .konten-teks {
         padding: 10%;
         color: #506396;
-        font-family: 'Poppins', 'Courier', 'monospace';
+        /* font-family: 'Poppins', 'Courier', 'monospace'; */
     }
 
     .konten-teks .card-title {
         font-weight: bold;
-        font-size: 56px;
-        font-family: 'Poppins', 'Courier', 'monospace';
+        font-size: 50px;
+        /* font-family: 'Poppins', 'Courier', 'monospace'; */
         color: #493a5a;
 
     }
@@ -24,7 +24,7 @@
     }
 
     .card-text {
-        font-family: 'Poppins', 'Courier', 'monospace';
+        /* font-family: 'Poppins', 'Courier', 'monospace'; */
         color: #506396;
     }
 </style>
