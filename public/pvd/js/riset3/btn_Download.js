@@ -1,4 +1,71 @@
 
+// const buttonclicked = "btndownload3"
+// const konfirmasiButton= document.getElementById(buttonclicked);
+const konfirmasiButton= document.getElementById("btndownload3");
+// const inputNama= document.getElementById("nama");
+// const inputEmail= document.getElementById("email");
+// const inputInstansi= document.getElementById("instansi");
+let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
+
+function getvalue(){
+    let nama =document.getElementById('nama').value
+    let email = document.getElementById('email').value
+    let instansi =document.getElementById('instansi').value
+    // document.getElementById('erroremail').innerHTML="Format email salah"
+
+    if(nama != "" && email !="" && email.match(mailRegex) && instansi != ""){
+        console.log(email);
+        konfirmasiButton.disabled=false;
+        konfirmasiButton.style.backgroundColor="#7382ab";
+    }else{
+        console.log(instansi);
+        konfirmasiButton.disabled=true;
+        konfirmasiButton.style.backgroundColor="#8d8d8d";
+    }
+}
+
+
+
+
+// inputNama.addEventListener("keyup", (e) =>{
+//     const value = e.currentTarget.value;
+//     if(value!=""){
+//         inputEmail.addEventListener("keyup", (event) =>{
+//             const valueemail= event.currentTarget.value;
+//             inputInstansi.addEventListener("keyup", (eventins) =>{
+//                 const valueinstansi=eventins.currentTarget.value;
+//                 if(valueemail != "" && valueinstansi !="" && valueemail.match(mailRegex)){
+//                     console.log(inputEmail);
+//                     konfirmasiButton.disabled=false;
+//                     konfirmasiButton.style.backgroundColor="#7382ab";
+//                 }else{
+//                     console.log(inputInstansi);
+//                     konfirmasiButton.disabled=true;
+//                     konfirmasiButton.style.backgroundColor="#8d8d8d";
+//                 }
+//             })
+//         })
+//     }else{
+//         konfirmasiButton.disabled=true;
+//         inputEmail.addEventListener("keyup", (event) =>{
+//             const valueemail= event.currentTarget.value;
+//             inputInstansi.addEventListener("keyup", (eventins) =>{
+//                 const valueinstansi=eventins.currentTarget.value;
+//                 if(valueemail != "" && valueinstansi !="" && valueemail.match(mailRegex)){
+//                     console.log(inputEmail);
+//                     konfirmasiButton.disabled=false;
+//                     konfirmasiButton.style.backgroundColor="#7382ab";
+//                 }else{
+//                     console.log(inputInstansi);
+//                     konfirmasiButton.disabled=true;
+//                     konfirmasiButton.style.backgroundColor="#8d8d8d";
+//                 }
+//             })
+//         })
+//     }
+    
+    
+// });
 
 document.getElementById('btndownload').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
