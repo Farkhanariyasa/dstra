@@ -65,11 +65,11 @@ function getMenu()
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Kajian 1',
+              'subMenu' => 'Deskripsi Umum',
               'href' => '/riset2/menu2submenu1',
             ],
             [
-              'subMenu' => 'Kajian 2',
+              'subMenu' => 'Kuesioner',
               'href' => '/riset2/menu2submenu2',
             ],
           ],
@@ -81,7 +81,7 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Kajian 1',
+              'subMenu' => 'Tabel',
               'href' => '/riset2/menu3submenu1',
             ],
             [
