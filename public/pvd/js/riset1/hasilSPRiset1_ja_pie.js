@@ -94,3 +94,18 @@ function update_value(chk_bx) {
     batang.update();
   }
 }
+
+const pieChartLegend = document.getElementById("forPieChartLegend");
+pieChartLegend.addEventListener("click", update_value2(chk_bx2));
+function update_value2(chk_bx2) {
+  if (chk_bx2.checked) {
+    console.log("check");
+    batang.options.plugins.legend.display = true;
+    batang.update();
+  } else {
+    console.log("uncheck");
+    batang.options.plugins.legend.display = false;
+    batang.update();
+  }
+}
+
