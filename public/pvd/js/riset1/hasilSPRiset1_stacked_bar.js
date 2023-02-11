@@ -2,7 +2,7 @@
 
 const hasil4 = document.getElementById('riset1_hasil4');
 
-new Chart(hasil4, {
+stack_bar = new Chart(hasil4, {
     type: 'bar',
     data: {
     labels: ['Ke Objek Wisata dalam Kota Sama',
@@ -100,3 +100,20 @@ new Chart(hasil4, {
     }, 
     plugins:[ChartDataLabels]
 });
+
+const barChartAxis_stack = document.getElementById('forBarChartAxis_stack');
+barChartAxis_stack.addEventListener('click', update_value_stack(check_axis));
+
+function update_value_stack(check_axis){
+    if (check_axis.checked) {
+        console.log('check');
+        stack_bar.options.scales.x.display = true;
+        stack_bar.options.scales.y.display = true;
+    } else {
+        console.log('uncheck');
+        stack_bar.options.scales.x.display = false;
+        stack_bar.options.scales.y.display = false;
+    }
+    stack_bar.update();
+}
+
