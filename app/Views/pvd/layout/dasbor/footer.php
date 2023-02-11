@@ -21,7 +21,7 @@
 <script src="<?= base_url('pvd/js/off-canvas.js'); ?>"></script>
 <script src="<?= base_url('pvd/js/main.js') ?>"></script>
 <!-- Datatable JS -->
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.13.2/datatables.min.js"></script>
 </body>
 
 </html>
