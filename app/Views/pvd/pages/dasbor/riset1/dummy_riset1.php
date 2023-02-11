@@ -207,8 +207,5 @@
         </div>
     </div>
 </div>
-
-
-
-<!-- Modal Riset 3  -->
+<!-- Modal Riset 1 -->
 <?php include('modal_riset1.php') ?>

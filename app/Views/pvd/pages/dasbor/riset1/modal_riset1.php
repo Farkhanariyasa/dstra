@@ -19,7 +19,7 @@
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-<input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -83,7 +83,7 @@
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-<input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
+                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
                     </div>
                 </div>
                 <div class="modal-footer">
