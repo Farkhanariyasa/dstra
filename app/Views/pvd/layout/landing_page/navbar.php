@@ -1,5 +1,4 @@
 <?php $request = \Config\Services::request(); ?>
-
 <nav class="navbar navbar-expand-lg site-navbar-target sticky-top header-scrolled py-2 px-3 shadow ">
 	<div class="container">
 		<div class="mr-3">
@@ -9,7 +8,6 @@
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fa-solid fa-bars"></i>
 		</button>
-
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav nav ml-auto mt-2" style="background:transparent !important">
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset1") ?>" class="nav-link nav-menu text-center <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>"><span>Riset 1</span></a></li>
