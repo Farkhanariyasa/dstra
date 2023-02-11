@@ -7,7 +7,7 @@
         <header class="section-header">
             <p>Pilot Survei Wisatawan Nusantara</p>
         </header>
-        
+
         <hr class="hrjudul">
 
         <!-- <div class="row">
@@ -41,8 +41,8 @@
             </thead>
             <tbody>
                 <?php
-                    $i = 1;
-                    foreach ($data_tabel_sp_riset2 as $v) :
+                $i = 1;
+                foreach ($data_tabel_sp_riset2 as $v) :
                 ?>
                     <tr>
                         <th scope="row"><?php echo $i; ?></th>
@@ -53,12 +53,16 @@
                     </tr>
                 <?php
                     $i++;
-                    endforeach;
+                endforeach;
                 ?>
             </tbody>
         </table>
     </div>
 </div>
-
+<!-- Datatable Instal -->
+<script>
+    $(document).ready(function() {
+        $('#table_id').DataTable();
+    });
+</script>
 <?= $this->endSection(); ?>
-
