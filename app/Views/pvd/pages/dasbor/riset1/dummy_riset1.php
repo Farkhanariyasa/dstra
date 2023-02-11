@@ -67,8 +67,8 @@
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forBarChartXAxis" value="show" checked>
-                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Show X-Axis</label>
+                            <input class="form-check-input" onchange="update_value_mpw(this);" type="checkbox" id="forBarChartAxis_mpw" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="BarChartAxis" value="show" checked>
+                            <input class="form-check-input" onchange="update_value_sim(this);" type="checkbox" id="forBarChartAxis_sim" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                         </div>
                     </div>

@@ -72,7 +72,19 @@ const bar = new Chart(ctx, {
                 display:true,
                 color:'black'
             }
-        },maintainAspectRatio: false
+        },maintainAspectRatio: false,
+        scales:{
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{
+                grid:{
+                    display:false
+                },
+            }
+        }
     },plugins:[ChartDataLabels]
 });
 
@@ -87,16 +99,19 @@ function responsivefonts(){
     }
 };
 
-const barChartXAxis = document.getElementById("forBarChartXAxis");
-barChartXAxis.addEventListener("click", update_value(chk_bx));
-function update_value(chk_bx) {
+const barChartAxis_mpw = document.getElementById("forBarChartAxis_mpw");
+barChartAxis_mpw.addEventListener("click", update_value_mpw(chk_bx));
+
+function update_value_mpw(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
-    bar.options.scales.x.ticks.display = true;
+    bar.options.scales.x.display = true;
+    bar.options.scales.y.display = true;
     bar.update();
   } else {
     console.log("uncheck");
-    bar.options.scales.x.ticks.display = false;
+    bar.options.scales.x.display = false;
+    bar.options.scales.y.display = false;
     bar.update();
   }
 };

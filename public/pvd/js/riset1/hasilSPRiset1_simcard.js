@@ -67,10 +67,10 @@ const bar_sim = new Chart(riset1_hasil3, {
 });
 
 
-const barChartAxis = document.getElementById('barChartAxis');
-barChartAxis.addEventListener('click', update_value(check_axis));
+const barChartAxis_sim = document.getElementById('forBarChartAxis_sim');
+barChartAxis_sim.addEventListener('click', update_value_sim(check_axis));
 
-function update_value(check_axis) {
+function update_value_sim(check_axis) {
     if (check_axis.checked) {
         console.log('check');
         bar_sim.options.scales.x.display = true;
