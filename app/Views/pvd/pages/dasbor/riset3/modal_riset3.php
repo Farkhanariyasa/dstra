@@ -12,22 +12,22 @@
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
                         <input oninput="getvalue()" type="text" class="form-control" name="nama" id="nama" placeholder="Nama Anda" required>
-                        <div id="errornama"></div>
+                        <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
                         <input oninput="getvalue()" type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required>
-                        <div id="erroremail"></div>
+                        <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
                         <input oninput="getvalue()" type="text" class="form-control" name="instansi" id="instansi" placeholder="Instansi Asal" required>
-                        <div id="errorinstansi"></div>
+                        <div id="errorinstansi" class="errorvlds"></div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload3" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Ksonfirmasi</button>
+                    <button disabled type="submit" id="btndownload3" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Ksonfirmasi</button>
                 </div>
             </form>
         </div>
