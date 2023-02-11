@@ -21642,3 +21642,12 @@ td {
     left: -45px;
   }
 }
+
+.page-item.active .page-link {
+  background-color: #506396;
+  border-color: #506396;
+}
+
+a.page-link {
+  color: #506396;
+}
