@@ -1,5 +1,5 @@
 const riset1_hasil3 = document.getElementById('riset1_hasil3');
-new Chart(riset1_hasil3, {
+const bar_sim = new Chart(riset1_hasil3, {
     type:'bar',
     data: {
         labels: ['Indosat',
@@ -50,7 +50,36 @@ new Chart(riset1_hasil3, {
                 display:true,
                 color:'black'
             }
-        },maintainAspectRatio: false
+        },maintainAspectRatio: false,
+        scales:{
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{
+                grid:{
+                    display:false
+                },
+            },
+        },
     },plugins:[ChartDataLabels]
 });
 
+
+const barChartAxis = document.getElementById('barChartAxis');
+barChartAxis.addEventListener('click', update_value(check_axis));
+
+function update_value(check_axis) {
+    if (check_axis.checked) {
+        console.log('check');
+        bar_sim.options.scales.x.display = true;
+        bar_sim.options.scales.y.display = true;
+        bar_sim.update();
+    } else {
+        console.log('uncheck');
+        bar_sim.options.scales.x.display = false;
+        bar_sim.options.scales.y.display = false;
+        bar_sim.update();
+    }
+}
