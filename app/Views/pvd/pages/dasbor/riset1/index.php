@@ -53,6 +53,7 @@
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 </section><!-- End -->
