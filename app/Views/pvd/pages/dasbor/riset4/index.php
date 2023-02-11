@@ -136,9 +136,9 @@
 <!-- Highchartjs Heatmap -->
 <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 <!--  Highchartjs Plugin -->
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
 <!-- Data Chart -->
 <script>
   const unitUsahaTIK = <?= json_encode($uu) ?>;
