@@ -3,7 +3,7 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                   
+
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="selectBox mt-2 me-2">
                             <form action="">
@@ -20,11 +20,11 @@
                             </button>
                         </div>
                     </div>
-                   
+
                     <div class="chartBox bar">
                         <canvas class="mt1" id="ji_batang" style="width: 95%; height:80vh;"></canvas>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -93,23 +93,23 @@
         </div>
     </div>
 </div>
-       
+
 <div class="portfolio-item filter-riset3-hasil4">
     <!-- Visualisasi 1.4 -->
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="chartBox bar">
-                    <canvas id="stacked_barchart" style="width: 95%; height:80vh;"></canvas>
-                </div>
+                    <div class="chartBox bar">
+                        <canvas id="stacked_barchart" style="width: 95%; height:80vh;"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,16 +122,16 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="chartBox">
-                    <canvas id="radar" style="width: 95%; height:80vh;"></canvas>
-                </div>
+                    <div class="chartBox">
+                        <canvas id="radar" style="width: 95%; height:80vh;"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,16 +144,16 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
                 <div class="card-body">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="chartBox bar">
-                    <canvas id="boxplot_chart" style="width: 95%; height:80vh;"></canvas>
-                </div>
+                    <div class="chartBox bar">
+                        <canvas id="boxplot_chart" style="width: 95%; height:80vh;"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
