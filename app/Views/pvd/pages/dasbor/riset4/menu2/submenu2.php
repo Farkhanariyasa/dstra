@@ -122,13 +122,5 @@
   </div>
 </div>
 <!-- Datatable Instal -->
-<script>
-  $(document).ready(function() {
-    $('#table_id').DataTable({
-      "language": {
-        "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Indonesian.json"
-      },
-    });
-  });
-</script>
+<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
 <?= $this->endSection(); ?>

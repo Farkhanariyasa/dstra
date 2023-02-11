@@ -21651,3 +21651,8 @@ td {
 a.page-link {
   color: #506396;
 }
+
+button.btn.btn-secondary {
+  background-color: #506396;
+  border-color: #506396;
+}

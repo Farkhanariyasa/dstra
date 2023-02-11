@@ -84,27 +84,4 @@
   </div>
 </div>
 
-<!-- <script>
-  $(document).ready(function() {
-    $('#example').DataTable({
-        dom: 'Bfrtip',
-        buttons: [
-            'copyHtml5',
-            'excelHtml5',
-            'csvHtml5',
-            'pdfHtml5'
-        ]
-    });
-});
-</script> -->
-<!-- Datatable Instal -->
-<script>
-  $(document).ready(function() {
-    $('#table_id').DataTable({
-      "language": {
-        "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Indonesian.json"
-      },
-    });
-  });
-</script>
 <?= $this->endSection(); ?>
