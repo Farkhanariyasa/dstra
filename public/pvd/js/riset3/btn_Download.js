@@ -6,18 +6,34 @@ const konfirmasiButton= document.getElementById("btndownload3");
 // const inputEmail= document.getElementById("email");
 // const inputInstansi= document.getElementById("instansi");
 let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
+let hoverButton =':hover{ background-color: #00ff00 }'
 
 function getvalue(){
     let nama =document.getElementById('nama').value
     let email = document.getElementById('email').value
     let instansi =document.getElementById('instansi').value
-    // document.getElementById('erroremail').innerHTML="Format email salah"
+  
 
     if(nama != "" && email !="" && email.match(mailRegex) && instansi != ""){
         console.log(email);
         konfirmasiButton.disabled=false;
         konfirmasiButton.style.backgroundColor="#7382ab";
+        konfirmasiButton.style.color="#fff";
+        // konfirmasiButton.style.cssText=hoverButton;
+        document.getElementById('erroremail').innerHTML=""
+        document.getElementById('errornama').innerHTML=""
+        document.getElementById('errorinstansi').innerHTML=""
     }else{
+        if(nama===""){
+            document.getElementById('errornama').innerHTML="Nama harus diisi"
+            document.getElementById('errornama').style.color='#fe7c96'
+        }else if(instansi ===""){
+            document.getElementById('errorinstansi').innerHTML="Instansi harus diisi"
+            document.getElementById('errorinstansi').style.color='#fe7c96'
+        }else{
+            document.getElementById('erroremail').innerHTML="Format email salah"
+            document.getElementById('erroremail').style.color='#fe7c96'
+        }
         console.log(instansi);
         konfirmasiButton.disabled=true;
         konfirmasiButton.style.backgroundColor="#8d8d8d";
