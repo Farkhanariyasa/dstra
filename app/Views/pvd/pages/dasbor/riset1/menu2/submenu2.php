@@ -83,5 +83,6 @@
     <!-- </blockquote> -->
   </div>
 </div>
-
+<!-- Datatable Instal -->
+<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
 <?= $this->endSection(); ?>
