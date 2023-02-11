@@ -11,20 +11,23 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required>
+                        <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <div id="errorinstansi" class="errorvlds"></div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button type="submit" id="download_pw_sankey" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="download_pw_sankey" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -43,20 +46,23 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required>
+                        <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <div id="errorinstansi" class="errorvlds"></div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button type="submit" id="download_jk_bar" class="tombol btn-for" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="download_jk_bar" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -75,21 +81,23 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="nama" id="recipient-name" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" name="email" id="recipient-name" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required>
+                        <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="instansi" id="recipient-name" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <div id="errorinstansi" class="errorvlds"></div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button type="submit" id="download_barhorizontal" class="tombol btn-for" data-bs-dismiss="modal"
-                        aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="download_barhorizontal" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
