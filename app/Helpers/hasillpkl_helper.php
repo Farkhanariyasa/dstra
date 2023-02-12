@@ -59,19 +59,28 @@ function getMenu()
           'href' => '/riset2/dasbor',
         ],
         [
-          'menu' => 'Gambaran Umum',
+          'menu' => 'Hasil Penelitian',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Deskripsi Umum',
+              'subMenu' => 'Banyak Wisatawan & Perjalanan Wisata',
               'href' => '/riset2/menu2submenu1',
             ],
             [
-              'subMenu' => 'Kuesioner',
+              'subMenu' => 'Lama Kunjungan & Lama Bepergian Wisata',
               'href' => '/riset2/menu2submenu2',
             ],
+            [
+              'subMenu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
+              'href' => '/riset2/menu2submenu3',
+            ],
+            [
+              'subMenu' => 'Analisis Inferensia',
+              'href' => '/riset2/menu2submenu4',
+            ],
+
           ],
         ],
         [
@@ -81,12 +90,20 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Tabel',
+              'subMenu' => 'Banyak Wisatawan & Perjalanan Wisata',
               'href' => '/riset2/menu3submenu1',
             ],
             [
-              'subMenu' => 'Kajian 2',
+              'subMenu' => 'Lama Kunjungan & Lama Bepergian Wisata',
               'href' => '/riset2/menu3submenu2',
+            ],
+            [
+              'subMenu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
+              'href' => '/riset2/menu3submenu3',
+            ],
+            [
+              'subMenu' => 'Analisis Inferensia',
+              'href' => '/riset2/menu3submenu4',
             ],
           ],
         ],
