@@ -65,19 +65,19 @@ function getMenu()
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Banyak Wisatawan & Perjalanan Wisata',
+              'subMenu' => 'Kajian 1',
               'href' => '/riset2/menu2submenu1',
             ],
             [
-              'subMenu' => 'Lama Kunjungan & Lama Bepergian Wisata',
+              'subMenu' => 'Kajian 2',
               'href' => '/riset2/menu2submenu2',
             ],
             [
-              'subMenu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
+              'subMenu' => 'Kajian 3',
               'href' => '/riset2/menu2submenu3',
             ],
             [
-              'subMenu' => 'Analisis Inferensia',
+              'subMenu' => 'Kajian 4',
               'href' => '/riset2/menu2submenu4',
             ],
 
@@ -90,19 +90,19 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Banyak Wisatawan & Perjalanan Wisata',
+              'subMenu' => 'Kajian 1',
               'href' => '/riset2/menu3submenu1',
             ],
             [
-              'subMenu' => 'Lama Kunjungan & Lama Bepergian Wisata',
+              'subMenu' => 'Kajian 2',
               'href' => '/riset2/menu3submenu2',
             ],
             [
-              'subMenu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
+              'subMenu' => 'Kajian 3',
               'href' => '/riset2/menu3submenu3',
             ],
             [
-              'subMenu' => 'Analisis Inferensia',
+              'subMenu' => 'Kajian 4',
               'href' => '/riset2/menu3submenu4',
             ],
           ],
