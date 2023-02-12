@@ -87,7 +87,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Menu 3 Submenu 1 Riset 2',
+            'judul' => 'Tabel Dinamis | Banyak Wisatawan & Perjalanan Wisata',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -98,7 +98,7 @@ class Riset2 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 2 Riset 2',
+            'judul' => 'Tabel Dinamis | Lama Kunjungan & Lama Bepergian Wisata',
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/menu3/submenu2', $data);
