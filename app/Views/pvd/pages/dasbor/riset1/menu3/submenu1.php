@@ -60,7 +60,7 @@
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
                             <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forBarChartLegend" value="show" checked>
-                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Show Legend</label>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
                         </div>
                     </div>
                 </div>
@@ -176,4 +176,8 @@
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 
+
+
+<!-- Modal Riset 1 -->
+<?php include('modal_menu3_riset1.php') ?>
 <?= $this->endSection(); ?>
