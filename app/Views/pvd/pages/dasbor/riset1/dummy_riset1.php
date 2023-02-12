@@ -166,23 +166,6 @@
         </div>
     </div>
 
-    <div class="row mt-5">
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <div class=" portfolio-item filter-riset1-hasil5" onresize="responsivefonts()">
@@ -205,6 +188,29 @@
                             <input class="form-check-input" onchange="update_value_stack(this);" type="checkbox" id="forBarChartAxis_stack" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu Line</label>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=" portfolio-item filter-riset1-hasil5" onresize="responsivefonts()">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.geojson"
+                            style="width:100%; height:500px;"
+                            ></iframe>
                     </div>
                 </div>
             </div>
