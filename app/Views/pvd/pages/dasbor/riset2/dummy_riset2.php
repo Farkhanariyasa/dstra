@@ -33,7 +33,7 @@
                             </form>
                         </div> -->
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button id="unduh-3-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -83,7 +83,7 @@
                             </form>
                         </div> -->
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -158,12 +158,12 @@
             <div class="d-flex flex-row align-item-center justify-content-center">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
                 </div>
-                <div id="malang" style="width: 95%; height:80vh;"></div>
+                <div id="peta_malang" style="width: 95%; height:80vh;"></div>
             </div>
         </div>
     </div>
