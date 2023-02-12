@@ -12,7 +12,7 @@
                         </form>
                     </div>
                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="unduh-1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="fa-solid fa-download"></i>
                         </button>
                     </div>
@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div class="row mt-5">
+    <!-- <div class="row mt-5">
         <div class="col-sm-6 my-2">
             <div class="card shadow">
                 <div class="card-body">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 
@@ -57,7 +57,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button id="unduh-1-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -102,7 +102,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <button id="unduh-1-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -147,7 +147,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <button id="unduh-1-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
