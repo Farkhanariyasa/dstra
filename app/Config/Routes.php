@@ -52,6 +52,9 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 3
         $routes->get('menu3submenu1', 'Riset1::menu3submenu1'); // Menu 3 Submenu 1
         $routes->get('menu3submenu2', 'Riset1::menu3submenu2'); // Menu 3 Submenu 2
+        // Menu 4
+        $routes->get('menu4submenu1', 'Riset1::menu4submenu1'); // Menu 3 Submenu 1
+        $routes->get('menu4submenu2', 'Riset1::menu4submenu2'); // Menu 3 Submenu 2
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
