@@ -66,7 +66,7 @@ class Riset2 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 1 Riset 2',
+            'judul' => 'Hasil Penelitian | Banyak Wisatawan & Perjalanan Wisata',
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/menu2/submenu1', $data);
@@ -76,7 +76,7 @@ class Riset2 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 2 Riset 2',
+            'judul' => 'Hasil Penelitian | Lama Kunjungan & Lama Bepergian Wisata',
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/menu2/submenu2', $data);
