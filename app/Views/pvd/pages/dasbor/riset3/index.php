@@ -15,8 +15,9 @@
           <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
           <li data-filter=".filter-riset3-hasil5">Hasil 5</li>
+          <li data-filter=".filter-riset3-hasil6">Hasil 6</li>
           <li data-filter=".filter-riset3-peta">Peta Lokus</li>
-          <li data-filter=".filter-riset3-tabeldummy">Hasil 6</li>
+          <li data-filter=".filter-riset3-tabeldummy">Hasil 7</li>
         </ul>
       </div>
     </div>
@@ -34,6 +35,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Chart JS Plugin Boxplotchart -->
 <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
+<!-- Chart JS Plugin Sankey Chart -->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
+
 <!-- Data Chart -->
 <script>
   const datajenisindustri = <?= json_encode($ji); ?>;
@@ -48,6 +52,8 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_box.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_sankey.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
 </section><!-- End -->
