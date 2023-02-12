@@ -5,16 +5,15 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <p>Pilot Survei Wisatawan Nusantara</p>
+      <p>Banyak Wisatawan & Perjalanan Wisata</p>
     </header>
     <hr class="hrjudul">
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset2-hasil1">Banyak Wisatawan</li>
-          <li data-filter=".filter-riset2-hasil2">Banyak Perjalanan</li>
-          <li data-filter=".filter-riset2-hasil3">Tujuan Utama</li>
+          <li data-filter=".filter-riset2-menu2-submenu1-hasil1" class="filter-active">Banyak Wisatawan</li>
+          <li data-filter=".filter-riset2-menu2-submenu1-hasil2">Banyak Perjalanan</li>
+          <li data-filter=".filter-riset2-menu2-submenu1-hasil3">Tujuan Utama</li>
         </ul>
       </div>
     </div>
