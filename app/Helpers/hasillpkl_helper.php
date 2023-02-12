@@ -19,7 +19,7 @@ function getMenu()
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Grafik',
+              'subMenu' => 'Visualisasi',
               'href' => '/riset1/menu2submenu1',
             ],
             [
@@ -35,12 +35,28 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Grafik',
+              'subMenu' => 'Visualisasi',
               'href' => '/riset1/menu3submenu1',
             ],
             [
-              'subMenu' => 'Kuesioner',
+              'subMenu' => 'Tabulasi',
               'href' => '/riset1/menu3submenu2',
+            ],
+          ],
+        ],
+        [
+          'menu' => 'Stastistik Wisata Nusantara',
+          'icon' => 'fas fa-binoculars',
+          'href' => '#menu4',
+          'id' => 'menu4',
+          'subMenu' => [
+            [
+              'subMenu' => 'Visualisasi',
+              'href' => '/riset1/menu4submenu1',
+            ],
+            [
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset1/menu4submenu2',
             ],
           ],
         ],
