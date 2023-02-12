@@ -5,7 +5,7 @@ let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 // let hoverButton =':hover{ background-color: #00ff00 }'
 
 
-for (let i = 1; i < 10; i++) {
+for (let i = 1; i < 5; i++) {
     document.getElementById('unduh-3-'+[i]).addEventListener('click',(e) => {
         idbutton='btndownload'+[i]
         console.log("3-"+[i]+" diklik")
@@ -78,6 +78,7 @@ document.getElementById('btndownload1').addEventListener('click', function(e) {
     createEl.click();
     createEl.remove();
 });
+
 
 
 document.getElementById('btndownload2').addEventListener('click', function(e) {
