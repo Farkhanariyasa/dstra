@@ -1,4 +1,60 @@
-document.getElementById("download_pw_sankey").addEventListener("click", function (e) {
+// StartValidasi
+let idbutton=''
+let idinput=''
+let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
+
+for (let i = 1; i < 5; i++) {
+    document.getElementById('unduh-3-'+[i]).addEventListener('click',(e) => {
+        idbutton='btndownload'+[i]
+        console.log("3-"+[i]+" diklik")
+        idinput=i-1
+    });
+  }
+
+function getvalue(){
+    let nama =document.getElementsByClassName('nama');
+    let email = document.getElementsByClassName('email');
+    let instansi =document.getElementsByClassName('instansi');
+    let konfirmasiButton= document.getElementById(idbutton);
+    console.log(idbutton)
+
+    if(nama[idinput].value != "" && email[idinput].value !="" && email[idinput].value.match(mailRegex) && instansi[idinput].value != ""){
+        
+        konfirmasiButton.disabled=false;
+        konfirmasiButton.style.backgroundColor="#7382ab";
+        konfirmasiButton.style.color="#fff";
+        document.getElementById('erroremail').innerHTML=""
+        document.getElementById('errornama').innerHTML=""
+        document.getElementById('errorinstansi').innerHTML=""
+        console.log('dah aman formnya')
+    }else{
+        if(nama[idinput].value===""){
+            document.getElementById('errornama').innerHTML="Nama harus diisi"
+            document.getElementById('errornama').style.color='#fe7c96'
+            console.log('nama kosong')
+        }else if(instansi[idinput].value ===""){
+            document.getElementById('errorinstansi').innerHTML="Instansi harus diisi"
+            document.getElementById('errorinstansi').style.color='#fe7c96'
+            console.log('instansi kosong')
+        }else if(!email[idinput].value.match(mailRegex)){
+            document.getElementById('erroremail').innerHTML="Format email salah"
+            document.getElementById('erroremail').style.color='#fe7c96'
+            console.log('email salah')
+        }else if(email[idinput].value===""){
+            document.getElementById('erroremail').innerHTML="Email harus diisi"
+            document.getElementById('erroremail').style.color='#fe7c96'
+            console.log('email  kosong')
+        }
+        
+        konfirmasiButton.disabled=true;
+        konfirmasiButton.style.backgroundColor="#8d8d8d";
+    }
+}
+
+// endOfValidasi
+
+
+document.getElementById("btndownload1").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
   let canvasUrl = document.getElementById("pw_sankey").toDataURL();
   // Create an anchor, and set the href value to our data URL
@@ -13,7 +69,7 @@ document.getElementById("download_pw_sankey").addEventListener("click", function
   createEl.remove();
 });
 
-document.getElementById("download_jk_bar").addEventListener("click", function (e) {
+document.getElementById("btndownload2").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
   let canvasUrl = document.getElementById("jk_bar").toDataURL();
   // Create an anchor, and set the href value to our data URL
@@ -28,7 +84,7 @@ document.getElementById("download_jk_bar").addEventListener("click", function (e
   createEl.remove();
 });
 
-document.getElementById("download_barhorizontal").addEventListener("click", function (e) {
+document.getElementById("btndownload3").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
   let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
   // Create an anchor, and set the href value to our data URL
@@ -43,37 +99,17 @@ document.getElementById("download_barhorizontal").addEventListener("click", func
   createEl.remove();
 });
 
-const konfirmasiButton= document.getElementById("download_pw_sankey");
-let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
-let hoverButton =':hover{ background-color: #00ff00 }'
+document.getElementById("btndownload4").addEventListener("click", function (e) {
+  // Convert our canvas to a data URL
+  let canvasUrl = document.getElementById("peta_malang").toDataURL();
+  // Create an anchor, and set the href value to our data URL
+  const createEl = document.createElement("a");
+  createEl.href = canvasUrl;
 
-function getvalue(){
-    let nama =document.getElementById('nama').value
-    let email = document.getElementById('email').value
-    let instansi =document.getElementById('instansi').value
-  
+  // This is the name of our downloaded file
+  createEl.download = "Hasil SP Riset 2 Peta Kota Malang";
 
-    if(nama != "" && email !="" && email.match(mailRegex) && instansi != ""){
-        console.log(email);
-        konfirmasiButton.disabled=false;
-        konfirmasiButton.style.backgroundColor="#7382ab";
-        konfirmasiButton.style.color="#fff";
-        document.getElementById('erroremail').innerHTML=""
-        document.getElementById('errornama').innerHTML=""
-        document.getElementById('errorinstansi').innerHTML=""
-    }else{
-        if(nama===""){
-            document.getElementById('errornama').innerHTML="Nama harus diisi"
-            document.getElementById('errornama').style.color='#fe7c96'
-        }else if(instansi ===""){
-            document.getElementById('errorinstansi').innerHTML="Instansi harus diisi"
-            document.getElementById('errorinstansi').style.color='#fe7c96'
-        }else{
-            document.getElementById('erroremail').innerHTML="Format email salah"
-            document.getElementById('erroremail').style.color='#fe7c96'
-        }
-        console.log(instansi);
-        konfirmasiButton.disabled=true;
-        konfirmasiButton.style.backgroundColor="#8d8d8d";
-    }
-}
+  // Click the download button, causing a download, and then remove it
+  createEl.click();
+  createEl.remove();
+});
