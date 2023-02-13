@@ -149,17 +149,7 @@
                     </div>
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
-                            Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah
-                            perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut,
-                            pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman
-                            dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target
-                            kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya
-                            Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada
-                            tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru
-                            yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu
-                            mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat
-                            menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang
-                            lebih rinci.
+                        Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.
                         </p>
                     </div>
                     <div class="row-2 d-flex flex-row justify-content-center align-items-center">
