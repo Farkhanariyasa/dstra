@@ -229,7 +229,7 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI)</div>
+                <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
                 <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
                 </div>
             </div>
