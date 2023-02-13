@@ -95,6 +95,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('manajemen_organisasi', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
         $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
         $routes->get('kendala_dalam_pemanfaatan_tik', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
+        // Menu 4
+        $routes->get('indeks_kesiapan_unit_usaha', 'Riset4::menu4submenu1'); //Menu 4
     });
 
 
