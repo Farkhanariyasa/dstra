@@ -40,7 +40,7 @@
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
                 </div>
             </div>
-            <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 shadow box par m-auto p-4 p-md-5 mt-4"  data-aos-duration="1000">
                 <p class="text-justify">
                     Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari 
                     segi budaya. Hal ini didukung oleh laporan Travel & Tourism Development Index 2021 World 
@@ -118,7 +118,7 @@
                     <h1 class="headline text-center">Tujuan Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <ol class="text-justify">
                     <li>Mendapatkan estimasi banyaknya wisatawan dan jumlah perjalanan wisata dalam kota di Kota Malang.</li>
                     <li>Mendapatkan estimasi rata-rata lama perjalanan dan rata-rata lama kunjungan wisata dalam kota yang dilakukan wisatawan Kota Malang.</li>
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <!-- Cakupan penelitian -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>CAKUPAN PENELITIAN</b>
                 </p>
@@ -159,7 +159,7 @@
                 </ul>
             </div>
             <!-- DESAIN SAMPLING -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>DESAIN SAMPLING</b>
                 </p>
@@ -174,21 +174,33 @@
                 </ul>
             </div>
             <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
-            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
                     <b>PENENTUAN UKURAN SAMPEL MINIMUM</b>
                 </p>
                 <p class="text-justify">
                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                     <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
-                    Keterangan: <br>
-                    n		: sampel minimum <br>
-                    r		: proporsi kejadian terhadap populasi target <br>
-                    deff	: design effect <br>
-                    RME	: relative margin <br>
-                    pb		: proporsi populasi target terhadap populasi penelitian <br>
-                    AveSize	: rata-rata jumlah ART <br>
-                    RR		: response rate <br> <br>
+                    <!-- Keterangan:  -->
+                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                        <strong>Keterangan :</strong>
+                    </a>
+                </p>
+                <div class="collapse" id="collapseKeterangan">
+                    <p class="text-justify">
+                        n		: sampel minimum <br>
+                        r		: proporsi kejadian terhadap populasi target <br>
+                        deff	: design effect <br>
+                        RME	    : relative margin <br>
+                        pb		: proporsi populasi target terhadap populasi penelitian <br>
+                        AveSize	: rata-rata jumlah ART <br>
+                        RR		: response rate <br> <br>
+                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                [<strong><i>Sembunyikan</i></strong>]
+                        </a> -->
+                    </p>
+                </div>
+                <p>
                     Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                 </p>
             </div>
@@ -196,20 +208,20 @@
     </section>
 
     <!-- Hasil Penelitian -->
-    <section class="offset-header">
+    <!-- <section class="offset-header">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
                     <h1 class="headline text-center">Hasil Penelitian</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Infografis -->
     <section class="offset-header">
@@ -219,7 +231,7 @@
                     <h1 class="headline text-center">Infografis</h1>
                 </div>
             </div>
-            <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                 </p> -->
