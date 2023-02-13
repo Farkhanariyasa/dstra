@@ -61,11 +61,15 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 1
         $routes->get('dasbor', 'Riset2::index');
         // Menu 2
-        $routes->get('menu2submenu1', 'Riset2::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->get('menu2submenu2', 'Riset2::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->get('hasil-kajian1', 'Riset2::hasil_kajian1'); // Hasil Kajian 1
+        $routes->get('hasil-kajian2', 'Riset2::hasil_kajian2'); // Hasil Kajian 2
+        $routes->get('hasil-kajian3', 'Riset2::hasil_kajian3'); // Hasil Kajian 3
+        $routes->get('hasil-kajian4', 'Riset2::hasil_kajian4'); // Hasil Kajian 4
         // Menu 3
-        $routes->get('menu3submenu1', 'Riset2::menu3submenu1'); // Menu 3 Submenu 1
-        $routes->get('menu3submenu2', 'Riset2::menu3submenu2'); // Menu 3 Submenu 2
+        $routes->get('tabel-kajian1', 'Riset2::tabel_kajian1'); // Tabel Kajian 1
+        $routes->get('tabel-kajian2', 'Riset2::tabel_kajian2'); // Tabel Kajian 2
+        $routes->get('tabel-kajian3', 'Riset2::tabel_kajian3'); // Tabel Kajian 3
+        $routes->get('tabel-kajian4', 'Riset2::tabel_kajian4'); // Tabel Kajian 4
     });
     // Dasbor Riset 3
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
