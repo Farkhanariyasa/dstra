@@ -77,8 +77,8 @@ function getMenu()
         [
           'menu' => 'Hasil Penelitian',
           'icon' => 'fas fa-binoculars',
-          'href' => '#hasilpenelitian',
-          'id' => 'hasil_peneitian',
+          'href' => '#hasil_penelitian',
+          'id' => 'hasil_penelitian',
           'subMenu' => [
             [
               'subMenu' => 'Kajian 1',
