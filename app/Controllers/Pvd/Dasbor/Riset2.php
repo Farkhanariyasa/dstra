@@ -160,8 +160,10 @@ class Riset2 extends BaseController
     public function menu3submenu2()
     {
         $menu = getMenu();
+        $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
             'judul' => 'Tabel Dinamis | Lama Kunjungan & Lama Bepergian Wisata',
+            'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/menu3/submenu2', $data);

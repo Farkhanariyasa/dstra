@@ -236,8 +236,10 @@ class Riset1 extends BaseController
     public function menu4submenu2()
     {
         $menu = getMenu();
+        $dataresponden = $this->dataresponden->findAll();
         $data = [
             'judul' => 'Menu 4 Submenu 2 Riset 1',
+            'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/menu4/submenu2', $data);
