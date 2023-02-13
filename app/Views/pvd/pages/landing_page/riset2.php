@@ -137,6 +137,26 @@
                     <h1 class="headline text-center">Metodologi</h1>
                 </div>
             </div>
+            <!-- Ruang lingkup penelitian -->
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>RUANG LINGKUP PENELITIAN</b>
+                </p>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quas autem quisquam ad fugiat aliquam. Ducimus in voluptatibus dolores saepe rem vero cumque voluptate sequi. Quos dicta quasi eius cum.
+                </p>
+            </div>
+
+            <!-- SUMBER DATA DAN CARA PENGUMPULAN DATA -->
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
+                </p>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, maiores ipsum qui quae eum mollitia facere reprehenderit quia dolores. Necessitatibus officia iste voluptatem quo ipsum consectetur magni ab illo vero inventore perferendis praesentium nulla a exercitationem veritatis, odit, adipisci provident! Quae nam placeat, totam sapiente quisquam culpa nulla quibusdam vel!
+                </p>
+            </div>
+
             <!-- Cakupan penelitian -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
@@ -163,6 +183,46 @@
                 <p>
                     <b>DESAIN SAMPLING</b>
                 </p>
+
+                <!-- bagan -->
+                <!-- <div class="tree">
+                    <ul>
+                        <li>
+                            <a href="#">Kabupaten/Kota</a>
+                            <ul>
+                                <li>
+                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                </li>
+                                <li>
+                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                    <ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">3.1</a>
+                                                <ul>
+                                                    <li>
+                                                    <a href="#">3.1.1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">3.1.2</a>
+                                        </li>
+                                    </ul>
+                                            </li>
+                                        <li>
+                                            <a href="#">3.2</a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <p>
                 <p class="text-justify">Two Stage Sampling</p>
                 <ul class="text-justify">
                     <li>
@@ -172,6 +232,7 @@
                         Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
                     </li> 
                 </ul>
+</p>
             </div>
             <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
