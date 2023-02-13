@@ -157,6 +157,27 @@
     </div>
 </body>
 
+<div class="portfolio-item filter-riset4-hasil8">
+    <!-- Visualisasi 1.5 -->
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button id="unduh-3-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-radar">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="chartBox">
+                        <canvas id="radar" style="width: 95%; height:80vh;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Modal Riset 4  -->
 <?php include('modal_riset4.php') ?>
