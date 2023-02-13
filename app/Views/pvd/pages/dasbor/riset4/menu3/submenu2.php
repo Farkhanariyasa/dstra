@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<h1>Menu 3 submenu 4</h1>
+<h1>Penggunaan TIK juga masih kosongan</h1>
 
 <?= $this->endSection(); ?>
 

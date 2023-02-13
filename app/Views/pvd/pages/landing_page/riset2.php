@@ -110,6 +110,22 @@
         </div>
     </section>
 
+    <!-- Identifikasi dan Batasan Penelitian -->
+    <section class="offset-header mt-5">
+        <div class="container-fluid turun">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-12 col-sm-12">
+                    <h1 class="headline text-center">Identifikasi dan Batasan Penelitian</h1>
+                </div>
+            </div>
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="text-justify">
+                    Berdasarkan data dari BPS terjadi penurunan jumlah wisatawan nusantara yang drastis pada tahun 2020 sebesar 28,19% dan pemulihannya pada tahun 2021 belum mampu mengembalikan performa wisata sebelum pandemi terjadi. Oleh karena itu, perlu diketahui faktor-faktor utama yang menjadi penentu jumlah perjalanan wisata yang dilakukan oleh individu guna mempercepat tindakan pemulihan sektor pariwisata ini. Penelitian di Riset II berfokus untuk mendapatkan gambaran karakteristik dan estimasi mengenai jumlah perjalanan wisata wisatawan nusantara dalam kabupaten/kota pada triwulan terakhir tahun 2022. Unit analisis yang digunakan pada penelitian ini adalah individu yang melakukan perjalanan wisata dalam kabupaten/kota.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- Tujuan Penelitian -->
     <section class="offset-header mt-5">
         <div class="container-fluid turun">
@@ -124,6 +140,24 @@
                     <li>Mendapatkan estimasi rata-rata lama perjalanan dan rata-rata lama kunjungan wisata dalam kota yang dilakukan wisatawan Kota Malang.</li>
                     <li>Mendapatkan gambaran karakteristik wisatawan nusantara dalam Kota Malang.</li>
                     <li>Mengetahui faktor-faktor yang memengaruhi jumlah perjalanan wisata wisatawan nusantara dalam kabupaten/kota.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manfaat Penelitian -->
+    <section class="offset-header mt-5">
+        <div class="container-fluid turun">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-12 col-sm-12">
+                    <h1 class="headline text-center">Manfaat Penelitian</h1>
+                </div>
+            </div>
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <ol class="text-justify">
+                    <li>Bagi mahasiswa Politeknik Statistika STIS, sebagai salah satu sarana untuk mengimplementasikan ilmu dari mata kuliah yang sudah dipelajari di Politeknik Statistika STIS melalui Praktik Kerja Lapangan (PKL);</li>
+                    <li>Bagi Badan Pusat Statistik (BPS), dapat menambah kajian dan pertimbangan mengenai Survei Wisatawan Nusantara dan penyediaan data statistik wisatawan nusantara dalam kabupaten/kota; dan</li>
+                    <li>Bagi peneliti, penelitian ini dapat digunakan sebagai referensi untuk penelitian selanjutnya. </li>
                 </ol>
             </div>
         </div>
@@ -164,20 +198,43 @@
                 </p>
                 <ul class="text-justify">
                     <li>
-                        Populasi Target <br>
+                        <strong>Populasi</strong> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Populasi Target</strong> <br>
                         Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota pada Triwulan IV tahun 2022.
                     </li> 
+                    <br>
                     <li>
-                        Unit Sampling <br>
+                        <strong>Unit Observasi</strong> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Unit Sampling</strong> <br>
                         Primary Sampling Unit	: Blok Sensus <br>
                         Secondary Sampling Unit	: Rumah Tangga di Blok Sensus terpilih
                     </li>
+                    <br>
                     <li>
-                        Unit Analisis <br>
+                        <strong>Unit Analisis</strong> <br>
                         Anggota rumah tangga di Kota Malang yang pernah melakukan perjalanan wisata dalam kota (untuk Riset II) atau luar kota (untuk Riset I) pada Triwulan IV tahun 2022.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Kerangka Sampel</strong> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Variabel Pembantu</strong> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
                     </li>
                 </ul>
             </div>
+
             <!-- DESAIN SAMPLING -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
