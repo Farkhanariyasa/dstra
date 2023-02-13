@@ -14,21 +14,17 @@
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Gambaran Umum Penelitian Riset 4
+            Pemanfaatan TIK
           </button>
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Kota Batu memiliki posisi dan peran sebagai Kota Wisata sehingga akan dilihat kesiapannya dalam menerapkan 
-              Smart Tourism Destination dari sisi enterprise atau dalam penelitian ini adalah unit usaha pariwisata.
-              Oleh karena itu, dilakukan analisis mengenai kesiapan pemanfaatan TIK dari sisi unit usaha pariwisata di Kota Batu dalam menerapkan 
-              Smart Tourism Destination. Analisis kesiapan dilakukan melalui Enterprise E-Readiness Assessment Model atau Model Kesiapan Unit Usaha 
-              Pariwisata yang terbentuk dari beberapa dimensi dan akan menghasilkan suatu indeks yang dapat diukur tingkat kesiapannya.
+            <p class="text-justify">Nunggu risetnya bosque
             </p>           
           </div>
         </div>
       </div>
-      <div class="accordion-item my-3">
+      <!-- <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Tujuan 1
@@ -83,7 +79,7 @@
             </p>           
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 </div>
 
