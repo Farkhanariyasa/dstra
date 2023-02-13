@@ -31,50 +31,28 @@
 </header>
 <hr class="hrjudul">
 
-<div class="card">
-    <div class="card-header">
-        <div class="card-title text-center mt-2">Data Responden Hasil Survei Pendahuluan Riset 1</div>
-        <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                            <i class="fa-solid fa-download"></i>
-   </button> -->
-    </div>
-    <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-        <!-- style="padding:0px 0px 0px 0px;" -->
-        <!-- <blockquote class="blockquote mb-0"> -->
-        <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
-            <thead style="color: #fff; font-weight:bold;">
-                <tr>
-                    <th scope="col">No.</th>
-                    <th scope="col">Nama</th>
-                    <th scope="col">Desa/Kelurahan</th>
-                    <th scope="col">Kecamatan</th>
-                    <th scope="col">Indosat</th>
-                    <th scope="col">Telkomsel</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $i = 1;
-                foreach ($dataresponden as $v) :
-                ?>
-                    <tr>
-                        <th scope="row"><?php echo $i; ?></th>
-                        <td><?php echo $v["b108"]; ?></td>
-                        <td><?php echo $v["b104_deskel"]; ?></td>
-                        <td><?php echo $v["b103_kec"]; ?></td>
-                        <td><?php echo $v["b201"]; ?></td>
-                        <td><?php echo $v["b203"]; ?></td>
-                    </tr>
-                <?php
-                    $i++;
-                endforeach;
-                ?>
-            </tbody>
-        </table>
-        <!-- </blockquote> -->
-    </div>
-</div>
+<section id="portfolio" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <!-- <li data-filter="*">Semua</li> -->
+                    <li data-filter=".filter-riset2-hasil1" class="filter-active">Tabulasi A</li>
+                    <li data-filter=".filter-riset2-hasil2">Tabulasi B</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="row portfolio-container">
+            <?php include('dummy_submenu2.php') ?>
+        </div>
+    </div>
+</section>
+
+
+<!-- Datatable Instal -->
 <script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
+<!-- Istope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 <?= $this->endSection(); ?>
