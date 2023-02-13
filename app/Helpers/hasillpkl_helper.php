@@ -138,34 +138,42 @@ function getMenu()
           'href' => '/riset3/dasbor',
         ],
         [
-          'menu' => 'Menu 2',
+          'menu' => 'Hasil Kajian',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu2',
-          'id' => 'menu2',
+          'href' => '#hasilkajian',
+          'id' => 'hasilkajian',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset3/menu2submenu1',
+              'subMenu' => 'Tujuan 1',
+              'href' => '/riset3/hasilkajian1',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset3/menu2submenu2',
+              'subMenu' => 'Tujuan 2',
+              'href' => '/riset3/hasilkajian2',
+            ],
+            [
+              'subMenu' => 'Tujuan 3',
+              'href' => '/riset3/hasilkajian3',
+            ],
+            [
+              'subMenu' => 'Tujuan 4',
+              'href' => '/riset3/hasilkajian4',
             ],
           ],
         ],
         [
-          'menu' => 'Menu 3',
+          'menu' => 'Dokumen',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu3',
-          'id' => 'menu3',
+          'href' => '#dokumen',
+          'id' => 'dokumen',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
-              'href' => '/riset3/menu3submenu1',
+              'subMenu' => 'Kuesioner',
+              'href' => '/riset3/kuesioner',
             ],
             [
-              'subMenu' => 'Submenu 2',
-              'href' => '/riset3/menu3submenu2',
+              'subMenu' => 'Buku Pedoman',
+              'href' => '/riset3/bukupedoman',
             ],
           ],
         ],

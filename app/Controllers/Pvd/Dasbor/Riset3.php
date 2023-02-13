@@ -65,43 +65,64 @@ class Riset3 extends BaseController
         return view('pvd/pages/dasbor/riset3/index', $data);
     }
 
-    public function menu2submenu1()
+    // menu Hasil Kajian
+    public function hasilkajian1()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 1 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 1 Riset 3',
             'menu' => $menu['riset3'],
         ];
-        return view('pvd/pages/dasbor/riset3/menu2/submenu1', $data);
+        return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan1', $data);
     }
 
-    public function menu2submenu2()
+    public function hasilkajian2()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 2 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 2 Riset 3',
             'menu' => $menu['riset3'],
         ];
-        return view('pvd/pages/dasbor/riset3/menu2/submenu2', $data);
+        return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan2', $data);
+    }
+    public function hasilkajian3()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Hasil Kajian Tujuan 3 Riset 3',
+            'menu' => $menu['riset3'],
+        ];
+        return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan3', $data);
     }
 
-    public function menu3submenu1()
+    public function hasilkajian4()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 1 Riset 3',
+            'judul' => 'Hasil Kajian 4 Riset 3',
             'menu' => $menu['riset3'],
         ];
-        return view('pvd/pages/dasbor/riset3/menu3/submenu1', $data);
+        return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan4', $data);
     }
 
-    public function menu3submenu2()
+    // menu Dokumen
+    public function kuesioner()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 2 Riset 3',
+            'judul' => 'Kuesioner Riset 3',
             'menu' => $menu['riset3'],
         ];
-        return view('pvd/pages/dasbor/riset3/menu3/submenu2', $data);
+        return view('pvd/pages/dasbor/riset3/dokumen/kuesioner', $data);
+    }
+
+    public function bukupedoman()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Buku Pedoman Riset 3',
+            'menu' => $menu['riset3'],
+        ];
+        return view('pvd/pages/dasbor/riset3/dokumen/bukupedoman', $data);
     }
 }
