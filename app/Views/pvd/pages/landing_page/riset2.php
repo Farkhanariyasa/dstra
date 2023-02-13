@@ -164,7 +164,7 @@
     </section>
 
     <!-- Metodologi -->
-    <section class="offset-header">
+    <section class="offset-header mt-5">
         <div class="container-fluid turun">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="col-12 col-sm-12">
@@ -241,7 +241,8 @@
                     <b>DESAIN SAMPLING</b>
                 </p>
 
-                <!-- bagan -->
+                <!-- bagan masih berantakan-->
+                <p class="text-justify">
                 <div class="tree">
                     <ul>
                         <li>
@@ -291,20 +292,18 @@
                         </li>
                     </ul>
                 </div>
+                </p>
 
-                <br>
-                <br>
-                <br>
-                <p>
-                <p class="text-justify">Two Stage Sampling</p>
-                <ul class="text-justify">
-                    <li>
-                        Tahap pertama, mengambil sejumlah blok sensus di Kota Malang dengan Probability Proportional to Size With Replacement dengan size <b>jumlah keluarga</b> di tiap blok sensus hasil pemutakhiran Sensus Penduduk 2020.
-                    </li>
-                    <li>
-                        Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
-                    </li> 
-                </ul>
+                <p class="text-justify">
+                    <p>Two Stage Sampling</p>
+                    <ul class="text-justify">
+                        <li>
+                            Tahap pertama, mengambil sejumlah blok sensus di Kota Malang dengan Probability Proportional to Size With Replacement dengan size <b>jumlah keluarga</b> di tiap blok sensus hasil pemutakhiran Sensus Penduduk 2020.
+                        </li>
+                        <li>
+                            Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
+                        </li> 
+                    </ul>
                 </p>
             </div>
 
@@ -319,7 +318,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, harum.
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -350,7 +349,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, necessitatibus.
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -381,7 +380,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, deserunt.
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -412,7 +411,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, molestiae!
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -443,7 +442,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint?
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -474,7 +473,7 @@
                         <div class="text-justify">
                             <p>
                                 Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -504,22 +503,6 @@
         </div>
     </section>
 
-    <!-- Hasil Penelitian -->
-    <!-- <section class="offset-header">
-        <div class="container-fluid turun">
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                <div class="col-12 col-sm-12">
-                    <h1 class="headline text-center">Hasil Penelitian</h1>
-                </div>
-            </div>
-            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                </p>
-            </div>
-        </div>
-    </section> -->
-
     <!-- Infografis -->
     <section class="offset-header">
         <div class="container-fluid turun">
@@ -534,6 +517,33 @@
                 </p> -->
                 <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                 <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buku Laporan -->
+    <section class="offset-header mt-5">
+        <div class="container-fluid turun">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-12 col-sm-12">
+                    <h1 class="headline text-center">Buku Laporan</h1>
+                </div>
+            </div>
+            <!-- <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> -->
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p>
+                    <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="" >
+                </p>
+                <p class="text-justify">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <div class="text-center text-lg-start">
+                            <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
+                                <span>Unduh</span>
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </p>
             </div>
         </div>
     </section>
