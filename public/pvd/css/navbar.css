@@ -4576,13 +4576,22 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.35rem;
+  border-radius: 0.75rem;
+}
+
+.nav-link.pills-button {
+  color: #493A5A;
+  background-color: #DCE0EB;
+}
+
+.nav-link.pills-button:hover {
+  color: #506396;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #4e73df;
+  background-color: #506396;
 }
 
 .nav-fill>.nav-link,
@@ -5526,9 +5535,15 @@ a.badge:focus {
   border-radius: 10rem;
 }
 
+.badge-pill.metode {
+  padding: 0.6em;
+  border-radius: 10rem;
+  font-size: 1.25rem;
+}
+
 .badge-primary {
   color: #fff;
-  background-color: #4e73df;
+  background-color: #506396;
 }
 
 a.badge-primary:hover,

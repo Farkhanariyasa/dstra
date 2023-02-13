@@ -177,7 +177,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Hasil Penelitian | Karakteristik Wisatawan & Perjalanan Wisata',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -218,7 +218,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Hasil Penelitian | Analisis Inferensia',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -256,7 +256,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabel Dinamis | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Tabel Dinamis | Karakteristik Wisatawan & Perjalanan Wisata',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -268,7 +268,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabel Dinamis | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Tabel Dinamis | Analisis Inferensia',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];

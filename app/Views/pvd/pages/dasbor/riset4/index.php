@@ -16,6 +16,8 @@
           <li data-filter=".filter-riset4-hasil5">Bar Plot</li>
           <li data-filter=".filter-riset4-hasil6">Heat Map</li>
           <li data-filter=".filter-riset4-hasil7">Peta Batu</li>
+          <li data-filter=".filter-riset4-hasil8">Radar Chart</li>
+          <li data-filter=".filter-riset4-hasil9">Choropelth (Coming soon)</li>
         </ul>
       </div>
     </div>
@@ -156,6 +158,7 @@
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_b401a_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_heatmap.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_radar.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->
