@@ -87,9 +87,14 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 2
         $routes->get('menu2submenu1', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->get('menu2submenu2', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->get('menu2submenu3', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
         // Menu 3
         $routes->get('menu3submenu1', 'Riset4::menu3submenu1'); // Menu 3 Submenu 1
         $routes->get('menu3submenu2', 'Riset4::menu3submenu2'); // Menu 3 Submenu 2
+        $routes->get('menu3submenu3', 'Riset4::menu3submenu3'); // Menu 3 Submenu 3
+        $routes->get('menu3submenu4', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
+        $routes->get('menu3submenu5', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
+        $routes->get('menu3submenu6', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
     });
 
 
