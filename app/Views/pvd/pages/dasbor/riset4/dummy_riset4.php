@@ -23,6 +23,14 @@
                     <div class="chartBox" style=" height:500px;">
                         <canvas class="mt1" id="hasil1"></canvas>
                     </div>
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3">
+                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="pieChartLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                        </div>
+                        <!-- <input type="radio" name="forPieChartLegend" value="tampil">Tampil
+                        <input type="radio" name="forPieChartLegend" value="tidak">Tidak Tampil -->
+                    </div>
                 </div>
             </div>
         </div>
