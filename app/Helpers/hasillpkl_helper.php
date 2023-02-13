@@ -77,24 +77,24 @@ function getMenu()
         [
           'menu' => 'Hasil Penelitian',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu2',
-          'id' => 'menu2',
+          'href' => '#hasilpenelitian',
+          'id' => 'hasil_peneitian',
           'subMenu' => [
             [
               'subMenu' => 'Kajian 1',
-              'href' => '/riset2/menu2submenu1',
+              'href' => '/riset2/hasil-kajian1',
             ],
             [
               'subMenu' => 'Kajian 2',
-              'href' => '/riset2/menu2submenu2',
+              'href' => '/riset2/hasil-kajian2',
             ],
             [
               'subMenu' => 'Kajian 3',
-              'href' => '/riset2/menu2submenu3',
+              'href' => '/riset2/hasil-kajian3',
             ],
             [
               'subMenu' => 'Kajian 4',
-              'href' => '/riset2/menu2submenu4',
+              'href' => '/riset2/hasil-kajian4',
             ],
 
           ],
@@ -102,24 +102,24 @@ function getMenu()
         [
           'menu' => 'Tabel Dinamis',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu3',
-          'id' => 'menu3',
+          'href' => '#tabel_dinamis',
+          'id' => 'tabel_dinamis',
           'subMenu' => [
             [
               'subMenu' => 'Kajian 1',
-              'href' => '/riset2/menu3submenu1',
+              'href' => '/riset2/tabel-kajian1',
             ],
             [
               'subMenu' => 'Kajian 2',
-              'href' => '/riset2/menu3submenu2',
+              'href' => '/riset2/tabel-kajian2',
             ],
             [
               'subMenu' => 'Kajian 3',
-              'href' => '/riset2/menu3submenu3',
+              'href' => '/riset2/tabel-kajian3',
             ],
             [
               'subMenu' => 'Kajian 4',
-              'href' => '/riset2/menu3submenu4',
+              'href' => '/riset2/tabel-kajian4',
             ],
           ],
         ],
