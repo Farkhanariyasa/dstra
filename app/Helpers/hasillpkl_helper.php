@@ -192,43 +192,59 @@ function getMenu()
           'href' => '/riset4/dasbor',
         ],
         [
-          'menu' => 'Unit Usaha',
+          'menu' => 'Kartkteristik Umum Unit Usaha',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
-              'subMenu' => 'Karakteristik Umum',
+              'subMenu' => 'Pemilik atau Pengelola Usaha Pariwisata',
               'href' => '/riset4/menu2submenu1',
             ],
             [
-              'subMenu' => 'Karakteristik Kesiapan',
+              'subMenu' => 'Usaha Pariwisata',
               'href' => '/riset4/menu2submenu2',
             ],
             [
-              'subMenu' => 'Indeks Kesiapan',
+              'subMenu' => 'Pemanfaatan TIK',
               'href' => '/riset4/menu2submenu3',
             ],
           ],
         ],
         [
-          'menu' => 'Menu 3',
+          'menu' => 'Karakteristik Kesiapan Unit Usaha Pariwisata',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Submenu 1',
+              'subMenu' => 'Infrastruktur dan Konektivitas',
               'href' => '/riset4/menu3submenu1',
             ],
             [
-              'subMenu' => 'Submenu 2',
+              'subMenu' => 'Penggunaan TIK',
               'href' => '/riset4/menu3submenu2',
+            ],
+            [
+              'subMenu' => 'Sumber Daya Manusia',
+              'href' => '/riset4/menu3submenu3',
+            ],
+            [
+              'subMenu' => 'Manajemen Organisasi',
+              'href' => '/riset4/menu3submenu4',
+            ],
+            [
+              'subMenu' => 'Kesiapan Lingkungan Eksternal',
+              'href' => '/riset4/menu3submenu5',
+            ],
+            [
+              'subMenu' => 'Kendala dalam Pemanfaatan TIK',
+              'href' => '/riset4/menu3submenu6',
             ],
           ],
         ],
         [
-          'menu' => 'Tentang Riset 4',
+          'menu' => 'Indeks Kesiapan Unit Usaha',
           'icon' => 'fas fa-chevron-circle-left',
           'href' => '/riset4'
         ],
