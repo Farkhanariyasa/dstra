@@ -244,6 +244,12 @@ function getMenu()
           ],
         ],
         [
+          'menu' => 'Indeks Kesiapan Unit Usaha',
+          'icon' => 'fas fa-binoculars',
+          'href' => '/riset4/indeks_kesiapan_unit_usaha',
+          'id' => 'menu4'
+        ],
+        [
           'menu' => 'Tentang Riset 4',
           'icon' => 'fas fa-chevron-circle-left',
           'href' => '/riset4'
