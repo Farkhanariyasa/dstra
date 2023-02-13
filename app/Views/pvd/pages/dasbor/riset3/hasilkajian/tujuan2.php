@@ -23,19 +23,11 @@
     word-wrap: break-word;
   }
 
-  /* .card .card-body {
-    padding: 0.5rem 1rem;
-  } */
-
-  /* table {
-    table-layout: fixed;
-  } */
 </style>
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
 
-<!-- <h1>Menu 2 submenu 2</h1> -->
 <header class="section-header">
   <h6 style="color: #4b395f;"><strong>Tenaga Kerja di Industri Pariwisata</strong>
   </h6>

@@ -185,7 +185,7 @@
                 </p>
 
                 <!-- bagan -->
-                <!-- <div class="tree">
+                <div class="tree">
                     <ul>
                         <li>
                             <a href="#">Kabupaten/Kota</a>
@@ -196,22 +196,35 @@
                                 <li>
                                     <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
                                     <ul>
-                                        <ul>
+                                        <!-- <ul> -->
                                             <li>
-                                                <a href="#">3.1</a>
+                                                <a href="#">n1 <br>Sampel blok sensus terpilih</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">n2 <br>Sampel blok sensus terpilih</a>
                                                 <ul>
                                                     <li>
-                                                    <a href="#">3.1.1</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">3.1.2</a>
-                                        </li>
-                                    </ul>
+                                                        <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
+                                                        <ul>
+                                                            <!-- <ul> -->
+                                                                <li>
+                                                                    <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">mi <br>Sampel rumah tangga terpilih</a>
+                                                                </li>
+                                                            <!-- </ul> -->
+                                                        </ul>
+                                                    </li>
+                                                </ul>
                                             </li>
-                                        <li>
-                                            <a href="#">3.2</a>
-                                        </li>
-                                    </ul>
+                                            <li>
+                                                <a href="#">ni <br>Sampel blok sensus terpilih</a>
+                                            </li>
+                                        <!-- </ul> -->
                                     </ul>
                                 </li>
                                 <li>
@@ -220,8 +233,11 @@
                             </ul>
                         </li>
                     </ul>
-                </div> -->
+                </div>
 
+                <br>
+                <br>
+                <br>
                 <p>
                 <p class="text-justify">Two Stage Sampling</p>
                 <ul class="text-justify">
@@ -237,7 +253,7 @@
             <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
-                    <b>PENENTUAN UKURAN SAMPEL MINIMUM</b>
+                    <b>PENENTUAN UKURAN SAMPEL MINIMUM / TEKNIK ESTIMASI PARAMETER</b>
                 </p>
                 <p class="text-justify">
                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
