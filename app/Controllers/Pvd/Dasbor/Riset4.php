@@ -106,4 +106,45 @@ class Riset4 extends BaseController
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu2', $data);
     }
+
+    public function menu3submenu3()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Menu 3 Submenu 3 Riset 4',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu3/submenu3', $data);
+    }
+
+    public function menu3submenu4()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Menu 3 Submenu 4 Riset 4',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu3/submenu4', $data);
+    }
+
+    public function menu3submenu5()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Menu 3 Submenu 5 Riset 4',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu3/submenu5', $data);
+    }
+
+    public function menu3submenu6()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Menu 3 Submenu 6 Riset 4',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu3/submenu6', $data);
+    }
+
 }

@@ -73,8 +73,27 @@ const pie = new Chart(hasil1, {
 });
 
 const pieChart = document.getElementById('pieChart');
+const pieChartLegend = document.getElementById('pieChartLegend');
 
 pieChart.addEventListener('change', tampilData);
+pieChartLegend.addEventListener('click', update_value(chk_bx));
+
+function update_value(chk_bx){
+  
+    if(chk_bx.checked)
+    {
+        console.log('check');
+        pie.options.plugins.legend.display=true;
+        pie.update();
+    }
+        
+    else{
+      console.log('uncheck');
+      pie.options.plugins.legend.display=false;
+      pie.update();
+  
+    }
+  }
 
 function tampilData(){
     // pieChart.value.split(',');

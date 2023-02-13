@@ -2,7 +2,35 @@
 
 <?= $this->section('content'); ?>
 
-<h1>Menu 3 submenu 2</h1>
+<section id="portfolio" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+        <header class="section-header">
+            <p>Banyak Wisatawan & Perjalanan Wisata</p>
+        </header>
+
+        <hr class="hrjudul">
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <!-- <li data-filter="*">Semua</li> -->
+                    <li data-filter=".filter-riset2-hasil1" class="filter-active">Lama Kunjungan</li>
+                    <li data-filter=".filter-riset2-hasil2">Banyak Perjalanan</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container">
+            <?php include('dummy_submenu2.php') ?>
+        </div>
+    </div>
+</section>
+
+<!-- Datatable Instal -->
+<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
+<!-- Istope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
 
 <?= $this->endSection(); ?>
 

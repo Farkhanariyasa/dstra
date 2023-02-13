@@ -2,10 +2,10 @@ const ctx = document.getElementById('hasil5');
 new Chart(ctx, {
     type: 'bar',
     data: {
-    labels: ['tidak memanfaatkan TIK sama sekali',
-            'sudah memanfaatkan, namun lebih banyak menggunakan konvensional',
-            'sebagian besar kegiatan sudah menggunakan TIK',
-            'semua kegiatan menggunakan TIK',
+    labels: [['Tidak memanfaatkan', 'TIK sama sekali'],
+            ['Sudah memanfaatkan,', 'namun lebih banyak', 'menggunakan konvensional'],
+            ['Sebagian besar', 'kegiatan sudah', 'menggunakan TIK'],
+            ['Semua kegiatan', 'menggunakan TIK']
         ],
     datasets: [{
         label: 'Jumlah Unit Usaha',
@@ -44,6 +44,14 @@ new Chart(ctx, {
             legend:{
                 display: false,
                 position: 'right',
+            },
+            tooltip: {
+                callbacks: {
+                    title: (context) => {
+                        console.log(context[0].label);
+                        return context[0].label.replaceAll(',',' ');
+                    }
+                }
             }
         },
     },
