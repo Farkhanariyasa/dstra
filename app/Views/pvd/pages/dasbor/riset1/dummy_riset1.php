@@ -185,7 +185,7 @@
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value_stack(this);" type="checkbox" id="forBarChartAxis_stack" value="show" checked>
+                            <input class="form-check-input" onchange="update_value_line(this);" type="checkbox" id="forLineChartAxis_line" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu Line</label>
                         </div>
                     </div>

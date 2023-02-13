@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<h1>Menu 3 submenu 3</h1>
+<h1>Hasil Kajian Tujuan 3</h1>
 
 <?= $this->endSection(); ?>
 
