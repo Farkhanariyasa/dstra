@@ -13,7 +13,7 @@
                     Pilot Survei Wisatawan Nusantara
                 </h5>
                 <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.      
+                    Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.    
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
@@ -305,38 +305,201 @@
                         Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
                     </li> 
                 </ul>
-</p>
+                </p>
             </div>
-            <!-- PENENTUAN UKURAN SAMPEL MINIMUM -->
+
+            <!-- TEKNIK ESTIMASI PARAMETER -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                 <p>
-                    <b>PENENTUAN UKURAN SAMPEL MINIMUM / TEKNIK ESTIMASI PARAMETER</b>
+                    <b>TEKNIK ESTIMASI PARAMETER</b>
                 </p>
-                <p class="text-justify">
-                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                    <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
-                    <!-- Keterangan:  -->
-                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                        <strong>Keterangan :</strong>
-                    </a>
-                </p>
-                <div class="collapse" id="collapseKeterangan">
-                    <p class="text-justify">
-                        n		: sampel minimum <br>
-                        r		: proporsi kejadian terhadap populasi target <br>
-                        deff	: design effect <br>
-                        RME	    : relative margin <br>
-                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                        AveSize	: rata-rata jumlah ART <br>
-                        RR		: response rate <br> <br>
-                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                [<strong><i>Sembunyikan</i></strong>]
-                        </a> -->
-                    </p>
-                </div>
-                <p>
-                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
-                </p>
+                <ul class="text-justify">
+                    <li>
+                        <strong>Skema Sampling</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, harum.
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nemo ut? Deserunt necessitatibus dolorum atque eveniet quasi eaque soluta temporibus.
+                            </p>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Rumus Overall Sampling Fraction</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, necessitatibus.
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quaerat aut quas ipsam! Vero accusantium cum alias numquam unde voluptatum?
+                            </p>
+                        </div>
+                    </li> 
+                    <br>
+                    <li>
+                        <strong>Rumus Design Weight</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, deserunt.
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repudiandae officia sint repellat aspernatur culpa quam perferendis rerum distinctio ea.
+                            </p>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Rumus Penduga Total Karakteristik</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, molestiae!
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veritatis magni saepe dolorum quae, aspernatur maxime praesentium asperiores corporis quisquam?
+                            </p>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Rumus Penduga Rata-Rata Karakteristik</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint?
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit animi amet repellendus fuga sed, quo consectetur. Commodi nulla facere hic.
+                            </p>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Rumus Jumlah Sampel Minimum</strong> <br>
+                        <div class="text-justify">
+                            <p>
+                                Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                <div class="text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <!-- Keterangan:  -->
+                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                    <strong>Keterangan :</strong>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseKeterangan">
+                                <p class="text-justify">
+                                    n		: sampel minimum <br>
+                                    r		: proporsi kejadian terhadap populasi target <br>
+                                    deff	: design effect <br>
+                                    RME	    : relative margin <br>
+                                    pb		: proporsi populasi target terhadap populasi penelitian <br>
+                                    AveSize	: rata-rata jumlah ART <br>
+                                    RR		: response rate <br> <br>
+                                    <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            [<strong><i>Sembunyikan</i></strong>]
+                                    </a> -->
+                                </p>
+                            </div>
+                            <p>
+                                Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
