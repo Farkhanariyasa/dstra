@@ -14,12 +14,12 @@
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Manajemen Organisasi
+          Indeks Kesiapan Unit Usaha
           </button>
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Ilham mana wee
+            <p class="text-justify">Banyak nonrespon keknya
             </p>           
           </div>
         </div>

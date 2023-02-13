@@ -61,7 +61,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 1 Riset 4',
+            'judul' => 'Pemilik atau Pengelola Usaha Pariwisata',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu2/submenu1', $data);
@@ -71,7 +71,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 2 Riset 4',
+            'judul' => 'Usaha Pariwisata',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu2/submenu2', $data);
@@ -81,7 +81,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 3 Riset 4',
+            'judul' => 'Pemanfaatan TIK',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu2/submenu3', $data);
@@ -91,7 +91,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 1 Riset 4',
+            'judul' => 'Infrastruktur dan Konektivitas',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu1', $data);
@@ -101,7 +101,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 2 Riset 4',
+            'judul' => 'Penggunaan TIK',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu2', $data);
@@ -111,7 +111,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 3 Riset 4',
+            'judul' => 'Sumber Daya Manusia',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu3', $data);
@@ -121,7 +121,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 4 Riset 4',
+            'judul' => 'Manajemen Organisasi',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu4', $data);
@@ -131,7 +131,7 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 5 Riset 4',
+            'judul' => 'Kesiapan Lingkungan Eksternal',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu5', $data);
@@ -141,10 +141,20 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 6 Riset 4',
+            'judul' => 'Kendala dalam Pemanfaatan TIK',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu3/submenu6', $data);
+    }
+
+    public function menu4submenu1()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Indeks Kesiapan Unit Usaha',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu4/submenu1', $data);
     }
 
 }

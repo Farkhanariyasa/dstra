@@ -192,59 +192,65 @@ function getMenu()
           'href' => '/riset4/dasbor',
         ],
         [
-          'menu' => 'Kartkteristik Umum Unit Usaha',
+          'menu' => 'Karakteristik Umum Unit Usaha',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
             [
               'subMenu' => 'Pemilik atau Pengelola Usaha Pariwisata',
-              'href' => '/riset4/menu2submenu1',
+              'href' => '/riset4/pemilik_atau_pengelola_usaha_pariwisata',
             ],
             [
               'subMenu' => 'Usaha Pariwisata',
-              'href' => '/riset4/menu2submenu2',
+              'href' => '/riset4/usaha_pariwisata',
             ],
             [
               'subMenu' => 'Pemanfaatan TIK',
-              'href' => '/riset4/menu2submenu3',
+              'href' => '/riset4/pemanfaatan_tik',
             ],
           ],
         ],
         [
-          'menu' => 'Karakteristik Kesiapan Unit Usaha Pariwisata',
+          'menu' => 'Karakteristik Kesiapan UUP',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
             [
               'subMenu' => 'Infrastruktur dan Konektivitas',
-              'href' => '/riset4/menu3submenu1',
+              'href' => '/riset4/infrastruktur_dan_konektivitas',
             ],
             [
               'subMenu' => 'Penggunaan TIK',
-              'href' => '/riset4/menu3submenu2',
+              'href' => '/riset4/penggunaan_tik',
             ],
             [
               'subMenu' => 'Sumber Daya Manusia',
-              'href' => '/riset4/menu3submenu3',
+              'href' => '/riset4/sumber_daya_manusia',
             ],
             [
               'subMenu' => 'Manajemen Organisasi',
-              'href' => '/riset4/menu3submenu4',
+              'href' => '/riset4/manajemen_organisasi',
             ],
             [
               'subMenu' => 'Kesiapan Lingkungan Eksternal',
-              'href' => '/riset4/menu3submenu5',
+              'href' => '/riset4/kesiapan_lingkungan_eksternal',
             ],
             [
               'subMenu' => 'Kendala dalam Pemanfaatan TIK',
-              'href' => '/riset4/menu3submenu6',
+              'href' => '/riset4/kendala_dalam_pemanfaatan_tik',
             ],
           ],
         ],
         [
           'menu' => 'Indeks Kesiapan Unit Usaha',
+          'icon' => 'fas fa-binoculars',
+          'href' => '/riset4/indeks_kesiapan_unit_usaha',
+          'id' => 'menu4'
+        ],
+        [
+          'menu' => 'Tentang Riset 4',
           'icon' => 'fas fa-chevron-circle-left',
           'href' => '/riset4'
         ],
