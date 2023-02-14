@@ -24,7 +24,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 2 Submenu 1 Riset 1',
+            'judul' => 'Dasbor Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/index', $data);
@@ -90,7 +90,7 @@ class Riset1 extends BaseController
         ];
         $menu = getMenu();
         $data = [
-            'judul' => 'Dasbor Riset 1',
+            'judul' => 'Double Counting | Visualisasi',
             'menu' => $menu['riset1'],
             'ja' => $ja,
             'jk' => $jk,
@@ -114,7 +114,7 @@ class Riset1 extends BaseController
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
         $data = [
-            'judul' => 'Menu 2 Submenu 2 Riset 1',
+            'judul' => 'Double Counting | Tabulasi',
             'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
@@ -135,7 +135,7 @@ class Riset1 extends BaseController
         $menu = getMenu();
 
         $data = [
-            'judul' => 'Menu 3 Submenu 1 Riset 1',
+            'judul' => 'Family Grouping | Visualisasi',
             'menu' => $menu['riset1'],
             'ja' => $ja,
         ];
@@ -146,7 +146,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Menu 3 Submenu 2 Riset 1',
+            'judul' => 'Family Grouping | Tabulasi',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/family_grouping/tabulasi', $data);
@@ -214,7 +214,7 @@ class Riset1 extends BaseController
         $menu = getMenu();
 
         $data = [
-            'judul' => 'Menu 4 Submenu 1 Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara | Visualisasi',
             'menu' => $menu['riset1'],
             'ja' => $ja,
             'jk' => $jk,
@@ -238,7 +238,7 @@ class Riset1 extends BaseController
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
         $data = [
-            'judul' => 'Menu 4 Submenu 2 Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara | Tabulasi',
             'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
