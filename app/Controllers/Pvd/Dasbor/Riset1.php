@@ -22,6 +22,16 @@ class Riset1 extends BaseController
 
     public function index()
     {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Menu 2 Submenu 1 Riset 1',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/index', $data);
+    }
+
+    public function double_counting_visualisasi()
+    {
         $ja = [
             "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
             "ja1" => $this->jumlahanggota->getByJumlahAnggota(1),
@@ -95,16 +105,6 @@ class Riset1 extends BaseController
             'tri' => $tri,
             'smartfren' => $smartfren,
             'lainnya' => $lainnya
-        ];
-        return view('pvd/pages/dasbor/riset1/index', $data);
-    }
-
-    public function double_counting_visualisasi()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Menu 2 Submenu 1 Riset 1',
-            'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/double_counting/visualisasi', $data);
     }
