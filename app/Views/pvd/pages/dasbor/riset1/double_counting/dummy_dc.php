@@ -220,40 +220,5 @@
 
 
 
-<div class=" portfolio-item filter-riset1-peta" onresize="responsivefonts()">
-    <div class="container mt-5">
-        <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-            <p class="card-text text-center">Kota Surabaya</p>
-            <div class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
-                    </div>
-                </div>
-                <div id="map" style="width: 95%; height:80vh;"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-            <p class="card-text text-center">Kota Malang</p>
-            <div class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
-                    </div>
-                </div>
-                <div id="map2" style="width: 95%; height:80vh;"></div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- Modal Riset 1 -->
 <?php include('modal_dc.php') ?>
