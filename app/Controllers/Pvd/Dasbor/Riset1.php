@@ -230,7 +230,7 @@ class Riset1 extends BaseController
             'smartfren' => $smartfren,
             'lainnya' => $lainnya
         ];
-        return view('pvd/pages/dasbor/riset1/menu4/submenu1', $data);
+        return view('pvd/pages/dasbor/riset1/wisnus/visualisasi', $data);
     }
 
     public function wisnus_tabulasi()
@@ -242,6 +242,6 @@ class Riset1 extends BaseController
             'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/menu4/submenu2', $data);
+        return view('pvd/pages/dasbor/riset1/wisnus/tabulasi', $data);
     }
 }
