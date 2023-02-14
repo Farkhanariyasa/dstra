@@ -7,7 +7,7 @@
         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
     </h6>
   </header>
-<hr class="hrjudul">  
+  <hr class="hrjudul">
 
   <div class="accordion" id="accordionExample">
     <div class="accordion-item my-3">
@@ -70,7 +70,7 @@
             <p class="text-justify">
               Metodologi pengambilan sampel secara acak dimana
               kelompok sampel yang ditargetkan memiliki atribut-atribut tertentu. Cara yang dilakukan pada Judgment (Purposive) Sampling penelitian ini
-              adalah pengambilan sampel yang homogen. Sampel homogen yang ditargetkan pada penelitian ini yaitu sampel dengan pekerjaan sama, yaitu orang ang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur. 
+              adalah pengambilan sampel yang homogen. Sampel homogen yang ditargetkan pada penelitian ini yaitu sampel dengan pekerjaan sama, yaitu orang ang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur.
             </p>
           </div>
         </div>
@@ -118,41 +118,48 @@
   </div>
 </div>
 
-<div class=" portfolio-item filter-riset1-peta" onresize="responsivefonts()">
-    <div class="container mt-5">
-        <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-            <p class="card-text text-center">Kota Surabaya</p>
-            <div class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
-                    </div>
-                </div>
-                <div id="map" style="width: 95%; height:80vh;"></div>
-            </div>
-        </div>
-    </div>
+<section>
 
-    <div class="container mt-5">
-        <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-            <p class="card-text text-center">Kota Malang</p>
-            <div class="d-flex flex-row align-item-center justify-content-center">
-                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-download"></i>
-                        </button>
-                    </div>
-                </div>
-                <div id="map2" style="width: 95%; height:80vh;"></div>
-            </div>
+  <div class="container mt-5">
+    <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
+    <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
+      <p class="card-text text-center">Kota Surabaya</p>
+      <div class="d-flex flex-row align-item-center justify-content-center">
+        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+          <div class="me-1 mt-1 justify-content-end align-item-end">
+            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fa-solid fa-download"></i>
+            </button>
+          </div>
         </div>
+        <div id="map" style="width: 95%; height:80vh;"></div>
+      </div>
     </div>
-</div>
+  </div>
+
+  <div class="container mt-5">
+    <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
+    <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
+      <p class="card-text text-center">Kota Malang</p>
+      <div class="d-flex flex-row align-item-center justify-content-center">
+        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+          <div class="me-1 mt-1 justify-content-end align-item-end">
+            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fa-solid fa-download"></i>
+            </button>
+          </div>
+        </div>
+        <div id="map2" style="width: 95%; height:80vh;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Peta Lokus -->
+<section>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
+</section>
 
 
 <?= $this->endSection(); ?>
