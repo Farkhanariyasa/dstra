@@ -15,16 +15,16 @@ function getMenu()
         [
           'menu' => 'Double Counting',
           'icon' => 'fas fa-binoculars',
-          'href' => '#menu2',
-          'id' => 'menu2',
+          'href' => '#double_counting',
+          'id' => 'double_counting',
           'subMenu' => [
             [
               'subMenu' => 'Visualisasi',
-              'href' => '/riset1/menu2submenu1',
+              'href' => '/riset1/doublecounting-visualisasi',
             ],
             [
               'subMenu' => 'Tabulasi',
-              'href' => '/riset1/menu2submenu2',
+              'href' => '/riset1/doublecounting-tabulasi',
             ],
           ],
         ],
@@ -36,11 +36,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Visualisasi',
-              'href' => '/riset1/menu3submenu1',
+              'href' => '/riset1/familygrouping-visualisasi',
             ],
             [
               'subMenu' => 'Tabulasi',
-              'href' => '/riset1/menu3submenu2',
+              'href' => '/riset1/familygrouping-tabulasi',
             ],
           ],
         ],
@@ -52,11 +52,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Visualisasi',
-              'href' => '/riset1/menu4submenu1',
+              'href' => '/riset1/wisnus-visualisasi',
             ],
             [
               'subMenu' => 'Tabulasi',
-              'href' => '/riset1/menu4submenu2',
+              'href' => '/riset1/wisnus-tabulasi',
             ],
           ],
         ],
