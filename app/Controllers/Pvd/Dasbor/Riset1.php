@@ -99,17 +99,17 @@ class Riset1 extends BaseController
         return view('pvd/pages/dasbor/riset1/index', $data);
     }
 
-    public function menu2submenu1()
+    public function double_counting_visualisasi()
     {
         $menu = getMenu();
         $data = [
             'judul' => 'Menu 2 Submenu 1 Riset 1',
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/menu2/submenu1', $data);
+        return view('pvd/pages/dasbor/riset1/double_counting/visualisasi', $data);
     }
 
-    public function menu2submenu2()
+    public function double_counting_tabulasi()
     {
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
@@ -118,10 +118,10 @@ class Riset1 extends BaseController
             'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/menu2/submenu2', $data);
+        return view('pvd/pages/dasbor/riset1/double_counting/tabulasi', $data);
     }
 
-    public function menu3submenu1()
+    public function family_grouping_visualisasi()
     {
         $ja = [
             "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
@@ -139,20 +139,20 @@ class Riset1 extends BaseController
             'menu' => $menu['riset1'],
             'ja' => $ja,
         ];
-        return view('pvd/pages/dasbor/riset1/menu3/submenu1', $data);
+        return view('pvd/pages/dasbor/riset1/family_grouping/visualisasi', $data);
     }
 
-    public function menu3submenu2()
+    public function family_grouping_tabulasi()
     {
         $menu = getMenu();
         $data = [
             'judul' => 'Menu 3 Submenu 2 Riset 1',
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/menu3/submenu2', $data);
+        return view('pvd/pages/dasbor/riset1/family_grouping/tabulasi', $data);
     }
 
-    public function menu4submenu1()
+    public function wisnus_visualisasi()
     {
         $ja = [
             "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
@@ -233,7 +233,7 @@ class Riset1 extends BaseController
         return view('pvd/pages/dasbor/riset1/menu4/submenu1', $data);
     }
 
-    public function menu4submenu2()
+    public function wisnus_tabulasi()
     {
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
