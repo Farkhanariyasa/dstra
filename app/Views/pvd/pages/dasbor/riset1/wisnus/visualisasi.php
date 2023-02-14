@@ -14,6 +14,7 @@
                     <li data-filter=".filter-riset1-hasil1">Hasil 1</li>
                     <li data-filter=".filter-riset1-hasil2">Hasil 2</li>
                     <li data-filter=".filter-riset1-hasil3">Hasil 3</li>
+                    <li data-filter=".filter-riset1-hasil4">Hasil 4</li>
                 </ul>
             </div>
         </div>
@@ -47,11 +48,14 @@
     const tri = <?= json_encode($tri) ?>;
     const smartfren = <?= json_encode($smartfren) ?>;
     const lainnya = <?= json_encode($lainnya) ?>;
+
 </script>
 <!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 </section><!-- End -->
