@@ -47,14 +47,14 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 1
         $routes->get('dasbor', 'Riset1::index');
         // Menu 2
-        $routes->get('menu2submenu1', 'Riset1::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->get('menu2submenu2', 'Riset1::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->get('doublecounting-visualisasi', 'Riset1::double_counting_visualisasi'); // Menu 2 Submenu 1
+        $routes->get('doublecounting-tabulasi', 'Riset1::double_counting_tabulasi'); // Menu 2 Submenu 2
         // Menu 3
-        $routes->get('menu3submenu1', 'Riset1::menu3submenu1'); // Menu 3 Submenu 1
-        $routes->get('menu3submenu2', 'Riset1::menu3submenu2'); // Menu 3 Submenu 2
+        $routes->get('familygrouping-visualisasi', 'Riset1::family_grouping_visualisasi'); // Menu 3 Submenu 1
+        $routes->get('familygrouping-tabulasi', 'Riset1::family_grouping_tabulasi'); // Menu 3 Submenu 2
         // Menu 4
-        $routes->get('menu4submenu1', 'Riset1::menu4submenu1'); // Menu 3 Submenu 1
-        $routes->get('menu4submenu2', 'Riset1::menu4submenu2'); // Menu 3 Submenu 2
+        $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Menu 3 Submenu 1
+        $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Menu 3 Submenu 2
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
