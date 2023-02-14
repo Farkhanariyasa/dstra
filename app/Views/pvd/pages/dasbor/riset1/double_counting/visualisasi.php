@@ -16,6 +16,7 @@
           <li data-filter=".filter-riset1-hasil2">Hasil 2</li>
           <li data-filter=".filter-riset1-hasil3">Hasil 3</li>
           <li data-filter=".filter-riset1-hasil4">Hasil 4</li>
+          <li data-filter=".filter-riset1-hasil5">Hasil 5</li>
           <!-- <li data-filter=".filter-riset1-peta">Peta Lokus</li>
           <li data-filter=".filter-riset1-tabeldummy">Tabel Dummy</li> -->
         </ul>
