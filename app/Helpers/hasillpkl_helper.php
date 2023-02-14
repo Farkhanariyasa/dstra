@@ -45,7 +45,7 @@ function getMenu()
           ],
         ],
         [
-          'menu' => 'Stastistik Wisata Nusantara',
+          'menu' => 'Stastistik Wisatawan Nusantara',
           'icon' => 'fas fa-binoculars',
           'href' => '#menu4',
           'id' => 'menu4',
