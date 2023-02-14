@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="row portfolio-container">
-      <?php include('dummy_submenu2.php') ?>
+      <?php include('dummy_kajian2.php') ?>
     </div>
   </div>
 </section>
