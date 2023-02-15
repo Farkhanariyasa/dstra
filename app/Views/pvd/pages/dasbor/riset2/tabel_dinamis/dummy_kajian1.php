@@ -54,7 +54,7 @@
             <strong>Data Responden Hasil Survei Pendahuluan Riset 2</strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
+            <table class="table table-hover table-bordered table-responsive" id="k1_tabel2" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">No.</th>
@@ -103,7 +103,7 @@
             <strong>Data Responden Hasil Survei Pendahuluan Riset 2</strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
+            <table class="table table-hover table-bordered table-responsive" id="k1_tabel3" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">No.</th>
