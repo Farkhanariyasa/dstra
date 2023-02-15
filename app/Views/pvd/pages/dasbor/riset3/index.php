@@ -38,7 +38,7 @@
 <!-- Chart JS Plugin Sankey Chart -->
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
 <!-- Via CDN -->
-<script src = "https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 
 <!-- Data Chart -->
 <script>
@@ -55,9 +55,9 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_box.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_sankey.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_waffle.js') ?>"></script>
+<!-- Waffle chart nya bikin footernya rusak, coba diperbari dulu -->
+<!-- <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_waffle.js') ?>"></script> -->
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
-</section><!-- End -->
 <?= $this->endSection(); ?>
