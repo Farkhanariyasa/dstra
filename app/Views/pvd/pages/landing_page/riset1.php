@@ -13,15 +13,17 @@
                         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
                     </h5>
                     <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                        Dalam bidang pariwisata, pemanfaatan <i>mobile positioning data</i> (MPD), yaitu salah satu jenis
-                        big data yang berisi data lokasi dari pengguna provider tertentu, menjadi salah satu opsi
-                        <i>official statistics</i> dalam mengestimasi statistik pariwisata untuk menggatikan survei 
-                        konvensional yang lama dan mahal. Hal ini membuat pengembangan MPD menjadi sebuah inovasi 
-                        untuk mendapatkan statistik yang akurat. Hal inilah yang menjadi latar belakang kami untuk 
-                        melakukan pengembangan MPD dengan melakukan analisis bagaimana dua nomor HP yang berbeda 
-                        menjadi satu orang untuk mengatasi double counting, analisis pengelompokkan individu menjadi 
-                        satu kelompok. Berangkat dari sana, kami melakukan perbaikan dalam melakukan estimasi 
-                        statistik pariwisata dengan pendekatan MPD.
+                    Dalam bidang pariwisata, pemanfaatan <i>mobile positioning data</i> (MPD), yaitu 
+                    salah satu jenis big data yang berisi data lokasi dari pengguna provider tertentu, 
+                    menjadi salah satu opsi <i>official statistics</i> dalam mengestimasi statistik pariwisata 
+                    untuk menggontikan survei konvensional yang membutuhkan waktu dan biaya yang tidak sedikit. 
+                    Namun banyak keterbatasan dari MPD yang masih perlu dipertimbangkan untuk mendapatkan statistik 
+                    yang akurat. Beberapa diantaranya adalah adanya kemungkinan seseorang memiliki lebih dari satu nomor 
+                    HP dan belum tercakupnya penduduk yang belum memiliki HP seperti anak-anak di bawah 10 tahun. Pada penelitian ini, 
+                    kami melakukan kajian pemanfaatan MPD untuk statistik pariwisata dengan tujuan memperbaiki cakupan MPD 
+                    dengan menganalisis MPD dari beberapa nomor HP yang dimiliki orang yang sama dan MPD dciri beberapa nomor 
+                    yang termasuk dalam satu keluarga. 
+
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
@@ -148,7 +150,7 @@
                 <!-- konten -->
                 <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
+                    <p class="text-justify" style="font-weight: bold">
                         Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
                         Metode Pengambilan Sampel: Purposive Sampling
                     <ul>
@@ -168,10 +170,9 @@
                     </ul>
                     </p>
                 </div>
-
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
+                    <p class="text-justify" style="font-weight: bold">
                         Survei 2: Survei Integrasi (Pilot Survei Riset 2)
                         Metode Pengambilan Sampel: Two Stage Sampling
                     <ul>
