@@ -40,8 +40,8 @@
                     <h1 class="headline text-center pt-5">Latar Belakang</h1>
                 </div>
             </div>
-            <div class="konten2 third5 shadow box par m-auto p-4 p-md-5 mt-4"  data-aos-duration="1000">
-                <p class="text-justify">
+            <div class="konten2 third5 shadow box par m-auto p-4 p-md-5 mt-4"  data-aos-duration="1000" style="line-height: 30px;">
+                <!-- <p class="text-justify">
                     Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari 
                     segi budaya. Hal ini didukung oleh laporan Travel & Tourism Development Index 2021 World 
                     Economic Forum (WEF) edisi Mei 2022 yang menyatakan bahwa industri pariwisata tanah air 
@@ -50,47 +50,11 @@
                         [<strong><i>Tampilkan Semua</i></strong>]
                     </a>
                 </p>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapseExample"> -->
                     <p class="text-justify">
-                        Sejalan dengan yang dikemukakan oleh Pendit (2006) bahwa kehadiran pariwisata dapat mempercepat 
-                        pertumbuhan ekonomi, penyediaan lapangan pekerjaan, meningkatkan penghasilan, meningkatkan standar 
-                        hidup, serta merangsang sektor-sektor produktif lainnya. Menurut Archer (2000), jumlah pengeluaran 
-                        wisatawan dapat meningkatkan PDRB melalui sektor perdagangan, hotel, dan restoran. Potensi dari 
-                        sektor pariwisata dapat juga dilihat performanya dari nilai kontribusi Tourism Direct Gross Domestic 
-                        Product (TDGDP) Indonesia.
+                        Kota Malang merupakan salah satu kota di Jawa Timur yang mengalami penurunan jumlah perjalanan wisata secara drastis akibat pandemi Covid-19. Untuk mengatasi hal tersebut, pemerintah melakukan pemulihan yang salah satunya adalah membangun confidence atau rasa aman dan dilanjutkan dengan pemulihan pariwisata domestic yang sejalan dengan salah satu target kinerja Kemenparekraf/Baparekraf tahun 2020-2024 dalam sasaran strategis “Meningkatnya Kualitas dan Jumlah Wisatawan”, sehingga ketersediaan data wisnus sangat dibutuhkan. Pada tahun 2020, Badan Pusat Statistik melakukan Survei Wisatawan Nusantara dengan metode baru yakni Mobile Positioning Data (MPD). Metode ini masih memiliki kelemahan yaitu tidak mampu mendapatkan karakteristik rinci dari wisnus. Oleh karena itu, dilakukan survei yang dapat menghasilkan karakteristik dari wisatawan nusantara khususnya perjalanan dalam kota yang lebih rinci.
                     </p>
-                    <p class="text-justify">
-                        Terkait adanya dampak kepariwisataan terhadap perekonomian, perlu diperhatikan bagaimana perkembangan jumlah 
-                        kunjungan wisatawannya. Wisatawan adalah seseorang yang melakukan perjalanan untuk mengunjungi suatu lokasi yang 
-                        bukan tempat tinggal kesehariannya dengan periode dan tujuan tertentu, selain untuk memperoleh penghasilan di 
-                        tempat dikunjungi (BPS, 2022). Di Indonesia, wisatawan dapat dikelompokkan menjadi wisatawan nusantara (wisnus) 
-                        dan wisatawan mancanegara (wisman). Wisnus menjadi penyumbang proporsi wisatawan terbanyak untuk setiap tahunnya (BPS, 2022). 
-                        Perkembangan jumlah perjalanan wisata wisnus diduga memiliki hubungan yang kuat dengan kontribusi sektor pariwisata (TDGDP) terhadap PDB.
-                    </p>
-                    <p class="text-justify">
-                        Penurunan jumlah perjalanan wisata yang sangat drastis pada tahun 2020 merupakan dampak dari adanya 
-                        pandemi Covid-19. Dengan adanya pandemi, pemerintah terpaksa mengeluarkan kebijakan pembatasan kegiatan 
-                        masyarakat guna mencegah semakin luasnya penyebaran virus ini. Kebijakan pembatasan dan adanya kekhawatiran 
-                        masyarakat untuk bepergian berdampak pada menurunnya volume arus perlintasan manusia dan volume penerbangan 
-                        secara drastis sehingga memberikan hantaman besar bagi sektor pariwisata nasional (Drajat, 2021). Selain itu, 
-                        konsumsi rumah tangga sebagai sisi pengeluaran rumah tangga yang merupakan pendorong utama pariwisata juga 
-                        mengalami kontraksi sehingga jumlah kunjungan wisata ikut mengalami penurunan (Rusiawan, 2021). Oleh karena itu, 
-                        ketersediaan data wisnus sangat dibutuhkan untuk dapat meninjau terjadinya peningkatan dan penurunan perjalanan 
-                        pariwisata. Dari sisi wisatawan atau pengunjung, informasi dibutuhkan untuk merencanakan perjalanan dari tempat 
-                        tinggal atau asal hingga ke tempat tujuan dan perencanaan selama berada di sana hingga kembali ke tempat asal atau 
-                        tempat tinggal (Manongga et al., 2010). Data dan informasi karakteristik wisnus dan kegiatan perjalanan pariwisata 
-                        harus dikumpulkan secara lengkap dan berkesinambungan.
-                    </p>
-                    <p class="text-justify">
-                        Untuk memenuhi kebutuhan tersebut, Badan Pusat Statistik (BPS) telah melakukan kegiatan 
-                        pendataan wisnus sejak tahun 1981 (BPS, 2020). Dalam perkembangannya, kegiatan pendataan 
-                        ini mengalami beberapa perubahan metode. Pada tahun 1981 yang merupakan awal pelaksanaannya, 
-                        pendataan wisnus dilakukan pada kegiatan Survei Sosial Ekonomi Nasional (Susenas) sebagai salah 
-                        satu modul pada kegiatan tersebut. Namun, adanya urgensi kebutuhan data wisnus yang tidak cukup 
-                        jika hanya mengandalkan Susenas KOR, BPS melakukan kegiatan Kajian Data Pariwisata Nusantara bersama 
-                        dengan Kementerian Pariwisata untuk melengkapi pendataan Susenas KOR pada tahun 2016 dan 2017 (BPS, 2020).  
-                    </p>
-                    <p class="text-justify">
+                    <!-- <p class="text-justify">
                         Penggunaan MPD sebagai pendekatan baru dalam mengumpulkan data wisnus masih memiliki beberapa kelemahan. 
                         Salah satu kelemahannya adalah tidak mampu mendapatkan karakteristik rinci dari wisnus (BPS, 2022). Hal ini 
                         diperkuat juga dengan sulitnya mengestimasi perjalanan wisata di dalam kabupaten/kota meskipun level penyajian 
@@ -105,7 +69,7 @@
                             [<strong><i>Tampilkan Sebagian</i></strong>]
                         </a>
                     </p>
-                </div>    
+                </div>     -->
             </div>
         </div>
     </section>
@@ -531,15 +495,16 @@
             </div>
             <!-- <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> -->
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <p>
-                    <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="" >
-                </p>
+                <!-- <p>
+                    <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="bukulaporan img-fluid rounded-3 w-50 mx-auto d-block" alt="" >
+                </p> -->
                 <p class="text-justify">
                     <div class="d-flex flex-row justify-content-center align-items-center">
                         <div class="text-center text-lg-start">
-                            <a href="<?= base_url("hasil-pkl/riset2") ?>" class="tombol btn-for text-decoration-none">
-                                <span>Unduh</span>
-                                <i class="fas fa-download"></i>
+                            <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block" alt="" >
+                                <!-- <span>Unduh</span>
+                                <i class="fas fa-download"></i> -->
                             </a>
                         </div>
                     </div>
