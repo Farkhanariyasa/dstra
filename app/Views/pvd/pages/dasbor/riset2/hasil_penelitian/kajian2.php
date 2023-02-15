@@ -13,7 +13,7 @@
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
             <li data-filter=".filter-riset2-hasilkajian2-1" class="filter-active">Lama Kunjungan</li>
-            <li data-filter=".filter-riset2-hasilkajian2-2">Banyak Perjalanan</li>
+            <li data-filter=".filter-riset2-hasilkajian2-2">Lama Perjalanan</li>
         </ul>
       </div>
     </div>
