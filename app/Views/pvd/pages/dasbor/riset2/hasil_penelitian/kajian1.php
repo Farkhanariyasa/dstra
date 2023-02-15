@@ -38,12 +38,15 @@
   const datajeniskelamin = <?= json_encode($jk); ?>;
   const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
   const datapendidikantertinggi_riset2 = <?= json_encode($pt_2); ?>;
+  const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
 
