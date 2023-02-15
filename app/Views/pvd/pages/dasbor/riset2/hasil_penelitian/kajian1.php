@@ -44,7 +44,8 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
