@@ -44,17 +44,21 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     });
     // Dasbor Riset 1
     $routes->group('riset1', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
-        // Menu 1
+        // Dasbor
         $routes->get('dasbor', 'Riset1::index');
-        // Menu 2
-        $routes->get('doublecounting-visualisasi', 'Riset1::double_counting_visualisasi'); // Menu 2 Submenu 1
-        $routes->get('doublecounting-tabulasi', 'Riset1::double_counting_tabulasi'); // Menu 2 Submenu 2
-        // Menu 3
-        $routes->get('familygrouping-visualisasi', 'Riset1::family_grouping_visualisasi'); // Menu 3 Submenu 1
-        $routes->get('familygrouping-tabulasi', 'Riset1::family_grouping_tabulasi'); // Menu 3 Submenu 2
-        // Menu 4
-        $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Menu 3 Submenu 1
-        $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Menu 3 Submenu 2
+        // Double Counting
+        $routes->get('doublecounting-visualisasi', 'Riset1::double_counting_visualisasi'); // Visualisasi
+        $routes->get('doublecounting-tabulasi', 'Riset1::double_counting_tabulasi'); // Tabulasi
+        // Family Grouping
+        $routes->get('familygrouping-visualisasi', 'Riset1::family_grouping_visualisasi'); // Visualisasi
+        $routes->get('familygrouping-tabulasi', 'Riset1::family_grouping_tabulasi'); // Tabulasi
+        // Wisata Nusantara
+        $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Visualisasi
+        $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Tabulasi
+        // Kuesioner
+        $routes->get('kuesioner-sby', 'Riset1::kuesioner_sby'); // Visualisasi
+        $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Tabulasi
+
 
         // python script
         $routes->get('python-script', 'Riset1::python_script');
