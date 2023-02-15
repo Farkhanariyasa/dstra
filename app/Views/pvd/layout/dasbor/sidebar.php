@@ -19,7 +19,7 @@
                 <ul class="nav flex-column sub-menu">
                   <?php foreach ($m['subMenu'] as $sm) : ?>
                     <li class="nav-item">
-                      <a class="nav-link " href="<?= base_url('hasil-pkl' . $sm['href']) ?>"><?= $sm['subMenu']; ?>
+                      <a class="nav-link text-wrap " href="<?= base_url('hasil-pkl' . $sm['href']) ?>"><?= $sm['subMenu']; ?>
                       </a>
                     </li>
                   <?php endforeach; ?>
