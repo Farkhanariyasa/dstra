@@ -1,3 +1,37 @@
+/* Landing Page */
+
+.boxbatas{
+    
+    align-items: flex-start;
+    display: flex;
+    color: white;
+    flex-direction: column;
+   
+}
+
+.boxbatas2{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.batasan{
+    background-color: #506396;
+    height: 150px;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    border-radius: 25px;
+}
+
+/* dasbor */
+
+
 .tombolkonf {
     display: inline-block;
     font-weight: 400;

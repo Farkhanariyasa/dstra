@@ -182,6 +182,28 @@
     </div>
 </div>
 
+<div class="portfolio-item filter-riset3-hasil7">
+    <div class="row mt-3">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chartBox" style="height:500px;">
+                        <canvas class="mt1" id="hasil7"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
