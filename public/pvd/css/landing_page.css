@@ -577,6 +577,10 @@ h1.headline {
 /*Now the CSS*/
 /* * {margin: 0; padding: 0;} */
 
+.tree {
+    display: inline;
+}
+
 .tree ul {
 	padding-top: 10px; 
     position: relative;
@@ -652,7 +656,7 @@ right connector from last child*/
 	text-decoration: none;
 	color: #666;
 	/* font-family: arial, verdana, tahoma; */
-	font-size: 12px;
+	font-size: 11px;
 	display: inline-block;
 	
 	border-radius: 5px;
