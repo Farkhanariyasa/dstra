@@ -254,4 +254,24 @@ class Riset1 extends BaseController
         ];
         return view('pvd/pages/dasbor/riset1/double_counting/python_script', $data);
     }
+    
+    public function kuesioner_sby()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Kuesioner | Kota Surabaya',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/kuesioner/surabaya', $data);
+    }
+
+    public function kuesioner_malang()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Kuesioner | Kota Malang',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/kuesioner/malang', $data);
+    }
 }
