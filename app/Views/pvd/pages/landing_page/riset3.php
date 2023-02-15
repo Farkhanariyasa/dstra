@@ -110,7 +110,7 @@
                     </div>
                     <div class="boxbatas2 col-6 col-sm-6 pt-2  ">
                         <div class="batasan">
-                            <p class="text-white ">Batasan Penelitian</p>
+                            <p class="text-white ">Cakupan Penelitian</p>
                         </div>
                     </div>
                 </div>
@@ -191,6 +191,40 @@
             </div>
         </section>
 
+        <div class="galeri1">
+            <div class="kotak1">
+                <input class="i1" type="radio" name="image-slide" checked="checked">
+                <section class="sectionb">
+                    <div class="quotes">
+                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
+                    </div>
+                </section>
+                <input class="i1" type="radio" name="image-slide">
+                <section class="sectionb1">
+                    <div class="quotes1">
+                        <h2 class="kb">“Produk Oxenfurt diproses tanpa bahan kimia”</h2>
+                    </div>
+                </section>
+                <input class="i1" type="radio" name="image-slide">
+                <section class="sectionb2">
+                    <div class="quotes">
+                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
+                    </div>
+                </section>
+                <input class="i1" type="radio" name="image-slide">
+                <section class="sectionb3">
+                    <div class="quotes1">
+                        <h2 class="kb">“Produk Oxenfurt diproses tanpa bahan kimia”</h2>
+                    </div>
+                </section>
+                <input class="i1" type="radio" name="image-slide">
+                <section class="sectionb4">
+                    <div class="quotes">
+                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
+                    </div>
+                </section>
+            </div>
+        </div>
         <!-- Ruang Lingkup -->
         <section class="offset-header">
             <div class="container-fluid turun">
@@ -239,6 +273,34 @@
                     </div>
                 </div>
         </section>
+
+        <!-- Sumber Data -->
+        <section class="offset-header">
+            <div class="container-fluid turun">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center">Sumber Data</h1>
+                    </div>
+                </div>
+                <!-- sumber data -->
+                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill" data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer" aria-selected="true">Primer</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill" data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder" aria-selected="false">Sekunder</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
+                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <!-- Hasil Penelitian -->
         <section class="offset-header">
