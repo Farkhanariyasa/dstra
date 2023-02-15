@@ -310,7 +310,7 @@
                     <br>
                     <li>
                         <strong>Rumus Overall Sampling Fraction</strong> <br>
-                        <div class="text-justify">
+                        <div class="text-justify"> 
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, necessitatibus.
                                 <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
