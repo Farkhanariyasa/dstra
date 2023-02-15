@@ -23,4 +23,8 @@ class Riset2HasilSpModel extends Model
     {
         return $this->where(['b508' => $pt, 'kat' => 'WK'])->countAllResults();
     }
+    public function getByTujuanUtama($tu)
+    {
+        return $this->where(['b702' => $tu, 'kat' => 'WK'])->countAllResults();
+    }
 }

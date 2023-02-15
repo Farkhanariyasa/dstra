@@ -165,13 +165,13 @@ section {
 
 .batasan{
     background-color: #506396;
-    height: 150px;
+    height: 120px;
     color: white;
     font-size: large;
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 300px;
+    width: 230px;
     border-radius: 25px;
 }
 .tombol {

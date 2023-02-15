@@ -1,60 +1,88 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 
-<?= $this->section('content'); ?>
+<?= $this->section('css'); ?>
+
 
 <style>
-    .konten-teks {
-        padding: 10%;
-        color: #506396;
-        font-family: 'Poppins', 'Courier', 'monospace';
+    table {
+        table-layout: auto;
+        width: auto;
     }
 
-    .konten-teks .card-title {
-        font-weight: bold;
-        font-size: 56px;
-        font-family: 'Poppins', 'Courier', 'monospace';
-        color: #493a5a;
-
+    td {
+        white-space: normal !important;
     }
 
-    .konten-teks .subs {
-        font-weight: bold;
-        font-size: 30px;
-
+    th {
+        white-space: normal !important;
+        word-wrap: break-word;
+        color: black;
+        /* background-color: #04AA2D; */
     }
 
-    .card-text {
-        font-family: 'Poppins', 'Courier', 'monospace';
-        color: #506396;
+    td {
+        white-space: normal !important;
+        word-wrap: break-word;
     }
+
+    /* .card .card-body {
+    padding: 0.5rem 1rem;
+  } */
+
+    /* table {
+    table-layout: fixed;
+  } */
 </style>
+<?= $this->endSection(); ?>
 
-<div class="container">
-    <header class="section-header">
-        <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
-    </header>
-    <hr class="hrjudul">
+<?= $this->section('content'); ?>
 
-    <h2>Kuesioner Listing</h2>
-    <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-        <div class="row">
-            <div style="width: 100%;">
-                <embed src="https://drive.google.com/file/d/1jfvZHFY-ovdka5aRW413RVrplv6zWD0u/preview" type="application/pdf" width=100% height="600px" />
-            </div>
-        </div>
+<!-- <h1>Menu 2 submenu 2</h1> -->
+<header class="section-header">
+    <h6 style="color: #4b395f;"><strong>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
+    </h6>
+</header>
+<hr class="hrjudul">
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title text-center mt-2">Data Responden Hasil Survei Pendahuluan Riset 1</div>
+        <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                            <i class="fa-solid fa-download"></i>
+   </button> -->
     </div>
-
-
-    <h2>Kuesioner Pencacahan</h2>
-    <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-        <div class="row">
-            <div style="width: 100%;">
-                <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
-            </div>
-        </div>
+    <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
+        <!-- style="padding:0px 0px 0px 0px;" -->
+        <!-- <blockquote class="blockquote mb-0"> -->
+        <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
+            <thead style="color: #fff; font-weight:bold;">
+                <tr>
+                    <th scope="col">No.</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Desa/Kelurahan</th>
+                    <th scope="col">Kecamatan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $i = 1;
+                foreach ($dataresponden as $v) :
+                ?>
+                    <tr>
+                        <th scope="row"><?php echo $i; ?></th>
+                        <td><?php echo $v["b108"]; ?></td>
+                        <td><?php echo $v["b104_deskel"]; ?></td>
+                        <td><?php echo $v["b103_kec"]; ?></td>
+                    </tr>
+                <?php
+                    $i++;
+                endforeach;
+                ?>
+            </tbody>
+        </table>
+        <!-- </blockquote> -->
     </div>
-
 </div>
-
-
+<!-- Datatable Instal -->
+<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
 <?= $this->endSection(); ?>

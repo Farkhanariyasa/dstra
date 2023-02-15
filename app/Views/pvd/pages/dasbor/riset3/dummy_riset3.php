@@ -196,7 +196,7 @@
                     </div>
                     
                     <div class="chartBox" style="height:500px;">
-                        <canvas class="mt1" id="hasil7"></canvas>
+                        <div class="mt1" id="waffle-charts"></div>
                     </div>
                 </div>
             </div>
