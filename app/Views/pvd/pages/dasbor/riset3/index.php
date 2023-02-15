@@ -10,13 +10,13 @@
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset3-hasil1">Hasil 1</li>
-          <li data-filter=".filter-riset3-hasil2">Hasil 2</li>
-          <li data-filter=".filter-riset3-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
-          <li data-filter=".filter-riset3-hasil5">Hasil 5</li>
-          <li data-filter=".filter-riset3-hasil6">Hasil 6</li>
-          <li data-filter=".filter-riset3-hasil7">Hasil 7</li>
+          <li data-filter=".filter-riset3-hasil1">Column Chart</li>
+          <li data-filter=".filter-riset3-hasil2">Doughnut & Pie Chart</li>
+          <li data-filter=".filter-riset3-hasil3">Spider Chart</li>
+          <li data-filter=".filter-riset3-hasil4">Stacked Bar Chart</li>
+          <li data-filter=".filter-riset3-hasil5">Boxplot</li>
+          <li data-filter=".filter-riset3-hasil6">Sankey Diagram</li>
+          <li data-filter=".filter-riset3-hasil7">Waffle Chart</li>
           <li data-filter=".filter-riset3-peta">Peta Lokus</li>
         </ul>
       </div>
