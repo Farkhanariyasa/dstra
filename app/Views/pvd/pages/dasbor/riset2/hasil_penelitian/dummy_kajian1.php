@@ -1,5 +1,5 @@
 <!-- Visualisasi 1 -->
-<div class="portfolio-item filter-riset2-hasil1">
+<div class="portfolio-item filter-riset2-hasilkajian1-1">
     <!-- <div class="row mt-5">
         <div class="col-sm-6 my-2">
             <div class="card">
@@ -49,7 +49,7 @@
 </div>
 
 <!-- Visualisasi 2 -->
-<div class="portfolio-item filter-riset2-hasil2">
+<div class="portfolio-item filter-riset2-hasilkajian1-2">
     <!-- <div class="row mt-5">
         <div class="col-sm-6 my-2">
             <div class="card">
@@ -99,7 +99,7 @@
 </div>
 
 <!-- Visualisasi 3 -->
-<div class="portfolio-item filter-riset2-hasil3">
+<div class="portfolio-item filter-riset2-hasilkajian1-3">
     <!-- <div class="row mt-5">
         <div class="col-sm-6 my-2">
             <div class="card">

@@ -12,10 +12,9 @@
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-            <!-- <li data-filter="*">Semua</li> -->
-            <li data-filter=".filter-riset2-hasil1" class="filter-active">Banyak Wisatawan</li>
-            <li data-filter=".filter-riset2-hasil2">Banyak Perjalanan</li>
-            <li data-filter=".filter-riset2-hasil3">Tujuan Utama</li>
+            <li data-filter=".filter-riset2-hasilkajian1-1" class="filter-active">Banyak Wisatawan</li>
+            <li data-filter=".filter-riset2-hasilkajian1-2">Banyak Perjalanan</li>
+            <li data-filter=".filter-riset2-hasilkajian1-3">Tujuan Utama</li>
         </ul>
       </div>
     </div>
