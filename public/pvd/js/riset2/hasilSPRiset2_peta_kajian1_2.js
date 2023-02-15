@@ -1,10 +1,10 @@
-var peta_malang = L.map("peta_malang").setView([-7.9797, 112.6304], 12.4);
+var peta_malang_hasil2 = L.map("peta_malang_hasil2").setView([-7.9797, 112.6304], 12.4);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-}).addTo(peta_malang);
+}).addTo(peta_malang_hasil2);
 
 var polygon = L.polygon([
   [-7.932, 112.569],
@@ -93,4 +93,4 @@ var polygon = L.polygon([
   [-7.941, 112.566],
   [-7.938, 112.566],
   [-7.932, 112.569],
-]).addTo(peta_malang);
+]).addTo(peta_malang_hasil2);

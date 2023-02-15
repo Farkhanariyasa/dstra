@@ -24,7 +24,7 @@
                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                     <div class="form-check form-switch me-3">
                         <input class="form-check-input" onchange="update_value2(this);" type="checkbox" id="forPieChartLegend" value="show" checked>
-                        <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
+                        <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,9 @@
         <div class="col-sm-6 my-2">
             <div class="card shadow">
                 <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
+                    <p class="card-text text-center">Grafik<br><br>
+                    <h2 class="text-center">Python script <a href="<?= base_url('/hasil-pkl/riset1/python-script') ?>">kesini</a></h2>
+                    <br><br><br><br><br><br><br><br><br></p>
                 </div>
             </div>
         </div>

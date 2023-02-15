@@ -55,6 +55,9 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 4
         $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Menu 3 Submenu 1
         $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Menu 3 Submenu 2
+
+        // python script
+        $routes->get('python-script', 'Riset1::python_script');
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {

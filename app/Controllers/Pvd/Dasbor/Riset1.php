@@ -244,4 +244,14 @@ class Riset1 extends BaseController
         ];
         return view('pvd/pages/dasbor/riset1/wisnus/tabulasi', $data);
     }
+
+    public function python_script()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Python Script',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/double_counting/python_script', $data);
+    }
 }
