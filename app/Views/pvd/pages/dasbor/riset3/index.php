@@ -16,8 +16,8 @@
           <li data-filter=".filter-riset3-hasil4">Hasil 4</li>
           <li data-filter=".filter-riset3-hasil5">Hasil 5</li>
           <li data-filter=".filter-riset3-hasil6">Hasil 6</li>
+          <li data-filter=".filter-riset3-hasil7">Hasil 7</li>
           <li data-filter=".filter-riset3-peta">Peta Lokus</li>
-          <li data-filter=".filter-riset3-tabeldummy">Hasil 7</li>
         </ul>
       </div>
     </div>
@@ -53,6 +53,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_box.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_waffle.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
