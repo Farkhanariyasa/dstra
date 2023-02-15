@@ -191,40 +191,6 @@
             </div>
         </section>
 
-        <div class="galeri1">
-            <div class="kotak1">
-                <input class="i1" type="radio" name="image-slide" checked="checked">
-                <section class="sectionb">
-                    <div class="quotes">
-                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
-                    </div>
-                </section>
-                <input class="i1" type="radio" name="image-slide">
-                <section class="sectionb1">
-                    <div class="quotes1">
-                        <h2 class="kb">“Produk Oxenfurt diproses tanpa bahan kimia”</h2>
-                    </div>
-                </section>
-                <input class="i1" type="radio" name="image-slide">
-                <section class="sectionb2">
-                    <div class="quotes">
-                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
-                    </div>
-                </section>
-                <input class="i1" type="radio" name="image-slide">
-                <section class="sectionb3">
-                    <div class="quotes1">
-                        <h2 class="kb">“Produk Oxenfurt diproses tanpa bahan kimia”</h2>
-                    </div>
-                </section>
-                <input class="i1" type="radio" name="image-slide">
-                <section class="sectionb4">
-                    <div class="quotes">
-                        <h2 class="kb">“Hidup lebih sehat dengan bahan herbal”</h2>
-                    </div>
-                </section>
-            </div>
-        </div>
         <!-- Ruang Lingkup -->
         <section class="offset-header">
             <div class="container-fluid turun">
