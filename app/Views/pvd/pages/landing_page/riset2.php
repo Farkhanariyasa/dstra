@@ -206,59 +206,103 @@
                 </p>
 
                 <!-- bagan masih berantakan-->
-                <p class="text-justify">
-                <div class="tree">
-                    <ul>
-                        <li>
-                            <a href="#">Kabupaten/Kota</a>
-                            <ul>
-                                <li>
-                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                </li>
-                                <li>
-                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                    <ul>
-                                        <!-- <ul> -->
-                                            <li>
-                                                <a href="#">n1 <br>Sampel blok sensus terpilih</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">n2 <br>Sampel blok sensus terpilih</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
-                                                        <ul>
-                                                            <!-- <ul> -->
-                                                                <li>
-                                                                    <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">mi <br>Sampel rumah tangga terpilih</a>
-                                                                </li>
-                                                            <!-- </ul> -->
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">ni <br>Sampel blok sensus terpilih</a>
-                                            </li>
-                                        <!-- </ul> -->
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                </p>
+                <!-- <div class="text-justify">
+                    <div class="tree">
+                        <ul>
+                            <li>
+                                <a href="#">Kabupaten/Kota</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                        <ul>
+                                                <li>
+                                                    <a href="#">n1 <br>Sampel blok sensus terpilih</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">n2 <br>Sampel blok sensus terpilih</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
+                                                            <ul>
+                                                                    <li>
+                                                                        <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">mi <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">ni <br>Sampel blok sensus terpilih</a>
+                                                </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+                <!-- <section class="text-justify">
+                    <div class="tree">
+                        <ul>
+                            <li>
+                                <a href="#">Kabupaten/Kota</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                        <ul>
+                                                <li>
+                                                    <a href="#">n1 <br>Sampel blok sensus terpilih</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">n2 <br>Sampel blok sensus terpilih</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
+                                                            <ul>
+                                                                    <li>
+                                                                        <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">mi <br>Sampel rumah tangga terpilih</a>
+                                                                    </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">ni <br>Sampel blok sensus terpilih</a>
+                                                </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section> -->
 
-                <p class="text-justify">
+                <section class="text-justify">
+                    * input bagan *
                     <p>Two Stage Sampling</p>
                     <ul class="text-justify">
                         <li>
@@ -268,7 +312,7 @@
                             Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
                         </li> 
                     </ul>
-                </p>
+                </section>
             </div>
 
             <!-- TEKNIK ESTIMASI PARAMETER -->
@@ -282,7 +326,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, harum.
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -313,7 +357,7 @@
                         <div class="text-justify">  
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, necessitatibus.
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -344,7 +388,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, deserunt.
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -375,7 +419,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, molestiae!
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -406,7 +450,7 @@
                         <div class="text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint?
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
@@ -437,7 +481,7 @@
                         <div class="text-justify">
                             <p>
                                 Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                <div class="rumus text-center"><h4>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h4></div>
+                                <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
                                 <!-- Keterangan:  -->
                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                     <strong>Keterangan :</strong>
