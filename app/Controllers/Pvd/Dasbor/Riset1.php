@@ -249,7 +249,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Python Script',
+            'judul' => 'Double Counting',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/double_counting/python_script', $data);
