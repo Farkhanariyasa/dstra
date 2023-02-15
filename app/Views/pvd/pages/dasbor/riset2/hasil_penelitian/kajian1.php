@@ -47,6 +47,7 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pie_chart.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
