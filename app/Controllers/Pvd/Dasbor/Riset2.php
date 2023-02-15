@@ -10,6 +10,7 @@ class Riset2 extends BaseController
     protected $jeniskelamin;
     protected $jenispekerjaanutama;
     protected $pendidikantertinggi_riset2;
+    protected $tujuanutama;
     protected $data_tabel_sp_riset2;
 
     public function __construct()
@@ -17,6 +18,7 @@ class Riset2 extends BaseController
         $this->jeniskelamin = new Riset2HasilSpModel();
         $this->jenispekerjaanutama = new Riset2HasilSpModel();
         $this->pendidikantertinggi_riset2 = new Riset2HasilSpModel();
+        $this->tujuanutama = new Riset2HasilSpModel();
         $this->data_tabel_sp_riset2 = new Riset2HasilSpModel();
     }
 
@@ -94,12 +96,27 @@ class Riset2 extends BaseController
             'pt_27' => $this->pendidikantertinggi_riset2->getByPendidikanTertinggi("7"),
         ];
 
+        $tu = [
+            'tu1' => $this->tujuanutama->getByTujuanUtama("1"),
+            'tu2' => $this->tujuanutama->getByTujuanUtama("2"),
+            'tu3' => $this->tujuanutama->getByTujuanUtama("3"),
+            'tu4' => $this->tujuanutama->getByTujuanUtama("4"),
+            'tu5' => $this->tujuanutama->getByTujuanUtama("5"),
+            'tu6' => $this->tujuanutama->getByTujuanUtama("6"),
+            'tu7' => $this->tujuanutama->getByTujuanUtama("7"),
+            'tu8' => $this->tujuanutama->getByTujuanUtama("8"),
+            'tu9' => $this->tujuanutama->getByTujuanUtama("9"),
+            'tu10' => $this->tujuanutama->getByTujuanUtama("10"),
+            'tu11' => $this->tujuanutama->getByTujuanUtama("11"),
+        ];
+
         $data = [
             'judul' => 'Hasil Penelitian | Banyak Wisatawan & Perjalanan Wisata',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
-            'pt_2' => $pt_2
+            'pt_2' => $pt_2,
+            'tu' => $tu,
         ];
         return view('pvd/pages/dasbor/riset2/hasil_penelitian/kajian1', $data);
     }
