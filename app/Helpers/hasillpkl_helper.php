@@ -61,6 +61,22 @@ function getMenu()
           ],
         ],
         [
+          'menu' => 'Kuesioner',
+          'icon' => 'fas fa-binoculars',
+          'href' => '#menu5',
+          'id' => 'menu5',
+          'subMenu' => [
+            [
+              'subMenu' => 'Kota Surabaya',
+              'href' => '/riset1/kuesioner-sby',
+            ],
+            [
+              'subMenu' => 'Kota Malang',
+              'href' => '/riset1/kuesioner-malang',
+            ],
+          ],
+        ],
+        [
           'menu' => 'Tentang Riset 1',
           'icon' => 'fas fa-chevron-circle-left',
           'href' => '/riset1'
