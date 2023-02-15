@@ -33,6 +33,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Chart JS Plugin Sankey Chart -->
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
+<!-- Highchart -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
 <!-- Data Chart -->
 <script>
   const datajeniskelamin = <?= json_encode($jk); ?>;
@@ -48,6 +54,7 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pie_chart.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_twowaybar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
