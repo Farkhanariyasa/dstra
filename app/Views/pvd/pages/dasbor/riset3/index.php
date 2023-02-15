@@ -37,6 +37,8 @@
 <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
 <!-- Chart JS Plugin Sankey Chart -->
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
+<!-- Via CDN -->
+<script src = "https://d3js.org/d3.v7.min.js"></script>
 
 <!-- Data Chart -->
 <script>
