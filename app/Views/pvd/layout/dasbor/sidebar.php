@@ -8,7 +8,7 @@
           <?php else : ?>
             <a class="nav-link " href="<?= base_url('hasil-pkl' . $m['href']) ?>">
             <?php endif; ?>
-            <span class="menu-title"><?= $m['menu']; ?></span>
+            <span class="menu-title  text-wrap"><?= $m['menu']; ?></span>
             <?php if (isset($m['subMenu'])) : ?>
               <i class="menu-arrow"></i>
             <?php endif; ?>
