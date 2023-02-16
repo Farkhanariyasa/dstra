@@ -1,0 +1,126 @@
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 90px;
+  padding: 6px;
+  font: 1.4rem sans-serif;
+  background: white;
+  border: 1px solid lightgrey;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.waffle {
+  margin: 10px;
+}
+
+.waffle-chart-legend--items {
+  display: inline-block;
+}
+
+.waffle-chart-legend--text {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.waffle-chart-legend--items:last-child .waffle-chart-legend--text:after {
+  content: " *";
+}
+
+.data-path:hover {
+  cursor: pointer;
+}
+
+.data-text {
+  transition: transform 0.2s ease-in-out;
+  fill: #666;
+}
+.data-text__value {
+  font-size: 2.5rem;
+  transform: translateY(-0.5rem);
+  opacity: 0;
+}
+.data-text--show {
+  transform: translateY(0);
+  animation: fadeGraphTextIn 0.5s forwards;
+}
+.data-text:hover {
+  user-select: none;
+}
+
+.legend-text {
+  fill: #666;
+}
+
+@keyframes fadeGraphTextIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.rect {
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 11px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 11px rgba(0, 0, 0, 0);
+  }
+}
+.class-radio {
+  margin: 5px 0;
+}
+.class-radio.class-radio-inline {
+  display: inline-block;
+}
+.class-radio input[type=radio] {
+  display: none;
+}
+.class-radio input[type=radio]:checked + label:before {
+  border-color: #337ab7;
+  animation: ripple 0.2s linear forwards;
+}
+.class-radio input[type=radio]:checked + label:after {
+  transform: scale(1);
+}
+.class-radio label {
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  padding: 0 26px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.class-radio label:before, .class-radio label:after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  transition-property: transform, border-color;
+}
+.class-radio label:before {
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.class-radio label:after {
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  transform: scale(0);
+  background: #337ab7;
+}
