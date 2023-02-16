@@ -61,7 +61,7 @@
 
 const dataUrl = 'https://raw.githubusercontent.com/evisat/6COSC006W-data-vis/89f39f8b26899fa85ca3bf99cb919aace6961e7a/src/assets/data/uowdata_clean.json?token=ACL2EJVOOQQVYYVO3M4VJ2S4656HG';
 
-const div = d3.select("body")
+const div = d3.select(".filter-riset3-hasil7")
         .append("div")
         .attr("class", "tooltip")
         .style("opacity", 0)
