@@ -668,6 +668,101 @@ right connector from last child*/
 	-moz-transition: all 0.5s;
 }
 
+.boxbatas{
+    
+    align-items: flex-start;
+    display: flex;
+    color: white;
+    flex-direction: column;
+   
+}
+
+.boxbatas2{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.resizefont{
+    font-size: 15px;
+}
+
+.resizefont3{
+    font-size: 8px;
+}
+
+.sidebuttonl{
+    align-items: center;
+    display: flex;
+    flex-direction: row ;
+    height: 85px;
+    /* background-color: #2A3144; */
+}
+
+.sidebuttonr{
+    align-items: center;
+    display: flex;
+    flex-direction: row ;
+    height: 80px;
+}
+
+.slideButtonR{
+    font-size: 12px;
+	width: 0.000002px;
+	height: 0.000001px;
+	background: none;
+    border-style: hidden;
+	border-radius: 50%;
+    position: absolute;
+    color: white;
+}
+
+.slideButton{
+    position: absolute;
+    font-size: 12px;
+	width: 0.002px;
+	height: 0.5rem;
+	background: none;
+    border-style: hidden;
+	border-radius: 50%;
+    color: white;
+}
+
+.boxkerangka{
+   
+   /* background-color: #4b395f; */
+   height: 120px;
+  
+}
+
+.backrow{
+    /* background-color: red; */
+    height: 120px;
+    width: 220px; 
+    max-width: 220px;
+    max-height: 120px;
+    /* white-space: normal;
+    overflow: scroll;
+    overflow-x: unset; */
+}
+
+
+.batasan{
+    background-color: #506396;
+    height: 120px;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 230px;
+    border-radius: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 /*Time for some hover effects*/
 /*We will apply the hover effect the the lineage of the element also*/
 .tree li a:hover, .tree li a:hover+ul li a {
