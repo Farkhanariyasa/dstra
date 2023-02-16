@@ -155,7 +155,7 @@ function getMenu()
         ],
         [
           'menu' => 'Hasil Kajian',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-chart-pie',
           'href' => '#hasilkajian',
           'id' => 'hasilkajian',
           'subMenu' => [
@@ -179,7 +179,7 @@ function getMenu()
         ],
         [
           'menu' => 'Dokumen',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-file-alt',
           'href' => '#dokumen',
           'id' => 'dokumen',
           'subMenu' => [
