@@ -201,18 +201,18 @@
                 </div>
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class=" col">
-                        <div class="row ">
-                            <div class="col align-items-center d-flex flex-column mt-3">
+                        <div class="row">
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
                                     <p class="text-white ">Populasi</p>
                                 </div>
                             </div>
-                            <div class="col align-items-center d-flex flex-column mt-3">
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
                                     <p class="text-white ">Populasi Target</p>
                                 </div>
                             </div>
-                            <div class="col align-items-center d-flex flex-column mt-3">
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
                                     <p class="text-white ">Unit Observasi</p>
                                 </div>
@@ -221,8 +221,21 @@
                         </div>
                         <div class="row">
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
-                                    <p class="text-white ">Unit Sampling</p>
+                                <div class="batasan pt-2">
+                                    <div class="row backrow">
+                                        <div class="col-2 sidebuttonl">
+                                            <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
+                                        </div>
+                                        <div class="col-8 boxkerangka">
+                                            <p class="mySlides mt-4 text-white text-center">Unit Sampling</p>
+                                            <p class="mySlides text-white text-center resizefont">Primary sampling unit : Kecamatan</p>
+                                            <p class="mySlides text-white text-center resizefont">Secondary sampling unit : Blok Sensus</p>
+                                            <p class="mySlides text-white text-center resizefont">Ultimate sampling unit : Rumah Tangga</p>
+                                        </div>
+                                        <div class="col-2 sidebuttonr">
+                                            <button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
@@ -231,14 +244,32 @@
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
-                                    <p class="text-white ">Kerangka Sampel</p>
+                                <div class="batasan pt-2">
+                                    <div class="row backrow">
+                                        <div class="col-2 sidebuttonl">
+                                            <button class=" slideButton" onclick="plusDivs2(-1)">&#10094;</button>
+                                        </div>
+                                        <div class="col-8 boxkerangka">
+                                            <p class=" mySlides2 mt-4 text-white text-center">Kerangka Sample</p>
+                                            <p class=" mySlides2 text-white text-center resizefont">Tahap pertama: daftar kecamatan di Kabupaten Malang.</p>
+                                            <p class=" mySlides2 text-white text-center resizefont">Tahap kedua: daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</p>
+                                            <p class=" mySlides2 text-white text-center resizefont">Tahap ketiga: seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>
+                                        </div>
+                                        <div class="col-2 sidebuttonr">
+                                            <button class=" slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
+
+        <div class="">
+
+        </div>
 
         <!-- Sumber Data -->
         <section class="offset-header">
@@ -307,5 +338,6 @@
     </section>
 
 </section><!-- End -->
+<script src="<?= base_url('pvd/js/riset3/slider_landingpage.js') ?>"></script>
 
 <?= $this->endSection(); ?>
