@@ -25,7 +25,7 @@
               yang kegiatan utamanya bukan merupakan kegiatan karakteristik pariwisata) tidak termasuk
               dalam tenaga kerja di industri pariwisata. Di sisi lain, orang-orang yang dipekerjakan di
               suatu perusahaan milik industri pariwisata yang berpartisipasi dalam kegiatan karakteristik
-              non-pariwisata termasuk dalam tenaga kerja di industri pariwisata
+              non-pariwisata termasuk dalam tenaga kerja di industri pariwisata.
             </p>           
           </div>
         </div>
@@ -38,8 +38,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.
-            </p> 
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian1') ?>">Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</a>
           </div>
         </div>
       </div>
@@ -51,8 +50,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Menganalisis dinamika tenaga kerja di industri pariwisata.
-            </p>           
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian2') ?>">Menganalisis dinamika tenaga kerja di industri pariwisata.</a>      
           </div>
         </div>
       </div>
@@ -64,8 +62,8 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.
-            </p>           
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian3') ?>">Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.
+            </a>
           </div>
         </div>
       </div>
@@ -77,8 +75,8 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p class="text-justify">Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.
-            </p>           
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian4') ?>">Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.
+            </a>
           </div>
         </div>
       </div>
