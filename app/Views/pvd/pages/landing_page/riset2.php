@@ -415,8 +415,20 @@
                     </div>
                 </section> -->
 
+                <p class="text-justify">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <div class="text-center text-lg-start">
+                            <a class="bagan text-decoration-none">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="" >
+                                <!-- <span>Unduh</span>
+                                <i class="fas fa-download"></i> -->
+                            </a>
+                        </div>
+                    </div>
+                </p>
+
                 <section class="text-justify">
-                    * input bagan *
+                    <!-- * input bagan * -->
                     <p>Two Stage Sampling</p>
                     <ul class="text-justify">
                         <li>
