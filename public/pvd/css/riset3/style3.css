@@ -181,3 +181,31 @@ div.tooltip {
   transform: scale(0);
   background: #337ab7;
 }
+
+.isi-tujuan{
+  border-radius: 15px;
+}
+
+.tujuanfilter{
+  border-radius: 8px;
+  width: 100%;
+  height: 6vh;
+}
+
+.datatujuan{
+  background-color: white;
+  border-radius: 15px;
+  display: none;
+  
+}
+
+.judul-card{
+  background-color: #506396;
+  height: 40px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
