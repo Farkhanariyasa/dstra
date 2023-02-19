@@ -160,7 +160,121 @@
                 <p>
                     <b>CAKUPAN PENELITIAN</b>
                 </p>
-                <ul class="text-justify">
+                <!-- Populasi  -->
+                <div>
+                <div class="card konten2 third5 par mb-3 mx-auto  p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-users"></i>
+                        <h5 class="card-title text-center"><strong>Populasi</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Populasi Target -->
+                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-friends"></i>
+                        <h5 class="card-title text-center"><strong>Populasi Target</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Unit Observasi -->
+                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-alt"></i>
+                        <h5 class="card-title text-center"><strong>Unit Observasi</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <!-- <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p> -->
+                    </div>
+                </div>
+
+                <!-- Secondary Sampling Unit -->
+                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-city"></i>
+                        <h5 class="card-title text-center"><strong>Secondary Sampling Unit</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <p class="card-text text-center">
+                            <div class="text-center">Blok Sensus</div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Primary Sampling Unit -->
+                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-home"></i>
+                        <h5 class="card-title text-center"><strong>Primary Sampling Unit</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <p class="card-text text-center">
+                            <div class="text-center">Rumah Tangga</div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Unit Analisis -->
+                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-alt"></i>
+                        <h5 class="card-title text-center"><strong>Unit Analisis</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">2180</div>
+                        </p>
+                        <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Kerangka Sampel -->
+                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box">
+                    <div class="card-body text-center">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h5 class="card-title text-center"><strong>Kerangka Sampel</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, magnam.</div>
+                        </p>
+                        <!-- <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p> -->
+                    </div>
+                </div>
+
+                <!-- Variabel Pembantu -->
+                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box">
+                    <div class="card-body text-center">
+                        <i class="fas fa-cubes"></i>
+                        <h5 class="card-title text-center"><strong>Variabel Pembantu</strong></h5>
+                        <p class="card-text text-center">
+                            <div class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nam.</div>
+                        </p>
+                        <!-- <p class="card-text text-center">
+                            <div class="text-center">Anggota Rumah Tangga</div>
+                        </p> -->
+                    </div>
+                </div>
+                </div>
+
+                <!-- <ul class="text-justify">
                     <li>
                         <strong>Populasi</strong> <br>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
@@ -196,7 +310,7 @@
                         <strong>Variabel Pembantu</strong> <br>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta odio tempora eligendi totam, numquam mollitia ipsa veritatis aliquid minus!
                     </li>
-                </ul>
+                </ul> -->
             </div>
 
             <!-- DESAIN SAMPLING -->
@@ -493,7 +607,7 @@
                         <div class="carousel-inner">
                             <!-- SKEMA SAMPLING -->
                             <div class="carousel-item active">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -535,7 +649,7 @@
 
                             <!-- RUMUS OVERALL SAMPLING FRACTION -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -577,7 +691,7 @@
 
                             <!-- RUMUS DESIGN WEIGHT -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -619,7 +733,7 @@
 
                             <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -661,7 +775,7 @@
 
                             <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -703,7 +817,7 @@
 
                             <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card kecil mx-2 p-3">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -761,7 +875,7 @@
                         <div class="carousel-inner">
                             <!-- SKEMA SAMPLING -->
                             <div class="carousel-item active">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -803,7 +917,7 @@
 
                             <!-- RUMUS OVERALL SAMPLING FRACTION -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -845,7 +959,7 @@
 
                             <!-- RUMUS DESIGN WEIGHT -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -887,7 +1001,7 @@
 
                             <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -929,7 +1043,7 @@
 
                             <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
@@ -971,7 +1085,7 @@
 
                             <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                             <div class="carousel-item ">
-                                <div class="konten1 row w-75 mx-auto">
+                                <div class="konten2 row w-75 mx-auto">
                                     <div class="card p-2">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
