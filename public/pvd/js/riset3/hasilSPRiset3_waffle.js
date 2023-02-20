@@ -160,11 +160,11 @@ function bakeWaffles(data, title) {
 
         const myColors = d3.scaleOrdinal()
             .domain(["UoW Halls", "Commuter", "Other inc. Private Halls", "Unknown"])
-            .range(["#EDAE49", "#D1495B", "#00798C", "#424B54"]);
+            .range(["#ffab00", "#506396","#4b395f","#b35c74"]);
   
   const ttColors = d3.scaleOrdinal()
             .domain(["UoW Halls", "Commuter", "Other inc. Private Halls", "Unknown"])
-            .range(["#ba8839", "#91323f", "#00515e", "#23282d"]);
+            .range(["#ffab00", "#506396","#4b395f","#b35c74"]);
 
         //value of a square
         total = d3.sum(data, function(d) {
@@ -269,7 +269,7 @@ function bakeWaffles(data, title) {
 function generateLegend(d) {
         const myColors = d3.scaleOrdinal()
             .domain(["UoW Halls", "Commuter", "Other inc. Private Halls", "Unknown"])
-            .range(["#EDAE49", "#D1495B", "#00798C", "#424B54"]);
+            .range(["#ffab00", "#506396","#4b395f","#b35c74"]);
 
 
         const legendDiv = d3.select("#legend");
