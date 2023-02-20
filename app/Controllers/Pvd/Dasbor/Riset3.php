@@ -21,6 +21,15 @@ class Riset3 extends BaseController
     }
     public function index()
     {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dasbor Riset 3',
+            'menu' => $menu['riset3'],
+        ];
+        return view('pvd/pages/dasbor/riset3/index', $data);
+    }
+    public function tempviz()
+    {
         // jenis usaha
         $ji = [
             'ji1' => $this->jenisindustri->getByJenisIndustri("1"),
@@ -62,7 +71,7 @@ class Riset3 extends BaseController
             'jk_1' => $jk_1,
             'pd_1' => $pd_1
         ];
-        return view('pvd/pages/dasbor/riset3/index', $data);
+        return view('pvd/pages/dasbor/riset3/tempviz', $data);
     }
 
     // menu Hasil Kajian
