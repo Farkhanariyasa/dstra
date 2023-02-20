@@ -632,6 +632,10 @@ h1.headline {
         padding-left: 0;
         padding-right: 0;
     }
+
+    #fourthSec button{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 768px) {
@@ -673,6 +677,10 @@ h1.headline {
 
     .rumus{
         width: 10px;
+    }
+
+    #fourthSec button{
+        font-size: medium;
     }
 
     /* .bukulaporan{
