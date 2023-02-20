@@ -174,6 +174,7 @@ section {
     width: 230px;
     border-radius: 25px;
 }
+
 .tombol {
     display: inline-block;
     font-weight: 400;
@@ -285,6 +286,111 @@ section {
 .konten2 {
     width: 75%;
 }
+
+.angka{
+    color: #b35c74;
+    font-weight: 900;
+    font-size: xx-large;
+    line-height: 40px;
+}
+
+.ikon{
+    font-size: x-large;
+}
+
+/* fourthSec */
+/* #fourthSec { */
+    /* background-image: url(/img/landing_page/riset1/Hasil_Penelitian.png); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: center; */
+    /* min-height: 700px; */
+/* } */
+
+/* #fourthSec .kontenH {
+    background: #b35c74;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 67px;
+    width: 85%;
+} */
+
+/* #fourthSec .card {
+    background-color: #F7F5F9;
+    border-radius: 25px;
+} */
+
+/* #fourthSec h5 {
+    color: #b35c74;
+    font-weight: bold;
+    font-size: 1.7rem;
+} */
+
+/* #fourthSec img {
+    height: 100%;
+} */
+
+/* #fourthSec .ornamen3 {
+    height: auto;
+    width: 110%;
+    position: absolute;
+    top: 35%;
+    left: -65px;
+} */
+
+/* #fourthSec .info {
+    width: 40%;
+    color: #0A5446;
+} */
+
+/* #fourthSec .kgambar {
+    width: 53%;
+} */
+
+#fourthSec .kontener {
+    position: relative;
+}
+
+#fourthSec .overlay {
+    position: absolute;
+    top: 20;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    /* width: 100%; */
+    /* padding: 25%; */
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 25px;
+    background-color: rgba(219, 215, 223, 0.65);
+    color: #FFFFFF;
+}
+
+#fourthSec button{
+    background: #7382ab;
+    border-radius: 2.75rem;
+    align-items: center;
+    /* text-align: center; */
+    /* position: fixed; */
+    /* margin: auto; */
+    /* display: flex; */
+    /* margin-top: 100%; */
+    /* text-decoration: none; */
+    font-size: x-large;
+}
+
+#fourthSec button:hover{
+    text-decoration: none;
+}
+
+#fourthSec .kontener:hover .overlay {
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* #fourthSec .kontener:hover .overlay .popup{
+    cursor: pointer;
+} */
 
 /* .konten2:hover { */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -574,100 +680,6 @@ h1.headline {
     } */
 }
 
-/*Now the CSS*/
-/* * {margin: 0; padding: 0;} */
-
-.tree {
-    display: inline;
-}
-
-.tree ul {
-	padding-top: 10px; 
-    position: relative;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-}
-
-.tree li {
-	float: left;
-    text-align: center;
-	list-style-type: none;
-	position: relative;
-	padding: 20px 5px 0 5px;
-	
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-}
-
-/*We will use ::before and ::after to draw the connectors*/
-
-.tree li::before, .tree li::after{
-	content: '';
-	position: absolute; top: 0; right: 50%;
-	border-top: 1px solid #ccc;
-	width: 50%; height: 20px;
-}
-.tree li::after{
-	right: auto; left: 50%;
-	border-left: 1px solid #ccc;
-}
-
-/*We need to remove left-right connectors from elements without 
-any siblings*/
-.tree li:only-child::after, .tree li:only-child::before {
-	display: none;
-}
-
-/*Remove space from the top of single children*/
-.tree li:only-child{ padding-top: 0;}
-
-/*Remove left connector from first child and 
-right connector from last child*/
-.tree li:first-child::before, .tree li:last-child::after{
-	border: 0 none;
-}
-/*Adding back the vertical connector to the last nodes*/
-.tree li:last-child::before{
-	border-right: 1px solid #ccc;
-	border-radius: 0 5px 0 0;
-	-webkit-border-radius: 0 5px 0 0;
-	-moz-border-radius: 0 5px 0 0;
-}
-.tree li:first-child::after{
-	border-radius: 5px 0 0 0;
-	-webkit-border-radius: 5px 0 0 0;
-	-moz-border-radius: 5px 0 0 0;
-}
-
-/*Time to add downward connectors from parents*/
-.tree ul ul::before{
-	content: '';
-	position: absolute; 
-    top: 0; left: 50%;
-	border-left: 1px solid #ccc;
-	width: 0; height: 20px;
-}
-
-.tree li a{
-	border: 1px solid #ccc;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: #666;
-	/* font-family: arial, verdana, tahoma; */
-	font-size: 11px;
-	display: inline-block;
-	
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-}
-
 .boxbatas{
     
     align-items: flex-start;
@@ -762,6 +774,22 @@ right connector from last child*/
     padding-left: 3px;
     padding-right: 3px;
 }
+
+.batasan2{
+    background-color: #fff;
+    height: 120px;
+    /* color: white; */
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 230px;
+    border-radius: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
 
 /*Time for some hover effects*/
 /*We will apply the hover effect the the lineage of the element also*/
