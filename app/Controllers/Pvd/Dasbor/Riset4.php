@@ -154,7 +154,7 @@ class Riset4 extends BaseController
             'judul' => 'Deskripsi Singkat',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu4/submenu1', $data);
+        return view('pvd/pages/dasbor/riset4/ikuptik/deskripsi_umum', $data);
     }
 
     public function menu4submenu2()
@@ -164,7 +164,7 @@ class Riset4 extends BaseController
             'judul' => 'Dimensi',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu4/submenu2', $data);
+        return view('pvd/pages/dasbor/riset4/ikuptik/dimensi', $data);
     }
 
     public function menu4submenu3()
@@ -174,7 +174,7 @@ class Riset4 extends BaseController
             'judul' => 'Kecamatan',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu4/submenu3', $data);
+        return view('pvd/pages/dasbor/riset4/ikuptik/kecamatan', $data);
     }
 
     public function menu4submenu4()
@@ -184,7 +184,7 @@ class Riset4 extends BaseController
             'judul' => 'Jenis Unit Usaha',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu4/submenu4', $data);
+        return view('pvd/pages/dasbor/riset4/ikuptik/jenis_unit_usaha', $data);
     }
 
 }
