@@ -194,6 +194,83 @@
             </div>
         </section>
 
+        <!-- Metodologi Slider -->
+        <section class="offset-header">
+            <div class="container-fluid turun">
+
+                
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <!-- Survei 1 -->
+                            <div class="carousel-item active">
+                                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
+                                    <p class="text-justify" style="font-weight: bold">
+                                        Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
+                                        Metode Pengambilan Sampel: Purposive Sampling
+                                    <ul>
+                                        <li class="text-justify">Tahap pertama, Dari daftar pegawai diambil pegawai yang eligible, yaitu
+                                            pegawai dengan provider
+                                            telkomsel dan/atau indosat sebagai relawan dan dilakukan pencacahan tahap Pegawai.
+                                        </li>
+                                        <li class="text-justify">Tahap kedua, Dari pencacahan tahap pegawai dilakukan pencacahan ke
+                                            level
+                                            keluarga pegawai
+                                            tersebut. Pada penelitian ini, keluarga pegawai yang dicacah dibatasi hanya yang berdomisili
+                                            di
+                                            Surabaya atau beberapa kecamatan (Kecamatan Taman, Sukodono, Buduran, Waru, Gedangan, dan
+                                            Sedati) di
+                                            Sidoarjo.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Survei 2 -->
+                            <div class="carousel-item">
+                                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
+                                    <p class="text-justify" style="font-weight: bold">
+                                        Survei 2: Survei Integrasi (Pilot Survei Riset 2)
+                                        Metode Pengambilan Sampel: Two Stage Sampling
+                                    <ul>
+                                        <li class="text-justify">Tahap pertama, mengambil sejumlah blok sensus dengan Probability
+                                            Proportional to Size With
+                                            Replacement dengan size jumlah keluarga di tiap blok sensus hasil pemutakhiran Sensus
+                                            Penduduk
+                                            2020
+                                        </li>
+                                        <li class="text-justify">Tahap kedua, mengambil rumah tangga menggunakan Systematic Sampling
+                                            dengan
+                                            jumlah anggota rumah
+                                            tangga sebagai variabel dasar pengurutan
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                
+    
+                <!-- end konten -->
+            </div>
+        </section>
+
+
+
         <!-- Hasil Penelitian -->
         <section class="offset-header">
             <div class="container-fluid turun">
