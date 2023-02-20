@@ -19,12 +19,16 @@ function getMenu()
           'id' => 'double_counting',
           'subMenu' => [
             [
-              'subMenu' => 'Visualisasi',
-              'href' => '/riset1/doublecounting-visualisasi',
+              'subMenu' => 'Algoritma 1',
+              'href' => '/riset1/doublecounting-algoritma-1',
             ],
             [
-              'subMenu' => 'Tabulasi',
-              'href' => '/riset1/doublecounting-tabulasi',
+              'subMenu' => 'Algoritma 2',
+              'href' => '/riset1/doublecounting-algoritma-2',
+            ],
+            [
+              'subMenu' => 'Algoritma 3',
+              'href' => '/riset1/doublecounting-algoritma-3',
             ],
           ],
         ],
