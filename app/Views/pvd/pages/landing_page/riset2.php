@@ -1269,7 +1269,7 @@
                     <div>
                         <div class="text-center text-lg-start kontener">
                             <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block" alt="" >
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="" >
                                 <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
                                     <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
                                     <div class="d-flex justify-content-center my-auto">
