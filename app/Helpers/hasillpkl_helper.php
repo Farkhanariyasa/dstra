@@ -19,12 +19,16 @@ function getMenu()
           'id' => 'double_counting',
           'subMenu' => [
             [
-              'subMenu' => 'Visualisasi',
-              'href' => '/riset1/doublecounting-visualisasi',
+              'subMenu' => 'Algoritma 1',
+              'href' => '/riset1/doublecounting-algoritma-1',
             ],
             [
-              'subMenu' => 'Tabulasi',
-              'href' => '/riset1/doublecounting-tabulasi',
+              'subMenu' => 'Algoritma 2',
+              'href' => '/riset1/doublecounting-algoritma-2',
+            ],
+            [
+              'subMenu' => 'Algoritma 3',
+              'href' => '/riset1/doublecounting-algoritma-3',
             ],
           ],
         ],
@@ -160,6 +164,10 @@ function getMenu()
           'id' => 'hasilkajian',
           'subMenu' => [
             [
+              'subMenu' => 'Template visualisasi',
+              'href' => '/riset3/tempviz',
+            ],
+            [
               'subMenu' => 'Tujuan 1',
               'href' => '/riset3/hasilkajian1',
             ],
@@ -204,12 +212,12 @@ function getMenu()
       [
         [
           'menu' => 'Dasbor',
-          'icon' => 'fas fa-newspaper',
+          'icon' => 'fa-solid fa-chart-simple',
           'href' => '/riset4/dasbor',
         ],
         [
           'menu' => 'Karakteristik Umum Unit Usaha',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-shop',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
@@ -229,7 +237,7 @@ function getMenu()
         ],
         [
           'menu' => 'Karakteristik Kesiapan UUP',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-list-check',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
@@ -261,7 +269,7 @@ function getMenu()
         ],
         [
           'menu' => 'IKUPTIK',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-calculator',
           'href' => '#menu4',
           'id' => 'menu4',
           'subMenu' => [

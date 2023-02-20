@@ -47,8 +47,9 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Dasbor
         $routes->get('dasbor', 'Riset1::index');
         // Double Counting
-        $routes->get('doublecounting-visualisasi', 'Riset1::double_counting_visualisasi'); // Visualisasi
-        $routes->get('doublecounting-tabulasi', 'Riset1::double_counting_tabulasi'); // Tabulasi
+        $routes->get('doublecounting-algoritma-1', 'Riset1::double_counting_algoritma1'); // Algoritma 1
+        $routes->get('doublecounting-algoritma-2', 'Riset1::double_counting_algoritma2'); // Algoritma 2
+        $routes->get('doublecounting-algoritma-3', 'Riset1::double_counting_algoritma3'); // Algoritma 3
         // Family Grouping
         $routes->get('familygrouping-visualisasi', 'Riset1::family_grouping_visualisasi'); // Visualisasi
         $routes->get('familygrouping-tabulasi', 'Riset1::family_grouping_tabulasi'); // Tabulasi
@@ -56,8 +57,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Visualisasi
         $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Tabulasi
         // Kuesioner
-        $routes->get('kuesioner-sby', 'Riset1::kuesioner_sby'); // Visualisasi
-        $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Tabulasi
+        $routes->get('kuesioner-sby', 'Riset1::kuesioner_sby'); // Surabaya
+        $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Malang
 
 
         // python script
@@ -82,6 +83,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset3::index');
+        $routes->get('tempviz', 'Riset3::tempviz');
         // Menu 2
         $routes->get('hasilkajian1', 'Riset3::hasilkajian1'); // Hasil Kajian Tujuan 1
         $routes->get('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
