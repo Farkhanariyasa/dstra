@@ -3,15 +3,19 @@ const pie_chart = document.getElementById("pie_chart");
 const diagram_lingkaran = new Chart(pie_chart, {
   type: "pie",
   data: {
-    labels: ["Red", "Blue", "Yellow"],
+    labels: [
+      "Ke Objek Wisata",
+      "Menginap di Akomodasi Komersial",
+      "Menuju ke Kecamatan Lain",
+    ],
     datasets: [
       {
-        label: "My First Dataset",
+        label: "Jumlah",
         data: [300, 50, 100],
         backgroundColor: [
-          "rgb(255, 99, 132)",
-          "rgb(54, 162, 235)",
-          "rgb(255, 205, 86)",
+          "#ffab00",
+          "#506396",
+          "#c27d90",
         ],
         hoverOffset: 4,
       },
@@ -23,7 +27,7 @@ const diagram_lingkaran = new Chart(pie_chart, {
     plugins: {
       title: {
         display: true,
-        text: "Pie Chart",
+        text: "Estimasi Total Perjalanan Menurut Tujuan Utama di Kota Malang Bulan Oktober-Desember 2022",
         font: {
           size: 18,
         },
