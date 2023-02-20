@@ -182,9 +182,7 @@
                     </div>
 
                     <div style=" height:500px;">
-                        <figure class="highcharts-figure">
-                            <div id="container"></div>
-                        </figure>
+                        <canvas class="mt1" id="container"></canvas>
                     </div>
                 </div>
             </div>
