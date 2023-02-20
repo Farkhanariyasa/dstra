@@ -64,7 +64,7 @@ class Riset4 extends BaseController
             'judul' => 'Pemilik atau Pengelola Usaha Pariwisata',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu2/submenu1', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemilik_atau_pengelola_usaha_pariwisata', $data);
     }
 
     public function menu2submenu2()
@@ -74,7 +74,7 @@ class Riset4 extends BaseController
             'judul' => 'Usaha Pariwisata',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu2/submenu2', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/usaha_pariwisata', $data);
     }
 
     public function menu2submenu3()
@@ -84,7 +84,7 @@ class Riset4 extends BaseController
             'judul' => 'Pemanfaatan TIK',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu2/submenu3', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemanfaatan_tik', $data);
     }
 
     public function menu3submenu1()
@@ -94,7 +94,7 @@ class Riset4 extends BaseController
             'judul' => 'Infrastruktur dan Konektivitas',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu1', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/infrastruktur_dan_konektivitas', $data);
     }
 
     public function menu3submenu2()
@@ -104,7 +104,7 @@ class Riset4 extends BaseController
             'judul' => 'Penggunaan TIK',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu2', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/penggunaan_tik', $data);
     }
 
     public function menu3submenu3()
@@ -114,7 +114,7 @@ class Riset4 extends BaseController
             'judul' => 'Sumber Daya Manusia',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu3', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/sumber_daya_manusia', $data);
     }
 
     public function menu3submenu4()
@@ -124,7 +124,7 @@ class Riset4 extends BaseController
             'judul' => 'Manajemen Organisasi',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu4', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/manajemen_organisasi', $data);
     }
 
     public function menu3submenu5()
@@ -134,7 +134,7 @@ class Riset4 extends BaseController
             'judul' => 'Kesiapan Lingkungan Eksternal',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu5', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kesiapan_lingkungan_eksternal', $data);
     }
 
     public function menu3submenu6()
@@ -144,7 +144,7 @@ class Riset4 extends BaseController
             'judul' => 'Kendala dalam Pemanfaatan TIK',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/menu3/submenu6', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kendala_dalam_pemanfaatan_tik', $data);
     }
 
     public function menu4submenu1()
