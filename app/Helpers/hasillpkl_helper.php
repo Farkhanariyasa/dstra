@@ -164,6 +164,10 @@ function getMenu()
           'id' => 'hasilkajian',
           'subMenu' => [
             [
+              'subMenu' => 'Template visualisasi',
+              'href' => '/riset3/tempviz',
+            ],
+            [
               'subMenu' => 'Tujuan 1',
               'href' => '/riset3/hasilkajian1',
             ],
@@ -264,10 +268,28 @@ function getMenu()
           ],
         ],
         [
-          'menu' => 'Indeks Kesiapan Unit Usaha',
+          'menu' => 'IKUPTIK',
           'icon' => 'fas fa-binoculars',
-          'href' => '/riset4/indeks_kesiapan_unit_usaha',
-          'id' => 'menu4'
+          'href' => '#menu4',
+          'id' => 'menu4',
+          'subMenu' => [
+            [
+              'subMenu' => 'Deskripsi Singkat',
+              'href' => '/riset4/deskripsi_singkat',
+            ],
+            [
+              'subMenu' => 'Dimensi',
+              'href' => '/riset4/dimensi',
+            ],
+            [
+              'subMenu' => 'Kecamatan',
+              'href' => '/riset4/kecamatan',
+            ],
+            [
+              'subMenu' => 'Jenis Unit Usaha',
+              'href' => '/riset4/jenis_unit_usaha',
+            ],
+          ],
         ],
         [
           'menu' => 'Tentang Riset 4',

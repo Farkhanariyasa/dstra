@@ -36,12 +36,12 @@
           <div class="accordion-body">
             <ol class="text-justify">
               <li>
-                Menemukan metode untuk mengelompokkan individu yang termasuk dalam satu
+                Membangun metode untuk mengelompokkan individu yang termasuk dalam satu
                 rumah tangga berdasarkan usual environment dan pola perjalanan wisata (family
                 grouping).
               </li>
               <li>
-                Menemukan metode untuk mengidentifikasi double counting berdasarkan pola
+                Membangun metode untuk mengidentifikasi double counting berdasarkan pola
                 perjalanan individu yang menggunakan lebih dari satu nomor Telkomsel dan/atau
                 Indosat berbeda dalam satu perangkat.
               </li>

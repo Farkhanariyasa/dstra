@@ -83,6 +83,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset3::index');
+        $routes->get('tempviz', 'Riset3::tempviz');
         // Menu 2
         $routes->get('hasilkajian1', 'Riset3::hasilkajian1'); // Hasil Kajian Tujuan 1
         $routes->get('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
@@ -108,7 +109,11 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
         $routes->get('kendala_dalam_pemanfaatan_tik', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
         // Menu 4
-        $routes->get('indeks_kesiapan_unit_usaha', 'Riset4::menu4submenu1'); //Menu 4
+        $routes->get('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
+        $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
+        $routes->get('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
+        $routes->get('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
+
     });
 
 
