@@ -182,7 +182,7 @@
                     </div>
 
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="container"></canvas>
+                        <canvas class="mt1" id="twoway_bar"></canvas>
                     </div>
                 </div>
             </div>
