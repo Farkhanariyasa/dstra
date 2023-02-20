@@ -160,9 +160,102 @@
                 <p>
                     <b>CAKUPAN PENELITIAN</b>
                 </p>
-                <!-- Populasi  -->
+                
                 <div>
-                <div class="card konten2 third5 par mb-3 mx-auto  p-1 p-md-1 shadow box col-md-4">
+                    <div class="col">
+                        <div class="row">
+                            <!-- Populasi -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-users col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center" >
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Populasi Target -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-user-friends col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi Target</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        </p>
+                                    </div>       
+                                </div>
+                            </div>
+
+                            <!-- Unit Observasi -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-user-alt col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Observasi</strong></div>
+                                            <div class="angka">2180</div>
+                                        </p>
+                                        <!-- <p class="card-text text-center">
+                                            <div class="text-center">Anggota Rumah Tangga</div>
+                                        </p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <!-- Secondary Sampling Unit -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-city col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Blok Sensus</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Primary Sampling Unit -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-home col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Primary Sampling Unit</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Rumah Tangga</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Unit Analisis -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <i class="fas fa-user-alt col-1 ikon"></i>
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Analisis</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Populasi  -->
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-users"></i>
                         <h5 class="card-title text-center"><strong>Populasi</strong></h5>
@@ -173,10 +266,10 @@
                             <div class="text-center">Anggota Rumah Tangga</div>
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Populasi Target -->
-                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-user-friends"></i>
                         <h5 class="card-title text-center"><strong>Populasi Target</strong></h5>
@@ -187,24 +280,21 @@
                             <div class="text-center">Anggota Rumah Tangga</div>
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Unit Observasi -->
-                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-user-alt"></i>
                         <h5 class="card-title text-center"><strong>Unit Observasi</strong></h5>
                         <p class="card-text text-center">
                             <div class="text-center">2180</div>
                         </p>
-                        <!-- <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p> -->
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Secondary Sampling Unit -->
-                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-city"></i>
                         <h5 class="card-title text-center"><strong>Secondary Sampling Unit</strong></h5>
@@ -215,10 +305,10 @@
                             <div class="text-center">Blok Sensus</div>
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Primary Sampling Unit -->
-                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-home"></i>
                         <h5 class="card-title text-center"><strong>Primary Sampling Unit</strong></h5>
@@ -229,10 +319,10 @@
                             <div class="text-center">Rumah Tangga</div>
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Unit Analisis -->
-                <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4">
+                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
                     <div class="card-body text-center">
                         <i class="fas fa-user-alt"></i>
                         <h5 class="card-title text-center"><strong>Unit Analisis</strong></h5>
@@ -243,35 +333,29 @@
                             <div class="text-center">Anggota Rumah Tangga</div>
                         </p>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Kerangka Sampel -->
-                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box">
-                    <div class="card-body text-center">
-                        <i class="fas fa-clipboard-list"></i>
-                        <h5 class="card-title text-center"><strong>Kerangka Sampel</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, magnam.</div>
-                        </p>
-                        <!-- <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p> -->
+                    <!-- Kerangka Sampel -->
+                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card-body text-center">
+                            <i class="fas fa-clipboard-list ikon"></i>
+                            <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
+                            <p class="card-text text-center">
+                                <div class="text-center" style="line-height: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, magnam.</div>
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Variabel Pembantu -->
-                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box">
-                    <div class="card-body text-center">
-                        <i class="fas fa-cubes"></i>
-                        <h5 class="card-title text-center"><strong>Variabel Pembantu</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nam.</div>
-                        </p>
-                        <!-- <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p> -->
+                    <!-- Variabel Pembantu -->
+                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cubes ikon"></i>
+                            <h5 class="card-title text-center" style="line-height: 20px;"><strong>Variabel Pembantu</strong></h5>
+                            <p class="card-text text-center">
+                                <div class="text-center" style="line-height: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nam.</div>
+                            </p>
+                        </div>
                     </div>
-                </div>
                 </div>
 
                 <!-- <ul class="text-justify">
@@ -620,7 +704,7 @@
                             <!-- SKEMA SAMPLING -->
                             <div class="carousel-item active">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Skema Sampling</strong>
@@ -662,7 +746,7 @@
                             <!-- RUMUS OVERALL SAMPLING FRACTION -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Overall Sampling Fraction</strong>
@@ -704,7 +788,7 @@
                             <!-- RUMUS DESIGN WEIGHT -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Design Weight</strong>
@@ -746,7 +830,7 @@
                             <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Penduga Total Karakteristik</strong>
@@ -788,7 +872,7 @@
                             <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Penduga Rata-Rata Karakteristik</strong>
@@ -830,7 +914,7 @@
                             <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card kecil mx-2 p-3">
+                                    <div class="card kecil mx-2 p-3 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Jumlah Sampel Minimum</strong>
@@ -888,7 +972,7 @@
                             <!-- SKEMA SAMPLING -->
                             <div class="carousel-item active">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Skema Sampling</strong>
@@ -930,7 +1014,7 @@
                             <!-- RUMUS OVERALL SAMPLING FRACTION -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Overall Sampling Fraction</strong>
@@ -972,7 +1056,7 @@
                             <!-- RUMUS DESIGN WEIGHT -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Design Weight</strong>
@@ -1014,7 +1098,7 @@
                             <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Penduga Total Karakteristik</strong>
@@ -1056,7 +1140,7 @@
                             <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Penduga Rata-Rata Karakteristik</strong>
@@ -1098,7 +1182,7 @@
                             <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                             <div class="carousel-item ">
                                 <div class="konten2 row w-75 mx-auto">
-                                    <div class="card p-2">
+                                    <div class="card p-2 rounded-5 shadow box">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">
                                                 <strong>Rumus Jumlah Sampel Minimum</strong>
@@ -1179,23 +1263,51 @@
                     <h1 class="headline text-center">Buku Laporan</h1>
                 </div>
             </div>
-            <!-- <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> -->
-            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                <!-- <p>
-                    <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="bukulaporan img-fluid rounded-3 w-50 mx-auto d-block" alt="" >
-                </p> -->
+
+            <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
                 <p class="text-justify">
-                    <div class="d-flex flex-row justify-content-center align-items-center">
-                        <div class="text-center text-lg-start">
-                            <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none">
+                    <div>
+                        <div class="text-center text-lg-start kontener">
+                            <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
                                 <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block" alt="" >
-                                <!-- <span>Unduh</span>
-                                <i class="fas fa-download"></i> -->
-                            </a>
+                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                    <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
+                                    <div class="d-flex justify-content-center my-auto">
+                                        <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                        <div class="text-center">
+                                            <button class="btn btn-primary gdrive" type="button">
+                                                <div>
+                                                    <i class="fas fa-download"></i>
+                                                    Unduh
+                                                </div>
+                                            </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            <!-- </a> -->
                         </div>
                     </div>
                 </p>
             </div>
+
+            <!-- <div class="card mx-3 p-1 p-md-3 kgambar" id="fourthSecc">
+                        <div class="card-body kontener">
+                            <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="d-block w-100 gambar " alt="Ornamen">
+                            <div class="overlay">
+                                <h1 class="text-center fw-bold">Buku Laporan</h1>
+                                <div class="d-grid gap-2 mx-auto">
+                                    <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                        <button class="btn btn-primary" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                                            </svg> Unduh</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
         </div>
     </section>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
