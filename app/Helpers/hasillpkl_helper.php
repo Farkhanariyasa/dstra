@@ -160,6 +160,10 @@ function getMenu()
           'id' => 'hasilkajian',
           'subMenu' => [
             [
+              'subMenu' => 'Template visualisasi',
+              'href' => '/riset3/tempviz',
+            ],
+            [
               'subMenu' => 'Tujuan 1',
               'href' => '/riset3/hasilkajian1',
             ],
