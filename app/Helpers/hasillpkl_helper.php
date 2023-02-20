@@ -212,12 +212,12 @@ function getMenu()
       [
         [
           'menu' => 'Dasbor',
-          'icon' => 'fas fa-newspaper',
+          'icon' => 'fa-solid fa-chart-simple',
           'href' => '/riset4/dasbor',
         ],
         [
           'menu' => 'Karakteristik Umum Unit Usaha',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-shop',
           'href' => '#menu2',
           'id' => 'menu2',
           'subMenu' => [
@@ -237,7 +237,7 @@ function getMenu()
         ],
         [
           'menu' => 'Karakteristik Kesiapan UUP',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-list-check',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
@@ -269,7 +269,7 @@ function getMenu()
         ],
         [
           'menu' => 'IKUPTIK',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fa-solid fa-calculator',
           'href' => '#menu4',
           'id' => 'menu4',
           'subMenu' => [
