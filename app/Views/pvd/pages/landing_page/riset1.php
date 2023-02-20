@@ -122,11 +122,11 @@
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
                     <ol class="text-justify">
-                        <li>Menemukan metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga
+                        <li>Membangun metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga
                             berdasarkan
                             usual environment dan pola perjalanan wisata (family grouping).
                         </li>
-                        <li>Menemukan metode untuk mengidentifikasi double counting berdasarkan pola perjalanan individu
+                        <li>Membangun metode untuk mengidentifikasi double counting berdasarkan pola perjalanan individu
                             yang menggunakan lebih dari satu nomor Telkomsel dan/atau Indosat berbeda dalam satu
                             perangkat.
                         </li>
