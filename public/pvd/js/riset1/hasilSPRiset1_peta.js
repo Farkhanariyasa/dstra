@@ -1,4 +1,4 @@
-var mapsby = L.map("map").setView([-7.24917, 112.75083], 13);
+var mapsby = L.map("map").setView([-7.24917, 112.75083], 11);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
@@ -2262,7 +2262,7 @@ var polygonsby = L.polygon([
 ]).addTo(mapsby);
 
 
-var mapmalang = L.map("map2").setView([-7.9797, 112.6304], 13);
+var mapmalang = L.map("map2").setView([-7.9797, 112.6304], 12);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
