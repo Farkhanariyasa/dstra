@@ -151,10 +151,40 @@ class Riset4 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Indeks Kesiapan Unit Usaha',
+            'judul' => 'Deskripsi Singkat',
             'menu' => $menu['riset4'],
         ];
         return view('pvd/pages/dasbor/riset4/menu4/submenu1', $data);
+    }
+
+    public function menu4submenu2()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dimensi',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu4/submenu2', $data);
+    }
+
+    public function menu4submenu3()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Kecamatan',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu4/submenu3', $data);
+    }
+
+    public function menu4submenu4()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Jenis Unit Usaha',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/menu4/submenu4', $data);
     }
 
 }
