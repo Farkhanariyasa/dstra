@@ -220,6 +220,29 @@
     </div>
 </div>
 
+<div class=" portfolio-item filter-riset1-hasil5" onresize="responsivefonts()">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="<?= base_url('pvd/html/map_1.html'); ?>"
+                            style="width:100%; height:500px;"
+                            ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Modal Riset 1 -->

@@ -1,26 +1,28 @@
-const tu_bar = document.getElementById("tu_bar");
+const pt_barhorizontal = document.getElementById("pt_barhorizontal");
 
-const batang_tu = new Chart(tu_bar, {
+const pt_bar = new Chart(pt_barhorizontal, {
     type: "bar",
     data: {
         labels: [
-        "Berlibur/Rekreasi",
-        "Mengunjungi Teman/Keluarga",
-        "Pendidikan/Pelatihan",
-        "Belanja",
-        "Profesi/Bisnis",
-        "Olahraga/Kesenian",
+        "S2/S3",
+        "D4/S1",
+        "D1/D2/D3",
+        "SMA/MA/SMK/Setara",
+        "SMP/MTs/Setara",
+        "SD/MI/Setara",
+        "Tidak/Belum Sekolah/Tidak Tamat SD/MI",
         ],
         datasets: [
         {
             label: "Jumlah Wisatawan",
             data: [
-            datatujuanutama.tu1,
-            datatujuanutama.tu7,
-            datatujuanutama.tu4,
-            datatujuanutama.tu10,
-            datatujuanutama.tu2,
-            datatujuanutama.tu9,
+            datapendidikantertinggi_riset2.pt_21,
+            datapendidikantertinggi_riset2.pt_22,
+            datapendidikantertinggi_riset2.pt_23,
+            datapendidikantertinggi_riset2.pt_24,
+            datapendidikantertinggi_riset2.pt_25,
+            datapendidikantertinggi_riset2.pt_26,
+            datapendidikantertinggi_riset2.pt_27,
             ],
             borderWidth: 1,
             backgroundColor: ["#ffab00"],
@@ -33,7 +35,7 @@ const batang_tu = new Chart(tu_bar, {
         scales: {
         x: {
             beginAtZero: true,
-            // max: 25,
+            max: 25,
             title: {
             display: true,
             text: "Jumlah Wisatawan",
@@ -50,7 +52,7 @@ const batang_tu = new Chart(tu_bar, {
         y: {
             title: {
             display: true,
-            text: "Tujuan Utama",
+            text: "Tingkat Pendidikan",
             font: {
                 size: 12,
                 style: "normal",
@@ -66,7 +68,7 @@ const batang_tu = new Chart(tu_bar, {
         plugins: {
         title: {
             display: true,
-            text: "Sebaran Penduduk yang melakukan Perjalanan Wisata berdasarkan Tujuan Utama",
+            text: "Sebaran Penduduk yang Melakukan Perjalanan Wisata berdasarkan Tingkat Pendidikan Terakhir yang Ditamatkan",
             font: {
             size: 14,
             },

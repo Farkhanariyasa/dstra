@@ -1,65 +1,87 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
+
 <?= $this->section('content'); ?>
-<section id="portfolio" class="portfolio section-bg">
-  <div class="container">
-    <header class="section-header">
-      <p>Tenaga Kerja di Industri Pariwisata</p>
-    </header>
+
+<div class="container px-0">
+      <header class="section-header">
+        <h6 style="color: #4b395f;"><strong>Tenaga Kerja di Industri Pariwisata</strong></h6>
+      </header>
     <hr class="hrjudul">
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset3-hasil1">Column Chart</li>
-          <li data-filter=".filter-riset3-hasil2">Doughnut & Pie Chart</li>
-          <li data-filter=".filter-riset3-hasil3">Spider Chart</li>
-          <li data-filter=".filter-riset3-hasil4">Stacked Bar Chart</li>
-          <li data-filter=".filter-riset3-hasil5">Boxplot</li>
-          <li data-filter=".filter-riset3-hasil6">Sankey Diagram</li>
-          <li data-filter=".filter-riset3-hasil7">Waffle Chart</li>
-          <li data-filter=".filter-riset3-peta">Peta Lokus</li>
-        </ul>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item my-3">
+        <h3 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Gambaran Umum
+          </button>
+        </h3>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-justify">Tenaga kerja di industri pariwisata menggunakan pendekatan industri, yaitu
+              mencakup semua orang yang terlibat dalam kegiatan industri pariwisata baik yang
+              berpartisipasi dalam kegiatan yang bersifat pariwisata maupun kegiatan yang bersifat
+              non-pariwisata. Orang-orang yang terlibat dalam kegiatan karakteristik pariwisata dari suatu
+              perusahaan yang termasuk dalam industri non-pariwisata (misalnya, semua perusahaan
+              yang kegiatan utamanya bukan merupakan kegiatan karakteristik pariwisata) tidak termasuk
+              dalam tenaga kerja di industri pariwisata. Di sisi lain, orang-orang yang dipekerjakan di
+              suatu perusahaan milik industri pariwisata yang berpartisipasi dalam kegiatan karakteristik
+              non-pariwisata termasuk dalam tenaga kerja di industri pariwisata.
+            </p>           
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item my-3">
+        <h3 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Tujuan 1
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian1') ?>">Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</a>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item my-3">
+        <h3 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Tujuan 2
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian2') ?>">Menganalisis dinamika tenaga kerja di industri pariwisata.</a>      
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item my-3">
+        <h3 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Tujuan 3
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian3') ?>">Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item my-3">
+        <h3 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Tujuan 4
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <a class="nav-link" href="<?= base_url('hasil-pkl/riset3/hasilkajian4') ?>">Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row portfolio-container">
-      <?php include('dummy_riset3.php') ?>
-    </div>
-  </div>
-</section>
-<!-- Istope -->
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-<!-- Chart JS -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- Chart JS Plugin Boxplot -->
-<script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
-<!-- Chart JS Plugin Sankey Chart -->
-<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
-<!-- D3 JS -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
+</div>
 
-<!-- Riset 3 CSS -->
-<link rel="stylesheet" href="<?= base_url('pvd/css/riset3/style3.css'); ?>">
-
-<!-- Data Chart -->
-<script>
-  const datajenisindustri = <?= json_encode($ji); ?>;
-  const datapendidikantertinggi = <?= json_encode($pt); ?>;
-  const datajeniskelamin_riset3 = <?= json_encode($jk_1); ?>;
-  const datapendapatan_riset3 = <?= json_encode($pd_1); ?>;
-</script>
-<!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_pie.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_ji_doughnut.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pt_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_stackedbarchart.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_radar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_pd_box.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_sankey.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset3/hasilSPRiset3_waffle.js') ?>"></script>
-
-<!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
 <?= $this->endSection(); ?>
+

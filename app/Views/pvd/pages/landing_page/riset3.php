@@ -102,8 +102,8 @@
                         <h1 class="headline text-center">Batasan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class=" boxbatas col-6 col-sm-6 pt-2 ">
+                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box justify-content-center" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class=" boxbatas col-6 col-sm-4 pt-2 ">
                         <div class="batasan">
                             <p class="text-white ">Objek</p>
                         </div>
