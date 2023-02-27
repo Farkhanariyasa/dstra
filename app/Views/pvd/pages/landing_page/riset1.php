@@ -78,9 +78,10 @@
                             tidak
                             sama. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel sebagai penentu
                             mobile
-                            positioning, wisatawan tersebut akan terhitung sebanyak dua kali. Dengan kata lain akan
-                            terjadi
-                            double counting pada data MPD.
+                            positioning, wisatawan tersebut akan terhitung sebanyak dua kali sehingga seolah-olah kedua 
+                            nomor 
+                            tersebut dimiliki oleh dua orang yang berbeda, atau dengan kata lain terjadi double counting 
+                            pada data MPD.
                         </p>
                         <p class="text-justify">
                             Dibalik kelebihan yang ditawarkannya, MPD juga memiliki kelemahan dalam mengumpulkan data
@@ -140,15 +141,15 @@
         </section>
 
         <!-- Metodologi -->
-        <section class="offset-header">
+        <!-- <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
                         <h1 class="headline text-center">Metodologi</h1>
                     </div>
-                </div>
+                </div> -->
                 <!-- konten -->
-                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
+                <!-- <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify" style="font-weight: bold">
                         Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
@@ -189,16 +190,14 @@
                         </li>
                     </ul>
                     </p>
-                </div>
+                </div> -->
                 <!-- end konten -->
-            </div>
-        </section>
+            <!-- </div>
+        </section> -->
 
         <!-- Metodologi Slider -->
         <section class="offset-header">
-            <div class="container-fluid turun">
-
-                
+            <div class="container-fluid turun">               
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
 
@@ -271,6 +270,14 @@
 
 
 
+        <section class="offset-header">
+            <div class="container-fluid turun">               
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Hasil Penelitian -->
         <section class="offset-header">
             <div class="container-fluid turun">
