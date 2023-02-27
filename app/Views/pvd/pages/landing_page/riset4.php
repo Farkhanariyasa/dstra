@@ -89,6 +89,40 @@
         </div>
     </section>
 
+    <!-- Batasan Penelitian -->
+    <section class="offset-header">
+        <div class="container-fluid turun">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-12 col-sm-12">
+                    <h1 class="headline text-center">Batasan Penelitian</h1>
+                </div>
+            </div>
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="text-justify">
+                <b>Jenis Usaha Pariwisata</b> dibatasi pada tiga jenis usaha antara lain Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
+                <br>
+                <b>Skala Usaha</b> yang digunakan dalam penelitian ini yaitu skala usaha mikro dan kecil.               
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cakupan Penelitian -->
+    <section class="offset-header">
+        <div class="container-fluid turun">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-12 col-sm-12">
+                    <h1 class="headline text-center">Cakupan Penelitian</h1>
+                </div>
+            </div>
+            <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="text-justify">
+                <b>Belom ada konten :(</b>              
+                </p>
+            </div>
+        </div>
+    </section>    
+
     <!-- Tujuan Penelitian -->
     <section class="offset-header">
         <div class="container-fluid turun">
