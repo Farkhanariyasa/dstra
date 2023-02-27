@@ -104,13 +104,15 @@
                 </div>
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box justify-content-center" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class=" boxbatas col-6 col-sm-4 pt-2 ">
-                        <div class="batasan">
-                            <p class="text-white ">Objek</p>
+                        <div class="batasan row row-cols-1 text-center">
+                            <div style="line-height: 20px;"><strong>Objek</strong></div>
+                            <div style="line-height: 20px;">Tenaga Kerja di Industri Pariwisata</div>
                         </div>
                     </div>
                     <div class="boxbatas2 col-6 col-sm-6 pt-2  ">
-                        <div class="batasan">
-                            <p class="text-white ">Cakupan Penelitian</p>
+                        <div class="batasan row row-cols-1 text-center">
+                            <div style="line-height: 20px;"><strong>Cakupan Penelitian</strong></div>
+                            <div style="line-height: 20px;">Kabupaten Malang</div>
                         </div>
                     </div>
                 </div>
