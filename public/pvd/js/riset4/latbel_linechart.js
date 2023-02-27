@@ -83,7 +83,7 @@ var options = {
 };
 
 // Membuat chart baru dengan menggunakan canvas element yang telah dibuat sebelumnya
-var ctx = document.getElementById("myChart").getContext("2d");
+var ctx = document.getElementById("latbel-linechart").getContext("2d");
 var myChart = new Chart(ctx, {
   type: "line",
   data: data,

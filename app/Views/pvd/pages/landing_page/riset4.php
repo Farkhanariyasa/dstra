@@ -59,6 +59,8 @@
                     </a>
                 </p>
                 <div class="collapse" id="collapseExample">
+                    <canvas id='latbel-linechart'>
+                    </canvas>
                     <p class="text-justify">
                         <strong>Batu memiliki posisi dan peran sebagai Kota Wisata</strong>, bahkan pemerintah Kota Batu berencana untuk meningkatkan 
                         peranan Kota Batu dari Kota Wisata menjadi Sentra Wisata yang tertuang dalam Peraturan Daerah Kota Batu Nomor 7 Tahun 2011 tentang 
@@ -205,7 +207,8 @@
 <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
 </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="<?= base_url('pvd/js/riset4/latbel_linechart.js') ?>"></script>
 </section><!-- End -->
 
 <?= $this->endSection(); ?>
