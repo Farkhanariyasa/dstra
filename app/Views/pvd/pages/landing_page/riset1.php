@@ -57,7 +57,7 @@
                         Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
                         wisata sebagian besar melakukan perjalanan wisata bersama keluarga atau kerabat terdekatnya
                         (Koranti, Sriyanto & Sidik, 2017). Hal ini penting untuk dianalisis apakah untuk menentukan
-                        seseorang termasuk ke dalam satu rumah tangga dapat diidentifikasi berdasarkan usual environment
+                        seseorang termasuk ke dalam satu keluarga dapat diidentifikasi berdasarkan usual environment
                         dan
                         pola perjalanan wisata yang dilakukan melalui MPD.
                         <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;"
