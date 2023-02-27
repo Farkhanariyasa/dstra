@@ -92,7 +92,7 @@
             </div>
         </div>
         <div id="tujuan3-3" class="datatujuan" style="width:100%">
-            <h4 class="card-title judul-card ">Persentase jam kerja menurut jenis kelamin</h4>
+            <h4 class="card-title judul-card ">Persentase jam kerja menurut tingkat pendapatan</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div id="tujuan3-4" class="datatujuan" style="width:100%">
-            <h4 class="card-title judul-card ">Persentase jam kerja menurut jenis kelamin</h4>
+            <h4 class="card-title judul-card ">Persentase jam kerja menurut wilayah tempat tinggal</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
@@ -160,7 +160,7 @@
             </div>
         </div>
         <div id="tujuan3-5" class="datatujuan" style="width:100%">
-            <h4 class="card-title judul-card ">Persentase jam kerja menurut jenis kelamin</h4>
+            <h4 class="card-title judul-card ">Persentase jam kerja menurut tingkat pendidikan</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
@@ -194,7 +194,7 @@
             </div>
         </div>
         <div id="tujuan3-6" class="datatujuan" style="width:100%">
-            <h4 class="card-title judul-card ">Persentase jam kerja menurut jenis kelamin</h4>
+            <h4 class="card-title judul-card ">Persentase jam kerja menurut keikutsertaan dalam pelatihan</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
