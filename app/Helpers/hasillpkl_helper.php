@@ -9,12 +9,12 @@ function getMenu()
       [
         [
           'menu' => 'Dasbor',
-          'icon' => 'fas fa-newspaper',
+          'icon' => 'fa-solid fa-chart-simple',
           'href' => '/riset1/dasbor',
         ],
         [
           'menu' => 'Double Counting',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-user-friends',
           'href' => '#double_counting',
           'id' => 'double_counting',
           'subMenu' => [
@@ -34,7 +34,7 @@ function getMenu()
         ],
         [
           'menu' => 'Family Grouping',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-users',
           'href' => '#menu3',
           'id' => 'menu3',
           'subMenu' => [
@@ -50,7 +50,7 @@ function getMenu()
         ],
         [
           'menu' => 'Stastistik Wisatawan Nusantara',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-hotel',
           'href' => '#menu4',
           'id' => 'menu4',
           'subMenu' => [
@@ -66,7 +66,7 @@ function getMenu()
         ],
         [
           'menu' => 'Kuesioner',
-          'icon' => 'fas fa-binoculars',
+          'icon' => '	fas fa-file-alt',
           'href' => '#menu5',
           'id' => 'menu5',
           'subMenu' => [
