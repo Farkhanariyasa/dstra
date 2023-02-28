@@ -10,7 +10,90 @@
     <hr class="hrjudul">
 
     <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-3">
+    <div>
+                    <div class="col">
+                      <!-- Gambaran Umum -->
+                      <!-- <button type="button" id="gambaranUmum" class="btn btn-for" data-toggle="modal" data-bs-target="#exampleModal5">
+                        Gambaran Umum
+                      </button> -->
+                      <button id="gambaranUmum" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                Coba-coba
+                            </button>
+                      <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card-body text-center">
+                            <!-- <i class="fas fa-clipboard-list ikon"></i> -->
+                            <h5 class="card-title text-center" style="line-height: 20px;"><strong>Gambaran Umum</strong></h5>
+                            <!-- <p class="card-text text-center">
+                                <div class="text-center" style="line-height: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, magnam.</div>
+                            </p> -->
+                        </div>
+                      </div>
+
+                      <div class="row">
+                            <!-- Tujuan 1 -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <!-- <i class="fas fa-users col-1 ikon"></i> -->
+                                    <div class="col">
+                                        <p class="card-title text-center" >
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 1</strong></div>
+                                            <!-- <div class="angka">2180</div> -->
+                                            <!-- <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div> -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tujuan 2 -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 2</strong></div>
+                                            <!-- <div class="angka">2180</div> -->
+                                            <!-- <div style="line-height: 20px;">Anggota Rumah Tangga</div> -->
+                                        </p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <!-- Tujuan 3 -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 3</strong></div>
+                                            <!-- <div class="angka">10</div> -->
+                                            <!-- <div style="line-height: 20px;">Rumah Tangga</div> -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tujuan 4 -->
+                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="card-body text-center batasan2 shadow">
+                                    <!-- <i class="fas fa-home col-1 ikon"></i> -->
+                                    <div class="col">
+                                        <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 4</strong></div>
+                                            <!-- <div class="angka">347</div> -->
+                                            <!-- <div style="line-height: 20px;">Blok Sensus</div> -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <br>
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Gambaran Umum
@@ -30,6 +113,9 @@
           </div>
         </div>
       </div>
+      <div class="accordion-item my-3">
+
+      
 
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingTwo">
