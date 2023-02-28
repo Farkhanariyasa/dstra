@@ -16281,31 +16281,20 @@ input:focus {
 /* Typography */
 body {
   font-size: 1rem;
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: initial;
   line-height: normal;
   -webkit-font-smoothing: antialiased;
 }
 
 h1,
-.h1,
 h2,
-.h2,
 h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6,
 .h1,
 .h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "ubuntu-medium", sans-serif;
+.h3{
+  font-family: 'Poppins', sans-serif;
+  color: #4b395f;
 }
 
 p {
@@ -16527,7 +16516,7 @@ pre {
 code {
   padding: 5px;
   color: #fe7c96;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
   border-radius: 4px;
 }
@@ -16573,7 +16562,7 @@ code {
   -webkit-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
   font-size: calc(0.875rem - 0.05rem);
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer a {
@@ -16713,15 +16702,15 @@ code {
 }
 
 .font-weight-light {
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font-weight-bold {
-  font-family: "ubuntu-bold", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font-weight-normal {
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .image-grouped {
@@ -17356,7 +17345,7 @@ code {
   font-weight: initial;
   line-height: 1;
   padding: .375rem .5625rem;
-  font-family: "ubuntu-medium", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .badge.badge-pill {
@@ -17534,7 +17523,7 @@ code {
 .btn {
   font-size: 0.875rem;
   line-height: 1;
-  font-family: "ubuntu-bold", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* Buttons with only icons */
   /* Buttons with icon and text */
 }
@@ -19118,12 +19107,12 @@ code {
   color: #343a40;
   margin-bottom: 0.75rem;
   text-transform: capitalize;
-  font-family: "ubuntu-medium", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.125rem;
 }
 
 .card .card-subtitle {
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 }
@@ -19131,7 +19120,7 @@ code {
 .card .card-description {
   color: #76838f;
   margin-bottom: 1.5rem;
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card.card-outline-success {
@@ -19587,7 +19576,7 @@ code {
 
 .form-control {
   border: 1px solid #ebedf2;
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.8125rem;
 }
 
@@ -19710,7 +19699,7 @@ select.form-control.border-dark:focus {
   -ms-flex-align: center;
   align-items: center;
   padding: 15px 15px;
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
 }
 
@@ -20042,7 +20031,7 @@ dl li {
 .table thead th {
   border-top: 0;
   border-bottom-width: 1px;
-  font-family: "ubuntu-medium", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: initial;
   background-color: #506396;
 }
@@ -20222,7 +20211,7 @@ td {
 
 /* Navbar */
 .navbar {
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* navbar color */
   background: #e0e4ec;
   transition: background 0.25s ease;
@@ -20342,25 +20331,25 @@ td {
 .navbar .navbar-menu-wrapper .search-field .input-group input:-ms-input-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar .navbar-menu-wrapper .search-field .input-group input:-moz-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar .navbar-menu-wrapper .search-field .input-group input::-moz-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar .navbar-menu-wrapper .search-field .input-group input::-webkit-input-placeholder {
   font-size: 0.875rem;
   color: #9c9fa6;
-  font-family: "ubuntu-light", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar .navbar-menu-wrapper .search-field .input-group i {
@@ -20868,7 +20857,7 @@ td {
 .sidebar {
   min-height: calc(100vh - 70px);
   background: #506396;
-  font-family: "ubuntu-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   width: 260px;
   z-index: 11;
@@ -20993,7 +20982,7 @@ td {
 /* sidebar active menu */
 .sidebar .nav .nav-item.active>.nav-link .menu-title {
   color: #000000;
-  font-family: "ubuntu-medium", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .sidebar .nav .nav-item.active>.nav-link i {
@@ -21605,6 +21594,7 @@ td {
 .section-header p {
   color: #493a5a;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .hrjudul {
