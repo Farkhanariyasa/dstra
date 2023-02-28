@@ -141,7 +141,7 @@
                     <b>RUANG LINGKUP PENELITIAN</b>
                 </p>
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quas autem quisquam ad fugiat aliquam. Ducimus in voluptatibus dolores saepe rem vero cumque voluptate sequi. Quos dicta quasi eius cum.
+                    Praktik Kerja Lapangan (PKL) Polstat STIS Riset II Tahun Akademik 2022/2023 dilaksanakan di Kota Malang, Jawa Timur dan mengangkat topik “Pilot Survei Wisatawan Nusantara” yang terdiri dari kegiatan pra-pencacahan, pencacahan, dan pasca pencacahan. Kegiatan pra-pencacahan yang dilaksanakan pada tanggal 28 Oktober 2022 sampai 22 Januari 2023 dilakukan untuk menyusun topik penelitian dan desain survei. Kemudian dilaksanakan survei pendahuluan di Kota Malang, Provinsi Jawa Timur pada tanggal 4 hingga 8 Januari 2023. Kegiatan selanjutnya adalah pencacahan lapangan yang dilakukan pada tanggal 23 Januari 2023 sampai 3 Februari 2023. Setelah pencacahan lapangan, kegiatan selanjutnya, yaitu pengolahan dan analisis data, penyusunan laporan, serta publikasi.
                 </p>
             </div>
 
@@ -151,7 +151,7 @@
                     <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
                 </p>
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, maiores ipsum qui quae eum mollitia facere reprehenderit quia dolores. Necessitatibus officia iste voluptatem quo ipsum consectetur magni ab illo vero inventore perferendis praesentium nulla a exercitationem veritatis, odit, adipisci provident! Quae nam placeat, totam sapiente quisquam culpa nulla quibusdam vel!
+                Sumber data yang dikumpulkan dalam penelitian ini adalah data primer. Data diperoleh melalui pengisian data dari hasil wawancara secara langsung oleh petugas dengan menggunakan moda <i>Computer-Assisted Personal Interviewing</i> (CAPI) yang dikombinasikan dengan moda <i>Paper and Pencil Interviewing</i> (PAPI). Selain itu, untuk mengatasi kemungkinan non respon menggunakan CATI  Computer-Assisted Telephone Interviewing.
                 </p>
             </div>
 
@@ -217,8 +217,8 @@
                                     <div class="col">
                                         <p class="card-title text-center">
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
-                                            <div class="angka">2180</div>
-                                            <div style="line-height: 20px;">Blok Sensus</div>
+                                            <div class="angka">10</div>
+                                            <div style="line-height: 20px;">Rumah Tangga</div>
                                         </p>
                                     </div>
                                 </div>
@@ -231,8 +231,8 @@
                                     <div class="col">
                                         <p class="card-title text-center">
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Primary Sampling Unit</strong></div>
-                                            <div class="angka">2180</div>
-                                            <div style="line-height: 20px;">Rumah Tangga</div>
+                                            <div class="angka">347</div>
+                                            <div style="line-height: 20px;">Blok Sensus</div>
                                         </p>
                                     </div>
                                 </div>
@@ -254,94 +254,19 @@
                         </div>
                     </div>
 
-                <!-- Populasi  -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-users"></i>
-                        <h5 class="card-title text-center"><strong>Populasi</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                        <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p>
-                    </div>
-                </div> -->
-
-                <!-- Populasi Target -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-user-friends"></i>
-                        <h5 class="card-title text-center"><strong>Populasi Target</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                        <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p>
-                    </div>
-                </div> -->
-
-                <!-- Unit Observasi -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-user-alt"></i>
-                        <h5 class="card-title text-center"><strong>Unit Observasi</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                    </div>
-                </div> -->
-
-                <!-- Secondary Sampling Unit -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-city"></i>
-                        <h5 class="card-title text-center"><strong>Secondary Sampling Unit</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                        <p class="card-text text-center">
-                            <div class="text-center">Blok Sensus</div>
-                        </p>
-                    </div>
-                </div> -->
-
-                <!-- Primary Sampling Unit -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-home"></i>
-                        <h5 class="card-title text-center"><strong>Primary Sampling Unit</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                        <p class="card-text text-center">
-                            <div class="text-center">Rumah Tangga</div>
-                        </p>
-                    </div>
-                </div> -->
-
-                <!-- Unit Analisis -->
-                <!-- <div class="card konten2 third5 par mb-3 mx-auto p-1 p-md-1 shadow box col-md-4 rounded-5">
-                    <div class="card-body text-center">
-                        <i class="fas fa-user-alt"></i>
-                        <h5 class="card-title text-center"><strong>Unit Analisis</strong></h5>
-                        <p class="card-text text-center">
-                            <div class="text-center">2180</div>
-                        </p>
-                        <p class="card-text text-center">
-                            <div class="text-center">Anggota Rumah Tangga</div>
-                        </p>
-                    </div>
-                </div> -->
-
                     <!-- Kerangka Sampel -->
                     <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                         <div class="card-body text-center">
                             <i class="fas fa-clipboard-list ikon"></i>
                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
-                            <p class="card-text text-center">
-                                <div class="text-center" style="line-height: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, magnam.</div>
+                            <p class="card-text text-justify">
+                                <div class="text-justify" style="line-height: 25px;">
+                                    Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
+                                </div>
+                                <br>
+                                <div class="text-justify" style="line-height: 25px;">
+                                    Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
+                                </div>
                             </p>
                         </div>
                     </div>
@@ -352,7 +277,19 @@
                             <i class="fas fa-cubes ikon"></i>
                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Variabel Pembantu</strong></h5>
                             <p class="card-text text-center">
-                                <div class="text-center" style="line-height: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nam.</div>
+                                <div class="text-justify" style="line-height: 25px;">
+                                Variabel pembantu dibutuhkan sebagai size pada teknik PPS sampling dan sebagai dasar pengurutan pada teknik <i>systematic sampling</i>. Variabel-variabel yang digunakan sebagai variabel pembantu dalam penghitungan estimasi, yaitu 
+                                <br>
+                                <br>
+                                    <ul>
+                                        <li style="line-height: 25px; color:inherit;">
+                                            Jumlah keluarga di setiap blok sensus, sebagai size pada penarikan sampel tahap pertama dengan teknik PPS, dan
+                                        </li>
+                                        <li style="line-height: 25px; color:inherit;">
+                                            Jumlah anggota rumah tangga, sebagai <i>implicit stratification</i> pada penarikan sampel tahap kedua dengan teknik <i>Systematic Sampling</i>.
+                                        </li>
+                                    </ul>
+                                </div>
                             </p>
                         </div>
                     </div>
