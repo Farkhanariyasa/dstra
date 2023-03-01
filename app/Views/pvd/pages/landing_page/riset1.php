@@ -646,6 +646,48 @@
             </div>
         </section>
 
+        <!-- Desain Sampling Tujuan 1 dan Tujuan 2 -->
+        <section class="offset-header">
+            <div class="container-fluid turun">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                    data-aos="zoom-in" data-aos-duration="1000">
+                    <p>
+                        <b>Desain Sampling Tujuan 1 dan Tujuan 2</b>
+                    </p>
+                    <p class="text-justify">
+                        Metode penarikan sampel yang digunakan adalah Judgment (Purposive) Sampling. Judgment (Purposive) Sampling adalah metodologi pengambilan sampel secara acak dimana kelompok sampel yang ditargetkan memiliki atribut-atribut tertentu. Metode ini dapat digunakan pada banyak populasi, tetapi lebih efektif dengan ukuran sampel yang lebih kecil dan populasi yang lebih homogen. Cara yang dilakukan pada Judgment (Purposive) Sampling penelitian ini adalah pengambilan sampel yang homogen. Dengan sampling homogen, sekelompok orang dengan usia, jenis kelamin, latar belakang, atau pekerjaan yang sama akan dipilih. Pada penelitian ini, dipilih sampel dengan pekerjaan yang sama, yaitu orang yang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur, dan sampel dengan latar belakang yang sama, yaitu orang yang sedang berkuliah di Politeknik Statistika STIS.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Desain Sampling Tujuan 3 -->
+        <section class="offset-header">
+            <div class="container-fluid turun">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                    data-aos="zoom-in" data-aos-duration="1000">
+                    <p>
+                        <b>Desain Sampling Tujuan 3</b>
+                    </p>
+                    <p class="text-justify">
+                    Metode penarikan sampel yang digunakan adalah Multistage Random Sampling karena populasi heterogen dan berukuran sangat besar. Berikut tahapan penarikan sampel dengan Multistage Random Sampling: 
+
+                    <ul>
+                        <li class="text-justify">
+                            Tahap Pertama: Melakukan pemilihan n blok sensus (BS) dari semua kecamatan secara Probability Proportional to Size (PPS WR-Systematic) dengan size jumlah keluarga di tiap blok sensus di Kota Malang hasil pemutakhiran Sensus Penduduk 2020. 
+
+                        </li>
+
+                        <li class = "text-justify">
+                            Tahap Kedua: Melakukan pemilihan n rumah tangga dari blok sensus (BS) terpilih secara Systematic Sampling dengan variabel dasar pengurutan jumlah anggota rumah tangga yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan wisata selama Triwulan IV 2022.
+                        </li>
+                    </ul>
+                    
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- <section class="offset-header">
