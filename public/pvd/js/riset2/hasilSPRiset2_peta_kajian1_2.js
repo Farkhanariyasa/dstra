@@ -75,7 +75,7 @@ info.onAdd = function (peta_malang_hasil2) {
 
 info.update = function (props) {
   this._div.innerHTML =
-    "<h4>US Population Density</h4>" +
+    "<h4>Jumlah Perjalanan</h4>" +
     (props
       ? "<b>" +
         props.NAME_3 +
