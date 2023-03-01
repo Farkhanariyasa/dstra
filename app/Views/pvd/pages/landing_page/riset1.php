@@ -13,22 +13,25 @@
                         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
                     </h5>
                     <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Dalam bidang pariwisata, pemanfaatan <i>mobile positioning data</i> (MPD), yaitu 
-                    salah satu jenis big data yang berisi data lokasi dari pengguna provider tertentu, 
-                    menjadi salah satu opsi <i>official statistics</i> dalam mengestimasi statistik pariwisata 
-                    untuk menggontikan survei konvensional yang membutuhkan waktu dan biaya yang tidak sedikit. 
-                    Namun banyak keterbatasan dari MPD yang masih perlu dipertimbangkan untuk mendapatkan statistik 
-                    yang akurat. Beberapa diantaranya adalah adanya kemungkinan seseorang memiliki lebih dari satu nomor 
-                    HP dan belum tercakupnya penduduk yang belum memiliki HP seperti anak-anak di bawah 10 tahun. Pada penelitian ini, 
-                    kami melakukan kajian pemanfaatan MPD untuk statistik pariwisata dengan tujuan memperbaiki cakupan MPD 
-                    dengan menganalisis MPD dari beberapa nomor HP yang dimiliki orang yang sama dan MPD dciri beberapa nomor 
-                    yang termasuk dalam satu keluarga. 
+                        Dalam bidang pariwisata, pemanfaatan <i>mobile positioning data</i> (MPD), yaitu
+                        salah satu jenis big data yang berisi data lokasi dari pengguna provider tertentu,
+                        menjadi salah satu opsi <i>official statistics</i> dalam mengestimasi statistik pariwisata
+                        untuk menggontikan survei konvensional yang membutuhkan waktu dan biaya yang tidak sedikit.
+                        Namun banyak keterbatasan dari MPD yang masih perlu dipertimbangkan untuk mendapatkan statistik
+                        yang akurat. Beberapa diantaranya adalah adanya kemungkinan seseorang memiliki lebih dari satu
+                        nomor
+                        HP dan belum tercakupnya penduduk yang belum memiliki HP seperti anak-anak di bawah 10 tahun.
+                        Pada penelitian ini,
+                        kami melakukan kajian pemanfaatan MPD untuk statistik pariwisata dengan tujuan memperbaiki
+                        cakupan MPD
+                        dengan menganalisis MPD dari beberapa nomor HP yang dimiliki orang yang sama dan MPD dciri
+                        beberapa nomor
+                        yang termasuk dalam satu keluarga.
 
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
-                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>"
-                                class="tombol btn-for text-decoration-none">
+                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for text-decoration-none">
                                 <span>Hasil PKL</span>
                                 <i class="fas fa-arrow-circle-right"></i>
                             </a>
@@ -51,8 +54,7 @@
                         <h1 class="headline text-center pt-5">Latar Belakang</h1>
                     </div>
                 </div>
-                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
-                    data-aos-duration="1000">
+                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify">
                         Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
                         wisata sebagian besar melakukan perjalanan wisata bersama keluarga atau kerabat terdekatnya
@@ -60,9 +62,7 @@
                         seseorang termasuk ke dalam satu keluarga dapat diidentifikasi berdasarkan usual environment
                         dan
                         pola perjalanan wisata yang dilakukan melalui MPD.
-                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;"
-                            class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
-                            aria-expanded="false" aria-controls="collapseExample">
+                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             [<strong><i>Tampilkan Semua</i></strong>]
                         </a>
                     </p>
@@ -78,9 +78,9 @@
                             tidak
                             sama. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel sebagai penentu
                             mobile
-                            positioning, wisatawan tersebut akan terhitung sebanyak dua kali sehingga seolah-olah kedua 
-                            nomor 
-                            tersebut dimiliki oleh dua orang yang berbeda, atau dengan kata lain terjadi double counting 
+                            positioning, wisatawan tersebut akan terhitung sebanyak dua kali sehingga seolah-olah kedua
+                            nomor
+                            tersebut dimiliki oleh dua orang yang berbeda, atau dengan kata lain terjadi double counting
                             pada data MPD.
                         </p>
                         <p class="text-justify">
@@ -101,9 +101,7 @@
                             Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat dibutuhkannya data wisata
                             yang
                             komprehensif dalam hal pengembangan wisata guna memulihkan sektor pariwisata.
-                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;"
-                                class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
-                                aria-expanded="false" aria-controls="collapseExample">
+                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                 [<strong><i>Tampilkan Sebagian</i></strong>]
                             </a>
                         </p>
@@ -120,8 +118,7 @@
                         <h1 class="headline text-center">Tujuan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
-                    data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <ol class="text-justify">
                         <li>Membangun metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga
                             berdasarkan
@@ -148,8 +145,8 @@
                         <h1 class="headline text-center">Metodologi</h1>
                     </div>
                 </div> -->
-                <!-- konten -->
-                <!-- <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
+        <!-- konten -->
+        <!-- <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify" style="font-weight: bold">
                         Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
@@ -191,11 +188,20 @@
                     </ul>
                     </p>
                 </div> -->
-                <!-- end konten -->
-            <!-- </div>
+        <!-- end konten -->
+        <!-- </div>
         </section> -->
 
         <!-- Metodologi Slider -->
+<<<<<<< HEAD
+        <section class="offset-header">
+            <div class="container-fluid turun">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center">Metodologi</h1>
+                    </div>
+                </div>
+=======
         <section class="offset-header mt-5">
             <div class="container-fluid turun">
                  <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
@@ -206,70 +212,124 @@
 
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
+>>>>>>> 14599de19ca9b94bfb8c3ec44d6dd3ea10ddfe1a
 
-                            <!-- Survei 1 -->
-                            <div class="carousel-item active">
-                                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
-                                    data-aos="zoom-in" data-aos-duration="1000">
-                                    <p class="text-justify" style="font-weight: bold">
-                                        Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
-                                        Metode Pengambilan Sampel: Purposive Sampling
-                                    <ul>
-                                        <li class="text-justify">Tahap pertama, Dari daftar pegawai diambil pegawai yang eligible, yaitu
-                                            pegawai dengan provider
-                                            telkomsel dan/atau indosat sebagai relawan dan dilakukan pencacahan tahap Pegawai.
-                                        </li>
-                                        <li class="text-justify">Tahap kedua, Dari pencacahan tahap pegawai dilakukan pencacahan ke
-                                            level
-                                            keluarga pegawai
-                                            tersebut. Pada penelitian ini, keluarga pegawai yang dicacah dibatasi hanya yang berdomisili
-                                            di
-                                            Surabaya atau beberapa kecamatan (Kecamatan Taman, Sukodono, Buduran, Waru, Gedangan, dan
-                                            Sedati) di
-                                            Sidoarjo.
-                                        </li>
-                                    </ul>
-                                    </p>
-                                </div>
-                            </div>
 
-                            <!-- Survei 2 -->
-                            <div class="carousel-item">
-                                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;"
-                                    data-aos="zoom-in" data-aos-duration="1000">
-                                    <p class="text-justify" style="font-weight: bold">
-                                        Survei 2: Survei Integrasi (Pilot Survei Riset 2)
-                                        Metode Pengambilan Sampel: Two Stage Sampling
-                                    <ul>
-                                        <li class="text-justify">Tahap pertama, mengambil sejumlah blok sensus dengan Probability
-                                            Proportional to Size With
-                                            Replacement dengan size jumlah keluarga di tiap blok sensus hasil pemutakhiran Sensus
-                                            Penduduk
-                                            2020
-                                        </li>
-                                        <li class="text-justify">Tahap kedua, mengambil rumah tangga menggunakan Systematic Sampling
-                                            dengan
-                                            jumlah anggota rumah
-                                            tangga sebagai variabel dasar pengurutan
-                                        </li>
-                                    </ul>
-                                    </p>
-                                </div>
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill" data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer" aria-selected="true">Primer</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill" data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder" aria-selected="false">Sekunder</button>
+                    </li>
+                </ul>
+                <!-- Button Metodologi -->
+
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- Survei 1 - Copy -->
+                    <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                            Data primer dikumpulkan dari unit observasi
+                            penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda
+                            <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal
+                                Interview</i> (PAPI).
+                        </div>
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                            Data primer dikumpulkan dari unit observasi
+                            penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda
+                            <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal
+                                Interview</i> (PAPI).
+                        </div>
+                    </div>
+                    <!-- Survei 2 - Copy -->
+                    <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                            Data sekunder dikumpulkan dari BPS yaitu
+                            data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang
+                            digunakan sebagai dasar penentuan sampel.</div>
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                            Data sekunder dikumpulkan dari BPS yaitu
+                            data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang
+                            digunakan sebagai dasar penentuan sampel.</div>
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                            Data sekunder dikumpulkan dari BPS yaitu
+                            data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang
+                            digunakan sebagai dasar penentuan sampel.</div>
+                    </div>
+                </div>
+
+                <!-- Carousel Metodologi -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Survei 1 -->
+                        <div class="carousel-item active">
+                            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <p class="text-justify" style="font-weight: bold">
+                                    Survei 1: Survei Relawan dan Ruta Pegawai BPS Kota Surabaya dan Provinsi Jawa Timur
+                                    Metode Pengambilan Sampel: Purposive Sampling
+                                <ul>
+                                    <li class="text-justify">Tahap pertama, Dari daftar pegawai diambil pegawai yang
+                                        eligible, yaitu
+                                        pegawai dengan provider
+                                        telkomsel dan/atau indosat sebagai relawan dan dilakukan pencacahan tahap
+                                        Pegawai.
+                                    </li>
+                                    <li class="text-justify">Tahap kedua, Dari pencacahan tahap pegawai dilakukan
+                                        pencacahan ke
+                                        level
+                                        keluarga pegawai
+                                        tersebut. Pada penelitian ini, keluarga pegawai yang dicacah dibatasi hanya yang
+                                        berdomisili
+                                        di
+                                        Surabaya atau beberapa kecamatan (Kecamatan Taman, Sukodono, Buduran, Waru,
+                                        Gedangan, dan
+                                        Sedati) di
+                                        Sidoarjo.
+                                    </li>
+                                </ul>
+                                </p>
                             </div>
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <!-- Survei 2 -->
+                        <div class="carousel-item">
+                            <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <p class="text-justify" style="font-weight: bold">
+                                    Survei 2: Survei Integrasi (Pilot Survei Riset 2)
+                                    Metode Pengambilan Sampel: Two Stage Sampling
+                                <ul>
+                                    <li class="text-justify">Tahap pertama, mengambil sejumlah blok sensus dengan
+                                        Probability
+                                        Proportional to Size With
+                                        Replacement dengan size jumlah keluarga di tiap blok sensus hasil pemutakhiran
+                                        Sensus
+                                        Penduduk
+                                        2020
+                                    </li>
+                                    <li class="text-justify">Tahap kedua, mengambil rumah tangga menggunakan Systematic
+                                        Sampling
+                                        dengan
+                                        jumlah anggota rumah
+                                        tangga sebagai variabel dasar pengurutan
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                
-    
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
                 <!-- end konten -->
             </div>
         </section>
@@ -277,6 +337,8 @@
         <!-- Metodologi (Tujuan 1 dan Tujuan 2 Data training) -->
         <section class="offset-header">
             <div class="container-fluid turun">
+<<<<<<< HEAD
+=======
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
                     data-aos="zoom-in" data-aos-duration="1000">
                     <p>
@@ -635,6 +697,7 @@
 
         <!-- <section class="offset-header">
             <div class="container-fluid turun">               
+>>>>>>> 14599de19ca9b94bfb8c3ec44d6dd3ea10ddfe1a
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     </div>
@@ -649,8 +712,7 @@
                         <h1 class="headline text-center">Hasil Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
-                    data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui
                         ipsum
@@ -678,8 +740,7 @@
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel"
-                    style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <!-- <p class="text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
                     nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam
