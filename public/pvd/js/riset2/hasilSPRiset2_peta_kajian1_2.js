@@ -24,6 +24,7 @@ function style(feature) {
 }
 
 var geojson;
+var info = L.control();
 
 function highlightFeature(e) {
   var layer = e.target;
@@ -35,10 +36,12 @@ function highlightFeature(e) {
   });
 
   layer.bringToFront();
+  info.update(layer.feature.properties);
 }
 
 function resetHighlight(e) {
   geojson.resetStyle(e.target);
+  info.update();
 }
 
 var peta_malang_hasil2 = L.map("peta_malang_hasil2").setView(
@@ -58,7 +61,29 @@ function onEachFeature(feature, layer) {
     mouseout: resetHighlight,
   });
 }
+
 geojson = L.geoJSON(kec_malang, {
   style: style,
   onEachFeature: onEachFeature,
 }).addTo(peta_malang_hasil2);
+
+info.onAdd = function (peta_malang_hasil2) {
+  this._div = L.DomUtil.create("div", "info"); // create a div with a class "info"
+  this.update();
+  return this._div;
+};
+
+info.update = function (props) {
+  this._div.innerHTML =
+    "<h4>US Population Density</h4>" +
+    (props
+      ? "<b>" +
+        props.NAME_3 +
+        "</b><br />" +
+        props.perjalanan
+        // " people / mi<sup>2</sup>"
+      : "Kecamatan");
+};
+
+info.addTo(peta_malang_hasil2);
+
