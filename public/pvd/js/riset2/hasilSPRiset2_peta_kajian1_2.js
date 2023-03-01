@@ -25,6 +25,7 @@ function style(feature) {
 
 var geojson;
 var info = L.control();
+var legend = L.control({ position: "bottomright" });
 
 function highlightFeature(e) {
   var layer = e.target;
@@ -86,4 +87,24 @@ info.update = function (props) {
 };
 
 info.addTo(peta_malang_hasil2);
+
+legend.onAdd = function (peta_malang_hasil2) {
+  var div = L.DomUtil.create("div", "info legend"),
+    grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
+    // labels = [];
+
+  // loop through our density intervals and generate a label with a colored square for each interval
+  for (var i = 0; i < grades.length; i++) {
+    div.innerHTML +=
+      '<i style="background:' +
+      getColor(grades[i] + 1) +
+      '"></i> ' +
+      grades[i] +
+      "<br>";
+  }
+
+  return div;
+};
+
+legend.addTo(peta_malang_hasil2);
 
