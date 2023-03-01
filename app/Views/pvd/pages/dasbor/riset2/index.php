@@ -11,88 +11,156 @@
 
     <!-- <div class="accordion" id="accordionExample"> -->
     <div>
-        <div class="col">
+        <!-- <div class="col"> -->
           <!-- Gambaran Umum -->
-          <!-- <button type="button" id="gambaranUmum" class="btn btn-for" data-toggle="modal" data-bs-target="#exampleModal5">
-            Gambaran Umum
-          </button> -->
-          <button id="gambaranUmum" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Coba-coba
-          </button>
-          
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Gambaran Umum</h5>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-          <!-- Tujuan 1 -->
-          <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-              <div class="card-body text-center batasan2 shadow">
-                  <!-- <i class="fas fa-users col-1 ikon"></i> -->
-                  <div class="col">
-                      <p class="card-title text-center" >
-                          <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 1</strong></div>
-                          <!-- <div class="angka">2180</div> -->
-                          <!-- <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div> -->
-                      </p>
-                  </div>
+          <div id="gambaranUmum" type="button" class="tombol bg-inherit" data-bs-toggle="modal" data-bs-target="#exampleModalGambaranUmum">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box">
+              <div>
+                <!-- <i class="fas fa-users col-1 ikon"></i> -->
+                <!-- <div class="col"> -->
+                <p class="card-title text-center" >
+                  <div style="line-height: 20px; color: #4b395f;"><strong>Gambaran Umum</strong></div>
+                  <!-- <div class="angka">2180</div> -->
+                  <!-- <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div> -->
+                </p>
+                <!-- </div> -->
               </div>
+            </div>
+          </div>
+          
+          <div class="modal fade" id="exampleModalGambaranUmum" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Gambaran Umum</h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim molestiae cum consequatur eius officiis perspiciatis ab nihil illum eaque dolorem, nam beatae quaerat odit ipsa reiciendis consectetur harum doloribus! Doloremque ut assumenda quibusdam eaque, non deleniti ipsa quis sint voluptatibus sit tempora, iure aut atque quidem distinctio corporis impedit?
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- <div class="row"> -->
+          <!-- Tujuan 1 -->
+          <div id="tujuan1" type="button" class="tombol" data-bs-toggle="modal" data-bs-target="#exampleModalTujuan1">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box">
+              <div>
+                <!-- <i class="fas fa-users col-1 ikon"></i> -->
+                <!-- <div class="col"> -->
+                  <p class="card-title text-center" >
+                    <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 1</strong></div>
+                    <!-- <div class="angka">2180</div> -->
+                    <!-- <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div> -->
+                  </p>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalTujuan1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tujuan 1</h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, pariatur illo dolor aperiam harum ad? Omnis similique quo id modi eveniet minima autem rem accusamus quas cupiditate vero dolorem error, esse illo, recusandae debitis eius necessitatibus perspiciatis sed sapiente quia ipsam quidem excepturi amet? Aliquid repellat culpa et non cumque?
+                </div>
+              </div>
+            </div>
           </div>
 
           <!-- Tujuan 2 -->
-          <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-              <div class="card-body text-center batasan2 shadow">
-                  <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
-                  <div class="col">
-                      <p class="card-title text-center">
-                          <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 2</strong></div>
-                          <!-- <div class="angka">2180</div> -->
-                          <!-- <div style="line-height: 20px;">Anggota Rumah Tangga</div> -->
-                      </p>
-                  </div>       
+          <div id="tujuan2" type="button" class="tombol" data-bs-toggle="modal" data-bs-target="#exampleModalTujuan2">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box">
+              <div>
+                <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
+                <!-- <div class="col"> -->
+                  <p class="card-title text-center">
+                    <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 2</strong></div>
+                    <!-- <div class="angka">2180</div> -->
+                    <!-- <div style="line-height: 20px;">Anggota Rumah Tangga</div> -->
+                  </p>
+                <!-- </div>        -->
               </div>
+            </div>
           </div>
-      </div>
-            
-      <div class="row">
-          <!-- Tujuan 3 -->
-          <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-              <div class="card-body text-center batasan2 shadow">
-                  <!-- <i class="fas fa-city col-1 ikon"></i> -->
-                  <div class="col">
-                      <p class="card-title text-center">
-                          <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 3</strong></div>
-                          <!-- <div class="angka">10</div> -->
-                          <!-- <div style="line-height: 20px;">Rumah Tangga</div> -->
-                      </p>
-                  </div>
+
+          <div class="modal fade" id="exampleModalTujuan2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tujuan 2</h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo vero aperiam vel animi mollitia eum dolor, temporibus magni, excepturi hic repellendus unde, doloremque deserunt amet in? Molestias perferendis eveniet aliquid aspernatur sequi, qui eum autem totam ducimus eius dolore omnis aut accusantium beatae quidem expedita exercitationem provident! Eos, non repellendus.
+                </div>
               </div>
+            </div>
+          </div>
+          <!-- </div> -->
+            
+          <!-- <div class="row"> -->
+          <!-- Tujuan 3 -->
+          <div id="tujuan3" type="button" class="tombol" data-bs-toggle="modal" data-bs-target="#exampleModalTujuan3">
+            <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box">
+              <div>
+                <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                <!-- <div class="col"> -->
+                  <p class="card-title text-center">
+                    <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 3</strong></div>
+                    <!-- <div class="angka">10</div> -->
+                    <!-- <div style="line-height: 20px;">Rumah Tangga</div> -->
+                  </p>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalTujuan3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tujuan 3</h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at doloremque cupiditate minima ut veritatis repellat delectus, quam eius fuga, quos error laudantium unde. Voluptas esse doloremque, perspiciatis placeat hic doloribus! Saepe officia voluptatum dolorum adipisci amet deleniti quaerat ipsa? Asperiores eligendi ratione perspiciatis deserunt dolore quo architecto ipsam earum!
+                </div>
+              </div>
+            </div>
           </div>
 
           <!-- Tujuan 4 -->
-          <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-              <div class="card-body text-center batasan2 shadow">
-                  <!-- <i class="fas fa-home col-1 ikon"></i> -->
-                  <div class="col">
-                      <p class="card-title text-center">
-                          <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 4</strong></div>
-                          <!-- <div class="angka">347</div> -->
-                          <!-- <div style="line-height: 20px;">Blok Sensus</div> -->
-                      </p>
-                  </div>
+          <div id="tujuan4" type="button" class="tombol" data-bs-toggle="modal" data-bs-target="#exampleModalTujuan4">
+            <div class="konten2 third5 m-auto p-4 p-md-5 shadow">
+              <div>
+                <!-- <i class="fas fa-home col-1 ikon"></i> -->
+                <!-- <div class="col"> -->
+                  <p class="text-center">
+                    <div style="line-height: 20px; color: #4b395f;"><strong>Tujuan 4</strong></div>
+                    <!-- <div class="angka">347</div> -->
+                    <!-- <div style="line-height: 20px;">Blok Sensus</div> -->
+                  </p>
+                <!-- </div> -->
               </div>
+            </div>
           </div>
-      </div>
-  </div>
+
+          <div class="modal fade" id="exampleModalTujuan4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tujuan 4</h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam magni consequuntur ducimus velit alias sint. Cum ipsa nesciunt sit iste, exercitationem placeat vero unde autem minus sunt officia similique laborum aut alias nulla! Harum rem, minima autem at omnis laboriosam reprehenderit recusandae illum hic, odit expedita suscipit id voluptatum inventore.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        <!-- </div> -->
 
         <!-- <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
