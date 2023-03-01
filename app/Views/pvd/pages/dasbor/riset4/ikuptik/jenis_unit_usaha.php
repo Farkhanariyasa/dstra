@@ -2,30 +2,59 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container px-0">
-      <header class="section-header">
+<section id="portfolio" class="portfolio section-bg">
+  <div class="container">
+    <header class="section-header">
         <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
           <i>Smart Tourism Destination</i></strong>
         </h6>
-      </header>
+    </header>
     <hr class="hrjudul">
 
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Indeks Kesiapan Unit Usaha
-          </button>
-        </h3>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Jenis Unit Usaha
-            </p>           
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+            <li data-filter=".filter-riset4-jenis-uup-1" class="filter-active">Jasa Transportasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-2" class="filter">Jasa Penyedia Makanan dan Minuman</li>
+            <li data-filter=".filter-riset4-jenis-uup-3" class="filter">Jasa Akomodasi</li>
+        </ul>
       </div>
     </div>
-</div>
+    <div class="row portfolio-container">
+      <?php include('grafik_jenis_unit_usaha.php') ?>
+    </div>
+  </div>
+</section>
+
+<!-- Istope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Chart JS Plugin Sankey Chart -->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
+<!-- Highchart -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<!-- Data Chart -->
+<script>
+  const IKUPTIK_JASA_TRANSPORTASI = <?= json_encode($jasaTransportasi); ?>;
+  const IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN = <?= json_encode($jasaPenyediaMakananDanMinuman); ?>;
+  const IKUPTIK_JASA_AKOMODASI = <?= json_encode($jasaAkomodasi); ?>;
+</script>
+
+<!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_2.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_3.js') ?>"></script>
+
+<!-- Fungsi Unduh Chart -->
+<script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
 
 <?= $this->endSection(); ?>
 
