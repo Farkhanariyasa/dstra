@@ -197,7 +197,13 @@
 
         <!-- Metodologi Slider -->
         <section class="offset-header">
-            <div class="container-fluid turun">               
+            <div class="container-fluid turun">
+                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center">Metodologi</h1>
+                    </div>
+                </div> 
+                          
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
 
