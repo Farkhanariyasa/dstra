@@ -7,6 +7,7 @@ use App\Models\Pvd\Riset4HasilSpModel;
 
 class Riset4 extends BaseController
 {
+    protected $kecamatan;
     protected $unitusahaTIK;
     protected $pendapatan;
     protected $umur;
@@ -14,6 +15,7 @@ class Riset4 extends BaseController
 
     public function __construct()
     {
+        $this->kecamatan = new Riset4HasilSpModel();
         $this->unitusahaTIK = new Riset4HasilSpModel();
         $this->pendapatan = new Riset4HasilSpModel();
         $this->umur = new Riset4HasilSpModel();
@@ -179,10 +181,31 @@ class Riset4 extends BaseController
 
     public function menu4submenu4()
     {
+        $jasaTransportasi = [
+            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK(1),
+            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK(2),
+            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK(3),
+        ];
+
+        $jasaPenyediaMakananDanMinuman = [
+            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK2(1),
+            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK2(2),
+            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK2(3),
+        ];
+
+        $jasaAkomodasi = [
+            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK3(1),
+            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK3(2),
+            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK3(3),
+        ];
+
         $menu = getMenu();
         $data = [
-            'judul' => 'Jenis Unit Usaha',
+            'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
+            'jasaTransportasi' => $jasaTransportasi,
+            'jasaPenyediaMakananDanMinuman' => $jasaPenyediaMakananDanMinuman,
+            'jasaAkomodasi' => $jasaAkomodasi
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/jenis_unit_usaha', $data);
     }
