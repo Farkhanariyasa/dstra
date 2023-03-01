@@ -201,22 +201,22 @@
                         <h1 class="headline text-center">Ruang Lingkup Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class=" col">
+                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> 
+                <div class=" col">
                         <div class="row">
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white ">Populasi</p>
+                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white ">Populasi Target</p>
+                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white ">Unit Observasi</p>
+                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
                                 </div>
                             </div>
 
@@ -230,9 +230,9 @@
                                         </div>
                                         <div class="col-8 boxkerangka">
                                             <p class="mySlides mt-4 text-white text-center">Unit Sampling</p>
-                                            <p class="mySlides text-white text-center resizefont">Primary sampling unit : Kecamatan</p>
-                                            <p class="mySlides text-white text-center resizefont">Secondary sampling unit : Blok Sensus</p>
-                                            <p class="mySlides text-white text-center resizefont">Ultimate sampling unit : Rumah Tangga</p>
+                                            <p class="mySlides text-white text-center resizefont">Primary sampling unit: Kecamatan</p>
+                                            <p class="mySlides text-white text-center resizefont">Secondary sampling unit: Blok Sensus</p>
+                                            <p class="mySlides text-white text-center resizefont">Ultimate sampling unit: Rumah Tangga</p>
                                         </div>
                                         <div class="col-2 sidebuttonr">
                                             <button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
@@ -242,30 +242,89 @@
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white ">Unit Analisis</p>
+                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="batasan pt-2">
-                                    <div class="row backrow">
-                                        <div class="col-2 sidebuttonl">
-                                            <button class=" slideButton" onclick="plusDivs2(-1)">&#10094;</button>
-                                        </div>
-                                        <div class="col-8 boxkerangka">
-                                            <p class=" mySlides2 mt-4 text-white text-center">Kerangka Sample</p>
-                                            <p class=" mySlides2 text-white text-center resizefont">Tahap pertama: daftar kecamatan di Kabupaten Malang.</p>
-                                            <p class=" mySlides2 text-white text-center resizefont">Tahap kedua: daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</p>
-                                            <p class=" mySlides2 text-white text-center resizefont">Tahap ketiga: seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>
-                                        </div>
-                                        <div class="col-2 sidebuttonr">
-                                            <button class=" slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
-                                        </div>
-
-                                    </div>
+                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#krsampModal">Kerangka Sampel</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="populasiModalLabel">Populasi</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Seluruh penduduk di Kabupaten Malang.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="modal fade" id="poptarModal" tabindex="-1" aria-labelledby="poptarModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="poptarModalLabel">Populasi Target</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Penduduk usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja (Tahun 2023) atau 3 tahun sebelum pencacahan (2020-2023) pernah bekerja di industri pariwisata.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="modal fade" id="unitobsModal" tabindex="-1" aria-labelledby="unitobsModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="unitobsModalLabel">Unit Observasi</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Kepala rumah tangga atau anggota rumah tangga yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p> 
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="modal fade" id="unitanaModal" tabindex="-1" aria-labelledby="unitanaModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="unitanaModalLabel">Unit Analisis</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Anggota rumah tangga usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p> 
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="modal fade" id="krsampModal" tabindex="-1" aria-labelledby="krsampModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="krsampModalLabel">Kerangka Sampel</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Kerangka sampel yang digunakan dalam penelitian ini adalah sebagai berikut.</p>
+                        <ol>
+                            <li>Kerangka sampel untuk pemilihan sampel tahap pertama berupa daftar kecamatan di Kabupaten Malang.</li>
+                            <li>Kerangka sampel untuk pemilihan sampel tahap kedua berupa daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</li>
+                            <li>Kerangka sampel untuk pemilihan sampel tahap ketiga berupa seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</li>
+                        </ol>    
+                    </div>
+                    </div>
+                </div>
                 </div>
         </section>
 
