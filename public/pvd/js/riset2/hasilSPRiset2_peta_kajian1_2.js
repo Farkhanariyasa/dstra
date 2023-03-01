@@ -23,6 +23,24 @@ function style(feature) {
   };
 }
 
+var geojson;
+
+function highlightFeature(e) {
+  var layer = e.target;
+
+  layer.setStyle({
+    weight: 5,
+    color: "#666",
+    fillOpacity: 0.7,
+  });
+
+  layer.bringToFront();
+}
+
+function resetHighlight(e) {
+  geojson.resetStyle(e.target);
+}
+
 var peta_malang_hasil2 = L.map("peta_malang_hasil2").setView(
   [-7.9797, 112.6304],
   12.4
@@ -34,4 +52,13 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(peta_malang_hasil2);
 
-L.geoJSON(kec_malang, {style : style}).addTo(peta_malang_hasil2);
+function onEachFeature(feature, layer) {
+  layer.on({
+    mouseover: highlightFeature,
+    mouseout: resetHighlight,
+  });
+}
+geojson = L.geoJSON(kec_malang, {
+  style: style,
+  onEachFeature: onEachFeature,
+}).addTo(peta_malang_hasil2);
