@@ -593,7 +593,12 @@
                         <b>Desain Sampling Tujuan 1 dan Tujuan 2</b>
                     </p>
                     <p class="text-justify">
-                        Metode penarikan sampel yang digunakan adalah Judgment (Purposive) Sampling. Judgment (Purposive) Sampling adalah metodologi pengambilan sampel secara acak dimana kelompok sampel yang ditargetkan memiliki atribut-atribut tertentu. Metode ini dapat digunakan pada banyak populasi, tetapi lebih efektif dengan ukuran sampel yang lebih kecil dan populasi yang lebih homogen. Cara yang dilakukan pada Judgment (Purposive) Sampling penelitian ini adalah pengambilan sampel yang homogen. Dengan sampling homogen, sekelompok orang dengan usia, jenis kelamin, latar belakang, atau pekerjaan yang sama akan dipilih. Pada penelitian ini, dipilih sampel dengan pekerjaan yang sama, yaitu orang yang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur, dan sampel dengan latar belakang yang sama, yaitu orang yang sedang berkuliah di Politeknik Statistika STIS.
+                        Metode penarikan sampel yang digunakan adalah 
+                        <i>Judgment (Purposive) Sampling</i>. 
+                        <i>Judgment (Purposive) Sampling</i>
+                         adalah metodologi pengambilan sampel secara acak dimana kelompok sampel yang ditargetkan memiliki atribut-atribut tertentu. Metode ini dapat digunakan pada banyak populasi, tetapi lebih efektif dengan ukuran sampel yang lebih kecil dan populasi yang lebih homogen. Cara yang dilakukan pada     
+                         <i><b>Judgment (Purposive) Sampling</b></i>
+                         penelitian ini adalah pengambilan sampel yang homogen. Dengan sampling homogen, sekelompok orang dengan usia, jenis kelamin, latar belakang, atau pekerjaan yang sama akan dipilih. Pada penelitian ini, dipilih sampel dengan pekerjaan yang sama, yaitu orang yang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur, dan sampel dengan latar belakang yang sama, yaitu orang yang sedang berkuliah di Politeknik Statistika STIS.
                     </p>
                 </div>
             </div>
