@@ -686,17 +686,6 @@
                     </div>
                 </section>
 
-
-
-                <!-- <section class="offset-header">
-            <div class="container-fluid turun">               
->>>>>>> 14599de19ca9b94bfb8c3ec44d6dd3ea10ddfe1a
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                    </div>
-                </div>
-            </div>
-        </section> -->
                 <!-- Hasil Penelitian -->
                 <section class="offset-header mt-5">
                     <div class="container-fluid turun">
@@ -734,26 +723,14 @@
                             </div>
                         </div>
                         <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                            <!-- <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum
-                    nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam
-                    quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit.
-                    Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam
-                    ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem
-                    officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam
-                    laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda
-                    explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae
-                    atque quidem aliquid placeat?
-                </p> -->
                             <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                             <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                         </div>
                     </div>
                 </section>
-                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-
         </section>
 
     </section><!-- End -->
+</section>
 
-    <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>
