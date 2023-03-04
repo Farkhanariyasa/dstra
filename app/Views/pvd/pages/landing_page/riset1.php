@@ -398,7 +398,6 @@
                                             </p>
                                         </div>
                                     </div>
-
                                     <!-- Kerangka Sampel-->
                                     <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
@@ -541,9 +540,8 @@
                                     <p>
                                         <b>Desain Sampling Tujuan 3</b>
                                     </p>
-                                    < class="text-justify">
+                                    <p class="text-justify">
                                         Metode penarikan sampel yang digunakan adalah Multistage Random Sampling karena populasi heterogen dan berukuran sangat besar. Berikut tahapan penarikan sampel dengan Multistage Random Sampling:
-
                                     <ul>
                                         <li class="text-justify">
                                             Tahap Pertama: Melakukan pemilihan n blok sensus (BS) dari semua kecamatan secara Probability Proportional to Size (PPS WR-Systematic) dengan size jumlah keluarga di tiap blok sensus di Kota Malang hasil pemutakhiran Sensus Penduduk 2020.
@@ -554,11 +552,13 @@
                                             Tahap Kedua: Melakukan pemilihan n rumah tangga dari blok sensus (BS) terpilih secara Systematic Sampling dengan variabel dasar pengurutan jumlah anggota rumah tangga yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan wisata selama Triwulan IV 2022.
                                         </li>
                                     </ul>
+                                    </p>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </div>
+
 
                 <!-- Hasil Penelitian -->
                 <section class="offset-header mt-5">
@@ -602,6 +602,7 @@
                         </div>
                     </div>
                 </section>
+            </section>
         </section>
 
     </section><!-- End -->
