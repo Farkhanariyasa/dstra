@@ -126,4 +126,17 @@ function update_value_axis_dodge_bar_sdm_ekonomi(chk_bx) {
   }
 };
 
+const dodgeBarSdmEkonomiLegend = document.getElementById("forDodgeBarSdmEkonomiLegend");
+dodgeBarSdmEkonomiLegend.addEventListener("click", update_value_legend_dodge_bar_sdm_ekonomi(chk_bx));
 
+function update_value_legend_dodge_bar_sdm_ekonomi(chk_bx) {
+    if (chk_bx.checked) {
+      console.log("check");
+      bar.options.plugins.legend.display=true;
+      bar.update();
+    } else {
+      console.log("uncheck");
+      bar.options.plugins.legend.display=false;
+      bar.update();
+    }
+};
