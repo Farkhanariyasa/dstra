@@ -18,99 +18,12 @@
           <li data-filter=".filter-riset4-hasil7">Peta Batu</li>
           <li data-filter=".filter-riset4-hasil8">Radar Chart</li>
           <li data-filter=".filter-riset4-hasil9">Choropelth (Coming soon)</li>
+          <li data-filter=".filter-riset4-hasil10">Dodge Bar</li>
         </ul>
       </div>
     </div>
     <!-- Kotak-Kotak Grafik Kosong -->
     <!-- <div class="row">
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 my-2">
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-          </div>
-        </div>
-      </div>
-
       <div class="col-sm-6 my-2">
         <div class="card">
           <div class="card-body">
@@ -141,6 +54,7 @@
 <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+
 <!-- Data Chart -->
 <script>
   const unitUsahaTIK = <?= json_encode($uu) ?>;
@@ -149,7 +63,10 @@
   const b407a = <?= json_encode($b407a) ?>;
   const umur = <?= json_encode($umur) ?>;
   const pendapatanNoFilter = <?= json_encode($pdnf) ?>;
+  const kecamatanEkonomi = <?= json_encode($kecamatanEkonomi) ?>;
+  const kecamatanArsipDiigital = <?= json_encode($kecamatanArsipDiigital) ?>;
 </script>
+
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_uu_pie.js') ?>"></script>
@@ -159,6 +76,7 @@
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_heatmap.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_radar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/dogde_bar_sdm_ekonomi.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->
