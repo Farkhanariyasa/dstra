@@ -1,7 +1,7 @@
 const boxplot_chart = document.getElementById("boxplot_chart");
 
 new Chart(boxplot_chart, {
-    type: "boxplot",
+    type: "violin",
     data: {
         labels: ["Pendapatan (Rupiah)"],
         datasets: [
