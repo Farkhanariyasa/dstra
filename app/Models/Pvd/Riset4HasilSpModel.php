@@ -10,6 +10,11 @@ class Riset4HasilSpModel extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
+    # fungsi agregat (count) untuk semua indikator di blok SDM
+    public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
+        return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();;
+    }
+
     public function getUnitUsahaTIK($uu){
         return $this->where(["b409a" => $uu])->countAllResults();
     }
