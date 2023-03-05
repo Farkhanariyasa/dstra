@@ -7,6 +7,7 @@ use App\Models\Pvd\Riset4HasilSpModel;
 
 class Riset4 extends BaseController
 {
+    protected $SDM;
     protected $kecamatan;
     protected $unitusahaTIK;
     protected $pendapatan;
@@ -15,6 +16,7 @@ class Riset4 extends BaseController
 
     public function __construct()
     {
+        $this->SDM = new Riset4HasilSpModel();
         $this->kecamatan = new Riset4HasilSpModel();
         $this->unitusahaTIK = new Riset4HasilSpModel();
         $this->pendapatan = new Riset4HasilSpModel();
@@ -24,6 +26,36 @@ class Riset4 extends BaseController
 
     public function index()
     {
+        $kecamatanEkonomi = [
+            'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 1),
+            'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 2),
+            'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 3),
+            'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 4),
+            'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 1),
+            'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 2),
+            'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 3),
+            'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 4),
+            'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 1),
+            'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 2),
+            'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 3),
+            'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 4),
+        ];
+
+        $kecamatanArsipDiigital = [
+            'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 1),
+            'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 2),
+            'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 3),
+            'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 4),
+            'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 1),
+            'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 2),
+            'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 3),
+            'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 4),
+            'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 1),
+            'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 2),
+            'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 3),
+            'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 4),
+        ];
+
         $uu = [
             'uu1' => $this->unitusahaTIK->getUnitUsahaTIK(1),
             'uu2' => $this->unitusahaTIK->getUnitUsahaTIK(2),
@@ -54,7 +86,9 @@ class Riset4 extends BaseController
             'b401a' => $b401a,
             'b407a' => $b407a,
             'umur' => $umur,
-            'pdnf' => $pdnf
+            'pdnf' => $pdnf,
+            'kecamatanEkonomi' => $kecamatanEkonomi,
+            'kecamatanArsipDiigital' => $kecamatanArsipDiigital
         ];
         return view('pvd/pages/dasbor/riset4/index', $data);
     }
