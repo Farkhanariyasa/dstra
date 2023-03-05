@@ -35,8 +35,8 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - Jangan lupa untuk mengubah konfigurasi pada file `.env` yang berada pada folder `app/Config` sesuai dengan konfigurasi berikut ini :
   - `database.default.hostname = mysql`
   - `database.default.database = pkl62`
-  - `database.default.username = pkl62`
-  - `database.default.password = pkl62`
+  - `database.default.username = pvd`
+  - `database.default.password = pvd`
 - Kemudian import file sql yang berada dalam `app/Database/Backups` ke dalam basis data `pkl62`.
 - Buka browser dan ketikkan url `http://localhost:8080/hasil-pkl` untuk melihat hasil webnya.
 
