@@ -1,0 +1,93 @@
+version: "1.0"
+
+networks:
+  codeigniter:
+
+services:
+  nginx:
+    image: "nginx:latest"
+    container_name: nginx
+    working_dir: "/var/www/html"
+    volumes:
+      - "./:/var/www/html"
+      - "./.docker/nginx/default.conf:/etc/nginx/conf.d/default.conf"
+    ports:
+      - "8080:80"
+    depends_on:
+      - php
+      - mysql
+    networks:
+      - codeigniter
+
+  mysql:
+    image: "mysql:8.0"
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./.docker/volumes:/var/lib/mysql"
+    environment:
+      MYSQL_DATABASE: pkl62
+      MYSQL_USER: pvd
+      MYSQL_PASSWORD: pvd
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - codeigniter
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 8081:80
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root
+    depends_on:
+      - mysql
+    networks:
+      - codeigniter
+
+  php:
+    build:
+      context: .docker/php
+      dockerfile: Dockerfile
+      args:
+        - PHPUSER=${PHPUSER:-www-data}
+        - PHPGROUP=${PHPGROUP:-www-data}
+    container_name: php
+    working_dir: "/var/www/html"
+    depends_on:
+      - mysql
+    volumes:
+      - "./:/var/www/html"
+    networks:
+      - codeigniter
+
+  composer:
+    image: "composer:latest"
+    container_name: composer
+    working_dir: "/var/www/html"
+    volumes:
+      - "./:/var/www/html"
+    depends_on:
+      - php
+    entrypoint: ["composer"]
+    networks:
+      - codeigniter
+
+  spark:
+    build:
+      context: .docker/php
+      dockerfile: Dockerfile
+      args:
+        - PHPUSER=${PHPUSER:-www-data}
+        - PHPGROUP=${PHPGROUP:-www-data}
+    container_name: spark
+    volumes:
+      - ./:/var/www/html:delegated
+    depends_on:
+      - mysql
+    working_dir: /var/www/html
+    entrypoint: ["php", "/var/www/html/spark"]
+    networks:
+      - codeigniter
