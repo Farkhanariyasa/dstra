@@ -9,12 +9,13 @@
 
     <hr class="hrjudul">
 
+    <!-- Gambaran Umum -->
     <div class="accordion" id="accordionExample">
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <span class="fa-solid fa-hotel pe-2"></span>
             Gambaran Umum
-            <span class="fa-solid fa-hotel"></span>
           </button>
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -28,11 +29,12 @@
         </div>
       </div>
 
+      <!-- Tujuan 1 -->
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Tujuan 1
-            <span class="fa-solid fa-map-location-dot"></span>
+          <span class="fa-solid fa-map-location-dot pe-2"></span>  
+          Tujuan 1
           </button>
         </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -57,11 +59,13 @@
         </div>
       </div>
 
+      <!-- Tujuan 2 -->
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <span class="fa-solid fa-calendar-week pe-2"></span>
             Tujuan 2
-            <span class="fa-solid fa-calendar-week"></span>
+            
           </button>
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -81,11 +85,13 @@
         </div>
       </div>
 
+      <!-- Tujuan 3 -->
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <span class="fa-solid fa-person-walking-luggage pe-2"></span>
             Tujuan 3
-            <span class="fa-solid fa-person-walking-luggage"></span>
+            
           </button>
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -103,11 +109,13 @@
         </div>
       </div>
 
+      <!-- Tujuan 4 -->
       <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingFive">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <span class="fa-solid fa-chart-simple pe-2"></span>
             Tujuan 4
-            <span class="fa-solid fa-chart-simple"></span>
+            
           </button>
         </h3>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
