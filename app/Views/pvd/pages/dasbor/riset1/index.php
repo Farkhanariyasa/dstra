@@ -121,9 +121,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <h6 style="color: #4b395f;"><strong>
-          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
-      </h6>
+      <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p> 
     </header>
     <hr class="hrjudul">
   </div>

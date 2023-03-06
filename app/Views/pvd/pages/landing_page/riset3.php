@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
+                    <p class="text-justify" style="font-size: 18px;">
                         Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan
                         sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan
                         terkait sektor pariwisata. Potensi tersebut meliputi:
@@ -83,8 +83,8 @@
                         <h1 class="headline text-center">Tujuan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <ol class="text-justify">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000" > 
+                    <ol class="text-justify" style="font-size: 18px;">
                         <li>Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</li>
                         <li>Menganalisis dinamika tenaga kerja di industri pariwisata.</li>
                         <li>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</li>
@@ -140,7 +140,7 @@
                         <div class="col-6">
                             <h5>Tahap I</h5>
                             <h4>PPS WR</h4>
-                            <p>size: jumlah objek wisata & akomodasi</p>
+                            <h5>size: jumlah objek wisata & akomodasi</h5>
                         </div>
                     </div>
                     <!--path between 1-2-->
@@ -160,7 +160,7 @@
                         <div class="col-6 text-right">
                             <h5>Tahap II</h5>
                             <h4>PPS WR</h4>
-                            <p>size: jumlah usaha sektor pariwisata</p>
+                            <h5>size: jumlah usaha sektor pariwisata</h5>
                         </div>
                         <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
                             <div class="circle font-weight-bold">2</div>
@@ -186,7 +186,7 @@
                         <div class="col-6">
                             <h5>Tahap III</h5>
                             <h4>Systematic Sampling</h4>
-                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
+                            <h5>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</h5>
                         </div>
                     </div>
                 </div>
@@ -206,17 +206,17 @@
                         <div class="row">
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
+                                    <h4 class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</h4>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
+                                    <h4 class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</h4>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
+                                    <h4 class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</h4>
                                 </div>
                             </div>
 
@@ -229,7 +229,7 @@
                                             <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
                                         </div>
                                         <div class="col-8 boxkerangka">
-                                            <p class="mySlides mt-4 text-white text-center">Unit Sampling</p>
+                                            <h4 class="mySlides mt-4 text-white text-center">Unit Sampling</h4>
                                             <p class="mySlides text-white text-center resizefont">Primary sampling unit: Kecamatan</p>
                                             <p class="mySlides text-white text-center resizefont">Secondary sampling unit: Blok Sensus</p>
                                             <p class="mySlides text-white text-center resizefont">Ultimate sampling unit: Rumah Tangga</p>
@@ -242,12 +242,12 @@
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="batasan">
-                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
+                                    <h4 class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</h4>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="batasan pt-2">
-                                    <p class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#krsampModal">Kerangka Sampel</p>
+                                    <h4 class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#krsampModal">Kerangka Sampel</h4>
                                 </div>
                             </div>
                         </div>
@@ -351,8 +351,8 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
-                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
+                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab" style="font-size: 18px;">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
+                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab" style="font-size: 18px;">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
                     </div>
                 </div>
             </div>
@@ -369,9 +369,9 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
+                    <h5 class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                    </p>
+                    </h5>
                 </div>
             </div>
         </section>
