@@ -47,6 +47,13 @@
             </div>
         </div>
     </div> -->
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card shadow">
+            <div class="card-body">
+                <p class="card-text text-center">Story<br><br><br><br><br><br><br><br><br><br><br></p>
+            </div>
+        </div>
+    </div>
 </div>
 
 
