@@ -298,6 +298,10 @@ section {
     font-size: x-large;
 }
 
+.rumus{
+    text-align: center;
+    font-size: large;
+}
 /* fourthSec */
 /* #fourthSec { */
     /* background-image: url(/img/landing_page/riset1/Hasil_Penelitian.png); */
@@ -584,7 +588,9 @@ h1.headline {
     } */
 
     .rumus{
-        width: 10px;
+        /* width: 10px; */
+        text-align: center;
+        /* font-size: xx-small; */
     }
 
     /* .hero .hero-img img {
@@ -676,7 +682,9 @@ h1.headline {
     }
 
     .rumus{
-        width: 10px;
+        /* width: 10px; */
+        text-align: center;
+        /* font-size: 4px; */
     }
 
     #fourthSec button{
