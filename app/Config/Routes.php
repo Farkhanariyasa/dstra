@@ -47,9 +47,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Dasbor
         $routes->get('dasbor', 'Riset1::index');
         // Double Counting
-        $routes->get('doublecounting-algoritma-1', 'Riset1::double_counting_algoritma1'); // Algoritma 1
-        $routes->get('doublecounting-algoritma-2', 'Riset1::double_counting_algoritma2'); // Algoritma 2
-        $routes->get('doublecounting-algoritma-3', 'Riset1::double_counting_algoritma3'); // Algoritma 3
+        $routes->get('doublecounting-steps', 'Riset1::double_counting_steps'); // Steps
+        $routes->get('doublecounting-evaluasi', 'Riset1::double_counting_evaluasi'); // Evaluasi
         // Family Grouping
         $routes->get('familygrouping-visualisasi', 'Riset1::family_grouping_visualisasi'); // Visualisasi
         $routes->get('familygrouping-tabulasi', 'Riset1::family_grouping_tabulasi'); // Tabulasi
