@@ -4,8 +4,10 @@
 
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
-    <header class="section-header">
-      <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
+  <header class="section-header">
+      <p style="color: #4b395f;">
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+      </p>
     </header>
     <hr class="hrjudul">
     <div class="row">
