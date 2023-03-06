@@ -12,12 +12,14 @@
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-            <li data-filter=".filter-riset2-hasilkajian1-1" class="filter-active">Banyak Wisatawan</li>
-            <li data-filter=".filter-riset2-hasilkajian1-2">Banyak Perjalanan</li>
-            <li data-filter=".filter-riset2-hasilkajian1-3">Tujuan Utama</li>
+          <li data-filter="*" class="filter-active">Semua</li>
+          <li data-filter=".filter-riset2-hasilkajian1-1">Banyak Wisatawan</li>
+          <li data-filter=".filter-riset2-hasilkajian1-2">Banyak Perjalanan</li>
+          <li data-filter=".filter-riset2-hasilkajian1-3">Tujuan Utama</li>
         </ul>
       </div>
     </div>
+    
     <div class="row portfolio-container">
       <?php include('dummy_kajian1.php') ?>
     </div>
