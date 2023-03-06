@@ -120,17 +120,17 @@
 
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
-    <header class="section-header">
-      <h6 style="color: #4b395f;"><strong>
-          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
-      </h6>
+  <header class="section-header">
+      <p style="color: #4b395f;">
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+      </p>
     </header>
     <hr class="hrjudul">
   </div>
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-center">
       <ul id="portfolio-flters">
-        <li data-filter="*" class="filter-active">Semua</li>
+        <!-- <li data-filter="*" class="filter-active">Semua</li> -->
         <li data-filter=".filter-riset1-dc">Double Counting</li>
         <li data-filter=".filter-riset1-fg">Family Grouping</li>
         <li data-filter=".filter-riset1-wisnus">Statistik Wisatawan Nusantara</li>
@@ -148,18 +148,13 @@
 
 
 <section>
-  <h1 class="card-title text-center font-weight-bold mt-2">Peta Lokus</h1>
+  <h1 class="headline text-center mt-2" style="color: #4b395f;">Peta Lokus</h1>
   <div class="container mt-5">
     <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
     <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-      <p class="card-text text-center ">Kota Surabaya</p>
+      <p class="card-text text-center" style="font-size: 1.5rem;">Kota Surabaya</p>
       <div class="d-flex flex-row align-item-center justify-content-center">
         <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-          <div class="me-1 mt-1 justify-content-end align-item-end">
-            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <i class="fa-solid fa-download"></i>
-            </button>
-          </div>
         </div>
         <div id="map" style="width: 95%; height:80vh;"></div>
       </div>
@@ -169,14 +164,14 @@
   <div class="container mt-5">
     <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
     <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-      <p class="card-text text-center">Kota Malang</p>
+      <p class="card-text text-center" style="font-size: 1.5rem;">Kota Malang</p>
       <div class="d-flex flex-row align-item-center justify-content-center">
         <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-          <div class="me-1 mt-1 justify-content-end align-item-end">
+          <!-- <div class="me-1 mt-1 justify-content-end align-item-end">
             <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <i class="fa-solid fa-download"></i>
             </button>
-          </div>
+          </div> -->
         </div>
         <div id="map2" style="width: 95%; height:80vh;"></div>
       </div>
