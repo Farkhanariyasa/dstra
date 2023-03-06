@@ -147,13 +147,17 @@ function getTotal(d) {
 
 function bakeWaffles(data, title) {
   const Total = getTotal(data);
-  
+        var widthscreen = window.innerWidth;
+        console.log(widthscreen);
+        let squareSize = 25
+        if (widthscreen<540){
+            squareSize = 16
+        }
         let total = 0;
         let width,
             height,
             widthSquares = 16,
             heightSquares = 9,
-            squareSize = 25,
             squareValue = 0,
             gap = 1,
             theData = [];
@@ -291,6 +295,7 @@ function generateLegend(d) {
 
     }
 
+   
 function generateData(d) {
 
         for (let prop in d) {
