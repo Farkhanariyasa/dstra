@@ -203,11 +203,6 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
-                        </div>
                     </div>
                     <div>
                         <iframe src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.geojson"
@@ -226,11 +221,6 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
-                        </div>
                     </div>
                     <div>
                         <iframe src="<?= base_url('pvd/html/map_1.html'); ?>"

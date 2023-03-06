@@ -4,44 +4,44 @@
 
 <section>
     <section id="hero" class="hero d-flex align-items-center">
-    <!-- Judul Landing Page -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up" class="titleRiset4Top">Riset 2</h1>
-                <h5 data-aos="fade-up" data-aos-delay="400" class="descRiset4">
-                    Pilot Survei Wisatawan Nusantara
-                </h5>
-                <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                    Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.    
-                </p>
-                <div data-aos="fade-up" data-aos-delay="600">
-                    <div class="text-center text-lg-start">
-                        <a id="tombol" href="<?= base_url('hasil-pkl/riset2/dasbor') ?>" class="tombol btn-for text-decoration-none">
-                            <span>Hasil PKL</span>
-                            <i class="fas fa-arrow-circle-right"></i>
-                        </a>
+        <!-- Judul Landing Page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up" class="titleRiset4Top">Riset 2</h1>
+                    <h5 data-aos="fade-up" data-aos-delay="400" class="descRiset4">
+                        Pilot Survei Wisatawan Nusantara
+                    </h5>
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
+                        Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.
+                    </p>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <div class="text-center text-lg-start">
+                            <a id="tombol" href="<?= base_url('hasil-pkl/riset2/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                                <span>Hasil PKL</span>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="<?= base_url('pvd/img/landingpage/riset2/riset2.png') ?>" class="img-fluid" alt="">
+                <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="<?= base_url('pvd/img/landingpage/riset2/riset2.png') ?>" class="img-fluid" alt="">
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <!-- Latar Belakang -->
     <section class="hero">
-    <section class="offset-header">
-        <div class="container-fluid turun">
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                <div class="col-12 col-sm-12">
-                    <h1 class="headline text-center pt-5">Latar Belakang</h1>
+        <section class="offset-header">
+            <div class="container-fluid turun">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center pt-5">Latar Belakang</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="konten2 third5 shadow box par m-auto p-4 p-md-5 mt-4"  data-aos-duration="1000" style="line-height: 30px;">
-                <!-- <p class="text-justify">
+                <div class="konten2 third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos-duration="1000" style="line-height: 30px;">
+                    <!-- <p class="text-justify">
                     Indonesia memiliki potensi pariwisata yang sangat besar baik dari segi alam maupun dari 
                     segi budaya. Hal ini didukung oleh laporan Travel & Tourism Development Index 2021 World 
                     Economic Forum (WEF) edisi Mei 2022 yang menyatakan bahwa industri pariwisata tanah air 
@@ -70,8 +70,9 @@
                         </a>
                     </p>
                 </div>     -->
+                </div>
             </div>
-        </div>
+        </section>
     </section>
 
     <!-- Identifikasi dan Batasan Penelitian -->
@@ -151,7 +152,7 @@
                     <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
                 </p>
                 <p class="text-justify">
-                Sumber data yang dikumpulkan dalam penelitian ini adalah data primer. Data diperoleh melalui pengisian data dari hasil wawancara secara langsung oleh petugas dengan menggunakan moda <i>Computer-Assisted Personal Interviewing</i> (CAPI) yang dikombinasikan dengan moda <i>Paper and Pencil Interviewing</i> (PAPI). Selain itu, untuk mengatasi kemungkinan non respon menggunakan CATI  Computer-Assisted Telephone Interviewing.
+                    Sumber data yang dikumpulkan dalam penelitian ini adalah data primer. Data diperoleh melalui pengisian data dari hasil wawancara secara langsung oleh petugas dengan menggunakan moda <i>Computer-Assisted Personal Interviewing</i> (CAPI) yang dikombinasikan dengan moda <i>Paper and Pencil Interviewing</i> (PAPI). Selain itu, untuk mengatasi kemungkinan non respon menggunakan CATI Computer-Assisted Telephone Interviewing.
                 </p>
             </div>
 
@@ -160,7 +161,7 @@
                 <p>
                     <b>CAKUPAN PENELITIAN</b>
                 </p>
-                
+
                 <div>
                     <div class="col">
                         <div class="row">
@@ -169,10 +170,10 @@
                                 <div class="card-body text-center batasan2 shadow">
                                     <i class="fas fa-users col-1 ikon"></i>
                                     <div class="col">
-                                        <p class="card-title text-center" >
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi</strong></div>
-                                            <div class="angka">2180</div>
-                                            <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        <p class="card-title text-center">
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Populasi</strong></div>
+                                        <div class="angka">2180</div>
+                                        <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div>
                                         </p>
                                     </div>
                                 </div>
@@ -184,11 +185,11 @@
                                     <i class="fas fa-user-friends col-1 ikon"></i>
                                     <div class="col">
                                         <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi Target</strong></div>
-                                            <div class="angka">2180</div>
-                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Populasi Target</strong></div>
+                                        <div class="angka">2180</div>
+                                        <div style="line-height: 20px;">Anggota Rumah Tangga</div>
                                         </p>
-                                    </div>       
+                                    </div>
                                 </div>
                             </div>
 
@@ -198,8 +199,8 @@
                                     <i class="fas fa-user-alt col-1 ikon"></i>
                                     <div class="col">
                                         <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Observasi</strong></div>
-                                            <div class="angka">2180</div>
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Unit Observasi</strong></div>
+                                        <div class="angka">2180</div>
                                         </p>
                                         <!-- <p class="card-text text-center">
                                             <div class="text-center">Anggota Rumah Tangga</div>
@@ -208,7 +209,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="row">
                             <!-- Secondary Sampling Unit -->
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
@@ -216,9 +217,9 @@
                                     <i class="fas fa-city col-1 ikon"></i>
                                     <div class="col">
                                         <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
-                                            <div class="angka">10</div>
-                                            <div style="line-height: 20px;">Rumah Tangga</div>
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
+                                        <div class="angka">10</div>
+                                        <div style="line-height: 20px;">Rumah Tangga</div>
                                         </p>
                                     </div>
                                 </div>
@@ -230,9 +231,9 @@
                                     <i class="fas fa-home col-1 ikon"></i>
                                     <div class="col">
                                         <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Primary Sampling Unit</strong></div>
-                                            <div class="angka">347</div>
-                                            <div style="line-height: 20px;">Blok Sensus</div>
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Primary Sampling Unit</strong></div>
+                                        <div class="angka">347</div>
+                                        <div style="line-height: 20px;">Blok Sensus</div>
                                         </p>
                                     </div>
                                 </div>
@@ -244,9 +245,9 @@
                                     <i class="fas fa-user-alt col-1 ikon"></i>
                                     <div class="col">
                                         <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Analisis</strong></div>
-                                            <div class="angka">2180</div>
-                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                        <div style="line-height: 20px; color: #4b395f;"><strong>Unit Analisis</strong></div>
+                                        <div class="angka">2180</div>
+                                        <div style="line-height: 20px;">Anggota Rumah Tangga</div>
                                         </p>
                                     </div>
                                 </div>
@@ -260,13 +261,13 @@
                             <i class="fas fa-clipboard-list ikon"></i>
                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
                             <p class="card-text text-justify">
-                                <div class="text-justify" style="line-height: 25px;">
-                                    Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
-                                </div>
-                                <br>
-                                <div class="text-justify" style="line-height: 25px;">
-                                    Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
-                                </div>
+                            <div class="text-justify" style="line-height: 25px;">
+                                Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
+                            </div>
+                            <br>
+                            <div class="text-justify" style="line-height: 25px;">
+                                Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
+                            </div>
                             </p>
                         </div>
                     </div>
@@ -277,19 +278,19 @@
                             <i class="fas fa-cubes ikon"></i>
                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Variabel Pembantu</strong></h5>
                             <p class="card-text text-center">
-                                <div class="text-justify" style="line-height: 25px;">
-                                Variabel pembantu dibutuhkan sebagai size pada teknik PPS sampling dan sebagai dasar pengurutan pada teknik <i>systematic sampling</i>. Variabel-variabel yang digunakan sebagai variabel pembantu dalam penghitungan estimasi, yaitu 
+                            <div class="text-justify" style="line-height: 25px;">
+                                Variabel pembantu dibutuhkan sebagai size pada teknik PPS sampling dan sebagai dasar pengurutan pada teknik <i>systematic sampling</i>. Variabel-variabel yang digunakan sebagai variabel pembantu dalam penghitungan estimasi, yaitu
                                 <br>
                                 <br>
-                                    <ul>
-                                        <li style="line-height: 25px; color:inherit;">
-                                            Jumlah keluarga di setiap blok sensus, sebagai size pada penarikan sampel tahap pertama dengan teknik PPS, dan
-                                        </li>
-                                        <li style="line-height: 25px; color:inherit;">
-                                            Jumlah anggota rumah tangga, sebagai <i>implicit stratification</i> pada penarikan sampel tahap kedua dengan teknik <i>Systematic Sampling</i>.
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul>
+                                    <li style="line-height: 25px; color:inherit;">
+                                        Jumlah keluarga di setiap blok sensus, sebagai size pada penarikan sampel tahap pertama dengan teknik PPS, dan
+                                    </li>
+                                    <li style="line-height: 25px; color:inherit;">
+                                        Jumlah anggota rumah tangga, sebagai <i>implicit stratification</i> pada penarikan sampel tahap kedua dengan teknik <i>Systematic Sampling</i>.
+                                    </li>
+                                </ul>
+                            </div>
                             </p>
                         </div>
                     </div>
@@ -437,15 +438,15 @@
                 </section> -->
 
                 <p class="text-justify">
-                    <div class="d-flex flex-row justify-content-center align-items-center">
-                        <div class="text-center text-lg-start">
-                            <a class="bagan text-decoration-none">
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="" >
-                                <!-- <span>Unduh</span>
+                <div class="d-flex flex-row justify-content-center align-items-center">
+                    <div class="text-center text-lg-start">
+                        <a class="bagan text-decoration-none">
+                            <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                            <!-- <span>Unduh</span>
                                 <i class="fas fa-download"></i> -->
-                            </a>
-                        </div>
+                        </a>
                     </div>
+                </div>
                 </p>
 
                 <section class="text-justify">
@@ -457,7 +458,7 @@
                         </li>
                         <li>
                             Tahap kedua, mengambil rumah tangga di blok sensus terpilih menggunakan Systematic Sampling dengan <b>jumlah anggota rumah tangga</b> sebagai variabel dasar pengurutan.
-                        </li> 
+                        </li>
                     </ul>
                 </section>
             </div>
@@ -647,33 +648,35 @@
                                                 <strong>Skema Sampling</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -689,33 +692,35 @@
                                                 <strong>Rumus Overall Sampling Fraction</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -731,33 +736,35 @@
                                                 <strong>Rumus Design Weight</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -773,33 +780,35 @@
                                                 <strong>Rumus Penduga Total Karakteristik</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -815,33 +824,35 @@
                                                 <strong>Rumus Penduga Rata-Rata Karakteristik</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -857,33 +868,35 @@
                                                 <strong>Rumus Jumlah Sampel Minimum</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -915,33 +928,35 @@
                                                 <strong>Skema Sampling</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -957,33 +972,35 @@
                                                 <strong>Rumus Overall Sampling Fraction</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -999,33 +1016,35 @@
                                                 <strong>Rumus Design Weight</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -1041,33 +1060,35 @@
                                                 <strong>Rumus Penduga Total Karakteristik</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -1083,33 +1104,35 @@
                                                 <strong>Rumus Penduga Rata-Rata Karakteristik</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -1125,33 +1148,35 @@
                                                 <strong>Rumus Jumlah Sampel Minimum</strong>
                                             </h5>
                                             <p class="card-text text-center">
-                                                <div class="text-justify">
-                                                    <p>
-                                                        Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                        <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                                        <!-- Keterangan:  -->
-                                                        <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                            <strong>Keterangan :</strong>
-                                                        </a>
-                                                    </p>
-                                                    <div class="collapse" id="collapseKeterangan">
-                                                        <p class="text-justify">
-                                                            n		: sampel minimum <br>
-                                                            r		: proporsi kejadian terhadap populasi target <br>
-                                                            deff	: design effect <br>
-                                                            RME	    : relative margin <br>
-                                                            pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                                            AveSize	: rata-rata jumlah ART <br>
-                                                            RR		: response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                            <div class="text-justify">
+                                                <p>
+                                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
+                                                <div class="rumus text-center">
+                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                </div>
+                                                <!-- Keterangan:  -->
+                                                <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
+                                                    <strong>Keterangan :</strong>
+                                                </a>
+                                                </p>
+                                                <div class="collapse" id="collapseKeterangan">
+                                                    <p class="text-justify">
+                                                        n : sampel minimum <br>
+                                                        r : proporsi kejadian terhadap populasi target <br>
+                                                        deff : design effect <br>
+                                                        RME : relative margin <br>
+                                                        pb : proporsi populasi target terhadap populasi penelitian <br>
+                                                        AveSize : rata-rata jumlah ART <br>
+                                                        RR : response rate <br> <br>
+                                                        <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                                     [<strong><i>Sembunyikan</i></strong>]
                                                             </a> -->
-                                                        </p>
-                                                    </div>
-                                                    <p>
-                                                        Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
                                                     </p>
                                                 </div>
+                                                <p>
+                                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
+                                                </p>
+                                            </div>
                                             </p>
                                         </div>
                                     </div>
@@ -1160,8 +1185,8 @@
                         </div>
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#versi_kecil" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
 
                         <button class="carousel-control-next" type="button" data-bs-target="#versi_kecil" data-bs-slide="next">
@@ -1203,28 +1228,28 @@
 
             <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
                 <p class="text-justify">
-                    <div>
-                        <div class="text-center text-lg-start kontener">
-                            <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="" >
-                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
-                                    <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
-                                    <div class="d-flex justify-content-center my-auto">
-                                        <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
-                                        <div class="text-center">
-                                            <button class="btn btn-primary gdrive" type="button">
-                                                <div>
-                                                    <i class="fas fa-download"></i>
-                                                    Unduh
-                                                </div>
-                                            </button>
+                <div>
+                    <div class="text-center text-lg-start kontener">
+                        <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
+                        <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
+                        <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                            <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
+                            <div class="d-flex justify-content-center my-auto">
+                                <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                    <div class="text-center">
+                                        <button class="btn btn-primary gdrive" type="button">
+                                            <div>
+                                                <i class="fas fa-download"></i>
+                                                Unduh
                                             </div>
-                                        </a>
+                                        </button>
                                     </div>
-                                </div>
-                            <!-- </a> -->
+                                </a>
+                            </div>
                         </div>
+                        <!-- </a> -->
                     </div>
+                </div>
                 </p>
             </div>
 
@@ -1251,12 +1276,8 @@
 
 </section>
 
-</section><!-- End -->
-
-
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
 <?= $this->endSection(); ?>

@@ -179,5 +179,36 @@
     </div>
 </div>
 
+<!-- Dodge Bar Chart: SDM -> Ekonomi -->
+<div class="portfolio-item filter-riset4-hasil10" onresize="responsivefonts()">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-boxplot">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="sdm-ekonomi"></canvas>
+                    </div>
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3 m-10">
+                            <input class="form-check-input" onchange="update_value_axis_dodge_bar_sdm_ekonomi(this);" type="checkbox" id="forDodgeBarSdmEkonomiAxis" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
+                        </div>
+                        <div class="form-check form-switch me-3 m-10">
+                            <input class="form-check-input" onchange="update_value_legend_dodge_bar_sdm_ekonomi(this);" type="checkbox" id="forDodgeBarSdmEkonomiLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!-- Modal Riset 4  -->
 <?php include('modal_riset4.php') ?>

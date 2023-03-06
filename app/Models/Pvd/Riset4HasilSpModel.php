@@ -10,6 +10,11 @@ class Riset4HasilSpModel extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
+    # fungsi agregat (count) untuk semua indikator di blok SDM
+    public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
+        return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();;
+    }
+
     public function getUnitUsahaTIK($uu){
         return $this->where(["b409a" => $uu])->countAllResults();
     }
@@ -20,6 +25,21 @@ class Riset4HasilSpModel extends Model
 
     public function getUnitUsahaTIK2($b407a){
         return $this->where(["b407a" => $b407a])->countAllResults();
+    }
+
+    public function getRataanIKUPTIK($b109){
+        $result =  $this->where(["b109" => $b109])->select('avg(b405a) as rataan')->first();
+        return $result['rataan'];
+    }
+
+    public function getRataanIKUPTIK2($b109){
+        $result =  $this->where(["b109" => $b109])->select('avg(b407a) as rataan')->first();
+        return $result['rataan'];
+    }
+
+    public function getRataanIKUPTIK3($b109){
+        $result =  $this->where(["b109" => $b109])->select('avg(b409a) as rataan')->first();
+        return $result['rataan'];
     }
 
     public function getPendapatan(){
@@ -52,3 +72,5 @@ class Riset4HasilSpModel extends Model
     }
 
 }
+
+

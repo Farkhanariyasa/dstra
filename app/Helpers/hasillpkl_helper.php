@@ -19,16 +19,12 @@ function getMenu()
           'id' => 'double_counting',
           'subMenu' => [
             [
-              'subMenu' => 'Algoritma 1',
-              'href' => '/riset1/doublecounting-algoritma-1',
+              'subMenu' => 'Step-step',
+              'href' => '/riset1/doublecounting-steps',
             ],
             [
-              'subMenu' => 'Algoritma 2',
-              'href' => '/riset1/doublecounting-algoritma-2',
-            ],
-            [
-              'subMenu' => 'Algoritma 3',
-              'href' => '/riset1/doublecounting-algoritma-3',
+              'subMenu' => 'Evaluasi',
+              'href' => '/riset1/doublecounting-evaluasi',
             ],
           ],
         ],
@@ -39,11 +35,11 @@ function getMenu()
           'id' => 'menu3',
           'subMenu' => [
             [
-              'subMenu' => 'Visualisasi',
+              'subMenu' => 'Step-step',
               'href' => '/riset1/familygrouping-visualisasi',
             ],
             [
-              'subMenu' => 'Tabulasi',
+              'subMenu' => 'Evaluasi',
               'href' => '/riset1/familygrouping-tabulasi',
             ],
           ],

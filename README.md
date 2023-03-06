@@ -12,6 +12,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 18-01-2023 : Perubahan struktur basis data. Penambahan migrasi tabel. Lakukan `php spark migrate` untuk melakukan migrasi tabel.
 - 20-01-2023 : Perubahan struktur basis data pada tabel `pvd_unduh_hasil_pkl`. Lakukan hapus terdahulu tabel yang sebelumnya dan `migrations` `php spark migrate` untuk melakukan migrasi tabel.
 - 08-02-2023 : Perubahan Controller dan Routes. Diharapkan untuk memperhatikan perubahan tersebut.
+- 05-03-2023 : Ditambahkan instalasi menggunakan Docker.
 
 ## Cara Instalasi
 
@@ -24,6 +25,20 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - Lakukan konfigurasi pada file `.env` yang berada pada folder `app/Config` sesuai dengan konfigurasi basis data yang telah dibuat.
 - Lakukan `composer install` untuk menginstall library yang dibutuhkan.
 - Jalankan perintah `php spark serve` pada terminal untuk menjalankan server.
+- Buka browser dan ketikkan url `http://localhost:8080/hasil-pkl` untuk melihat hasil webnya.
+
+## Cara Instalasi (Docker)
+
+- Clone repository ini ke dalam folder yang diinginkan.
+- Jalankan Docker.
+- Buka terminal dan masuk ke dalam folder hasil clone repository ini.
+- Jalankan perintah `docker-compose up -d` untuk menjalankan docker.
+- Jangan lupa untuk mengubah konfigurasi pada file `.env` yang berada pada folder `app/Config` sesuai dengan konfigurasi berikut ini :
+  - `database.default.hostname = mysql`
+  - `database.default.database = pkl62`
+  - `database.default.username = pvd`
+  - `database.default.password = pvd`
+- Kemudian import file sql yang berada dalam `app/Database/Backups` ke dalam basis data `pkl62`.
 - Buka browser dan ketikkan url `http://localhost:8080/hasil-pkl` untuk melihat hasil webnya.
 
 ## Penamaan Basis Data dan Tabel

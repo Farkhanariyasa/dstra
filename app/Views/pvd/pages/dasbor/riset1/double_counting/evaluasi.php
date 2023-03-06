@@ -28,8 +28,8 @@
   </div>
 </section>
 
-<!-- Istope -->
 <section>
+  <!-- Istope -->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
