@@ -1,7 +1,7 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container px-0">
+<!-- <div class="container px-0">
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>
         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
@@ -116,7 +116,36 @@
         </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<section id="portfolio" class="portfolio section-bg">
+  <div class="container">
+    <header class="section-header">
+      <h6 style="color: #4b395f;"><strong>
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
+      </h6>
+    </header>
+    <hr class="hrjudul">
+  </div>
+  <div class="row">
+    <div class="col-lg-12 d-flex justify-content-center">
+      <ul id="portfolio-flters">
+        <li data-filter="*" class="filter-active">Semua</li>
+        <li data-filter=".filter-riset1-dc">Double Counting</li>
+        <li data-filter=".filter-riset1-fg">Family Grouping</li>
+        <li data-filter=".filter-riset1-wisnus">Statistik Wisatawan Nusantara</li>
+        <!-- <li data-filter=".filter-riset1-peta">Peta Lokus</li>
+          <li data-filter=".filter-riset1-tabeldummy">Tabel Dummy</li> -->
+      </ul>
+    </div>
+  </div>
+  <div class="row portfolio-container">
+    <?php include('dummy_dasbor.php') ?>
+  </div>
+</section>
+
+
+
 
 <section>
   <h1 class="card-title text-center font-weight-bold mt-2">Peta Lokus</h1>
@@ -157,8 +186,25 @@
 
 <!-- Peta Lokus -->
 <section>
+  <!-- Istope -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <!-- Chart JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
+
+  <!-- Data Grafik -->
+  <script>
+    const jumlahanggota = <?= json_encode($ja) ?>;
+  </script>
+  <!-- Grafik Dasbor -->
+  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
 </section>
 
 
