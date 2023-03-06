@@ -37,7 +37,7 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center pt-5">Latar Belakang</h1>
+                        <h1 class="headline text-center">Latar Belakang</h1>
                     </div>
                 </div>
                 <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
@@ -49,14 +49,14 @@
         </section>
     
         <!-- Identifikasi dan Batasan Penelitian -->
-        <section class="offset-header mt-5">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
                         <h1 class="headline text-center">Identifikasi dan Batasan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px; color:#4b395f;" data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify">
                         Berdasarkan data dari BPS terjadi penurunan jumlah wisatawan nusantara yang drastis pada tahun 2020 sebesar 28,19% dan pemulihannya pada tahun 2021 belum mampu mengembalikan performa wisata sebelum pandemi terjadi. Oleh karena itu, perlu diketahui faktor-faktor utama yang menjadi penentu jumlah perjalanan wisata yang dilakukan oleh individu guna mempercepat tindakan pemulihan sektor pariwisata ini. Penelitian di Riset II berfokus untuk mendapatkan gambaran karakteristik dan estimasi mengenai jumlah perjalanan wisata wisatawan nusantara dalam kabupaten/kota pada triwulan terakhir tahun 2022. Unit analisis yang digunakan pada penelitian ini adalah individu yang melakukan perjalanan wisata dalam kabupaten/kota.
                     </p>
@@ -65,7 +65,7 @@
         </section>
 
         <!-- Tujuan Penelitian -->
-        <section class="offset-header mt-5">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -84,7 +84,7 @@
         </section>
 
         <!-- Manfaat Penelitian -->
-        <section class="offset-header mt-5">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -102,7 +102,7 @@
         </section>
 
         <!-- Metodologi -->
-        <section class="offset-header mt-5">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -441,174 +441,6 @@
                     <p>
                         <b>TEKNIK ESTIMASI PARAMETER</b>
                     </p>
-                    <!-- <ul class="text-justify">
-                        <li>
-                            <strong>Skema Sampling</strong> <br>
-                            <div class="text-justify">
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, harum.
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                                        
-                                    </p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nemo ut? Deserunt necessitatibus dolorum atque eveniet quasi eaque soluta temporibus.
-                                </p>
-                            </div>
-                        </li>
-                        <br>
-                        <li>
-                            <strong>Rumus Overall Sampling Fraction</strong> <br>
-                            <div class="text-justify">  
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, necessitatibus.
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                                        
-                                    </p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quaerat aut quas ipsam! Vero accusantium cum alias numquam unde voluptatum?
-                                </p>
-                            </div>
-                        </li> 
-                        <br>
-                        <li>
-                            <strong>Rumus Design Weight</strong> <br>
-                            <div class="text-justify">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, deserunt.
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                                        
-                                    </p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repudiandae officia sint repellat aspernatur culpa quam perferendis rerum distinctio ea.
-                                </p>
-                            </div>
-                        </li>
-                        <br>
-                        <li>
-                            <strong>Rumus Penduga Total Karakteristik</strong> <br>
-                            <div class="text-justify">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, molestiae!
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                                    
-                                    </p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veritatis magni saepe dolorum quae, aspernatur maxime praesentium asperiores corporis quisquam?
-                                </p>
-                            </div>
-                        </li>
-                        <br>
-                        <li>
-                            <strong>Rumus Penduga Rata-Rata Karakteristik</strong> <br>
-                            <div class="text-justify">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint?
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                                </p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit animi amet repellendus fuga sed, quo consectetur. Commodi nulla facere hic.
-                                </p>
-                            </div>
-                        </li>
-                        <br>
-                        <li>
-                            <strong>Rumus Jumlah Sampel Minimum</strong> <br>
-                            <div class="text-justify">
-                                <p>
-                                    Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                    <div class="rumus text-center"><h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5></div>
-                                    <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                        <strong>Keterangan :</strong>
-                                    </a>
-                                </p>
-                                <div class="collapse" id="collapseKeterangan">
-                                    <p class="text-justify">
-                                        n		: sampel minimum <br>
-                                        r		: proporsi kejadian terhadap populasi target <br>
-                                        deff	: design effect <br>
-                                        RME	    : relative margin <br>
-                                        pb		: proporsi populasi target terhadap populasi penelitian <br>
-                                        AveSize	: rata-rata jumlah ART <br>
-                                        RR		: response rate <br> <br>
-                
-                                    </p>
-                                </div>
-                                <p>
-                                    Berdasarkan penghitungan dari rumus di atas, didapatkan sampel blok sensus sejumah 347 blok sensus dengan 3470 rumah tangga.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>              -->
                     <div class="d-none d-md-block">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -625,7 +457,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -669,7 +501,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -713,7 +545,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -757,7 +589,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -801,7 +633,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -845,7 +677,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -905,7 +737,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -949,7 +781,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -993,7 +825,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1037,7 +869,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1081,7 +913,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1125,7 +957,7 @@
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                     <div class="rumus text-center">
-                                                        <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                        <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1173,7 +1005,7 @@
         </section>
 
         <!-- Infografis -->
-        <section class="offset-header">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -1191,7 +1023,7 @@
         </section>
 
         <!-- Buku Laporan -->
-        <section class="offset-header mt-5">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
