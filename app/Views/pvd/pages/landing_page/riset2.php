@@ -324,102 +324,6 @@
                         <b>DESAIN SAMPLING</b>
                     </p>
 
-                    <!-- bagan masih berantakan-->
-                    <!-- <div class="text-justify">
-                        <div class="tree">
-                            <ul>
-                                <li>
-                                    <a href="#">Kabupaten/Kota</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                            <ul>
-                                                    <li>
-                                                        <a href="#">n1 <br>Sampel blok sensus terpilih</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">n2 <br>Sampel blok sensus terpilih</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
-                                                                <ul>
-                                                                        <li>
-                                                                            <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">mi <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">ni <br>Sampel blok sensus terpilih</a>
-                                                    </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <!-- <section class="text-justify">
-                        <div class="tree">
-                            <ul>
-                                <li>
-                                    <a href="#">Kabupaten/Kota</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                            <ul>
-                                                    <li>
-                                                        <a href="#">n1 <br>Sampel blok sensus terpilih</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">n2 <br>Sampel blok sensus terpilih</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">M <br>Jumlah rumah tangga pada <br> blok sensus terpilih</a>
-                                                                <ul>
-                                                                        <li>
-                                                                            <a href="#">m1 <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">m2 <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">mi <br>Sampel rumah tangga terpilih</a>
-                                                                        </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">ni <br>Sampel blok sensus terpilih</a>
-                                                    </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">N <br>Jumlah Blok Sensus <br> Di Kecamatan</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </section> -->
-
                     <p class="text-justify">
                     <div class="d-flex flex-row justify-content-center align-items-center">
                         <div class="text-center text-lg-start">
@@ -427,7 +331,24 @@
                                 <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
                                 <!-- <span>Unduh</span>
                                     <i class="fas fa-download"></i> -->
+                                <!-- Button trigger modal -->
+                                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch demo modal
+                            </button>
+
+                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                <div class="modal-body">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                                </div>
+                                </div>
+                            </div>
+                            </div> -->
                             </a>
+                            
+
+                           
                         </div>
                     </div>
                     </p>
