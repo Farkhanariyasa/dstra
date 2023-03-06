@@ -35,7 +35,7 @@
     </header>
     <hr class="hrjudul">
 
-    <h2>Kuesioner Listing</h2>
+    <h2 class="headline text-center mt-3">Kuesioner Listing</h2>
     <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
         <div class="row">
             <div style="width: 100%;">
@@ -45,7 +45,7 @@
     </div>
 
 
-    <h2>Kuesioner Pencacahan</h2>
+    <h2 class="headline text-center mt-3">Kuesioner Pencacahan</h2>
     <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
         <div class="row">
             <div style="width: 100%;">

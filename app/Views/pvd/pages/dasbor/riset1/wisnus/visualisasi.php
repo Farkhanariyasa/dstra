@@ -3,9 +3,11 @@
 <?= $this->section('content'); ?>
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
-        <header class="section-header">
-            <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
-        </header>
+    <header class="section-header">
+      <p style="color: #4b395f;">
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+      </p>
+    </header>
         <hr class="hrjudul">
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">

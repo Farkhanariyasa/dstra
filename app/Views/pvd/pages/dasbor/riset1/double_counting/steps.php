@@ -39,9 +39,10 @@
 
 <!-- <h1>Menu 2 submenu 2</h1> -->
 <header class="section-header">
-  <h6 style="color: #4b395f;"><strong>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
-  </h6>
-</header>
+      <p style="color: #4b395f;">
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+      </p>
+    </header>
 <hr class="hrjudul">
 
 <div class="card">

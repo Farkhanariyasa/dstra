@@ -26,9 +26,10 @@
 
 <?= $this->section('content'); ?>
 <header class="section-header">
-    <h6 style="color: #4b395f;"><strong>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</strong>
-    </h6>
-</header>
+      <p style="color: #4b395f;">
+          Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
+      </p>
+    </header>
 <hr class="hrjudul">
 
 <section id="portfolio" class="portfolio section-bg">
