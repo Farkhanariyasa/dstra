@@ -73,3 +73,138 @@
     font-weight: 600;
     color: #4b395f;
 }
+
+@media (min-width: 1024px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 991px) {
+    section {
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+    }
+
+    .img-fluid {
+        width: 60%;
+    }
+
+    .hero {
+        height: auto;
+        /* padding: 120px 0 60px 0; */
+    }
+
+    .hero .hero-img {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    /* .bukulaporan{
+        width: 75%;
+    } */
+
+    .rumus{
+        width: 10px;
+    }
+
+    /* .hero .hero-img img {
+    width: 80%;
+} */
+    .card62 {
+        max-width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    }
+
+    .orangeline {
+        display: none;
+        height: 0;
+    }
+
+    .row.riset2,
+    .row.riset4 {
+        /* Reverse Column Order */
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }
+
+    .konten {
+        width: fit-content !important;
+    }
+
+    .konten2 {
+        width: fit-content !important;
+    }
+
+    /* .konten2:hover { */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        /* transition: transform .2s; */
+        /* -ms-transform: scale(1.1); IE 9 */
+        /* -webkit-transform: scale(1.1); Safari 3-8 */
+        /* transform: scale(1.1); */
+    /* } */
+
+    .info-item {
+        width: 60vw;
+    }
+
+    div.container-fluid.turun {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fourthSec button{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 768px) {
+    .forbody {
+        overflow-x: hidden;
+    }
+
+    section {
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+    }
+
+    .img-fluid {
+        width: 60%;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero p,
+    .hero li {
+        /* font-weight: 300; */
+        font-size: 12px;
+    }
+
+    h1.headline {
+        margin: 5px 0 10px 0;
+        font-size: 24px;
+    }
+
+    .rumus{
+        width: 10px;
+    }
+
+    #fourthSec button{
+        font-size: medium;
+    }
+
+    /* .bukulaporan{
+        height: 200%;
+    } */
+}
