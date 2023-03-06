@@ -1666,7 +1666,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1710,7 +1710,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1754,7 +1754,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1798,7 +1798,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1842,7 +1842,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1886,7 +1886,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1946,7 +1946,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -1990,7 +1990,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -2034,7 +2034,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -2078,7 +2078,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -2122,7 +2122,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
@@ -2166,7 +2166,7 @@
                                                 <p>
                                                     Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
                                                 <div class="rumus text-center">
-                                                    <h5>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</h5>
+                                                    <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                 </div>
                                                 <!-- Keterangan:  -->
                                                 <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
