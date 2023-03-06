@@ -39,15 +39,11 @@
 
 <!-- <h1>Menu 2 submenu 2</h1> -->
 <header class="section-header">
-<<<<<<< HEAD
       <p style="color: #4b395f;">
           Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
       </p>
-    </header>
-=======
-    <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
-</header>
->>>>>>> fe7cce3e01bf710b92347d830a600f97dec3170d
+  </header>
+
 <hr class="hrjudul">
 
 <div class="card">
