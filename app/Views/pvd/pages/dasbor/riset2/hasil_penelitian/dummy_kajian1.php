@@ -38,8 +38,8 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
+    <div class="container mt-3 mb-5">
+        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
             <p class="card-text text-center">
                 <strong>Kota Malang</strong>
             </p>
@@ -128,8 +128,8 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
+    <div class="container mt-5 mb-5">
+        <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
             <p class="card-text text-center">
                 <strong>Kota Malang</strong>
             </p>
