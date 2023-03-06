@@ -22,15 +22,29 @@ class Riset1 extends BaseController
 
     public function index()
     {
+        $ja = [
+            "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
+            "ja1" => $this->jumlahanggota->getByJumlahAnggota(1),
+            "ja2" => $this->jumlahanggota->getByJumlahAnggota(2),
+            "ja3" => $this->jumlahanggota->getByJumlahAnggota(3),
+            "ja4" => $this->jumlahanggota->getByJumlahAnggota(4),
+            "ja5" => $this->jumlahanggota->getByJumlahAnggota(5),
+        ];
+        $jk = [
+            "laki" => $this->hasilsp2->getJenisKelamin(1),
+            "perempuan" => $this->hasilsp2->getJenisKelamin(2)
+        ];
         $menu = getMenu();
         $data = [
             'judul' => 'Dasbor Riset 1',
             'menu' => $menu['riset1'],
+            'ja' => $ja,
+            'jk' => $jk,
         ];
         return view('pvd/pages/dasbor/riset1/index', $data);
     }
 
-    public function double_counting_algoritma1()
+    public function double_counting_evaluasi()
     {
         $ja = [
             "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
@@ -90,7 +104,7 @@ class Riset1 extends BaseController
         ];
         $menu = getMenu();
         $data = [
-            'judul' => 'Double Counting | Visualisasi',
+            'judul' => 'Double Counting | Evaluasi',
             'menu' => $menu['riset1'],
             'ja' => $ja,
             'jk' => $jk,
@@ -106,19 +120,19 @@ class Riset1 extends BaseController
             'smartfren' => $smartfren,
             'lainnya' => $lainnya
         ];
-        return view('pvd/pages/dasbor/riset1/double_counting/visualisasi', $data);
+        return view('pvd/pages/dasbor/riset1/double_counting/evaluasi', $data);
     }
 
-    public function double_counting_algoritma2()
+    public function double_counting_steps()
     {
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
         $data = [
-            'judul' => 'Double Counting | Tabulasi',
+            'judul' => 'Double Counting | Steps',
             'dataresponden' => $dataresponden,
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/double_counting/tabulasi', $data);
+        return view('pvd/pages/dasbor/riset1/double_counting/steps', $data);
     }
     public function double_counting_algoritma3()
     {
@@ -154,8 +168,10 @@ class Riset1 extends BaseController
     public function family_grouping_tabulasi()
     {
         $menu = getMenu();
+        $dataresponden = $this->dataresponden->findAll();
         $data = [
             'judul' => 'Family Grouping | Tabulasi',
+            'dataresponden'=>$dataresponden,
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/family_grouping/tabulasi', $data);
