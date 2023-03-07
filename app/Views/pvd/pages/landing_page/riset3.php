@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify" style="font-size: 14px;">
+                    <p class="text-justify">
                         Indonesia sebagai salah satu negara kepulauan terbesar di dunia dengan berbagai kekayaan
                         sumber daya alam dan keunikan budaya memiliki banyak potensi yang dapat dikembangkan
                         terkait sektor pariwisata. Potensi tersebut meliputi:
@@ -58,11 +58,11 @@
                     </p>
                     <div class="collapse" id="collapseExample">
                         <ol class="text-justify" >
-                            <li style="font-size: 14px;">Kemampuan dalam hal pembangunan destinasi pariwisata</li>
-                            <li style="font-size: 14px;">Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</li>
-                            <li style="font-size: 14px;">Pembangunan industri pariwisata</li>
+                            <li>Kemampuan dalam hal pembangunan destinasi pariwisata</li>
+                            <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</li>
+                            <li>Pembangunan industri pariwisata</li>
                         </ol>
-                        <p class="text-justify" style="font-size: 14px;">
+                        <p class="text-justify">
                             Untuk dapat mengembangkan potensi pariwisata di Indonesia dan meninjau berbagai hal
                             tersebut, perlu adanya ketersediaan data dan informasi terkait tenaga kerja di sektor
                             pariwisata yang dapat menjadi dasar dalam pengambilan kebijakan oleh pemerintah.
@@ -85,10 +85,10 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000" > 
                     <ol class="text-justify" >
-                        <li style="font-size: 14px;">Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</li>
-                        <li style="font-size: 14px;">Menganalisis dinamika tenaga kerja di industri pariwisata.</li>
-                        <li style="font-size: 14px;">Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</li>
-                        <li style="font-size: 14px;">Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.</li>
+                        <li>Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</li>
+                        <li>Menganalisis dinamika tenaga kerja di industri pariwisata.</li>
+                        <li>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</li>
+                        <li>Mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan indeks komposit.</li>
                     </ol>
                 </div>
             </div>
@@ -102,17 +102,22 @@
                         <h1 class="headline text-center">Batasan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box justify-content-center" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class=" boxbatas col-6 col-sm-4 pt-2 ">
-                        <div class="batasan row row-cols-1 text-center">
-                            <div style="line-height: 20px;"><strong>Objek</strong></div>
-                            <div style="line-height: 20px;">Tenaga Kerja di Industri Pariwisata</div>
-                        </div>
-                    </div>
-                    <div class="boxbatas2 col-6 col-sm-6 pt-2  ">
-                        <div class="batasan row row-cols-1 text-center">
-                            <div style="line-height: 20px;"><strong>Cakupan Penelitian</strong></div>
-                            <div style="line-height: 20px;">Kabupaten Malang</div>
+
+                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> 
+                    <div class="col">
+                        <div class="row align-items-center text-center">
+                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
+                                <div class="batasan">
+                                    <div><strong>Objek</strong></div>
+                                    <p class="text-white">Tenaga Kerja di Industri Pariwisata</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
+                                <div class="batasan">
+                                    <div><strong>Cakupan Penelitian</strong></div>
+                                    <p class="text-white">Kabupaten Malang</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,7 +145,7 @@
                         <div class="col-6">
                             <h5>Tahap I</h5>
                             <h4>PPS WR</h4>
-                            <p style="font-size: 14px;">size: jumlah objek wisata & akomodasi</>
+                            <p>size: jumlah objek wisata & akomodasi</>
                         </div>
                     </div>
                     <!--path between 1-2-->
@@ -160,7 +165,7 @@
                         <div class="col-6 text-right">
                             <h5>Tahap II</h5>
                             <h4>PPS WR</h4>
-                            <p style="font-size: 14px;">size: jumlah usaha sektor pariwisata</p>
+                            <p>size: jumlah usaha sektor pariwisata</p>
                         </div>
                         <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
                             <div class="circle font-weight-bold">2</div>
@@ -186,7 +191,7 @@
                         <div class="col-6">
                             <h5>Tahap III</h5>
                             <h4>Systematic Sampling</h4>
-                            <p style="font-size: 14px;">dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
+                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
                         </div>
                     </div>
                 </div>
@@ -351,8 +356,8 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab" style="font-size: 14px;">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
-                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab" style="font-size: 14px;">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
+                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">Data primer dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <i>Computer Assisted Personal Interview</i> (CAPI) dan <i>Pen-and-Paper Personal Interview</i> (PAPI).</div>
+                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">Data sekunder dikumpulkan dari BPS yaitu data Kecamatan dan Blok Sensus (BS) yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</div>
                     </div>
                 </div>
             </div>
@@ -369,7 +374,7 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify" style="font-size: 14px;">
+                    <p class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
                     </p>
                 </div>
