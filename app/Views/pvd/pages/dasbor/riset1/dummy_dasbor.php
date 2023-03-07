@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModaldc">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -83,7 +83,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModalfg1">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -113,12 +113,11 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModalfg2">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
                     </div>
-
                     <div>
                         <div>
                             <div class="card">
@@ -148,7 +147,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModalwisnus">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -167,3 +166,6 @@
         </div>
     <!-- <> -->
 </div>
+
+<!-- Modal Dasbor -->
+<?php include('modal_dasbor.php') ?>
