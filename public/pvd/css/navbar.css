@@ -5347,6 +5347,12 @@ input[type="button"].btn-block {
     display: inline-block;
     width: 100%;
   }
+
+  .badge-pill.metode {
+    padding: 0.6em;
+    border-radius: 10rem;
+    font-size: 1.25rem;
+  }
 }
 
 .anchorover {
@@ -5538,7 +5544,6 @@ a.badge:focus {
 .badge-pill.metode {
   padding: 0.6em;
   border-radius: 10rem;
-  font-size: 1.25rem;
 }
 
 .badge-primary {

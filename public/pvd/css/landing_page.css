@@ -785,6 +785,7 @@ h1.headline {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     width: 230px;
     border-radius: 25px;
     padding-left: 3px;
