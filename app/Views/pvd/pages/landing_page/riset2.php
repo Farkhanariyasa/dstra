@@ -328,7 +328,7 @@
                     <div class="d-flex flex-row justify-content-center align-items-center">
                         <div class="text-center text-lg-start">
                             <a class="bagan text-decoration-none">
-                                <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal" src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                                <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#baganSkema" src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
                                 <!-- <span>Unduh</span>
                                     <i class="fas fa-download"></i> -->
                                 <!-- Button trigger modal -->
@@ -374,11 +374,11 @@
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal fade" id="baganSkema" tabindex="-1" aria-labelledby="baganModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="populasiModalLabel">Skema Sampling</h1>
+                        <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body" >
