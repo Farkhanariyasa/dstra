@@ -237,7 +237,7 @@
     </div>
 </div>
 
-<div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
+<!-- <div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
@@ -257,7 +257,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Tabel dummy
 <div class="portfolio-item filter-riset3-tabeldummy">
