@@ -329,38 +329,14 @@
                         <div class="text-center text-lg-start">
                             <a class="bagan text-decoration-none">
                                 <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#baganSkema" src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
-                                <!-- <span>Unduh</span>
-                                    <i class="fas fa-download"></i> -->
-                                <!-- Button trigger modal -->
-                                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Launch demo modal
-                            </button>
-
-                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                <div class="modal-body">
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
-                                </div>
-                                </div>
-                            </div>
-                            </div> -->
-
-                            <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
-                                    <p style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
-                                </div>
-                            </div> -->
                             </a>
                         </div>
-                    </div>
-                    
-                    </p>
+                    </div>    
+                </p>
 
                     
 
                     <section class="text-justify">
-                        <!-- * input bagan * -->
                         <p>Two Stage Sampling</p>
                         <ul class="text-justify">
                             <li>
@@ -375,17 +351,17 @@
 
                 <!-- Modal -->
                 <div class="modal fade" id="baganSkema" tabindex="-1" aria-labelledby="baganModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" >
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>"  class="img-fluid" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body" >
-                        <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>"  class="img-fluid" alt="">
-                    </div>
-                    </div>
-                </div>
                 </div>
 
                 <!-- TEKNIK ESTIMASI PARAMETER -->
@@ -408,7 +384,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -452,7 +428,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -496,7 +472,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -540,7 +516,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -584,7 +560,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -628,7 +604,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -688,7 +664,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -732,7 +708,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -776,7 +752,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -820,7 +796,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -864,7 +840,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
@@ -908,7 +884,7 @@
                                                 <div class="text-justify">
                                                     <p>
                                                         Menggunakan metode Multiple Indicator Cluster Survey (MICS) versi 6
-                                                    <div class="rumus text-center">
+                                                    <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
                                                     <!-- Keterangan:  -->
