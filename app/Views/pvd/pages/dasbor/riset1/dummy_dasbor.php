@@ -40,6 +40,7 @@
                     <div style=" height:500px;">
                         <canvas class="mt1" id="riset1_hasil5"></canvas>
                     </div>
+                    
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
                             <input class="form-check-input" onchange="update_value_line(this);" type="checkbox" id="forLineChartAxis_line" value="show" checked>
