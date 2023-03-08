@@ -144,7 +144,7 @@ class Riset1 extends BaseController
         return view('pvd/pages/dasbor/riset1/double_counting/algoritma3', $data);
     }
 
-    public function family_grouping_visualisasi()
+    public function family_grouping_evaluasi()
     {
         $ja = [
             "ja0" => $this->jumlahanggota->getByJumlahAnggota(0),
@@ -158,19 +158,19 @@ class Riset1 extends BaseController
         $menu = getMenu();
 
         $data = [
-            'judul' => 'Family Grouping | Visualisasi',
+            'judul' => 'Family Grouping | Evaluasi',
             'menu' => $menu['riset1'],
             'ja' => $ja,
         ];
         return view('pvd/pages/dasbor/riset1/family_grouping/visualisasi', $data);
     }
 
-    public function family_grouping_tabulasi()
+    public function family_grouping_steps()
     {
         $menu = getMenu();
         $dataresponden = $this->dataresponden->findAll();
         $data = [
-            'judul' => 'Family Grouping | Tabulasi',
+            'judul' => 'Family Grouping | Steps',
             'dataresponden'=>$dataresponden,
             'menu' => $menu['riset1'],
         ];

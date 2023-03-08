@@ -36,11 +36,11 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Step-step',
-              'href' => '/riset1/familygrouping-visualisasi',
+              'href' => '/riset1/familygrouping-steps',
             ],
             [
               'subMenu' => 'Evaluasi',
-              'href' => '/riset1/familygrouping-tabulasi',
+              'href' => '/riset1/familygrouping-evaluasi',
             ],
           ],
         ],
