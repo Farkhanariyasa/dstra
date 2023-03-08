@@ -80,28 +80,19 @@ for (let i = 1; i < 4; i++) {
 }
 
 // document.getElementById("btndownload1").addEventListener("click", function (e) {
-  
 //   let canvasUrl = document.getElementById("jk_bar").toDataURL();
-  
 //   const createEl = document.createElement("a");
 //   createEl.href = canvasUrl;
-
-  
 //   createEl.download = "Hasil SP Riset 2 - Hasil 1";
-
-  
 //   createEl.click();
 //   createEl.remove();
 // });
 
 // document.getElementById("btndownload2").addEventListener("click", function (e) {
-  
 //   let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
 //   const createEl = document.createElement("a");
 //   createEl.href = canvasUrl;
-
 //   createEl.download = "Riset 2";
-
 //   createEl.click();
 //   createEl.remove();
 // });
@@ -110,20 +101,7 @@ for (let i = 1; i < 4; i++) {
 //   let canvasUrl = document.getElementById("tu_bar").toDataURL();
 //   const createEl = document.createElement("a");
 //   createEl.href = canvasUrl;
-
 //   createEl.download = "Riset 2";
-
-//   createEl.click();
-//   createEl.remove();
-// });
-
-// document.getElementById("btndownload4").addEventListener("click", function (e) {
-//   let canvasUrl = document.getElementById("tu_bar").toDataURL();
-//   const createEl = document.createElement("a");
-//   createEl.href = canvasUrl;
-
-//   createEl.download = "Riset 2";
-
 //   createEl.click();
 //   createEl.remove();
 // });
