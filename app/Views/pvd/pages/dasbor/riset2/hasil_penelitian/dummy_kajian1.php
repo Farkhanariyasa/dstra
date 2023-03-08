@@ -52,7 +52,7 @@
                         </button>
                     </div>
                 </div>
-                <div id="peta_malang_hasil2" style="width: 95%; height:80vh;"></div>
+                <div id="peta_malang_hasil2" style="width: 95%; height:80vh; z-index:0;"></div>
             </div>
         </div>
     </div>
