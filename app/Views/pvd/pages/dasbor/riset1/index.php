@@ -121,20 +121,31 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p> 
+      <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
     </header>
     <hr class="hrjudul">
   </div>
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-center">
       <ul id="portfolio-flters">
-        <li data-filter="*" class="filter-active">Semua</li>
-        <li data-filter=".filter-riset1-dc">Double Counting</li>
+        <!-- <li data-filter="*" class="filter-active">Semua</li> -->
+        <li data-filter=".filter-riset1-dc" class="filter-active">Double Counting</li>
         <li data-filter=".filter-riset1-fg">Family Grouping</li>
         <li data-filter=".filter-riset1-wisnus">Statistik Wisatawan Nusantara</li>
         <!-- <li data-filter=".filter-riset1-peta">Peta Lokus</li>
           <li data-filter=".filter-riset1-tabeldummy">Tabel Dummy</li> -->
       </ul>
+      <!-- <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill" data-bs-target="#pills-dc" type="button" role="tab" aria-controls="pills-primer" aria-selected="true">Double Counting</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill" data-bs-target="#pills-fg" type="button" role="tab" aria-controls="pills-sekunder" aria-selected="false">Family Grouping</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link pills-button shadow" id="pills-tersier-tab" data-bs-toggle="pill" data-bs-target="#pills-wisnus" type="button" role="tab" aria-controls="pills-tersier" aria-selected="false">Statistik Wisatawan Nusantara</button>
+        </li>
+      </ul> -->
     </div>
   </div>
   <div class="row portfolio-container">
