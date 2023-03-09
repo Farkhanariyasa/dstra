@@ -19,6 +19,8 @@
           <li data-filter=".filter-riset4-hasil8">Radar Chart</li>
           <li data-filter=".filter-riset4-hasil9">Choropelth (Coming soon)</li>
           <li data-filter=".filter-riset4-hasil10">Dodge Bar</li>
+          <li data-filter=".filter-riset4-hasil11">Map</li>
+          <li data-filter=".filter-riset4-hasil12">Peta Kota Batu</li>
         </ul>
       </div>
     </div>
@@ -77,6 +79,10 @@
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_heatmap.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_radar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/dogde_bar_sdm_ekonomi.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/kec_malang.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/peta_batu.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_peta_kajian1_2.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->
