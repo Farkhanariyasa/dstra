@@ -1,3 +1,4 @@
+<!-- Tab 1 -->
 <div class="portfolio-item filter-riset2-hasilkajian1-1">
     <div class="col-12 grid-margin stretch-card">
         <div class="card shadow">
@@ -10,7 +11,7 @@
                     </div>
                 </div>
                 <div style=" height:500px;">
-                    <canvas class="mt1" id="jk_bar"></canvas>
+                    <canvas class="mt1" id="riset2_hasil1"></canvas>
                 </div>
 
             </div>
@@ -18,7 +19,7 @@
     </div>
 </div>
 
-
+<!-- Tab 2 -->
 <div class="portfolio-item filter-riset2-hasilkajian1-2">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
@@ -32,7 +33,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="bar_horizontal"></canvas>
+                        <canvas class="mt1" id="riset2_hasil2"></canvas>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,7 @@
     </div>
 </div>
 
-
+<!-- Tab 3 -->
 <div class="portfolio-item filter-riset2-hasilkajian1-3">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
@@ -72,7 +73,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="tu_bar"></canvas>
+                        <canvas class="mt1" id="riset2_hasil3"></canvas>
                     </div>
                 </div>
             </div>

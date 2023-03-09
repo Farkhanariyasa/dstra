@@ -1,4 +1,4 @@
-const tu_bar = document.getElementById("tu_bar");
+const tu_bar = document.getElementById("riset2_hasil3");
 
 const batang_tu = new Chart(tu_bar, {
     type: "bar",

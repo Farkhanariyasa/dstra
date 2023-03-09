@@ -1,5 +1,5 @@
 // Chart
-const jk_bar = document.getElementById("jk_bar");
+const jk_bar = document.getElementById("riset2_hasil1");
 const bar_jenis_kelamin = new Chart(jk_bar, {
   type: "bar",
   data: {
