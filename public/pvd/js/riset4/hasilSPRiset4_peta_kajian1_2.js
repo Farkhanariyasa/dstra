@@ -72,12 +72,12 @@ info.onAdd = function (peta_batu_hasil_2) {
 
 info.update = function (props) {
   this._div.innerHTML =
-    "<h4>Jumlah Perjalanan</h4>" +
+    "<h4>Persentase</h4>" +
     (props
       ? "<b>" +
         props.Kecamatan +
         "</b><br />" +
-        props.perjalanan
+        props.Persentase + " %"
         // " people / mi<sup>2</sup>"
       : "Kecamatan");
 };
@@ -86,7 +86,7 @@ info.addTo(peta_batu_hasil_2);
 
 legend.onAdd = function (peta_batu_hasil_2) {
   var div = L.DomUtil.create("div", "info legend"),
-    grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
+    grades = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
     // labels = [];
 
   // loop through our density intervals and generate a label with a colored square for each interval
