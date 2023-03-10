@@ -1,3 +1,4 @@
+let delayed;
 // Chart
 const jk_bar = document.getElementById("riset2_hasil1");
 const bar_jenis_kelamin = new Chart(jk_bar, {
@@ -14,6 +15,18 @@ const bar_jenis_kelamin = new Chart(jk_bar, {
     ],
   },
   options: {
+    animation: {
+      onComplete: () => {
+        delayed = true;
+      },
+      delay: (context) => {
+        let delay = 0;
+        if (context.type === "data" && context.mode === "default" && !delayed) {
+          delay = context.dataIndex * 300 + context.datasetIndex * 100;
+        }
+        return delay;
+      }
+    },
     responsive: true,
     scales: {
       x: {
@@ -69,21 +82,3 @@ const bar_jenis_kelamin = new Chart(jk_bar, {
   },
   plugins: [ChartDataLabels],
 });
-
-// Chart Legend
-// const barChartAxis = document.getElementById("barChartAxis");
-// barChartAxis.addEventListener("click", update_value(check_axis));
-
-// function update_value(check_axis) {
-//   if (check_axis.checked) {
-//     console.log("check");
-//     bar_jenis_kelamin.options.scales.x.display = true;
-//     bar_jenis_kelamin.scales.y.display = true;
-//     bar_jenis_kelamin.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_jenis_kelamin.options.scales.x.display = false;
-//     bar_jenis_kelamin.options.scales.y.display = false;
-//     bar_jenis_kelamin.update();
-//   }
-// }
