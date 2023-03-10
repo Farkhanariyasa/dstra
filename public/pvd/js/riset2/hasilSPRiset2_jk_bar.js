@@ -1,7 +1,7 @@
 let delayed;
 // Chart
 const jk_bar = document.getElementById("riset2_hasil1");
-const bar_jenis_kelamin = new Chart(jk_bar, {
+var bar_jenis_kelamin = new Chart(jk_bar, {
   type: "bar",
   data: {
     labels: ["Laki-laki", "Perempuan"],
@@ -82,3 +82,14 @@ const bar_jenis_kelamin = new Chart(jk_bar, {
   },
   plugins: [ChartDataLabels],
 });
+
+// function responsivefonts(){
+//     if (window.outerWidth < 414) {
+//         console.log(window.outerWidth);
+//         Chart.defaults.font.size=5;
+        
+
+//     }if (window.outerWidth<380){
+//         Chart.defaults.font.size=1;
+//     }
+// };
