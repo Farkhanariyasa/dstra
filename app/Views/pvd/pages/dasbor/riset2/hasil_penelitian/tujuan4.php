@@ -20,7 +20,7 @@
         </div> -->
 
         <div class="row portfolio-container">
-            <?php include('dummy_kajian4.php') ?>
+            <?php include('dummy_tujuan4.php') ?>
         </div>
     </div>
 </section>
