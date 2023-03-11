@@ -68,15 +68,15 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 1
         $routes->get('dasbor', 'Riset2::index');
         // Menu 2
-        $routes->get('hasil-kajian1', 'Riset2::hasil_kajian1'); // Hasil Kajian 1
-        $routes->get('hasil-kajian2', 'Riset2::hasil_kajian2'); // Hasil Kajian 2
-        $routes->get('hasil-kajian3', 'Riset2::hasil_kajian3'); // Hasil Kajian 3
-        $routes->get('hasil-kajian4', 'Riset2::hasil_kajian4'); // Hasil Kajian 4
+        $routes->get('hasil-tujuan1', 'Riset2::hasil_tujuan1'); // Hasil Tujuan 1
+        $routes->get('hasil-tujuan2', 'Riset2::hasil_tujuan2'); // Hasil Tujuan 2
+        $routes->get('hasil-tujuan3', 'Riset2::hasil_tujuan3'); // Hasil Tujuan 3
+        $routes->get('hasil-tujuan4', 'Riset2::hasil_tujuan4'); // Hasil Tujuan 4
         // Menu 3
-        $routes->get('tabel-kajian1', 'Riset2::tabel_kajian1'); // Tabel Kajian 1
-        $routes->get('tabel-kajian2', 'Riset2::tabel_kajian2'); // Tabel Kajian 2
-        $routes->get('tabel-kajian3', 'Riset2::tabel_kajian3'); // Tabel Kajian 3
-        $routes->get('tabel-kajian4', 'Riset2::tabel_kajian4'); // Tabel Kajian 4
+        $routes->get('tabel-tujuan1', 'Riset2::tabel_tujuan1'); // Tabel Tujuan 1
+        $routes->get('tabel-tujuan2', 'Riset2::tabel_tujuan2'); // Tabel Tujuan 2
+        $routes->get('tabel-tujuan3', 'Riset2::tabel_tujuan3'); // Tabel Tujuan 3
+        $routes->get('tabel-tujuan4', 'Riset2::tabel_tujuan4'); // Tabel Tujuan 4
     });
     // Dasbor Riset 3
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
