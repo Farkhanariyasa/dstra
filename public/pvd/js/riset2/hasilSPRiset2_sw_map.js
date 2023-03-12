@@ -81,7 +81,7 @@ info.update = function (props) {
       ? "<b>" +
         props.NAME_3 +
         "</b><br />" +
-        props.perjalanan
+        props.sebaran
         // " people / mi<sup>2</sup>"
       : "Kecamatan");
 };
