@@ -4,15 +4,15 @@ const diagram_lingkaran = new Chart(tp_pie, {
   type: "pie",
   data: {
     labels: [
-      "Ke Objek Wisata",
-      "Menginap di Akomodasi Komersial",
       "Menuju ke Kecamatan Lain",
+      "Menginap di Akomodasi Komersial",
+      "Ke Objek Wisata",
     ],
     datasets: [
       {
         label: "Jumlah",
-        data: [300, 50, 100],
-        backgroundColor: ["#ffab00", "#506396", "#c27d90"],
+        data: [43.9, 1.28, 54.81],
+        backgroundColor: ["#506396", "#c27d90", "#ffab00"],
         hoverOffset: 4,
       },
     ],
@@ -21,6 +21,10 @@ const diagram_lingkaran = new Chart(tp_pie, {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
+      legend: {
+        position: "right",
+        display: false,
+      },
       title: {
         display: true,
         text: "Estimasi Total Perjalanan Menurut Tujuan Utama di Kota Malang Bulan Oktober-Desember 2022",
@@ -42,3 +46,19 @@ const diagram_lingkaran = new Chart(tp_pie, {
   },
   // plugins: [ChartDataLabels],
 });
+
+const pieChartLegend = document.getElementById("forPieChartLegend");
+pieChartLegend.addEventListener("click", update_value(chk_bx));
+
+function update_value(chk_bx) {
+  if (chk_bx.checked) {
+    console.log("check");
+    diagram_lingkaran.options.plugins.legend.display = true;
+    diagram_lingkaran.update();
+  } else {
+    console.log("uncheck");
+    diagram_lingkaran.options.plugins.legend.display = false;
+    diagram_lingkaran.update();
+  }
+}
+
