@@ -23,6 +23,7 @@ var kec_malang = {
         ENGTYPE_3: "Sub-district",
         CC_3: "3573040",
         HASC_3: "NA",
+        sebaran: 234,
         perjalanan: 234,
       },
       geometry: {
@@ -1028,6 +1029,7 @@ var kec_malang = {
         ENGTYPE_3: "Sub-district",
         CC_3: "3573010",
         HASC_3: "NA",
+        sebaran: 123,
         perjalanan: 123,
       },
       geometry: {
@@ -1949,6 +1951,7 @@ var kec_malang = {
         ENGTYPE_3: "Sub-district",
         CC_3: "3573030",
         HASC_3: "NA",
+        sebaran: 42,
         perjalanan: 42,
       },
       geometry: {
@@ -2685,6 +2688,7 @@ var kec_malang = {
         ENGTYPE_3: "Sub-district",
         CC_3: "3573050",
         HASC_3: "NA",
+        sebaran: 56,
         perjalanan: 56,
       },
       geometry: {
@@ -3907,6 +3911,7 @@ var kec_malang = {
         ENGTYPE_3: "Sub-district",
         CC_3: "3573020",
         HASC_3: "NA",
+        sebaran: 231,
         perjalanan: 231,
       },
       geometry: {
