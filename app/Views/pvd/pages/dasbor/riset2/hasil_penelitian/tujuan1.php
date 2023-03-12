@@ -57,7 +57,7 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tp_pie.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_twowaybar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jp_twowaybar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
