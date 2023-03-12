@@ -56,7 +56,7 @@
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pie_chart.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tp_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_twowaybar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
