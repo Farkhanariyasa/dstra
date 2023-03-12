@@ -1,5 +1,7 @@
-const tp_pie = document.getElementById("tp_pie");
+let delayed1;
 
+// Chart
+const tp_pie = document.getElementById("tp_pie");
 const diagram_lingkaran = new Chart(tp_pie, {
   type: "pie",
   data: {
@@ -18,6 +20,18 @@ const diagram_lingkaran = new Chart(tp_pie, {
     ],
   },
   options: {
+    animation: {
+      onComplete: () => {
+        delayed1 = true;
+      },
+      delay: (context) => {
+        let delay = 0;
+        if (context.type === "data" && context.mode === "default" && !delayed1) {
+          delay = context.dataIndex * 300 + context.datasetIndex * 100;
+        }
+        return delay;
+      },
+    },
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
@@ -48,9 +62,9 @@ const diagram_lingkaran = new Chart(tp_pie, {
 });
 
 const pieChartLegend = document.getElementById("forPieChartLegend");
-pieChartLegend.addEventListener("click", update_value(chk_bx));
+pieChartLegend.addEventListener("click", update_value1(chk_bx));
 
-function update_value(chk_bx) {
+function update_value1(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
     diagram_lingkaran.options.plugins.legend.display = true;
