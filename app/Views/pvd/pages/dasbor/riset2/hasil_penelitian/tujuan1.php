@@ -49,11 +49,12 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pie_chart.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_twowaybar.js') ?>"></script>
