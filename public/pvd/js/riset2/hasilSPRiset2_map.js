@@ -24,7 +24,7 @@ function style(feature) {
 }
 
 var geojson;
-var info = L.control();
+var info_2 = L.control();
 var legend = L.control({ position: "bottomright" });
 
 function highlightFeature(e) {
@@ -37,15 +37,15 @@ function highlightFeature(e) {
   });
 
   layer.bringToFront();
-  info.update(layer.feature.properties);
+  info_2.update(layer.feature.properties);
 }
 
 function resetHighlight(e) {
   geojson.resetStyle(e.target);
-  info.update();
+  info_2.update();
 }
 
-var petatematik1 = L.map("petatematik1").setView(
+var petatematik2 = L.map("petatematik2").setView(
   [-7.9797, 112.6304],
   12.4
 );
@@ -54,7 +54,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-}).addTo(petatematik1);
+}).addTo(petatematik2);
 
 function onEachFeature(feature, layer) {
   layer.on({
@@ -66,15 +66,15 @@ function onEachFeature(feature, layer) {
 geojson = L.geoJSON(kec_malang, {
   style: style,
   onEachFeature: onEachFeature,
-}).addTo(petatematik1);
+}).addTo(petatematik2);
 
-info.onAdd = function (petatematik1) {
+info_2.onAdd = function (petatematik2) {
   this._div = L.DomUtil.create("div", "info"); // create a div with a class "info"
   this.update();
   return this._div;
 };
 
-info.update = function (props) {
+info_2.update = function (props) {
   this._div.innerHTML =
     "<h4>Jumlah Perjalanan</h4>" +
     (props
@@ -83,9 +83,9 @@ info.update = function (props) {
         "Kecamatan");
 };
 
-info.addTo(petatematik1);
+info_2.addTo(petatematik2);
 
-legend.onAdd = function (petatematik1) {
+legend.onAdd = function (petatematik2) {
   var div = L.DomUtil.create("div", "info legend"),
     grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
   // labels = [];
@@ -103,4 +103,4 @@ legend.onAdd = function (petatematik1) {
   return div;
 };
 
-legend.addTo(petatematik1);
+legend.addTo(petatematik2);
