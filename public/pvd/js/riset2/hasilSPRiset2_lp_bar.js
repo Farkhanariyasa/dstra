@@ -65,7 +65,7 @@ var bar_jenis_kelamin = new Chart(lp_bar, {
         display: true,
         text: "Estimasi Rata-Rata Lama Bepergian yang Dilakukan Wisatawan dalam Kota di Kota Malang Bulan Oktober-Desember 2022",
         font: {
-          size: 18,
+          size: 20,
         },
         align: "center",
       },
