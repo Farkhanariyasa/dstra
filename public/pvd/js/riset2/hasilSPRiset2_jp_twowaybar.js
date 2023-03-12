@@ -60,24 +60,42 @@ const batang_duaarah = new Chart(jp_twowaybar, {
         },
         maintainAspectRatio: false,
         plugins: {
-        title: {
-            display: true,
-            text: "Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan Tujuan Utama Perjalanan di Kota Malang Oktober-Desember 2022",
-            font: {
-            size: 20,
+            legend: {
+                display: false,
             },
-            align: "center",
-        },
-        datalabels: {
-            anchor: "center",
-            align: "center",
-            offset: 150,
-            color: "black",
-            font: {
-            size: 14,
+            title: {
+                display: true,
+                text: "Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan Tujuan Utama Perjalanan di Kota Malang Oktober-Desember 2022",
+                font: {
+                size: 20,
+                },
+                align: "center",
             },
-        },
+            datalabels: {
+                anchor: "center",
+                align: "center",
+                offset: 150,
+                color: "black",
+                font: {
+                size: 14,
+                },
+            },
         },
     },
     plugins: [ChartDataLabels],
 });
+
+const barChartLegend = document.getElementById("forBarChartLegend");
+barChartLegend.addEventListener("click", update_value(chk_bx));
+
+function update_value(chk_bx) {
+    if (chk_bx.checked) {
+        console.log("check");
+        batang_duaarah.options.plugins.legend.display = true;
+        batang_duaarah.update();
+    } else {
+        console.log("uncheck");
+        batang_duaarah.options.plugins.legend.display = false;
+        batang_duaarah.update();
+    }
+}
