@@ -137,6 +137,12 @@
                     <div style=" height:500px;">
                         <canvas class="mt1" id="jp_twowaybar"></canvas>
                     </div>
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3">
+                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forBarChartLegend" value="show">
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
