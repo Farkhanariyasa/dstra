@@ -130,13 +130,130 @@
                 </div>
 
                 <!-- SUMBER DATA DAN CARA PENGUMPULAN DATA -->
-                <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                <!-- <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <p>
                         <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
                     </p>
                     <p class="text-justify">
                         Sumber data yang dikumpulkan dalam penelitian ini adalah data primer. Data diperoleh melalui pengisian data dari hasil wawancara secara langsung oleh petugas dengan menggunakan moda <i>Computer-Assisted Personal Interviewing</i> (CAPI) yang dikombinasikan dengan moda <i>Paper and Pencil Interviewing</i> (PAPI). Selain itu, untuk mengatasi kemungkinan non respon menggunakan CATI Computer-Assisted Telephone Interviewing.
                     </p>
+                </div> -->
+
+                <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                    <p>
+                        <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
+                    </p>
+                    <div class="d-none d-md-block">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- SUMBER DATA -->
+                                <div class="carousel-item active">
+                                    <div class="konten2 row w-75 mx-auto">
+                                        <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">
+                                                    <strong>Sumber Data</strong>
+                                                </h5>
+                                                <p class="card-text text-center">
+                                                <div class="text-center">
+                                                    <p>
+                                                        Primer
+                                                    </p>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- MODA PENGUMPULAN DATA -->
+                                <div class="carousel-item ">
+                                    <div class="konten2 row w-75 mx-auto">
+                                        <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">
+                                                    <strong>Moda Pengumpulan Data</strong>
+                                                </h5>
+                                                <p class="card-text text-center">
+                                                <div class="text-center">
+                                                    <p>
+                                                        <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
+                                                    </p>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-md-none d-block">
+                        <div id="versi_kecil" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- SKEMA SAMPLING -->
+                                <div class="carousel-item active">
+                                    <div class="konten2 row w-75 mx-auto">
+                                        <div class="card p-2 rounded-5 shadow box">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">
+                                                <strong>Sumber Data</strong>
+                                                </h5>
+                                                <p class="card-text text-center">
+                                                <div class="text-center">
+                                                    <p>
+                                                        Primer
+                                                    </p>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- MODA PENGUMPULAN DATA -->
+                                <div class="carousel-item ">
+                                    <div class="konten2 row w-75 mx-auto">
+                                        <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">
+                                                    <strong>Moda Pengumpulan Data</strong>
+                                                </h5>
+                                                <p class="card-text text-center">
+                                                <div class="text-center">
+                                                    <p>
+                                                        <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
+                                                    </p>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#versi_kecil" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#versi_kecil" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Cakupan penelitian -->
@@ -325,14 +442,14 @@
                     </p>
 
                     <p class="text-justify">
-                    <div class="d-flex flex-row justify-content-center align-items-center">
-                        <div class="text-center text-lg-start">
-                            <a class="bagan text-decoration-none">
-                                <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#baganSkema" src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
-                            </a>
-                        </div>
-                    </div>    
-                </p>
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <div class="text-center text-lg-start">
+                                <a class="bagan text-decoration-none">
+                                    <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#baganSkema" src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                                </a>
+                            </div>
+                        </div>    
+                    </p>
 
                     
 

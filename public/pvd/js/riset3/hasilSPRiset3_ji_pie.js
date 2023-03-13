@@ -84,10 +84,10 @@
  const pieChartLegend = document.getElementById('forPieChartLegend');
  
  pieChart.addEventListener('change', tampilData);
- pieChartLegend.addEventListener('click', update_value(chk_bx));
+ pieChartLegend.addEventListener('click', update_value1(chk_bx));
 
 
- function update_value(chk_bx){
+ function update_value1(chk_bx){
   
   if(chk_bx.checked)
   {
