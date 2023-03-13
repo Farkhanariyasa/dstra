@@ -45,7 +45,7 @@ function resetHighlight(e) {
   info.update();
 }
 
-var peta_malang_hasil2 = L.map("peta_malang_hasil2").setView(
+var petatematik1 = L.map("petatematik1").setView(
   [-7.9797, 112.6304],
   12.4
 );
@@ -54,7 +54,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-}).addTo(peta_malang_hasil2);
+}).addTo(petatematik1);
 
 function onEachFeature(feature, layer) {
   layer.on({
@@ -66,9 +66,9 @@ function onEachFeature(feature, layer) {
 geojson = L.geoJSON(kec_malang, {
   style: style,
   onEachFeature: onEachFeature,
-}).addTo(peta_malang_hasil2);
+}).addTo(petatematik1);
 
-info.onAdd = function (peta_malang_hasil2) {
+info.onAdd = function (petatematik1) {
   this._div = L.DomUtil.create("div", "info"); // create a div with a class "info"
   this.update();
   return this._div;
@@ -76,19 +76,19 @@ info.onAdd = function (peta_malang_hasil2) {
 
 info.update = function (props) {
   this._div.innerHTML =
-    "<h4>Jumlah Perjalanan</h4>" +
+    "<h4>Sebaran Wisatawan</h4>" +
     (props
       ? "<b>" +
         props.NAME_3 +
         "</b><br />" +
-        props.perjalanan
+        props.sebaran
         // " people / mi<sup>2</sup>"
       : "Kecamatan");
 };
 
-info.addTo(peta_malang_hasil2);
+info.addTo(petatematik1);
 
-legend.onAdd = function (peta_malang_hasil2) {
+legend.onAdd = function (petatematik1) {
   var div = L.DomUtil.create("div", "info legend"),
     grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
     // labels = [];
@@ -106,5 +106,5 @@ legend.onAdd = function (peta_malang_hasil2) {
   return div;
 };
 
-legend.addTo(peta_malang_hasil2);
+legend.addTo(petatematik1);
 

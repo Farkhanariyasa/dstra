@@ -3,7 +3,7 @@ let idbutton = "";
 let idinput = "";
 let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 4; i++) {
   document.getElementById("unduh-2-" + [i]).addEventListener("click", (e) => {
     idbutton = "btndownload" + [i];
     console.log("2-" + [i] + " diklik");
@@ -58,47 +58,50 @@ function getvalue() {
 
 // endOfValidasi
 
-document.getElementById("btndownload1").addEventListener("click", function (e) {
-  // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("jk_bar").toDataURL();
-  // Create an anchor, and set the href value to our data URL
-  const createEl = document.createElement("a");
-  createEl.href = canvasUrl;
+iddownload = "";
+for (let i = 1; i < 4; i++) { 
+  document
+    .getElementById("btndownload" + [i])
+    .addEventListener("click", function (e) {
+      // Convert our canvas to a data URL
+      let canvasUrl = document.getElementById("riset2_hasil"+[i]).toDataURL();
+      // Create an anchor, and set the href value to our data URL
+      const createEl = document.createElement("a");
+      createEl.href = canvasUrl;
 
-  // This is the name of our downloaded file
-  createEl.download = "Riset 2";
+      // This is the name of our downloaded file
+      createEl.download = "Hasil SP Riset 2 - Hasil " + [i];
 
-  // Click the download button, causing a download, and then remove it
-  createEl.click();
-  createEl.remove();
-});
+      // Click the download button, causing a download, and then remove it
+      createEl.click();
+      createEl.remove();
+    });
+  iddownload = i - 1;
+}
 
-document.getElementById("btndownload2").addEventListener("click", function (e) {
-  // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
-  // Create an anchor, and set the href value to our data URL
-  const createEl = document.createElement("a");
-  createEl.href = canvasUrl;
+// document.getElementById("btndownload1").addEventListener("click", function (e) {
+//   let canvasUrl = document.getElementById("jk_bar").toDataURL();
+//   const createEl = document.createElement("a");
+//   createEl.href = canvasUrl;
+//   createEl.download = "Hasil SP Riset 2 - Hasil 1";
+//   createEl.click();
+//   createEl.remove();
+// });
 
-  // This is the name of our downloaded file
-  createEl.download = "Riset 2";
+// document.getElementById("btndownload2").addEventListener("click", function (e) {
+//   let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
+//   const createEl = document.createElement("a");
+//   createEl.href = canvasUrl;
+//   createEl.download = "Riset 2";
+//   createEl.click();
+//   createEl.remove();
+// });
 
-  // Click the download button, causing a download, and then remove it
-  createEl.click();
-  createEl.remove();
-});
-
-document.getElementById("btndownload3").addEventListener("click", function (e) {
-  // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("bar_horizontal").toDataURL();
-  // Create an anchor, and set the href value to our data URL
-  const createEl = document.createElement("a");
-  createEl.href = canvasUrl;
-
-  // This is the name of our downloaded file
-  createEl.download = "Riset 2";
-
-  // Click the download button, causing a download, and then remove it
-  createEl.click();
-  createEl.remove();
-});
+// document.getElementById("btndownload3").addEventListener("click", function (e) {
+//   let canvasUrl = document.getElementById("tu_bar").toDataURL();
+//   const createEl = document.createElement("a");
+//   createEl.href = canvasUrl;
+//   createEl.download = "Riset 2";
+//   createEl.click();
+//   createEl.remove();
+// });

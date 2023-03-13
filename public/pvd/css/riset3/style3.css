@@ -50,7 +50,11 @@
   font-size: 11px;
 }
 
-
+@media (max-width: 768px) {
+  h4.card-title.judul-card {
+    font-size: 12px;
+  }
+}
 
 
 /* waffle chart */

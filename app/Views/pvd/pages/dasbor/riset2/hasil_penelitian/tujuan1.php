@@ -13,15 +13,15 @@
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset2-hasilkajian1-1">Banyak Wisatawan</li>
-          <li data-filter=".filter-riset2-hasilkajian1-2">Banyak Perjalanan</li>
-          <li data-filter=".filter-riset2-hasilkajian1-3">Tujuan Utama</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-1">Banyak Wisatawan</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-2">Banyak Perjalanan</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-3">Tujuan Utama</li>
         </ul>
       </div>
     </div>
     
     <div class="row portfolio-container">
-      <?php include('dummy_kajian1.php') ?>
+      <?php include('dummy_tujuan1.php') ?>
     </div>
   </div>
 </section>
@@ -49,15 +49,12 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_1.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pie_chart.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_twowaybar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tp_pie.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jp_twowaybar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>

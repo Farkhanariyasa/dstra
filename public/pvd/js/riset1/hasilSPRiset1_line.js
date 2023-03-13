@@ -55,7 +55,9 @@ const line = new Chart(hasil5, {
                     stepSize: 10,
                 }   
             }
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
     }
 });
 

@@ -203,7 +203,7 @@
                             </button>
                         </div>
                     </div>
-                    <h2>Average number of <span id="degreeValue">BA</span> students per accommodation type</h2>
+                    <h4 class="card-title">Average number of <span id="degreeValue">BA</span> students per accommodation type</h4>
                     <div class="radio-buttons-container">
                         <div class="class-radio class-radio-inline">
                         <input type="radio" id="radio-BA" name="radio-class" value="BA" checked/>
@@ -237,6 +237,7 @@
     </div>
 </div>
 
+<!-- peta lokus -->
 <!-- <div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">

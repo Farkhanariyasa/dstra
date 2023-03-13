@@ -1,14 +1,14 @@
 let delayed;
 // Chart
-const jk_bar = document.getElementById("riset2_hasil1");
-var bar_jenis_kelamin = new Chart(jk_bar, {
+const lp_bar = document.getElementById("lp_bar");
+var bar_jenis_kelamin = new Chart(lp_bar, {
   type: "bar",
   data: {
-    labels: ["Laki-laki", "Perempuan"],
+    labels: ["Klojen", "Sukun", "Blimbing", "Lowokwaru", "Kedungkandang"],
     datasets: [
       {
-        label: "Jumlah Wisatawan",
-        data: [datajeniskelamin.jk1, datajeniskelamin.jk2],
+        label: "Lama Bepergian (jam)",
+        data: [2261, 2648, 2813, 3017, 3224],
         borderWidth: 1,
         backgroundColor: "#ffab00",
       },
@@ -25,14 +25,14 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
-      }
+      },
     },
     responsive: true,
     scales: {
       x: {
         title: {
           display: true,
-          text: "Jenis Kelamin",
+          text: "Kecamatan Tujuan",
           font: {
             size: 18,
             style: "normal",
@@ -47,7 +47,7 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
         beginAtZero: true,
         title: {
           display: true,
-          text: "Jumlah Wisatawan",
+          text: "Rata-Rata Lama Bepergian (jam)",
           font: {
             size: 18,
             style: "normal",
@@ -63,9 +63,9 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
     plugins: {
       title: {
         display: true,
-        text: "Sebaran Penduduk yang Melakukan Perjalanan Wisata berdasarkan Jenis Kelamin",
+        text: "Estimasi Rata-Rata Lama Bepergian yang Dilakukan Wisatawan dalam Kota di Kota Malang Bulan Oktober-Desember 2022",
         font: {
-          size: 18,
+          size: 20,
         },
         align: "center",
       },

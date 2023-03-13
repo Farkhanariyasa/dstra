@@ -12,13 +12,14 @@
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-            <li data-filter=".filter-riset2-hasilkajian2-1" class="filter-active">Lama Kunjungan</li>
-            <li data-filter=".filter-riset2-hasilkajian2-2">Lama Perjalanan</li>
+          <li data-filter="*" class="filter-active">Semua</li>
+          <li data-filter=".filter-riset2-hasilkajian2-1">Lama Kunjungan</li>
+          <li data-filter=".filter-riset2-hasilkajian2-2">Lama Perjalanan</li>
         </ul>
       </div>
     </div>
     <div class="row portfolio-container">
-      <?php include('dummy_kajian2.php') ?>
+      <?php include('dummy_tujuan2.php') ?>
     </div>
   </div>
 </section>
@@ -40,7 +41,7 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_lp_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
