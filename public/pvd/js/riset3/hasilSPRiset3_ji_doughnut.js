@@ -82,8 +82,27 @@ const doughnut=new Chart(ctx5, {
 });
 
 const doughnutChart = document.getElementById('forDoughnutChart');
+const doughnutChartLegend = document.getElementById('fordoughnutChartLegend');
+ 
 doughnutChart.addEventListener('change', tampilData);
-   
+doughnutChartLegend.addEventListener('click', update_value(chk_bx));
+
+function update_value(chk_bx){
+  
+  if(chk_bx.checked)
+  {
+      console.log('check');
+      doughnut.options.plugins.legend.display=true;
+      doughnut.update();
+  }
+      
+  else{
+    console.log('uncheck');
+    doughnut.options.plugins.legend.display=false;
+    doughnut.update();
+  }
+}
+
 function tampilData(){
      if (doughnutChart.value =='a') {
         console.log(doughnutChart.value);
