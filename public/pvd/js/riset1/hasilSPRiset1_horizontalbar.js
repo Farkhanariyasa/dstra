@@ -73,7 +73,10 @@ const hasil4 = new Chart(test, {
                     display:false
                 },
             }
-        }
+        },
+        animation:{
+            duration: 2000,
+        },
     },plugins:[ChartDataLabels]
 });
 

@@ -58,6 +58,26 @@ const line = new Chart(hasil5, {
         },
         responsive: true,
         maintainAspectRatio: false,
+        interaction: {
+            intersect: false,
+            mode: 'index',
+        },
+        plugins: {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: {
+                    usePointStyle: true,
+                    boxWidth: 10,
+                    boxHeight: 10,
+                    padding: 20,
+                    font: {
+                        size: 14,
+                        weight: 'bold',
+                    }
+                }
+            }
+        }
     }
 });
 

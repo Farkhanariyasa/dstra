@@ -19,6 +19,7 @@ new Chart(hasil4, {
       }
       ]},
     options: {
+    indexAxis: 'y',
     responsive:true,
     scales: {
         x: {
