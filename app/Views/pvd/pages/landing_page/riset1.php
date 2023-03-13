@@ -31,7 +31,8 @@
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
-                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>"
+                                class="tombol btn-for text-decoration-none">
                                 <span>Hasil PKL</span>
                                 <i class="fas fa-arrow-circle-right"></i>
                             </a>
@@ -54,7 +55,8 @@
                         <h1 class="headline text-center pt-5">Latar Belakang</h1>
                     </div>
                 </div>
-                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <p class="text-justify">
                         Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
                         wisata sebagian besar melakukan perjalanan wisata bersama keluarga atau kerabat terdekatnya
@@ -62,7 +64,9 @@
                         seseorang termasuk ke dalam satu keluarga dapat diidentifikasi berdasarkan usual environment
                         dan
                         pola perjalanan wisata yang dilakukan melalui MPD.
-                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;"
+                            class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                            aria-expanded="false" aria-controls="collapseExample">
                             [<strong><i>Tampilkan Semua</i></strong>]
                         </a>
                     </p>
@@ -101,7 +105,9 @@
                             Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat dibutuhkannya data wisata
                             yang
                             komprehensif dalam hal pengembangan wisata guna memulihkan sektor pariwisata.
-                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;"
+                                class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                                aria-expanded="false" aria-controls="collapseExample">
                                 [<strong><i>Tampilkan Sebagian</i></strong>]
                             </a>
                         </p>
@@ -118,7 +124,8 @@
                         <h1 class="headline text-center">Tujuan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                    data-aos="zoom-in" data-aos-duration="1000">
                     <ol class="text-justify">
                         <li>Membangun metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga
                             berdasarkan
@@ -202,17 +209,24 @@
                 </div>
                 <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill" data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer" aria-selected="true">Kota Surabaya</button>
+                        <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer"
+                            aria-selected="true">Kota Surabaya</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill" data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder" aria-selected="false">Kota Malang</button>
+                        <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder"
+                            aria-selected="false">Kota Malang</button>
                     </li>
                 </ul>
 
                 <!-- Button Metodologi -->
                 <div class="tab-content" id="pills-tabContent">
-                    <!-- Survei 1 - Copy -->
-                    <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">
+
+                    <!-- Kota Surabaya -->
+                    <!-- UBAH -->
+                    <div class="tab-pane fade show active" id="pills-primer" role="tabpanel"
+                        aria-labelledby="pills-primer-tab">
 
 
 
@@ -297,7 +311,8 @@
                         <!-- Metodologi (Tujuan 1 dan Tujuan 2 Data training) -->
                         <section class="offset-header">
                             <div class="container-fluid turun">
-                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
                                     <p>
                                         <b>Tujuan 1 Dan Tujuan 2 (Data Training) </b>
                                     </p>
@@ -305,7 +320,8 @@
                                         <div class="carousel-inner">
                                             <!-- Populasi -->
                                             <div class="carousel-item active">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -330,7 +346,8 @@
 
                                             <!-- Populasi Target -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -358,7 +375,8 @@
 
                                             <!-- Populasi Survei -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -386,7 +404,8 @@
 
                                             <!-- Unit Observasi -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -415,7 +434,8 @@
 
                                             <!-- Unit Sampling-->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -444,7 +464,8 @@
 
                                             <!-- Unit Analisis -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -475,7 +496,8 @@
 
                                             <!-- Kerangka Sampel -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -500,12 +522,16 @@
                                         </div>
                                     </div>
 
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi" data-bs-slide="prev" style="width: 5%;">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselKontenMetodologi" data-bs-slide="prev"
+                                        style="width: 5%;">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
 
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi" data-bs-slide="next" style="width: 5%;">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselKontenMetodologi" data-bs-slide="next"
+                                        style="width: 5%;">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -663,7 +689,8 @@
                         <!-- Metodologi (Tujuan 1 dan Tujuan 2 Data Testing) -->
                         <section class="offset-header">
                             <div class="container-fluid turun">
-                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
                                     <p>
                                         <b>Tujuan 1 Dan Tujuan 2 (Data Testing) </b>
                                     </p>
@@ -671,7 +698,8 @@
                                         <div class="carousel-inner">
                                             <!-- Populasi -->
                                             <div class="carousel-item active">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -694,7 +722,8 @@
 
                                             <!-- Populasi Target -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -719,7 +748,8 @@
 
                                             <!-- Populasi Survei -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -744,7 +774,8 @@
 
                                             <!-- Unit Observasi -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -771,7 +802,8 @@
 
                                             <!-- Unit Sampling-->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -798,7 +830,8 @@
 
                                             <!-- Unit Analisis -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -827,7 +860,8 @@
 
                                             <!-- Kerangka Sampel -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -852,12 +886,16 @@
                                         </div>
                                     </div>
 
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi2" data-bs-slide="prev" style="width: 5%;">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselKontenMetodologi2" data-bs-slide="prev"
+                                        style="width: 5%;">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
 
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi2" data-bs-slide="next" style="width: 5%;">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselKontenMetodologi2" data-bs-slide="next"
+                                        style="width: 5%;">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -1018,7 +1056,8 @@
                         <!-- Desain Sampling Tujuan 1 dan Tujuan 2 -->
                         <section class="offset-header">
                             <div class="container-fluid turun">
-                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
                                     <p>
                                         <b>Desain Sampling Tujuan 1 dan Tujuan 2</b>
                                     </p>
@@ -1044,10 +1083,12 @@
                     </div>
 
                     <!-- Kota Malang -->
+                    <!-- UBAH -->
                     <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">
                         <section class="offset-header">
                             <div class="container-fluid turun">
-                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                                    data-aos="zoom-in" data-aos-duration="1000">
                                     <p>
                                         <b>Tujuan 3</b>
                                     </p>
@@ -1056,7 +1097,8 @@
 
                                             <!-- Populasi -->
                                             <div class="carousel-item active">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1075,7 +1117,8 @@
 
                                             <!-- Populasi Target -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1097,7 +1140,8 @@
 
                                             <!-- Populasi Survei -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1118,7 +1162,8 @@
 
                                             <!-- Unit Observasi -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1139,7 +1184,8 @@
 
                                             <!-- Unit Sampling-->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1160,7 +1206,8 @@
 
                                             <!-- Unit Analisis -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1181,7 +1228,8 @@
 
                                             <!-- Kerangka Sampel -->
                                             <div class="carousel-item">
-                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                <div
+                                                    class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                                     <div class="card-body text-center">
                                                         <i class="fas fa-clipboard-list ikon"></i>
                                                         <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1200,22 +1248,26 @@
                                         </div>
                                     </div>
 
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="prev" style="width: 5%;">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselKontenMetodologi3" data-bs-slide="prev"
+                                        style="width: 5%;">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
 
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="next" style="width: 5%;">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselKontenMetodologi3" data-bs-slide="next"
+                                        style="width: 5%;">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
-                        </section>
 
 
-                        <!-- Populasi -->
-                        <!-- <div
+
+                            <!-- Populasi -->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1231,8 +1283,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Populasi Target-->
-                        <!-- <div
+                            <!-- Populasi Target-->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1249,8 +1301,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Populasi Survei-->
-                        <!-- <div
+                            <!-- Populasi Survei-->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1267,8 +1319,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Unit Observasi -->
-                        <!-- <div
+                            <!-- Unit Observasi -->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1284,8 +1336,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Unit Sampling-->
-                        <!-- <div
+                            <!-- Unit Sampling-->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1301,8 +1353,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Unit Analisis-->
-                        <!-- <div
+                            <!-- Unit Analisis-->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1318,8 +1370,8 @@
                                         </div>
                                     </div> -->
 
-                        <!-- Kerangka Sampel-->
-                        <!-- <div
+                            <!-- Kerangka Sampel-->
+                            <!-- <div
                                         class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
@@ -1338,13 +1390,87 @@
                             </div>
                         </section> -->
 
-                        <!-- Desain Sampling Tujuan 3 -->
-                        <section class="offset-header">
-                            <div class="container-fluid turun">
-                                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                                    <p>
+                            <!-- Desain Sampling Tujuan 3 -->
+                            <!-- UBAH -->
+                            <section class="offset-header">
+                                <div class="container-fluid turun">
+                                    <div class="konten third5 par m-auto p-4 p-md-5 shadow box"
+                                        style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                                        <!-- DESAIN SAMPLING -->
+                                        <p>
+                                            <b>Desain Sampling Tujuan 3</b>
+                                        </p>
+
+                                        <p class="text-justify">
+                                        <div class="d-flex flex-row justify-content-center align-items-center">
+                                            <div class="text-center text-lg-start">
+                                                <a class="bagan text-decoration-none">
+                                                    <img style="cursor: pointer;" data-bs-toggle="modal"
+                                                        data-bs-target="#baganSkema"
+                                                        src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>"
+                                                        class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        </p>
+
+
+
+                                        <section class="text-justify">
+                                            <p class="text-justify">Metode penarikan sampel yang digunakan adalah
+                                                Multistage
+                                                Random Sampling karena
+                                                populasi heterogen dan berukuran sangat besar. Berikut tahapan penarikan
+                                                sampel
+                                                dengan Multistage Random Sampling:</p>
+                                            <ul class="text-justify">
+                                                <li>
+                                                    Tahap Pertama: Melakukan pemilihan n blok sensus (BS) dari semua
+                                                    kecamatan
+                                                    secara Probability Proportional to Size (PPS WR-Systematic) dengan
+                                                    size
+                                                    jumlah keluarga di tiap blok sensus di Kota Malang hasil
+                                                    pemutakhiran
+                                                    Sensus
+                                                    Penduduk 2020.
+                                                </li>
+                                                <li>
+                                                    Tahap Kedua: Melakukan pemilihan n rumah tangga dari blok sensus
+                                                    (BS)
+                                                    terpilih secara Systematic Sampling dengan variabel dasar pengurutan
+                                                    jumlah
+                                                    anggota rumah tangga yang minimal salah satu anggota rumah tangganya
+                                                    pernah
+                                                    melakukan perjalanan wisata selama Triwulan IV 2022.
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="baganSkema" tabindex="-1"
+                                        aria-labelledby="baganModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <p>
                                         <b>Desain Sampling Tujuan 3</b>
                                     </p>
+                                    
                                     <p class="text-justify">
                                         Metode penarikan sampel yang digunakan adalah Multistage Random Sampling karena
                                         populasi heterogen dan berukuran sangat besar. Berikut tahapan penarikan sampel
@@ -1365,9 +1491,9 @@
                                             melakukan perjalanan wisata selama Triwulan IV 2022.
                                         </li>
                                     </ul>
-                                    </p>
+                                    </p> -->
                                 </div>
-                            </div>
+                            </section>
                         </section>
                     </div>
                 </div>
@@ -1383,7 +1509,8 @@
                         <h1 class="headline text-center">Hasil Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                    data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia
                         harum qui
@@ -1418,7 +1545,8 @@
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel"
+                    style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                 </div>
