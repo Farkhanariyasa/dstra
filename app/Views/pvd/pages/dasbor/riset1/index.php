@@ -128,8 +128,8 @@
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-center">
       <ul id="portfolio-flters">
-        <!-- <li data-filter="*" class="filter-active">Semua</li> -->
-        <li data-filter=".filter-riset1-dc" class="filter-active">Double Counting</li>
+        <li data-filter="*" class="filter-active">Semua</li>
+        <li data-filter=".filter-riset1-dc">Double Counting</li>
         <li data-filter=".filter-riset1-fg">Family Grouping</li>
         <li data-filter=".filter-riset1-wisnus">Statistik Wisatawan Nusantara</li>
         <!-- <li data-filter=".filter-riset1-peta">Peta Lokus</li>
