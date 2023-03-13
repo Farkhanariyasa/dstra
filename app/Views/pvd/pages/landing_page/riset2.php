@@ -130,15 +130,6 @@
                 </div>
 
                 <!-- SUMBER DATA DAN CARA PENGUMPULAN DATA -->
-                <!-- <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
-                    <p>
-                        <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
-                    </p>
-                    <p class="text-justify">
-                        Sumber data yang dikumpulkan dalam penelitian ini adalah data primer. Data diperoleh melalui pengisian data dari hasil wawancara secara langsung oleh petugas dengan menggunakan moda <i>Computer-Assisted Personal Interviewing</i> (CAPI) yang dikombinasikan dengan moda <i>Paper and Pencil Interviewing</i> (PAPI). Selain itu, untuk mengatasi kemungkinan non respon menggunakan CATI Computer-Assisted Telephone Interviewing.
-                    </p>
-                </div> -->
-
                 <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <p>
                         <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
@@ -263,10 +254,49 @@
                     </p>
 
                     <div>
+                        <!-- Populasi -->
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                            <div class="card-body text-center">
+                                <i class="fas fa-users col-1 ikon"></i>
+                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi</strong></h5>
+                                <p class="card-text text-justify">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                        Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan  wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022.
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Populasi Target-->
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                            <div class="card-body text-center">
+                                <i class="fas fa-user-friends col-1 ikon"></i>
+                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi Target</strong></h5>
+                                <p class="card-text text-justify">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                    Seluruh rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022.
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Unit Observasi-->
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                            <div class="card-body text-center">
+                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Observasi</strong></h5>
+                                <p class="card-text text-justify">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                        Kepala atau anggota dari rumah tangga di Kota Malang yang minimal salah satu anggota rumah tangganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022.
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
                         <div class="col">
-                            <div class="row">
+                            <!-- <div class="row"> -->
                                 <!-- Populasi -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-users col-1 ikon"></i>
                                         <div class="col">
@@ -277,10 +307,10 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <!-- Populasi Target -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-friends col-1 ikon"></i>
                                         <div class="col">
@@ -291,10 +321,10 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <!-- Unit Observasi -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-alt col-1 ikon"></i>
                                         <div class="col">
@@ -302,31 +332,14 @@
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Unit Observasi</strong></div>
                                             <div class="angka">2180</div>
                                             </p>
-                                            <!-- <p class="card-text text-center">
-                                                <div class="text-center">Anggota Rumah Tangga</div>
-                                            </p> -->
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </div> -->
+                            <!-- </div> -->
 
-                            <div class="row">
-                                <!-- Secondary Sampling Unit -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                    <div class="card-body text-center batasan2 shadow">
-                                        <i class="fas fa-city col-1 ikon"></i>
-                                        <div class="col">
-                                            <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
-                                            <div class="angka">10</div>
-                                            <div style="line-height: 20px;">Rumah Tangga</div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <div class="row justify-content-center">
                                 <!-- Primary Sampling Unit -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <div class="col-5 align-items-center d-flex align-self-center">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-home col-1 ikon"></i>
                                         <div class="col">
@@ -339,8 +352,22 @@
                                     </div>
                                 </div>
 
+                                <!-- Secondary Sampling Unit -->
+                                <div class="col-5 align-items-center d-flex align-self-center">
+                                    <div class="card-body text-center batasan2 shadow">
+                                        <i class="fas fa-city col-1 ikon"></i>
+                                        <div class="col">
+                                            <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
+                                            <div class="angka">10</div>
+                                            <div style="line-height: 20px;">Rumah Tangga</div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <!-- Unit Analisis -->
-                                <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-alt col-1 ikon"></i>
                                         <div class="col">
@@ -351,7 +378,20 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- Unit Analisis-->
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                            <div class="card-body text-center">
+                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Analisis</strong></h5>
+                                <p class="card-text text-justify">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                        Anggota rumah tangga di Kota Malang yang pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022. 
+                                    </div>
+                                </p>
                             </div>
                         </div>
 
@@ -361,35 +401,151 @@
                                 <i class="fas fa-clipboard-list ikon"></i>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
                                 <p class="card-text text-justify">
-                                <div class="text-justify" style="line-height: 25px;">
+                                <!-- <div class="text-justify" style="line-height: 25px;">
                                     Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
                                 </div>
                                 <br>
                                 <div class="text-justify" style="line-height: 25px;">
                                     Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
+                                </div> -->
+                                <div class="d-none d-md-block">
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <!-- SUMBER DATA -->
+                                            <div class="carousel-item active">
+                                                <div class="konten2 row w-75 mx-auto text-justify">
+                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title text-center">
+                                                                <strong>Sumber Data</strong>
+                                                            </h5>
+                                                            <p class="card-text text-center">
+                                                            <div class="text-center">
+                                                                <p>
+                                                                    Primer
+                                                                </p>
+                                                            </div>
+                                                            </p>
+                                                        </div>
+                                                    </div> -->
+                                                    Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
+
+                                                </div>
+                                                <!-- Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus. -->
+                                            </div>
+
+                                            <!-- MODA PENGUMPULAN DATA -->
+                                            <div class="carousel-item ">
+                                                <div class="konten2 row w-75 mx-auto text-justify">
+                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title text-center">
+                                                                <strong>Moda Pengumpulan Data</strong>
+                                                            </h5>
+                                                            <p class="card-text text-center">
+                                                            <div class="text-center">
+                                                                <p>
+                                                                    <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
+                                                                </p>
+                                                            </div>
+                                                            </p>
+                                                        </div>
+                                                    </div> -->
+                                                    Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih.
+
+                                                </div>
+                                                    <!-- Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih. -->
+
+                                            </div>
+                                        </div>
+
+                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+
+                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="d-md-none d-block">
+                                    <div id="versi_kecil" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <!-- SKEMA SAMPLING -->
+                                            <div class="carousel-item active">
+                                                <div class="konten2 row w-75 mx-auto text-justify">
+                                                    <!-- <div class="card p-2 rounded-5 shadow box">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title text-center">
+                                                            <strong>Sumber Data</strong>
+                                                            </h5>
+                                                            <p class="card-text text-center">
+                                                            <div class="text-center">
+                                                                <p>
+                                                                    Primer
+                                                                </p>
+                                                            </div>
+                                                            </p>
+                                                        </div>
+                                                    </div> -->
+                                                    Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
+
+                                                </div>
+                                                <!-- Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus. -->
+
+                                            </div>
+
+                                            <!-- MODA PENGUMPULAN DATA -->
+                                            <div class="carousel-item ">
+                                                <div class="konten2 row w-75 mx-auto text-justify">
+                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title text-center">
+                                                                <strong>Moda Pengumpulan Data</strong>
+                                                            </h5>
+                                                            <p class="card-text text-center">
+                                                            <div class="text-center">
+                                                                <p>
+                                                                    <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
+                                                                </p>
+                                                            </div>
+                                                            </p>
+                                                        </div>
+                                                    </div> -->
+                                                    Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih.
+
+                                                </div>
+                                                <!-- Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih. -->
+
+                                            </div>
+                                        </div>
+
+                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#versi_kecil" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+
+                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#versi_kecil" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                                 </p>
                             </div>
                         </div>
 
-                        <!-- Variabel Pembantu -->
+                        <!-- Metode Penarikan Sampel -->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <i class="fas fa-cubes ikon"></i>
-                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Variabel Pembantu</strong></h5>
+                                <h5 class="card-title text-center" style="line-height: 20px;"><strong>Metode Penarikan Sampel</strong></h5>
                                 <p class="card-text text-center">
                                 <div class="text-justify" style="line-height: 25px;">
-                                    Variabel pembantu dibutuhkan sebagai size pada teknik PPS sampling dan sebagai dasar pengurutan pada teknik <i>systematic sampling</i>. Variabel-variabel yang digunakan sebagai variabel pembantu dalam penghitungan estimasi, yaitu
-                                    <br>
-                                    <br>
-                                    <ul>
-                                        <li style="line-height: 25px; color:inherit;">
-                                            Jumlah keluarga di setiap blok sensus, sebagai size pada penarikan sampel tahap pertama dengan teknik PPS, dan
-                                        </li>
-                                        <li style="line-height: 25px; color:inherit;">
-                                            Jumlah anggota rumah tangga, sebagai <i>implicit stratification</i> pada penarikan sampel tahap kedua dengan teknik <i>Systematic Sampling</i>.
-                                        </li>
-                                    </ul>
+                                    Teknik penarikan sampel menggunakan two stage sampling  dengan stage pertama adalah PPS sampling dengan size jumlah keluarga di setiap blok sensus. Pada stage kedua menggunakan teknik systematic sampling dengan implicit stratification adalah jumlah anggota keluarga.
                                 </div>
                                 </p>
                             </div>
