@@ -60,8 +60,6 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Malang
 
 
-        // python script
-        $routes->get('python-script', 'Riset1::python_script');
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {

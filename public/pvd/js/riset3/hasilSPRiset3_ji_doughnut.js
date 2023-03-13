@@ -85,11 +85,11 @@ const doughnutChart = document.getElementById('forDoughnutChart');
 const doughnutChartLegend = document.getElementById('fordoughnutChartLegend');
  
 doughnutChart.addEventListener('change', tampilData);
-doughnutChartLegend.addEventListener('click', update_value(chk_bx));
+doughnutChartLegend.addEventListener('click', update_value2(chk_bx1));
 
-function update_value(chk_bx){
+function update_value2(chk_bx1){
   
-  if(chk_bx.checked)
+  if(chk_bx1.checked)
   {
       console.log('check');
       doughnut.options.plugins.legend.display=true;
