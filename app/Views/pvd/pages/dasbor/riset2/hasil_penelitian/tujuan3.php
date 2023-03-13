@@ -5,22 +5,20 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
-            <p>Analisis Inferensia</p>
+            <p>Karakteristik Wisatawan & Perjalanan Wisata</p>
         </header>
         <hr class="hrjudul">
 
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*">Semua</li>
-                    <li data-filter=".filter-riset2-hasil1" class="filter-active">Karakteristik Wisatawan</li>
-                    <li data-filter=".filter-riset2-hasil2">Karakteristik Perjalanan</li>
+                    <li data-filter=".filter-riset2-hasilkajian3-1" class="filter-active">Karakteristik Wisatawan</li>
+                    <li data-filter=".filter-riset2-hasilkajian3-2">Karakteristik Perjalanan</li>
                 </ul>
             </div>
-        </div> -->
-
+        </div>
         <div class="row portfolio-container">
-            <?php include('dummy_kajian4.php') ?>
+            <?php include('dummy_tujuan3.php') ?>
         </div>
     </div>
 </section>
@@ -39,13 +37,16 @@
     const datajeniskelamin = <?= json_encode($jk); ?>;
     const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
     const datapendidikantertinggi_riset2 = <?= json_encode($pt_2); ?>;
+    const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_peta.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
+
 
 <?= $this->endSection(); ?>

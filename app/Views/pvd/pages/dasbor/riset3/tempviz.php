@@ -17,7 +17,7 @@
           <li data-filter=".filter-riset3-hasil5">Boxplot</li>
           <li data-filter=".filter-riset3-hasil6">Sankey Diagram</li>
           <li data-filter=".filter-riset3-hasil7">Waffle Chart</li>
-          <li data-filter=".filter-riset3-peta">Peta Lokus</li>
+          <!-- <li data-filter=".filter-riset3-peta">Peta Lokus</li> -->
         </ul>
       </div>
     </div>

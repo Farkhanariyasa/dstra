@@ -44,7 +44,7 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center pt-5" style="font-size: 23px;">Latar Belakang</h1>
+                        <h1 class="headline text-center pt-5">Latar Belakang</h1>
                     </div>
                 </div>
                 <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">

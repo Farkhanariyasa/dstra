@@ -1,4 +1,4 @@
-const bar_horizontal = document.getElementById("bar_horizontal");
+const bar_horizontal = document.getElementById("riset2_hasil2");
 
 const batang_horizontal = new Chart(bar_horizontal, {
   type: "bar",

@@ -24,7 +24,7 @@
                     <div class="chartBox bar">
                         <canvas class="mt1" id="ji_batang" style="width: 95%; height:80vh;"></canvas>
                     </div>
-
+                    
                 </div>
             </div>
         </div>
@@ -57,8 +57,8 @@
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forPieChartLegend" value="show" checked>
-                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Show Legend</label>
+                            <input class="form-check-input" onchange="update_value1(this);" type="checkbox" id="forPieChartLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
                         </div>
                         <!-- <input type="radio" name="forPieChartLegend" value="tampil">Tampil
                         <input type="radio" name="forPieChartLegend" value="tidak">Tidak Tampil -->
@@ -87,6 +87,13 @@
                     </div>
                     <div class="chartBox">
                         <canvas id="j_doughnut" style="width: 95%; height:80vh;"></canvas>
+                    </div>
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3">
+                            <input class="form-check-input" onchange="update_value2(this);" type="checkbox" id="forDoughnutChartLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -203,7 +210,7 @@
                             </button>
                         </div>
                     </div>
-                    <h2>Average number of <span id="degreeValue">BA</span> students per accommodation type</h2>
+                    <h4 class="card-title">Average number of <span id="degreeValue">BA</span> students per accommodation type</h4>
                     <div class="radio-buttons-container">
                         <div class="class-radio class-radio-inline">
                         <input type="radio" id="radio-BA" name="radio-class" value="BA" checked/>
@@ -237,6 +244,7 @@
     </div>
 </div>
 
+<!-- peta lokus -->
 <!-- <div class=" portfolio-item filter-riset3-peta" onresize="responsivefonts()">
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">

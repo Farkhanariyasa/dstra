@@ -5,20 +5,23 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <p>Lama Kunjungan & Lama Bepergian Wisata</p>
+      <p>Banyak Wisatawan & Perjalanan Wisata</p>
     </header>
     <hr class="hrjudul">
 
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-            <li data-filter=".filter-riset2-hasilkajian2-1" class="filter-active">Lama Kunjungan</li>
-            <li data-filter=".filter-riset2-hasilkajian2-2">Lama Perjalanan</li>
+          <li data-filter="*" class="filter-active">Semua</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-1">Banyak Wisatawan</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-2">Banyak Perjalanan</li>
+          <li data-filter=".filter-riset2-hasiltujuan1-3">Tujuan Utama</li>
         </ul>
       </div>
     </div>
+    
     <div class="row portfolio-container">
-      <?php include('dummy_kajian2.php') ?>
+      <?php include('dummy_tujuan1.php') ?>
     </div>
   </div>
 </section>
@@ -32,6 +35,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Chart JS Plugin Sankey Chart -->
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
+<!-- Highchart -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
 <!-- Data Chart -->
 <script>
   const datajeniskelamin = <?= json_encode($jk); ?>;
@@ -40,32 +49,15 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pw_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tp_pie.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jp_twowaybar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
-
-<!-- <h2>Kuesioner Listing</h2>
-<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-    <div class="row">
-        <div style="width: 100%;">
-            <embed src="https://drive.google.com/file/d/1jfvZHFY-ovdka5aRW413RVrplv6zWD0u/preview" type="application/pdf" width=100% height="600px" />
-        </div>
-    </div>
-</div>
-
-
-<h2>Kuesioner Pencacahan</h2>
-<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-    <div class="row">
-        <div style="width: 100%;">
-            <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
-        </div>
-    </div>
-</div> -->
 
 <?= $this->endSection(); ?>
 

@@ -64,7 +64,7 @@ class Riset2 extends BaseController
         return view('pvd/pages/dasbor/riset2/index', $data);
     }
 
-    public function hasil_kajian1()
+    public function hasil_tujuan1()
     {
         $menu = getMenu();
 
@@ -118,10 +118,10 @@ class Riset2 extends BaseController
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/kajian1', $data);
+        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan1', $data);
     }
 
-    public function hasil_kajian2()
+    public function hasil_tujuan2()
     {
         $menu = getMenu();
         $jk = [
@@ -174,10 +174,10 @@ class Riset2 extends BaseController
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/kajian2', $data);
+        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan2', $data);
     }
 
-    public function hasil_kajian3()
+    public function hasil_tujuan3()
     {
         $menu = getMenu();
         $jk = [
@@ -230,10 +230,10 @@ class Riset2 extends BaseController
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/kajian3', $data);
+        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan3', $data);
     }
 
-    public function hasil_kajian4()
+    public function hasil_tujuan4()
     {
         $menu = getMenu();
         $jk = [
@@ -271,10 +271,10 @@ class Riset2 extends BaseController
             'jpu' => $jpu,
             'pt_2' => $pt_2
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/kajian4', $data);
+        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan4', $data);
     }
 
-    public function tabel_kajian1()
+    public function tabel_tujuan1()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
@@ -283,10 +283,10 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/kajian1', $data);
+        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan1', $data);
     }
 
-    public function tabel_kajian2()
+    public function tabel_tujuan2()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
@@ -295,10 +295,10 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/kajian2', $data);
+        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan2', $data);
     }
 
-    public function tabel_kajian3()
+    public function tabel_tujuan3()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
@@ -307,10 +307,10 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/kajian3', $data);
+        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan3', $data);
     }
 
-    public function tabel_kajian4()
+    public function tabel_tujuan4()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
@@ -319,6 +319,6 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/kajian4', $data);
+        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan4', $data);
     }
 }
