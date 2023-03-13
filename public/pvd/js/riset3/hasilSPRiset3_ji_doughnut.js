@@ -4,44 +4,44 @@ const doughnut=new Chart(ctx5, {
   data: {
     labels: ['jasa akomodasi',
             'jasa makan dan minum',
-            'jasa angkutan rel',
+            //'jasa angkutan rel',
             'jasa angkutan darat',
-            'jasa angkutan air',
-            'jasa angkutan udara',
-            'jasa angkutan udara',
-            'Agen perjalanan dan reservasi lainnya',
+            // 'jasa angkutan air',
+            // 'jasa angkutan udara',
+            // 'jasa angkutan udara',
+            // 'Agen perjalanan dan reservasi lainnya',
             'Jasa kebudayaan, olahraga dan rekreasi',
             'Aktivitas perdagangan barang-barang pariwisata',
-            'jasa pariwisata lainnya'
+            'Jenis industri lainnya'
           ],
         datasets: [{
             label: 'Jenis Industri',
             data: [   
                datajenisindustri.ji1,
                datajenisindustri.ji2,
-               datajenisindustri.ji3,
+               //datajenisindustri.ji3,
                datajenisindustri.ji4,
-               datajenisindustri.ji5,
-               datajenisindustri.ji6,
-               datajenisindustri.ji7,
-               datajenisindustri.ji8,
+              //  datajenisindustri.ji5,
+              //  datajenisindustri.ji6,
+              //  datajenisindustri.ji7,
+              //  datajenisindustri.ji8,
                datajenisindustri.ji9,
                datajenisindustri.ji10,
                datajenisindustri.ji11,
            ],
             borderWidth: 1,
             backgroundColor: [
-                "#ffab00",
-                "#ffbc33",
-                "#ffdd99",
-                "#ffeecc",
-                "#506396",
-                "#7832ab",
-                "#96a1c0",
-                "#dce0ea",
-                "#4b395f",
-                "#6f617f",
-                "#93889f"
+              "#ffab00",
+              //"#ffbc33",
+              "#ffdd99",
+              "#ffeecc",
+              "#506396",
+              "#7832ab",
+              "#96a1c0",
+              // "#dce0ea",
+              // "#4b395f",
+              // "#6f617f",
+              // "#93889f"
             ],
         }]
   },
@@ -82,8 +82,27 @@ const doughnut=new Chart(ctx5, {
 });
 
 const doughnutChart = document.getElementById('forDoughnutChart');
+const doughnutChartLegend = document.getElementById('fordoughnutChartLegend');
+ 
 doughnutChart.addEventListener('change', tampilData);
-   
+doughnutChartLegend.addEventListener('click', update_value(chk_bx));
+
+function update_value(chk_bx){
+  
+  if(chk_bx.checked)
+  {
+      console.log('check');
+      doughnut.options.plugins.legend.display=true;
+      doughnut.update();
+  }
+      
+  else{
+    console.log('uncheck');
+    doughnut.options.plugins.legend.display=false;
+    doughnut.update();
+  }
+}
+
 function tampilData(){
      if (doughnutChart.value =='a') {
         console.log(doughnutChart.value);
@@ -91,27 +110,27 @@ function tampilData(){
              [   
                 datajenisindustri.ji1,
                  datajenisindustri.ji2,
-                 datajenisindustri.ji3,
+                 //datajenisindustri.ji3,
                  datajenisindustri.ji4,
-                 datajenisindustri.ji5,
-                 datajenisindustri.ji6,
-                 datajenisindustri.ji7,
-                 datajenisindustri.ji8,
+                //  datajenisindustri.ji5,
+                //  datajenisindustri.ji6,
+                //  datajenisindustri.ji7,
+                //  datajenisindustri.ji8,
                  datajenisindustri.ji9,
                  datajenisindustri.ji10,
                  datajenisindustri.ji11,
              ];
              doughnut.data.labels = ['jasa akomodasi',
              'jasa makan dan minum',
-             'jasa angkutan rel',
+             //'jasa angkutan rel',
              'jasa angkutan darat',
-             'jasa angkutan air',
-             'jasa angkutan udara',
-             'jasa angkutan udara',
-             'Agen perjalanan dan reservasi lainnya',
+            //  'jasa angkutan air',
+            //  'jasa angkutan udara',
+            //  'jasa angkutan udara',
+            //  'Agen perjalanan dan reservasi lainnya',
              'Jasa kebudayaan, olahraga dan rekreasi',
              'Aktivitas perdagangan barang-barang pariwisata',
-             'jasa pariwisata lainnya'];
+             'Jenis industri lainnya'];
           
              // console.log(batang.data.datasets[0].data)
              doughnut.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';

@@ -97,20 +97,20 @@ function getMenu()
           'id' => 'hasil_penelitian',
           'subMenu' => [
             [
-              'subMenu' => 'Kajian 1',
-              'href' => '/riset2/hasil-kajian1',
+              'subMenu' => 'Tujuan 1',
+              'href' => '/riset2/hasil-tujuan1',
             ],
             [
-              'subMenu' => 'Kajian 2',
-              'href' => '/riset2/hasil-kajian2',
+              'subMenu' => 'Tujuan 2',
+              'href' => '/riset2/hasil-tujuan2',
             ],
             [
-              'subMenu' => 'Kajian 3',
-              'href' => '/riset2/hasil-kajian3',
+              'subMenu' => 'Tujuan 3',
+              'href' => '/riset2/hasil-tujuan3',
             ],
             [
-              'subMenu' => 'Kajian 4',
-              'href' => '/riset2/hasil-kajian4',
+              'subMenu' => 'Tujuan 4',
+              'href' => '/riset2/hasil-tujuan4',
             ],
 
           ],
@@ -122,20 +122,20 @@ function getMenu()
           'id' => 'tabel_dinamis',
           'subMenu' => [
             [
-              'subMenu' => 'Kajian 1',
-              'href' => '/riset2/tabel-kajian1',
+              'subMenu' => 'Tujuan 1',
+              'href' => '/riset2/tabel-tujuan1',
             ],
             [
-              'subMenu' => 'Kajian 2',
-              'href' => '/riset2/tabel-kajian2',
+              'subMenu' => 'Tujuan 2',
+              'href' => '/riset2/tabel-tujuan2',
             ],
             [
-              'subMenu' => 'Kajian 3',
-              'href' => '/riset2/tabel-kajian3',
+              'subMenu' => 'Tujuan 3',
+              'href' => '/riset2/tabel-tujuan3',
             ],
             [
-              'subMenu' => 'Kajian 4',
-              'href' => '/riset2/tabel-kajian4',
+              'subMenu' => 'Tujuan 4',
+              'href' => '/riset2/tabel-tujuan4',
             ],
           ],
         ],
