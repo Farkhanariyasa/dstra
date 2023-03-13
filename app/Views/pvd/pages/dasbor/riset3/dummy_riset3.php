@@ -24,7 +24,7 @@
                     <div class="chartBox bar">
                         <canvas class="mt1" id="ji_batang" style="width: 95%; height:80vh;"></canvas>
                     </div>
-
+                    
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
                             <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forPieChartLegend" value="show" checked>
-                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Show Legend</label>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
                         </div>
                         <!-- <input type="radio" name="forPieChartLegend" value="tampil">Tampil
                         <input type="radio" name="forPieChartLegend" value="tidak">Tidak Tampil -->
@@ -87,6 +87,14 @@
                     </div>
                     <div class="chartBox">
                         <canvas id="j_doughnut" style="width: 95%; height:80vh;"></canvas>
+                    </div>
+                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                        <div class="form-check form-switch me-3">
+                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forDoughnutChartLegend" value="show" checked>
+                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
+                        </div>
+                        <!-- <input type="radio" name="forPieChartLegend" value="tampil">Tampil
+                        <input type="radio" name="forPieChartLegend" value="tidak">Tidak Tampil -->
                     </div>
                 </div>
             </div>
