@@ -15,11 +15,11 @@
           <li data-filter=".filter-riset4-hasil4">Scatter Plot</li>
           <li data-filter=".filter-riset4-hasil5">Bar Plot</li>
           <li data-filter=".filter-riset4-hasil6">Heat Map</li>
-          <li data-filter=".filter-riset4-hasil7">Peta Batu</li>
+          <!-- <li data-filter=".filter-riset4-hasil7">Peta Batu</li> -->
           <li data-filter=".filter-riset4-hasil8">Radar Chart</li>
-          <li data-filter=".filter-riset4-hasil9">Choropelth (Coming soon)</li>
+          <!-- <li data-filter=".filter-riset4-hasil9">Choropelth (Coming soon)</li> -->
           <li data-filter=".filter-riset4-hasil10">Dodge Bar</li>
-          <li data-filter=".filter-riset4-hasil11">Map</li>
+          <!-- <li data-filter=".filter-riset4-hasil11">Map</li> -->
           <li data-filter=".filter-riset4-hasil12">Peta Kota Batu</li>
         </ul>
       </div>
