@@ -137,7 +137,7 @@
 
 <!-- Riset 4 Hasil Peta Batu -->
 
-<body onresize="responsivefonts()">
+<!-- <body onresize="responsivefonts()">
     <div class="portfolio-item filter-riset4-hasil7">
         <div class="col-12 grid-margin stretch-card">
             <div class="card shadow">
@@ -145,9 +145,9 @@
                     <p class="card-text text-center">Kota Batu</p>
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <!-- <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-peta">
+                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-peta">
                                 <i class="fa-solid fa-download"></i>
-                            </button> -->
+                            </button>
                         </div>
                     </div>
                     <div id="map" style="width: 95%; height:50vh;"></div>
@@ -155,7 +155,7 @@
             </div>
         </div>
     </div>
-</body>
+</body> -->
 
 <div class="portfolio-item filter-riset4-hasil8">
     <!-- Visualisasi 1.5 -->
@@ -211,7 +211,7 @@
     </div>
 </div>
 
-<div class="portfolio-item filter-riset4-hasil11" onresize="responsivefonts()">
+<!-- <div class="portfolio-item filter-riset4-hasil11" onresize="responsivefonts()">
     <div class="container mt-5 mb-5">
         <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
             <p class="card-text text-center">
@@ -229,7 +229,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="portfolio-item filter-riset4-hasil12" onresize="responsivefonts()">
     <div class="container mt-5 mb-5">
@@ -245,7 +245,7 @@
                         </button>
                     </div>
                 </div>
-                <div id="peta-batu" style="width: 95%; height:80vh;"></div>
+                <div id="peta-batu" style="width: 95%; height:80vh; z-index: 0;"></div>
             </div>
         </div>
     </div>
