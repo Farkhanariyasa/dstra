@@ -1051,8 +1051,172 @@
                                     <p>
                                         <b>Tujuan 3</b>
                                     </p>
-                                    <!-- Populasi -->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                    <div id="carouselKontenMetodologi3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+
+                                            <!-- Populasi -->
+                                            <div class="carousel-item active">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Populasi</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Populasi dari penelitian ini adalah seluruh anggota rumah
+                                                            tangga di Kota
+                                                            Malang.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Populasi Target -->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Populasi Target</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Populasi target dari penelitian ini adalah seluruh anggota
+                                                            rumah tangga
+                                                            di Kota Malang yang minimal salah satu anggota rumah
+                                                            tangganya pernah
+                                                            melakukan perjalanan wisata nusantara selama Triwulan IV
+                                                            2022.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Populasi Survei -->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Populasi Survei</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Populasi dari penelitian ini adalah seluruh anggota rumah
+                                                            tangga di Kota
+                                                            Malang yang minimal salah satu anggota rumah tangganya
+                                                            pernah melakukan
+                                                            perjalanan wisata nusantara selama Triwulan IV 2022.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Unit Observasi -->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Unit Observasi</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Unit observasi dari penelitian ini adalah anggota rumah
+                                                            tangga di Kota
+                                                            Malang yang pernah melakukan perjalanan wisata nusantara
+                                                            selama Triwulan
+                                                            IV 2022 yang keberadaannya telah divalidasi.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Unit Sampling-->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Unit Sampling</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Unit sampling dari penelitian ini adalah rumah tangga di
+                                                            Kota Malang
+                                                            yang minimal salah satu anggota rumah tangganya pernah
+                                                            melakukan
+                                                            perjalanan wisata nusantara selama Triwulan IV 2022.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Unit Analisis -->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Unit Analisis</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Unit analisis dari penelitian ini adalah anggota rumah
+                                                            tangga di Kota
+                                                            Malang yang pernah melakukan perjalanan wisata nusantara
+                                                            selama Triwulan
+                                                            IV 2022.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Kerangka Sampel -->
+                                            <div class="carousel-item">
+                                                <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                                    <div class="card-body text-center">
+                                                        <i class="fas fa-clipboard-list ikon"></i>
+                                                        <h5 class="card-title text-center" style="line-height: 20px;">
+                                                            <strong>Kerangka Sampel</strong>
+                                                        </h5>
+                                                        <p class="card-text text-justify">
+                                                        <div class="text-justify" style="line-height: 25px;">
+                                                            Kerangka sampel dari penelitian ini adalah daftar blok
+                                                            sensus dari
+                                                            Sensus Penduduk 2020 di Kota Malang, Provinsi Jawa Timur.
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="prev" style="width: 5%;">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="next" style="width: 5%;">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <!-- Populasi -->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1065,10 +1229,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Populasi Target-->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Populasi Target-->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1082,10 +1247,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Populasi Survei-->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Populasi Survei-->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1099,10 +1265,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Unit Observasi -->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Unit Observasi -->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit
@@ -1115,10 +1282,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Unit Sampling-->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Unit Sampling-->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit
@@ -1131,10 +1299,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Unit Analisis-->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Unit Analisis-->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit
@@ -1147,10 +1316,11 @@
                                             </div>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Kerangka Sampel-->
-                                    <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Kerangka Sampel-->
+                        <!-- <div
+                                        class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                         <div class="card-body text-center">
                                             <i class="fas fa-clipboard-list ikon"></i>
                                             <h5 class="card-title text-center" style="line-height: 20px;">
@@ -1166,7 +1336,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
+
                         <!-- Desain Sampling Tujuan 3 -->
                         <section class="offset-header">
                             <div class="container-fluid turun">
