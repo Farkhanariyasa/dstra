@@ -34,15 +34,15 @@ class Riset3 extends BaseController
         $ji = [
             'ji1' => $this->jenisindustri->getByJenisIndustri("1"),
             'ji2' => $this->jenisindustri->getByJenisIndustri("2"),
-            'ji3' => $this->jenisindustri->getByJenisIndustri("3"),
+            //'ji3' => $this->jenisindustri->getByJenisIndustri("3"),
             'ji4' => $this->jenisindustri->getByJenisIndustri("4"),
-            'ji5' => $this->jenisindustri->getByJenisIndustri("5"),
-            'ji6' => $this->jenisindustri->getByJenisIndustri("6"),
-            'ji7' => $this->jenisindustri->getByJenisIndustri("7"),
-            'ji8' => $this->jenisindustri->getByJenisIndustri("8"),
+            //'ji5' => $this->jenisindustri->getByJenisIndustri("5"),
+            //'ji6' => $this->jenisindustri->getByJenisIndustri("6"),
+            //'ji7' => $this->jenisindustri->getByJenisIndustri("7"),
+            //'ji8' => $this->jenisindustri->getByJenisIndustri("8"),
             'ji9' => $this->jenisindustri->getByJenisIndustri("9"),
             'ji10' => $this->jenisindustri->getByJenisIndustri("10"),
-            'ji11' => $this->jenisindustri->getByJenisIndustri("11")
+            'ji11' => $this->jenisindustri->getByJenisIndustri("11", "3", "5", "6", "7", "8")
         ];
         // pendidikan tertinggi
         $pt = [
