@@ -56,7 +56,7 @@
                     </div>
 
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="riset2_hasil3"></canvas>
+                        <canvas class="mt1" id="lk_bar"></canvas>
                     </div>
                 </div>
             </div>
