@@ -194,12 +194,97 @@ class Riset4 extends BaseController
     }
 
     public function menu4submenu2()
-    {
+    {         
+        $dimensi1_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi1_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi2_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b407a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b407a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b407a", 3)
+        ];
+
+        $dimensi2_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b407a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b407a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b407a", 3)
+        ];
+
+        $dimensi3_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b405a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b405a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b405a", 3)
+        ];
+
+        $dimensi3_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b405a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b405a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b405a", 3)
+        ];
+
+        $dimensi4_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi4_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi5_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi5_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi6_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
+        $dimensi6_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+        ];
+
         $menu = getMenu();
         $data = [
-            'judul' => 'Dimensi',
+            'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
+            'dimensi1_kecamatan' => $dimensi1_kecamatan,
+            'dimensi2_kecamatan' => $dimensi2_kecamatan,
+            'dimensi3_kecamatan' => $dimensi3_kecamatan,
+            'dimensi4_kecamatan' => $dimensi4_kecamatan,
+            'dimensi5_kecamatan' => $dimensi5_kecamatan,
+            'dimensi6_kecamatan' => $dimensi6_kecamatan,
+            'dimensi1_jenis' => $dimensi1_jenis,
+            'dimensi2_jenis' => $dimensi2_jenis,
+            'dimensi3_jenis' => $dimensi3_jenis,
+            'dimensi4_jenis' => $dimensi4_jenis,
+            'dimensi5_jenis' => $dimensi5_jenis,
+            'dimensi6_jenis' => $dimensi6_jenis,
         ];
+
         return view('pvd/pages/dasbor/riset4/ikuptik/dimensi', $data);
     }
 
