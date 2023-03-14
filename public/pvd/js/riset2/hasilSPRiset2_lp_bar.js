@@ -1,7 +1,7 @@
-let delayed;
+let delayed1;
 // Chart
 const lp_bar = document.getElementById("lp_bar");
-var bar_jenis_kelamin = new Chart(lp_bar, {
+var bar_lamapergi = new Chart(lp_bar, {
   type: "bar",
   data: {
     labels: ["Klojen", "Sukun", "Blimbing", "Lowokwaru", "Kedungkandang"],
@@ -17,11 +17,11 @@ var bar_jenis_kelamin = new Chart(lp_bar, {
   options: {
     animation: {
       onComplete: () => {
-        delayed = true;
+        delayed1 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed) {
+        if (context.type === "data" && context.mode === "default" && !delayed1) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
