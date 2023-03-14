@@ -42,9 +42,7 @@
 </script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_lp_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tu_bar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_lk_bar.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
