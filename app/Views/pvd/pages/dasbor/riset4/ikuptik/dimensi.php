@@ -1,31 +1,53 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 
 <?= $this->section('content'); ?>
-
-<div class="container px-0">
-      <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-          <i>Smart Tourism Destination</i></strong>
-        </h6>
-      </header>
-    <hr class="hrjudul">
-
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Indeks Kesiapan Unit Usaha
-          </button>
-        </h3>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Dimensi
-            </p>           
-          </div>
-        </div>
-      </div>
+<section id="portfolio" class="portfolio section-bg">
+  <div class="container">
+    <div class="row portfolio-container">
+      <?php include('bar_chart_dimensi.php') ?>
     </div>
-</div>
+  </div>
+</section>
 
+<!-- Istope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Chart JS Plugin Boxplotchart -->
+<script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
+<!-- Highchartjs  -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<!-- Highchartjs Heatmap -->
+<script src="https://code.highcharts.com/modules/heatmap.js"></script>
+<!--  Highchartjs Plugin -->
+<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+
+<!-- Data Chart -->
+<script>
+  const dimensi1_kecamatan = <?= json_encode($dimensi1_kecamatan) ?>;
+  const dimensi2_kecamatan = <?= json_encode($dimensi2_kecamatan) ?>;
+  const dimensi3_kecamatan = <?= json_encode($dimensi3_kecamatan) ?>;
+  const dimensi4_kecamatan = <?= json_encode($dimensi4_kecamatan) ?>;
+  const dimensi5_kecamatan = <?= json_encode($dimensi5_kecamatan) ?>;
+  const dimensi6_kecamatan = <?= json_encode($dimensi6_kecamatan) ?>;
+  const dimensi1_jenis = <?= json_encode($dimensi1_jenis) ?>;
+  const dimensi2_jenis = <?= json_encode($dimensi2_jenis) ?>;
+  const dimensi3_jenis = <?= json_encode($dimensi3_jenis) ?>;
+  const dimensi4_jenis = <?= json_encode($dimensi4_jenis) ?>;
+  const dimensi5_jenis = <?= json_encode($dimensi5_jenis) ?>;
+  const dimensi6_jenis = <?= json_encode($dimensi6_jenis) ?>;
+</script>
+
+<!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset4/dodge_bar_dimensi_kecamatan.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/dodge_bar_dimensi_jenis.js') ?>"></script>
+
+<!-- Fungsi Unduh Chart -->
+<script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+</section>
 <?= $this->endSection(); ?>
-
