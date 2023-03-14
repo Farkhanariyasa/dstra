@@ -10,9 +10,21 @@ class Riset4HasilSpModel extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
-    # fungsi agregat (count) untuk semua indikator di blok SDM
+    # fungsi agregat (count) untuk satu kolom kategorik
+    public function getJumlahUUP($kolom, $nilai){
+        return $this->where([$kolom => $nilai])->countAllResults();
+    }
+
+    # fungsi agregat (mean) untuk satu kolom kategorik dan satu kolom numerik
+    public function getRataan($kolom_kategorik, $kolom_numerik, $nilai){
+        $sub_query = 'avg('.$kolom_numerik.') as rataan';
+        $result =  $this->where([$kolom_kategorik => $nilai])->select($sub_query)->first();
+        return $result['rataan'];
+    }
+        
+    # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
     public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
-        return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();;
+        return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();
     }
 
     public function getUnitUsahaTIK($uu){
