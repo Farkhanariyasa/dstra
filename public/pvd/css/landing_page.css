@@ -163,18 +163,6 @@ section {
     
 }
 
-.batasan{
-    background-color: #506396;
-    height: 120px;
-    color: white;
-    font-size: large;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 230px;
-    border-radius: 25px;
-}
-
 .tombol {
     display: inline-block;
     font-weight: 400;
@@ -774,22 +762,6 @@ h1.headline {
     /* white-space: normal;
     overflow: scroll;
     overflow-x: unset; */
-}
-
-
-.batasan{
-    background-color: #506396;
-    height: 120px;
-    color: white;
-    font-size: large;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    border-radius: 25px;
-    padding-left: 3px;
-    padding-right: 3px;
 }
 
 .batasan2{
