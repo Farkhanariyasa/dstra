@@ -107,15 +107,19 @@
                     <div class="col">
                         <div class="row align-items-center text-center">
                             <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
-                                    <div><strong>Objek</strong></div>
-                                    <p class="text-white">Tenaga Kerja di Industri Pariwisata</p>
+                                <div class="card">
+                                    <h5 class="card-header">Objek</h5>
+                                    <div class="card-body">
+                                        <p class="card-text text-white">Tenaga Kerja di Industri Pariwisata</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
-                                    <div><strong>Cakupan Penelitian</strong></div>
-                                    <p class="text-white">Kabupaten Malang</p>
+                                <div class="card">
+                                    <h5 class="card-header">Cakupan Penelitian</h5>
+                                    <div class="card-body">
+                                        <p class="card-text text-white">Kabupaten Malang</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -210,17 +214,17 @@
                 <div class=" col">
                         <div class="row">
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
+                                <div class="ruang">
                                     <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
+                                <div class="ruang">
                                     <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
+                                <div class="ruang">
                                     <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
                                 </div>
                             </div>
@@ -228,7 +232,7 @@
                         </div>
                         <div class="row">
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="batasan pt-2">
+                                <div class="ruang pt-2">
                                     <div class="row backrow">
                                         <div class="col-2 sidebuttonl">
                                             <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
@@ -246,12 +250,12 @@
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="batasan">
+                                <div class="ruang">
                                     <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="batasan pt-2">
+                                <div class="ruang pt-2">
                                     <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#krsampModal">Kerangka Sampel</p>
                                 </div>
                             </div>
