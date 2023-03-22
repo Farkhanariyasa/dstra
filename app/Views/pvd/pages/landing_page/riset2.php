@@ -674,9 +674,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -718,9 +716,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -762,9 +758,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -806,9 +800,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -850,9 +842,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -894,9 +884,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -954,9 +942,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -998,9 +984,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -1042,9 +1026,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -1086,9 +1068,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -1130,9 +1110,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -1174,9 +1152,7 @@
                                                             pb : proporsi populasi target terhadap populasi penelitian <br>
                                                             AveSize : rata-rata jumlah ART <br>
                                                             RR : response rate <br> <br>
-                                                            <!-- <a id="keteranganBawah" onclick="keteranganBawah(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
-                                                                        [<strong><i>Sembunyikan</i></strong>]
-                                                                </a> -->
+                                                            
                                                         </p>
                                                     </div>
                                                     <p>
@@ -1251,6 +1227,35 @@
                                             </button>
                                         </div>
                                     </a>
+                                </div>
+                            </div>
+                            <!-- </a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Kuesioner Pencacahan -->
+        <section class="offset-header mt-4">
+            <div class="container-fluid turun">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center">Kuesioner Pencacahan</h1>
+                    </div>
+                </div>
+
+                <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
+                    <p class="text-justify">
+                    <div>
+                        <div class="text-center text-lg-start kontener">
+                            <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
+                            <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto; width: 100%">
+                                <div class="row">
+                                <div>
+                                    <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
+                                </div>
                                 </div>
                             </div>
                             <!-- </a> -->
