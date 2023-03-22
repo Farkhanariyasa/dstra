@@ -764,6 +764,21 @@ h1.headline {
     overflow-x: unset; */
 }
 
+.batasan{
+    background-color: #506396;
+    height: 120px;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    border-radius: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 .batasan2{
     background-color: #fff;
     height: 120px;
