@@ -110,7 +110,7 @@
                                 <div class="card">
                                     <h5 class="card-header">Objek</h5>
                                     <div class="card-body">
-                                        <p class="card-text text-white">Tenaga Kerja di Industri Pariwisata</p>
+                                        <p class="card-text">Tenaga Kerja di Industri Pariwisata</p>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                 <div class="card">
                                     <h5 class="card-header">Cakupan Penelitian</h5>
                                     <div class="card-body">
-                                        <p class="card-text text-white">Kabupaten Malang</p>
+                                        <p class="card-text">Kabupaten Malang</p>
                                     </div>
                                 </div>
                             </div>
