@@ -215,17 +215,17 @@
                         <div class="row">
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="ruang">
-                                    <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
+                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="ruang">
-                                    <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
+                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="ruang">
-                                    <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
+                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
                                 </div>
                             </div>
 
@@ -237,11 +237,11 @@
                                         <div class="col-2 sidebuttonl">
                                             <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
                                         </div>
-                                        <div class="col-8 boxkerangka">
-                                            <p style="font-size: 22px;" class="mySlides mt-4 text-white text-center">Unit Sampling</p>
-                                            <p class="mySlides text-white text-center resizefont">Primary sampling unit: Kecamatan</p>
-                                            <p class="mySlides text-white text-center resizefont">Secondary sampling unit: Blok Sensus</p>
-                                            <p class="mySlides text-white text-center resizefont">Ultimate sampling unit: Rumah Tangga</p>
+                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
+                                            <p style="font-size: 22px;" class="mySlides text-white text-center">Unit Sampling</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal1">Primary</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal2">Secondary</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal3">Ultimate</p>
                                         </div>
                                         <div class="col-2 sidebuttonr">
                                             <button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
@@ -251,12 +251,25 @@
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="ruang">
-                                    <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
+                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="ruang pt-2">
-                                    <p style="font-size: 22px;" class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#krsampModal">Kerangka Sampel</p>
+                                    <div class="row backrow">
+                                        <div class="col-2 sidebuttonl">
+                                            <button class="slideButton" onclick="plusDivs2(-1)">&#10094;</button>
+                                        </div>
+                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
+                                            <p style="font-size: 22px;" class="mySlides2 text-white text-center">Kerangka Sampel</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal1">Primary</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal2">Secondary</p>
+                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal3">Ultimate</p>
+                                        </div>
+                                        <div class="col-2 sidebuttonr">
+                                            <button class="slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+                                    </div>                                    
                                 </div>
                             </div>
                         </div>
@@ -303,6 +316,46 @@
                 </div>
                 </div>
 
+                <div class="modal fade" id="unsampModal1" tabindex="-1" aria-labelledby="unsampModal1Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="unsampModal1Label">Primary Sampling Unit</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Kecamatan</li>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="unsampModal2" tabindex="-1" aria-labelledby="unsampModal2Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="unsampModal2Label">Secondary Sampling Unit</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Blok Sensus</p>    
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="unsampModal3" tabindex="-1" aria-labelledby="unsampModal3Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="unsampModal3Label">Ultimate Sampling Unit</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Rumah Tangga</p>    
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="modal fade" id="unitanaModal" tabindex="-1" aria-labelledby="unitanaModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-sm modal-dialog-centered">
                     <div class="modal-content">
@@ -317,28 +370,48 @@
                 </div>
                 </div>
 
-                <div class="modal fade" id="krsampModal" tabindex="-1" aria-labelledby="krsampModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="krsampModalLabel">Kerangka Sampel</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Kerangka sampel yang digunakan dalam penelitian ini adalah sebagai berikut.</p>
-                        <ol>
-                            <li>Kerangka sampel untuk pemilihan sampel tahap pertama berupa daftar kecamatan di Kabupaten Malang.</li>
-                            <li>Kerangka sampel untuk pemilihan sampel tahap kedua berupa daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</li>
-                            <li>Kerangka sampel untuk pemilihan sampel tahap ketiga berupa seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</li>
-                        </ol>    
-                    </div>
+                <div class="modal fade" id="krsampModal1" tabindex="-1" aria-labelledby="krsampModal1Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="krsampModal1Label">Kerangka Sampel Tahap Pertama</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Daftar kecamatan di Kabupaten Malang.</li>
+                        </div>
+                        </div>
                     </div>
                 </div>
+                <div class="modal fade" id="krsampModal2" tabindex="-1" aria-labelledby="krsampModal2Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="krsampModal2Label">Kerangka Sampel Tahap Kedua</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</p>    
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="krsampModal3" tabindex="-1" aria-labelledby="krsampModal3Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="krsampModal3Label">Kerangka Sampel Tahap Ketiga</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>    
+                        </div>
+                        </div>
+                    </div>
                 </div>
         </section>
 
         <div class="">
-
         </div>
 
         <!-- Sumber Data -->
