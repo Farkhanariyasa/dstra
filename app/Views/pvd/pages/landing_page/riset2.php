@@ -409,7 +409,7 @@
                                     Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
                                 </div> -->
                                 <div class="d-none d-md-block">
-                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <!-- SUMBER DATA -->
                                             <div class="carousel-item active">
@@ -459,12 +459,12 @@
                                             </div>
                                         </div>
 
-                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
 
-                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -643,7 +643,7 @@
                         <b>TEKNIK ESTIMASI PARAMETER</b>
                     </p>
                     <div class="d-none d-md-block">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <!-- SKEMA SAMPLING -->
                                 <div class="carousel-item active">
@@ -910,12 +910,12 @@
                                 </div>
                             </div>
 
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
