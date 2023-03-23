@@ -11,7 +11,7 @@
 
     <!-- Gambaran Umum -->
     <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-3">
+      <!-- <div class="accordion-item my-3">
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           <span class="fa-solid fa-hotel pe-2"></span>
@@ -27,7 +27,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Tujuan 1 -->
       <div class="accordion-item my-3">
@@ -37,7 +37,7 @@
           Tujuan 1
           </button>
         </h3>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ol class="text-justify">
               <li>
