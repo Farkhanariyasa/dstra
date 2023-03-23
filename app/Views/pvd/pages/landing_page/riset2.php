@@ -135,7 +135,7 @@
                         <b>SUMBER DATA DAN CARA PENGUMPULAN DATA</b>
                     </p>
                     <div class="d-none d-md-block">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <!-- SUMBER DATA -->
                                 <div class="carousel-item active">
@@ -403,7 +403,7 @@
                                 <p class="card-text text-justify">
                                 
                                 <div class="d-none d-md-block">
-                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <!-- Kerangka Sampel 1 -->
                                             <div class="carousel-item active">
