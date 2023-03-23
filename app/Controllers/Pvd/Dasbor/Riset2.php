@@ -283,7 +283,7 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan1', $data);
+        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan1', $data);
     }
 
     public function tabel_tujuan2()
@@ -295,7 +295,7 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan2', $data);
+        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan2', $data);
     }
 
     public function tabel_tujuan3()
@@ -307,7 +307,7 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan3', $data);
+        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan3', $data);
     }
 
     public function tabel_tujuan4()
@@ -319,6 +319,6 @@ class Riset2 extends BaseController
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabel_dinamis/tujuan4', $data);
+        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan4', $data);
     }
 }
