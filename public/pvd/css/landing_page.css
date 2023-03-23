@@ -290,6 +290,18 @@ section {
     text-align: center;
     font-size: large;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 3px solid black;
+    color: #000;
+}
+
 /* fourthSec */
 /* #fourthSec { */
     /* background-image: url(/img/landing_page/riset1/Hasil_Penelitian.png); */
