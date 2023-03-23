@@ -291,7 +291,7 @@ section {
     font-size: large;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 100px;
     width: 100px;
     outline: black;
@@ -300,7 +300,7 @@ section {
     border-radius: 50%;
     border: 3px solid black;
     color: #000;
-}
+} */
 
 /* fourthSec */
 /* #fourthSec { */
