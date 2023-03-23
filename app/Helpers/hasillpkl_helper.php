@@ -116,10 +116,10 @@ function getMenu()
           ],
         ],
         [
-          'menu' => 'Tabel Dinamis',
+          'menu' => 'Tabulasi',
           'icon' => 'fas fa-binoculars',
-          'href' => '#tabel_dinamis',
-          'id' => 'tabel_dinamis',
+          'href' => '#tabulasi',
+          'id' => 'tabulasi',
           'subMenu' => [
             [
               'subMenu' => 'Tujuan 1',
