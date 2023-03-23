@@ -401,71 +401,37 @@
                                 <i class="fas fa-clipboard-list ikon"></i>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
                                 <p class="card-text text-justify">
-                                <!-- <div class="text-justify" style="line-height: 25px;">
-                                    Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
-                                </div>
-                                <br>
-                                <div class="text-justify" style="line-height: 25px;">
-                                    Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk <i>institutional household</i> dalam blok sensus sampel terpilih.
-                                </div> -->
+                                
                                 <div class="d-none d-md-block">
                                     <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
-                                            <!-- SUMBER DATA -->
+                                            <!-- Kerangka Sampel 1 -->
                                             <div class="carousel-item active">
                                                 <div class="konten2 row w-75 mx-auto text-justify">
-                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title text-center">
-                                                                <strong>Sumber Data</strong>
-                                                            </h5>
-                                                            <p class="card-text text-center">
-                                                            <div class="text-center">
-                                                                <p>
-                                                                    Primer
-                                                                </p>
-                                                            </div>
-                                                            </p>
-                                                        </div>
-                                                    </div> -->
+                                                    
                                                     Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
 
                                                 </div>
-                                                <!-- Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus. -->
                                             </div>
 
-                                            <!-- MODA PENGUMPULAN DATA -->
+                                            <!-- Kerangka Sampel 2 -->
                                             <div class="carousel-item ">
                                                 <div class="konten2 row w-75 mx-auto text-justify">
-                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title text-center">
-                                                                <strong>Moda Pengumpulan Data</strong>
-                                                            </h5>
-                                                            <p class="card-text text-center">
-                                                            <div class="text-center">
-                                                                <p>
-                                                                    <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
-                                                                </p>
-                                                            </div>
-                                                            </p>
-                                                        </div>
-                                                    </div> -->
+                                                   
                                                     Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih.
 
                                                 </div>
-                                                    <!-- Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih. -->
 
                                             </div>
                                         </div>
 
-                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                        <button class="carousel-control-prev"   type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
 
-                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                            <span   class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
                                     </div>
@@ -474,62 +440,34 @@
                                 <div class="d-md-none d-block">
                                     <div id="versi_kecil" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
-                                            <!-- SKEMA SAMPLING -->
+                                            <!-- Kerangka Sampel 1 -->
                                             <div class="carousel-item active">
                                                 <div class="konten2 row w-75 mx-auto text-justify">
-                                                    <!-- <div class="card p-2 rounded-5 shadow box">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title text-center">
-                                                            <strong>Sumber Data</strong>
-                                                            </h5>
-                                                            <p class="card-text text-center">
-                                                            <div class="text-center">
-                                                                <p>
-                                                                    Primer
-                                                                </p>
-                                                            </div>
-                                                            </p>
-                                                        </div>
-                                                    </div> -->
+                                                    
                                                     Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus.
 
                                                 </div>
-                                                <!-- Kerangka sampel blok sensus, yaitu daftar blok sensus di Kota Malang hasil pemutakhiran SP 2020 yang disertai dengan informasi jumlah keluarga di tiap blok sensus. -->
 
                                             </div>
 
-                                            <!-- MODA PENGUMPULAN DATA -->
+                                            <!-- Kerangka Sampel 2 -->
                                             <div class="carousel-item ">
                                                 <div class="konten2 row w-75 mx-auto text-justify">
-                                                    <!-- <div class="card kecil mx-2 p-3 rounded-5 shadow box">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title text-center">
-                                                                <strong>Moda Pengumpulan Data</strong>
-                                                            </h5>
-                                                            <p class="card-text text-center">
-                                                            <div class="text-center">
-                                                                <p>
-                                                                    <i>Computer-Assisted Personal Interviewing</i> (CAPI), <i>Paper and Pencil Interviewing</i> (PAPI), <i>Telephone Interviewing</i> (CATI)
-                                                                </p>
-                                                            </div>
-                                                            </p>
-                                                        </div>
-                                                    </div> -->
+                                                    
                                                     Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih.
 
                                                 </div>
-                                                <!-- Kerangka sampel rumah tangga, yaitu daftar rumah tangga biasa yang minimal satu anggota keluarganya pernah melakukan perjalanan wisata dalam kota dan telah kembali pada Triwulan IV tahun 2022, tidak termasuk institutional household dalam blok sensus sampel terpilih. -->
 
                                             </div>
                                         </div>
 
-                                        <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#versi_kecil" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#versi_kecil" data-bs-slide="prev">
+                                            <span   class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
 
-                                        <button class="carousel-control-next" style="color: black;" type="button" data-bs-target="#versi_kecil" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#versi_kecil" data-bs-slide="next">
+                                            <span   class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
                                     </div>
