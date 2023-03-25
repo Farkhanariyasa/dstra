@@ -47,24 +47,5 @@
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
 
-<!-- <h2>Kuesioner Listing</h2>
-<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-    <div class="row">
-        <div style="width: 100%;">
-            <embed src="https://drive.google.com/file/d/1jfvZHFY-ovdka5aRW413RVrplv6zWD0u/preview" type="application/pdf" width=100% height="600px" />
-        </div>
-    </div>
-</div>
-
-
-<h2>Kuesioner Pencacahan</h2>
-<div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto;">
-    <div class="row">
-        <div style="width: 100%;">
-            <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
-        </div>
-    </div>
-</div> -->
-
 <?= $this->endSection(); ?>
 
