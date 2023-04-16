@@ -39,21 +39,8 @@
                             </button>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <div class="card">
-                                <div class="card-body konten-teks">
-                                    <p class="card-title">Jumlah RT <br>21 (24,7%) <br></p>
-                                    <p class="card-text subs">Dengan ART sebanyak 4 orang</p>
-                                    <p class="card-text text-justify">
-                                        Banyaknya Rumah Tangga (RT) dengan anggota
-                                        rumah tangga (ART) sebanyak 4 orang yang melakukan perjalanan
-                                        yaitu sebesar 21 rumah tangga (24,7%) dari total 85 rumah tangga yang
-                                        melakukan perjalanan.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt-1" id="jp_twowaybar"></canvas>
                     </div>
                 </div>
             </div>
