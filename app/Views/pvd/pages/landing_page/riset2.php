@@ -529,7 +529,7 @@
                     </ul> -->
                 </div>
 
-                <!-- DESAIN SAMPLING -->
+                <!-- DESAIN SAMPLING
                 <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <p>
                         <b>DESAIN SAMPLING</b>
@@ -560,22 +560,6 @@
                     </section>
                 </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="baganSkema" tabindex="-1" aria-labelledby="baganModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body" >
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/bagan.png') ?>"  class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TEKNIK ESTIMASI PARAMETER -->
                 <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <p>
                         <b>TEKNIK ESTIMASI PARAMETER</b>
@@ -583,7 +567,6 @@
                     <div class="d-none d-md-block">
                         <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <!-- SKEMA SAMPLING -->
                                 <div class="carousel-item active">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -598,7 +581,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -625,7 +607,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS OVERALL SAMPLING FRACTION -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -640,7 +621,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -667,7 +647,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS DESIGN WEIGHT -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -682,7 +661,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -709,7 +687,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -724,7 +701,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -751,7 +727,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -766,7 +741,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -793,7 +767,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card kecil mx-2 p-3 rounded-5 shadow box">
@@ -808,7 +781,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -851,7 +823,6 @@
                     <div class="d-md-none d-block">
                         <div id="versi_kecil" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <!-- SKEMA SAMPLING -->
                                 <div class="carousel-item active">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -866,7 +837,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -893,7 +863,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS OVERALL SAMPLING FRACTION -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -908,7 +877,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -935,7 +903,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS DESIGN WEIGHT -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -950,7 +917,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -977,7 +943,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS PENDUGA TOTAL KARAKTERISTIK -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -992,7 +957,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -1019,7 +983,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS PENDUGA RATA-RATA KARAKTERISTIK -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -1034,7 +997,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -1061,7 +1023,6 @@
                                     </div>
                                 </div>
 
-                                <!-- RUMUS JUMLAH SAMPEL MINIMUM -->
                                 <div class="carousel-item ">
                                     <div class="konten2 row w-75 mx-auto">
                                         <div class="card p-2 rounded-5 shadow box">
@@ -1076,7 +1037,6 @@
                                                     <div class="rumus text-center" style="overflow-x:auto;">
                                                         <p>\(n=\frac{4\:r\:(1-r)\:deff}{(RME\:r)^{2}\:pb\:AveSize\:RR}\)</p>
                                                     </div>
-                                                    <!-- Keterangan:  -->
                                                     <a id="keterangan" onMouseOver="this.style.color='#b35c74'" onMouseOut="this.style.color='#493A5A'" onclick="keterangan(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseKeterangan" aria-expanded="false" aria-controls="collapseKeterangan">
                                                         <strong>Keterangan :</strong>
                                                     </a>
@@ -1117,7 +1077,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Infografis -->
         <section class="offset-header mt-4">
