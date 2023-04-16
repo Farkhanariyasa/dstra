@@ -1,5 +1,5 @@
 
-
+let delayed1;
 const hasil4 = document.getElementById('riset1_hasil4');
 
 stack_bar = new Chart(hasil4, {
@@ -35,6 +35,18 @@ stack_bar = new Chart(hasil4, {
       ]},
     options: {
     responsive:true,
+    animation: {
+      onComplete: () => {
+        delayed1 = true;
+      },
+      delay: (context) => {
+        let delay = 0;
+        if (context.type === "data" && context.mode === "default" && !delayed1) {
+          delay = context.dataIndex * 300 + context.datasetIndex * 100;
+        }
+        return delay;
+      },
+    },
     scales: {
         x: {
           stacked: true,
