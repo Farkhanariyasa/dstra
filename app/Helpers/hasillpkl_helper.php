@@ -15,34 +15,34 @@ function getMenu()
         [
           'menu' => 'Double Counting',
           'icon' => 'fas fa-user-friends',
-          'href' => '#double_counting',
+          'href' => '/riset1/double_counting',
           'id' => 'double_counting',
-          'subMenu' => [
-            [
-              'subMenu' => 'Step-step',
-              'href' => '/riset1/doublecounting-steps',
-            ],
-            [
-              'subMenu' => 'Evaluasi',
-              'href' => '/riset1/doublecounting-evaluasi',
-            ],
-          ],
+          // 'subMenu' => [
+          //   [
+          //     'subMenu' => 'Step-step',
+          //     'href' => '/riset1/doublecounting-steps',
+          //   ],
+          //   [
+          //     'subMenu' => 'Evaluasi',
+          //     'href' => '/riset1/doublecounting-evaluasi',
+          //   ],
+          // ],
         ],
         [
           'menu' => 'Family Grouping',
           'icon' => 'fas fa-users',
-          'href' => '#menu3',
-          'id' => 'menu3',
-          'subMenu' => [
-            [
-              'subMenu' => 'Step-step',
-              'href' => '/riset1/familygrouping-steps',
-            ],
-            [
-              'subMenu' => 'Evaluasi',
-              'href' => '/riset1/familygrouping-evaluasi',
-            ],
-          ],
+          'href' => '/riset1/family_grouping',
+          'id' => 'family_grouping',
+          // 'subMenu' => [
+          //   [
+          //     'subMenu' => 'Step-step',
+          //     'href' => '/riset1/familygrouping-steps',
+          //   ],
+          //   [
+          //     'subMenu' => 'Evaluasi',
+          //     'href' => '/riset1/familygrouping-evaluasi',
+          //   ],
+          // ],
         ],
         [
           'menu' => 'Stastistik Wisatawan Nusantara',
