@@ -47,11 +47,12 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Dasbor
         $routes->get('dasbor', 'Riset1::index');
         // Double Counting
-        $routes->get('doublecounting-steps', 'Riset1::double_counting_steps'); // Steps
-        $routes->get('doublecounting-evaluasi', 'Riset1::double_counting_evaluasi'); // Evaluasi
+        // $routes->get('doublecounting-steps', 'Riset1::double_counting_steps'); // Steps
+        // $routes->get('doublecounting-evaluasi', 'Riset1::double_counting_evaluasi'); // Evaluasi
+        $routes->get('double_counting', 'Riset1::double_counting_evaluasi'); // double counting
         // Family Grouping
-        $routes->get('familygrouping-steps', 'Riset1::family_grouping_steps'); // Visualisasi
-        $routes->get('familygrouping-evaluasi', 'Riset1::family_grouping_evaluasi'); // Tabulasi
+        // $routes->get('familygrouping-steps', 'Riset1::family_grouping_steps'); // Visualisasi
+        $routes->get('family_grouping', 'Riset1::family_grouping_evaluasi'); // Tabulasi
         // Wisata Nusantara
         $routes->get('wisnus-visualisasi', 'Riset1::wisnus_visualisasi'); // Visualisasi
         $routes->get('wisnus-tabulasi', 'Riset1::wisnus_tabulasi'); // Tabulasi
