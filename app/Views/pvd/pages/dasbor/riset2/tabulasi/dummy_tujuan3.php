@@ -2,45 +2,58 @@
 <div class="portfolio-item filter-riset2-hasil1">
     <div class="card">
         <div class="card-header">
-            <strong>Data Responden Hasil Survei Pendahuluan Riset 2</strong>
+            <strong>
+                Sebaran Wisatawan dan Jumlah Perjalanan dalam Kota Malang menurut Kecamatan Asal Wisatawan di Kota
+                Malang Bulan Oktober-Desember 2022
+            </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
             <table class="table table-hover table-bordered table-responsive" id="k3_tabel1" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">No.</th>
-                        <th scope="col">Blok Sensus</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Kecamatan</th>
-                        <th scope="col">Umur</th>
+                        <th scope="col">Kecamatan Asal</th>
+                        <th scope="col">Jumlah Wisatawan</th>
+                        <th scope="col">Jumlah Perjalanan</th>
+                        <th scope="col">Rata-rata Perjalanan</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
-                    $i = 1;
-                    foreach ($data_tabel_sp_riset2 as $v):
-                        ?>
-                        <tr>
-                            <th scope="row">
-                                <?php echo $i; ?>
-                            </th>
-                            <td>
-                                <?php echo $v["BS"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b502"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b103_kec"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b505"]; ?>
-                            </td>
-                        </tr>
-                        <?php
-                        $i++;
-                    endforeach;
-                    ?>
+                    <tr>
+                        <th scope="row">Kecamatan Blimbing</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Kedungkandang</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Klojen</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Lowokwaru</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Sukun</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Total</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -51,92 +64,79 @@
 <div class="portfolio-item filter-riset2-hasil2">
     <div class="card">
         <div class="card-header">
-            <strong>Data Responden Hasil Survei Pendahuluan Riset 2</strong>
+            <strong>
+                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
+                Bulan Oktober-Desember 2022
+            </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
             <table class="table table-hover table-bordered table-responsive" id="k3_tabel2" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">No.</th>
-                        <th scope="col">Blok Sensus</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Kecamatan</th>
-                        <th scope="col">Umur</th>
+                        <th scope="col">Kecamatan Tujuan</th>
+                        <th scope="col">Kecamatan Blimbing</th>
+                        <th scope="col">Kecamatan Kedungkandang</th>
+                        <th scope="col">Kecamatan Klojen</th>
+                        <th scope="col">Kecamatan Lowokwaru</th>
+                        <th scope="col">Kecamatan Sukun</th>
+                        <th scope="col">Total</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
-                    $i = 1; foreach ($data_tabel_sp_riset2 as $v):
-                        ?>
-                        <tr>
-                            <th scope="row">
-                                <?php echo $i; ?>
-                            </th>
-                            <td>
-                                <?php echo $v["BS"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b502"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b103_kec"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b505"]; ?>
-                            </td>
-                        </tr>
-                        <?php
-                        $i++;
-                    endforeach;
-                    ?>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-<!-- Tabulasi 3 -->
-<div class="portfolio-item filter-riset2-hasil3">
-    <div class="card">
-        <div class="card-header">
-            <strong>Data Responden Hasil Survei Pendahuluan Riset 2</strong>
-        </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive" id="k3_tabel3" style="width:100%">
-                <thead>
                     <tr>
-                        <th scope="col">No.</th>
-                        <th scope="col">Blok Sensus</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Kecamatan</th>
-                        <th scope="col">Umur</th>
+                        <th scope="row">Kecamatan Blimbing</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
                     </tr>
-                </thead>
-                <tbody>
-                    <?php
-                    $i = 1; foreach ($data_tabel_sp_riset2 as $v):
-                        ?>
-                        <tr>
-                            <th scope="row">
-                                <?php echo $i; ?>
-                            </th>
-                            <td>
-                                <?php echo $v["BS"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b502"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b103_kec"]; ?>
-                            </td>
-                            <td>
-                                <?php echo $v["b505"]; ?>
-                            </td>
-                        </tr>
-                        <?php
-                        $i++;
-                    endforeach;
-                    ?>
+                    <tr>
+                        <th scope="row">Kecamatan Kedungkandang</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Klojen</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Lowokwaru</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kecamatan Sukun</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Total</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
