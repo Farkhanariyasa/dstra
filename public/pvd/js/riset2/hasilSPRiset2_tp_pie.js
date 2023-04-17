@@ -36,7 +36,7 @@ const diagram_lingkaran = new Chart(tp_pie, {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: "right",
+        position: "bottom",
         display: false,
       },
       title: {
