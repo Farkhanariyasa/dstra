@@ -15,6 +15,8 @@
                     <li data-filter=".filter-riset1-hasil2">Hasil 2</li>
                     <li data-filter=".filter-riset1-hasil3">Hasil 3</li>
                     <li data-filter=".filter-riset1-hasil4">Hasil 4</li>
+                    <li data-filter=".filter-riset1-hasil5">Hasil 5</li>
+                    <li data-filter=".filter-riset1-hasil6">Hasil 6</li>
                 </ul>
             </div>
         </div>
@@ -52,11 +54,11 @@
 </script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/btn_Download_wisnus.js') ?>"></script>
 </section><!-- End -->
 <?= $this->endSection(); ?>
