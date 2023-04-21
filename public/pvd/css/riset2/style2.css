@@ -44,6 +44,10 @@
     height: 400px;
 }
 
+.varbebas {
+    font-size: 20px;
+}
+
 /* .highcharts-data-table table {
     font-family: Verdana, sans-serif;
     border-collapse: collapse;
