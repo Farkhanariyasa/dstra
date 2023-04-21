@@ -256,5 +256,24 @@
     </div>
 </div>
 
+<!-- Interpretasi -->
+<div class="portfolio-item filter-riset2-hasil1">
+    <div class="col-12 col-sm-12">
+        <h1 class="headline text-center">Interpretasi</h1>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="text-justify">
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem maxime autem soluta. Velit est dolor nulla aperiam ipsam voluptate sequi accusantium consequatur odio a, ea distinctio cupiditate, iste nisi!</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Modal Riset 2  -->
 <?php include('modal_hp.php') ?>
