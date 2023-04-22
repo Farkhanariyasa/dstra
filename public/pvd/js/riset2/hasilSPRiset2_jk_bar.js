@@ -34,7 +34,7 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
           display: true,
           text: "Jenis Kelamin",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2,
           },
@@ -49,7 +49,7 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
           display: true,
           text: "Jumlah Wisatawan",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2.5,
           },
@@ -65,8 +65,10 @@ var bar_jenis_kelamin = new Chart(jk_bar, {
         display: true,
         text: "Sebaran Penduduk yang Melakukan Perjalanan Wisata berdasarkan Jenis Kelamin",
         font: {
-          size: 18,
+          size: 16,
+          style: "normal"
         },
+        color: "black",
         align: "center",
       },
       datalabels: {
