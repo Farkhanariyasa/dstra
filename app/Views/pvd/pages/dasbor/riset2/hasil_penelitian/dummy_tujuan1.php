@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mb-5 mt-2">
         <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow rounded-5">
             <p class="card-text text-center">
                 <strong>Sebaran Wisatawan dalam Kota Malang menurut Kecamatan Asal <br>Wisatawan di Kota Malang Bulan Oktober-Desember 2022</strong>
@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mb-5 mt-2">
         <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow rounded-5">
             <p class="card-text text-center">
                 <strong>Jumlah Perjalanan dalam Kota Malang menurut Kecamatan Asal <br>Wisatawan di Kota Malang Bulan Oktober-Desember 2022</strong>
