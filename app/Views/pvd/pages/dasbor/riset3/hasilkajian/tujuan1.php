@@ -94,33 +94,36 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Kepemilikan Rumah</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php include('tabplan_tujuan1.php') ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                  <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                      <div class="me-1 mt-1 justify-content-end align-item-end">
+                          <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                              <i class="fa-solid fa-download"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="chartBox bar">
+                    <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  </div>
               </div>
             </div>
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -1837,12 +1840,27 @@
 
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
 <!-- dropdown show/hide content-->
 <script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
-
-
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/datatables_install.js'); ?>"></script>
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Data Chart -->
+<script>
+  const datajenisindustri = <?= json_encode($ji); ?>;
+  const datapendidikantertinggi = <?= json_encode($pt); ?>;
+  const datajeniskelamin_riset3 = <?= json_encode($jk_1); ?>;
+  const datapendapatan_riset3 = <?= json_encode($pd_1); ?>;
+</script>
+<!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_stackedbarchart.js') ?>"></script>
+
+<!-- Fungsi Unduh Chart -->
+<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+
+<!-- Modal Riset 3  -->
+<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/modal_riset3.php') ?>
 <?= $this->endSection(); ?>
