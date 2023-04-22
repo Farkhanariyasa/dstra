@@ -62,9 +62,10 @@ new Chart(pw_sankey, {
       title: {
         align: "center",
         display: true,
-        text: "Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang Bulan Oktober-Desember 2022",
+        text: ["Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan", "Kecamatan Tujuan Wisata di Kota Malang Bulan Oktober-Desember 2022"],
         font: {
-          size: 20,
+          size: 16,
+          style: "normal"
         },
       },
     },
