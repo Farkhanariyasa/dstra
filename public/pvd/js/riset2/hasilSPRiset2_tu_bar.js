@@ -38,7 +38,7 @@ const batang_tu = new Chart(tu_bar, {
             display: true,
             text: "Jumlah Wisatawan",
             font: {
-                size: 12,
+                size: 16,
                 style: "normal",
                 lineHeight: 2,
             },
@@ -52,7 +52,7 @@ const batang_tu = new Chart(tu_bar, {
             display: true,
             text: "Tujuan Utama",
             font: {
-                size: 12,
+                size: 16,
                 style: "normal",
                 lineHeight: 2,
             },
@@ -66,9 +66,11 @@ const batang_tu = new Chart(tu_bar, {
         plugins: {
         title: {
             display: true,
+            color: "black",
             text: "Sebaran Penduduk yang melakukan Perjalanan Wisata berdasarkan Tujuan Utama",
             font: {
-            size: 14,
+            size: 16,
+            style: "normal"
             },
         },
         datalabels: {

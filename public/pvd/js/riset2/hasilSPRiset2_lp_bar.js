@@ -34,7 +34,7 @@ var bar_lamapergi = new Chart(lp_bar, {
           display: true,
           text: "Kecamatan Tujuan",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2,
           },
@@ -49,7 +49,7 @@ var bar_lamapergi = new Chart(lp_bar, {
           display: true,
           text: "Rata-Rata Lama Bepergian (jam)",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2.5,
           },
@@ -63,10 +63,12 @@ var bar_lamapergi = new Chart(lp_bar, {
     plugins: {
       title: {
         display: true,
-        text: "Estimasi Rata-Rata Lama Bepergian yang Dilakukan Wisatawan dalam Kota di Kota Malang Bulan Oktober-Desember 2022",
+        text: ["Estimasi Rata-Rata Lama Bepergian yang Dilakukan Wisatawan", "dalam Kota di Kota Malang Bulan Oktober-Desember 2022"],
         font: {
-          size: 20,
+          size: 16,
+          style: "normal"
         },
+        color: "black", 
         align: "center",
       },
       datalabels: {

@@ -85,6 +85,7 @@ const batang_duaarah = new Chart(jp_twowaybar, {
                     style: "normal",
                 },
                 align: "center",
+                color: "black",
             },
             datalabels: {
                 anchor: "center",

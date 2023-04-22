@@ -40,7 +40,7 @@ const pt_bar = new Chart(pt_barhorizontal, {
             display: true,
             text: "Jumlah Wisatawan",
             font: {
-                size: 12,
+                size: 16,
                 style: "normal",
                 lineHeight: 2,
             },
@@ -54,7 +54,7 @@ const pt_bar = new Chart(pt_barhorizontal, {
             display: true,
             text: "Tingkat Pendidikan",
             font: {
-                size: 12,
+                size: 16,
                 style: "normal",
                 lineHeight: 2,
             },
@@ -68,9 +68,11 @@ const pt_bar = new Chart(pt_barhorizontal, {
         plugins: {
         title: {
             display: true,
+            color: "black",
             text: "Sebaran Penduduk yang Melakukan Perjalanan Wisata berdasarkan Tingkat Pendidikan Terakhir yang Ditamatkan",
             font: {
-            size: 14,
+            size: 16,
+            style: "normal"
             },
         },
         datalabels: {

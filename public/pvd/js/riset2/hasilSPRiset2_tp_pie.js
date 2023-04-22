@@ -41,10 +41,12 @@ const diagram_lingkaran = new Chart(tp_pie, {
       },
       title: {
         display: true,
-        text: "Estimasi Total Perjalanan Menurut Tujuan Utama di Kota Malang Bulan Oktober-Desember 2022",
+        text: ["Estimasi Total Perjalanan Menurut Tujuan Utama", "di Kota Malang Bulan Oktober-Desember 2022"],
         font: {
-          size: 20,
+          size: 16,
+          style: "normal"
         },
+        color: "black",
         align: "center",
       },
       // datalabels: {

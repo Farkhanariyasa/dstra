@@ -34,7 +34,7 @@ var bar_lamakunjungan = new Chart(lk_bar, {
           display: true,
           text: "Daerah Tujuan Wisata",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2,
           },
@@ -49,7 +49,7 @@ var bar_lamakunjungan = new Chart(lk_bar, {
           display: true,
           text: "Rata-Rata Lama Kunjungan (jam)",
           font: {
-            size: 18,
+            size: 16,
             style: "normal",
             lineHeight: 2.5,
           },
@@ -63,10 +63,12 @@ var bar_lamakunjungan = new Chart(lk_bar, {
     plugins: {
       title: {
         display: true,
-        text: "Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan dalam Kota di Kota Malang Bulan Oktober-Desember 2022",
+        text: ["Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan", "dalam Kota di Kota Malang Bulan Oktober-Desember 2022"],
         font: {
-          size: 20,
+          size: 16,
+          style: "normal"
         },
+        color: "black",
         align: "center",
       },
       datalabels: {
