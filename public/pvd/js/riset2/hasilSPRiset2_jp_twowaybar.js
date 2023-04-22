@@ -46,7 +46,7 @@ const batang_duaarah = new Chart(jp_twowaybar, {
                 display: true,
                 text: "Kecamatan Asal",
                 font: {
-                    size: 18,
+                    size: 16,
                     style: "normal",
                     lineHeight: 2,
                 },
@@ -61,7 +61,7 @@ const batang_duaarah = new Chart(jp_twowaybar, {
                 display: true,
                 text: "Jumlah Perjalanan",
                 font: {
-                    size: 18,
+                    size: 16,
                     style: "normal",
                     lineHeight: 2.5,
                 },
@@ -78,9 +78,11 @@ const batang_duaarah = new Chart(jp_twowaybar, {
             },
             title: {
                 display: true,
-                text: "Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan Tujuan Utama Perjalanan di Kota Malang Oktober-Desember 2022",
+                text: ["Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan", "Tujuan Utama Perjalanan di Kota Malang Oktober-Desember 2022"],
                 font: {
-                size: 20,
+                    // size: 20,
+                    size: 16,
+                    style: "normal",
                 },
                 align: "center",
             },
