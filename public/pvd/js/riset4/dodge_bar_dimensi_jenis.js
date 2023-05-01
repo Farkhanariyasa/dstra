@@ -3,7 +3,10 @@ const hasil2 = document.getElementById('hasil2');
 const bar = new Chart(hasil2, {
     type: 'bar',
     data: {
-        labels: ["Batu", "Junrejo", "Bumiaji"],
+        labels: [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ],
         datasets: [{
             label: 'dimensi1_jenis',
             data: [
@@ -54,27 +57,27 @@ const bar = new Chart(hasil2, {
 });
 
 const barChart = document.getElementById('barChart');
-const barChartLegend = document.getElementById('barChartLegend');
+// const barChartLegend = document.getElementById('barChartLegend');
 
 barChart.addEventListener('change', tampilData);
-barChartLegend.addEventListener('click', update_value_legend_bar_jenis(chk_bx));
+// barChartLegend.addEventListener('click', update_value_legend_bar_jenis(chk_bx));
 
-function update_value_legend_bar_jenis(chk_bx){
+// function update_value_legend_bar_jenis(chk_bx){
   
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        bar.options.plugins.legend.display=true;
-        bar.update();
-    }
+//     if(chk_bx.checked)
+//     {
+//         console.log('check');
+//         bar.options.plugins.legend.display=true;
+//         bar.update();
+//     }
         
-    else{
-      console.log('uncheck');
-      bar.options.plugins.legend.display=false;
-      bar.update();
+//     else{
+//       console.log('uncheck');
+//       bar.options.plugins.legend.display=false;
+//       bar.update();
   
-    }
-  }
+//     }
+//   }
 
 function tampilData(){
     if (barChart.value =='dimensi1') {
@@ -85,7 +88,10 @@ function tampilData(){
                 dimensi1_jenis.makanminum,
                 dimensi1_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text='dimensi1_jenis';
             bar.update();
 
@@ -97,7 +103,10 @@ function tampilData(){
                 dimensi2_jenis.makanminum,
                 dimensi2_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text='dimensi2_jenis';
             bar.update();
     } if (barChart.value =='dimensi3'){
@@ -108,7 +117,10 @@ function tampilData(){
                 dimensi3_jenis.makanminum,
                 dimensi3_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text= 'dimensi3_jenis';
             bar.update();
     } if (barChart.value =='dimensi4') {
@@ -119,7 +131,10 @@ function tampilData(){
                 dimensi4_jenis.makanminum,
                 dimensi4_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text='dimensi4_jenis';
             bar.update();
 
@@ -131,7 +146,10 @@ function tampilData(){
                 dimensi5_jenis.makanminum,
                 dimensi5_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text='dimensi5_jenis';
             bar.update();
     } if (barChart.value =='dimensi6'){
@@ -142,7 +160,10 @@ function tampilData(){
                 dimensi6_jenis.makanminum,
                 dimensi6_jenis.akomodasi
             ];
-            bar.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia','Makanan', 'dan', 'Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
             bar.options.plugins.title.text= 'dimensi6_jenis';
             bar.update();
     }
