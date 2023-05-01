@@ -105,12 +105,12 @@
                     <div class="chartBox" style=" height:500px;">
                         <canvas class="mt1" id="hasil1"></canvas>
                     </div>
-                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <!-- <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
                             <input class="form-check-input" onchange="update_value_legend_bar_kecamatan(this);" type="checkbox" id="pieChartLegend" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -139,12 +139,12 @@
                     <div class="chartBox" style=" height:500px;">
                         <canvas class="mt1" id="hasil2"></canvas>
                     </div>
-                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <!-- <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
                             <input class="form-check-input" onchange="update_value_legend_bar_jenis(this);" type="checkbox" id="barChartLegend" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
