@@ -5,6 +5,15 @@
     <div class="row portfolio-container">
       <?php include('map_chart_3_1.php') ?>
     </div>
+    <div class="row portfolio-container">
+      <?php include('bar_4_3_1.php') ?>
+    </div>
+    <div class="row portfolio-container">
+      <?php include('bar_4_3_2.php') ?>
+    </div>
+    <div class="row portfolio-container">
+      <?php include('bar_4_3_3.php') ?>
+    </div>
   </div>
 </section>
 <!-- Istope -->
@@ -27,7 +36,9 @@
 </script>
 
 <!-- Import Chart -->
-<script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/bar_4_3_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/bar_4_3_2.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/bar_4_3_3.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
 

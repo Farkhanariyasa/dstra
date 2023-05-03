@@ -19,4 +19,4 @@
 </div>
 
 <!-- Modal Riset 4  -->
-<?php include('modal_3.php') ?>
+<?php include('modal_ikuptik_kecamatan.php') ?>

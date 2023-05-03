@@ -74,6 +74,7 @@ class Riset4 extends BaseController
             'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
             'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
         ];
+
         $pd = $this->pendapatan->getPendapatan();
         $umur = $this->umur->getUmur();
         $pdnf = $this->pendapatanNoFilter->getPendapatanNoFilter();
@@ -290,10 +291,18 @@ class Riset4 extends BaseController
 
     public function menu4submenu3()
     {
+        $b407a = [
+            'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
+            'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
+            'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
+            'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Kecamatan',
             'menu' => $menu['riset4'],
+            'b407a' => $b407a,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/kecamatan', $data);
     }
