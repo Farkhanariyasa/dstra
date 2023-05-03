@@ -96,7 +96,7 @@
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php include('tabplan_tujuan1.php');
-              tabplan1_1() ?>
+              tabplan1_blok3_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -132,6 +132,10 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Luas Lantai Rumah (m^2)</h4>
       <div class="card-body">
         <div class="row">
+        <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php
+              tabplan1_blok3_2() ?>
+          </div>
           <div class="col-lg-6 grid-margin stretch-card h-100">
             <div class="card bg-secondary">
               <div class="card-body">
