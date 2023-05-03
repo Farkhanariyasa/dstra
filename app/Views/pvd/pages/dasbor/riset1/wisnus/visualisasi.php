@@ -55,6 +55,7 @@
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 
