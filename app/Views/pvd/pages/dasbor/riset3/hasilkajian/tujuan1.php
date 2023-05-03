@@ -95,7 +95,8 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php include('tabplan_tujuan1.php') ?>
+            <?php include('tabplan_tujuan1.php');
+              tabplan1_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
