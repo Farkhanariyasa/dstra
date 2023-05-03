@@ -4,26 +4,13 @@
         <div class="col-sm-4 my-2">
             <div class="card shadow rounded-5">
                 <div class="card-body">
-                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModalfg1">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
+                    <div class="text-center">
+                        <i class="fas fa-user-alt col-1 ikon" style="font-size: 30px; line-height:30px;"></i>
+                        <div class="card-text text-center">
+                            Estimasi Total Jumlah Wisatawan
                         </div>
-                    </div>
-                    <div>
-                        <canvas class="mt1" id="riset1_hasil1"></canvas>
-                    </div><br>
-                    <div>
-                        <p class="card-text text-justify">
-                            Grafik menunjukkan banyaknya rumah tangga berdasarkan
-                            jumlah anggota rumah tangga yang melakukan perjalanan wisata.
-                        </p>
-                    </div>
-                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value(this);" type="checkbox" id="forBarChartLegend" value="show" checked>
-                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legend</label>
+                        <div>
+                            <div class="" style="color: #4b395f; font-size: 50px;"><strong>2180</strong></div>orang 
                         </div>
                     </div>
                 </div>
