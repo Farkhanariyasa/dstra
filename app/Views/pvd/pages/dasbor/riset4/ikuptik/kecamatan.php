@@ -26,9 +26,11 @@
     const b407a = <?= json_encode($b407a) ?>;
 </script>
 
-<!-- Impor Chart -->
-  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
+<!-- Import Chart -->
+<script src="<?= base_url('pvd/js/riset4/hasilSPRiset4_b407a_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->

@@ -1,28 +1,5 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
-<?= $this->section('css'); ?>
-<style>
-    table {
-        table-layout: auto;
-        width: auto;
-    }
 
-    td {
-        white-space: normal !important;
-    }
-
-    th {
-        white-space: normal !important;
-        word-wrap: break-word;
-        color: black;
-        /* background-color: #04AA2D; */
-    }
-
-    td {
-        white-space: normal !important;
-        word-wrap: break-word;
-    }
-</style>
-<?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
 <header class="section-header">
