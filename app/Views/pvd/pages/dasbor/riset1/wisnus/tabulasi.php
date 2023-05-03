@@ -36,8 +36,8 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <!-- <li data-filter="*">Semua</li> -->
-                    <li data-filter=".filter-riset2-hasil1" class="filter-active">Tabulasi A</li>
-                    <li data-filter=".filter-riset2-hasil2">Tabulasi B</li>
+                    <li data-filter=".filter-riset1-hasil1" class="filter-active">Tabulasi A</li>
+                    <li data-filter=".filter-riset1-hasil2">Tabulasi B</li>
                 </ul>
             </div>
         </div>
@@ -50,7 +50,8 @@
 
 
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilPKLRiset1_datatable.js'); ?>"></script>
+
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
