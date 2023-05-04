@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt-1" id="pw_sankey"></canvas>
+                        <canvas class="mt-1" id="t1_sankey"></canvas>
                     </div>
                 </div>
             </div>
