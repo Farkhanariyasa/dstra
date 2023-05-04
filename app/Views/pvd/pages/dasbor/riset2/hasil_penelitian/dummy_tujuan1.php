@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt-1" id="tp_pie"></canvas>
+                        <canvas class="mt-1" id="t1_pie"></canvas>
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
