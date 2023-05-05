@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt-1" id="jp_twowaybar"></canvas>
+                        <canvas class="mt-1" id=""></canvas>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt-1" id="jp_twowaybar"></canvas>
+                        <canvas class="mt-1" id="t1_twowaybar"></canvas>
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
