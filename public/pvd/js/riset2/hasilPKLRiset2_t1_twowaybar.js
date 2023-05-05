@@ -1,4 +1,4 @@
-let delayed2;
+let delayed3;
 // Chart
 const t1_twowaybar = document.getElementById("t1_twowaybar");
 const batang_duaarah = new Chart(t1_twowaybar, {
@@ -29,11 +29,11 @@ const batang_duaarah = new Chart(t1_twowaybar, {
     options: {
         animation: {
             onComplete: () => {
-                delayed2 = true;
+                delayed3 = true;
             },
             delay: (context) => {
                 let delay = 0;
-                if (context.type === "data" && context.mode === "default" && !delayed2) {
+                if (context.type === "data" && context.mode === "default" && !delayed3) {
                 delay = context.dataIndex * 300 + context.datasetIndex * 100;
                 }
                 return delay;
