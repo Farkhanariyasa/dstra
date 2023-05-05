@@ -23,7 +23,7 @@ const bar_output5 = new Chart(wisnus_output5, {
 
         ],
         datasets: [{
-            label: 'MPD',
+            label: 'Jumlah Wisatawan Nusantara',
             data:[
                 9611,
                 6841,
@@ -43,7 +43,7 @@ const bar_output5 = new Chart(wisnus_output5, {
                 104,
                 
             ],
-            backgroundColor:"#ffab00",
+            backgroundColor:"#c27d90",
             borderWidth:1
         }]
     },options:{
