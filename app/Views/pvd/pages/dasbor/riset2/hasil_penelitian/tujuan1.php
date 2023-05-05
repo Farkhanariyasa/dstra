@@ -49,6 +49,7 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_sankey.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
