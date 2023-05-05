@@ -1,4 +1,4 @@
-let delayed1;
+let delayed2;
 
 // Chart
 const t1_pie = document.getElementById("t1_pie");
@@ -22,11 +22,11 @@ const diagram_lingkaran = new Chart(t1_pie, {
   options: {
     animation: {
       onComplete: () => {
-        delayed1 = true;
+        delayed2 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed1) {
+        if (context.type === "data" && context.mode === "default" && !delayed2) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
