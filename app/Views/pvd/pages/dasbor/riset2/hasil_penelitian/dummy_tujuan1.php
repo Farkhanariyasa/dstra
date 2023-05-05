@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt-1" id=""></canvas>
+                        <canvas class="mt-1" id="t1_bar"></canvas>
                     </div>
                 </div>
             </div>
