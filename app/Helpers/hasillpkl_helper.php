@@ -13,36 +13,29 @@ function getMenu()
           'href' => '/riset1/dasbor',
         ],
         [
-          'menu' => 'Double Counting',
-          'icon' => 'fas fa-user-friends',
-          'href' => '/riset1/double_counting',
-          'id' => 'double_counting',
-          // 'subMenu' => [
-          //   [
-          //     'subMenu' => 'Step-step',
-          //     'href' => '/riset1/doublecounting-steps',
-          //   ],
-          //   [
-          //     'subMenu' => 'Evaluasi',
-          //     'href' => '/riset1/doublecounting-evaluasi',
-          //   ],
-          // ],
-        ],
-        [
-          'menu' => 'Family Grouping',
-          'icon' => 'fas fa-users',
-          'href' => '/riset1/family_grouping',
-          'id' => 'family_grouping',
-          // 'subMenu' => [
-          //   [
-          //     'subMenu' => 'Step-step',
-          //     'href' => '/riset1/familygrouping-steps',
-          //   ],
-          //   [
-          //     'subMenu' => 'Evaluasi',
-          //     'href' => '/riset1/familygrouping-evaluasi',
-          //   ],
-          // ],
+          'menu' => 'Mobile Positioning Data (MPD)',
+          'icon' => 'fa-solid fa-chart-simple',
+          'href' => '#menu1',
+          'id' => 'menu1',
+          'subMenu' => [
+            [
+              'subMenu' => 'Statistik Relawan Surabaya',
+              'href' => '/riset1/MPD-statistikarelawansurabaya',
+            ],
+            [
+              'subMenu' => 'Quality Assurance',
+              'href' => '/riset1/MPD-qualityassurance',
+            ],
+            [
+              'subMenu' => 'Double Counting',
+              'href' => '/riset1/MPD-doublecounting',
+            ],
+            [
+              'subMenu' => 'Family Grouping',
+              'href' => '/riset1/MPD-familygrouping',
+            ],
+          ],
+
         ],
         [
           'menu' => 'Stastistik Wisatawan Nusantara',
