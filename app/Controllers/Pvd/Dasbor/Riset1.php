@@ -43,6 +43,28 @@ class Riset1 extends BaseController
         ];
         return view('pvd/pages/dasbor/riset1/index', $data);
     }
+    public function statistikarelawansurabaya()
+    {
+        
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dasbor Riset 1',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby',$data);
+
+    }
+    public function qualityassurance()
+    {
+        
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dasbor Riset 1',
+            'menu' => $menu['riset1'],
+        ];
+        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby',$data);
+
+    }
 
     public function double_counting_evaluasi()
     {
