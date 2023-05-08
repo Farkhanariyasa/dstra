@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="lp_bar"></canvas>
+                        <canvas class="mt1" id="t2_bar1"></canvas>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="lk_bar"></canvas>
+                        <canvas class="mt1" id="t2_bar2"></canvas>
                     </div>
                 </div>
             </div>
