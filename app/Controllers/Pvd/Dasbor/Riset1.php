@@ -62,7 +62,7 @@ class Riset1 extends BaseController
             'judul' => 'Dasbor Riset 1',
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby',$data);
+        return view('pvd/pages/dasbor/riset1/mpd/qualityassurance',$data);
 
     }
 
