@@ -1,14 +1,20 @@
 let delayed2;
 // Chart
-const lk_bar = document.getElementById("lk_bar");
-var bar_lamakunjungan = new Chart(lk_bar, {
+const t2_bar2 = document.getElementById("t2_bar2");
+var bar_lamakunjungan = new Chart(t2_bar2, {
   type: "bar",
   data: {
-    labels: ["Klojen", "Lowokwaru", "Blimbing", "Kedungkandang", "Sukun"],
+    labels: [
+      "Kecamatan Klojen",
+      "Kecamatan Lowokwaru",
+      "Kecamatan Blimbing",
+      "Kecamatan Sukun",
+      "Kecamatan Kedungkandang",
+    ],
     datasets: [
       {
         label: "Lama Kunjungan (jam)",
-        data: [2106, 2823, 2923, 3158, 3192],
+        data: [2.14, 2.78, 3.03, 3.09, 3.17],
         borderWidth: 1,
         backgroundColor: "#ffab00",
       },
@@ -47,7 +53,7 @@ var bar_lamakunjungan = new Chart(lk_bar, {
         beginAtZero: true,
         title: {
           display: true,
-          text: "Rata-Rata Lama Kunjungan (jam)",
+          text: "Rata-Rata Lama Kunjungan (Jam)",
           font: {
             size: 16,
             style: "normal",
@@ -63,7 +69,8 @@ var bar_lamakunjungan = new Chart(lk_bar, {
     plugins: {
       title: {
         display: true,
-        text: ["Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan", "dalam Kota di Kota Malang Bulan Oktober-Desember 2022"],
+        text: ["Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan",
+          "dalam Kota di Kota Malang Bulan Oktober-Desember 2022 (dalam satuan Jam)"],
         font: {
           size: 16,
           style: "normal"
