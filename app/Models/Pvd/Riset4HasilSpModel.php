@@ -6,15 +6,21 @@ use CodeIgniter\Model;
 
 class Riset4HasilSpModel extends Model
 {
-    protected $table = 'pvd_riset4_hasilsp';
+    protected $table = 'pvd_riset4_hasil_pencacahan';
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
     # fungsi agregat (count) untuk satu kolom kategorik
-    public function getJumlahUUP($kolom, $nilai){
-        return $this->where([$kolom => $nilai])->countAllResults();
+    public function getJumlahUUP($kolom, $k){
+        return $this->where([$kolom => $k])->countAllResults();
     }
 
+    # fungsi agregat (count) untuk dua kolom kategori
+     public function getJumlahUUP2($kolom1, $kolom2, $k1, $k2){
+        return $this->where([$kolom1 => $k1, $kolom2 => $k2])->countAllResults();
+    }
+
+    // ke bawah adalah kode dummy
     # fungsi agregat (mean) untuk satu kolom kategorik dan satu kolom numerik
     public function getRataan($kolom_kategorik, $kolom_numerik, $nilai){
         $sub_query = 'avg('.$kolom_numerik.') as rataan';
