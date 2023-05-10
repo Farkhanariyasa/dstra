@@ -3,10 +3,10 @@ let idbutton=''
 let idinput=''
 let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 
-for (let i = 1; i < 10; i++) {
+for (let i = 1; i < 7; i++) {
     document.getElementById('wisnus-'+[i]).addEventListener('click',(e) => {
-        idbutton='btndownload'+[i]
-        console.log("3-"+[i]+" diklik")
+        idbutton='wisnus'+[i]
+        console.log("wisnus-"+[i]+" diklik")
         idinput=i-1
     });
   }
@@ -43,7 +43,7 @@ function getvalue(){
         }else if(email[idinput].value===""){
             document.getElementById('erroremail').innerHTML="Email harus diisi"
             document.getElementById('erroremail').style.color='#fe7c96'
-            console.log('email  kosong')
+            console.log('email kosong')
         }
         
         konfirmasiButton.disabled=true;
@@ -53,9 +53,9 @@ function getvalue(){
 
 // endOfValidasi
 
-document.getElementById('btndownload1').addEventListener('click', function(e) {
+document.getElementById('wisnus1').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil1').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output1').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -68,9 +68,9 @@ document.getElementById('btndownload1').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('btndownload2').addEventListener('click', function(e) {
+document.getElementById('wisnus2').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil2').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output2').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -83,9 +83,9 @@ document.getElementById('btndownload2').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('btndownload3').addEventListener('click', function(e) {
+document.getElementById('wisnus3').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil3').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output3').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -98,9 +98,9 @@ document.getElementById('btndownload3').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('btndownload4').addEventListener('click', function(e) {
+document.getElementById('wisnus4').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil4').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output4').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -113,9 +113,9 @@ document.getElementById('btndownload4').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('btndownload5').addEventListener('click', function(e) {
+document.getElementById('wisnus5').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil3').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output5').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -128,9 +128,9 @@ document.getElementById('btndownload5').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('btndownload6').addEventListener('click', function(e) {
+document.getElementById('wisnus6').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('riset1_hasil4').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output6').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
