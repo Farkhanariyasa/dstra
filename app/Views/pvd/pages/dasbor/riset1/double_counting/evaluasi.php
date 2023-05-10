@@ -5,7 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
+      <p>Double Counting</p>
     </header>
     <hr class="hrjudul">
     <div class="row">
@@ -22,9 +22,11 @@
         </ul>
       </div>
     </div>
-    <div class="row portfolio-container">
+    <div class="row d-flex justify-content-center align-items-center">
+    <div class="row portfolio-container" id="test">
       <?php include('dummy_dc.php') ?>
     </div>
+  </div>
   </div>
 </section>
 
