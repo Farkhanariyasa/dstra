@@ -307,7 +307,7 @@
                                     <div class="carousel-item active">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-users col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi</strong>
                                                 </h5>
@@ -332,7 +332,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-street-view col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Target</strong>
                                                 </h5>
@@ -360,7 +360,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-friends col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Survei</strong>
                                                 </h5>
@@ -388,7 +388,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-alt col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Observasi</strong>
                                                 </h5>
@@ -417,7 +417,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-home col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Sampling</strong>
                                                 </h5>
@@ -446,7 +446,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-check col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Analisis</strong>
                                                 </h5>
@@ -671,7 +671,7 @@
                                     <div class="carousel-item active">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-users col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi</strong>
                                                 </h5>
@@ -694,7 +694,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-street-view col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Target</strong>
                                                 </h5>
@@ -719,7 +719,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-friends col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Survei</strong>
                                                 </h5>
@@ -744,7 +744,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-alt col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Observasi</strong>
                                                 </h5>
@@ -771,7 +771,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-home col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Sampling</strong>
                                                 </h5>
@@ -798,7 +798,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-check col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Analisis</strong>
                                                 </h5>
@@ -1052,7 +1052,7 @@
                                     <div class="carousel-item active">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-users col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi</strong>
                                                 </h5>
@@ -1071,7 +1071,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-street-view col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Target</strong>
                                                 </h5>
@@ -1093,7 +1093,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-friends col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Survei</strong>
                                                 </h5>
@@ -1114,7 +1114,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-alt col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Observasi</strong>
                                                 </h5>
@@ -1135,7 +1135,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-home col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Sampling</strong>
                                                 </h5>
@@ -1156,7 +1156,7 @@
                                     <div class="carousel-item">
                                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <i class="fas fa-user-check col-1 ikon"></i>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Analisis</strong>
                                                 </h5>
@@ -1397,6 +1397,132 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <!-- Cakupan Penelitian -->
+                        <div class="konten third5 par mt-3 mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                            <!-- DESAIN SAMPLING -->
+                            <p>
+                                <b>Cakupan Penelitian</b>
+                            </p>
+
+                            <!-- Primary & Secondary Sampling Unit -->
+                            <div class="col">
+                                <!-- <div class="row"> -->
+                                <!-- Populasi -->
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                    <div class="card-body text-center batasan2 shadow">
+                                        <i class="fas fa-users col-1 ikon"></i>
+                                        <div class="col">
+                                            <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div class="text-center" style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                                <!-- Populasi Target -->
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                    <div class="card-body text-center batasan2 shadow">
+                                        <i class="fas fa-user-friends col-1 ikon"></i>
+                                        <div class="col">
+                                            <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Populasi Target</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                                <!-- Unit Observasi -->
+                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                    <div class="card-body text-center batasan2 shadow">
+                                        <i class="fas fa-user-alt col-1 ikon"></i>
+                                        <div class="col">
+                                            <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Observasi</strong></div>
+                                            <div class="angka">2180</div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- </div> -->
+
+                                <div class="row justify-content-center">
+                                    <!-- Primary Sampling Unit -->
+                                    <div class="col-5 align-items-center d-flex align-self-center">
+                                        <div class="card-body text-center batasan2 shadow">
+                                            <i class="fas fa-home col-1 ikon"></i>
+                                            <div class="col">
+                                                <p class="card-title text-center">
+                                                <div style="line-height: 20px; color: #4b395f;"><strong>Primary
+                                                        Sampling Unit</strong></div>
+                                                <div class="angka">346</div>
+                                                <div style="line-height: 20px;">Blok Sensus</div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Secondary Sampling Unit -->
+                                    <div class="col-5 align-items-center d-flex align-self-center">
+                                        <div class="card-body text-center batasan2 shadow">
+                                            <i class="fas fa-city col-1 ikon"></i>
+                                            <div class="col">
+                                                <p class="card-title text-center">
+                                                <div style="line-height: 20px; color: #4b395f;"><strong>Secondary
+                                                        Sampling Unit</strong></div>
+                                                <div class="angka">3364</div>
+                                                <div style="line-height: 20px;">Rumah Tangga</div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Unit Analisis -->
+                                    <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                                    <div class="card-body text-center batasan2 shadow">
+                                        <i class="fas fa-user-alt col-1 ikon"></i>
+                                        <div class="col">
+                                            <p class="card-title text-center">
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Unit Analisis</strong></div>
+                                            <div class="angka">2180</div>
+                                            <div style="line-height: 20px;">Anggota Rumah Tangga</div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+
+                            <!-- Metode Penarikan Sampel -->
+                            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-cubes ikon"></i>
+                                    <h5 class="card-title text-center" style="line-height: 20px;"><strong>Metode
+                                            Penarikan Sampel</strong></h5>
+                                    <p class="card-text text-center">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                        Metode penarikan sampel yang digunakan adalah Judgment (Purposive) Sampling.
+                                        Judgment (Purposive) Sampling adalah metodologi pengambilan sampel secara acak
+                                        dimana kelompok sampel yang ditargetkan memiliki atribut-atribut tertentu.
+                                        Metode ini dapat digunakan pada banyak populasi, tetapi lebih efektif dengan
+                                        ukuran sampel yang lebih kecil dan populasi yang lebih homogen. Cara yang
+                                        dilakukan pada Judgment (Purposive) Sampling penelitian ini adalah pengambilan
+                                        sampel yang homogen. Dengan sampling homogen, sekelompok orang dengan usia,
+                                        jenis kelamin, latar belakang, atau pekerjaan yang sama akan dipilih. Pada
+                                        penelitian ini, dipilih sampel dengan pekerjaan yang sama, yaitu orang yang
+                                        bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur, dan sampel dengan
+                                        latar belakang yang sama, yaitu orang yang sedang berkuliah di Politeknik
+                                        Statistika STIS.
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
 
 
