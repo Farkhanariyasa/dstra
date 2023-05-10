@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-qualityassurance') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/mpd-qualityassurance') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-doublecounting') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/mpd-doublecounting') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-familygrouping') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/mpd-familygrouping') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>
