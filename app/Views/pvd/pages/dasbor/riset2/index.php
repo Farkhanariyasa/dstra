@@ -11,7 +11,7 @@
 
     <section>
       <div class="container-fluid">
-        <div class="shadow box par m-auto p-4 p-md-5 my-4 rounded-5 bg-body" style="line-height: 1.5;">
+        <div class="shadow box par m-auto p-4 p-md-5 rounded-5 bg-body" style="line-height: 1.5;">
           <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit voluptatibus optio recusandae enim quis explicabo odit earum pariatur delectus sunt autem facere mollitia, dolor reiciendis! Asperiores, aliquid placeat totam accusamus ad obcaecati, ullam velit, earum voluptatibus laboriosam quia excepturi mollitia quisquam nostrum cupiditate ut pariatur optio necessitatibus? Ut, accusantium. Eum esse dolor rem magni vel enim adipisci, reiciendis voluptatem sunt saepe nostrum laborum eveniet quidem dignissimos omnis quam. Eligendi eveniet accusamus adipisci cum nemo!
           </p>
@@ -21,7 +21,7 @@
 
     <div class="accordion" id="accordionExample">
       <!-- Tujuan 1 -->
-      <div class="accordion-item my-3 rounded-5 shadow">
+      <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             <span class="fa-solid fa-map-location-dot pe-2"></span>  
@@ -46,7 +46,7 @@
       </div>
 
       <!-- Tujuan 2 -->
-      <div class="accordion-item my-3 rounded-5 shadow">
+      <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <span class="fa-solid fa-calendar-week pe-2"></span>
@@ -68,7 +68,7 @@
       </div>
 
       <!-- Tujuan 3 -->
-      <div class="accordion-item my-3 rounded-5 shadow">
+      <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <span class="fa-solid fa-person-walking-luggage pe-2"></span>
@@ -90,7 +90,7 @@
       </div>
 
       <!-- Tujuan 4 -->
-      <div class="accordion-item my-3 rounded-5 shadow">
+      <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <span class="fa-solid fa-chart-simple pe-2"></span>
