@@ -7,6 +7,7 @@ use App\Models\Pvd\Riset4HasilSpModel;
 
 class Riset4 extends BaseController
 {
+    protected $uup;
     protected $SDM;
     protected $kecamatan;
     protected $unitusahaTIK;
@@ -16,6 +17,7 @@ class Riset4 extends BaseController
 
     public function __construct()
     {
+        $this->uup = new Riset4HasilSpModel();
         $this->SDM = new Riset4HasilSpModel();
         $this->kecamatan = new Riset4HasilSpModel();
         $this->unitusahaTIK = new Riset4HasilSpModel();
@@ -26,70 +28,100 @@ class Riset4 extends BaseController
 
     public function index()
     {
-        $kecamatanEkonomi = [
-            'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 1),
-            'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 2),
-            'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 3),
-            'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 4),
-            'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 1),
-            'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 2),
-            'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 3),
-            'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 4),
-            'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 1),
-            'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 2),
-            'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 3),
-            'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 4),
+        $uupKotaBatu = [
+            'transportasi' => $this->uup->getJumlahUUP('jenis_usaha', 1),
+            'makan' => $this->uup->getJumlahUUP('jenis_usaha', 2),
+            'akomodasi' => $this->uup->getJumlahUUP('jenis_usaha', 3),
         ];
 
-        $kecamatanArsipDiigital = [
-            'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 1),
-            'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 2),
-            'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 3),
-            'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 4),
-            'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 1),
-            'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 2),
-            'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 3),
-            'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 4),
-            'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 1),
-            'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 2),
-            'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 3),
-            'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 4),
+        $uupKecBatu = [
+            'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
+            'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BATU'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
         ];
 
-        $uu = [
-            'uu1' => $this->unitusahaTIK->getUnitUsahaTIK(1),
-            'uu2' => $this->unitusahaTIK->getUnitUsahaTIK(2),
-            'uu3' => $this->unitusahaTIK->getUnitUsahaTIK(3),
-            'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
+        $uupKecJunrejo = [
+            'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'JUNREJO'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
         ];
 
-        $b401a = [
-            'tidak' => $this->unitusahaTIK->getUnitUsahaTIK1(1),
-            'ya' => $this->unitusahaTIK->getUnitUsahaTIK1(2),
+        $uupKecBumiaji = [
+            'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BUMIAJI'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
         ];
 
-        $b407a = [
-            'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
-            'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
-            'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
-            'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
-        ];
+        // ke bawah adalah kode dummy
+        // $kecamatanEkonomi = [
+        //     'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 1),
+        //     'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 2),
+        //     'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 3),
+        //     'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 4),
+        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 1),
+        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 2),
+        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 3),
+        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 4),
+        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 1),
+        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 2),
+        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 3),
+        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 4),
+        // ];
 
-        $pd = $this->pendapatan->getPendapatan();
-        $umur = $this->umur->getUmur();
-        $pdnf = $this->pendapatanNoFilter->getPendapatanNoFilter();
+        // $kecamatanArsipDiigital = [
+        //     'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 1),
+        //     'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 2),
+        //     'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 3),
+        //     'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 4),
+        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 1),
+        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 2),
+        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 3),
+        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 4),
+        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 1),
+        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 2),
+        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 3),
+        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 4),
+        // ];
+
+        // $uu = [
+        //     'uu1' => $this->unitusahaTIK->getUnitUsahaTIK(1),
+        //     'uu2' => $this->unitusahaTIK->getUnitUsahaTIK(2),
+        //     'uu3' => $this->unitusahaTIK->getUnitUsahaTIK(3),
+        //     'uu4' => $this->unitusahaTIK->getUnitUsahaTIK(4),
+        // ];
+
+        // $b401a = [
+        //     'tidak' => $this->unitusahaTIK->getUnitUsahaTIK1(1),
+        //     'ya' => $this->unitusahaTIK->getUnitUsahaTIK1(2),
+        // ];
+
+        // $b407a = [
+        //     'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
+        //     'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
+        //     'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
+        //     'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
+        // ];
+
+        // $pd = $this->pendapatan->getPendapatan();
+        // $umur = $this->umur->getUmur();
+        // $pdnf = $this->pendapatanNoFilter->getPendapatanNoFilter();
         $menu = getMenu();
         $data = [
             'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
-            'uu' => $uu,
-            'pd' => $pd,
-            'b401a' => $b401a,
-            'b407a' => $b407a,
-            'umur' => $umur,
-            'pdnf' => $pdnf,
-            'kecamatanEkonomi' => $kecamatanEkonomi,
-            'kecamatanArsipDiigital' => $kecamatanArsipDiigital
+            'uupKotaBatu' => $uupKotaBatu,
+            'uupKecBatu' => $uupKecBatu,
+            'uupKecJunrejo' => $uupKecJunrejo,
+            'uupKecBumiaji' => $uupKecBumiaji,
+            // ke bawah adalah kode dummy
+            // 'uu' => $uu,
+            // 'pd' => $pd,
+            // 'b401a' => $b401a,
+            // 'b407a' => $b407a,
+            // 'umur' => $umur,
+            // 'pdnf' => $pdnf,
+            // 'kecamatanEkonomi' => $kecamatanEkonomi,
+            // 'kecamatanArsipDiigital' => $kecamatanArsipDiigital
         ];
         return view('pvd/pages/dasbor/riset4/index', $data);
     }
