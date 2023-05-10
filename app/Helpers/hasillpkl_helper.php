@@ -20,19 +20,19 @@ function getMenu()
           'subMenu' => [
             [
               'subMenu' => 'Statistik Relawan Surabaya',
-              'href' => '/riset1/MPD-statistikarelawansurabaya',
+              'href' => '/riset1/mpd-statistikarelawansurabaya',
             ],
             [
               'subMenu' => 'Quality Assurance',
-              'href' => '/riset1/MPD-qualityassurance',
+              'href' => '/riset1/mpd-qualityassurance',
             ],
             [
               'subMenu' => 'Double Counting',
-              'href' => '/riset1/MPD-doublecounting',
+              'href' => '/riset1/mpd-doublecounting',
             ],
             [
               'subMenu' => 'Family Grouping',
-              'href' => '/riset1/MPD-familygrouping',
+              'href' => '/riset1/mpd-familygrouping',
             ],
           ],
 
