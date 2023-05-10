@@ -8,18 +8,18 @@ new Chart(tujuan1_1, {
     labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
     datasets: [
       {
-        label: 'Bebas Sewa',
-        data: [13.33, 13.39, 18.75, 7.21, 15.65, 23.08],
+        label: 'Bebas wasdasdasd',
+        data: [data1_1.ji1_1, data1_1.ji2_1, data1_1.ji3_1, data1_1.ji4_1, data1_1.ji5_1, data1_1.ji6_1],
         backgroundColor: ["#506396"],
       },
       {
         label: 'Kontrak Sewa',
-        data: [1.33, 4.46, 1.25, 4.5, 4.08, 7.69],
+        data: [data1_1.ji1_2, data1_1.ji2_2, data1_1.ji3_2, data1_1.ji4_2, data1_1.ji5_2, data1_1.ji6_2],
         backgroundColor: ["#b35c74"],
       },
       {
         label: 'Milik Sendiri',
-        data: [85.33, 82.14, 80, 88.29, 80.27, 69.23],
+        data: [data1_1.ji1_3, data1_1.ji2_3, data1_1.ji3_3, data1_1.ji4_3, data1_1.ji5_3, data1_1.ji6_3],
         backgroundColor: ["#4b395f"],
       }
       ]},
