@@ -26,7 +26,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload1" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus1" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload2" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus2" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload3" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus3" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload4" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus4" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload5" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus5" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -201,7 +201,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="btndownload6" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button disabled type="submit" id="wisnus6" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
