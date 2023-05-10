@@ -88,7 +88,7 @@
       <option value="tujuan4-50">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</option>
     </select>
   </div>
-
+  <?php var_dump($ji) ?>
   <div class="isi-tujuan shadow mt-4">
     <div id="tujuan4-1" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Kepemilikan Rumah</h4>
@@ -96,12 +96,12 @@
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php include('tabplan_tujuan1.php');
-              tabplan1_blok3_1() ?>
+            tabplan1_blok3_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
                 <div class="col-12 col-sm-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
@@ -112,19 +112,19 @@
             <div class="card">
               <h3><b>Grafik</b></h3>
               <div class="card-body border rounded">
-                  <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                      <div class="me-1 mt-1 justify-content-end align-item-end">
-                          <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                              <i class="fa-solid fa-download"></i>
-                          </button>
-                      </div>
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
                   </div>
-                  <div class="chartBox bar">
-                    <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
-                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                </div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
@@ -132,14 +132,14 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Luas Lantai Rumah (m^2)</h4>
       <div class="card-body">
         <div class="row">
-        <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php
-              tabplan1_blok3_2() ?>
+            tabplan1_blok3_2() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
                 <div class="col-12 col-sm-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
@@ -163,13 +163,13 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-          <?php
-              tabplan1_blok3_3() ?>
+            <?php
+            tabplan1_blok3_3() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
                 <div class="col-12 col-sm-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
@@ -193,13 +193,13 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-          <?php
-              tabplan1_blok3_4() ?>
+            <?php
+            tabplan1_blok3_4() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
                 <div class="col-12 col-sm-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
@@ -223,13 +223,13 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-          <?php
-              tabplan1_blok3_5() ?>
+            <?php
+            tabplan1_blok3_5() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded"style="padding: 1.5rem 0.5rem;">
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
                 <div class="col-12 col-sm-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
@@ -240,7 +240,11 @@
             <div class="card bg-secondary">
               <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 95%; height:50vh;"></canvas>
+                </div>
+                <div class="chartBox">
+                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 95%; height:50vh;"></canvas>
+
                 </div>
               </div>
             </div>
@@ -392,7 +396,7 @@
             <div class="card bg-secondary">
               <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+                  <canvas class="mt1" id="tujuan1_5" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -1823,6 +1827,8 @@
   </div>
 </div>
 
+<?php var_dump($data_1_5) ?>
+
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- dropdown show/hide content-->
@@ -1836,11 +1842,14 @@
 <!-- Data Chart -->
 <script>
   const datajenisindustri = <?= json_encode($ji); ?>;
+  const data1_1 = <?= json_encode($ji1); ?>;
+  const data1_5 = <?= json_encode($data_1_5); ?>;
   const datapendidikantertinggi = <?= json_encode($pt); ?>;
   const datajeniskelamin_riset3 = <?= json_encode($jk_1); ?>;
   const datapendapatan_riset3 = <?= json_encode($pd_1); ?>;
 </script>
 <!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_1_5_pie.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_stackedbarchart.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->

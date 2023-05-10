@@ -72,6 +72,10 @@
     const uupKecBatu = <?= json_encode($uupKecBatu) ?>;    
     const uupKecJunrejo = <?= json_encode($uupKecJunrejo) ?>;    
     const uupKecBumiaji = <?= json_encode($uupKecBumiaji) ?>;
+    const uupKotaBatuProduksi = <?= json_encode($uupKotaBatuProduksi) ?>;    
+    const uupKecBatuProduksi = <?= json_encode($uupKecBatuProduksi) ?>;    
+    const uupKecJunrejoProduksi = <?= json_encode($uupKecJunrejoProduksi) ?>;    
+    const uupKecBumiajiProduksi = <?= json_encode($uupKecBumiajiProduksi) ?>;
     // ke bawah adalah kode dummy
     // const unitUsahaTIK = < ?= json_encode($uu) ?>;
     // const pendapatan = < ?= json_encode($pd) ?>;
@@ -88,6 +92,10 @@
   <script src="<?= base_url('pvd/js/riset4/bar_kec_batu.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_bumiaji.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_produksi.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kec_batu_produksi.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo_produksi.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kec_bumiaji_produksi.js') ?>"></script>
 
   <!-- ke bawah adalah kode dummy -->
   <!-- <script src="< ?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
