@@ -1,0 +1,71 @@
+.nav-pills .nav-link {
+    border-radius: 0.75rem;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #506396;
+  }
+
+  .nav-pills .nav-link {
+    border-radius: 0.75rem;
+  }
+  
+  .nav-link.pills-button {
+    color: #493A5A;
+    background-color: #DCE0EB;
+  }
+  
+  .nav-link.pills-button:hover {
+    color: #506396;
+  }
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #506396;
+  }
+
+  .tab-content>.tab-pane {
+    display: none;
+  }
+  
+  .tab-content>.active {
+    display: block;
+  }
+
+  .judul-card{
+    background-color: #506396;
+    height: 40px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+  }
+
+  .chartBox.pop-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chartBox:hover{
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 414px) {
+  #test {
+    margin-left: 2rem;
+  }
+  
+}
