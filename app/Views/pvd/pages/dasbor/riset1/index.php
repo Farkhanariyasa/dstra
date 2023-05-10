@@ -1,5 +1,12 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 <?= $this->section('content'); ?>
+<style>
+  @media only screen and (max-width: 414px) {
+  #test {
+    margin-left: 2rem;
+  }
+}
+</style>
 
 <!-- <div class="container px-0">
   <header class="section-header">
@@ -129,6 +136,7 @@
     <div class="col-lg-12 d-flex justify-content-center">
       <ul id="portfolio-flters">
         <li data-filter="*" class="filter-active">Semua</li>
+        <li data-filter=".filter-riset1-qa">Quality Assurance</li>
         <li data-filter=".filter-riset1-dc">Double Counting</li>
         <li data-filter=".filter-riset1-fg">Family Grouping</li>
         <li data-filter=".filter-riset1-wisnus">Statistik Wisatawan Nusantara</li>
@@ -148,50 +156,16 @@
       </ul> -->
     </div>
   </div>
-  <div class="row portfolio-container">
-    <?php include('dummy_dasbor.php') ?>
-  </div>
-</section>
-
-
-
-
-<section>
-  <h1 class="headline text-center">Peta Lokus</h1>
-  <div class="container mt-5">
-    <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-    <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-      <p class="card-text text-center" style="font-size: 24px;">Kota Surabaya</p>
-      <div class="d-flex flex-row align-item-center justify-content-center">
-        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-          <!-- <div class="me-1 mt-1 justify-content-end align-item-end">
-            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <i class="fa-solid fa-download"></i>
-            </button>
-          </div> -->
-        </div>
-        <div id="map" style="width: 95%; height:80vh; z-index:0;"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container mt-5">
-    <!-- <button onclick="showmsg();" class="tombol btn-for" >Download image</button> -->
-    <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 ">
-      <p class="card-text text-center" style="font-size: 24px;">Kota Malang</p>
-      <div class="d-flex flex-row align-item-center justify-content-center">
-        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-          <!-- <div class="me-1 mt-1 justify-content-end align-item-end">
-            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <i class="fa-solid fa-download"></i>
-            </button>
-          </div> -->
-        </div>
-        <div id="map2" style="width: 95%; height:80vh; z-index:0;"></div>
-      </div>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="row portfolio-container" id="test">
+      <?php include('dummy_dasbor.php') ?>
     </div>
   </div>
 </section>
+
+
+
+
 
 <!-- Peta Lokus -->
 <section>

@@ -1,6 +1,7 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 
 <?= $this->section('content'); ?>
+
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
@@ -20,8 +21,10 @@
                 </ul>
             </div>
         </div>
-        <div class="row portfolio-container">
-            <?php include('dummy_submenu1.php') ?>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="row portfolio-container" id="test">
+                <?php include('dummy_submenu1.php') ?>
+            </div>
         </div>
     </div>
 </section>
@@ -50,7 +53,6 @@
     const tri = <?= json_encode($tri) ?>;
     const smartfren = <?= json_encode($smartfren) ?>;
     const lainnya = <?= json_encode($lainnya) ?>;
-
 </script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
@@ -58,7 +60,7 @@
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output3.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output4.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output5.js') ?>"></script> 
+<script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output5.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output6.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
