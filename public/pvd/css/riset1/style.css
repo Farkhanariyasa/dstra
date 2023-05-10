@@ -67,5 +67,9 @@
   #test {
     margin-left: 2rem;
   }
+  #portfolio {
+    width: 119%;
+    margin-left: -2.1rem;
+  }
   
 }
