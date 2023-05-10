@@ -76,6 +76,26 @@ class Riset4 extends BaseController
             'akomodasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 3, 'BUMIAJI'),
         ];
 
+        $uupKotaBatuSkala = [
+            'mikro' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 1),
+            'kecil' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 2),
+        ];
+
+        $uupKecBatuSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BATU'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BATU'),
+        ];
+
+        $uupKecJunrejoSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'JUNREJO'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'JUNREJO'),
+        ];
+
+        $uupKecBumiajiSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BUMIAJI'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
+        ];
+
         // ke bawah adalah kode dummy
         // $kecamatanEkonomi = [
         //     'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 1),
@@ -141,6 +161,10 @@ class Riset4 extends BaseController
             'uupKecBatuProduksi' => $uupKecBatuProduksi,
             'uupKecJunrejoProduksi' => $uupKecJunrejoProduksi,
             'uupKecBumiajiProduksi' => $uupKecBumiajiProduksi,
+            'uupKotaBatuSkala' => $uupKotaBatuSkala,
+            'uupKecBatuSkala' => $uupKecBatuSkala,
+            'uupKecJunrejoSkala' => $uupKecJunrejoSkala,
+            'uupKecBumiajiSkala' => $uupKecBumiajiSkala,
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,
