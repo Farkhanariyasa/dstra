@@ -84,417 +84,417 @@
       <tr>
         <td rowspan="8">Batu</td>
         <td>Oro-oro Ombo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>9</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>35</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>19</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>79</td>    
       </tr>
       <tr>
         <td>Temas</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>12</td>
+        <td>0</td>
+        <td>1</td>
+        <td>4</td>
+        <td>68</td>
+        <td>7</td>
+        <td>3</td>
+        <td>1</td>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>100</td>    
       </tr>
       <tr>
         <td>Sisir</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>21</td>
+        <td>1</td>
+        <td>1</td>
+        <td>13</td>
+        <td>115</td>
+        <td>11</td>
+        <td>5</td>
+        <td>6</td>
+        <td>8</td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>186</td>    
       </tr>
       <tr>
         <td>Ngaglik</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>6</td>
+        <td>0</td>
+        <td>5</td>
+        <td>5</td>
+        <td>86</td>
+        <td>5</td>
+        <td>7</td>
+        <td>3</td>
+        <td>3</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>121</td>    
       </tr>
       <tr>
         <td>Pesanggrahan</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>9</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>34</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>51</td>    
       </tr>
       <tr>
         <td>Songgokerto</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>18</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>19</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>42</td>    
       </tr>
       <tr>
         <td>Sumberejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>17</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>20</td>    
       </tr>
       <tr>
         <td>Sidomulyo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>4</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>18</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>30</td>    
       </tr>
       <tr>
         <td rowspan="7">Junrejo</td>
         <td>Tlekung</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>    
       </tr>
       <tr>
         <td>Junrejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>13</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>14</td>    
       </tr>
       <tr>
         <td>Mojorejo</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
         <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>14</td>    
       </tr>
       <tr>
         <td>Torongrejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>8</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>11</td>    
       </tr>
       <tr>
         <td>Beji</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>29</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>40</td>    
       </tr>
       <tr>
         <td>Pendem</td>
         <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>1</td>
+        <td>3</td>
+        <td>8</td>
+        <td>49</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>79</td>    
       </tr>
       <tr>
         <td>Dadaprejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>18</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>26</td>    
       </tr>
       <tr>
         <td rowspan="9">Bumiaji</td>
-        <td>Pandarejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>Pandanrejo</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1</td>
+        <td>3</td>
+        <td>32</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>42</td>    
       </tr>
       <tr>
         <td>Bumiaji</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>3</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>8</td>    
       </tr>
       <tr>
         <td>Bulukerto</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>4</td>    
       </tr>
       <tr>
         <td>Gunungsari</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>7</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>8</td>    
       </tr>
       <tr>
         <td>Punten</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>18</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>26</td>    
       </tr>
       <tr>
         <td>Tulungrejo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>5</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>6</td>    
       </tr>
       <tr>
         <td>Sumbergondo</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>    
       </tr>
       <tr>
         <td>Giripurno</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>4</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>18</td>    
       </tr>
       <tr>
         <td>Sumber Brantas</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>120</td>    
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>    
       </tr>
       <tr style="font-weight: bold;">
         <td colspan=2 class="text-center">Total</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td>
-        <td>240</td> 
-        <td>2880</td> 
+        <td>96</td>
+        <td>5</td>
+        <td>14</td>
+        <td>49</td>
+        <td>594</td>
+        <td>51</td>
+        <td>19</td>
+        <td>21</td>
+        <td>61</td>
+        <td>6</td>
+        <td>5</td>
+        <td>4</td> 
+        <td>925</td> 
       </tr>
       </tbody>
     </table>
     </div>
     <div class="card-body" style="padding: 0.5rem 1rem;">
-    <p>
-      Keterangan:<br>	
-      [1]	Tidak memanfaatkan TIK sama sekali<br>
-      [2]	Sudah memanfaatkan, namun lebih banyak dilakukan secara konvensional<br>
-      [3]	Sebagian besar aktivitas pencatatan keuangan sudah memanfaatkan TIK<br>
-      [4]	Semua aktivitas pencatatan keuangan sudah memanfaatkan TIK<br>
-    </p>
+      <p>
+        Keterangan:<br>	
+        [1]	Tidak memanfaatkan TIK sama sekali<br>
+        [2]	Sudah memanfaatkan, namun lebih banyak dilakukan secara konvensional<br>
+        [3]	Sebagian besar aktivitas pencatatan keuangan sudah memanfaatkan TIK<br>
+        [4]	Semua aktivitas pencatatan keuangan sudah memanfaatkan TIK<br>
+      </p>
     </div>
 </div>
 <?= $this->endSection(); ?>
