@@ -192,7 +192,7 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata yang Memiliki Rumah Lain Selain yang Ditempati Saat Ini Menurut Industri Pariwisata</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
           <?php
               tabplan1_blok3_4() ?>
           </div>
@@ -222,7 +222,7 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata yang Memiliki Rumah Lain Selain yang Ditempati Saat Ini Menurut Jenis Kelamin KRT</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
           <?php
               tabplan1_blok3_5() ?>
           </div>
