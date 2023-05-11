@@ -5,7 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
-            <p>Karakteristik Wisatawan & Perjalanan Wisata</p>
+            <p>Kategori Perjalanan</p>
         </header>
         <hr class="hrjudul">
 

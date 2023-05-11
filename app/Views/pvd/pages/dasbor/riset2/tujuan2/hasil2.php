@@ -5,7 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container" data-aos="fade-up">
         <header class="section-header">
-            <p>Lama Kunjungan & Lama Bepergian Wisata</p>
+            <p>Lama Perjalanan</p>
         </header>
 
         <hr class="hrjudul">
@@ -21,7 +21,7 @@
         </div>
 
         <div class="row portfolio-container">
-            <?php include('dummy_tujuan2.php') ?>
+            <?php include('dummy_hasil2.php') ?>
         </div>
     </div>
 </section>

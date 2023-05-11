@@ -5,7 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
-            <p>Analisis Inferensia</p>
+            <p>Tabulasi</p>
         </header>
         <hr class="hrjudul">
 
