@@ -84,53 +84,78 @@ function getMenu()
           'href' => '/riset2/dasbor',
         ],
         [
-          'menu' => 'Hasil Penelitian',
+          'menu' => 'Estimasi Banyak Wisatawan & Perjalanan Wisata',
           'icon' => 'fas fa-binoculars',
-          'href' => '#hasil_penelitian',
-          'id' => 'hasil_penelitian',
+          'href' => '#tujuan1',
+          'id' => 'tujuan1',
           'subMenu' => [
             [
-              'subMenu' => 'Tujuan 1',
-              'href' => '/riset2/hasil-tujuan1',
+              'subMenu' => 'Estimasi Banyak Wisatawan',
+              'href' => '/riset2/tujuan1-hasil1',
             ],
             [
-              'subMenu' => 'Tujuan 2',
-              'href' => '/riset2/hasil-tujuan2',
+              'subMenu' => 'Estimasi Banyak Perjalanan',
+              'href' => '/riset2/tujuan1-hasil2',
             ],
             [
-              'subMenu' => 'Tujuan 3',
-              'href' => '/riset2/hasil-tujuan3',
+              'subMenu' => 'Kategori Perjalanan',
+              'href' => '/riset2/tujuan1-hasil3',
             ],
             [
-              'subMenu' => 'Tujuan 4',
-              'href' => '/riset2/hasil-tujuan4',
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset2/tujuan1-tabulasi',
             ],
 
           ],
         ],
         [
-          'menu' => 'Tabulasi',
+          'menu' => 'Lama Kunjungan & Lama Bepergian Wisata',
           'icon' => 'fas fa-binoculars',
-          'href' => '#tabulasi',
-          'id' => 'tabulasi',
+          'href' => '#tujuan2',
+          'id' => 'tujuan2',
           'subMenu' => [
             [
-              'subMenu' => 'Tujuan 1',
-              'href' => '/riset2/tabel-tujuan1',
+              'subMenu' => 'Lama Kunjungan',
+              'href' => '/riset2/tujuan2-hasil1',
             ],
             [
-              'subMenu' => 'Tujuan 2',
-              'href' => '/riset2/tabel-tujuan2',
+              'subMenu' => 'Lama Perjalanan',
+              'href' => '/riset2/tujuan2-hasil2',
             ],
             [
-              'subMenu' => 'Tujuan 3',
-              'href' => '/riset2/tabel-tujuan3',
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset2/tujuan2-tabulasi',
             ],
             [
               'subMenu' => 'Tujuan 4',
               'href' => '/riset2/tabel-tujuan4',
             ],
           ],
+        ],
+        [
+          'menu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
+          'icon' => 'fas fa-binoculars',
+          'href' => '#tujuan3',
+          'id' => 'tujuan3',
+          'subMenu' => [
+            [
+              'subMenu' => 'Karakteristik Wisatawan',
+              'href' => '/riset2/tujuan3-hasil1',
+            ],
+            [
+              'subMenu' => 'Karakteristik Perjalanan',
+              'href' => '/riset2/tujuan3-hasil2',
+            ],
+            [
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset2/tujuan3-tabulasi',
+            ],
+          ],
+        ],
+        [
+          'menu' => 'Analisis Inferensia',
+          'icon' => 'fas fa-binoculars',
+          'href' => '/riset2/tujuan4',
         ],
         [
           'menu' => 'Tentang Riset 2',
