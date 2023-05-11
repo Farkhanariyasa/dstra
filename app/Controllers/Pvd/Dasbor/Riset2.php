@@ -111,7 +111,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 Hasil 1 | Estimasi Banyak Wisatawan',
+            'judul' => 'Tujuan 1 | Estimasi Banyak Wisatawan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -167,7 +167,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 Hasil 2 | Estimasi Banyak Perjalanan',
+            'judul' => 'Tujuan 1 | Estimasi Banyak Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -223,7 +223,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 Hasil 3 | Kategori Perjalanan',
+            'judul' => 'Tujuan 1 | Kategori Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -274,40 +274,40 @@ class Riset2 extends BaseController
         return view('pvd/pages/dasbor/riset2/tujuan1/tabulasi', $data);
     }
 
-    public function tabel_tujuan1()
+    public function tujuan2_hasil1()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabulasi | Banyak Wisatawan & Perjalanan Wisata',
+            'judul' => 'Tujuan 2 | Lama Kunjungan',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan1', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan2/hasil1', $data);
     }
 
-    public function tabel_tujuan2()
+    public function tujuan2_hasil2()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabulasi | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Tujuan 2 | Lama Perjalanan',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan2', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan2/hasil2', $data);
     }
 
-    public function tabel_tujuan3()
+    public function tujuan2_tabulasi()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabulasi | Karakteristik Wisatawan & Perjalanan Wisata',
+            'judul' => 'Tujuan 2 | Tabulasi',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan3', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan2/tabulasi', $data);
     }
 
     public function tabel_tujuan4()
