@@ -61,18 +61,24 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
-        // Menu 1
+        // Dasbor
         $routes->get('dasbor', 'Riset2::index');
-        // Menu 2
-        $routes->get('hasil-tujuan1', 'Riset2::hasil_tujuan1'); // Hasil Tujuan 1
-        $routes->get('hasil-tujuan2', 'Riset2::hasil_tujuan2'); // Hasil Tujuan 2
-        $routes->get('hasil-tujuan3', 'Riset2::hasil_tujuan3'); // Hasil Tujuan 3
-        $routes->get('hasil-tujuan4', 'Riset2::hasil_tujuan4'); // Hasil Tujuan 4
-        // Menu 3
-        $routes->get('tabel-tujuan1', 'Riset2::tabel_tujuan1'); // Tabel Tujuan 1
-        $routes->get('tabel-tujuan2', 'Riset2::tabel_tujuan2'); // Tabel Tujuan 2
-        $routes->get('tabel-tujuan3', 'Riset2::tabel_tujuan3'); // Tabel Tujuan 3
+        // Tujuan 1
+        $routes->get('tujuan1-hasil1', 'Riset2::tujuan1_hasil1'); // Hasil 1
+        $routes->get('tujuan1-hasil2', 'Riset2::tujuan1_hasil2'); // Hasil 2
+        $routes->get('tujuan1-hasil3', 'Riset2::tujuan1_hasil3'); // Hasil 3
+        $routes->get('tujuan1-tabulasi', 'Riset2::tujuan1_tabulasi'); // Tabulasi
+        // Tujuan 2
+        $routes->get('tujuan2-hasil1', 'Riset2::tujuan2_hasil1'); // Hasil 1
+        $routes->get('tujuan2-hasil2', 'Riset2::tujuan2_hasil2'); // Hasil 2
+        $routes->get('tujuan2-tabulasi', 'Riset2::tujuan2_tabulasi'); // Tabulasi
         $routes->get('tabel-tujuan4', 'Riset2::tabel_tujuan4'); // Tabel Tujuan 4
+        // Tujuan 3
+        $routes->get('tujuan3-hasil1', 'Riset2::tujuan3_hasil1'); // Hasil 1
+        $routes->get('tujuan3-hasil2', 'Riset2::tujuan3_hasil2'); // Hasil 2
+        $routes->get('tujuan3-tabulasi', 'Riset2::tujuan3_tabulasi'); // Tabulasi
+        // Tujuan 4
+        $routes->get('dasbor', 'Riset2::tujuan4');
     });
     // Dasbor Riset 3
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
