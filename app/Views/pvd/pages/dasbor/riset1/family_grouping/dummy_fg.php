@@ -2,7 +2,7 @@
 <div class="portfolio-item filter-riset1-hasil1" onresize="responsivefonts()">
     <div class="card-body">
         <div class="row">
-            <div class="col-6 grid-margin stretch-card">
+            <div class="col-lg-6 grid-margin stretch-card">
                 <div class="card shadow rounded-4">
                     <div class="card-body">
                         <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -32,17 +32,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 grid-margin stretch-card">
+            <div class="col-lg-6 grid-margin stretch-card ">
                 <div class="card shadow rounded-4">
                     <div class="card-body">
-                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                            <div class="me-1 mt-1 justify-content-end align-item-end">
-                                <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                    <i class="fa-solid fa-download"></i>
-                                </button>
-                            </div>
-                        </div>
-
                         <div>
                             <div>
                                 <div class="card">
@@ -65,6 +57,7 @@
         </div>
     </div>
 </div>
+
 
 
 
