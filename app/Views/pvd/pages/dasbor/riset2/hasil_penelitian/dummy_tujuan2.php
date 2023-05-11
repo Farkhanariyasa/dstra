@@ -27,10 +27,10 @@
 <div class="portfolio-item filter-riset2-hasilkajian2-1">
     <div class="row mt-3">
         
-        <div class="col-sm-8 my-2">
+        <div class="col-sm-8 my-2 py-5">
             <div class="card shadow rounded-5">
                 <div class="card-body">
-                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
                         <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select class="dropdownunduh1" id="forBarChart">
@@ -60,8 +60,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Turis</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
                     </div>
                 </div>
             </div>
@@ -72,8 +72,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>
             </div>
@@ -84,8 +84,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Malam</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 <div class="portfolio-item filter-riset2-hasilkajian2-2">
     <div class="row mt-3">
         
-        <div class="col-sm-8 my-2">
+        <div class="col-sm-8 my-2 py-5">
             <div class="card shadow rounded-5">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -125,8 +125,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Turis</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
                     </div>
                 </div>
             </div>
@@ -137,8 +137,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>
             </div>
@@ -149,8 +149,8 @@
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Malam</strong>
                     </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eius quia labore incidunt veritatis quam?
+                    <div style="font-size:15px;">
+                        Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>
                 </div>
             </div>

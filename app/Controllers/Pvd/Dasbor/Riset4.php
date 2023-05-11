@@ -37,19 +37,63 @@ class Riset4 extends BaseController
         $uupKecBatu = [
             'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
             'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BATU'),
-            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BATU'),
         ];
 
         $uupKecJunrejo = [
             'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
             'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'JUNREJO'),
-            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'JUNREJO'),
         ];
 
         $uupKecBumiaji = [
             'transportasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
             'makan' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BUMIAJI'),
-            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'akomodasi' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BUMIAJI'),
+        ];
+
+        $uupKotaBatuProduksi = [
+            'transportasi' => $this->uup->getRataan('jenis_usaha',  'omzet', 1),
+            'makan' => $this->uup->getRataan('jenis_usaha',  'omzet', 2),
+            'akomodasi' => $this->uup->getRataan('jenis_usaha',  'omzet', 3),
+        ];
+
+        $uupKecBatuProduksi = [
+            'transportasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 1, 'BATU'),
+            'makan' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 2, 'BATU'),
+            'akomodasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 3, 'BATU'),
+        ];
+
+        $uupKecJunrejoProduksi = [
+            'transportasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 1, 'JUNREJO'),
+            'makan' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 2, 'JUNREJO'),
+            'akomodasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 3, 'JUNREJO'),
+        ];
+
+        $uupKecBumiajiProduksi = [
+            'transportasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 1, 'BUMIAJI'),
+            'makan' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 2, 'BUMIAJI'),
+            'akomodasi' => $this->uup->getRataan2('jenis_usaha', 'kecamatan',  'omzet', 3, 'BUMIAJI'),
+        ];
+
+        $uupKotaBatuSkala = [
+            'mikro' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 1),
+            'kecil' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 2),
+        ];
+
+        $uupKecBatuSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BATU'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BATU'),
+        ];
+
+        $uupKecJunrejoSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'JUNREJO'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'JUNREJO'),
+        ];
+
+        $uupKecBumiajiSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BUMIAJI'),
+            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
         ];
 
         // ke bawah adalah kode dummy
@@ -113,6 +157,14 @@ class Riset4 extends BaseController
             'uupKecBatu' => $uupKecBatu,
             'uupKecJunrejo' => $uupKecJunrejo,
             'uupKecBumiaji' => $uupKecBumiaji,
+            'uupKotaBatuProduksi' => $uupKotaBatuProduksi,
+            'uupKecBatuProduksi' => $uupKecBatuProduksi,
+            'uupKecJunrejoProduksi' => $uupKecJunrejoProduksi,
+            'uupKecBumiajiProduksi' => $uupKecBumiajiProduksi,
+            'uupKotaBatuSkala' => $uupKotaBatuSkala,
+            'uupKecBatuSkala' => $uupKecBatuSkala,
+            'uupKecJunrejoSkala' => $uupKecJunrejoSkala,
+            'uupKecBumiajiSkala' => $uupKecBumiajiSkala,
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,

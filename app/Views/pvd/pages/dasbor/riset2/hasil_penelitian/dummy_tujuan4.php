@@ -201,10 +201,10 @@
                                 <!-- Kepemilikan Motor -->
                                 <div class="col align-items-center d-flex align-self-center mb-4 shadow rounded-4 mx-4">
                                     <div class="card-body p-3">
-                                        <div class="col">
+                                        <div class="col text-center">
                                             <p class="card-title">
                                             <!-- <i class="fas fa-home col-1 ikon"></i> -->
-                                            <div style="line-height: 20px; color: #4b395f;"><i class="fas fa-city col-1 ikon"></i><strong> Kepemilikan Motor</strong></div>
+                                            <div style="line-height: 20px; color: #4b395f;"><i class="fas fa-city col-1 ikon"></i><strong>Kepemilikan Motor</strong></div>
                                             <!-- <div class="angka">347</div> -->
                                             <!-- <div style="line-height: 20px;">Blok Sensus</div> -->
                                             </p>

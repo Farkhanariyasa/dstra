@@ -20,14 +20,21 @@ class Riset4HasilSpModel extends Model
         return $this->where([$kolom1 => $k1, $kolom2 => $k2])->countAllResults();
     }
 
-    // ke bawah adalah kode dummy
     # fungsi agregat (mean) untuk satu kolom kategorik dan satu kolom numerik
-    public function getRataan($kolom_kategorik, $kolom_numerik, $nilai){
+    public function getRataan($kolom_kategorik, $kolom_numerik, $k1){
         $sub_query = 'avg('.$kolom_numerik.') as rataan';
-        $result =  $this->where([$kolom_kategorik => $nilai])->select($sub_query)->first();
+        $result =  $this->where([$kolom_kategorik => $k1])->select($sub_query)->first();
+        return $result['rataan'];
+    }
+
+    # fungsi agregat (mean) untuk dua kolom kategorik dan satu kolom numerik
+    public function getRataan2($kolom_kategorik1, $kolom_kategorik2, $kolom_numerik, $k1, $k2){
+        $sub_query = 'avg('.$kolom_numerik.') as rataan';
+        $result =  $this->where([$kolom_kategorik1 => $k1, $kolom_kategorik2 => $k2])->select($sub_query)->first();
         return $result['rataan'];
     }
         
+    // ke bawah adalah kode dummy
     # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
     public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
         return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();
