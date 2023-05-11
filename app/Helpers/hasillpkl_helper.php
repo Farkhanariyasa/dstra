@@ -85,7 +85,7 @@ function getMenu()
         ],
         [
           'menu' => 'Estimasi Banyak Wisatawan & Perjalanan Wisata',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-map-location-dot',
           'href' => '#tujuan1',
           'id' => 'tujuan1',
           'subMenu' => [
@@ -109,7 +109,7 @@ function getMenu()
         ],
         [
           'menu' => 'Lama Kunjungan & Lama Bepergian Wisata',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-calendar-week',
           'href' => '#tujuan2',
           'id' => 'tujuan2',
           'subMenu' => [
@@ -129,7 +129,7 @@ function getMenu()
         ],
         [
           'menu' => 'Karakteristik Wisatawan & Perjalanan Wisata',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-person-walking-luggage',
           'href' => '#tujuan3',
           'id' => 'tujuan3',
           'subMenu' => [
@@ -149,7 +149,7 @@ function getMenu()
         ],
         [
           'menu' => 'Analisis Inferensia',
-          'icon' => 'fas fa-binoculars',
+          'icon' => 'fas fa-chart-simple',
           'href' => '/riset2/tujuan4',
         ],
         [
