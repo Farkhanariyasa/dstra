@@ -105,7 +105,6 @@ function getMenu()
               'subMenu' => 'Tabulasi',
               'href' => '/riset2/tujuan1-tabulasi',
             ],
-
           ],
         ],
         [
@@ -125,10 +124,6 @@ function getMenu()
             [
               'subMenu' => 'Tabulasi',
               'href' => '/riset2/tujuan2-tabulasi',
-            ],
-            [
-              'subMenu' => 'Tujuan 4',
-              'href' => '/riset2/tabel-tujuan4',
             ],
           ],
         ],
