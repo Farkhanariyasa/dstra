@@ -5,18 +5,19 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
-            <p>Kategori Perjalanan</p>
+            <p>Tujuan 1 - Kategori Perjalanan</p>
         </header>
         <hr class="hrjudul">
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter=".filter-riset2-hasilkajian3-1" class="filter-active">Karakteristik Wisatawan</li>
                     <li data-filter=".filter-riset2-hasilkajian3-2">Karakteristik Perjalanan</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
+
         <div class="row portfolio-container">
             <?php include('dummy_hasil3.php') ?>
         </div>
@@ -40,6 +41,14 @@
     const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_bar.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_sankey.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_pie.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_twowaybar.js') ?>"></script>
+
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_jk_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_barhorizontal.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_pt_barhorizontal.js') ?>"></script>
