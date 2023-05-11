@@ -64,7 +64,7 @@ class Riset2 extends BaseController
         return view('pvd/pages/dasbor/riset2/index', $data);
     }
 
-    public function hasil_tujuan1()
+    public function tujuan1_hasil1()
     {
         $menu = getMenu();
 
@@ -111,17 +111,17 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Banyak Wisatawan & Perjalanan Wisata',
+            'judul' => 'Tujuan 1 Hasil 1 | Estimasi Banyak Wisatawan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan1', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan1/hasil1', $data);
     }
 
-    public function hasil_tujuan2()
+    public function tujuan1_hasil2()
     {
         $menu = getMenu();
         $jk = [
@@ -167,17 +167,17 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Lama Kunjungan & Lama Bepergian Wisata',
+            'judul' => 'Tujuan 1 Hasil 2 | Estimasi Banyak Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan2', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan1/hasil2', $data);
     }
 
-    public function hasil_tujuan3()
+    public function tujuan1_hasil3()
     {
         $menu = getMenu();
         $jk = [
@@ -223,17 +223,17 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Karakteristik Wisatawan & Perjalanan Wisata',
+            'judul' => 'Tujuan 1 Hasil 3 | Kategori Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
             'pt_2' => $pt_2,
             'tu' => $tu,
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan3', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan1/hasil3', $data);
     }
 
-    public function hasil_tujuan4()
+    public function tujuan1_tabulasi()
     {
         $menu = getMenu();
         $jk = [
@@ -265,13 +265,13 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Penelitian | Analisis Inferensia',
+            'judul' => 'Tujuan 1 | Tabulasi',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
             'pt_2' => $pt_2
         ];
-        return view('pvd/pages/dasbor/riset2/hasil_penelitian/tujuan4', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan1/tabulasi', $data);
     }
 
     public function tabel_tujuan1()
