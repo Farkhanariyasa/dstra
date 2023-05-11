@@ -32,13 +32,13 @@
           <div class="accordion-body rounded-bottom">
             <ol class="text-justify fs-5 ms-3">
               <li>
-                <a href="#" class="text-decoration-none fs-5">Estimasi Banyak Wisatawan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil1') ?>" class="text-decoration-none fs-5">Estimasi Banyak Wisatawan</a>
               </li>
               <li>
-                <a href="#" class="text-decoration-none fs-5">Estimasi Banyak Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil2') ?>" class="text-decoration-none fs-5">Estimasi Banyak Perjalanan</a>
               </li>
               <li>
-                <a href="#" class="text-decoration-none fs-5">Kategori Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil3') ?>" class="text-decoration-none fs-5">Kategori Perjalanan</a>
               </li>
             </ol>
           </div>
@@ -57,10 +57,10 @@
           <div class="accordion-body rounded-bottom">
             <ol class="text-justify fs-5 ms-3">
               <li>
-                <a href="#" class="text-decoration-none fs-5">Lama Kunjungan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil1') ?>" class="text-decoration-none fs-5">Lama Kunjungan</a>
               </li>
               <li>
-                <a href="#" class="text-decoration-none fs-5">Lama Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-5">Lama Perjalanan</a>
               </li>
             </ol>
           </div>
@@ -79,10 +79,10 @@
           <div class="accordion-body rounded-bottom">
             <ol class="text-justify fs-5 ms-3">
               <li>
-                <a href="#" class="text-decoration-none fs-5">Karakteristik Wisatawan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil1') ?>" class="text-decoration-none fs-5">Karakteristik Wisatawan</a>
               </li>
               <li>
-                <a href="#" class="text-decoration-none fs-5">Karakteristik Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil2') ?>" class="text-decoration-none fs-5">Karakteristik Perjalanan</a>
               </li>
             </ol>
           </div>
@@ -100,7 +100,7 @@
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
             <p class="text-justify ms-3">
-              <a href="#" class="text-decoration-none fs-5">Tujuan 4</a>
+              <a href="<?= base_url('hasil-pkl/riset2/tujuan4') ?>" class="text-decoration-none fs-5">Tujuan 4</a>
             </p>
           </div>
         </div>
