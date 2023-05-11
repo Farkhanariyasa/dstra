@@ -276,4 +276,4 @@
 </div>
 
 <!-- Modal Riset 2  -->
-<?php include('modal_hp.php') ?>
+<?php include('modal_tujuan1.php') ?>
