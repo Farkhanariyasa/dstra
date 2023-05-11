@@ -10,6 +10,9 @@
 
         <hr class="hrjudul">
 
+        <div class="row portfolio-container">
+            <?php include('dummy_tujuan4.php') ?>
+        </div>
     </div>
 </section>
 
