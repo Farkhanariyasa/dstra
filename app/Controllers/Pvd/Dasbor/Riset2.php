@@ -310,15 +310,51 @@ class Riset2 extends BaseController
         return view('pvd/pages/dasbor/riset2/tujuan2/tabulasi', $data);
     }
 
-    public function tabel_tujuan4()
+    public function tujuan3_hasil1()
     {
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tabulasi | Analisis Inferensia',
+            'judul' => 'Tujuan 3 | Karakteristik Wisatawan',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
-        return view('pvd/pages/dasbor/riset2/tabulasi/tujuan4', $data);
+        return view('pvd/pages/dasbor/riset2/tujuan3/hasil1', $data);
+    }
+
+    public function tujuan3_hasil2()
+    {
+        $menu = getMenu();
+        $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
+        $data = [
+            'judul' => 'Tujuan 3 | Karakteristik Perjalanan',
+            'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
+            'menu' => $menu['riset2'],
+        ];
+        return view('pvd/pages/dasbor/riset2/tujuan3/hasil2', $data);
+    }
+
+    public function tujuan3_tabulasi()
+    {
+        $menu = getMenu();
+        $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
+        $data = [
+            'judul' => 'Tujuan 3 | Tabulasi',
+            'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
+            'menu' => $menu['riset2'],
+        ];
+        return view('pvd/pages/dasbor/riset2/tujuan3/tabulasi', $data);
+    }
+
+    public function tujuan4()
+    {
+        $menu = getMenu();
+        $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
+        $data = [
+            'judul' => 'Tujuan 4 | Analisis Inferensia ',
+            'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
+            'menu' => $menu['riset2'],
+        ];
+        return view('pvd/pages/dasbor/riset2/tujuan4', $data);
     }
 }
