@@ -7,7 +7,7 @@ features: [
         type: "Feature", 
         properties: { 
             Kecamatan: "Batu", 
-            IKUPTIK: 95.55 
+            IKUPTIK: 46.74 
         }, 
         geometry: { 
             type: "MultiPolygon", 
@@ -905,7 +905,7 @@ features: [
         type: "Feature", 
         properties: { 
             Kecamatan: "Bumiaji", 
-            IKUPTIK: 90.76 }, 
+            IKUPTIK: 48.23 }, 
         geometry: { 
             type: "MultiPolygon", 
             coordinates: [ 
@@ -2240,7 +2240,7 @@ features: [
         type: "Feature", 
         properties: { 
             Kecamatan: "Junrejo", 
-            IKUPTIK: 85.66 
+            IKUPTIK: 47.07 
         }, 
         geometry: { 
             type: "MultiPolygon", 
