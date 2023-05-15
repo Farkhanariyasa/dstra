@@ -1,12 +1,6 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 <?= $this->section('content'); ?>
-<style>
-  @media only screen and (max-width: 414px) {
-  #test {
-    margin-left: 2rem;
-  }
-}
-</style>
+
 
 <!-- <div class="container px-0">
   <header class="section-header">
@@ -156,9 +150,11 @@
       </ul> -->
     </div>
   </div>
-  <div class="row d-flex justify-content-center align-items-center">
-    <div class="row portfolio-container" id="test">
-      <?php include('dummy_dasbor.php') ?>
+  <div class="row" id="row">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="row portfolio-container" id="test">
+        <?php include('dummy_dasbor.php') ?>
+      </div>
     </div>
   </div>
 </section>
