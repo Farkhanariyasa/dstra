@@ -1,210 +1,74 @@
-<!-- Tabulasi 1 -->
-<div class="portfolio-item filter-riset2-hasil1">
-    <div class="card">
-        <div class="card-header">
-            <strong>
-                Sebaran Wisatawan dan Jumlah Perjalanan dalam Kota Malang menurut Kecamatan Asal Wisatawan di Kota Malang Bulan Oktober-Desember 2022
-            </strong>
-        </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive" id="k1_tabel1" style="width:100%">
-                <thead>
-                    <tr>
-                        <th scope="col">Kecamatan Asal</th>
-                        <th scope="col">Jumlah Wisatawan</th>
-                        <th scope="col">Jumlah Perjalanan</th>
-                        <th scope="col">Rata-rata Perjalanan</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
+<!-- Visualisasi 1 new -->
+<div class="portfolio-item filter-riset2-hasilkajian2-1">
+    <div class="row mt-3">
 
-<!-- Tabulasi 2 -->
-<div class="portfolio-item filter-riset2-hasil2">
-    <div class="card">
-        <div class="card-header">
-            <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang Bulan Oktober-Desember 2022
-            </strong>
+        <div class="col-sm-8 my-2 py-5">
+            <div class="card shadow rounded-5">
+                <div class="card-body">
+                    <div
+                        class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                        <div class="selectBox mt-2 me-2">
+                            <form action="">
+                                <select class="dropdownunduh1" id="forBarChart">
+                                    <option value="1">Satuan Malam</option>
+                                    <option value="2">Satuan Jam</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                            <button id="unduh-2-4" type="button" class="tombol btn-for" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal4">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div style=" height:500px;">
+                        <canvas class="mt1" id="t2_bar1"></canvas>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive" id="k1_tabel2" style="width:100%">
-                <thead>
-                    <tr>
-                        <th scope="col">Kecamatan Tujuan</th>
-                        <th scope="col">Kecamatan Blimbing</th>
-                        <th scope="col">Kecamatan Kedungkandang</th>
-                        <th scope="col">Kecamatan Klojen</th>
-                        <th scope="col">Kecamatan Lowokwaru</th>
-                        <th scope="col">Kecamatan Sukun</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
 
-<!-- Tabulasi 3 -->
-<div class="portfolio-item filter-riset2-hasil3">
-    <div class="card">
-        <div class="card-header">
-            <strong>
-                Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan Tujuan Utama di Kota Malang Bulan Oktober-Desember 2022
-            </strong>
+        <div class="col-sm-4 my-2">
+            <div class="card shadow rounded-5">
+                <!-- Turis -->
+                <div class="card-body">
+                    <div style="line-height: 40px; color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Turis</strong>
+                    </div>
+                    <div style="font-size:15px;">
+                        Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow rounded-5 my-4">
+                <!-- Pelancong -->
+                <div class="card-body">
+                    <div style="line-height: 40px; color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
+                    </div>
+                    <div style="font-size:15px;">
+                        Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow rounded-5">
+                <!-- Malam -->
+                <div class="card-body">
+                    <div style="line-height: 40px; color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Malam</strong>
+                    </div>
+                    <div style="font-size:15px;">
+                        Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
+                        didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem; ">
-            <table class="table table-hover table-bordered table-responsive" id="k1_tabel3" style="width:100%; overflow-x:auto;">
-                <thead>
-                    <tr>
-                        <th scope="col">Kecamatan Asal</th>
-                        <th scope="col">Ke Objek Wisata</th>
-                        <th scope="col">Menginap di Akomodasi Komersial</th>
-                        <th scope="col">Menuju Kecamatan Lain</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+
+
     </div>
 </div>

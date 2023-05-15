@@ -88,7 +88,7 @@
       <option value="tujuan4-50">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</option>
     </select>
   </div>
-  <?php var_dump($ji) ?>
+  <!-- <?php var_dump($ji) ?> -->
   <div class="isi-tujuan shadow mt-4">
     <div id="tujuan4-1" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Kepemilikan Rumah</h4>
@@ -236,15 +236,20 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
+          <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card ">
               <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 95%; height:50vh;"></canvas>
+                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 55%; height:20vh;"></canvas>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card ">
+              <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 95%; height:50vh;"></canvas>
-
+                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 55%; height:20vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -1827,7 +1832,7 @@
   </div>
 </div>
 
-<?php var_dump($data_1_5) ?>
+<!-- <?php var_dump($data_1_5) ?> -->
 
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

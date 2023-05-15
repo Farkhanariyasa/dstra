@@ -6,7 +6,7 @@
 
     <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-5">
                 <div class="card-body">
 
                     <p>
@@ -166,7 +166,7 @@
 
     <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-5">
                 <div class="card-body">
                     <div class="text-center" style="color: #4b395f; font-size: 25px;">
                         <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, impedit!</strong>
@@ -185,7 +185,7 @@
 
     <div class="row mt-3">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-5">
                 <div class="card-body">
                     <div class="text-justify">
                         <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem maxime autem
