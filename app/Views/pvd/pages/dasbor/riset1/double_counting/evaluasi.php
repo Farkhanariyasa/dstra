@@ -22,9 +22,11 @@
         </ul>
       </div>
     </div>
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="row portfolio-container" id="test">
-        <?php include('dummy_dc.php') ?>
+    <div class="row" id="rowdc">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="row portfolio-container" id="testdc">
+          <?php include('dummy_dc.php') ?>
+        </div>
       </div>
     </div>
   </div>
