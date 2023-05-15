@@ -104,6 +104,10 @@
   <script src="<?= base_url('pvd/js/riset4/pie_kec_batu_skala.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/pie_kec_junrejo_skala.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/pie_kec_bumiaji_skala.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik_jenis.js') ?>"></script>
 
   <!-- ke bawah adalah kode dummy -->
   <!-- <script src="< ?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
@@ -118,7 +122,7 @@
   <script src="< ?= base_url('pvd/js/riset4/kec_malang.js') ?>"></script>
   <script src="< ?= base_url('pvd/js/riset4/hasilSPRiset2_peta_kajian1_2.js') ?>"></script>
   <script src="< ?= base_url('pvd/js/riset4/peta_batu.js') ?>"></script>
-  <script src="< ?= base_url('pvd/js/riset4/hasilSPRiset4_peta_kajian1_2.js') ?>"></script> -->
+  <script src="< ?= base_url('pvd/js/riset4/hasilSPRiset4_peta_kajian1_2.js') ?>"></script>  -->
 
   <!-- Fungsi Unduh Chart -->
   <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
