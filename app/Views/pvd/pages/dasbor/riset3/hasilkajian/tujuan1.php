@@ -236,15 +236,20 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
+          <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card ">
               <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 95%; height:50vh;"></canvas>
+                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 55%; height:20vh;"></canvas>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card ">
+              <div class="card-body">
                 <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 95%; height:50vh;"></canvas>
-
+                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 55%; height:20vh;"></canvas>
                 </div>
               </div>
             </div>
