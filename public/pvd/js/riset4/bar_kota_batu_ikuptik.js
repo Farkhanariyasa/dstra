@@ -8,7 +8,14 @@ new Chart(barIkuptik1, {
     ],
     datasets: [{
         label: 'Jumlah Unit Usaha Pariwisata',
-        data: [47.15, 22.06, 55.15, 62.83, 68.69, 46.36],
+        data: [
+            ikuptikPerDimensi.dimensi1,
+            ikuptikPerDimensi.dimensi2,
+            ikuptikPerDimensi.dimensi3,
+            ikuptikPerDimensi.dimensi4,
+            ikuptikPerDimensi.dimensi5,
+            ikuptikPerDimensi.dimensi6,
+        ],
         borderWidth: 1,
         backgroundColor: [
             "#ffab00", "#506396",
