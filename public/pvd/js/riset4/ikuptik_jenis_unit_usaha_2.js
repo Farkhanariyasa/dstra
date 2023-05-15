@@ -9,9 +9,9 @@ new Chart(VIZ_2, {
     datasets: [{
         label: 'Rata-rata IKUPTIK',
         data: [
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.b1091,
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.b1092,
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.b1093
+            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha1,
+            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha2,
+            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha3
         ],
         borderWidth: 1,
         backgroundColor: [
