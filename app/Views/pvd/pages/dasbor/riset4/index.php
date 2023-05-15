@@ -80,6 +80,7 @@
     const uupKecBatuSkala = <?= json_encode($uupKecBatuSkala) ?>;    
     const uupKecJunrejoSkala = <?= json_encode($uupKecJunrejoSkala) ?>;    
     const uupKecBumiajiSkala = <?= json_encode($uupKecBumiajiSkala) ?>;
+    const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
     // ke bawah adalah kode dummy
     // const unitUsahaTIK = < ?= json_encode($uu) ?>;
     // const pendapatan = < ?= json_encode($pd) ?>;
