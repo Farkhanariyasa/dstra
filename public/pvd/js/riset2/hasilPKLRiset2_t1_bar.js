@@ -5,11 +5,11 @@ var bar_lamakunjungan = new Chart(t1_bar, {
   type: "bar",
   data: {
     labels: [
-      "Kecamatan Klojen",
-      "Kecamatan Lowokwaru",
-      "Kecamatan Blimbing",
-      "Kecamatan Kedungkandang",
-      "Kecamatan Sukun",
+      "Klojen",
+      "Lowokwaru",
+      "Blimbing",
+      "Kedungkandang",
+      "Sukun",
     ],
     datasets: [
       {
@@ -17,6 +17,11 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         data: [53.48, 53.85, 56.67, 61.9, 67.33],
         borderWidth: 1,
         backgroundColor: "#ffab00",
+        datalabels: {
+          anchor: 'end',
+          align: 'top',
+          offset: 5
+        }
       },
     ],
   },
@@ -75,7 +80,8 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         display: true,
         text: [
           "Persentase Penduduk yang Berwisata dalam Kota Malang",
-          "menurut Kecamatan Asal Wisatawan di Kota Malang Bulan Oktober-Desember 2022",
+          "menurut Kecamatan Asal Wisatawan di Kota Malang",
+          "Bulan Oktober-Desember 2022",
         ],
         font: {
           size: 16,
