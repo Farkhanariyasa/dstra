@@ -5,7 +5,7 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
     data: {
         labels: [ ["Jasa Transportasi Wisata"],
             ["Jasa Penyedia Makanan dan Minuman"],
-            ["Jasa Akomodasi"]
+            ["Penyedia Akomodasi"]
         ],
 
         datasets: [{
@@ -29,14 +29,14 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Batu', 'Berdasarkan Skala Usaha'],
+                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usaha'],
                 font: {
-                    size: 20
+                    size: 18
                 }
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
