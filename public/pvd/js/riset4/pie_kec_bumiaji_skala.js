@@ -1,7 +1,7 @@
 const pie4 = document.getElementById('pie-kec-bumiaji-skala');
 
 const pie_4 = new Chart(pie4, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
             ["Kecil"],
