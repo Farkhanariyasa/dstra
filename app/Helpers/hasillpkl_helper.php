@@ -14,7 +14,7 @@ function getMenu()
         ],
         [
           'menu' => 'Mobile Positioning Data (MPD)',
-          'icon' => 'fa-solid fa-chart-simple',
+          'icon' => 'fa-solid fa-mobile-screen-button',
           'href' => '#menu1',
           'id' => 'menu1',
           'subMenu' => [
