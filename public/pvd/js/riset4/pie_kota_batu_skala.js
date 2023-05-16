@@ -1,7 +1,7 @@
 const pie1 = document.getElementById('pie-kota-batu-skala');
 
 const pie_1 = new Chart(pie1, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
             ["Kecil"],
