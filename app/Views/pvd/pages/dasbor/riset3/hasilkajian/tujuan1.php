@@ -261,20 +261,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata yang Memiliki Rumah Lain Selain yang Ditempati Saat Ini Menurut Tingkat Pendidikan KRT</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_6() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -295,20 +290,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Bahan Bangunan Utama Atap Rumah Terluas</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_7() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -329,20 +319,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Bahan Bangunan Utama Dinding Rumah Terluas</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_8() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -363,20 +348,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Bahan Bangunan Utama Lantai Rumah Terluas</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_9() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -431,20 +411,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kloset yang Digunakan Rumah Tangga</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -465,20 +440,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Tempat Pembuangan Akhir Tinja</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -499,20 +469,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Sumber Air Utama yang Digunakan Rumah Tangga untuk Minum</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -533,20 +498,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata dengan Sumber Air Minum dari Sumur Bor/Pompa, Sumur Terlindung, Sumur Tak Terlindung, Mata Air Terlindung, dan Mata Air Tak Terlindung menurut Provinsi, Daerah Tempat Tinggal dan Jarak ke Tempat Penampungan Limbah/Kotoran/Tinja Terdekat</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -567,20 +527,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata dan Sumber Air Utama yang Digunakan Rumah Tangga untuk Mandi/Cuci/dll.</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -601,20 +556,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata dengan Sumber Air untuk Memasak/Mandi/Cuci/dll dari Sumur Bor/Pompa, Sumur Terlindung, Sumur Tak Terlindung, Mata Air Terlindung, dan Mata Air Tak Terlindung terhadap Jarak ke Tempat Penampungan Limbah/Kotoran/Tinja Terdekat</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -635,20 +585,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sumber Air Minum Bersih dan Akses Air Minum Layak</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -669,20 +614,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sanitasi Layak</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -703,20 +643,15 @@
       <h4 class="card-title judul-card ">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Rumah Layak Huni</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -737,20 +672,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -771,20 +701,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -805,20 +730,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Perkawinan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -839,20 +759,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kelamin</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -873,20 +788,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata menurut Jenis Industri</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -907,20 +817,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Status Pekerjaan dan Jenis Kelamin</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -941,20 +846,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jumlah Pendapatan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -975,20 +875,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1009,20 +904,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Promosi</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1043,20 +933,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Komunikasi</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1077,20 +962,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Kegiatan Transaksi Barang/Jasa</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1111,20 +991,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Keinginan untuk Menambah Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1145,20 +1020,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata menurut Industri Pariwisata dan Status Pekerjaan Utama</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1179,20 +1049,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Lama Bekerja</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1213,20 +1078,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan Sebelumnya</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1247,20 +1107,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1281,20 +1136,15 @@
       <h4 class="card-title judul-card ">Jumlah Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja Sekarang dan Jenis Industri Tempat Bekerja Sebelumnya</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1315,20 +1165,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja Sebelumnya dan Lama Bekerja</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1349,20 +1194,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Memiliki Pekerjaan Lainnya (Multiple Jobs)</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1383,20 +1223,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kelamin yang Memiliki Pekerjaan Lainnya (Multiple Jobs)</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1417,20 +1252,15 @@
       <h4 class="card-title judul-card ">Rata-Rata Jumlah Jam Kerja Pekerjaan Sampingan per hari Dikurangi Waktu Istirahat</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1451,20 +1281,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Memiliki Pendapatan Sampingan Lebih Besar daripada Pekerjaan Utama</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1485,20 +1310,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jumlah Pendapatan Pekerjaan Sampingan dalam Sebulan Terakhir</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1519,20 +1339,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Pernah Bekerja di Sektor Pariwisata dalam Tiga Tahun Terakhir Berdasarkan Jenis Industri dan Pendidikan Tertinggi yang Ditamatkan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1553,20 +1368,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Tingkat Pendidikan Tertinggi yang Ditamatkan dan Jenis Kelamin</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1587,20 +1397,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Status Pekerjaan dan Keikutsertaan dalam Pelatihan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1621,20 +1426,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Keikutsertaan dalam Pelatihan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1655,20 +1455,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Tingkat Pendidikan dan Keikutsertaan dalam Pelatihan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1689,20 +1484,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Kelamin dan Keikutsertaan dalam Pelatihan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1723,20 +1513,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Status Pekerjaan dan Penggunaan Bahasa Asing di Tempat Bekerja</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -1832,7 +1617,7 @@
   </div>
 </div>
 
-<!-- <?php var_dump($data_1_5) ?> -->
+<?php var_dump($ji) ?>
 
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
