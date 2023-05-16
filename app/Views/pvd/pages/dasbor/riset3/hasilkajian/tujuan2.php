@@ -38,15 +38,13 @@
     <select class="form-select form-select-sm tujuanfilter" style="border-radius: 15px;" name="tujuan3" id="name">
       <option selected value="tujuan4-1">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Lama Menekuni Pekerjaan</option>
       <option value="tujuan4-2">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Perpindahan Pekerjaan</option>
-      <option value="tujuan4-3">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi dan Perpindahan Pekerjaan</option>
+      <option value="tujuan4-3">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Perpindahan Pekerjaan</option>
       <option value="tujuan4-4">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</option>
       <option value="tujuan4-5">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</option>
       <option value="tujuan4-6">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Jenis Kelamin</option>
       <option value="tujuan4-7">Rata-rata Frekuensi Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Tingkat Pendidikan</option>
       <option value="tujuan4-8">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Status Perkawinan</option>
-      <option value="tujuan4-9">Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</option>
-
-
+      <!-- <option value="tujuan4-9">Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</option> -->
     </select>
   </div>
 
@@ -54,30 +52,34 @@
     <div id="tujuan4-1" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Lama Menekuni Pekerjaan</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php include('tabplan_tujuan2.php');
+            tabplan2_1() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -88,30 +90,33 @@
     <div id="tujuan4-2" class="datatujuan" style="width:100%">
       <h4 class="card-title  judul-card">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_2() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -122,30 +127,33 @@
     <div id="tujuan4-3" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_3() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -156,30 +164,33 @@
     <div id="tujuan4-4" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_4() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -190,30 +201,33 @@
     <div id="tujuan4-5" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_5() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -224,30 +238,33 @@
     <div id="tujuan4-6" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Jenis Kelamin</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_6() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -258,30 +275,33 @@
     <div id="tujuan4-7" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Tingkat Pendidikan</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_7() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -292,114 +312,37 @@
     <div id="tujuan4-8" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Status Perkawinan</h4>
       <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan2_8() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div id="tujuan4-9" class="datatujuan" style="width:100%">
-      <div class="card">
-        <div class="card-header">
-          <strong>Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</strong>
-          <!-- <button type="button" class="tombol btn-for text-right me-1 mt-1 justify-content-end align-item-end" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                            <i class="fa-solid fa-download"></i>
-                </button> -->
-        </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-          <!-- style="padding:0px 0px 0px 0px;" -->
-          <!-- <blockquote class="blockquote mb-0"> -->
-          <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
-            <thead style="color: #fff; font-weight:bold;">
-              <tr>
-                <th scope="col">No.</th>
-                <th scope="col">Kecamatan</th>
-                <th scope="col">Desa/Kelurahan</th>
-                <th scope="col">Jumlah Usaha Pariwisata</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Batu</td>
-                <td>Batu</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Junrejo</td>
-                <td>Oro-oro Ombo</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Bumiaji</td>
-                <td>Tulungrejo</td>
-                <td>100</td>
-            </tbody>
-          </table>
-          <!-- </blockquote> -->
         </div>
       </div>
     </div>
