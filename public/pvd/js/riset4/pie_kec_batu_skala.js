@@ -1,7 +1,7 @@
 const pie2 = document.getElementById('pie-kec-batu-skala');
 
 const pie_2 = new Chart(pie2, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
             ["Kecil"],
