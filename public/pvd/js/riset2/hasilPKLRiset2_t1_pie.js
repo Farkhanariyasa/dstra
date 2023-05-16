@@ -16,6 +16,16 @@ const diagram_lingkaran = new Chart(t1_pie, {
         data: [45.21, 1.21, 53.58],
         backgroundColor: ["#506396", "#c27d90", "#ffab00"],
         hoverOffset: 4,
+        datalabels: {
+          // anchor: 'end',
+          // align: 'end',
+          // offset: 1,
+          color:'#000000',
+          font: {
+            size: 13
+          },
+          // position: 'outside',
+        }
       },
     ],
   },
@@ -49,6 +59,11 @@ const diagram_lingkaran = new Chart(t1_pie, {
         color: "black",
         align: "center",
       },
+      // datalabels:{
+      //   render: 'percentage',
+      //   fontStyle: 'bolder',
+      //   position: 'outside'
+      // }
       // datalabels: {
       //   anchor: "center",
       //   align: "center",
@@ -60,7 +75,7 @@ const diagram_lingkaran = new Chart(t1_pie, {
       // },
     },
   },
-  // plugins: [ChartDataLabels],
+  plugins: [ChartDataLabels],
 });
 
 const pieChartLegend = document.getElementById("forPieChartLegend");
