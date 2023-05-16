@@ -377,20 +377,15 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Kepemilikan Serta Penggunaan Fasilitas Buang Air Besar</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5" style="width: 95%; height:80vh;"></canvas>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <?php tabplan1_blok3_10() ?>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="col-lg-3 grid-margin stretch-card h-100">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                 </div>
               </div>
             </div>
@@ -412,7 +407,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_11() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -441,7 +436,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_12() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -470,7 +465,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_13() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -499,7 +494,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_14() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -528,7 +523,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_15() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -557,7 +552,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_16() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -586,7 +581,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_17() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -615,7 +610,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_18() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -644,7 +639,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok3_19() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -673,7 +668,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok4_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -702,7 +697,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok4_2() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -731,7 +726,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok4_3() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -760,7 +755,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok4_4() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1538,7 +1533,6 @@
         </div>
       </div>
     </div>
-
     <div id="tujuan4-50" class="datatujuan" style="width:100%">
       <div class="card">
         <div class="card-header">
