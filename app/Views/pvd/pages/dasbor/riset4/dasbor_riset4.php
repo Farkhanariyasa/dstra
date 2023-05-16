@@ -32,6 +32,7 @@
 
         <div class="card-body">
             <div class="row">
+
                 <!-- Part 1 -->
                 <div class="col-12 grid-margin stretch-card">
                     <div class="card shadow">
@@ -44,58 +45,101 @@
                                 </div>
                             </div>
                             <div style=" height:300px;">
-                                <canvas id="bar-kota-batu"></canvas>
+                                <h1>Gantt Chart Jenis Kelamin x UsiaHere</h1> 
+                                <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Part 1a -->
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kota-batu"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut1(this);" type="checkbox" id="doughnut-kota-batu-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
+                <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-batu"></canvas>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-batu"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut2(this);" type="checkbox" id="doughnut-kec-batu-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
+                <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-junrejo"></canvas>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-junrejo"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut3(this);" type="checkbox" id="doughnut-kec-junrejo-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
+                <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-bumiaji"></canvas>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-bumiaji"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut4(this);" type="checkbox" id="doughnut-kec-bumiaji-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -454,7 +498,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:400px;">
+                            <div style=" height:300px;">
                                 <canvas id="bar-kota-batu-pemanfaatan"></canvas>
                             </div>
                         </div>
