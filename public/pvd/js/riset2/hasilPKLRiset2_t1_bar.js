@@ -20,7 +20,10 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         datalabels: {
           anchor: 'end',
           align: 'top',
-          offset: 1
+          offset: 1,
+          font: {
+            size: 12
+        }
         }
       },
     ],
@@ -49,7 +52,7 @@ var bar_lamakunjungan = new Chart(t1_bar, {
           display: true,
           text: "Kecamatan Asal Wisatawan",
           font: {
-            size: 16,
+            size: 14,
             style: "normal",
             lineHeight: 2,
           },
@@ -69,7 +72,7 @@ var bar_lamakunjungan = new Chart(t1_bar, {
           display: true,
           text: "Jumlah Penduduk Berwisata (%)",
           font: {
-            size: 16,
+            size: 14,
             style: "normal",
             lineHeight: 2.5,
           },
