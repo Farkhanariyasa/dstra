@@ -20,7 +20,7 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         datalabels: {
           anchor: 'end',
           align: 'top',
-          offset: 5
+          offset: 1
         }
       },
     ],
@@ -57,6 +57,11 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         grid: {
           display: false,
         },
+        ticks: {
+          font: {
+            size: 10
+          }
+        }
       },
       y: {
         beginAtZero: true,
