@@ -26,9 +26,9 @@ const piePemanfaatanSkala_1 = new Chart(piePemanfaatanSkala1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Batu', 'Berdasarkan Skala Usaha'],
+                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Skala Usaha'],
                 font: {
-                    size: 20
+                    size: 18
                 }
             },
             legend:{
