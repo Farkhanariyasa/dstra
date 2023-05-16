@@ -1,7 +1,7 @@
 const pie3 = document.getElementById('pie-kec-junrejo-skala');
 
 const pie_3 = new Chart(pie3, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
             ["Kecil"],
