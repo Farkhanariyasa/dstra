@@ -11,18 +11,42 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 data: [2377, 3359, 4290, 2296, 1822],
                 borderWidth: 1,
                 backgroundColor: "#ffab00",
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top',
+                    offset: 1,
+                    font: {
+                        size: 10
+                    }
+                  }
             },
             {
                 label: "Menginap di Akomodasi Komersial",
                 data: [43, 47, 127, 80, 34],
                 borderWidth: 1,
                 backgroundColor: "#B35C74",
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top',
+                    offset: 1,
+                    font: {
+                        size: 10
+                    }
+                  }
             },
             {
                 label: "Menuju ke Kecamatan Lain",
                 data: [2114, 1797, 2518, 3449, 1451],
                 borderWidth: 1,
                 backgroundColor: "#4B395F",
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top',
+                    offset: 1,
+                    font: {
+                        size: 10
+                    }
+                  }
             },
         ],
     },
@@ -46,7 +70,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 display: true,
                 text: "Kecamatan Asal",
                 font: {
-                    size: 16,
+                    size: 14,
                     style: "normal",
                     lineHeight: 2,
                 },
@@ -54,6 +78,11 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 grid: {
                 display: false,
                 },
+                ticks: {
+                    font: {
+                      size: 9
+                    }
+                }
             },
             y: {
                 beginAtZero: true,
@@ -61,7 +90,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 display: true,
                 text: "Jumlah Perjalanan",
                 font: {
-                    size: 16,
+                    size: 14,
                     style: "normal",
                     lineHeight: 2.5,
                 },
