@@ -99,10 +99,10 @@
   </script>
 
   <!-- Import Chart -->
-  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_batu.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_bumiaji.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kota_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_junrejo.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_bumiaji.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_produksi.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_batu_produksi.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo_produksi.js') ?>"></script>
