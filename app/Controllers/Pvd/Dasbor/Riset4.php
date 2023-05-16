@@ -77,23 +77,23 @@ class Riset4 extends BaseController
         ];
 
         $uupKotaBatuSkala = [
-            'mikro' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 1),
-            'kecil' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 2),
+            'mikro' => $this->uup->getJumlahUUP('skala_usaha', 1),
+            'kecil' => $this->uup->getJumlahUUP('skala_usaha', 2),
         ];
 
         $uupKecBatuSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BATU'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BATU'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BATU'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BATU'),
         ];
 
         $uupKecJunrejoSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'JUNREJO'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'JUNREJO'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'JUNREJO'),
         ];
 
         $uupKecBumiajiSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BUMIAJI'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BUMIAJI'),
         ];
 
         $ikuptikPerDimensi = [

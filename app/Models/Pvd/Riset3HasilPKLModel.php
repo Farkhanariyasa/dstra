@@ -6,11 +6,11 @@ use CodeIgniter\Model;
 
 class Riset3HasilPKLModel extends Model
 {
-    protected $table = 'pvd_data_hasil_pkl_riset_3';
+    protected $table = 'pvd_riset3_hasilpkl';
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
-    public function getByJenisIndustri1($ji, $sr)
+    public function getByJenisIndustri1($ji, $sr,)
     {
         return $this->where(['b503' => $ji, 'b301' => $sr])->countAllResults();
     }

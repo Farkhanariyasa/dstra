@@ -1,7 +1,7 @@
 let delayed1;
 // Chart
 const t2_bar1 = document.getElementById("t2_bar1");
-var bar_lamakunjungan = new Chart(t2_bar1, {
+var batang = new Chart(t2_bar1, {
   type: "bar",
   data: {
     labels: [
@@ -98,56 +98,45 @@ var bar_lamakunjungan = new Chart(t2_bar1, {
   plugins: [ChartDataLabels],
 });
 
-const barChart = document.getElementById("forBarChart");
-barChart.addEventListener("change", tampilData);
+const barchart = document.getElementById("forBarChart");
+barchart.addEventListener("change", tampilData);
 
 function tampilData() {
-  if (barChart.value == "1") {
-    console.log(barChart.value);
-    bar_lamakunjungan.data.datasets[0].data = [1.29, 1.63, 1.65, 1.79, 1.87];
-    bar_lamakunjungan.data.datasets[0].label = "Lama Kunjungan (malam)";
-    bar_lamakunjungan.data.labels = [
+  if (barchart.value == "a") {
+    console.log(barchart.value);
+    batang.data.datasets[0].data = [1.29, 1.63, 1.65, 1.79, 1.87];
+    batang.data.labels = [
       "Kecamatan Kedungkandang",
       "Kecamatan Sukun",
       "Kecamatan Lowokwaru",
       "Kecamatan Klojen",
       "Kecamatan Blimbing",
     ];
-    bar_lamakunjungan.options.plugins.title.text = [
+    batang.options.plugins.title.text = [
       "Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan",
       "dalam Kota di Kota Malang Bulan Oktober-Desember 2022 (dalam satuan Malam)"
     ];
-    bar_lamakunjungan.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Malam)";
-    bar_lamakunjungan.update();
-  }
-  if (barChart.value == "2") {
-    console.log(barChart.value);
-    bar_lamakunjungan.data.datasets[0].data = [2.14, 2.78, 3.03, 3.09, 3.17];
-    bar_lamakunjungan.data.datasets[0].label = "Lama Kunjungan (jam)";
-    bar_lamakunjungan.data.labels = [
-      "Kecamatan Kedungkandang",
-      "Kecamatan Sukun",
-      "Kecamatan Lowokwaru",
+    batang.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Malam)";
+    batang.data.datasets[0].label = "Rata-Rata Lama Kunjungan (Malam)";
+    // console.log(batang.data.datasets[0].data);
+    batang.update();
+  } else {
+    console.log(barchart.value);
+    batang.data.datasets[0].data = [2.14, 2.78, 3.03, 3.09, 3.17];
+    batang.data.labels = [
       "Kecamatan Klojen",
+      "Kecamatan Lowokwaru",
       "Kecamatan Blimbing",
+      "Kecamatan Sukun",
+      "Kecamatan Kedungkandang",
     ];
-    bar_lamakunjungan.options.plugins.title.text = [
+    batang.options.plugins.title.text = [
       "Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan",
-      "dalam Kota di Kota Malang Bulan Oktober-Desember 2022 (dalam satuan Jam)",
+      "dalam Kota di Kota Malang Bulan Oktober-Desember 2022 (dalam satuan Jam)"
     ];
-    bar_lamakunjungan.options.scales.y.title.text =
-      "Rata-Rata Lama Kunjungan (Jam)";
-    bar_lamakunjungan.update();
+    batang.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Jam)";
+    batang.data.datasets[0].label = "Rata-Rata Lama Kunjungan (Jam)";
+    // console.log(batang.data.datasets[0].data)
+    batang.update();
   }
 }
-
-// function responsivefonts(){
-//     if (window.outerWidth < 414) {
-//         console.log(window.outerWidth);
-//         Chart.defaults.font.size=5;
-        
-
-//     }if (window.outerWidth<380){
-//         Chart.defaults.font.size=1;
-//     }
-// };

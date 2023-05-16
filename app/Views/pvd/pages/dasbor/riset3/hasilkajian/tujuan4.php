@@ -27,20 +27,16 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php include('tabplan_tujuan4.php'); ?>
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -61,20 +57,15 @@
             <h4 class="card-title  judul-card">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Aman" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -95,20 +86,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Tertib" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -129,20 +115,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Bersih" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -163,20 +144,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Indah" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -197,20 +173,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Ramah" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -231,20 +202,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata Dimensi "Kenangan" Menurut Jenis Industri</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -265,20 +231,15 @@
             <h4 class="card-title judul-card ">Indeks Tingkat Sadar Wisata pada Tenaga Kerja di Industri Pariwisata</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-9 grid-margin stretch-card h-100">
+                        <?php tabplan1_blok3_3() ?>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                    <div class="col-lg-3 grid-margin stretch-card h-100">
+                        <div class="card">
+                            <h3><b>Interpretasi</b></h3>
+                            <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                                <div class="col-12 col-sm-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>

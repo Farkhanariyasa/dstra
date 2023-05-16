@@ -1,7 +1,7 @@
 
   const ctx2 = document.getElementById('tujuan1_5_ya');
   const pie = new Chart(ctx2, {
-   type: 'pie',
+   type: 'doughnut',
    data: {
     labels: ['Laki-laki',
             'Perempuan',
@@ -57,7 +57,7 @@
 
  const ctx1 = document.getElementById('tujuan1_5_tidak');
   const pie2 = new Chart(ctx1, {
-   type: 'pie',
+   type: 'doughnut',
    data: {
     labels: ['Laki-laki',
             'Perempuan',
