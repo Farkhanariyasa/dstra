@@ -26,9 +26,9 @@ const pie_3 = new Chart(pie3, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Junrejo', 'Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Junrejo Berdasarkan Skala Usaha'],
                 font: {
-                    size: 20
+                    size: 14
                 }
             },
             legend:{
