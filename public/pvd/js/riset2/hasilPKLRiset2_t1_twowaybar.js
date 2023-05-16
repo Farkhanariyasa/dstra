@@ -103,7 +103,10 @@ const batang_duaarah = new Chart(t1_twowaybar, {
         maintainAspectRatio: false,
         plugins: {
             legend: {
-                display: false,
+                display: true,
+                // font: {
+                //     size: 12
+                // }
             },
             title: {
                 display: true,
