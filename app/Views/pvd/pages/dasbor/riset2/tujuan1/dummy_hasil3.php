@@ -33,7 +33,7 @@
                             </button>
                         </div>
                     </div>
-                    <div style=" height:500px;">
+                    <div style=" height: 490px; width: 450px;">
                         <canvas class="mt-1" id="t1_twowaybar"></canvas>
                     </div>
                     <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">

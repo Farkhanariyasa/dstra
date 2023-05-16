@@ -96,6 +96,15 @@ class Riset4 extends BaseController
             'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
         ];
 
+        $ikuptikPerDimensi = [
+            'dimensi1' => $this->uup->getRataanGeo('dimensi1'),
+            'dimensi2' => $this->uup->getRataanGeo('dimensi2'),
+            'dimensi3' => $this->uup->getRataanGeo('dimensi3'),
+            'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
+            'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
+            'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
         // ke bawah adalah kode dummy
         // $kecamatanEkonomi = [
         //     'batu1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 1, 1),
@@ -165,6 +174,7 @@ class Riset4 extends BaseController
             'uupKecBatuSkala' => $uupKecBatuSkala,
             'uupKecJunrejoSkala' => $uupKecJunrejoSkala,
             'uupKecBumiajiSkala' => $uupKecBumiajiSkala,
+            'ikuptikPerDimensi' => $ikuptikPerDimensi,
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,
