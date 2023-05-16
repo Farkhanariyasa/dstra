@@ -3,7 +3,17 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <div class="row portfolio-container">
-      <?php include('map_chart_3_1.php') ?>
+      <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
+        <div class="isi-tujuan shadow mt-0 mb-0">
+          <h4 class="card-title judul-card">Semua</h4>
+
+          <div class="card-body">
+            <div class="row">
+              <?php include('map_chart_3_1.php') ?>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row portfolio-container">
       <?php include('bar_4_3_1.php') ?>
@@ -32,7 +42,7 @@
 
 <!-- Data Chart -->
 <script>
-    const b407a = <?= json_encode($b407a) ?>;
+    const q231_407a = <?= json_encode($q231_407a) ?>;
 </script>
 
 <!-- Import Chart -->

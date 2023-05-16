@@ -9,9 +9,9 @@ new Chart(VIZ_1, {
     datasets: [{
         label: 'Rata-rata IKUPTIK',
         data: [
-            IKUPTIK_JASA_TRANSPORTASI.b1091,
-            IKUPTIK_JASA_TRANSPORTASI.b1092,
-            IKUPTIK_JASA_TRANSPORTASI.b1093
+            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha1,
+            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha2,
+            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha3
         ],
         borderWidth: 1,
         backgroundColor: [

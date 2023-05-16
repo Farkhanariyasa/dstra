@@ -96,35 +96,44 @@ class Riset4 extends BaseController
             'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
         ];
 
+        $ikuptikPerDimensi = [
+            'dimensi1' => $this->uup->getRataanGeo('dimensi1'),
+            'dimensi2' => $this->uup->getRataanGeo('dimensi2'),
+            'dimensi3' => $this->uup->getRataanGeo('dimensi3'),
+            'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
+            'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
+            'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
         // ke bawah adalah kode dummy
         // $kecamatanEkonomi = [
-        //     'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 1),
-        //     'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 2),
-        //     'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 3),
-        //     'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 1, 4),
-        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 1),
-        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 2),
-        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 3),
-        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 2, 4),
-        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 1),
-        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 2),
-        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 3),
-        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b501', 3, 4),
+        //     'batu1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 1, 1),
+        //     'batu2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 1, 2),
+        //     'batu3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 1, 3),
+        //     'batu4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 1, 4),
+        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 2, 1),
+        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 2, 2),
+        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 2, 3),
+        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 2, 4),
+        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 3, 1),
+        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 3, 2),
+        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 3, 3),
+        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b501', 3, 4),
         // ];
 
         // $kecamatanArsipDiigital = [
-        //     'batu1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 1),
-        //     'batu2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 2),
-        //     'batu3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 3),
-        //     'batu4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 1, 4),
-        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 1),
-        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 2),
-        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 3),
-        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 2, 4),
-        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 1),
-        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 2),
-        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 3),
-        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('b109', 'b502', 3, 4),
+        //     'batu1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 1, 1),
+        //     'batu2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 1, 2),
+        //     'batu3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 1, 3),
+        //     'batu4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 1, 4),
+        //     'junrejo1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 2, 1),
+        //     'junrejo2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 2, 2),
+        //     'junrejo3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 2, 3),
+        //     'junrejo4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 2, 4),
+        //     'bumiaji1' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 3, 1),
+        //     'bumiaji2' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 3, 2),
+        //     'bumiaji3' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 3, 3),
+        //     'bumiaji4' => $this->SDM->getJumlahUUPSDM('jenis_usaha', 'b502', 3, 4),
         // ];
 
         // $uu = [
@@ -139,11 +148,11 @@ class Riset4 extends BaseController
         //     'ya' => $this->unitusahaTIK->getUnitUsahaTIK1(2),
         // ];
 
-        // $b407a = [
-        //     'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
-        //     'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
-        //     'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
-        //     'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
+        // $q231_407a = [
+        //     'q231_407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
+        //     'q231_407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
+        //     'q231_407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
+        //     'q231_407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
         // ];
 
         // $pd = $this->pendapatan->getPendapatan();
@@ -165,11 +174,12 @@ class Riset4 extends BaseController
             'uupKecBatuSkala' => $uupKecBatuSkala,
             'uupKecJunrejoSkala' => $uupKecJunrejoSkala,
             'uupKecBumiajiSkala' => $uupKecBumiajiSkala,
+            'ikuptikPerDimensi' => $ikuptikPerDimensi,
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,
             // 'b401a' => $b401a,
-            // 'b407a' => $b407a,
+            // 'q231_407a' => $q231_407a,
             // 'umur' => $umur,
             // 'pdnf' => $pdnf,
             // 'kecamatanEkonomi' => $kecamatanEkonomi,
@@ -281,75 +291,75 @@ class Riset4 extends BaseController
     public function menu4submenu2()
     {         
         $dimensi1_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi1_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi2_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b407a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b407a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b407a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 3)
         ];
 
         $dimensi2_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b407a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b407a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b407a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 3)
         ];
 
         $dimensi3_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b405a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b405a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b405a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 3)
         ];
 
         $dimensi3_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b405a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b405a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b405a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 3)
         ];
 
         $dimensi4_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi4_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi5_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi5_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi6_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $dimensi6_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("b109", "b409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("b109", "b409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
+            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
         ];
 
         $menu = getMenu();
@@ -375,18 +385,18 @@ class Riset4 extends BaseController
 
     public function menu4submenu3()
     {
-        $b407a = [
-            'b407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
-            'b407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
-            'b407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
-            'b407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
+        $q231_407a = [
+            'q231_407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
+            'q231_407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
+            'q231_407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
+            'q231_407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
         ];
 
         $menu = getMenu();
         $data = [
             'judul' => 'Kecamatan',
             'menu' => $menu['riset4'],
-            'b407a' => $b407a,
+            'q231_407a' => $q231_407a,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/kecamatan', $data);
     }
@@ -394,21 +404,21 @@ class Riset4 extends BaseController
     public function menu4submenu4()
     {
         $jasaTransportasi = [
-            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK(1),
-            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK(2),
-            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK(3),
+            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK(1),
+            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK(2),
+            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK(3),
         ];
 
         $jasaPenyediaMakananDanMinuman = [
-            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK2(1),
-            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK2(2),
-            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK2(3),
+            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK2(1),
+            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK2(2),
+            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK2(3),
         ];
 
         $jasaAkomodasi = [
-            'b1091' => $this->unitusahaTIK->getRataanIKUPTIK3(1),
-            'b1092' => $this->unitusahaTIK->getRataanIKUPTIK3(2),
-            'b1093' => $this->unitusahaTIK->getRataanIKUPTIK3(3),
+            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK3(1),
+            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK3(2),
+            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK3(3),
         ];
 
         $menu = getMenu();

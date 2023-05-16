@@ -33,7 +33,14 @@ class Riset4HasilSpModel extends Model
         $result =  $this->where([$kolom_kategorik1 => $k1, $kolom_kategorik2 => $k2])->select($sub_query)->first();
         return $result['rataan'];
     }
-        
+
+    # fungsi agregat (geometric mean) untuk satu kolom numerik
+    public function getRataanGeo($kolom_numerik){
+        $sub_query = 'exp(avg(ln('.$kolom_numerik.'))) as rataan';
+        $result =  $this->select($sub_query)->first();
+        return round($result['rataan'], 2);
+    }
+
     // ke bawah adalah kode dummy
     # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
     public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
@@ -41,29 +48,29 @@ class Riset4HasilSpModel extends Model
     }
 
     public function getUnitUsahaTIK($uu){
-        return $this->where(["b409a" => $uu])->countAllResults();
+        return $this->where(["q221_409a" => $uu])->countAllResults();
     }
 
-    public function getUnitUsahaTIK1($b401a){
-        return $this->where(["b401a" => $b401a])->countAllResults();
+    public function getUnitUsahaTIK1($q231_401a){
+        return $this->where(["q231_401a" => $q231_401a])->countAllResults();
     }
 
-    public function getUnitUsahaTIK2($b407a){
-        return $this->where(["b407a" => $b407a])->countAllResults();
+    public function getUnitUsahaTIK2($q231_407a){
+        return $this->where(["q231_407a" => $q231_407a])->countAllResults();
     }
 
-    public function getRataanIKUPTIK($b109){
-        $result =  $this->where(["b109" => $b109])->select('avg(b405a) as rataan')->first();
+    public function getRataanIKUPTIK($jenis_usaha){
+        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
         return $result['rataan'];
     }
 
-    public function getRataanIKUPTIK2($b109){
-        $result =  $this->where(["b109" => $b109])->select('avg(b407a) as rataan')->first();
+    public function getRataanIKUPTIK2($jenis_usaha){
+        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
         return $result['rataan'];
     }
 
-    public function getRataanIKUPTIK3($b109){
-        $result =  $this->where(["b109" => $b109])->select('avg(b409a) as rataan')->first();
+    public function getRataanIKUPTIK3($jenis_usaha){
+        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
         return $result['rataan'];
     }
 

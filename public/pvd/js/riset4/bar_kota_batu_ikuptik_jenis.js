@@ -1,23 +1,18 @@
-const VIZ_3 = document.getElementById('viz-3');
-new Chart(VIZ_3, {
+const barIkuptik2 = document.getElementById('bar-kota-batu-ikuptik-jenis');
+new Chart(barIkuptik2, {
     type: 'bar',
     data: {
-    labels: [['Jasa Transportasi'],
-            ['Jasa Penyedia Makanan dan Minuman'],
-            ['Jasa Akomodasi']
-        ],
+    labels: [['Jasa Transportasi'], ['Jasa Penyedia', 'Makanan dan Minuman'], ['Jasa Akomodasi'],
+    ],
     datasets: [{
-        label: 'Rata-rata IKUPTIK',
-        data: [
-            IKUPTIK_JASA_AKOMODASI.jenis_usaha1,
-            IKUPTIK_JASA_AKOMODASI.jenis_usaha2,
-            IKUPTIK_JASA_AKOMODASI.jenis_usaha3
-        ],
+        label: 'IKUPTIK',
+        data: [51.11, 45.52, 51.11],
         borderWidth: 1,
         backgroundColor: [
-            "#7382ab",
-            "#ffbc33",
-            "#6f617f"
+            "#ffab00", "#506396",
+            "#4b395f", "#b35c74",
+            "#ffbc33", "#7382ab",
+            "#6f617f", "#c27d90"
         ],
     }]
     },
@@ -33,7 +28,7 @@ new Chart(VIZ_3, {
         plugins: {
             title: {
                 display: true,
-                text : ['Rata-rata IKUPTIK Berdasarkan Jenis Usaha Pariwisata'],
+                text : ['IKUPTIK di Kota Batu Berdasarkan Jenis Usahanya'],
                 font: {
                     size: 20
                 }

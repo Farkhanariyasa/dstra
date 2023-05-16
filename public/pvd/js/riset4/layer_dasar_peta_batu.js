@@ -43,7 +43,7 @@ function resetHighlight(e) {
 
 var peta_batu_hasil_2 = L.map("peta-batu").setView(
   [-7.8328, 112.5342],
-  11.3
+  11
 );
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -79,7 +79,7 @@ info.update = function (props) {
         "</b><br />" +
         props.IKUPTIK
         // " people / mi<sup>2</sup>"
-      : "Kecamatan");
+      : "Kota Batu </b><br /> 46.98");
 };
 
 info.addTo(peta_batu_hasil_2);

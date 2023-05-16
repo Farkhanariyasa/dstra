@@ -12,10 +12,10 @@ new Chart(bar1, {
     datasets: [{
         label: 'Jumlah Unit Usaha',
         data: [
-            b407a.b407a1,
-            b407a.b407a2,
-            b407a.b407a3,
-            b407a.b407a4,
+            q231_407a.q231_407a1,
+            q231_407a.q231_407a2,
+            q231_407a.q231_407a3,
+            q231_407a.q231_407a4,
             10,
             10
         ],
