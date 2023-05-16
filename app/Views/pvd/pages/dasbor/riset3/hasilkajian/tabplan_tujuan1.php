@@ -144,7 +144,6 @@ function tabplan1_blok3_2()
     </div>
 <?php }
 
-
 function tabplan1_blok3_3()
 {
 ?>
@@ -599,7 +598,8 @@ function tabplan1_blok3_10()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">"Ada, digunakan hanya ART sendiri"</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">"Ada, digunakan hanya ART sendiri</th>
                         <th scope="col">Ada, digunakan bersama ART rumah tangga tertentu</th>
                         <th scope="col">Ada, di MCK komunal</th>
                         <th scope="col">Ada, di MCK umum/siapapun menggunakan</th>
@@ -663,21 +663,15 @@ function tabplan1_blok3_11()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Leher angsa</th>
+                        <th scope="col">Plesengan dengan tutup</th>
+                        <th scope="col">Plesengan tanpa tutup</th>
+                        <th scope="col">Cemplung/cubluk</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -687,15 +681,9 @@ function tabplan1_blok3_11()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -705,24 +693,15 @@ function tabplan1_blok3_11()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -741,20 +720,16 @@ function tabplan1_blok3_12()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Tangki septik</th>
+                        <th scope="col">IPAL</th>
+                        <th scope="col">Kolam/sawah/sungai/danau/laut</th>
+                        <th scope="col">Lubang tanah</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -766,13 +741,9 @@ function tabplan1_blok3_12()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -784,8 +755,6 @@ function tabplan1_blok3_12()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
@@ -793,13 +762,9 @@ function tabplan1_blok3_12()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -819,12 +784,17 @@ function tabplan1_blok3_13()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Air Kemasan Bermerk</th>
+                        <th scope="col">Air Isi Ulang</th>
+                        <th scope="col">Leding</th>
+                        <th scope="col">Sumur Bor/Pompa</th>
+                        <th scope="col">Sumur Terlindung</th>
+                        <th scope="col">Sumur Tak Terlindung</th>
+                        <th scope="col">Mata Air Terlindung</th>
+                        <th scope="col">Mata Air Tak Terlindung</th>
+                        <th scope="col">Air Permukaan</th>
+                        <th scope="col">Air Hujan</th>
                         <th scope="col">Lainnya</th>
                     </tr>
                 </thead>
@@ -837,9 +807,21 @@ function tabplan1_blok3_13()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -855,9 +837,19 @@ function tabplan1_blok3_13()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -873,9 +865,19 @@ function tabplan1_blok3_13()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -897,13 +899,9 @@ function tabplan1_blok3_14()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Kurang dari 10 meter</th>
+                        <th scope="col">Jenis Industri Pariwisata </th>
+                        <th scope="col">>= 10 meter</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -911,17 +909,9 @@ function tabplan1_blok3_14()
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -929,35 +919,18 @@ function tabplan1_blok3_14()
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -975,12 +948,17 @@ function tabplan1_blok3_15()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Air Kemasan Bermerk</th>
+                        <th scope="col">Air Isi Ulang</th>
+                        <th scope="col">Leding</th>
+                        <th scope="col">Sumur Bor/Pompa</th>
+                        <th scope="col">Sumur Terlindung</th>
+                        <th scope="col">Sumur Tak Terlindung</th>
+                        <th scope="col">Mata Air Terlindung</th>
+                        <th scope="col">Mata Air Tak Terlindung</th>
+                        <th scope="col">Air Permukaan</th>
+                        <th scope="col">Air Hujan</th>
                         <th scope="col">Lainnya</th>
                     </tr>
                 </thead>
@@ -993,9 +971,21 @@ function tabplan1_blok3_15()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1011,9 +1001,19 @@ function tabplan1_blok3_15()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1029,9 +1029,19 @@ function tabplan1_blok3_15()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1044,7 +1054,7 @@ function tabplan1_blok3_15()
         </div>
     </div>
 <?php }
-function tabplan1_blok3_16()
+function tabplan1_blok3_16() //need
 {
 ?>
     <div class="card">
@@ -1053,6 +1063,7 @@ function tabplan1_blok3_16()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
                         <th scope="col">Tingkat</th>
                         <th scope="col">Tembok</th>
                         <th scope="col">Plestera</th>
@@ -1071,9 +1082,11 @@ function tabplan1_blok3_16()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1089,9 +1102,11 @@ function tabplan1_blok3_16()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1107,9 +1122,11 @@ function tabplan1_blok3_16()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1131,13 +1148,9 @@ function tabplan1_blok3_17()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Sumber Air Minum Bersih</th>
+                        <th scope="col">Akses Air Minum Layak</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1145,17 +1158,9 @@ function tabplan1_blok3_17()
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1163,17 +1168,9 @@ function tabplan1_blok3_17()
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1181,17 +1178,9 @@ function tabplan1_blok3_17()
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1209,13 +1198,9 @@ function tabplan1_blok3_18()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Sanitasi Layak</th>
+                        <th scope="col">Sanitasi Tidak Layak</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1223,17 +1208,9 @@ function tabplan1_blok3_18()
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa makan dan minum</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1241,17 +1218,9 @@ function tabplan1_blok3_18()
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1259,17 +1228,9 @@ function tabplan1_blok3_18()
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Jenis industri lainnya</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
@@ -1287,18 +1248,81 @@ function tabplan1_blok3_19()
             <table class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Tingkat</th>
-                        <th scope="col">Tembok</th>
-                        <th scope="col">Plestera</th>
-                        <th scope="col">Kayu</th>
-                        <th scope="col">Anyaman</th>
-                        <th scope="col">Bambu</th>
-                        <th scope="col">Lainnya</th>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Rumah Layak Huni</th>
+                        <th scope="col">Rumah Tidak Layak Huni</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok4_1()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            < 15 tahun</th>
+                        <th scope="col">15 - 19 tahun</th>
+                        <th scope="col">20 - 24 tahun</th>
+                        <th scope="col">25 - 29 tahun</th>
+                        <th scope="col">30 - 34 tahun</th>
+                        <th scope="col">35 - 39 tahun</th>
+                        <th scope="col">40 - 44 tahun</th>
+                        <th scope="col">45 - 49 tahun</th>
+                        <th scope="col">50 - 54 tahun</th>
+                        <th scope="col">55 - 59 tahun</th>
+                        <th scope="col">60 - 64 tahun</th>
+                        <th scope="col">65+ tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1314,9 +1338,21 @@ function tabplan1_blok3_19()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1332,9 +1368,21 @@ function tabplan1_blok3_19()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
@@ -1348,6 +1396,175 @@ function tabplan1_blok3_19()
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok4_2()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">KRT</th>
+                        <th scope="col">Bukan KRT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok4_3()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Belum Kawin</th>
+                        <th scope="col">Kawin</th>
+                        <th scope="col">Cerai Hidup</th>
+                        <th scope="col">Cerai Mati</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok4_4()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Laki-Laki</th>
+                        <th scope="col">Perempuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
                         <td>0</td>
                         <td>0</td>
                     </tr>
