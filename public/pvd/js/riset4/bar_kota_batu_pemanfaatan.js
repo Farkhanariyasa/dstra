@@ -36,8 +36,16 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
     },
     options: {
         scales: {
-            y: {
-            beginAtZero: true
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{            
+                beginAtZero: true,
+                grid:{
+                    display:false
+                },
             }
         },
         maintainAspectRatio: false,
@@ -52,7 +60,7 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Pemilik atau Pengelola Unit Usaha Pariwisata Berdasarkan Tingkat Pendidikan'],
+                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata Berdasarkan Kegiatan Pemanfaatannya'],
                 font: {
                     size: 20
                 }
