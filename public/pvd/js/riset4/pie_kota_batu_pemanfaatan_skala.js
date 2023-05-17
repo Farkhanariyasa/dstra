@@ -1,6 +1,6 @@
-const pie4 = document.getElementById('pie-kec-bumiaji-skala');
+const piePemanfaatanSkala1 = document.getElementById('pie-kota-batu-pemanfaatan-skala');
 
-const pie_4 = new Chart(pie4, {
+const piePemanfaatanSkala_1 = new Chart(piePemanfaatanSkala1, {
     type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
@@ -10,8 +10,8 @@ const pie_4 = new Chart(pie4, {
         datasets: [{
             label: 'Unit Usaha',
             data: [
-                uupKecBumiajiSkala.mikro,
-                uupKecBumiajiSkala.kecil,
+                pemanfaatanTikSkala.mikro,
+                pemanfaatanTikSkala.kecil,
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -26,9 +26,9 @@ const pie_4 = new Chart(pie4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Skala Usaha'],
+                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Skala Usaha'],
                 font: {
-                    size: 14
+                    size: 18
                 }
             },
             legend:{
@@ -65,22 +65,22 @@ const pie_4 = new Chart(pie4, {
     plugins: [ChartDataLabels]
 });
 
-const pieKecBumiajiSkalaLegend = document.getElementById('pie-kec-bumiaji-skala-legend');
-pieKecBumiajiSkalaLegend.addEventListener('click', update_value4(chk_bx));
+const pieKotaBatuPemanfaatanSkalaLegend = document.getElementById('pie-kota-batu-pemanfaatan-skala-legend');
+pieKotaBatuPemanfaatanSkalaLegend.addEventListener('click', update_value_pemanfaatan_skala1(chk_bx));
 
-function update_value4(chk_bx){
+function update_value_pemanfaatan_skala1(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        pie_4.options.plugins.legend.display=true;
-        pie_4.update();
+        piePemanfaatanSkala_1.options.plugins.legend.display=true;
+        piePemanfaatanSkala_1.update();
     }
         
     else
     {
         console.log('uncheck');
-        pie_4.options.plugins.legend.display=false;
-        pie_4.update();
+        piePemanfaatanSkala_1.options.plugins.legend.display=false;
+        piePemanfaatanSkala_1.update();
   
     }
 }

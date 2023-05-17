@@ -257,7 +257,10 @@
                         <!-- Populasi -->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-users col-1 ikon"></i>
+                                <!-- <i class="fas fa-users col-1 ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi</strong></h5>
                                 <p class="card-text text-justify">
                                     <div class="text-justify" style="line-height: 25px;">
@@ -270,7 +273,10 @@
                         <!-- Populasi Target-->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-user-friends col-1 ikon"></i>
+                                <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi_target.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi Target</strong></h5>
                                 <p class="card-text text-justify">
                                     <div class="text-justify" style="line-height: 25px;">
@@ -283,7 +289,10 @@
                         <!-- Unit Observasi-->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_observasi.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Observasi</strong></h5>
                                 <p class="card-text text-justify">
                                     <div class="text-justify" style="line-height: 25px;">
@@ -342,7 +351,10 @@
                                 <!-- Primary Sampling Unit -->
                                 <div class="col-5 align-items-center d-flex align-self-center">
                                     <div class="card-body text-center batasan2 shadow">
-                                        <i class="fas fa-home col-1 ikon"></i>
+                                        <!-- <i class="fas fa-home col-1 ikon"></i> -->
+                                        <div class="row-6 d-flex align-items-center justify-content-center">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset2/primary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                        </div>
                                         <div class="col">
                                             <p class="card-title text-center">
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Primary Sampling Unit</strong></div>
@@ -356,7 +368,10 @@
                                 <!-- Secondary Sampling Unit -->
                                 <div class="col-5 align-items-center d-flex align-self-center">
                                     <div class="card-body text-center batasan2 shadow">
-                                        <i class="fas fa-city col-1 ikon"></i>
+                                        <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                                        <div class="row-6 d-flex align-items-center justify-content-center">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset2/secondary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                        </div>
                                         <div class="col">
                                             <p class="card-title text-center">
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Secondary Sampling Unit</strong></div>
@@ -386,7 +401,10 @@
                         <!-- Unit Analisis-->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_analisis.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Analisis</strong></h5>
                                 <p class="card-text text-justify">
                                     <div class="text-justify" style="line-height: 25px;">
@@ -399,7 +417,10 @@
                         <!-- Kerangka Sampel -->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-clipboard-list ikon"></i>
+                                <!-- <i class="fas fa-clipboard-list ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/kerangka_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
                                 <p class="card-text text-justify">
                                 
@@ -480,7 +501,10 @@
                         <!-- Metode Penarikan Sampel -->
                         <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
-                                <i class="fas fa-cubes ikon"></i>
+                                <!-- <i class="fas fa-cubes ikon"></i> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/metode_penarikan_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Metode Penarikan Sampel</strong></h5>
                                 <p class="card-text text-center">
                                 <div class="text-justify" style="line-height: 25px;">

@@ -27,14 +27,20 @@
             </ul>
         </div>
     </div>
-    <div class="row" id="row">
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="row portfolio-container" id="test">
-        <?php include('dummy_statsrelawansby.php') ?>
-      </div>
+    <div class="row " id="row">
+        <div class="row col-lg-12 d-flex justify-content-center mt-2">
+            <div class="row portfolio-container" id="test">
+                <?php include('dummy_statsrelawansby.php') ?>
+            </div>
+        </div>
     </div>
-  </div>
 
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- import chart -->
+<script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output1.js') ?>"></script>
 
 </section>
 

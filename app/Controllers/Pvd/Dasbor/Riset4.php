@@ -77,23 +77,23 @@ class Riset4 extends BaseController
         ];
 
         $uupKotaBatuSkala = [
-            'mikro' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 1),
-            'kecil' => $this->uup->getJumlahUUP('gender_pemilik_pengelola', 2),
+            'mikro' => $this->uup->getJumlahUUP('skala_usaha', 1),
+            'kecil' => $this->uup->getJumlahUUP('skala_usaha', 2),
         ];
 
         $uupKecBatuSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BATU'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BATU'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BATU'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BATU'),
         ];
 
         $uupKecJunrejoSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'JUNREJO'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'JUNREJO'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'JUNREJO'),
         ];
 
         $uupKecBumiajiSkala = [
-            'mikro' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 1, 'BUMIAJI'),
-            'kecil' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kecamatan', 2, 'BUMIAJI'),
+            'mikro' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'kecil' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BUMIAJI'),
         ];
 
         $ikuptikPerDimensi = [
@@ -103,6 +103,43 @@ class Riset4 extends BaseController
             'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
             'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
             'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
+        $tingkatPendidikan = [
+            'tingkatPendidikan1' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 1),
+            'tingkatPendidikan2' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 2),
+            'tingkatPendidikan3' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 3),
+            'tingkatPendidikan4' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 4),
+            'tingkatPendidikan5' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 5),
+            'tingkatPendidikan6' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 6),
+            'tingkatPendidikan7' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 7),
+        ];
+
+        $pemanfaatanTik = [
+            'tidak' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 1),
+            'ya' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 2),
+        ];
+
+        $pemanfaatanTikJenis = [
+            'transportasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 1),
+            'makanan' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 2),
+            'akomodasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 3),
+        ];
+
+        $pemanfaatanTikSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 1),
+            'kecil' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 2),
+        ];
+
+        $pemanfaatanTikKegiatan =[
+            'penjualan' => $this->uup->getJumlahUUP3('q231_407a', 1),
+            'promosi' => $this->uup->getJumlahUUP3('q231_405a', 1),
+            'transaksi' => $this->uup->getJumlahUUP3('q221_409a', 1),
+            'logistik' => $this->uup->getJumlahUUP3('q241_417', 1),
+            'faktur' => $this->uup->getJumlahUUP3('q222_411', 1),
+            'pencatatanKeuangan' => $this->uup->getJumlahUUP3('q211_413', 1),
+            'tenagaKerja' => $this->uup->getJumlahUUP3('q251_419', 1),
+            'perencanaankeuangan' => $this->uup->getJumlahUUP3('q261_415', 1),
         ];
 
         // ke bawah adalah kode dummy
@@ -175,6 +212,11 @@ class Riset4 extends BaseController
             'uupKecJunrejoSkala' => $uupKecJunrejoSkala,
             'uupKecBumiajiSkala' => $uupKecBumiajiSkala,
             'ikuptikPerDimensi' => $ikuptikPerDimensi,
+            'tingkatPendidikan' => $tingkatPendidikan,
+            'pemanfaatanTik' => $pemanfaatanTik,
+            'pemanfaatanTikJenis' => $pemanfaatanTikJenis,
+            'pemanfaatanTikSkala' => $pemanfaatanTikSkala,
+            'pemanfaatanTikKegiatan' => $pemanfaatanTikKegiatan,
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,
