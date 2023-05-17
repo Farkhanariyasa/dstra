@@ -53,7 +53,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
           size: 16,
           family: "Poppins",
         },
-        color: "#493a5a",
+        color: "#493a5a", 
         padding: {
           top: 5,
           bottom: 25,
