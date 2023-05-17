@@ -13,7 +13,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
       },
       {
         label: "Data Testing",
-        data: [8, 7, 3, 8, 89, 23],
+        data: [8, 7, 3, 8, 89, 23], 
         backgroundColor: "#ffab00",
         borderWidth: 1,
       },
