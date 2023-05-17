@@ -20,39 +20,33 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>1601</td>
+                        <td>4727</td>
+                        <td>2953</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>1748</td>
+                        <td>5046</td>
+                        <td>2887</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>1660</td>
+                        <td>6908</td>
+                        <td>4161</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>1532</td>
+                        <td>5948</td>
+                        <td>3883</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>1424</td>
+                        <td>3401</td>
+                        <td>2388</td>
                     </tr>
                 </tbody>
             </table>
@@ -79,63 +73,48 @@
                         <th scope="col">Kecamatan Klojen</th>
                         <th scope="col">Kecamatan Lowokwaru</th>
                         <th scope="col">Kecamatan Sukun</th>
-                        <th scope="col">Total</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td>113</td>
+                        <td>563</td>
+                        <td>2936</td>
+                        <td>724</td>
+                        <td>391</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td>460</td>
+                        <td>181</td>
+                        <td>3666</td>
+                        <td>346</td>
+                        <td>393</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td>768</td>
+                        <td>736</td>
+                        <td>3981</td>
+                        <td>674</td>
+                        <td>749</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td>905</td>
+                        <td>415</td>
+                        <td>3557</td>
+                        <td>511</td>
+                        <td>560</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td>267</td>
+                        <td>366</td>
+                        <td>2510</td>
+                        <td>218</td>
+                        <td>40</td>
                     </tr>
                 </tbody>
             </table>
@@ -161,51 +140,38 @@
                         <th scope="col">Ke Objek Wisata</th>
                         <th scope="col">Menginap di Akomodasi Komersial</th>
                         <th scope="col">Menuju Kecamatan Lain</th>
-                        <th scope="col">Total</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td>2486</td>
+                        <td>43</td>
+                        <td>2198</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td>3259</td>
+                        <td>48</td>
+                        <td>1739</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td>4374</td>
+                        <td>133</td>
+                        <td>2401</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td>2392</td>
+                        <td>83</td>
+                        <td>3473</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Total</th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td>1861</td>
+                        <td>35</td>
+                        <td>1505</td>
                     </tr>
                 </tbody>
             </table>
