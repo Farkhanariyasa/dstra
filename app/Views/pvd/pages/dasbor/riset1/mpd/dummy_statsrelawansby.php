@@ -14,7 +14,7 @@
                                     <div class="form-check form-switch me-3">
                                         <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
