@@ -1,4 +1,4 @@
-let delayed7;
+let delayed_relawan1;
 const relawan_output1 = document.getElementById("relawan_output1");
 const bar_relawan1 = new Chart(relawan_output1, {
   type: "bar",
@@ -24,11 +24,11 @@ const bar_relawan1 = new Chart(relawan_output1, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed7 = true;
+        delayed_relawan1 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed7) {
+        if (context.type === "data" && context.mode === "default" && !delayed_relawan1) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -48,7 +48,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
     plugins: {
       title: {
         display: true,
-        text: ["Jumlah Wisatawan Nusantara Berdasarkan Status Kepemilikan Ponsel dan", "Dikategorikan Menurut Kelompok Umur di Kota Malang Triwulan IV 2022"],
+        text: ["Jumlah Relawan"],
         font: {
           size: 16,
           family: "Poppins",
