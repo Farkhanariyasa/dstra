@@ -8,13 +8,13 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:400px">
-                                    <canvas class="mt1" id="riset1_hasil4"></canvas>
+                                    <canvas class="mt1" id="relawan_output1"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_mpw(this);" type="checkbox" id="forBarChartAxis_mpw" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -102,11 +102,11 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:400px">
-                                    <canvas class="mt1" id="riset1_hasil4"></canvas>
+                                    <canvas class="mt1" id="relawan_output4"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_mpw(this);" type="checkbox" id="forBarChartAxis_mpw" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output4(this);" type="checkbox" id="forBarChartAxisRelawan_output4" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>

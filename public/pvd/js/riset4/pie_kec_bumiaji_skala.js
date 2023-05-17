@@ -26,9 +26,9 @@ const pie_4 = new Chart(pie4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji', 'Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Skala Usaha'],
                 font: {
-                    size: 20
+                    size: 14
                 }
             },
             legend:{

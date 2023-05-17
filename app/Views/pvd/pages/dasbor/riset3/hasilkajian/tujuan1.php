@@ -784,7 +784,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -813,7 +813,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_2() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -842,7 +842,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_3() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -871,7 +871,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_4() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -900,7 +900,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_5() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -929,7 +929,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_6() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -958,7 +958,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_7() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -987,7 +987,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_8() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1016,7 +1016,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_9() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1045,7 +1045,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_10() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1074,7 +1074,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_11() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1103,7 +1103,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_12() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1132,7 +1132,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_13() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1161,7 +1161,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_14() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1190,7 +1190,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_15() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1219,7 +1219,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_16() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1248,7 +1248,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_17() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1277,7 +1277,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_18() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1306,7 +1306,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok5_19() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1335,7 +1335,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_1() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1364,7 +1364,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_2() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1393,7 +1393,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_3() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1422,7 +1422,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_4() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1451,7 +1451,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_5() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1480,7 +1480,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_6() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1509,7 +1509,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan1_blok3_3() ?>
+            <?php tabplan1_blok7_7() ?>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -1538,7 +1538,7 @@
         <div class="card-header">
           <strong>Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</strong>
         </div>
-        <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
+        <!-- <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
           <table class="table table-hover table-bordered table-responsive" id="table_id" style="width:100%">
             <thead style="color: #fff; font-weight:bold;">
               <tr>
@@ -1604,7 +1604,33 @@
                 <td>100</td>
             </tbody>
           </table>
-          <!-- </blockquote> -->
+          </blockquote> 
+        </div> -->
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-9 grid-margin stretch-card h-100">
+              <?php tabplan1_blok7_8() ?>
+            </div>
+            <div class="col-lg-3 grid-margin stretch-card h-100">
+              <div class="card">
+                <h3><b>Interpretasi</b></h3>
+                <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                  <div class="col-12 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card bg-secondary">
+                <div class="card-body">
+                  <div class="chartBox">
+                    <canvas class="mt1" id="tk_pie"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

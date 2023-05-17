@@ -1,6 +1,6 @@
-const piePemanfaatanJenis1 = document.getElementById('pie-kota-batu-pemanfaatan-jenis');
+const doughnut4 = document.getElementById('doughnut-kec-bumiaji');
 
-const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
+const doughnut_4 = new Chart(doughnut4, {
     type: 'doughnut',
     data: {
         labels: [ ["Jasa Transportasi Wisata"],
@@ -9,11 +9,11 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
         ],
 
         datasets: [{
-            label: 'Unit Usaha',
+            label: 'Jumlah Unit Usaha Pariwisata',
             data: [
-                pemanfaatanTikJenis.transportasi,
-                pemanfaatanTikJenis.makanan,
-                pemanfaatanTikJenis.akomodasi,
+                uupKecBumiaji.transportasi,
+                uupKecBumiaji.makan,
+                uupKecBumiaji.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -29,9 +29,9 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Jenis Usahanya'],
                 font: {
-                    size: 18
+                    size: 14
                 }
             },
             legend:{
@@ -68,22 +68,22 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
     plugins: [ChartDataLabels]
 });
 
-const pieKotaBatuPemanfaatanJenisLegend = document.getElementById('pie-kota-batu-pemanfaatan-jenis-legend');
-pieKotaBatuPemanfaatanJenisLegend.addEventListener('click', update_value_pemanfaatan_jenis1(chk_bx));
+const doughnutKecBumiajiLegend = document.getElementById('doughnut-kec-bumiaji-legend');
+doughnutKecBumiajiLegend.addEventListener('click', update_value_doughnut4(chk_bx));
 
-function update_value_pemanfaatan_jenis1(chk_bx){
+function update_value_doughnut4(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        piePemanfaatanJenis_1.options.plugins.legend.display=true;
-        piePemanfaatanJenis_1.update();
+        doughnut_4.options.plugins.legend.display=true;
+        doughnut_4.update();
     }
         
     else
     {
         console.log('uncheck');
-        piePemanfaatanJenis_1.options.plugins.legend.display=false;
-        piePemanfaatanJenis_1.update();
+        doughnut_4.options.plugins.legend.display=false;
+        doughnut_4.update();
   
     }
 }

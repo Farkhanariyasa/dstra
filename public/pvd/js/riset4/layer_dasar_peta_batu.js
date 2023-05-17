@@ -79,7 +79,7 @@ info.update = function (props) {
         "</b><br />" +
         props.IKUPTIK
         // " people / mi<sup>2</sup>"
-      : "Kota Batu </b><br /> 46.98");
+      : "<strong>Kota Batu</strong> </b><br /> 46.98");
 };
 
 info.addTo(peta_batu_hasil_2);

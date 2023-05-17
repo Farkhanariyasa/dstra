@@ -29,7 +29,7 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tabelkajian1.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_tabulasi.js'); ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>

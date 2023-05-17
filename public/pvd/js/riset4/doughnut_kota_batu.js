@@ -1,6 +1,6 @@
-const piePemanfaatanJenis1 = document.getElementById('pie-kota-batu-pemanfaatan-jenis');
+const doughnut1 = document.getElementById('doughnut-kota-batu');
 
-const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
+const doughnut_1 = new Chart(doughnut1, {
     type: 'doughnut',
     data: {
         labels: [ ["Jasa Transportasi Wisata"],
@@ -9,11 +9,11 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
         ],
 
         datasets: [{
-            label: 'Unit Usaha',
+            label: 'Jumlah Unit Usaha Pariwisata',
             data: [
-                pemanfaatanTikJenis.transportasi,
-                pemanfaatanTikJenis.makanan,
-                pemanfaatanTikJenis.akomodasi,
+                uupKotaBatu.transportasi,
+                uupKotaBatu.makan,
+                uupKotaBatu.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -29,14 +29,14 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usahanya'],
                 font: {
-                    size: 18
+                    size: 20
                 }
             },
             legend:{
                 display: true,
-                position: 'bottom',
+                position: 'right',
             },
             tooltip:{
                 enabled: true,
@@ -68,22 +68,22 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
     plugins: [ChartDataLabels]
 });
 
-const pieKotaBatuPemanfaatanJenisLegend = document.getElementById('pie-kota-batu-pemanfaatan-jenis-legend');
-pieKotaBatuPemanfaatanJenisLegend.addEventListener('click', update_value_pemanfaatan_jenis1(chk_bx));
+const doughnutKotaBatuLegend = document.getElementById('doughnut-kota-batu-legend');
+doughnutKotaBatuLegend.addEventListener('click', update_value_doughnut1(chk_bx));
 
-function update_value_pemanfaatan_jenis1(chk_bx){
+function update_value_doughnut1(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        piePemanfaatanJenis_1.options.plugins.legend.display=true;
-        piePemanfaatanJenis_1.update();
+        doughnut_1.options.plugins.legend.display=true;
+        doughnut_1.update();
     }
         
     else
     {
         console.log('uncheck');
-        piePemanfaatanJenis_1.options.plugins.legend.display=false;
-        piePemanfaatanJenis_1.update();
+        doughnut_1.options.plugins.legend.display=false;
+        doughnut_1.update();
   
     }
 }

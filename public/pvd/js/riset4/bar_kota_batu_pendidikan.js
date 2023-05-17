@@ -3,23 +3,23 @@ const barPendidikan_1 = new Chart(barPendidikan1, {
     type: 'bar',
     data: {
     labels: [
-        ['Tidak tamat SD'], 
-        ['SD/MI/Sederajat'],
-        ['SMP/MTS/Sederajat'], 
         ['SMA/SMK Sederajat'],
-        ['D1/D2/D3'], 
+        ['SD/MI/Sederajat'],
+        ['SMP/MTS/Sederajat'],  
         ['D4/S1'],
+        ['Tidak tamat SD'],
+        ['D1/D2/D3'],
         ['S2/S3'],
     ],
     datasets: [{
         label: 'Jumlah',
         data: [
-            tingkatPendidikan.tingkatPendidikan1,
+            tingkatPendidikan.tingkatPendidikan4,
             tingkatPendidikan.tingkatPendidikan2,
             tingkatPendidikan.tingkatPendidikan3,
-            tingkatPendidikan.tingkatPendidikan4,
-            tingkatPendidikan.tingkatPendidikan5,
             tingkatPendidikan.tingkatPendidikan6,
+            tingkatPendidikan.tingkatPendidikan1,
+            tingkatPendidikan.tingkatPendidikan5,
             tingkatPendidikan.tingkatPendidikan7,
         ],
         borderWidth: 1,
@@ -33,17 +33,31 @@ const barPendidikan_1 = new Chart(barPendidikan1, {
     },
     options: {
         scales: {
-            y: {
-            beginAtZero: true
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{            
+                beginAtZero: true,
+                grid:{
+                    display:false
+                },
             }
         },
         maintainAspectRatio: false,
         responsive: true,
         maintainAspectRatio: false,
+        indexAxis: 'y',
+        elements: {
+            bar: {
+                borderWidth: 3,
+            }
+        },
         plugins: {
             title: {
                 display: true,
-                text : ['Pemilik atau Pengelola Unit Usaha Pariwisata Berdasarkan Tingkat Pendidikan'],
+                text : ['Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu Berdasarkan Tingkat Pendidikan'],
                 font: {
                     size: 20
                 }

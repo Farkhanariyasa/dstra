@@ -18,7 +18,7 @@
 </section>
 
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tabelkajian3.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t3_tabulasi.js'); ?>"></script>
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 

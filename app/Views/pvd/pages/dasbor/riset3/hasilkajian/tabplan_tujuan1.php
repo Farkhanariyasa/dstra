@@ -1562,4 +1562,1548 @@ function tabplan1_blok4_4()
             </table>
         </div>
     </div>
-<?php } ?>
+<?php }
+function tabplan1_blok5_1() //need
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Kelamin</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Laki-laki</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Perempuan</th>
+                        <td>17.65</td>
+                        <td>82.35</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_2()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Kelamin</th>
+                        <th scope="col">Laki-laki</th>
+                        <th scope="col">Perempuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Berusaha sendiri</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tidak tetap/pekerja keluarga/tidak dibayar</th>
+                        <td>17.65</td>
+                        <td>82.35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tetap dan dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Buruh/karyawan/pegawai</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di pertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di nonpertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja keluarga/tidak dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Eks-Pekerja</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_3()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            < Rp1.500.000</th>
+                        <th scope="col">Rp1.500.000 - Rp2.500.000</th>
+                        <th scope="col">Rp2.500.000 - Rp3.500.000</th>
+                        <th scope="col">> Rp3.500.000</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok5_4()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok5_5()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                        <th scope="col">Tidak Menggunakan Internet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok5_6()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Memanfaatkan internet untuk keperluan komunikasi</th>
+                        <th scope="col">Tidak memanfaatkan internet untuk keperluan komunikasi</th>
+                        <th scope="col">Tidak menggunakan Internet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok5_7()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Memanfaatkan internet untuk keperluan transaksi barang/jasa</th>
+                        <th scope="col">Tidak memanfaatkan internet untuk keperluan transaksi barang/jasa</th>
+                        <th scope="col">Tidak menggunakan Internet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok5_8()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Menambah Pekerjaan</th>
+                        <th scope="col">Tidak Menambah Pekerjaan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_9()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Pekerjaan Utama</th>
+                        <th scope="col">Bukan Pekerjaan Utama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudaPekerjaan Utamaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_10()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            <= 36 bulan</th>
+                        <th scope="col">> 36 bulan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_11()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_12()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_13()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Penyediaan Jasa Akomodasi Bagi Wisatawan</th>
+                        <th scope="col">Penyediaan Jasa Makan dan Minum</th>
+                        <th scope="col">Penyediaan Jasa Angkutan Darat untuk Penumpang</th>
+                        <th scope="col">Jasa Kebudayaan, Olahraga, & Rekreasi</th>
+                        <th scope="col">Aktivitas Perdagangan Barang-barang Pariwisata</th>
+                        <th scope="col">Jenis Industri Lainnya</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudaPenyediaan Jasa Akomodasi Bagi Wisatawanan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_14() //need
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_15()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_16()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Laki-laki</th>
+                        <th scope="col">Perempuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_17()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Hari</th>
+                        <th scope="col">Rata-Rata Jam Kerja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Senin</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Selasa</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Rabu</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kamis</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jum'at</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sabtu</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Minggu</th>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_18()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+function tabplan1_blok5_19()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            < Rp1.500.000</th>
+                        <th scope="col">Rp1.500.000 - Rp2.500.000</th>
+                        <th scope="col">Rp2.500.000 - Rp3.500.000</th>
+                        <th scope="col">> Rp3.500.000</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_1()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Tidak/belum pernah sekolah</th>
+                        <th scope="col">Tidak/belum SD</th>
+                        <th scope="col">SD/MI/SDLB/Paket A</th>
+                        <th scope="col">SMP/MTS/SMPLB/Paket B</th>
+                        <th scope="col">SMA/MA/SMLB/Paket C</th>
+                        <th scope="col">SMK/MAK</th>
+                        <th scope="col">Diploma I/II/III</th>
+                        <th scope="col">Diploma IV</th>
+                        <th scope="col">S1/S2/S3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+
+function tabplan1_blok7_2()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Tingkat Pendidikan</th>
+                        <th scope="col">Laki-Laki</th>
+                        <th scope="col">Perempuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Tidak/belum pernah sekolah</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tidak/belum SD</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SD/MI/SDLB/Paket A</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMP/MTS/SMPLB/Paket B</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMA/MA/SMLB/Paket C</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMK/MAK</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Diploma I/II/III</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Diploma IV</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">S1/S2/S3</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_3()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Status Pekerjaan</th>
+                        <th scope="col">
+                            <= 36 bulan</th>
+                        <th scope="col">> 36 bulan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Berusaha sendiri</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tidak tetap/pekerja keluarga/tidak dibayar</th>
+                        <td>17.65</td>
+                        <td>82.35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tetap dan dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Buruh/karyawan/pegawai</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di pertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di nonpertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja keluarga/tidak dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_4()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_5()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Tingkat Pendidikan</th>
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Tidak/belum pernah sekolah</th>
+                        <td>40</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tidak/belum SD</th>
+                        <td>31.58</td>
+                        <td>68.42</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SD/MI/SDLB/Paket A</th>
+                        <td>25.00</td>
+                        <td>75.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMP/MTS/SMPLB/Paket B</th>
+                        <td>17.91</td>
+                        <td>82.09</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMA/MA/SMLB/Paket C</th>
+                        <td>21.51</td>
+                        <td>78.49</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMK/MAK</th>
+                        <td>33.33</td>
+                        <td>66.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Diploma I/II/III</th>
+                        <td>50.00</td>
+                        <td>50.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">S1/S2/S3</th>
+                        <td>59.25</td>
+                        <td>40.74</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_6()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Kelamin</th>
+                        <!-- nama kolom jk -->
+                        <th scope="col">Ya</th>
+                        <th scope="col">Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Laki-laki</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Perempuan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_7()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            <= 36 bulan</th>
+                        <th scope="col">> 36 bulan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa makan dan minum</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jenis industri lainnya</th>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+
+function tabplan1_blok7_8()
+{
+?>
+    <div class="card">
+        <h3><b>Tabulasi</b></h3>
+        <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Jenis Industri Pariwisata</th>
+                        <th scope="col">
+                            <= 36 bulan</th>
+                        <th scope="col">> 36 bulan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Berusaha sendiri</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tidak tetap/pekerja keluarga/tidak dibayar</th>
+                        <td>17.65</td>
+                        <td>82.35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Berusaha dibantu pekerja tetap dan dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Buruh/karyawan/pegawai</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di pertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di nonpertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja keluarga/tidak dibayar</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pekerja bebas di pertanian</th>
+                        <td>28.29</td>
+                        <td>71.71</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php }
+?>
