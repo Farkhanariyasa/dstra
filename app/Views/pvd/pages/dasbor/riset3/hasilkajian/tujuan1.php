@@ -120,7 +120,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan1_blok3_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -147,10 +147,18 @@
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_blok3_2" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -177,10 +185,18 @@
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+          <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_blok3_3" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -207,10 +223,18 @@
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card bg-secondary">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tk_pie"></canvas>
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="chartBox bar">
+                  <canvas id="tujuan1_blok3_4" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -236,24 +260,40 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 grid-margin stretch-card">
-            <div class="card ">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_tidak" style="width: 55%; height:20vh;"></canvas>
+          <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <h3><b>Grafik</b></h3>
+              <div class="card-body border rounded">
+                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                  <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <i class="fa-solid fa-download"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="card ">
+                      <div class="card-body">
+                        <div class="chartBox">
+                          <canvas class="mt1" id="tujuan1_5_tidak" style="width: 55%; height:20vh;"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="card ">
+                      <div class="card-body">
+                        <div class="chartBox">
+                          <canvas class="mt1" id="tujuan1_5_ya" style="width: 55%; height:20vh;"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 grid-margin stretch-card">
-            <div class="card ">
-              <div class="card-body">
-                <div class="chartBox">
-                  <canvas class="mt1" id="tujuan1_5_ya" style="width: 55%; height:20vh;"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
+            </div>   
+          </div>       
         </div>
       </div>
     </div>
@@ -1637,14 +1677,13 @@
   </div>
 </div>
 
-<?php var_dump($ji) ?>
 
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- dropdown show/hide content-->
 <script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset3/datatables_install.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/datatables_export_tujuan1.js'); ?>"></script>
 <!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
