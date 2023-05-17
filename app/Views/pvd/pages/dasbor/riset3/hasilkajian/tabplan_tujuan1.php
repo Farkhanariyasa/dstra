@@ -5,7 +5,7 @@ function tabplan1_blok3_1()
     <div class="card">
         <h3><b>Tabulasi</b></h3>
         <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+            <table id="table1" class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">Jenis Industri Pariwisata</th>
@@ -77,7 +77,7 @@ function tabplan1_blok3_2()
     <div class="card">
         <h3><b>Tabulasi</b></h3>
         <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+            <table id="table2" class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">Jenis Industri Pariwisata</th>
@@ -150,12 +150,11 @@ function tabplan1_blok3_3()
     <div class="card">
         <h3><b>Tabulasi</b></h3>
         <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+            <table id="table3" class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">Jenis Industri Pariwisata</th>
-                        <th scope="col">
-                            <= 7.2 m^2</th>
+                        <th scope="col"><= 7.2 m^2</th>
                         <th scope="col">7.2-9.9 m^2</th>
                         <th scope="col">>= 10 m^2</th>
                     </tr>
@@ -209,7 +208,7 @@ function tabplan1_blok3_4()
     <div class="card">
         <h3><b>Tabulasi</b></h3>
         <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+            <table id="table4" class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">Jenis Industri Pariwisata</th>
@@ -260,7 +259,7 @@ function tabplan1_blok3_5()
     <div class="card">
         <h3><b>Tabulasi</b></h3>
         <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-            <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+            <table id="table5" class="table table-hover table-bordered table-responsive display" style="width:100%">
                 <thead>
                     <tr>
                         <th scope="col">Jenis Kelamin</th>
