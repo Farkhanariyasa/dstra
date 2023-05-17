@@ -1,6 +1,7 @@
 //data untuk chart ini diambil dari hasil visualisasi subdiv vdd riset 3 yg diinput manual ketika visualisasinya dibuat di r studio
 
-const tujuan1_1 = document.getElementById('tujuan1_1');
+const tujuan1_blok3_1 = document.getElementById('tujuan1_blok3_1');
+
 const total1_1_1= 100/(data1_1.ji1_1+data1_1.ji1_2+ data1_1.ji1_3);
 const total1_1_2= 100/(data1_1.ji2_1+data1_1.ji2_2+ data1_1.ji2_3);
 const total1_1_3= 100/(data1_1.ji3_1+data1_1.ji3_2+ data1_1.ji3_3);
@@ -8,7 +9,7 @@ const total1_1_4= 100/(data1_1.ji4_1+data1_1.ji4_2+ data1_1.ji4_3);
 const total1_1_5= 100/(data1_1.ji5_1+data1_1.ji5_2+ data1_1.ji5_3);
 const total1_1_6= 100/(data1_1.ji6_1+data1_1.ji6_2+ data1_1.ji6_3);
 
-new Chart(tujuan1_1, {
+new Chart(tujuan1_blok3_1, {
     type: 'bar',
     data: {
     labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
