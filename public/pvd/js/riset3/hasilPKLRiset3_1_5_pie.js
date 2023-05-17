@@ -15,8 +15,7 @@
         ],
     borderWidth: 1,
     backgroundColor: [
-      "#ffab00",
-      "#ffdd99"
+      "#506396", "#ffab00"
     ],
      }]
    },
@@ -28,8 +27,8 @@
           enabled: true
         },
         title: {
-          display: true,
-          text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
+          display: false,
+          // text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
           font: {
               size: 20
           }
@@ -71,8 +70,7 @@
         ],
     borderWidth: 1,
     backgroundColor: [
-      "#ffab00",
-      "#ffdd99"
+      "#506396", "#ffab00"
     ],
      }]
    },
@@ -84,8 +82,8 @@
           enabled: true
         },
         title: {
-          display: true,
-          text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
+          display: false,
+          // text : 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri',
           font: {
               size: 20
           }
