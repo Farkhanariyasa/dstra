@@ -1,22 +1,25 @@
-const pie4 = document.getElementById('pie-kec-bumiaji-skala');
+const piePemanfaatanJenis1 = document.getElementById('pie-kota-batu-pemanfaatan-jenis');
 
-const pie_4 = new Chart(pie4, {
+const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
     type: 'doughnut',
     data: {
-        labels: [ ["Mikro"],
-            ["Kecil"],
+        labels: [ ["Jasa Transportasi Wisata"],
+            ["Jasa Penyedia Makanan dan Minuman"],
+            ["Penyedia Akomodasi"]
         ],
 
         datasets: [{
             label: 'Unit Usaha',
             data: [
-                uupKecBumiajiSkala.mikro,
-                uupKecBumiajiSkala.kecil,
+                pemanfaatanTikJenis.transportasi,
+                pemanfaatanTikJenis.makanan,
+                pemanfaatanTikJenis.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffdd99",
                 "#96a1c0",
+                "#6f617f"
             ],
         }]
     },
@@ -26,14 +29,14 @@ const pie_4 = new Chart(pie4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Skala Usaha'],
+                text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usaha'],
                 font: {
-                    size: 14
+                    size: 18
                 }
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
@@ -65,22 +68,22 @@ const pie_4 = new Chart(pie4, {
     plugins: [ChartDataLabels]
 });
 
-const pieKecBumiajiSkalaLegend = document.getElementById('pie-kec-bumiaji-skala-legend');
-pieKecBumiajiSkalaLegend.addEventListener('click', update_value4(chk_bx));
+const pieKotaBatuPemanfaatanJenisLegend = document.getElementById('pie-kota-batu-pemanfaatan-jenis-legend');
+pieKotaBatuPemanfaatanJenisLegend.addEventListener('click', update_value_pemanfaatan_jenis1(chk_bx));
 
-function update_value4(chk_bx){
+function update_value_pemanfaatan_jenis1(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        pie_4.options.plugins.legend.display=true;
-        pie_4.update();
+        piePemanfaatanJenis_1.options.plugins.legend.display=true;
+        piePemanfaatanJenis_1.update();
     }
         
     else
     {
         console.log('uncheck');
-        pie_4.options.plugins.legend.display=false;
-        pie_4.update();
+        piePemanfaatanJenis_1.options.plugins.legend.display=false;
+        piePemanfaatanJenis_1.update();
   
     }
 }

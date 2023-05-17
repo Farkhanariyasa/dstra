@@ -5,11 +5,11 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
   type: "bar",
   data: {
     labels: [
-      "Kecamatan Klojen",
-      "Kecamatan Lowokwaru",
-      "Kecamatan Blimbing",
-      "Kecamatan Sukun",
-      "Kecamatan Kedungkandang",
+      "Klojen",
+      "Lowokwaru",
+      "Blimbing",
+      "Sukun",
+      "Kedungkandang",
     ],
     datasets: [
       {
@@ -17,6 +17,14 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
         data: [2.14, 2.78, 3.03, 3.09, 3.17],
         borderWidth: 1,
         backgroundColor: "#ffab00",
+        datalabels: {
+          anchor: 'end',
+          align: 'top',
+          offset: 1,
+          font: {
+            size: 12
+          }
+        }
       },
     ],
   },
@@ -40,7 +48,7 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
           display: true,
           text: "Daerah Tujuan Wisata",
           font: {
-            size: 16,
+            size: 14,
             style: "normal",
             lineHeight: 2,
           },
@@ -48,6 +56,11 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
         grid: {
           display: false,
         },
+        ticks: {
+          font: {
+            size: 10
+          }
+        }
       },
       y: {
         beginAtZero: true,
@@ -55,7 +68,7 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
           display: true,
           text: "Rata-Rata Lama Kunjungan (Jam)",
           font: {
-            size: 16,
+            size: 14,
             style: "normal",
             lineHeight: 2.5,
           },
@@ -63,14 +76,20 @@ var bar_lamakunjungan = new Chart(t2_bar2, {
         grid: {
           display: false,
         },
+        ticks: {
+          font: {
+            size: 10
+          }
+        }
       },
     },
     maintainAspectRatio: false,
     plugins: {
       title: {
         display: true,
-        text: ["Estimasi Rata-Rata Lama Kunjungan yang Dilakukan Wisatawan",
-          "dalam Kota di Kota Malang Bulan Oktober-Desember 2022 (dalam satuan Jam)"],
+        text: ["Estimasi Rata-Rata Lama Kunjungan",
+          "yang Dilakukan Wisatawan dalam Kota di Kota Malang",
+          "Bulan Oktober-Desember 2022 (dalam satuan Jam)"],
         font: {
           size: 16,
           style: "normal"

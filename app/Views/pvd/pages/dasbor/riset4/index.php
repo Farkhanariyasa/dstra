@@ -81,6 +81,12 @@
     const uupKecJunrejoSkala = <?= json_encode($uupKecJunrejoSkala) ?>;    
     const uupKecBumiajiSkala = <?= json_encode($uupKecBumiajiSkala) ?>;
     const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
+    const tingkatPendidikan = <?= json_encode($tingkatPendidikan) ?>;
+    const pemanfaatanTik = <?= json_encode($pemanfaatanTik) ?>;
+    const pemanfaatanTikJenis = <?= json_encode($pemanfaatanTikJenis) ?>;
+    const pemanfaatanTikSkala = <?= json_encode($pemanfaatanTikSkala) ?>;
+    const pemanfaatanTikKegiatan = <?= json_encode($pemanfaatanTikKegiatan) ?>;
+
     // ke bawah adalah kode dummy
     // const unitUsahaTIK = < ?= json_encode($uu) ?>;
     // const pendapatan = < ?= json_encode($pd) ?>;
@@ -93,10 +99,10 @@
   </script>
 
   <!-- Import Chart -->
-  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_batu.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/bar_kec_bumiaji.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kota_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_junrejo.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_kec_bumiaji.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_produksi.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_batu_produksi.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo_produksi.js') ?>"></script>
@@ -109,6 +115,12 @@
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik_jenis.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pendidikan.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_jenis.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_skala.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pemanfaatan.js') ?>"></script>
+
 
   <!-- ke bawah adalah kode dummy -->
   <!-- <script src="< ?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>

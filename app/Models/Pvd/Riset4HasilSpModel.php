@@ -20,6 +20,11 @@ class Riset4HasilSpModel extends Model
         return $this->where([$kolom1 => $k1, $kolom2 => $k2])->countAllResults();
     }
 
+    # fungsi agregat (count) untuk satu kolom kategorik dengan tiga nilai
+    public function getJumlahUUP3($kolom, $k){
+        return 925-$this->where([$kolom => $k])->countAllResults();
+    }
+
     # fungsi agregat (mean) untuk satu kolom kategorik dan satu kolom numerik
     public function getRataan($kolom_kategorik, $kolom_numerik, $k1){
         $sub_query = 'avg('.$kolom_numerik.') as rataan';

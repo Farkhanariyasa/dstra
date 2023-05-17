@@ -1,22 +1,25 @@
-const pie4 = document.getElementById('pie-kec-bumiaji-skala');
+const doughnut1 = document.getElementById('doughnut-kota-batu');
 
-const pie_4 = new Chart(pie4, {
+const doughnut_1 = new Chart(doughnut1, {
     type: 'doughnut',
     data: {
-        labels: [ ["Mikro"],
-            ["Kecil"],
+        labels: [ ["Jasa Transportasi Wisata"],
+            ["Jasa Penyedia Makanan dan Minuman"],
+            ["Penyedia Akomodasi"]
         ],
 
         datasets: [{
-            label: 'Unit Usaha',
+            label: 'Jumlah Unit Usaha Pariwisata',
             data: [
-                uupKecBumiajiSkala.mikro,
-                uupKecBumiajiSkala.kecil,
+                uupKotaBatu.transportasi,
+                uupKotaBatu.makan,
+                uupKotaBatu.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffdd99",
                 "#96a1c0",
+                "#6f617f"
             ],
         }]
     },
@@ -26,9 +29,9 @@ const pie_4 = new Chart(pie4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usahanya'],
                 font: {
-                    size: 14
+                    size: 20
                 }
             },
             legend:{
@@ -65,22 +68,22 @@ const pie_4 = new Chart(pie4, {
     plugins: [ChartDataLabels]
 });
 
-const pieKecBumiajiSkalaLegend = document.getElementById('pie-kec-bumiaji-skala-legend');
-pieKecBumiajiSkalaLegend.addEventListener('click', update_value4(chk_bx));
+const doughnutKotaBatuLegend = document.getElementById('doughnut-kota-batu-legend');
+doughnutKotaBatuLegend.addEventListener('click', update_value_doughnut1(chk_bx));
 
-function update_value4(chk_bx){
+function update_value_doughnut1(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        pie_4.options.plugins.legend.display=true;
-        pie_4.update();
+        doughnut_1.options.plugins.legend.display=true;
+        doughnut_1.update();
     }
         
     else
     {
         console.log('uncheck');
-        pie_4.options.plugins.legend.display=false;
-        pie_4.update();
+        doughnut_1.options.plugins.legend.display=false;
+        doughnut_1.update();
   
     }
 }

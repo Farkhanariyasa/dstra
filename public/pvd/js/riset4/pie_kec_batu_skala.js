@@ -1,7 +1,7 @@
 const pie2 = document.getElementById('pie-kec-batu-skala');
 
 const pie_2 = new Chart(pie2, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels: [ ["Mikro"],
             ["Kecil"],
@@ -26,9 +26,9 @@ const pie_2 = new Chart(pie2, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Batu', 'Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Batu Berdasarkan Skala Usaha'],
                 font: {
-                    size: 20
+                    size: 14
                 }
             },
             legend:{

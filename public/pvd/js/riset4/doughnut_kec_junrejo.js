@@ -1,22 +1,25 @@
-const pie4 = document.getElementById('pie-kec-bumiaji-skala');
+const doughnut3 = document.getElementById('doughnut-kec-junrejo');
 
-const pie_4 = new Chart(pie4, {
+const doughnut_3 = new Chart(doughnut3, {
     type: 'doughnut',
     data: {
-        labels: [ ["Mikro"],
-            ["Kecil"],
+        labels: [ ["Jasa Transportasi Wisata"],
+            ["Jasa Penyedia Makanan dan Minuman"],
+            ["Penyedia Akomodasi"]
         ],
 
         datasets: [{
-            label: 'Unit Usaha',
+            label: 'Jumlah Unit Usaha Pariwisata',
             data: [
-                uupKecBumiajiSkala.mikro,
-                uupKecBumiajiSkala.kecil,
+                uupKecJunrejo.transportasi,
+                uupKecJunrejo.makan,
+                uupKecJunrejo.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffdd99",
                 "#96a1c0",
+                "#6f617f"
             ],
         }]
     },
@@ -26,14 +29,14 @@ const pie_4 = new Chart(pie4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Bumiaji Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kecamatan Junrejo Berdasarkan Jenis Usahanya'],
                 font: {
                     size: 14
                 }
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
@@ -65,22 +68,22 @@ const pie_4 = new Chart(pie4, {
     plugins: [ChartDataLabels]
 });
 
-const pieKecBumiajiSkalaLegend = document.getElementById('pie-kec-bumiaji-skala-legend');
-pieKecBumiajiSkalaLegend.addEventListener('click', update_value4(chk_bx));
+const doughnutKecJunrejoLegend = document.getElementById('doughnut-kec-junrejo-legend');
+doughnutKecJunrejoLegend.addEventListener('click', update_value_doughnut3(chk_bx));
 
-function update_value4(chk_bx){
+function update_value_doughnut3(chk_bx){
     if(chk_bx.checked)
     {
         console.log('check');
-        pie_4.options.plugins.legend.display=true;
-        pie_4.update();
+        doughnut_3.options.plugins.legend.display=true;
+        doughnut_3.update();
     }
         
     else
     {
         console.log('uncheck');
-        pie_4.options.plugins.legend.display=false;
-        pie_4.update();
+        doughnut_3.options.plugins.legend.display=false;
+        doughnut_3.update();
   
     }
 }
