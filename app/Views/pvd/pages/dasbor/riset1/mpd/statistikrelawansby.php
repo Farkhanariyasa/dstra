@@ -41,6 +41,7 @@
 
 <!-- import chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output4.js') ?>"></script>
 
 </section>
 
