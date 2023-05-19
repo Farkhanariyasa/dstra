@@ -47,7 +47,7 @@ const bar_wisnus3 = new Chart(wisnus_output3, {
         text: ["Jumlah Wisatawan Nusantara Berdasarkan Status Kepemilikan Ponsel dan", "Dikategorikan Menurut Kelompok Umur di Kota Malang Triwulan IV 2022"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
         padding: {
