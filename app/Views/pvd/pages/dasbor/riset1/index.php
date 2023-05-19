@@ -3,7 +3,7 @@
 
 
 <section id="portfolio" class="portfolio section-bg">
-  <div class="container">
+  <div class="container" data-aos="fade-up">
     <header class="section-header">
       <p>Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata</p>
     </header>
@@ -29,7 +29,7 @@
   </div>
   <div class="row" id="row">
     <div class="row d-flex justify-content-center align-items-center">
-      <div class="row">
+      <div class="row" id="test">
         <?php include('dummy_dasbor.php') ?>
       </div>
     </div>
