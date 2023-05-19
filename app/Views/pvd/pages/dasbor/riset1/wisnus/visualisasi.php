@@ -75,6 +75,9 @@
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output4.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output5.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output6.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output7.js') ?>"></script>
+
+
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_mpw_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_simcard.js') ?>"></script>
 
