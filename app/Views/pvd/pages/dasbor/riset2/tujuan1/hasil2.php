@@ -41,15 +41,9 @@
   const datatujuanutama = <?= json_encode($tu); ?>;
 </script>
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_sankey.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/kec_malang.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_sw_map.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_map.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_pie.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_twowaybar.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t2_bar1.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t2_bar2.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_map2.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
