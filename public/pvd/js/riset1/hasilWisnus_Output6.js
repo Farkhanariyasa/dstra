@@ -41,7 +41,7 @@ const bar_wisnus6 = new Chart(wisnus_output6, {
         text: ["Jumlah Perjalanan Wisata Asal Kota Malang Berdasarkan Kelompok Umur Triwulan IV 2022"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
         padding: {
