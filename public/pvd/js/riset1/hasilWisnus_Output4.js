@@ -35,7 +35,7 @@ const bar_output4 = new Chart(wisnus_output4, {
         text: ["Jumlah Kepemilikan Kartu SIM Aktif yang Digunakan Wisatawan Nusantara", "Berdasarkan Provider di Kota Malang Triwulan IV 2022"], 
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
         padding: {
