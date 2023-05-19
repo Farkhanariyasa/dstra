@@ -3,6 +3,7 @@
 namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
+use App\Models\Pvd\Riset1HasilPKLModel;
 use App\Models\Pvd\Riset1HasilSpModel;
 
 class Riset1 extends BaseController
@@ -11,6 +12,7 @@ class Riset1 extends BaseController
     protected $hasilsp2;
     protected $simcard;
     protected $dataresponden;
+    protected $hasilpklriset1;
 
     public function __construct()
     {
@@ -18,6 +20,7 @@ class Riset1 extends BaseController
         $this->hasilsp2 = new Riset1HasilSpModel();
         $this->simcard = new Riset1HasilSpModel();
         $this->dataresponden = new Riset1HasilSpModel();
+        $this->hasilpklriset1 = new Riset1HasilPKLModel();
     }
 
     public function index()
@@ -283,10 +286,10 @@ class Riset1 extends BaseController
     public function wisnus_tabulasi()
     {
         $menu = getMenu();
-        $dataresponden = $this->dataresponden->findAll();
+        $hasilpklriset1 = $this->hasilpklriset1->findAll();
         $data = [
             'judul' => 'Statistik Wisatawan Nusantara | Tabulasi',
-            'dataresponden' => $dataresponden,
+            'hasilpklriset1' => $hasilpklriset1,
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/wisnus/tabulasi', $data);
