@@ -333,75 +333,75 @@ class Riset4 extends BaseController
     public function menu4submenu2()
     {         
         $dimensi1_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'BUMIAJI')
         ];
 
         $dimensi1_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 3)
         ];
 
         $dimensi2_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi2", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi2", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi2", 'BUMIAJI')
         ];
 
         $dimensi2_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_407a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 3)
         ];
 
         $dimensi3_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi3", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi3", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi3", 'BUMIAJI')
         ];
 
         $dimensi3_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q231_405a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 3)
         ];
 
         $dimensi4_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi4", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi4", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi4", 'BUMIAJI')
         ];
 
         $dimensi4_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 3)
         ];
 
         $dimensi5_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi5", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi5", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi5", 'BUMIAJI')
         ];
 
         $dimensi5_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 3)
         ];
 
         $dimensi6_kecamatan = [
-            'batu' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'junrejo' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'bumiaji' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi6", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi6", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi6", 'BUMIAJI')
         ];
 
         $dimensi6_jenis = [
-            'transportasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 1),
-            'makanminum' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 2),
-            'akomodasi' => $this->unitusahaTIK->getRataan("jenis_usaha", "q221_409a", 3)
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 3)
         ];
 
         $menu = getMenu();
