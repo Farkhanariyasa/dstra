@@ -25,6 +25,40 @@
     }
 </style>
 
+<!-- style untuk gantt chart -->
+<style>
+      /* * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      } */
+      /* .chartMenu {
+        width: 100vw;
+        height: 40px;
+        background: #1A1A1A;
+        color: rgba(54, 162, 235, 1);
+      }
+      .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .chartCard {
+        width: 100vw;
+        height: calc(100vh - 40px);
+        background: rgba(54, 162, 235, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .chartBox {
+        width: 700px;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px rgba(54, 162, 235, 1);
+        background: white;
+      } */
+</style>
+
 <!-- Semua -->
 <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
@@ -44,8 +78,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
-                                <h1>Gantt Chart Jenis Kelamin x UsiaHere</h1> 
+                            <div class = "chartBox" style=" height:300px;"> 
                                 <canvas id="gantt-kota-batu-jk-usia"></canvas>
                             </div>
                         </div>
