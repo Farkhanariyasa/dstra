@@ -86,13 +86,14 @@
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="selectBox mt-2 me-2">
                             <form action="">
-                                <select class="dropdownunduh1" id="pieChart">
-                                    <option value="dimensi1">dimensi1</option>
-                                    <option value="dimensi2">dimensi2</option>
-                                    <option value="dimensi3">dimensi3</option>
-                                    <option value="dimensi4">dimensi4</option>
-                                    <option value="dimensi5">dimensi5</option>
-                                    <option value="dimensi6">dimensi6</option>
+                                <select style="width: 250px" class="dropdownunduh1" id="bar-kecamatan-1">
+                                    <option value="dimensi1">Pilih Dimensi:</option>
+                                    <option value="dimensi1">Infrastruktur dan Konektivitas</option>
+                                    <option value="dimensi2">Sumber Daya Manusia</option>
+                                    <option value="dimensi3">Manajemen Organisasi</option>
+                                    <option value="dimensi4">Penggunaan TIK</option>
+                                    <option value="dimensi5">Eksternal</option>
+                                    <option value="dimensi6">Kendala</option>
                                 </select>
                             </form>
                         </div>
@@ -102,12 +103,12 @@
                             </button>
                         </div>
                     </div>
-                    <div class="chartBox" style=" height:500px;">
-                        <canvas class="mt1" id="hasil1"></canvas>
+                    <div class="chartBox" style=" height:400px;">
+                        <canvas class="mt1" id="bar-dimensi-kecamatan-1"></canvas>
                     </div>
                     <!-- <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value_legend_bar_kecamatan(this);" type="checkbox" id="pieChartLegend" value="show" checked>
+                            <input class="form-check-input" onchange="update_value_legend_bar_kecamatan(this);" type="checkbox" id="bar-kecamatan-1-legend" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
                         </div>
                     </div> -->
@@ -120,13 +121,14 @@
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="selectBox mt-2 me-2">
                             <form action="">
-                                <select class="dropdownunduh1" id="barChart">
-                                    <option value="dimensi1">dimensi1</option>
-                                    <option value="dimensi2">dimensi2</option>
-                                    <option value="dimensi3">dimensi3</option>
-                                    <option value="dimensi4">dimensi4</option>
-                                    <option value="dimensi5">dimensi5</option>
-                                    <option value="dimensi6">dimensi6</option>
+                                <select style="width: 250px" class="dropdownunduh1" id="bar-jenis-1">
+                                    <option value="dimensi1">Pilih Dimensi:</option>
+                                    <option value="dimensi1">Infrastruktur dan Konektivitas</option>
+                                    <option value="dimensi2">Sumber Daya Manusia</option>
+                                    <option value="dimensi3">Manajemen Organisasi</option>
+                                    <option value="dimensi4">Penggunaan TIK</option>
+                                    <option value="dimensi5">Eksternal</option>
+                                    <option value="dimensi6">Kendala</option>
                                 </select>
                             </form>
                         </div>
@@ -136,12 +138,12 @@
                             </button>
                         </div>
                     </div>
-                    <div class="chartBox" style=" height:500px;">
-                        <canvas class="mt1" id="hasil2"></canvas>
+                    <div class="chartBox" style=" height:400px;">
+                        <canvas class="mt1" id="bar-dimensi-jenis-1"></canvas>
                     </div>
                     <!-- <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="form-check form-switch me-3">
-                            <input class="form-check-input" onchange="update_value_legend_bar_jenis(this);" type="checkbox" id="barChartLegend" value="show" checked>
+                            <input class="form-check-input" onchange="update_value_legend_bar_jenis(this);" type="checkbox" id="bar-jenis-1-legend" value="show" checked>
                             <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
                         </div>
                     </div> -->
