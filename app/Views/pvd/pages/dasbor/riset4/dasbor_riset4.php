@@ -468,7 +468,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="chartBox" style=" height:375px;">
+                            <div class="chartBox" style=" height:425px;">
                             <!-- here -->
                             <!-- <div class="container mt-5 mb-5"> -->
                                 <!-- <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow"> -->
@@ -486,7 +486,7 @@
                     </div>
                 </div>
 
-                <div class="col-6 grid-margin stretch-card">
+                <div class="col-lg-6 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -496,14 +496,14 @@
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
+                            <div class="chartBox" style="height:300px;">
                                 <canvas id="bar-kota-batu-ikuptik"></canvas>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-6 grid-margin stretch-card">
+                <div class="col-lg-6 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -513,7 +513,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div style=" height:300px;">
+                            <div class="chartBox" style="height:300px;">
                                 <canvas id="bar-kota-batu-ikuptik-jenis"></canvas>
                             </div>
                         </div>
