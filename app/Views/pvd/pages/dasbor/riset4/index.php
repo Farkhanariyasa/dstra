@@ -120,7 +120,7 @@
   <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_jenis.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_skala.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pemanfaatan.js') ?>"></script>
-
+  <script src="<?= base_url('pvd/js/riset4/gantt_jenis_kelamin_usia.js') ?>"></script>
 
   <!-- ke bawah adalah kode dummy -->
   <!-- <script src="< ?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
