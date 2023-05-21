@@ -86,6 +86,7 @@
     const pemanfaatanTikJenis = <?= json_encode($pemanfaatanTikJenis) ?>;
     const pemanfaatanTikSkala = <?= json_encode($pemanfaatanTikSkala) ?>;
     const pemanfaatanTikKegiatan = <?= json_encode($pemanfaatanTikKegiatan) ?>;
+    const usiaPemilikPengelola = <?= json_encode($usiaPemilikPengelola) ?>;
 
     // ke bawah adalah kode dummy
     // const unitUsahaTIK = < ?= json_encode($uu) ?>;
