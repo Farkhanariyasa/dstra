@@ -25,6 +25,20 @@ class Riset4HasilSpModel extends Model
         return 925-$this->where([$kolom => $k])->countAllResults();
     }
 
+    # fungsi summary (min) untuk satu kolom kategorik dan satu kolom numerik
+    public function getMin($kolom_kategorik, $kolom_numerik, $k1){
+        $sub_query = 'min('.$kolom_numerik.') as minimum';
+        $result =  $this->where([$kolom_kategorik => $k1])->select($sub_query)->first();
+        return $result['minimum'];
+    }
+
+    # fungsi summary (max) untuk satu kolom kategorik dan satu kolom numerik
+    public function getMax($kolom_kategorik, $kolom_numerik, $k1){
+        $sub_query = 'max('.$kolom_numerik.') as maximum';
+        $result =  $this->where([$kolom_kategorik => $k1])->select($sub_query)->first();
+        return $result['maximum'];
+    }
+
     # fungsi agregat (mean) untuk satu kolom kategorik dan satu kolom numerik
     public function getRataan($kolom_kategorik, $kolom_numerik, $k1){
         $sub_query = 'avg('.$kolom_numerik.') as rataan';
