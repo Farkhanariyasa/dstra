@@ -483,4 +483,24 @@ class Riset4 extends BaseController
         return view('pvd/pages/dasbor/riset4/ikuptik/jenis_unit_usaha', $data);
     }
 
+    public function menu5()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Faktor Pengaruh IKUPTIK',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/faktor_pengaruh_ikuptik', $data);
+    }
+
+    public function menu6()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dokumen Terkait',
+            'menu' => $menu['riset4'],
+        ];
+        return view('pvd/pages/dasbor/riset4/dokumen_terkait', $data);
+    }
+
 }
