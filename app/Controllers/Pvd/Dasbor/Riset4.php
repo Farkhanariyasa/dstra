@@ -28,6 +28,13 @@ class Riset4 extends BaseController
 
     public function index()
     {
+        $usiaPemilikPengelola = [
+            'laki-laki.min' => $this->uup->getMin('gender_pemilik_pengelola', 'usia_pemilik_pengelola', 1),
+            'laki-laki.max' => $this->uup->getMax('gender_pemilik_pengelola', 'usia_pemilik_pengelola', 1),
+            'perempuan.min' => $this->uup->getMin('gender_pemilik_pengelola', 'usia_pemilik_pengelola', 2),
+            'perempuan.max' => $this->uup->getMax('gender_pemilik_pengelola', 'usia_pemilik_pengelola', 2),
+        ];
+
         $uupKotaBatu = [
             'transportasi' => $this->uup->getJumlahUUP('jenis_usaha', 1),
             'makan' => $this->uup->getJumlahUUP('jenis_usaha', 2),
@@ -217,6 +224,8 @@ class Riset4 extends BaseController
             'pemanfaatanTikJenis' => $pemanfaatanTikJenis,
             'pemanfaatanTikSkala' => $pemanfaatanTikSkala,
             'pemanfaatanTikKegiatan' => $pemanfaatanTikKegiatan,
+            'usiaPemilikPengelola' => $usiaPemilikPengelola,
+
             // ke bawah adalah kode dummy
             // 'uu' => $uu,
             // 'pd' => $pd,
