@@ -16,15 +16,15 @@
                             </form>
                         </div>
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-2-6" type="button" class="tombol btn-for" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal6">
+                            <button id="unduh-t2-1" type="button" class="tombol btn-for" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal_t2_hasil1">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
                     </div>
 
                     <div style=" height:500px;">
-                        <canvas class="mt1" id="t2_bar2"></canvas>
+                        <canvas class="mt1" id="riset2_t2_hasil1"></canvas>
                     </div>
                 </div>
             </div>
@@ -73,3 +73,6 @@
 
     </div>
 </div>
+
+<!-- Modal Riset 2 -->
+<?php include('modal_tujuan2.php') ?>
