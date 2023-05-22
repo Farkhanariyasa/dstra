@@ -241,10 +241,46 @@ class Riset4 extends BaseController
 
     public function menu2submenu1()
     {
+        $uupJkUsia = [
+            'laki0' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 0),
+            'laki1' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 1),
+            'laki2' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 2),
+            'laki3' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 3),
+            'laki4' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 4),
+            'laki5' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 5),
+            'laki6' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 6),
+            'laki7' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 7),
+            'laki8' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 8),
+            'laki9' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 9),
+            'laki10' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 1, 10), // asumsi umur tertua valid adalah 200
+            'perempuan0' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 0),
+            'perempuan1' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 1),
+            'perempuan2' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 2),
+            'perempuan3' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 3),
+            'perempuan4' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 4),
+            'perempuan5' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 5),
+            'perempuan6' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 6),
+            'perempuan7' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 7),
+            'perempuan8' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 8),
+            'perempuan9' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 9),
+            'perempuan10' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'kelompok_usia', 2, 10), // asumsi umur tertua valid adalah 200
+        ];
+
+        $uupJkPendidikan = [
+            'lakiDasar' => $this->uup->getJumlahUUPDua('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 1, 1, 2),
+            'lakiMenengah' => $this->uup->getJumlahUUPDua('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 1, 3, 4),
+            'lakiTinggi' => $this->uup->getJumlahUUPTiga('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 1, 5, 6, 7),
+            'perempuanDasar' => $this->uup->getJumlahUUPDua('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 2, 1, 2),
+            'perempuanMenengah' => $this->uup->getJumlahUUPDua('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 2, 3, 4),
+            'perempuanTinggi' => $this->uup->getJumlahUUPTiga('gender_pemilik_pengelola', 'pendidikan_terakhir_pemilik_pengelola', 2, 5, 6, 7),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Pemilik atau Pengelola Usaha Pariwisata',
             'menu' => $menu['riset4'],
+            'uupJkPendidikan' => $uupJkPendidikan,
+            'uupJkUsia' => $uupJkUsia,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemilik_atau_pengelola_usaha_pariwisata', $data);
     }
