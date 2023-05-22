@@ -113,7 +113,10 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
         $routes->get('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
         $routes->get('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
-
+        // Menu 5
+        $routes->get('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
+        // Menu 6
+        $routes->get('dokumen_terkait', 'Riset4::menu6'); // Menu 6
     });
 
 

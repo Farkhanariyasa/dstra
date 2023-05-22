@@ -301,6 +301,16 @@ function getMenu()
           ],
         ],
         [
+          'menu' => 'Faktor-faktor Pengaruh IKUPTIK',
+          'icon' => 'fa-solid fa-chart-line',
+          'href' => '/riset4/faktor_pengaruh_ikuptik',
+        ],
+        [
+          'menu' => 'Dokumen Terkait',
+          'icon' => 'fa-solid fa-book',
+          'href' => '/riset4/dokumen_terkait',
+        ],
+        [
           'menu' => 'Tentang Riset 4',
           'icon' => 'fas fa-chevron-circle-left',
           'href' => '/riset4'
