@@ -126,7 +126,7 @@
                                             <i class="fa-solid fa-download"></i>
                                         </button>
                                     </div>
-                                </div>
+                                </div> 
                                 <div class="row">
                                     <div class="mb-0 col-lg-7 grid-margin">
                                         <div>
