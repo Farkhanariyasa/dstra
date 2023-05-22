@@ -324,7 +324,7 @@
       <!-- Import Chart -->
       <script src="<?= base_url('pvd/js/riset4/doughnut_jenis.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/doughnut_skala.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/map_lokasi.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/doughnut_lokasi.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/dodge_jenis_skala.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/dodge_jenis_lokasi.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/dodge_skala_lokasi.js') ?>"></script>
