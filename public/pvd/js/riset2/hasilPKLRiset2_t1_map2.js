@@ -45,7 +45,7 @@ function resetHighlight(e) {
   info_2.update();
 }
 
-var petatematik2 = L.map("petatematik2").setView(
+var petatematik2 = L.map("riset2_t1_hasil2").setView(
   [-7.9797, 112.6304],
   12.4
 );

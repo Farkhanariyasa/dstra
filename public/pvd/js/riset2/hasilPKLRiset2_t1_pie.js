@@ -1,7 +1,7 @@
 let delayed2;
 
 // Chart
-const t1_pie = document.getElementById("t1_pie");
+const t1_pie = document.getElementById("riset2_t1_hasil1");
 const diagram_lingkaran = new Chart(t1_pie, {
   type: "pie",
   data: {
