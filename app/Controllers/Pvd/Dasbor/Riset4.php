@@ -251,10 +251,63 @@ class Riset4 extends BaseController
 
     public function menu2submenu2()
     {
+        $uupKotaBatuJenis = [
+            'transportasi' => $this->uup->getJumlahUUP('jenis_usaha', 1),
+            'makan' => $this->uup->getJumlahUUP('jenis_usaha', 2),
+            'akomodasi' => $this->uup->getJumlahUUP('jenis_usaha', 3),
+        ];
+        
+        $uupKotaBatuSkala = [
+            'mikro' => $this->uup->getJumlahUUP('skala_usaha', 1),
+            'kecil' => $this->uup->getJumlahUUP('skala_usaha', 2),
+        ];
+
+        $uupKotaBatuLokasi = [
+            'batu' => $this->uup->getJumlahUUP('kecamatan', 'BATU'),
+            'junrejo' => $this->uup->getJumlahUUP('kecamatan', 'JUNREJO'),
+            'bumiaji' => $this->uup->getJumlahUUP('kecamatan', 'BUMIAJI'),
+        ];
+
+        $uupKotaBatuJenisSkala = [
+            'transportasiMikro' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 1, 1),
+            'transportasiKecil' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 1, 2),
+            'makananMikro' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 2, 1),
+            'makananKecil' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 2, 2),
+            'akomodasiMikro' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 3, 1),
+            'akomodasiKecil' => $this->uup->getJumlahUUP2('jenis_usaha', 'skala_usaha', 3, 2),
+        ];
+
+        $uupKotaBatuJenisLokasi = [
+            'transportasiBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
+            'transportasiJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'transportasiBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'makananBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BATU'),
+            'makananJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'JUNREJO'),
+            'makananBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BUMIAJI'),
+            'akomodasiBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BATU'),
+            'akomodasiJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'JUNREJO'),
+            'akomodasiBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BUMIAJI'),
+        ];
+
+        $uupKotaBatuSkalaLokasi = [
+            'mikroBatu' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BATU'),
+            'mikroJunrejo' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'JUNREJO'),
+            'mikroBumiaji' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BUMIAJI'),
+            'kecilBatu' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BATU'),
+            'kecilJunrejo' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'JUNREJO'),
+            'kecilBumiaji' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BUMIAJI'),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Usaha Pariwisata',
             'menu' => $menu['riset4'],
+            'uupKotaBatuJenis' => $uupKotaBatuJenis,
+            'uupKotaBatuSkala' => $uupKotaBatuSkala,
+            'uupKotaBatuLokasi' => $uupKotaBatuLokasi,
+            'uupKotaBatuJenisSkala' => $uupKotaBatuJenisSkala,
+            'uupKotaBatuJenisLokasi' => $uupKotaBatuJenisLokasi,
+            'uupKotaBatuSkalaLokasi' => $uupKotaBatuSkalaLokasi,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/usaha_pariwisata', $data);
     }
