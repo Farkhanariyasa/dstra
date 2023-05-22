@@ -42,6 +42,7 @@ const bar_wisnus7 = new Chart(wisnus_output7, {
         font: {
           size: 16,
         //   family: "Poppins",
+          style: "normal",
         },
         color: "#493a5a",
         padding: {
