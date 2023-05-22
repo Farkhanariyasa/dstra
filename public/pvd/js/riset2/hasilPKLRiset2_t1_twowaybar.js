@@ -1,6 +1,6 @@
 let delayed3;
 // Chart
-const t1_twowaybar = document.getElementById("t1_twowaybar");
+const t1_twowaybar = document.getElementById("riset2_t1_hasil2");
 const batang_duaarah = new Chart(t1_twowaybar, {
     type: "bar",
     data: {
@@ -18,7 +18,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                     font: {
                         size: 10
                     }
-                  }
+                }
             },
             {
                 label: "Menginap di Akomodasi Komersial",

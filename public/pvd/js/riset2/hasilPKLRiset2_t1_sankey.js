@@ -1,4 +1,4 @@
-const t1_sankey = document.getElementById("t1_sankey");
+const t1_sankey = document.getElementById("riset2_t1_hasil1");
 
 var colors2 = [
   "#ffab00",
