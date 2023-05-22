@@ -263,9 +263,8 @@ class Riset4 extends BaseController
         ];
 
         $uupKotaBatuLokasi = [
-            'batu' => $this->uup->getJumlahUUP('kecamatan', 'BATU'),
-            'junrejo' => $this->uup->getJumlahUUP('kecamatan', 'JUNREJO'),
-            'bumiaji' => $this->uup->getJumlahUUP('kecamatan', 'BUMIAJI'),
+            'ya' => $this->uup->getJumlahUUP('lokasi_usaha', 2),
+            'tidak' => $this->uup->getJumlahUUP('lokasi_usaha', 1),
         ];
 
         $uupKotaBatuJenisSkala = [
@@ -278,24 +277,19 @@ class Riset4 extends BaseController
         ];
 
         $uupKotaBatuJenisLokasi = [
-            'transportasiBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BATU'),
-            'transportasiJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'JUNREJO'),
-            'transportasiBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 1, 'BUMIAJI'),
-            'makananBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BATU'),
-            'makananJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'JUNREJO'),
-            'makananBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 2, 'BUMIAJI'),
-            'akomodasiBatu' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BATU'),
-            'akomodasiJunrejo' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'JUNREJO'),
-            'akomodasiBumiaji' => $this->uup->getJumlahUUP2('jenis_usaha', 'kecamatan', 3, 'BUMIAJI'),
+            'transportasiYa' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 1, 2),
+            'transportasiTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 1, 1),
+            'makananYa' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 2, 2),
+            'makananTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 2, 1),
+            'akomodasiYa' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 3, 2),
+            'akomodasiTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'lokasi_usaha', 3, 1),
         ];
 
         $uupKotaBatuSkalaLokasi = [
-            'mikroBatu' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BATU'),
-            'mikroJunrejo' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'JUNREJO'),
-            'mikroBumiaji' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 1, 'BUMIAJI'),
-            'kecilBatu' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BATU'),
-            'kecilJunrejo' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'JUNREJO'),
-            'kecilBumiaji' => $this->uup->getJumlahUUP2('skala_usaha', 'kecamatan', 2, 'BUMIAJI'),
+            'mikroYa' => $this->uup->getJumlahUUP2('skala_usaha', 'lokasi_usaha', 1, 2),
+            'mikroTidak' => $this->uup->getJumlahUUP2('skala_usaha', 'lokasi_usaha', 1, 1),
+            'kecilYa' => $this->uup->getJumlahUUP2('skala_usaha', 'lokasi_usaha', 2, 2),
+            'kecilTidak' => $this->uup->getJumlahUUP2('skala_usaha', 'lokasi_usaha', 2, 1),
         ];
 
         $menu = getMenu();
