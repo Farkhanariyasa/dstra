@@ -1,6 +1,6 @@
 let delayed1;
 // Chart
-const t2_bar1 = document.getElementById("t2_bar1");
+const t2_bar1 = document.getElementById("riset2_t2_hasil1");
 var batang = new Chart(t2_bar1, {
   type: "bar",
   data: {

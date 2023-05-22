@@ -27,6 +27,6 @@
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t2_bar1.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset2/btn_Download_t2.js') ?>"></script>
 
 <?= $this->endSection(); ?>
