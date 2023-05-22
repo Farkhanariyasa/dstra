@@ -6,7 +6,7 @@ const data_qa_output2_1 = {
       label: 'Jumlah Records',
       data: [0,0,0,0,0,0,0,0,0,0,0,0], 
       fill: false,
-      borderColor: "#506396",
+      borderColor: "#ffab00",
       pointStyle: 'circle',
       pointRadius: 1,
       pointHoverRadius: 10,
