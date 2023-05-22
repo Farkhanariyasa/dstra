@@ -1,87 +1,268 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
+  <?= $this->section('content'); ?>
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <header class="section-header">
+          <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan
+              <i>Smart Tourism Destination</i></strong>
+          </h6>
+        </header>
+        <hr class="hrjudul">
 
-<?= $this->section('content'); ?>
+        <div class="row portfolio-container">
+          <style>
+            .konten-teks {
+                padding: 10%;
+                color: #506396;
+                /* font-family: 'Poppins', 'Courier', 'monospace'; */
+            }
 
-<div class="container px-0">
-      <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-          <i>Smart Tourism Destination</i></strong>
-        </h6>
-      </header>
-    <hr class="hrjudul">
+            .konten-teks .card-title {
+                font-weight: bold;
+                font-size: 50px;
+                /* font-family: 'Poppins', 'Courier', 'monospace'; */
+                color: #493a5a;
 
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Pemanfaatan TIK
-          </button>
-        </h3>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Nunggu risetnya bosque
-            </p>           
+            }
+
+            .konten-teks .subs {
+                font-weight: bold;
+                font-size: 30px;
+
+            }
+
+            .card-text {
+                /* font-family: 'Poppins', 'Courier', 'monospace'; */
+                color: #506396;
+            }
+          </style>
+
+          <!-- style untuk gantt chart -->
+          <style>
+            /* * {
+              margin: 0;
+              padding: 0;
+              font-family: sans-serif;
+            } */
+            /* .chartMenu {
+              width: 100vw;
+              height: 40px;
+              background: #1A1A1A;
+              color: rgba(54, 162, 235, 1);
+            }
+            .chartMenu p {
+              padding: 10px;
+              font-size: 20px;
+            }
+            .chartCard {
+              width: 100vw;
+              height: calc(100vh - 40px);
+              background: rgba(54, 162, 235, 0.2);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .chartBox {
+              width: 700px;
+              padding: 20px;
+              border-radius: 20px;
+              border: solid 3px rgba(54, 162, 235, 1);
+              background: white;
+            } */
+          </style>
+
+          <!-- Charts and Interpretations Batch 1 -->
+          <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
+              <div class="isi-tujuan shadow mt-0 mb-0">
+                  <h4 class="card-title judul-card">Statistik Pemanfaatan TIK</h4>
+                  <div class="card-body">
+                      <div class="row">
+                          <!-- Part 1 -->
+                          <div class="col-12 grid-margin stretch-card">
+                              <div class="card shadow">
+                                  <div class="pb-2 card-body">
+                                      <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                          <div class="me-1 mt-1 justify-content-end align-item-end">
+                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                  <i class="fa-solid fa-download"></i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="mb-0 col-lg-7 grid-margin">
+                                              <div>
+                                                  <div class = "chartBox" style=" height:300px;"> 
+                                                      <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                              <div>
+                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
+                                                  <p class="text-justify">
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Part 2 -->
+                          <div class="col-12 grid-margin stretch-card">
+                              <div class="card shadow">
+                                  <div class="pb-2 card-body">
+                                      <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                          <div class="me-1 mt-1 justify-content-end align-item-end">
+                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                  <i class="fa-solid fa-download"></i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="mb-0 col-lg-7 grid-margin">
+                                              <div>
+                                                  <div class = "chartBox" style=" height:300px;"> 
+                                                      <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                              <div>
+                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
+                                                  <p class="text-justify">
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
+
+          <!-- Charts and Interpretations Batch 2 -->
+          <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
+              <div class="isi-tujuan shadow mt-0 mb-0">
+                  <h4 class="card-title judul-card">Statistik Jenis Perangkat Digital</h4>
+                  <div class="card-body">
+                      <div class="row">
+                          <!-- Part 1 -->
+                          <div class="col-12 grid-margin stretch-card">
+                              <div class="card shadow">
+                                  <div class="pb-2 card-body">
+                                      <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                          <div class="me-1 mt-1 justify-content-end align-item-end">
+                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                  <i class="fa-solid fa-download"></i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="mb-0 col-lg-7 grid-margin">
+                                              <div>
+                                                  <div class = "chartBox" style=" height:300px;"> 
+                                                      <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                              <div>
+                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
+                                                  <p class="text-justify">
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Part 2 -->
+                          <div class="col-12 grid-margin stretch-card">
+                              <div class="card shadow">
+                                  <div class="pb-2 card-body">
+                                      <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                          <div class="me-1 mt-1 justify-content-end align-item-end">
+                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                  <i class="fa-solid fa-download"></i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="mb-0 col-lg-7 grid-margin">
+                                              <div>
+                                                  <div class = "chartBox" style=" height:300px;"> 
+                                                      <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                              <div>
+                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
+                                                  <p class="text-justify">
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Modal Dasbor -->
+          <?php include('modal_pemanfaatan_tik.php') ?>
         </div>
       </div>
-      <!-- <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Tujuan 1
-          </button>
-        </h3>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Mengetahui karakteristik tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa 
-              Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination. 
-            </p> 
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Tujuan 2
-          </button>
-        </h3>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Menganalisis tingkat kesiapan pemanfaatan TIK dari tiga unit usaha pariwisata skala mikro dan kecil di Kota 
-              Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan Smart Tourism Destination 
-            </p>           
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Tujuan 3
-          </button>
-        </h3>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu 
-              dalam pemanfaatan TIK. 
-            </p>           
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item my-3">
-        <h3 class="accordion-header" id="headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Tujuan 4
-          </button>
-        </h3>
-        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p class="text-justify">Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha 
-              pariwisata skala mikro dan kecil di Kota Batu.
-            </p>           
-          </div>
-        </div>
-      </div> -->
-    </div>
-</div>
+    </section>
 
-<?= $this->endSection(); ?>
+    <section>
+      <!-- Istope -->
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+      <!-- Leaflet JS -->
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+      <!-- Chart JS -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Chart JS Plugin Boxplotchart -->
+      <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot"></script>
+      <!-- Highchartjs  -->
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      <!-- Highchartjs Heatmap -->
+      <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+      <!--  Highchartjs Plugin -->
+      <script src="https://code.highcharts.com/modules/exporting.js"></script>
+      <script src="https://code.highcharts.com/modules/export-data.js"></script>
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
+      <!-- Data Chart -->
+      <script>
+        // const uupKotaBatu = < ?= json_encode($uupKotaBatu) ?>;    
+      </script>
+
+      <!-- Import Chart -->
+      <script src="<?= base_url('pvd/js/riset4/doughnut_kota_batu.js') ?>"></script>
+
+      <!-- Fungsi Unduh Chart -->
+      <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+    </section>
+  <?= $this->endSection(); ?>
