@@ -126,7 +126,7 @@
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
                                                   <div class = "chartBox" style=" height:300px;"> 
-                                                      <canvas id="cahrt-2"></canvas>
+                                                      <canvas id="chart-2"></canvas>
                                                   </div>
                                               </div>
                                           </div>
@@ -177,11 +177,13 @@
 
       <!-- Data Chart -->
       <script>
-        // const uupKotaBatu = < ?= json_encode($uupKotaBatu) ?>;    
+        const uupJkUsia = <?= json_encode($uupJkUsia) ?>;    
+        const uupJkPendidikan = <?= json_encode($uupJkPendidikan) ?>;    
       </script>
 
       <!-- Import Chart -->
-      <script src="<?= base_url('pvd/js/riset4/doughnut_kota_batu.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/pyramid_jenis_usia.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/dodge_jk_pendidikan.js') ?>"></script>
 
       <!-- Fungsi Unduh Chart -->
       <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
