@@ -3,7 +3,7 @@ const qa_output1_1 = document.getElementById("qa_output1_1");
 const data_qa_output1_1 = {
     labels: ['Dec-21', 'Jan-22', 'Feb-22', 'Mar-22', 'Apr-22', 'May-22', 'Jun-22', 'Jul-22', 'Aug-22', 'Sep-22', 'Oct-22', 'Nov-22'],
     datasets: [{
-      label: 'Jumlah Records',
+      label: 'Distribusi Jumlah Records',
       data: [126482
         ,141985
         ,109704
@@ -79,7 +79,7 @@ const line_output1_1 = new Chart(qa_output1_1, {
             },
             title: {
                 display: true,
-                text: 'Jumlah Records Duplicate Provider Telkomsel',
+                text: 'Distribusi Jumlah Records Provider Telkomsel',
                 font: {
                     size: 16,
                 },
@@ -89,9 +89,21 @@ const line_output1_1 = new Chart(qa_output1_1, {
                     bottom: 35
                 }
             },
+            datalabels: {
+                display: false,
+                color: 'black',
+                align: 'top',
+                font: {
+                    size: 10,
+                },
+            },
 
+        },
+        layout: {
+            padding: 20,
         }
-    }
+    },
+    plugins: [ChartDataLabels],
 });
 
 const lineChartAxis_output1_1 = document.getElementById("forLineChartAxis_qa_output1_1");
@@ -102,11 +114,13 @@ function update_value_qa_output1_1(chk_bx) {
         console.log("check");
         line_output1_1.options.scales.x.display = true;
         line_output1_1.options.scales.y.display = true;
+        line_output1_1.options.plugins.datalabels.display = false;
         line_output1_1.update();
     } else {
         console.log("uncheck");
         line_output1_1.options.scales.x.display = false;
         line_output1_1.options.scales.y.display = false;
+        line_output1_1.options.plugins.datalabels.display = true;
         line_output1_1.update();
     }
 };
