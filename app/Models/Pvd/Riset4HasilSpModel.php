@@ -25,6 +25,26 @@ class Riset4HasilSpModel extends Model
         return 925-$this->where([$kolom => $k])->countAllResults();
     }
 
+    # fungsi agregat (count) untuk dua kolom kategori, dua nilai
+    public function getJumlahUUPDua($kolom1, $kolom2, $k1, $k21, $k22){
+        $result1 = $this->where([$kolom1 => $k1, $kolom2 => $k21])->countAllResults();
+        $result2 = $this->where([$kolom1 => $k1, $kolom2 => $k22])->countAllResults();
+        return $result1 + $result2;
+    }
+
+    # fungsi agregat (count) untuk dua kolom kategori, tiga nilai
+    public function getJumlahUUPTiga($kolom1, $kolom2, $k1, $k21, $k22,$k23){
+        $result1 = $this->where([$kolom1 => $k1, $kolom2 => $k21])->countAllResults();
+        $result2 = $this->where([$kolom1 => $k1, $kolom2 => $k22])->countAllResults();
+        $result3 = $this->where([$kolom1 => $k1, $kolom2 => $k23])->countAllResults();
+        return $result1 + $result2 + $result3;
+    }
+
+    // # fungsi agregat (count) untuk dua kolom kategori, dua nilai continue
+    // public function getJumlahUUPDuaContinue($kolom1, $kolom2, $k1, $k21, $k22){
+    //     return $this->where([$kolom1 => $k1, $kolom2 >= $k21, $kolom2 <= $k22])->countAllResults();
+    // }
+
     # fungsi summary (min) untuk satu kolom kategorik dan satu kolom numerik
     public function getMin($kolom_kategorik, $kolom_numerik, $k1){
         $sub_query = 'min('.$kolom_numerik.') as minimum';
