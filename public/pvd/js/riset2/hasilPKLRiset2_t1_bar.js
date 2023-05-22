@@ -1,6 +1,6 @@
 let delayed1;
 // Chart
-const t1_bar = document.getElementById("t1_bar");
+const t1_bar = document.getElementById("riset2_t1_hasil1");
 var bar_lamakunjungan = new Chart(t1_bar, {
   type: "bar",
   data: {
