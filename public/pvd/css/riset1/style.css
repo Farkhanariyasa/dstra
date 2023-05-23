@@ -94,7 +94,7 @@
   padding: 2px 15px;
 }
 
-.portfolio #pills-tab li {
+.portfolio #pills-tab .nav-link {
   cursor: pointer;
   display: inline-block;
   margin: 10px 5px;
@@ -108,13 +108,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+.portfolio #pills-tab .nav-link.active {
+  color: #fff;
+}
+
 .nav{
   color:#444444 ;
 }
 
 .portfolio #pills-tab li.nav-link:target {
   background: #506396;
-  /* background: #47b2e4; */
   color: #fff;
   
 }
@@ -125,15 +128,10 @@
   background-color: #506396;
 }
 
-
-.portfolio #pills-tab li:hover,
-.portfolio #pills-tab li.nav-link:active {
+.portfolio #pills-tab button:hover,
+.portfolio #pills-tab button.nav-link:active {
   background: #506396;
-  /* background: #47b2e4; */
   color: #fff;
-  
-
-  /* color: #0563bb; */
 }
 
 .portfolio #pills-tab li:last-child {
