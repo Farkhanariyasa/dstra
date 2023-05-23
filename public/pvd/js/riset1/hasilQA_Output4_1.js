@@ -1559,7 +1559,7 @@ const line_output4_1 = new Chart(qa_output4_1, {
             },
             title: {
                 display: true,
-                text: ['Jumlah Subscribers per Hari Berdasarkan', 'Tipe Data Source Provider Telkomsel'],
+                text: ['Jumlah Records per Hari Berdasarkan', 'Tipe Data Source Provider Telkomsel'],
                 font: {
                     size: 16,
                 },
