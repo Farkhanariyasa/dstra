@@ -54,6 +54,8 @@
 <script src="<?= base_url('pvd/js/riset1/hasilQA_Output2_1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilQA_Output2_2.js') ?>"></script>   
 <script src="<?= base_url('pvd/js/riset1/hasilQA_Output3_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset1/hasilQA_Output3_2.js') ?>"></script>
+
 
 
 
