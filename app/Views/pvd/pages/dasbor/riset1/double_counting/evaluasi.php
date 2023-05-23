@@ -10,22 +10,23 @@
     <hr class="hrjudul">
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset1-hasil1">Hasil 1</li>
-          <li data-filter=".filter-riset1-hasil2">Hasil 2</li>
-          <li data-filter=".filter-riset1-hasil3">Hasil 3</li>
-          <li data-filter=".filter-riset1-hasil4">Hasil 4</li>
-          <li data-filter=".filter-riset1-hasil5">Hasil 5</li>
-          <!-- <li data-filter=".filter-riset1-peta">Peta Lokus</li>
-          <li data-filter=".filter-riset1-tabeldummy">Tabel Dummy</li> -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Algoritma 1</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma 2</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">Algoritma 3</button>
+          </li>
         </ul>
       </div>
     </div>
     <div class="row" id="rowdc">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="row portfolio-container" id="testdc">
-          <?php include('dummy_dc.php') ?>
+        <div class="row" id="testdc">
+          <?php include('data_dc.php') ?>
         </div>
       </div>
     </div>
