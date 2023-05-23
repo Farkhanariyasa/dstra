@@ -182,7 +182,7 @@
       </script>
 
       <!-- Import Chart -->
-      <script src="<?= base_url('pvd/js/riset4/pyramid_jenis_usia.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/pyramid_jk_usia.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/dodge_jk_pendidikan.js') ?>"></script>
 
       <!-- Fungsi Unduh Chart -->
