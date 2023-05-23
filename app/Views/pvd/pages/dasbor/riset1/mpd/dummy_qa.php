@@ -209,7 +209,11 @@
                                     <div class="mb-0 col-lg-7 grid-margin">
                                         <div>
                                             <div class="chartBox" style=" height:300px;">
-                                                <canvas id="chart-1"></canvas>
+                                                <canvas id="qa_output3_2"></canvas>
+                                            </div>
+                                            <div class="form-check form-switch me-3">
+                                                <input class="form-check-input" onchange="update_value_qa_output3_2(this);" type="checkbox" id="forLineChartAxis_qa_output3_2" value="show" checked>
+                                                <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                             </div>
                                         </div>
                                     </div>
