@@ -1,9 +1,9 @@
 //data untuk chart ini diambil dari hasil visualisasi subdiv vdd riset 3 yg diinput manual ketika visualisasinya dibuat di r studio
 
-const tujuan3_2 = document.getElementById('tujuan3_2');
+const tujuan3_3 = document.getElementById('tujuan3_3');
 
 
-new Chart(tujuan1_blok3_1, {
+new Chart(tujuan3_3, {
     type: 'bar',
     data: {
     labels: ["Belum Pernah Kawin",  "Pernah Kawin"],
@@ -11,12 +11,12 @@ new Chart(tujuan1_blok3_1, {
       {
         
         label: 'Pekerja Tidak Penuh',
-        data: [76.34, 23.66 ],
+        data: [76.34, 68.6 ],
         backgroundColor: ["#506396"],
       },
       {
         label: 'Pekerja Penuh',
-        data: [68.6,31.4],
+        data: [23.66 ,31.4],
         backgroundColor: ["#b35c74"],
       }
       ]},
