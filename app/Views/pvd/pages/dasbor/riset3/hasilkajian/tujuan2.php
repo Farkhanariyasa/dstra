@@ -31,6 +31,7 @@
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
     </h6>
+    <?php var_dump($data_2_2) ?>
   </header>
   <hr class="hrjudul">
 
@@ -52,7 +53,7 @@
     <div id="tujuan4-1" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Lama Menekuni Pekerjaan</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php include('tabplan_tujuan2.php');
             tabplan2_1() ?>
@@ -90,9 +91,59 @@
     <div id="tujuan4-2" class="datatujuan" style="width:100%">
       <h4 class="card-title  judul-card">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_2() ?>
+          </div>
+          <div class="col-lg-9 grid-margin stretch-card h-100">
+            <br>
+            <br>
+            <div class="card">
+              <h3><b>Tabulasi</b></h3>
+              <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+                <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                  <thead>
+                    <tr>
+                      <th scope="col">Jenis Industri Pariwisata</th>
+                      <th scope="col">Ya</th>
+                      <th scope="col">Tidak</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                      <td><?php echo $data_2_2['t2_1_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_1_2'] ?></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa makan dan minum</th>
+                      <td><?php echo $data_2_2['t2_2_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_2_2'] ?></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                      <td><?php echo $data_2_2['t2_3_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_3_2'] ?></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                      <td><?php echo $data_2_2['t2_4_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_4_2'] ?></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                      <td><?php echo $data_2_2['t2_5_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_5_2'] ?></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Jenis Industri Lainnya</th>
+                      <td><?php echo $data_2_2['t2_6_1'] ?></td>
+                      <td><?php echo $data_2_2['t2_6_2'] ?></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -127,7 +178,7 @@
     <div id="tujuan4-3" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_3() ?>
           </div>
@@ -164,7 +215,7 @@
     <div id="tujuan4-4" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_4() ?>
           </div>
@@ -201,7 +252,7 @@
     <div id="tujuan4-5" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_5() ?>
           </div>
@@ -238,7 +289,7 @@
     <div id="tujuan4-6" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Jenis Kelamin</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_6() ?>
           </div>
@@ -275,7 +326,7 @@
     <div id="tujuan4-7" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Tingkat Pendidikan</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_7() ?>
           </div>
@@ -312,7 +363,7 @@
     <div id="tujuan4-8" class="datatujuan" style="width:100%">
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Status Perkawinan</h4>
       <div class="card-body">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php tabplan2_8() ?>
           </div>
