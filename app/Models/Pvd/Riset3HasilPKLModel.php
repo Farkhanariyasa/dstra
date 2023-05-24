@@ -15,6 +15,7 @@ class Riset3HasilPKLModel extends Model
         return $this->where(['b503' => $ji, 'b301' => $sr])->countAllResults();
     }
 
+
     public function getByJenisIndustri($ji)
     {
         return $this->where(['b503' => $ji])->countAllResults();
@@ -28,5 +29,17 @@ class Riset3HasilPKLModel extends Model
     public function getByRL_JK($rumahlain, $jeniskelamin)
     {
         return $this->where(['b303' => $rumahlain, 'b404' => $jeniskelamin])->countAllResults();
+    }
+
+
+    // Tujuan 2 
+    public function get_2_1($ji, $sr,)
+    {
+        return $this->where(['b503' => $ji, 'b301' => $sr])->countAllResults();
+    }
+
+    public function get_2_2($b503, $b512)
+    {
+        return $this->where(['b503' => $b503, 'b512' => $b512])->countAllResults();
     }
 }
