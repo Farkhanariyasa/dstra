@@ -6,7 +6,7 @@
           <img src="<?= base_url('pvd/img/logo_pkl.png') ?>" alt="" width="75px" class="my-2">
         </a>
         <div class="col-lg-12 text-center text-white ;">
-          <h5 style="font-size: 14px;">Dibuat Dengan Sepenuh <span class="text-danger">❤️</span></h5>
+          <h5 style="font-size: 14px;">Bersinergi dengan Data, Majukan Pariwisata Nusantara</h5>
           <p style="font-size: 14px;">&copy; Divisi PVD TI PKL 62 2022/2023</p>
           <a href="https://www.instagram.com/kaleidoskop.pkld4_62/" class="text-white" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
           <a href="mailto:pkl@stis.ac.id" class="text-white" target="_blank"><i class="fa-regular fa-envelope fa-xl"></i></a>
