@@ -13,7 +13,7 @@ class Riset3 extends BaseController
     protected $jeniskelamin_riset3;
     protected $pendapatan_riset3;
 
-    protected $jenisindustri1;
+    protected $HasilPKL;
     protected $statusrumah1;
     protected $tujuan1_5;
 
@@ -24,8 +24,7 @@ class Riset3 extends BaseController
         $this->jeniskelamin_riset3 = new Riset3HasilSpModel();
         $this->pendapatan_riset3 = new Riset3HasilSpModel();
 
-        $this->jenisindustri1 = new Riset3HasilPKLModel();
-        $this->statusrumah1 = new Riset3HasilPKLModel();
+        $this->HasilPKL = new Riset3HasilPKLModel();
         $this->tujuan1_5 = new Riset3HasilPKLModel();
     }
     public function index()
@@ -134,26 +133,34 @@ class Riset3 extends BaseController
 
         // jenis usaha
         $jenisindustri_1 = [
-            'ji1_1' => $this->jenisindustri1->getByJenisIndustri1("1", "1"),
-            'ji2_1' => $this->jenisindustri1->getByJenisIndustri1("2", "1"),
-            'ji3_1' => $this->jenisindustri1->getByJenisIndustri1("3", "1"),
-            'ji4_1' => $this->jenisindustri1->getByJenisIndustri1("4", "1"),
-            'ji5_1' => $this->jenisindustri1->getByJenisIndustri1("5", "1"),
-            'ji6_1' => $this->jenisindustri1->getByJenisIndustri1("6", "1"),
+            'ji1_1' => $this->HasilPKL->getByHasilPKL("1", "1"),
+            'ji2_1' => $this->HasilPKL->getByHasilPKL("2", "1"),
+            'ji3_1' => $this->HasilPKL->getByHasilPKL("3", "1"),
+            'ji4_1' => $this->HasilPKL->getByHasilPKL("4", "1"),
+            'ji5_1' => $this->HasilPKL->getByHasilPKL("5", "1"),
+            'ji6_1' => $this->HasilPKL->getByHasilPKL("6", "1"),
 
-            'ji1_2' => $this->jenisindustri1->getByJenisIndustri1("1", "2"),
-            'ji2_2' => $this->jenisindustri1->getByJenisIndustri1("2", "2"),
-            'ji3_2' => $this->jenisindustri1->getByJenisIndustri1("3", "2"),
-            'ji4_2' => $this->jenisindustri1->getByJenisIndustri1("4", "2"),
-            'ji5_2' => $this->jenisindustri1->getByJenisIndustri1("5", "2"),
-            'ji6_2' => $this->jenisindustri1->getByJenisIndustri1("6", "2"),
+            'ji1_2' => $this->HasilPKL->getByHasilPKL("1", "2"),
+            'ji2_2' => $this->HasilPKL->getByHasilPKL("2", "2"),
+            'ji3_2' => $this->HasilPKL->getByHasilPKL("3", "2"),
+            'ji4_2' => $this->HasilPKL->getByHasilPKL("4", "2"),
+            'ji5_2' => $this->HasilPKL->getByHasilPKL("5", "2"),
+            'ji6_2' => $this->HasilPKL->getByHasilPKL("6", "2"),
 
-            'ji1_3' => $this->jenisindustri1->getByJenisIndustri1("1", "3"),
-            'ji2_3' => $this->jenisindustri1->getByJenisIndustri1("2", "3"),
-            'ji3_3' => $this->jenisindustri1->getByJenisIndustri1("3", "3"),
-            'ji4_3' => $this->jenisindustri1->getByJenisIndustri1("4", "3"),
-            'ji5_3' => $this->jenisindustri1->getByJenisIndustri1("5", "3"),
-            'ji6_3' => $this->jenisindustri1->getByJenisIndustri1("6", "3"),
+            'ji1_3' => $this->HasilPKL->getByHasilPKL("1", "3"),
+            'ji2_3' => $this->HasilPKL->getByHasilPKL("2", "3"),
+            'ji3_3' => $this->HasilPKL->getByHasilPKL("3", "3"),
+            'ji4_3' => $this->HasilPKL->getByHasilPKL("4", "3"),
+            'ji5_3' => $this->HasilPKL->getByHasilPKL("5", "3"),
+            'ji6_3' => $this->HasilPKL->getByHasilPKL("6", "3"),
+
+
+            // 'total1_1_1' => 100 / ('ji1_1' + 'ji1_2' + 'ji1_3'),
+            // 'total1_1_2' => 100 / ('ji2_1' + 'ji2_2' + 'ji2_3'),
+            // 'total1_1_3' => 100 / ('ji3_1' + 'ji3_2' + 'ji3_3'),
+            // 'total1_1_4' => 100 / ('ji4_1' + 'ji4_2' + 'ji4_3'),
+            // 'total1_1_5' => 100 / ('ji5_1' + 'ji5_2' + 'ji5_3'),
+            // 'total1_1_6' => 100 / ('ji6_1' + 'ji6_2' + 'ji6_3')
         ];
 
         $statusrumah_1 = [
@@ -187,10 +194,53 @@ class Riset3 extends BaseController
     public function hasilkajian2()
     {
         $menu = getMenu();
+        $data_2_1 = [];
+
+        $data_2_2 = [
+            't2_1_1' => $this->HasilPKL->get_2_2("1", "1") + $this->HasilPKL->get_2_2("1.0", "1"),
+            't2_2_1' => $this->HasilPKL->get_2_2("2", "1"),
+            't2_3_1' => $this->HasilPKL->get_2_2("3", "1"),
+            't2_4_1' => $this->HasilPKL->get_2_2("4", "1"),
+            't2_5_1' => $this->HasilPKL->get_2_2("5", "1"),
+            't2_6_1' => $this->HasilPKL->get_2_2("6", "1"),
+
+            't2_1_2' => $this->HasilPKL->get_2_2("1", "2") + $this->HasilPKL->get_2_2("1", "") + $this->HasilPKL->get_2_2("1.0", "2") + $this->HasilPKL->get_2_2("1.0", ""),
+            't2_2_2' => $this->HasilPKL->get_2_2("2", "2"),
+            't2_3_2' => $this->HasilPKL->get_2_2("3", "2"),
+            't2_4_2' => $this->HasilPKL->get_2_2("4", "2"),
+            't2_5_2' => $this->HasilPKL->get_2_2("5", "2"),
+            't2_6_2' => $this->HasilPKL->get_2_2("6", "2")
+
+        ];
+
+        $data_2_3 = [];
+
+        $data_2_4 = [];
+
+        $data_2_5 = [];
+
+        $data_2_6 = [];
+
+        $data_2_7 = [];
+
+        $data_2_8 = [];
+
         $data = [
             'judul' => 'Hasil Kajian Tujuan 2 Riset 3',
             'menu' => $menu['riset3'],
+            'data_2_1' => $data_2_1,
+            'data_2_2' => $data_2_2,
+            'data_2_3' => $data_2_3,
+            'data_2_4' => $data_2_4,
+            'data_2_5' => $data_2_5,
+            'data_2_6' => $data_2_6,
+            'data_2_7' => $data_2_7,
+            'data_2_8' => $data_2_8,
         ];
+
+
+
+
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan2', $data);
     }
     public function hasilkajian3()
