@@ -53,6 +53,7 @@
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset4/dodge_bar_dimensi_kecamatan.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/dodge_bar_dimensi_jenis.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/spider_dimensi.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
