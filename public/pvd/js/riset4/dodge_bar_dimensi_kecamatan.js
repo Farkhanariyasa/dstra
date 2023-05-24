@@ -7,9 +7,9 @@ const bar_1 = new Chart(bar1, {
         datasets: [{
             label: 'Nilai',
             data: [
-                dimensi1_kecamatan.batu,
-                dimensi1_kecamatan.junrejo,
-                dimensi1_kecamatan.bumiaji
+                dimensi_kecamatan.batu,
+                dimensi_kecamatan.junrejo,
+                dimensi_kecamatan.bumiaji
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -31,9 +31,9 @@ const bar_1 = new Chart(bar1, {
         plugins: {
             title: {
                 display: true,
-                text : 'Nilai IKUPTIK Dimensi Infrastruktur dan Konektivitas',
+                text : 'Nilai IKUPTIK Total',
                 font: {
-                    size: 18
+                    size: 16
                 },
             },
             subtitle: {
@@ -85,7 +85,19 @@ barKecamatan1.addEventListener('change', tampilData);
 //   }
 
 function tampilData(){
-    if (barKecamatan1.value =='dimensi1') {
+    if (barKecamatan1.value =='total') {
+        console.log(barKecamatan1.value);
+        bar_1.data.datasets[0].data = 
+            [
+                dimensi_kecamatan.batu,
+                dimensi_kecamatan.junrejo,
+                dimensi_kecamatan.bumiaji
+            ];
+            bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
+            bar_1.options.plugins.title.text='Nilai IKUPTIK Total';
+            bar_1.update();
+            document.getElementById("interpretasi-1").innerHTML = "0. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+    } if (barKecamatan1.value =='dimensi1') {
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
             [
