@@ -74,12 +74,16 @@ info.update = function (props) {
   this._div.innerHTML =
     "<h4>IKUPTIK</h4>" +
     (props
-      ? "<b>" +
+      ? "<b>Kec. " +
         props.Kecamatan +
         "</b><br />" +
-        props.IKUPTIK
+        props.IKUPTIK +
+        " (" +
+        "<strong>" +
+        props.status +
+        "</strong>)"
         // " people / mi<sup>2</sup>"
-      : "<strong>Kota Batu</strong> </b><br /> 46.98");
+      : "<strong>Kota Batu</strong> </b><br /> 46.98 (<strong>Tidak Siap</strong>)");
 };
 
 info.addTo(peta_batu_hasil_2);
