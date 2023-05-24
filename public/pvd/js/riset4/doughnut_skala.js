@@ -26,14 +26,22 @@ const doughnut_2 = new Chart(doughnut2, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kota Batu Berdasarkan Skala Usaha'],
+                text : ['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
-                    size: 20
+                    size: 16
+                }
+            },
+            subtitle: {
+                display: true,
+                text : ['Berdasarkan Skala Usaha'],
+                font: {
+                    size: 16,
+                    weight: 'bold',
                 }
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
@@ -43,7 +51,7 @@ const doughnut_2 = new Chart(doughnut2, {
                             currentValue = context.raw,
                             total = context.chart._metasets[context.datasetIndex].total;
               
-                        var percentage = parseFloat((currentValue/total*100).toFixed(1));
+                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
               
                         return label + ": " +currentValue + ' (' + percentage + '%)';
                     }
@@ -54,7 +62,7 @@ const doughnut_2 = new Chart(doughnut2, {
                 color: 'black',
                 formatter: function(value, context) {
                     total = context.chart._metasets[context.datasetIndex].total;
-                    percentage = parseFloat((value/total*100).toFixed(1));
+                    percentage = parseFloat((value/total*100).toFixed(2));
                     return percentage + '%';
                 }
 
