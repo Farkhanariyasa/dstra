@@ -258,7 +258,7 @@
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
                                                   <h4>spider chart dimensi 1</h4>
-                                                  <p id="interpretasi-1" class="text-justify">
+                                                  <p id="interpretasi-0" class="text-justify">
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
@@ -279,7 +279,8 @@
                                       <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select style="width: 250px" class="dropdownunduh1" id="bar-kecamatan-1">
-                                    <option value="dimensi1">Pilih Dimensi:</option>
+                                    <option value="total">Pilih Dimensi:</option>
+                                    <option value="total">Total</option>
                                     <option value="dimensi1">Infrastruktur dan Konektivitas</option>
                                     <option value="dimensi2">Sumber Daya Manusia</option>
                                     <option value="dimensi3">Manajemen Organisasi</option>
@@ -326,7 +327,8 @@
                                       <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select style="width: 250px" class="dropdownunduh1" id="bar-jenis-1">
-                                    <option value="dimensi1">Pilih Dimensi:</option>
+                                    <option value="total">Pilih Dimensi:</option>
+                                    <option value="total">Total</option>
                                     <option value="dimensi1">Infrastruktur dan Konektivitas</option>
                                     <option value="dimensi2">Sumber Daya Manusia</option>
                                     <option value="dimensi3">Manajemen Organisasi</option>
