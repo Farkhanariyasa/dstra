@@ -39,23 +39,28 @@ const dodge_2 = new Chart(dodge2, {
                 ticks:{
                     display:true
                 }
-            }
+            },
         },
         plugins: {
             title:{
                 display:true,
-                text:['Unit Usaha Pariwisata yang Mengikuti Perkembangan Isu Ekonomi'],
+                text:['Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
-                    family:'Poppins'
-
                 },
-                color:'#493a5a',
                 padding:{
                     top:5,
                     bottom:5,
                     right:10,
                     left:10
+                }
+            },
+            subtitle: {
+                display: true,
+                text : ['Berdasarkan Kelompok Usia'],
+                font: {
+                    size: 14,
+                    weight: 'bold',
                 }
             },
             legend:{
