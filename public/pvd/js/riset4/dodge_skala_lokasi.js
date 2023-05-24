@@ -8,16 +8,16 @@ const dodge_6 = new Chart(dodge6, {
         datasets: [{
             label: 'Berada di bangunan fisik rumah tangga',
             data:[
-                uupKotaBatuSkalaLokasi.mikroYa,
-                uupKotaBatuSkalaLokasi.kecilYa,
+                (uupKotaBatuSkalaLokasi.mikroYa/870*100).toFixed(2),
+                (uupKotaBatuSkalaLokasi.kecilYa/55*100).toFixed(2),
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: 'Tidak berada di bangunan fisik rumah tangga',
             data:[
-                uupKotaBatuSkalaLokasi.mikroTidak,
-                uupKotaBatuSkalaLokasi.kecilTidak,
+                (uupKotaBatuSkalaLokasi.mikroTidak/870*100).toFixed(2),
+                (uupKotaBatuSkalaLokasi.kecilTidak/55*100).toFixed(2),
             ],
             backgroundColor:"#506396",
             borderWidth:1
@@ -36,11 +36,24 @@ const dodge_6 = new Chart(dodge6, {
         plugins: {
             title:{
                 display:true,
-                text:['Unit Usaha Pariwisata yang Mengikuti Perkembangan Isu Ekonomi'],
+                text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
-                    size:16,
-                    family:'Poppins'
-
+                    size: 16,
+                },
+                color:'#493a5a',
+                padding:{
+                    top:5,
+                    bottom:5,
+                    right:10,
+                    left:10
+                }
+            },
+            subtitle:{
+                display:true,
+                text:['Berdasarkan Lokasi atau Tempat Usaha Menurut Skala Usaha'],
+                font: {
+                    size: 16,
+                    weight: 'bold',
                 },
                 color:'#493a5a',
                 padding:{
