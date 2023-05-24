@@ -10,6 +10,7 @@ const bar_wisnus6 = new Chart(wisnus_output6, {
         data: [209379, 37198, 40792, 130379, 389280, 218631],
         backgroundColor: "#506396",
         borderWidth: 1,
+        borderRadius: 8,
       },
     ],
   },

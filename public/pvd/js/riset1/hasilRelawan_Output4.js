@@ -10,12 +10,14 @@ const bar_relawan4 = new Chart(relawan_output4, {
         data: [12, 0, 0, 0, 0, 0],
         backgroundColor: "#c27d90",
         borderWidth: 1,
+        borderRadius: 8,
       },
       {
         label: "Data Testing",
         data: [47, 2, 0, 0, 0, 2],  
         backgroundColor: "#ffab00",
         borderWidth: 1, 
+        borderRadius: 8,
       },
     ],
   },
@@ -51,7 +53,7 @@ const bar_relawan4 = new Chart(relawan_output4, {
         text: ["Jumlah Anggota Keluarga Relawan"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
         padding: {

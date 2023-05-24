@@ -10,12 +10,14 @@ const bar_relawan1 = new Chart(relawan_output1, {
         data: [1, 2, 2, 26, 36, 10],
         backgroundColor: "#506396",
         borderWidth: 1,
+        borderRadius: 8,
       },
       {
         label: "Data Testing",
         data: [8, 7, 3, 8, 89, 23],  
         backgroundColor: "#ffab00",
         borderWidth: 1, 
+        borderRadius: 8,
       },
     ],
   },
@@ -51,7 +53,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
         text: ["Jumlah Relawan"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a", 
         padding: {

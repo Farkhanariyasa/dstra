@@ -44,7 +44,8 @@ const bar_output5 = new Chart(wisnus_output5, {
                 
             ],
             backgroundColor:"#c27d90",
-            borderWidth:1
+            borderWidth:1,
+            borderRadius:8,
         }]
     },options:{
         responsive: true,
