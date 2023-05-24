@@ -1,20 +1,19 @@
 const pyramid1 = document.getElementById('chart-1');
 
-// const laki = [3, 5, 6, 9, 15, 23, 29, 35, 40, 50];
-const laki = [uupJkUsia.laki10,
-                uupJkUsia.laki9,
-                uupJkUsia.laki8,
-                uupJkUsia.laki7,
-                uupJkUsia.laki6,
-                uupJkUsia.laki5,
-                uupJkUsia.laki4,
-                uupJkUsia.laki3,
-                uupJkUsia.laki2,
-                uupJkUsia.laki1,
+const laki = [(uupJkUsia.laki10/925*100).toFixed(2),
+                (uupJkUsia.laki9/925*100).toFixed(2),
+                (uupJkUsia.laki8/925*100).toFixed(2),
+                (uupJkUsia.laki7/925*100).toFixed(2),
+                (uupJkUsia.laki6/925*100).toFixed(2),
+                (uupJkUsia.laki5/925*100).toFixed(2),
+                (uupJkUsia.laki4/925*100).toFixed(2),
+                (uupJkUsia.laki3/925*100).toFixed(2),
+                (uupJkUsia.laki2/925*100).toFixed(2),
+                (uupJkUsia.laki1/925*100).toFixed(2),
             ];
+
 const lakiData = [];
 laki.forEach(element => lakiData.push(element * -1));
-// console.log(lakiData);
 
 const tooltip = {
     yAllign: 'bottom',
@@ -25,6 +24,7 @@ const tooltip = {
         }
     }
 }
+
 new Chart(pyramid1, {
     type: 'bar',
     data : {
@@ -40,17 +40,16 @@ new Chart(pyramid1, {
         },
         {
             label: 'Perempuan',
-            // data: [3, 5, 6, 9, 15, 23, 29, 35, 40, 50],
-            data: [uupJkUsia.perempuan10,
-                uupJkUsia.perempuan9,
-                uupJkUsia.perempuan8,
-                uupJkUsia.perempuan7,
-                uupJkUsia.perempuan6,
-                uupJkUsia.perempuan5,
-                uupJkUsia.perempuan4,
-                uupJkUsia.perempuan3,
-                uupJkUsia.perempuan2,
-                uupJkUsia.perempuan1,
+            data: [(uupJkUsia.perempuan10/925*100).toFixed(2),
+                (uupJkUsia.perempuan9/925*100).toFixed(2),
+                (uupJkUsia.perempuan8/925*100).toFixed(2),
+                (uupJkUsia.perempuan7/925*100).toFixed(2),
+                (uupJkUsia.perempuan6/925*100).toFixed(2),
+                (uupJkUsia.perempuan5/925*100).toFixed(2),
+                (uupJkUsia.perempuan4/925*100).toFixed(2),
+                (uupJkUsia.perempuan3/925*100).toFixed(2),
+                (uupJkUsia.perempuan2/925*100).toFixed(2),
+                (uupJkUsia.perempuan1/925*100).toFixed(2),
             ],
             backgroundColor: "#506396",
             borderColor: "#506396",
@@ -68,29 +67,41 @@ new Chart(pyramid1, {
                     callback: function(value, index, values) {
                         return Math.abs(value);
                     }
-                }
+                },
+                title: {
+                    display: true,
+                    text: "Persentase (%)",
+                    font: {
+                      size: 12,
+                    },
+                },
+                grid: {
+                    display: false,
+                },
             },
             y: {
                 beginAtZero: true,
-                stacked: true
+                stacked: true,
+                grid: {
+                    display: false,
+                },
             }
         },
         maintainAspectRatio: false,
         responsive: true,
-        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
-                text : ['Jumlah Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
+                text : ['Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
                 font: {
-                    size: 18
+                    size: 16
                 }
             },
             subtitle: {
                 display: true,
                 text : ['Berdasarkan Jenis Kelamin dan Kelompok Usia'],
                 font: {
-                    size: 16,
+                    size: 14,
                     weight: 'bold'
                 }
             },
@@ -101,5 +112,4 @@ new Chart(pyramid1, {
             tooltip,
         },
     },
-    // plugins: [ChartDataLabels]
 });
