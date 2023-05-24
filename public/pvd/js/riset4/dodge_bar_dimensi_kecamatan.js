@@ -96,7 +96,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Infrastruktur dan Konektivitas';
             bar_1.update();
-
+            document.getElementById("interpretasi-1").innerHTML = "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi2') {
             console.log(barKecamatan1.value);
             bar_1.data.datasets[0].data = 
@@ -108,6 +108,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Sumber Daya Manusia';
             bar_1.update();
+            document.getElementById("interpretasi-1").innerHTML = "2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi3'){
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -119,6 +120,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Manajemen Organisasi ';
             bar_1.update();
+            document.getElementById("interpretasi-1").innerHTML = "3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi4') {
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -130,7 +132,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Penggunaan TIK ';
             bar_1.update();
-
+            document.getElementById("interpretasi-1").innerHTML = "4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi5') {
             console.log(barKecamatan1.value);
             bar_1.data.datasets[0].data = 
@@ -142,6 +144,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Eksternal';
             bar_1.update();
+            document.getElementById("interpretasi-1").innerHTML = "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi6'){
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -153,5 +156,6 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Kendala';
             bar_1.update();
+            document.getElementById("interpretasi-1").innerHTML = "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     }
 }
