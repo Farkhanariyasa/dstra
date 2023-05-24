@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="card bg-secondary">
+                        <div class="card ">
                             <div class="card-body">
                                 <div class="chartBox">
                                     <canvas class="mt1" id="tk_pie"></canvas>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="card bg-secondary">
+                        <div class="card ">
                             <div class="card-body">
                                 <div class="chartBox">
                                     <canvas class="mt1" id="tk_pie"></canvas>
@@ -132,10 +132,10 @@
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="card bg-secondary">
+                        <div class="card ">
                             <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                                <div class="chartBox bar">
+                                    <canvas id="tujuan3_4" style="width: 95%; height:80vh;"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -162,10 +162,10 @@
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="card bg-secondary">
+                        <div class="card ">
                             <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                                <div class="chartBox bar">
+                                    <canvas id="tujuan3_5" style="width: 95%; height:80vh;"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -192,10 +192,10 @@
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="card bg-secondary">
+                        <div class="card ">
                             <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="tk_pie"></canvas>
+                                <div class="chartBox bar">
+                                    <canvas id="tujuan3_6" style="width: 95%; height:80vh;"></canvas>
                                 </div>
                             </div>
                         </div>
