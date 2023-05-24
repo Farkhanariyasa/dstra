@@ -33,7 +33,7 @@ const dodge_2 = new Chart(dodge2, {
         ]
     },options:{
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: true,
         scales:{
             x:{
                 ticks:{
