@@ -80,7 +80,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_1" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -405,8 +405,15 @@
 
 <!-- dropdown show/hide content-->
 <script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
-
-
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/datatables_install.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/datatables_export_tujuan2.js'); ?>"></script>
+
+<!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan2.js') ?>"></script>
+
+<!-- Fungsi Unduh Chart -->
+<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+
+<!-- Modal Riset 3  -->
+<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/modal_riset3.php') ?>
 <?= $this->endSection(); ?>
