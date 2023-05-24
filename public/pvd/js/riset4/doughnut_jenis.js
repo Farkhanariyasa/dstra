@@ -17,9 +17,9 @@ const doughnut_1 = new Chart(doughnut1, {
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffdd99",
-                "#96a1c0",
-                "#6f617f"
+                "#ffab00",
+                "#506396",
+                "#4b395f"
             ],
         }]
     },
@@ -29,14 +29,22 @@ const doughnut_1 = new Chart(doughnut1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Persentase Unit Usaha Pariwisata di Kota Batu Berdasarkan Jenis Usahanya'],
+                text : ['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
-                    size: 20
+                    size: 16
+                }
+            },
+            subtitle: {
+                display: true,
+                text : ['Berdasarkan Jenis Usaha Pariwisata'],
+                font: {
+                    size: 16,
+                    weight: 'bold',
                 }
             },
             legend:{
                 display: true,
-                position: 'right',
+                position: 'bottom',
             },
             tooltip:{
                 enabled: true,
@@ -46,7 +54,7 @@ const doughnut_1 = new Chart(doughnut1, {
                             currentValue = context.raw,
                             total = context.chart._metasets[context.datasetIndex].total;
               
-                        var percentage = parseFloat((currentValue/total*100).toFixed(1));
+                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
               
                         return label + ": " +currentValue + ' (' + percentage + '%)';
                     }
@@ -57,7 +65,7 @@ const doughnut_1 = new Chart(doughnut1, {
                 color: 'black',
                 formatter: function(value, context) {
                     total = context.chart._metasets[context.datasetIndex].total;
-                    percentage = parseFloat((value/total*100).toFixed(1));
+                    percentage = parseFloat((value/total*100).toFixed(2));
                     return percentage + '%';
                 }
 

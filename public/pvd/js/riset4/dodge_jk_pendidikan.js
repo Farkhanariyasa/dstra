@@ -8,24 +8,24 @@ const dodge_2 = new Chart(dodge2, {
         datasets: [{
             label: 'Maksimal Pendidikan Dasar',
             data:[
-                uupJkPendidikan.lakiDasar,
-                uupJkPendidikan.perempuanDasar,
+                (uupJkPendidikan.lakiDasar/925*100).toFixed(2),
+                (uupJkPendidikan.perempuanDasar/925*100).toFixed(2),
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: 'Pendidikan Menengah',
             data:[
-                uupJkPendidikan.lakiMenengah,
-                uupJkPendidikan.perempuanMenengah,
+                (uupJkPendidikan.lakiMenengah/925*100).toFixed(2),
+                (uupJkPendidikan.perempuanMenengah/925*100).toFixed(2),
             ],
             backgroundColor:"#506396",
             borderWidth:1
         },{
             label: 'Pendidikan Tinggi',
             data:[
-                uupJkPendidikan.lakiTinggi,
-                uupJkPendidikan.perempuanTinggi,
+                (uupJkPendidikan.lakiTinggi/925*100).toFixed(2),
+                (uupJkPendidikan.perempuanTinggi/925*100).toFixed(2),
             ],
             backgroundColor:"#4b395f",
             borderWidth:1
@@ -65,7 +65,7 @@ const dodge_2 = new Chart(dodge2, {
             },
             legend:{
                 display:true,
-                position:'top',
+                position:'bottom',
             },
             tooltip:{
                 enabled:true,
