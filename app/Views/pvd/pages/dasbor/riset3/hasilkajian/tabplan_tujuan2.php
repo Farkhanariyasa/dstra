@@ -348,6 +348,7 @@ function tabplan2_7() {
             <tbody>
                 <tr>
                     <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                    <td>1</td>
                     <td>1.33</td>
                     <td>1.33</td>
                     <td>1.73</td>
@@ -358,6 +359,7 @@ function tabplan2_7() {
                 </tr>
                 <tr>
                     <th scope="row">Penyediaan jasa makan dan minum</th>
+                    <td>1</td>
                     <td>1.25</td>
                     <td>1.33</td>
                     <td>1.22</td>
@@ -368,6 +370,7 @@ function tabplan2_7() {
                 </tr>
                 <tr>
                     <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                    <td>0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>1.25</td>
@@ -378,6 +381,7 @@ function tabplan2_7() {
                 </tr>
                 <tr>
                     <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                    <td>0</td>
                     <td>2</td>
                     <td>1</td>
                     <td>1</td>
@@ -388,6 +392,7 @@ function tabplan2_7() {
                 </tr>
                 <tr>
                     <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                    <td>0</td>
                     <td>1.5</td>
                     <td>1.5</td>
                     <td>1.22</td>
@@ -398,6 +403,7 @@ function tabplan2_7() {
                 </tr>
                 <tr>
                     <th scope="row">Jenis Industri Lainnya</th>
+                    <td>0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>1</td>
