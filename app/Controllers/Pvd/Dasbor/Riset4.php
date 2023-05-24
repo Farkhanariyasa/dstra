@@ -433,6 +433,18 @@ class Riset4 extends BaseController
             'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
         ];
 
+        $dimensi_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'BUMIAJI')
+        ];
+
+        $dimensi_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 3)
+        ];
+
         $dimensi1_kecamatan = [
             'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'BATU'),
             'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'JUNREJO'),
@@ -510,12 +522,14 @@ class Riset4 extends BaseController
             'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
             'ikuptikPerDimensi' => $ikuptikPerDimensi,
+            'dimensi_kecamatan' => $dimensi_kecamatan,
             'dimensi1_kecamatan' => $dimensi1_kecamatan,
             'dimensi2_kecamatan' => $dimensi2_kecamatan,
             'dimensi3_kecamatan' => $dimensi3_kecamatan,
             'dimensi4_kecamatan' => $dimensi4_kecamatan,
             'dimensi5_kecamatan' => $dimensi5_kecamatan,
             'dimensi6_kecamatan' => $dimensi6_kecamatan,
+            'dimensi_jenis' => $dimensi_jenis,
             'dimensi1_jenis' => $dimensi1_jenis,
             'dimensi2_jenis' => $dimensi2_jenis,
             'dimensi3_jenis' => $dimensi3_jenis,
