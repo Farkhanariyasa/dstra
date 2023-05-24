@@ -1,7 +1,6 @@
 //data untuk chart ini diambil dari hasil visualisasi subdiv vdd riset 3 yg diinput manual ketika visualisasinya dibuat di r studio
 
 const tujuan2_1 = document.getElementById('tujuan2_1');
-
 new Chart(tujuan2_1, {
     type: 'bar',
     data: {
@@ -9,20 +8,25 @@ new Chart(tujuan2_1, {
     datasets: [
       {
         
-        label: 'Bebas sewa',
-        data: [data1_1.ji1_1*total1_1_1, data1_1.ji2_1*total1_1_2, data1_1.ji3_1*total1_1_3, data1_1.ji4_1*total1_1_4, data1_1.ji5_1*total1_1_5, data1_1.ji6_1*total1_1_6],
+        label: '< 12 Bulan',
+        data: [21.34, 36.61, 6.25, 26.13, 25.85, 13.85],
+        backgroundColor: ["#ffab00"],
+      },
+      {
+        label: '12-24 Bulan',
+        data: [6.67, 8.93, 10, 10.81, 4.08, 10.77],
         backgroundColor: ["#506396"],
       },
       {
-        label: 'Kontrak Sewa',
-        data: [data1_1.ji1_2*total1_1_1, data1_1.ji2_2*total1_1_2, data1_1.ji3_2*total1_1_3, data1_1.ji4_2*total1_1_4, data1_1.ji5_2*total1_1_5, data1_1.ji6_2*total1_1_6],
+        label: '24-36 Bulan',
+        data: [12, 4.46, 5, 8.11, 8.84, 10.77],
         backgroundColor: ["#b35c74"],
       },
       {
-        label: 'Milik Sendiri',
-        data: [data1_1.ji1_3*total1_1_1, data1_1.ji2_3*total1_1_2, data1_1.ji3_3*total1_1_3, data1_1.ji4_3*total1_1_4, data1_1.ji5_3*total1_1_5, data1_1.ji6_3*total1_1_6],
+        label: '> 36 Bulan',
+        data: [60, 50, 78.75, 54.95, 61.22, 64.62],
         backgroundColor: ["#4b395f"],
-      }
+      },
       ]},
     options: {
     indexAxis: 'y',
@@ -38,7 +42,7 @@ new Chart(tujuan2_1, {
     plugins:{
         title: {
             display: false,
-            // text : ["Persentase Tenaga Kerja di Industri Pariwisata", "Menurut Jenis Industri dan Status Kepemilikan Rumah"],
+            // text : ["Persentase Tenaga Kerja di Industri Pariwisata", "Menurut Jenis Industri dan Lama Menekuni Pekerjaan"],
             font: {
                 size: 18
             }
