@@ -154,7 +154,7 @@ function tabplan3_5() {
                     <td>24.31</td>
                 </tr>
                 <tr>
-                    <th scope="row">>= UMR</th>
+                    <th scope="row">Perdesaan</th>
                     <td>52.90</td>
                     <td>47.10</td>
                 </tr>
