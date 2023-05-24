@@ -423,7 +423,16 @@ class Riset4 extends BaseController
     }
 
     public function menu4submenu2()
-    {         
+    {        
+        $ikuptikPerDimensi = [
+            'dimensi1' => $this->uup->getRataanGeo('dimensi1'),
+            'dimensi2' => $this->uup->getRataanGeo('dimensi2'),
+            'dimensi3' => $this->uup->getRataanGeo('dimensi3'),
+            'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
+            'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
+            'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
         $dimensi1_kecamatan = [
             'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'BATU'),
             'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'JUNREJO'),
@@ -500,6 +509,7 @@ class Riset4 extends BaseController
         $data = [
             'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
+            'ikuptikPerDimensi' => $ikuptikPerDimensi,
             'dimensi1_kecamatan' => $dimensi1_kecamatan,
             'dimensi2_kecamatan' => $dimensi2_kecamatan,
             'dimensi3_kecamatan' => $dimensi3_kecamatan,
