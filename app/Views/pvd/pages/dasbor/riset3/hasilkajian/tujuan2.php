@@ -31,7 +31,7 @@
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
     </h6>
-    <?php var_dump($data_2_2) ?>
+    <!-- <?php var_dump($data_2_2) ?> -->
   </header>
   <hr class="hrjudul">
 
@@ -167,7 +167,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_2" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@
       </div>
     </div>
     <div id="tujuan4-3" class="datatujuan" style="width:100%">
-      <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi dan Perpindahan Pekerjaan</h4>
+      <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Perpindahan Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
@@ -204,7 +204,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_3" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -241,7 +241,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_4" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_5" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_6" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -352,7 +352,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_7" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
@@ -389,7 +389,7 @@
                   </div>
                 </div>
                 <div class="chartBox bar">
-                  <canvas id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+                  <canvas id="tujuan2_8" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
             </div>
