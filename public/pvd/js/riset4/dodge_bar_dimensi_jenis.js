@@ -102,7 +102,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Dimensi Infrastruktur dan Konektivitas';
             bar_2.update();
-
+        document.getElementById("interpretasi-2").innerHTML = "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barJenis1.value =='dimensi2') {
             console.log(barJenis1.value);
             bar_2.data.datasets[0].data = 
@@ -117,6 +117,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Dimensi Sumber Daya Manusia';
             bar_2.update();
+            document.getElementById("interpretasi-2").innerHTML = "2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barJenis1.value =='dimensi3'){
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
@@ -131,6 +132,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Manajemen Organisasi';
             bar_2.update();
+            document.getElementById("interpretasi-2").innerHTML = "3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barJenis1.value =='dimensi4') {
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
@@ -145,7 +147,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Dimensi Penggunaan TIK';
             bar_2.update();
-
+            document.getElementById("interpretasi-2").innerHTML = "4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barJenis1.value =='dimensi5') {
             console.log(barJenis1.value);
             bar_2.data.datasets[0].data = 
@@ -160,6 +162,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Dimensi Eksternal';
             bar_2.update();
+            document.getElementById("interpretasi-2").innerHTML = "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barJenis1.value =='dimensi6'){
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
@@ -174,5 +177,6 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Kendala';
             bar_2.update();
+            document.getElementById("interpretasi-2").innerHTML = "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     }
 }
