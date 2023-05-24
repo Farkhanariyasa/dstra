@@ -62,7 +62,7 @@
 <!-- Semua -->
 <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
-        <h4 class="card-title judul-card"><i>Dashboard Unit Usaha Pariwisata (UUP) Kota Batu</i></h4>
+        <h4 class="card-title judul-card"><i>Dashboard</i> &nbsp; Unit Usaha Pariwisata (UUP) Kota Batu</h4>
 
         <div class="card-body">
             <div class="row">
@@ -156,6 +156,135 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Part 5 - pemanfaatan -->
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_pemanfaatan1(this);" type="checkbox" id="pie-kota-batu-pemanfaatan-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 grid-margin stretch-card ">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan-jenis"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_pemanfaatan_jenis1(this);" type="checkbox" id="pie-kota-batu-pemanfataan-jenis-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 grid-margin stretch-card ">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan-skala"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_pemanfaatan_skala1(this);" type="checkbox" id="pie-kota-batu-pemanfaatan-skala-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Part 6 - kegiatan pemanfaatan-->
+                <div class="col-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kota-batu-pemanfaatan"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Part 7 - map ikuptik-->
+                <!-- <div class="col-12 grid-margin stretch-card"> -->
+                    <!-- <div class="card shadow">
+                        <div class="card-body"> -->
+                            <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div> -->
+                            <!-- <div class="chartBox" style=" height:500px;">
+                                <p class="card-text text-center">
+                                    <strong>IKUPTIK Usaha Pariwisata di Kota Batu Per Kecamatan</strong>
+                                </p>
+                                <div class="d-flex flex-row align-item-center justify-content-center">
+                                        <div class="mt1" id="peta-batu" style="width: 100%; height: 80vh; z-index: 0;"></div>
+                                </div>
+                            </div> -->
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
+                                    <p class="card-text text-center">
+                                        <strong>IKUPTIK Unit Usaha Pariwisata di Kota Batu Per Kecamatan</strong>
+                                    </p>
+                                    <div class="d-flex flex-row align-item-center justify-content-center">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div id="peta-batu" style="width: 100%; height:80vh; z-index:0;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div>
+                    </div> -->
+                <!-- </div> -->
+
                 <!-- hapus -->
                 <!-- <div class="col-lg-4 grid-margin stretch-card">
                     <div class="card shadow">
@@ -388,117 +517,8 @@
                     </div>
                 </div> -->
 
-                <!-- Part 3a -->
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_pemanfaatan1(this);" type="checkbox" id="pie-kota-batu-pemanfaatan-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 grid-margin stretch-card ">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan-jenis"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_pemanfaatan_jenis1(this);" type="checkbox" id="pie-kota-batu-pemanfataan-jenis-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 grid-margin stretch-card ">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kota-batu-pemanfaatan-skala"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_pemanfaatan_skala1(this);" type="checkbox" id="pie-kota-batu-pemanfaatan-skala-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Part 4 -->
-                <!-- <div class="col-12 grid-margin stretch-card"> -->
-                    <!-- <div class="card shadow">
-                        <div class="card-body"> -->
-                            <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div> -->
-                            <!-- <div class="chartBox" style=" height:500px;">
-                                <p class="card-text text-center">
-                                    <strong>IKUPTIK Usaha Pariwisata di Kota Batu Per Kecamatan</strong>
-                                </p>
-                                <div class="d-flex flex-row align-item-center justify-content-center">
-                                        <div class="mt1" id="peta-batu" style="width: 100%; height: 80vh; z-index: 0;"></div>
-                                </div>
-                            </div> -->
-                            <div class="col-lg-12 grid-margin stretch-card">
-                                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
-                                    <p class="card-text text-center">
-                                        <strong>IKUPTIK Unit Usaha Pariwisata di Kota Batu Per Kecamatan</strong>
-                                    </p>
-                                    <div class="d-flex flex-row align-item-center justify-content-center">
-                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                                            <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="">
-                                                    <i class="fa-solid fa-download"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div id="peta-batu" style="width: 100%; height:80vh; z-index:0;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        <!-- </div>
-                    </div> -->
-                <!-- </div> -->
-
-                <div class="col-lg-6 grid-margin stretch-card">
+                <!-- hapus -->
+                <!-- <div class="col-lg-6 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -530,25 +550,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Part 5 -->
-                <div class="col-12 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kota-batu-pemanfaatan"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
