@@ -51,7 +51,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
         text: ["Jumlah Relawan"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a", 
         padding: {

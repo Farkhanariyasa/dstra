@@ -51,7 +51,7 @@ const bar_relawan4 = new Chart(relawan_output4, {
         text: ["Jumlah Anggota Keluarga Relawan"],
         font: {
           size: 16,
-          family: "Poppins",
+          // family: "Poppins",
         },
         color: "#493a5a",
         padding: {
