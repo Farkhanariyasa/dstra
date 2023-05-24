@@ -124,7 +124,7 @@ class Riset4 extends BaseController
 
         $pemanfaatanTik = [
             'tidak' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 1),
-            'ya' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 2),
+            'ya' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 2),
         ];
 
         $pemanfaatanTikJenis = [
