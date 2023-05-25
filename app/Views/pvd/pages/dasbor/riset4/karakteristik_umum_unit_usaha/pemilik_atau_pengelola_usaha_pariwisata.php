@@ -83,7 +83,7 @@
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                           <div class="me-1 mt-1 justify-content-end align-item-end">
-                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                              <button id="unduh-m2sm1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal-m2sm1-1">
                                                   <i class="fa-solid fa-download"></i>
                                               </button>
                                           </div>
@@ -117,7 +117,7 @@
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                           <div class="me-1 mt-1 justify-content-end align-item-end">
-                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                              <button id="unduh-m2sm1-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal-m2sm1-2">
                                                   <i class="fa-solid fa-download"></i>
                                               </button>
                                           </div>
@@ -186,6 +186,6 @@
       <script src="<?= base_url('pvd/js/riset4/dodge_jk_pendidikan.js') ?>"></script>
 
       <!-- Fungsi Unduh Chart -->
-      <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/button_download_2_1.js') ?>"></script>
     </section>
   <?= $this->endSection(); ?>
