@@ -96,7 +96,76 @@
         <div class="row">
           <div class="col-lg-9 grid-margin stretch-card h-100">
             <?php include('tabplan_tujuan1.php');
-            tabplan1_blok3_1() ?>
+
+            // tabplan1_blok3_1() 
+            ?>
+            <div class="card">
+              <h3><b>Tabulasi</b></h3>
+              <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
+                <table id="table1" class="table table-hover table-bordered table-responsive display" style="width:100%">
+                  <thead>
+                    <tr>
+                      <th scope="col">Jenis Industri Pariwisata</th>
+                      <th scope="col">Milik Sendiri</th>
+                      <th scope="col">Kontrak Sewa</th>
+                      <th scope="col">Bebas Sewa</th>
+                      <th scope="col">Dinas</th>
+                      <th scope="col">Lainnya</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
+                      <td> <?php echo $ji1['ji1_1'] ?></td>
+                      <td><?php echo $ji1['ji1_2'] ?></td>
+                      <td><?php echo $ji1['ji1_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa makan dan minum</th>
+                      <td><?php echo $ji1['ji2_1'] ?></td>
+                      <td><?php echo $ji1['ji2_2'] ?></td>
+                      <td><?php echo $ji1['ji2_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
+                      <td><?php echo $ji1['ji3_1'] ?></td>
+                      <td><?php echo $ji1['ji3_2'] ?></td>
+                      <td><?php echo $ji1['ji3_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                      <td><?php echo $ji1['ji4_1'] ?></td>
+                      <td><?php echo $ji1['ji4_2'] ?></td>
+                      <td><?php echo $ji1['ji4_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
+                      <td><?php echo $ji1['ji5_3'] ?></td>
+                      <td><?php echo $ji1['ji5_3'] ?></td>
+                      <td><?php echo $ji1['ji5_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Jenis Industri Lainnya</th>
+                      <td><?php echo $ji1['ji6_3'] ?></td>
+                      <td><?php echo $ji1['ji6_3'] ?></td>
+                      <td><?php echo $ji1['ji6_3'] ?></td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
@@ -185,7 +254,7 @@
             </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
-          <div class="card">
+            <div class="card">
               <h3><b>Grafik</b></h3>
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -292,8 +361,8 @@
                   </div>
                 </div>
               </div>
-            </div>   
-          </div>       
+            </div>
+          </div>
         </div>
       </div>
     </div>
