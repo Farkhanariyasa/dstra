@@ -4,9 +4,9 @@ namespace App\Models\Pvd;
 
 use CodeIgniter\Model;
 
-class Riset4HasilSpModel extends Model
+class Riset4HasilPklModel extends Model
 {
-    protected $table = 'pvd_riset4_hasil_pencacahan';
+    protected $table = 'pvd_riset4_hasilpkl';
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 

@@ -4,7 +4,7 @@ namespace App\Models\Pvd;
 
 use CodeIgniter\Model;
 
-class Riset3HasilPKLModel extends Model
+class Riset3HasilPklModel extends Model
 {
     protected $table = 'pvd_riset3_hasilpkl';
     protected $primaryKey = 'id';
