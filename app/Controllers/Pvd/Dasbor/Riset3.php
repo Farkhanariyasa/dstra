@@ -133,26 +133,26 @@ class Riset3 extends BaseController
 
         // jenis usaha
         $jenisindustri_1 = [
-            'ji1_1' => $this->HasilPKL->getByHasilPKL("1", "1"),
-            'ji2_1' => $this->HasilPKL->getByHasilPKL("2", "1"),
-            'ji3_1' => $this->HasilPKL->getByHasilPKL("3", "1"),
-            'ji4_1' => $this->HasilPKL->getByHasilPKL("4", "1"),
-            'ji5_1' => $this->HasilPKL->getByHasilPKL("5", "1"),
-            'ji6_1' => $this->HasilPKL->getByHasilPKL("6", "1"),
+            'ji1_1' => $this->HasilPKL->getByJenisIndustri("1", "1"),
+            'ji2_1' => $this->HasilPKL->getByJenisIndustri("2", "1"),
+            'ji3_1' => $this->HasilPKL->getByJenisIndustri("3", "1"),
+            'ji4_1' => $this->HasilPKL->getByJenisIndustri("4", "1"),
+            'ji5_1' => $this->HasilPKL->getByJenisIndustri("5", "1"),
+            'ji6_1' => $this->HasilPKL->getByJenisIndustri("6", "1"),
 
-            'ji1_2' => $this->HasilPKL->getByHasilPKL("1", "2"),
-            'ji2_2' => $this->HasilPKL->getByHasilPKL("2", "2"),
-            'ji3_2' => $this->HasilPKL->getByHasilPKL("3", "2"),
-            'ji4_2' => $this->HasilPKL->getByHasilPKL("4", "2"),
-            'ji5_2' => $this->HasilPKL->getByHasilPKL("5", "2"),
-            'ji6_2' => $this->HasilPKL->getByHasilPKL("6", "2"),
+            'ji1_2' => $this->HasilPKL->getByJenisIndustri("1", "2"),
+            'ji2_2' => $this->HasilPKL->getByJenisIndustri("2", "2"),
+            'ji3_2' => $this->HasilPKL->getByJenisIndustri("3", "2"),
+            'ji4_2' => $this->HasilPKL->getByJenisIndustri("4", "2"),
+            'ji5_2' => $this->HasilPKL->getByJenisIndustri("5", "2"),
+            'ji6_2' => $this->HasilPKL->getByJenisIndustri("6", "2"),
 
-            'ji1_3' => $this->HasilPKL->getByHasilPKL("1", "3"),
-            'ji2_3' => $this->HasilPKL->getByHasilPKL("2", "3"),
-            'ji3_3' => $this->HasilPKL->getByHasilPKL("3", "3"),
-            'ji4_3' => $this->HasilPKL->getByHasilPKL("4", "3"),
-            'ji5_3' => $this->HasilPKL->getByHasilPKL("5", "3"),
-            'ji6_3' => $this->HasilPKL->getByHasilPKL("6", "3"),
+            'ji1_3' => $this->HasilPKL->getByJenisIndustri("1", "3"),
+            'ji2_3' => $this->HasilPKL->getByJenisIndustri("2", "3"),
+            'ji3_3' => $this->HasilPKL->getByJenisIndustri("3", "3"),
+            'ji4_3' => $this->HasilPKL->getByJenisIndustri("4", "3"),
+            'ji5_3' => $this->HasilPKL->getByJenisIndustri("5", "3"),
+            'ji6_3' => $this->HasilPKL->getByJenisIndustri("6", "3"),
 
 
             // 'total1_1_1' => 100 / ('ji1_1' + 'ji1_2' + 'ji1_3'),
@@ -163,11 +163,7 @@ class Riset3 extends BaseController
             // 'total1_1_6' => 100 / ('ji6_1' + 'ji6_2' + 'ji6_3')
         ];
 
-        $statusrumah_1 = [
-            'sr1' => $this->statusrumah1->getByStatusRumah("1"),
-            'sr2' => $this->statusrumah1->getByStatusRumah("2"),
-            'sr3' => $this->statusrumah1->getByStatusRumah("3")
-        ];
+
 
         $data_1_5 = [
             'rl_jk_1_1' => $this->tujuan1_5->getByRL_JK("1", "1"),
@@ -185,7 +181,6 @@ class Riset3 extends BaseController
             'pd_1' => $pd_1,
             'ji1' => $jenisindustri_1,
             'data_1_5' => $data_1_5,
-            'sr1' => $statusrumah_1
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan1', $data1);
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan1', $data);
