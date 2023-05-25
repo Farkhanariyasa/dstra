@@ -3,7 +3,7 @@
 namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
-use App\Models\Pvd\Riset4HasilSpModel;
+use App\Models\Pvd\Riset4HasilPklModel;
 
 class Riset4 extends BaseController
 {
@@ -17,13 +17,13 @@ class Riset4 extends BaseController
 
     public function __construct()
     {
-        $this->uup = new Riset4HasilSpModel();
-        $this->SDM = new Riset4HasilSpModel();
-        $this->kecamatan = new Riset4HasilSpModel();
-        $this->unitusahaTIK = new Riset4HasilSpModel();
-        $this->pendapatan = new Riset4HasilSpModel();
-        $this->umur = new Riset4HasilSpModel();
-        $this->pendapatanNoFilter = new Riset4HasilSpModel();
+        $this->uup = new Riset4HasilPklModel();
+        $this->SDM = new Riset4HasilPklModel();
+        $this->kecamatan = new Riset4HasilPklModel();
+        $this->unitusahaTIK = new Riset4HasilPklModel();
+        $this->pendapatan = new Riset4HasilPklModel();
+        $this->umur = new Riset4HasilPklModel();
+        $this->pendapatanNoFilter = new Riset4HasilPklModel();
     }
 
     public function index()
