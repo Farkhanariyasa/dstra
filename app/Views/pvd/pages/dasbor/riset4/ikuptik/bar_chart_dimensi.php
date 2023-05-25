@@ -373,5 +373,5 @@
           </div>
 
           <!-- Modal Dasbor -->
-          <!-- < ?php include('modal_pemilik_atau_pengelola_usaha_pariwisata.php') ?> -->
+          <?php include('modal_ikuptik_dimensi.php') ?>
         </div>
