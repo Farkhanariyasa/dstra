@@ -306,7 +306,7 @@
                                           </div>
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
-                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
+                                                  <h4 style="margin-top: 1.5rem;">Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
                                                   <p id="interpretasi-1" class="text-justify">
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
@@ -354,7 +354,7 @@
                                           </div>
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
-                                                  <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
+                                                  <h4 style="margin-top: 1.5rem;">Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
                                                   <p id="interpretasi-2" class="text-justify">
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                       Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
