@@ -1143,10 +1143,10 @@ const line_output3_2 = new Chart(qa_output3_2, {
         },
         scales: {
             y: { // defining min and max so hiding the dataset does not change scale range
-                min: -1,
+                min: 0.9,
                 max: 1,
                 ticks: {
-                    stepSize: 0.5,
+                    stepSize: 0.01,
                 },
                 grid: {
                     display: true
