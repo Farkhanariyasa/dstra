@@ -73,7 +73,11 @@ const barPendidikan_1 = new Chart(barPendidikan1, {
                         return context[0].label.replaceAll(',',' ');
                     }
                 }
-            }
+            },
+            datalabels: {
+                display: true,
+                color: 'black',
+            },
         },
     },
     plugins: [ChartDataLabels]

@@ -43,7 +43,7 @@ const pie_1 = new Chart(pie1, {
                             currentValue = context.raw,
                             total = context.chart._metasets[context.datasetIndex].total;
               
-                        var percentage = parseFloat((currentValue/total*100).toFixed(1));
+                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
               
                         return label + ": " +currentValue + ' (' + percentage + '%)';
                     }
@@ -54,7 +54,7 @@ const pie_1 = new Chart(pie1, {
                 color: 'black',
                 formatter: function(value, context) {
                     total = context.chart._metasets[context.datasetIndex].total;
-                    percentage = parseFloat((value/total*100).toFixed(1));
+                    percentage = parseFloat((value/total*100).toFixed(2));
                     return percentage + '%';
                 }
 
