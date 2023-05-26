@@ -76,6 +76,10 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
                         return context[0].label.replaceAll(',',' ');
                     }
                 }
+            },
+            datalabels: {
+                display: true,
+                color: 'black',
             }
         },
     },
