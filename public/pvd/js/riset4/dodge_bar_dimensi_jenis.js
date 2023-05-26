@@ -10,9 +10,9 @@ const bar_2 = new Chart(bar2, {
         datasets: [{
             label: 'Nilai',
             data: [
-                dimensi1_jenis.transportasi,
-                dimensi1_jenis.makanminum,
-                dimensi1_jenis.akomodasi
+                dimensi_jenis.transportasi,
+                dimensi_jenis.makanminum,
+                dimensi_jenis.akomodasi
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -34,9 +34,9 @@ const bar_2 = new Chart(bar2, {
         plugins: {
             title: {
                 display: true,
-                text : ['Nilai IKUPTIK Dimensi Infrastruktur dan Konektivitas'],
+                text : ['Nilai IKUPTIK Total'],
                 font: {
-                    size: 18
+                    size: 16
                 }
             },
             subtitle: {
@@ -88,7 +88,22 @@ barJenis1.addEventListener('change', tampilData);
 //   }
 
 function tampilData(){
-    if (barJenis1.value =='dimensi1') {
+    if (barJenis1.value =='total') {
+        console.log(barJenis1.value);
+        bar_2.data.datasets[0].data = 
+            [
+                dimensi_jenis.transportasi,
+                dimensi_jenis.makanminum,
+                dimensi_jenis.akomodasi
+            ];
+            bar_2.data.labels =   [['Jasa', 'Transportasi'],
+                ['Jasa', 'Penyedia Makanan', 'dan Minuman'],
+                ['Jasa', 'Akomodasi']
+            ];
+            bar_2.options.plugins.title.text='Nilai IKUPTIK Total';
+            bar_2.update();
+        document.getElementById("interpretasi-2").innerHTML = "0. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+    } if (barJenis1.value =='dimensi1') {
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
             [

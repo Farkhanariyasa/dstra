@@ -62,12 +62,12 @@
 <!-- Semua -->
 <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
-        <h4 class="card-title judul-card">Semua</h4>
+        <h4 class="card-title judul-card"><i>Dashboard</i> &nbsp; Unit Usaha Pariwisata (UUP) Kota Batu</h4>
 
         <div class="card-body">
             <div class="row">
 
-                <!-- Part 1 -->
+                <!-- Part 1 - gantt chart -->
                 <div class="col-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
@@ -84,170 +84,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Part 1a -->
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="doughnut-kota-batu"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_doughnut1(this);" type="checkbox" id="doughnut-kota-batu-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="doughnut-kec-batu"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_doughnut2(this);" type="checkbox" id="doughnut-kec-batu-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="doughnut-kec-junrejo"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_doughnut3(this);" type="checkbox" id="doughnut-kec-junrejo-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="doughnut-kec-bumiaji"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value_doughnut4(this);" type="checkbox" id="doughnut-kec-bumiaji-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Part 2 -->
-                <div class="col-12 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kota-batu-produksi"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-batu-produksi"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-junrejo-produksi"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow rounded-4">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kec-bumiaji-produksi"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Part 2a -->
+                <!-- Part 2 - bar pendidikan -->
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
@@ -271,7 +109,31 @@
                     </div>
                 </div>
 
-                <!-- Part 3 -->
+                <!-- Part 3 - jenis usaha -->
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kota-batu"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut1(this);" type="checkbox" id="doughnut-kota-batu-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Part 4 - skala -->
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
@@ -295,99 +157,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-lg-6 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kota-batu-skala"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value1(this);" type="checkbox" id="pie-kota-batu-skala-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kec-batu-skala"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value2(this);" type="checkbox" id="pie-kec-batu-skala-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kec-junrejo-skala"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value3(this);" type="checkbox" id="pie-kec-junrejo-skala-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 grid-margin stretch-card ">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="chartBox" style=" height:300px;">
-                                <canvas class="mt1" id="pie-kec-bumiaji-skala"></canvas>
-                            </div>
-                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="form-check form-switch me-3">
-                                    <input class="form-check-input" onchange="update_value4(this);" type="checkbox" id="pie-kec-bumiaji-skala-legend" value="show" checked>
-                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Part 3a -->
+                <!-- Part 5 - pemanfaatan -->
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
@@ -457,7 +227,25 @@
                     </div>
                 </div>
 
-                <!-- Part 4 -->
+                <!-- Part 6 - kegiatan pemanfaatan-->
+                <div class="col-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kota-batu-pemanfaatan"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Part 7 - map ikuptik-->
                 <!-- <div class="col-12 grid-margin stretch-card"> -->
                     <!-- <div class="card shadow">
                         <div class="card-body"> -->
@@ -497,7 +285,240 @@
                     </div> -->
                 <!-- </div> -->
 
-                <div class="col-lg-6 grid-margin stretch-card">
+                <!-- hapus -->
+                <!-- <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-batu"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut2(this);" type="checkbox" id="doughnut-kec-batu-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-junrejo"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut3(this);" type="checkbox" id="doughnut-kec-junrejo-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="doughnut-kec-bumiaji"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value_doughnut4(this);" type="checkbox" id="doughnut-kec-bumiaji-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- hapus -->
+                <!-- <div class="col-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kota-batu-produksi"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow rounded-4">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kec-batu-produksi"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow rounded-4">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kec-junrejo-produksi"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow rounded-4">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div style=" height:300px;">
+                                <canvas id="bar-kec-bumiaji-produksi"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kota-batu-skala"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value1(this);" type="checkbox" id="pie-kota-batu-skala-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- hapus -->
+                <!-- <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kec-batu-skala"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value2(this);" type="checkbox" id="pie-kec-batu-skala-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kec-junrejo-skala"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value3(this);" type="checkbox" id="pie-kec-junrejo-skala-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 grid-margin stretch-card ">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-doughnut">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chartBox" style=" height:300px;">
+                                <canvas class="mt1" id="pie-kec-bumiaji-skala"></canvas>
+                            </div>
+                            <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="form-check form-switch me-3">
+                                    <input class="form-check-input" onchange="update_value4(this);" type="checkbox" id="pie-kec-bumiaji-skala-legend" value="show" checked>
+                                    <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Legenda</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- hapus -->
+                <!-- <div class="col-lg-6 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -529,32 +550,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Part 5 -->
-                <div class="col-12 grid-margin stretch-card">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div style=" height:300px;">
-                                <canvas id="bar-kota-batu-pemanfaatan"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 </div>
 
 <!-- Jasa Transportasi Wisata -->
-<div class="portfolio-item filter-riset4-transportasi" onresize="responsivefonts()">
+<!-- <div class="portfolio-item filter-riset4-transportasi" onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
         <h4 class="card-title judul-card">Jasa Transportasi Wisata</h4>
         <div class="card-body">
@@ -604,10 +607,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Jasa Penyedia Makanan dan Minuman -->
-<div class="portfolio-item filter-riset4-makan " onresize="responsivefonts()">
+<!-- <div class="portfolio-item filter-riset4-makan " onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
         <h4 class="card-title judul-card">Jasa Penyedia Makanan dan Minuman</h4>
         <div class="card-body">
@@ -657,10 +660,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Penyedia Akomodasi -->
-<div class="portfolio-item filter-riset4-akomodasi" onresize="responsivefonts()">
+<!-- <div class="portfolio-item filter-riset4-akomodasi" onresize="responsivefonts()">
     <div class="isi-tujuan shadow mt-0 mb-0">
         <h4 class="card-title judul-card">Penyedia Akomodasi</h4>
         <div class="card-body">
@@ -710,7 +713,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Modal Dasbor -->
 <?php include('modal_dasbor.php') ?>

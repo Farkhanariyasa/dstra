@@ -154,7 +154,8 @@ function tabplan1_blok3_3()
                 <thead>
                     <tr>
                         <th scope="col">Jenis Industri Pariwisata</th>
-                        <th scope="col"><= 7.2 m^2</th>
+                        <th scope="col">
+                            <= 7.2 m^2</th>
                         <th scope="col">7.2-9.9 m^2</th>
                         <th scope="col">>= 10 m^2</th>
                     </tr>

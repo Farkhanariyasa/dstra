@@ -18,7 +18,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-12 grid-margin">
                                         <div class="pr-3 pl-3">
-                                            <h3><b>Alur Algoritma</b></h3>
+                                            <h3 class="text-center"><b>Alur Algoritma</b></h3>
                                             <!-- <div class="chartBox" style=" height:300px;">
                                                 <canvas id="chart-1"></canvas>
                                             </div> -->

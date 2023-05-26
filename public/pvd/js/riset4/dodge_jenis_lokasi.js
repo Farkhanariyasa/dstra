@@ -9,18 +9,18 @@ const dodge_5 = new Chart(dodge5, {
         datasets: [{
             label: 'Berada di bangunan fisik rumah tangga',
             data:[
-                uupKotaBatuJenisLokasi.transportasiYa,
-                uupKotaBatuJenisLokasi.makananYa,
-                uupKotaBatuJenisLokasi.akomodasiYa
+                (uupKotaBatuJenisLokasi.transportasiYa/164*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.makananYa/685*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.akomodasiYa/76*100).toFixed(2),
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: 'Tidak berada di bangunan fisik rumah tangga',
             data:[
-                uupKotaBatuJenisLokasi.transportasiTidak,
-                uupKotaBatuJenisLokasi.makananTidak,
-                uupKotaBatuJenisLokasi.akomodasiTidak
+                (uupKotaBatuJenisLokasi.transportasiTidak/164*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.makananTidak/685*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.akomodasiTidak/76*100).toFixed(2),
             ],
             backgroundColor:"#506396",
             borderWidth:1
@@ -39,11 +39,9 @@ const dodge_5 = new Chart(dodge5, {
         plugins: {
             title:{
                 display:true,
-                text:['Unit Usaha Pariwisata yang Mengikuti Perkembangan Isu Ekonomi'],
+                text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
-                    family:'Poppins'
-
                 },
                 color:'#493a5a',
                 padding:{
@@ -53,9 +51,23 @@ const dodge_5 = new Chart(dodge5, {
                     left:10
                 }
             },
+            subtitle:{
+                display:true,
+                text:['Berdasarkan Jenis Usaha Pariwisata Menurut Lokasi atau Tempat Usaha'],
+                font: {
+                    size:16,
+                    weight: 'bold',
+                },
+                padding:{
+                    top:5,
+                    bottom:5,
+                    right:10,
+                    left:10
+                }
+            },
             legend:{
                 display:true,
-                position:'top',
+                position:'bottom',
             },
             tooltip:{
                 enabled:true,

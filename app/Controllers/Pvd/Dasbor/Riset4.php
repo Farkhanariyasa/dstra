@@ -3,7 +3,7 @@
 namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
-use App\Models\Pvd\Riset4HasilSpModel;
+use App\Models\Pvd\Riset4HasilPklModel;
 
 class Riset4 extends BaseController
 {
@@ -17,13 +17,13 @@ class Riset4 extends BaseController
 
     public function __construct()
     {
-        $this->uup = new Riset4HasilSpModel();
-        $this->SDM = new Riset4HasilSpModel();
-        $this->kecamatan = new Riset4HasilSpModel();
-        $this->unitusahaTIK = new Riset4HasilSpModel();
-        $this->pendapatan = new Riset4HasilSpModel();
-        $this->umur = new Riset4HasilSpModel();
-        $this->pendapatanNoFilter = new Riset4HasilSpModel();
+        $this->uup = new Riset4HasilPklModel();
+        $this->SDM = new Riset4HasilPklModel();
+        $this->kecamatan = new Riset4HasilPklModel();
+        $this->unitusahaTIK = new Riset4HasilPklModel();
+        $this->pendapatan = new Riset4HasilPklModel();
+        $this->umur = new Riset4HasilPklModel();
+        $this->pendapatanNoFilter = new Riset4HasilPklModel();
     }
 
     public function index()
@@ -124,7 +124,7 @@ class Riset4 extends BaseController
 
         $pemanfaatanTik = [
             'tidak' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 1),
-            'ya' => $this->uup->getJumlahUUP('pendidikan_terakhir_pemilik_pengelola', 2),
+            'ya' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 2),
         ];
 
         $pemanfaatanTikJenis = [
@@ -423,7 +423,28 @@ class Riset4 extends BaseController
     }
 
     public function menu4submenu2()
-    {         
+    {        
+        $ikuptikPerDimensi = [
+            'dimensi1' => $this->uup->getRataanGeo('dimensi1'),
+            'dimensi2' => $this->uup->getRataanGeo('dimensi2'),
+            'dimensi3' => $this->uup->getRataanGeo('dimensi3'),
+            'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
+            'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
+            'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
+        $dimensi_kecamatan = [
+            'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'BATU'),
+            'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'JUNREJO'),
+            'bumiaji' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "geometrik_mean", 'BUMIAJI')
+        ];
+
+        $dimensi_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 1),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 3)
+        ];
+
         $dimensi1_kecamatan = [
             'batu' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'BATU'),
             'junrejo' => $this->unitusahaTIK->getRataanGeo2("kecamatan", "dimensi1", 'JUNREJO'),
@@ -500,12 +521,15 @@ class Riset4 extends BaseController
         $data = [
             'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
+            'ikuptikPerDimensi' => $ikuptikPerDimensi,
+            'dimensi_kecamatan' => $dimensi_kecamatan,
             'dimensi1_kecamatan' => $dimensi1_kecamatan,
             'dimensi2_kecamatan' => $dimensi2_kecamatan,
             'dimensi3_kecamatan' => $dimensi3_kecamatan,
             'dimensi4_kecamatan' => $dimensi4_kecamatan,
             'dimensi5_kecamatan' => $dimensi5_kecamatan,
             'dimensi6_kecamatan' => $dimensi6_kecamatan,
+            'dimensi_jenis' => $dimensi_jenis,
             'dimensi1_jenis' => $dimensi1_jenis,
             'dimensi2_jenis' => $dimensi2_jenis,
             'dimensi3_jenis' => $dimensi3_jenis,

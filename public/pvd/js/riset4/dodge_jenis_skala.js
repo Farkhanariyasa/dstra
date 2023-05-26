@@ -2,27 +2,32 @@ const sdm_ekonomi = document.getElementById('chart-4');
 const bar = new Chart(sdm_ekonomi, {
     type:'bar',
     data: {
-        labels: [ ['Jasa', 'Transportasi Wisata'],
-            ['Jasa', 'Penyedia Makanan', 'dan Minuman'],
-            ['Penyedia', 'Akomodasi']
+        labels: [ ['Mikro'],
+            ['Kecil'],
         ],
         datasets: [{
-            label: 'Mikro',
+            label: ['Jasa Transportasi Wisata'],
             data:[
-                uupKotaBatuJenisSkala.transportasiMikro,
-                uupKotaBatuJenisSkala.makananMikro,
-                uupKotaBatuJenisSkala.akomodasiMikro
+                (uupKotaBatuJenisSkala.transportasiMikro/870*100).toFixed(2),
+                (uupKotaBatuJenisSkala.transportasiKecil/55*100).toFixed(2),
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
-            label: 'Kecil',
+            label: ['Jasa Penyedia Makanan dan Minuman'],
             data:[
-                uupKotaBatuJenisSkala.transportasiKecil,
-                uupKotaBatuJenisSkala.makananKecil,
-                uupKotaBatuJenisSkala.akomodasiKecil
+                (uupKotaBatuJenisSkala.makananMikro/870*100).toFixed(2),
+                (uupKotaBatuJenisSkala.makananKecil/55*100).toFixed(2),
             ],
             backgroundColor:"#506396",
+            borderWidth:1
+        },{
+            label: ['Penyedia Akomodasi'],
+            data:[
+                (uupKotaBatuJenisSkala.akomodasiMikro/870*100).toFixed(2),
+                (uupKotaBatuJenisSkala.akomodasiKecil/55*100).toFixed(2),
+            ],
+            backgroundColor:"#4b395f",
             borderWidth:1
         },
         ]
@@ -39,13 +44,24 @@ const bar = new Chart(sdm_ekonomi, {
         plugins: {
             title:{
                 display:true,
-                text:['Unit Usaha Pariwisata yang Mengikuti Perkembangan Isu Ekonomi'],
+                text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
-                    family:'Poppins'
-
                 },
-                color:'#493a5a',
+                padding:{
+                    top:5,
+                    bottom:5,
+                    right:10,
+                    left:10
+                }
+            },
+            subtitle:{
+                display:true,
+                text:['Berdasarkan Skala Usaha Menurut Jenis Usaha Pariwisata'],
+                font: {
+                    size:16,
+                    weight: 'bold',
+                },
                 padding:{
                     top:5,
                     bottom:5,
@@ -55,7 +71,7 @@ const bar = new Chart(sdm_ekonomi, {
             },
             legend:{
                 display:true,
-                position:'top',
+                position:'bottom',
             },
             tooltip:{
                 enabled:true,
