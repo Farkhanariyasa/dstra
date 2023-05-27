@@ -5,14 +5,6 @@
             <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <!-- <div class="selectBox mt-2 me-2">
-                        <form action="">
-                            <select class="dropdownunduh1 w-100" id="forBarChart">
-                                <option value="a">Jumlah ART Melakukan Perjalanan Wisata</option>
-                                <option value="b">Jenis Kelamin</option>
-                            </select>
-                        </form>
-                    </div> -->
                         <div class="me-1 mt-1 justify-content-end align-item-end">
                             <button id="wisnus-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                 <i class="fa-solid fa-download"></i>
@@ -31,23 +23,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="row mt-5">
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-    </div> -->
     </div>
 
     <!-- Output 2 Wisnus -->
@@ -56,14 +31,6 @@
             <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                        <!-- <div class="selectBox mt-2 me-2">
-                        <form action="">
-                            <select class="dropdownunduh1 w-100" id="forBarChart">
-                                <option value="a">Jumlah ART Melakukan Perjalanan Wisata</option>
-                                <option value="b">Jenis Kelamin</option>
-                            </select>
-                        </form>
-                    </div> -->
                         <div class="me-1 mt-1 justify-content-end align-item-end">
                             <button id="wisnus-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                 <i class="fa-solid fa-download"></i>
@@ -82,54 +49,8 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="row mt-5">
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-6 my-2">
-            <div class="card shadow">
-                <div class="card-body">
-                    <p class="card-text text-center">Grafik<br><br><br><br><br><br><br><br><br><br><br></p>
-                </div>
-            </div>
-        </div>
-    </div> -->
     </div>
 
-    <!-- Output 3 -->
-    <!-- <div class="tab-pane fade " id="pills-output3" role="tabpanel" aria-labelledby="pills-output3-tab" tabindex="0">
-        <div class="row">
-            <div class="col-lg-12 grid-margin stretch-card">
-                <div class="card shadow rounded-4">
-                    <div class="card-body">
-                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                            <div class="me-1 mt-1 justify-content-end align-item-end">
-                                <button id="wisnus-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                    <i class="fa-solid fa-download"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div style=" height:500px;">
-                            <canvas class="mt1" id="riset1_hasil4"></canvas>
-                        </div>
-                        <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                            <div class="form-check form-switch me-3">
-                                <input class="form-check-input" onchange="update_value_mpw(this);" type="checkbox" id="forBarChartAxis_mpw" value="show" checked>
-                                <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Output 4 -->
     <div class="tab-pane fade " id="pills-output3" role="tabpanel" aria-labelledby="pills-output3-tab" tabindex="0">
         <div class="row">
             <div class="col-lg-12 grid-margin stretch-card">
