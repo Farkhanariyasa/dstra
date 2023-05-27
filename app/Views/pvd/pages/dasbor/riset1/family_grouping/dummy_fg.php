@@ -148,3 +148,6 @@
         </div>
     </div>
 </div>
+
+<!-- Modal Riset 1 -->
+<?php include('modal_fg.php') ?>
