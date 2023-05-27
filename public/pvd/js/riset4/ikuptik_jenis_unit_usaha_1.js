@@ -2,7 +2,7 @@ const VIZ_1 = document.getElementById('viz-1');
 new Chart(VIZ_1, {
     type: 'bar',
     data: {
-    labels: [['Jasa Makan-Minum'],
+    labels: [['Jasa Penyediaan Makanan dan Minuman'],
             ['Jasa Transportasi Wisata'],
             ['Penyediaan Akomodasi']
         ],

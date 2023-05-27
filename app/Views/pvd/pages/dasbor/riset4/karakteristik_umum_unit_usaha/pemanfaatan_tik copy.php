@@ -234,7 +234,7 @@
                                             <div>
                                                 <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
                                                 Pemanfaatan TIK Pada Unit Usaha Pariwisata</h1>
-                                                <subtitle>Berdasarkan Jenis Aplikasi Komunikasi yang Digunakan</subtitle>
+                                                <subtitle>Berdasarkan Jenis Perangkat Digital yang Dimiliki dan Digunakan</subtitle>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
@@ -281,7 +281,7 @@
                                             <div>
                                                 <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
                                                 Pemanfaatan TIK Pada Unit Usaha Pariwisata</h1>
-                                                <subtitle>Berdasarkan Jenis Kegiatan Pemanfaatan</subtitle>
+                                                <subtitle>Berdasarkan Jenis Perangkat Digital yang Dimiliki dan Digunakan</subtitle>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
@@ -295,53 +295,6 @@
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
                                                     <canvas id="viz-2-3-E-2"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mb-0 col-lg-4 grid-margin stretch-card">
-                                            <div>
-                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
-                                                <p class="text-justify">
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Part 6 -->
-                        <div class="col-12 grid-margin stretch-card">
-                            <div class="card shadow">
-                                <div class="pb-2 card-body">
-                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                                <i class="fa-solid fa-download"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
-                                            <div>
-                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                                                Pemanfaatan TIK Pada Unit Usaha Pariwisata</h1>
-                                                <subtitle>Berdasarkan Sarana Promosi</subtitle>
-                                            </div>
-                                        </div>
-                                        <div class="mb-0 col-lg-4 grid-margin">
-                                            <div>
-                                                <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-F-1"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mb-0 col-lg-4 grid-margin">
-                                            <div>
-                                                <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-F-2"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -478,8 +431,6 @@
       <script src="<?= base_url('pvd/js/riset4/kuuu_3_D_2_bar.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/kuuu_3_E_1_doughnut.js') ?>"></script>
       <script src="<?= base_url('pvd/js/riset4/kuuu_3_E_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_F_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_F_2_bar.js') ?>"></script>
 
       <!-- Fungsi Unduh Chart -->
       <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
