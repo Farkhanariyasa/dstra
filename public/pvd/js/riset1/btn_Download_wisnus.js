@@ -85,7 +85,7 @@ document.getElementById('wisnus2').addEventListener('click', function(e) {
 
 document.getElementById('wisnus3').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('wisnus_output3').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output4').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -100,7 +100,7 @@ document.getElementById('wisnus3').addEventListener('click', function(e) {
 
 document.getElementById('wisnus4').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('wisnus_output4').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output5').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -115,7 +115,7 @@ document.getElementById('wisnus4').addEventListener('click', function(e) {
 
 document.getElementById('wisnus5').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('wisnus_output5').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output6').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -130,7 +130,7 @@ document.getElementById('wisnus5').addEventListener('click', function(e) {
 
 document.getElementById('wisnus6').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('wisnus_output6').toDataURL();
+    let canvasUrl = document.getElementById('wisnus_output7').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
