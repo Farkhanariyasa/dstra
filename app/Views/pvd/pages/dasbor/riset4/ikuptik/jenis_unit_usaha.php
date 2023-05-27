@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
-            <li data-filter=".filter-riset4-jenis-uup-1" class="filter-active">Jasa Transportasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-1" class="filter">Jasa Transportasi</li>
             <li data-filter=".filter-riset4-jenis-uup-2" class="filter">Jasa Penyedia Makanan dan Minuman</li>
             <li data-filter=".filter-riset4-jenis-uup-3" class="filter">Jasa Akomodasi</li>
         </ul>
@@ -52,6 +52,7 @@
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_3.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_4.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>

@@ -2,29 +2,44 @@ const VIZ_2 = document.getElementById('viz-2');
 new Chart(VIZ_2, {
     type: 'bar',
     data: {
-    labels: [['Jasa Transportasi'],
-            ['Jasa Penyedia Makanan dan Minuman'],
-            ['Jasa Akomodasi']
+    labels: [['Eksternal'],
+            ['Infrastruktur dan Konektivitas'],
+            ['Kendala'],
+            ['Manajemen Organisasi'],
+            ['Penggunaan TIK'],
+            ['Sumber Daya Manusia']
         ],
     datasets: [{
-        label: 'Rata-rata IKUPTIK',
+        label: 'Nilai IKUPTIK',
         data: [
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha1,
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha2,
-            IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN.jenis_usaha3
+            69.63,
+            56.31,
+            41.61,
+            65.67,
+            69.78,
+            28.15
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#7382ab",
-            "#ffbc33",
+            "#ffab00",
+            "#506396",
+            "#4b395f",
+            "#b35c74",
+            "#ffdd99",
             "#6f617f"
         ],
+        datalabels: {
+            anchor: 'end', // Set the anchor to 'end' to position the labels at the top
+            align: 'top', // Align the labels to the top
+            color: 'black' // Set the color of the labels
+        },
     }]
     },
     options: {
         scales: {
             y: {
-            beginAtZero: true
+            beginAtZero: false,
+            display: false
             }
         },
         maintainAspectRatio: false,
@@ -33,9 +48,16 @@ new Chart(VIZ_2, {
         plugins: {
             title: {
                 display: true,
-                text : ['Rata-rata IKUPTIK Berdasarkan Jenis Usaha Pariwisata'],
+                text : ['Nilai IKUPTIK Tiap-Tiap Dimensi'],
                 font: {
                     size: 20
+                }
+            },
+            subtitle: {
+                display: true,
+                text : ['Pada Usaha Jasa Akomodasi di Kota Batu'],
+                font: {
+                    size: 14
                 }
             },
             legend:{

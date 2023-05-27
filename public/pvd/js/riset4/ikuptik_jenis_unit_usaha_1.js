@@ -2,29 +2,35 @@ const VIZ_1 = document.getElementById('viz-1');
 new Chart(VIZ_1, {
     type: 'bar',
     data: {
-    labels: [['Jasa Transportasi'],
-            ['Jasa Penyedia Makanan dan Minuman'],
-            ['Jasa Akomodasi']
+    labels: [['Jasa Makan-Minum'],
+            ['Jasa Transportasi Wisata'],
+            ['Penyediaan Akomodasi']
         ],
     datasets: [{
-        label: 'Rata-rata IKUPTIK',
+        label: 'Nilai IKUPTIK',
         data: [
-            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha1,
-            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha2,
-            IKUPTIK_JASA_TRANSPORTASI.jenis_usaha3
+            45.52,
+            51.11,
+            52.08
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#7382ab",
-            "#ffbc33",
-            "#6f617f"
+            "#ffab00",
+            "#b35c74",
+            "#4b395f"
         ],
+        datalabels: {
+            anchor: 'end', // Set the anchor to 'end' to position the labels at the top
+            align: 'top', // Align the labels to the top
+            color: 'black' // Set the color of the labels
+        },
     }]
     },
     options: {
         scales: {
             y: {
-            beginAtZero: true
+            beginAtZero: false,
+            display: false
             }
         },
         maintainAspectRatio: false,
@@ -33,9 +39,16 @@ new Chart(VIZ_1, {
         plugins: {
             title: {
                 display: true,
-                text : ['Rata-rata IKUPTIK Berdasarkan Jenis Usaha Pariwisata'],
+                text : ['Nilai IKUPTIK'],
                 font: {
                     size: 20
+                }
+            },
+            subtitle: {
+                display: true,
+                text : ['Berdasarkan Jenis Usaha Pariwisata di Kota Batu'],
+                font: {
+                    size: 14
                 }
             },
             legend:{
