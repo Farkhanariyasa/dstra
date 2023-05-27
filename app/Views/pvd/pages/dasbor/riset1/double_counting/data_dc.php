@@ -1667,6 +1667,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
                 <!-- Algoritma 2 -->
                 <div class="tab-pane fade " id="pills-algoritma2" role="tabpanel" aria-labelledby="pills-algoritma2-tab" tabindex="0">
