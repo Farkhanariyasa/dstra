@@ -3,12 +3,12 @@ new Chart(VIZ_4, {
     type: 'bar',
     data: {
     labels: [
-        ['Eksternal'],
         ['Infrastruktur dan Konektivitas'],
-        ['Kendala'],
-        ['Manajemen Organisasi'],
         ['Penggunaan TIK'],
         ['Sumber Daya Manusia'],
+        ['Manajemen Organisasi'],
+        ['Eksternal'],
+        ['Kendala'],
         ],
     datasets: [{
         label: 'Nilai IKUPTIK',

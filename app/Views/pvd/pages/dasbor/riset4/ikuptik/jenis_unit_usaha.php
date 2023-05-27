@@ -15,8 +15,9 @@
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
             <li data-filter=".filter-riset4-jenis-uup-1" class="filter">Jasa Transportasi</li>
-            <li data-filter=".filter-riset4-jenis-uup-2" class="filter">Jasa Penyedia Makanan dan Minuman</li>
+            <li data-filter=".filter-riset4-jenis-uup-2" class="filter">Jasa Makan-Minum</li>
             <li data-filter=".filter-riset4-jenis-uup-3" class="filter">Jasa Akomodasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-4" class="filter-active">Total</li>
         </ul>
       </div>
     </div>

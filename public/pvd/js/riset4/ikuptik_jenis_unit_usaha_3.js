@@ -2,13 +2,14 @@ const VIZ_3 = document.getElementById('viz-3');
 new Chart(VIZ_3, {
     type: 'bar',
     data: {
-    labels: [['Infrastruktur dan Konektivitas'],
-            ['Sumber Daya Manusia'],
-            ['Manajemen Organisasi'],
-            ['Penggunaan TIK'],
-            ['Eksternal'],
-            ['Kendala']
-        ],
+    labels: [
+        ['Infrastruktur dan Konektivitas'],
+        ['Penggunaan TIK'],
+        ['Sumber Daya Manusia'],
+        ['Manajemen Organisasi'],
+        ['Eksternal'],
+        ['Kendala'],
+    ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [

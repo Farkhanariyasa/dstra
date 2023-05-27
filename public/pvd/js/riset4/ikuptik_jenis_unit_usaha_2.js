@@ -2,13 +2,14 @@ const VIZ_2 = document.getElementById('viz-2');
 new Chart(VIZ_2, {
     type: 'bar',
     data: {
-    labels: [['Eksternal'],
-            ['Infrastruktur dan Konektivitas'],
-            ['Kendala'],
-            ['Manajemen Organisasi'],
-            ['Penggunaan TIK'],
-            ['Sumber Daya Manusia']
-        ],
+    labels: [
+        ['Infrastruktur dan Konektivitas'],
+        ['Penggunaan TIK'],
+        ['Sumber Daya Manusia'],
+        ['Manajemen Organisasi'],
+        ['Eksternal'],
+        ['Kendala'],
+    ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
@@ -29,8 +30,8 @@ new Chart(VIZ_2, {
             "#6f617f"
         ],
         datalabels: {
-            anchor: 'end', // Set the anchor to 'end' to position the labels at the top
-            align: 'top', // Align the labels to the top
+            anchor: 'end',
+            align: 'top',
             color: 'black' // Set the color of the labels
         },
     }]
