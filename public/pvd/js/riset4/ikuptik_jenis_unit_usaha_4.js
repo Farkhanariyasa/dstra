@@ -1,37 +1,38 @@
-const VIZ_3 = document.getElementById('viz-3');
-new Chart(VIZ_3, {
+const VIZ_4 = document.getElementById('viz-4');
+new Chart(VIZ_4, {
     type: 'bar',
     data: {
-    labels: [['Infrastruktur dan Konektivitas'],
-            ['Sumber Daya Manusia'],
-            ['Manajemen Organisasi'],
-            ['Penggunaan TIK'],
-            ['Eksternal'],
-            ['Kendala']
+    labels: [
+        ['Eksternal'],
+        ['Infrastruktur dan Konektivitas'],
+        ['Kendala'],
+        ['Manajemen Organisasi'],
+        ['Penggunaan TIK'],
+        ['Sumber Daya Manusia'],
         ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            45.26,
-            19.57,
-            53.56,
-            62.11,
-            67.94,
-            47.52
+            71.45,
+            51.54,
+            43.96,
+            57.44,
+            62.82,
+            32.50
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffbc33",
-            "#ffeecc",
+            "#ffab00",
             "#506396",
-            "#6f617f",
             "#4b395f",
-            "#ffab00"
+            "#b35c74",
+            "#ffbc33",
+            "#7382ab"
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
             align: 'top', // Align the labels to the top
-            color: 'black' // Set the color of the labels
+            color: 'black', // Set the color of the labels
         },
     }]
     },
@@ -55,7 +56,7 @@ new Chart(VIZ_3, {
             },
             subtitle: {
                 display: true,
-                text : ['Pada Usaha Jasa Makan-Minum di Kota Batu'],
+                text : ['Pada Usaha Jasa Transportasi di Kota Batu'],
                 font: {
                     size: 14
                 }
