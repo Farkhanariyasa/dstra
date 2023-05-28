@@ -1118,7 +1118,7 @@ const data_qa_output3_1 = {
         fill: false,
         borderColor: "#FDAB01",
         pointStyle: 'circle',
-        pointRadius: 4,
+        pointRadius: 1,
         pointHoverRadius: 10,
     },
 

@@ -15,6 +15,7 @@ const pie_wisnus2 = new Chart(wisnus_output2, {
   },
   options: {
     responsive: true,
+    radius: "80%",
     maintainAspectRatio: false,
     plugins: {
       title: {
@@ -58,28 +59,28 @@ const pie_wisnus2 = new Chart(wisnus_output2, {
   plugins: [ChartDataLabels],
 });
 
-const piechart = document.getElementById("forPieChartAxis_output2");
-piechart.addEventListener("change", tampilData);
+// const piechart = document.getElementById("forPieChartAxis_output2");
+// piechart.addEventListener("change", tampilData);
 
-function tampilData() {
-  if (piechart.value == "b") {
-    console.log(piechart.value);
-    pie_wisnus2.data.datasets[0].data = [jeniskelamin.laki, jeniskelamin.perempuan];
-    pie_wisnus2.data.labels = ["Laki-laki", "Perempuan"];
+// function tampilData() {
+//   if (piechart.value == "b") {
+//     console.log(piechart.value);
+//     pie_wisnus2.data.datasets[0].data = [jeniskelamin.laki, jeniskelamin.perempuan];
+//     pie_wisnus2.data.labels = ["Laki-laki", "Perempuan"];
 
-    pie_wisnus2.options.plugins.title.text = "Jenis Kelamin Responden";
-    // console.log(batang.data.datasets[0].data)
-    pie_wisnus2.update();
-  } else {
-    console.log(barchart.value);
-    pie_wisnus2.data.datasets[0].data = [jumlahanggota.ja0, jumlahanggota.ja1, jumlahanggota.ja2, jumlahanggota.ja3, jumlahanggota.ja4, jumlahanggota.ja5];
-    pie_wisnus2.data.labels = ["Jumlah Anggota 0", "Jumlah Anggota 1", "Jumlah Anggota 2"];
+//     pie_wisnus2.options.plugins.title.text = "Jenis Kelamin Responden";
+//     // console.log(batang.data.datasets[0].data)
+//     pie_wisnus2.update();
+//   } else {
+//     console.log(barchart.value);
+//     pie_wisnus2.data.datasets[0].data = [jumlahanggota.ja0, jumlahanggota.ja1, jumlahanggota.ja2, jumlahanggota.ja3, jumlahanggota.ja4, jumlahanggota.ja5];
+//     pie_wisnus2.data.labels = ["Jumlah Anggota 0", "Jumlah Anggota 1", "Jumlah Anggota 2"];
 
-    pie_wisnus2.options.plugins.title.text = ["Banyaknya Rumah Tangga berdasarkan", "Jumlah Anggota yang melakukan perjalanan"];
-    // console.log(batang.data.datasets[0].data)
-    pie_wisnus2.update();
-  }
-}
+//     pie_wisnus2.options.plugins.title.text = ["Banyaknya Rumah Tangga berdasarkan", "Jumlah Anggota yang melakukan perjalanan"];
+//     // console.log(batang.data.datasets[0].data)
+//     pie_wisnus2.update();
+//   }
+// }
 
 const barChartLegend = document.getElementById("forPieChartAxis_output2");
 barChartLegend.addEventListener("click", update_value_output2(chk_bx));

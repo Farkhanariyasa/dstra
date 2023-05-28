@@ -18,7 +18,7 @@ const data_qa_output2_2 = {
         ,50873], 
       fill: false,
       borderColor: "#C27D90",
-      pointStyle: 'rectRot',
+      pointStyle: 'circle',
       pointRadius: 1,
       pointHoverRadius: 10,
     },
