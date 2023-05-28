@@ -7,7 +7,7 @@ const bar_output4 = new Chart(wisnus_output4, {
     labels: ["Telkomsel", "XL-Axiata", "Indosat Ooredo", "3 (Three)", "Smartfren", "Lainnya"],
     datasets: [
       {
-        label: "Jumlah Kartu SIM",
+        label: "Jumlah Kepemilikan Kartu SIM",
         data: [187873, 63958, 72854, 52276, 13985, 2208	],
         backgroundColor: "#C27D90",
         borderWidth: 1,
