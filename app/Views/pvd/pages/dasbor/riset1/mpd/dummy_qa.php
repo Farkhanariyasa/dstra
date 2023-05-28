@@ -465,88 +465,196 @@
                 <h3 class="text-center"><b>Telkomsel</b></h3>
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_1"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox "style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_1"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_2"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_2"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_3"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_3"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_4"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_4"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_5"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_5"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_6"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_6"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_7"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_7"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_8"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_8"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_9"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_9"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_10"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_10"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_11"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_11"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card-body">
-                            <div class="chartBox">
-                                <canvas class="mt1" id="qa_output6_12"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="pb-2 card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output6_12"></canvas>
+                                </div>
                             </div>
-                        </div>
+                        </div>                  
                     </div>
                 </div>
             </div>
