@@ -467,84 +467,84 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_des2021"></canvas>
+                                <canvas class="mt1" id="qa_output6_1"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_jan2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_2"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_feb2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_3"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_mar2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_4"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_apr2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_5"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_mei2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_6"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_jun2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_7"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_jul2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_8"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_agt2021"></canvas>
+                                <canvas class="mt1" id="qa_output6_9"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_sep2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_10"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_okt2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_11"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="tsel_nov2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_12"></canvas>
                             </div>
                         </div>
                     </div>
@@ -559,84 +559,84 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_des2021"></canvas>
+                                <canvas class="mt1" id="qa_output6_13"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_jan2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_14"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_feb2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_15"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_mar2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_16"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_apr2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_17"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_mei2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_18"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_jun2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_19"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_jul2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_20"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_agt2021"></canvas>
+                                <canvas class="mt1" id="qa_output6_21"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_sep2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_22"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_okt2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_23"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card-body">
                             <div class="chartBox">
-                                <canvas class="mt1" id="indo_nov2022"></canvas>
+                                <canvas class="mt1" id="qa_output6_24"></canvas>
                             </div>
                         </div>
                     </div>
