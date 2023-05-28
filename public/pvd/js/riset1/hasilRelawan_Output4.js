@@ -8,14 +8,14 @@ const bar_relawan4 = new Chart(relawan_output4, {
       {
         label: "Data Training",
         data: [12, 0, 0, 0, 0, 0],
-        backgroundColor: "#c27d90",
+        backgroundColor: "#C27D90",
         borderWidth: 1,
         borderRadius: 8,
       },
       {
         label: "Data Testing",
         data: [47, 2, 0, 0, 0, 2],  
-        backgroundColor: "#ffab00",
+        backgroundColor: "#FDAB01",
         borderWidth: 1, 
         borderRadius: 8,
       },
