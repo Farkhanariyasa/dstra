@@ -6,26 +6,26 @@ const diagram_lingkaran = new Chart(t1_pie, {
   type: "pie",
   data: {
     labels: [
+      "Ke Objek Wisata",
       "Menuju ke Kecamatan Lain",
       "Menginap di Akomodasi Komersial",
-      "Ke Objek Wisata",
     ],
     datasets: [
       {
         label: "Jumlah",
-        data: [45.21, 1.21, 53.58],
-        backgroundColor: ["#506396", "#c27d90", "#ffab00"],
+        data: [53.59, 45.2, 1.21],
+        backgroundColor: ["#c27d90", "#ffab00", "#506396" ],
         hoverOffset: 4,
         datalabels: {
           // anchor: 'end',
           // align: 'end',
           // offset: 1,
-          color:'#000000',
+          color: "#000000",
           font: {
-            size: 13
+            size: 13,
           },
           // position: 'outside',
-        }
+        },
       },
     ],
   },
@@ -36,7 +36,11 @@ const diagram_lingkaran = new Chart(t1_pie, {
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed2) {
+        if (
+          context.type === "data" &&
+          context.mode === "default" &&
+          !delayed2
+        ) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -51,10 +55,13 @@ const diagram_lingkaran = new Chart(t1_pie, {
       },
       title: {
         display: true,
-        text: ["Estimasi Total Perjalanan Menurut Kategori Utama", "di Kota Malang Bulan Oktober-Desember 2022"],
+        text: [
+          "Estimasi Total Perjalanan Menurut Kategori Utama",
+          "di Kota Malang Bulan Oktober-Desember 2022",
+        ],
         font: {
           size: 16,
-          style: "normal"
+          style: "normal",
         },
         color: "black",
         align: "center",

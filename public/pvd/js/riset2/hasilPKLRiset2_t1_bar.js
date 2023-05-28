@@ -4,27 +4,21 @@ const t1_bar = document.getElementById("riset2_t1_hasil1");
 var bar_lamakunjungan = new Chart(t1_bar, {
   type: "bar",
   data: {
-    labels: [
-      "Klojen",
-      "Lowokwaru",
-      "Blimbing",
-      "Kedungkandang",
-      "Sukun",
-    ],
+    labels: ["Klojen", "Sukun", "Blimbing", "Kedungkandang", "Lowokwaru"],
     datasets: [
       {
         label: "Persentase",
-        data: [53.48, 53.85, 56.67, 61.9, 67.33],
+        data: [52.71, 53.13, 55.94, 61.21, 66.42],
         borderWidth: 1,
         backgroundColor: "#ffab00",
         datalabels: {
-          anchor: 'end',
-          align: 'top',
+          anchor: "end",
+          align: "top",
           offset: 1,
           font: {
-            size: 12
-        }
-        }
+            size: 12,
+          },
+        },
       },
     ],
   },
@@ -62,9 +56,9 @@ var bar_lamakunjungan = new Chart(t1_bar, {
         },
         ticks: {
           font: {
-            size: 10
-          }
-        }
+            size: 10,
+          },
+        },
       },
       y: {
         beginAtZero: true,
