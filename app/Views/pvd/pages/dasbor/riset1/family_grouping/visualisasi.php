@@ -29,6 +29,21 @@
     }
 </style>
 
+<section>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            Swal.fire({
+                title: 'Informasi Penting',
+                text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat pengguaan waktu kerja dan waktu libur',
+                icon: 'info',
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'OK',
+                footer: '<p>Keterangan lebih lanjut <a href="#ketentuan">Tekan sini</a></p>'
+            });
+        });
+    </script>
+</section>
+
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
@@ -37,42 +52,29 @@
         <hr class="hrjudul">
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Algoritma 1</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma 2</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">Algoritma 3</button>
-                </li>
-            </ul>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Algoritma 1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma 2</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">Algoritma 3</button>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="row" id="rowfg">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="row" id="containerfg">
-                    <?php include('dummy_fg.php') ?>
+                    <?php include('data_fg.php') ?>
                 </div>
             </div>
         </div>
     </div>
 
 </section>
-
-
-
-
-
-<div class="col-sm-6 my-2">
-    <div class="card shadow">
-
-    </div>
-</div>
-</div>
-
-</div>
 
 <section>
     <script>
@@ -89,6 +91,11 @@
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
+
+    <!-- Sweet alert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.0/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.0/dist/sweetalert2.min.js"></script>
+
 
 </section>
 
