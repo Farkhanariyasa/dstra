@@ -9,7 +9,7 @@ const pie_wisnus2 = new Chart(wisnus_output2, {
         label: "Jumlah Anggota",
         data: [497329, 60817, 467513],
         borderwidth: 1,
-        backgroundColor: ["#ffab00", "#506396", "#c27d90"],
+        backgroundColor: ["#C27D90", "#FDAB01", "#516296"],
       },
     ],
   },

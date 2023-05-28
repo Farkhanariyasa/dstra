@@ -43,7 +43,7 @@ const bar_output5 = new Chart(wisnus_output5, {
                 104,
                 
             ],
-            backgroundColor:"#c27d90",
+            backgroundColor:"#C27D90",
             borderWidth:1,
             borderRadius:8,
         }]

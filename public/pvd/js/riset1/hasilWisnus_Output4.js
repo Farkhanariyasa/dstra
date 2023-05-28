@@ -9,7 +9,7 @@ const bar_output4 = new Chart(wisnus_output4, {
       {
         label: "Jumlah Kartu SIM",
         data: [187873, 63958, 72854, 52276, 13985, 2208	],
-        backgroundColor: "#506396",
+        backgroundColor: "#C27D90",
         borderWidth: 1,
         borderRadius: 8,
       },
