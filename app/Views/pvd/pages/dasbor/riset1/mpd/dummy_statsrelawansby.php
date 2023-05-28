@@ -7,6 +7,13 @@
                     <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
                                     <canvas class="mt1" id="relawan_output1"></canvas>
                                 </div>
@@ -14,7 +21,7 @@
                                     <div class="form-check form-switch me-3">
                                         <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -44,6 +51,13 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
                                     <canvas class="mt1" id="relawan_output2_1"></canvas>
                                 </div>
@@ -58,19 +72,26 @@
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <!-- <div class="card bg-secondary"> -->
-                            <div class="card shadow rounded-4">
-                                <div class="card-body">
-                                    <div class="chartBox" style="height:400px">
-                                        <canvas class="mt1" id="relawan_output2_2"></canvas>
+                        <div class="card shadow rounded-4">
+                            <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
                                     </div>
-                                    <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                        <div class="form-check form-switch me-3">
-                                            <input class="form-check-input" onchange="update_value_relawan_output2_2(this);" type="checkbox" id="forBarChartAxisRelawan_output2_2" value="show" checked>
-                                            <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                                        </div>
+                                </div>
+                                <div class="chartBox" style="height:400px">
+                                    <canvas class="mt1" id="relawan_output2_2"></canvas>
+                                </div>
+                                <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="form-check form-switch me-3">
+                                        <input class="form-check-input" onchange="update_value_relawan_output2_2(this);" type="checkbox" id="forBarChartAxisRelawan_output2_2" value="show" checked>
+                                        <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         <!-- </div> -->
                     </div>
                 </div>
@@ -85,8 +106,15 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
-                                    <canvas class="mt1" id="riset1_hasil4"></canvas>
+                                    <canvas class="mt1" id="relawan_output3_1"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
@@ -99,13 +127,20 @@
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <!-- <div class="card bg-secondary"> -->
-                            <div class="card shadow rounded-4">
-                                <div class="card-body">
-                                    <div class="chartBox" style="height: 400px;">
-                                        <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
+                        <div class="card shadow rounded-4">
+                            <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
                                     </div>
                                 </div>
+                                <div class="chartBox" style="height: 400px;">
+                                    <canvas class="mt1" id="relawan_output3_2"></canvas>
+                                </div>
                             </div>
+                        </div>
                         <!-- </div> -->
                     </div>
                 </div>
@@ -120,6 +155,13 @@
                     <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
                                     <canvas class="mt1" id="relawan_output4"></canvas>
                                 </div>
@@ -150,3 +192,7 @@
         </div>
     </div>
 </div>
+
+
+<!-- Modal -->
+<?php include('modal_statsrelawansby.php') ?>
