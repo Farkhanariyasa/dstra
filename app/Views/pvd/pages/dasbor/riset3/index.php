@@ -48,7 +48,7 @@
       <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <span class="fa-solid fa-calendar-week pe-2"></span>
+            <span class="fa-solid fa-person-walking-luggage pe-2"></span>
             Tujuan 2
           </button>
         </h3>
@@ -63,7 +63,7 @@
       <div class="accordion-item my-3 mx-4 rounded-5 shadow">
         <h3 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <span class="fa-solid fa-person-walking-luggage pe-2"></span>
+            <span class="fa-solid fa-calendar-week pe-2"></span>
             Tujuan 3 
           </button>
         </h3>
