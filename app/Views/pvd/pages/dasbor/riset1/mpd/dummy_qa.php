@@ -18,7 +18,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output1_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -29,7 +29,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -52,7 +52,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output1_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -96,7 +96,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output2_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -130,7 +130,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output2_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -141,7 +141,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -174,7 +174,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output3_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -185,7 +185,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -208,7 +208,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output3_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -219,7 +219,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -252,7 +252,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output4_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -263,7 +263,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -286,7 +286,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output4_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -297,7 +297,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -320,7 +320,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output4_3"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -331,7 +331,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -354,7 +354,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output4_4"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -365,7 +365,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -398,7 +398,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output5_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -409,7 +409,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -432,7 +432,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output5_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -443,7 +443,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -483,7 +483,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -513,7 +513,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -543,7 +543,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -573,7 +573,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -606,7 +606,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output7_1"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -617,7 +617,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
@@ -640,7 +640,7 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
-                                            <div class="chartBox" style=" height:300px;">
+                                            <div class="chartBox" style=" height:400px;">
                                                 <canvas id="qa_output7_2"></canvas>
                                             </div>
                                             <!-- <div class="form-check form-switch me-3">
@@ -651,7 +651,7 @@
                                     </div>
                                     <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
-                                            <h3><b>Story</b></h3>
+                                            <h3 class="text-center"><b>Story</b></h3>
                                             <p class="text-justify">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
                                             </p>
