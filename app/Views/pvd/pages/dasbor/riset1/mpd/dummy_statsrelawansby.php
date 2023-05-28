@@ -30,7 +30,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3><b>Story</b></h3>
+                                <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
@@ -178,7 +178,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3><b>Story</b></h3>
+                                <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
