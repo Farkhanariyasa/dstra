@@ -9,7 +9,7 @@ const bar_output1 = new Chart(wisnus_output1, {
       {
         label: "Jumlah Perjalanan Wisata",
         data: [497328, 60817, 467514],
-        backgroundColor: "#3a70a6",
+        backgroundColor: "#C27D90",
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -55,7 +55,7 @@ const bar_output1 = new Chart(wisnus_output1, {
         enabled: true,
       },
       datalabels: {
-        display: true,
+        display: false,
         color: "black",
         anchor: 'end',
         align: 'top',
@@ -95,11 +95,13 @@ function update_value_output1(check_axis) {
     console.log("check");
     bar_output1.options.scales.x.display = true;
     bar_output1.options.scales.y.display = true;
+    bar_output1.options.plugins.datalabels.display = false;
     bar_output1.update();
   } else {
     console.log("uncheck");
     bar_output1.options.scales.x.display = false;
     bar_output1.options.scales.y.display = false;
+    bar_output1.options.plugins.datalabels.display = true;
     bar_output1.update();
   }
 }

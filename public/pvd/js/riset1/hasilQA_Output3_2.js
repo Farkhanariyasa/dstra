@@ -741,7 +741,7 @@ const data_qa_output3_2 = {
         
       ], 
       fill: false,
-      borderColor: "#506396",
+      borderColor: "#C27D90",
       pointStyle: 'circle',
       pointRadius: 4,
       pointHoverRadius: 10,
@@ -1119,7 +1119,7 @@ const data_qa_output3_2 = {
             
         ],
         fill: false,
-        borderColor: "#ffab00",
+        borderColor: "#FDAB01",
         pointStyle: 'circle',
         pointRadius: 4,
         pointHoverRadius: 10,

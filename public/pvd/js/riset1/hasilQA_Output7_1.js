@@ -55,7 +55,7 @@ const data_qa_output7_1 = {
         0.4938435484,
         ], 
       fill: false,
-      borderColor: "#506396",
+      borderColor: " #C27D90",
       pointStyle: 'circle',
       pointRadius: 4,
       pointHoverRadius: 10,
