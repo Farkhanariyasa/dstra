@@ -69,7 +69,7 @@ new Chart(pyramid1, {
                     }
                 },
                 title: {
-                    display: true,
+                    display: false,
                     text: "Persentase (%)",
                     font: {
                       size: 12,
@@ -91,14 +91,14 @@ new Chart(pyramid1, {
         responsive: true,
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size: 16
                 }
             },
             subtitle: {
-                display: true,
+                display: false,
                 text : ['Berdasarkan Jenis Kelamin dan Kelompok Usia'],
                 font: {
                     size: 14,
@@ -107,7 +107,12 @@ new Chart(pyramid1, {
             },
             legend:{
                 display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
                 position: 'bottom',
+                align: 'center',
             },
             tooltip,
         },
