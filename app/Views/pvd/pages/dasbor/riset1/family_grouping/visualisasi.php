@@ -34,7 +34,7 @@
         window.addEventListener('DOMContentLoaded', (event) => {
             Swal.fire({
                 title: 'Informasi Penting',
-                text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat pengguaan waktu kerja dan waktu libur',
+                text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat penggunaan waktu kerja dan waktu libur',
                 icon: 'info',
                 confirmButtonColor: '#3085d6',
                 confirmButtonText: 'OK',
