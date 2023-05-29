@@ -90,7 +90,7 @@ info.addTo(peta_batu_hasil_2);
 
 legend.onAdd = function (peta_batu_hasil_2) {
   var div = L.DomUtil.create("div", "info legend"),
-    grades = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    grades = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
     // labels = [];
 
   // loop through our density intervals and generate a label with a colored square for each interval
