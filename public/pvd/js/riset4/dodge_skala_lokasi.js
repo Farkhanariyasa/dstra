@@ -35,7 +35,7 @@ const dodge_6 = new Chart(dodge6, {
         },
         plugins: {
             title:{
-                display:true,
+                display: false,
                 text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size: 16,
@@ -49,7 +49,7 @@ const dodge_6 = new Chart(dodge6, {
                 }
             },
             subtitle:{
-                display:true,
+                display: false,
                 text:['Berdasarkan Lokasi atau Tempat Usaha Menurut Skala Usaha'],
                 font: {
                     size: 16,
@@ -64,8 +64,13 @@ const dodge_6 = new Chart(dodge6, {
                 }
             },
             legend:{
-                display:true,
-                position:'top',
+                display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
+                position: 'bottom',
+                align: 'start',
             },
             tooltip:{
                 enabled:true,
