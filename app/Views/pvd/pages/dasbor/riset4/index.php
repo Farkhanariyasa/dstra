@@ -122,6 +122,11 @@
   <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_skala.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pemanfaatan.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/gantt_jenis_kelamin_usia.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/dasbor_doughnut_6.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/dasbor_doughnut_7.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/dasbor_doughnut_8.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/dasbor_doughnut_9.js') ?>"></script>
+
 
   <!-- ke bawah adalah kode dummy -->
   <!-- <script src="< ?= base_url('pvd/js/riset4/hasilRiset4_map.js') ?>"></script>
