@@ -2,7 +2,7 @@
     <!-- Algoritma 1 -->
     <div class="tab-pane fade show active" id="pills-algoritma1" role="tabpanel" aria-labelledby="pills-algoritma1-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
-            <h4 class="card-title judul-card text-center">Algoritma Double Counting (Metode Penghitungan Jarak Antar Staypoint)</h4>
+            <h4 class="card-title judul-card text-center">Algoritma Family Grouping (Metode Penghitungan Jarak Antar Staypoint)</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12 grid-margin stretch-card">
@@ -1756,7 +1756,7 @@
             <!-- Without forming staypoint -->
             <div class="tab-pane fade show active" id="pills-without" role="tabpanel" aria-labelledby="pills-without-tab" tabindex="0">
                 <div class="isi-tujuan shadow mt-0 mb-0">
-                    <h4 class="card-title judul-card text-center">Algortima Double Counting H3 Tanpa Pembentukan Staypoint</h4>
+                    <h4 class="card-title judul-card text-center">Algortima Family Grouping H3 Tanpa Pembentukan Staypoint</h4>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 grid-margin stretch-card">
@@ -2680,7 +2680,7 @@
             <!-- With forming staypoint -->
             <div class="tab-pane fade" id="pills-with" role="tabpanel" aria-labelledby="pills-with-tab" tabindex="0">
                 <div class="isi-tujuan shadow mt-0 mb-0">
-                    <h4 class="card-title judul-card text-center">Algortima Double Counting H3 Dengan Pembentukan Staypoint</h4>
+                    <h4 class="card-title judul-card text-center">Algortima Family Grouping H3 Dengan Pembentukan Staypoint</h4>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 grid-margin stretch-card">
