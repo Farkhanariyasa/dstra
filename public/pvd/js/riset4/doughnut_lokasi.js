@@ -15,8 +15,8 @@ const doughnut_3 = new Chart(doughnut3, {
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffdd99",
-                "#96a1c0",
+                "#ffab00",
+                "#506396",
             ],
         }]
     },
@@ -25,15 +25,15 @@ const doughnut_3 = new Chart(doughnut3, {
         maintainAspectRatio: false,
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size: 16
                 },
             },
             subtitle: {
-                display: true,
-                text : ['Berdasarkan  Lokasi Usaha'],
+                display: false,
+                text : ['Berdasarkan Lokasi Usaha'],
                 font: {
                     size: 16,
                     weight: 'bold',
@@ -41,7 +41,12 @@ const doughnut_3 = new Chart(doughnut3, {
             },
             legend:{
                 display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
                 position: 'bottom',
+                align: 'start',
             },
             tooltip:{
                 enabled: true,
