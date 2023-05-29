@@ -43,7 +43,7 @@ const bar = new Chart(sdm_ekonomi, {
         },
         plugins: {
             title:{
-                display:true,
+                display: false,
                 text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
@@ -56,7 +56,7 @@ const bar = new Chart(sdm_ekonomi, {
                 }
             },
             subtitle:{
-                display:true,
+                display: false,
                 text:['Berdasarkan Skala Usaha Menurut Jenis Usaha Pariwisata'],
                 font: {
                     size:16,
@@ -70,8 +70,13 @@ const bar = new Chart(sdm_ekonomi, {
                 }
             },
             legend:{
-                display:true,
-                position:'bottom',
+                display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
+                position: 'bottom',
+                align: 'start',
             },
             tooltip:{
                 enabled:true,
