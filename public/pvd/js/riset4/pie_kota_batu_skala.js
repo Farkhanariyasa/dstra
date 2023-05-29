@@ -15,8 +15,10 @@ const pie_1 = new Chart(pie1, {
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffdd99",
-                "#96a1c0",
+                "#ffab00", "#506396",
+                "#4b395f", "#b35c74",
+                "#ffbc33", "#7382ab",
+                "#6f617f", "#c27d90"
             ],
         }]
     },
@@ -25,7 +27,7 @@ const pie_1 = new Chart(pie1, {
         maintainAspectRatio: false,
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Persentase Unit Usaha Pariwisata di Kota Batu Berdasarkan Skala Usaha'],
                 font: {
                     size: 20
@@ -33,7 +35,12 @@ const pie_1 = new Chart(pie1, {
             },
             legend:{
                 display: true,
-                position: 'right',
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
+                position: 'bottom',
+                align: 'start',
             },
             tooltip:{
                 enabled: true,
