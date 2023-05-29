@@ -56,7 +56,7 @@ const barPendidikan_1 = new Chart(barPendidikan1, {
         },
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu Berdasarkan Tingkat Pendidikan'],
                 font: {
                     size: 20
