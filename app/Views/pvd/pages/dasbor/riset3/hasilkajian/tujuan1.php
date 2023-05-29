@@ -54,6 +54,16 @@
             </div>
            </div>
         </div>
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <h3><b>Interpretasi</b></h3>
+              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
+                <div class="col-12 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
            </div>
