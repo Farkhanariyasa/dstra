@@ -282,11 +282,11 @@
                                     <option value="total">Pilih Dimensi:</option>
                                     <option value="total">Total</option>
                                     <option value="dimensi1">Infrastruktur dan Konektivitas</option>
-                                    <option value="dimensi2">Sumber Daya Manusia</option>
-                                    <option value="dimensi3">Manajemen Organisasi</option>
-                                    <option value="dimensi4">Penggunaan TIK</option>
-                                    <option value="dimensi5">Eksternal</option>
-                                    <option value="dimensi6">Kendala</option>
+                                    <option value="dimensi2">Penggunaan TIK</option>
+                                    <option value="dimensi3">Sumber Daya Manusia</option>
+                                    <option value="dimensi4">Manajemen Organisasi</option>
+                                    <option value="dimensi5">Ketersediaan Prasarana TIK</option>
+                                    <option value="dimensi6">Motivasi Penggunaan TIK</option>
                                 </select>
                             </form>
                         </div>
@@ -327,14 +327,14 @@
                                       <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select style="width: 250px" class="dropdownunduh1" id="bar-jenis-1">
-                                    <option value="total">Pilih Dimensi:</option>
+                                <option value="total">Pilih Dimensi:</option>
                                     <option value="total">Total</option>
                                     <option value="dimensi1">Infrastruktur dan Konektivitas</option>
-                                    <option value="dimensi2">Sumber Daya Manusia</option>
-                                    <option value="dimensi3">Manajemen Organisasi</option>
-                                    <option value="dimensi4">Penggunaan TIK</option>
-                                    <option value="dimensi5">Eksternal</option>
-                                    <option value="dimensi6">Kendala</option>
+                                    <option value="dimensi2">Penggunaan TIK</option>
+                                    <option value="dimensi3">Sumber Daya Manusia</option>
+                                    <option value="dimensi4">Manajemen Organisasi</option>
+                                    <option value="dimensi5">Ketersediaan Prasarana TIK</option>
+                                    <option value="dimensi6">Motivasi Penggunaan TIK</option>
                                 </select>
                             </form>
                         </div>
