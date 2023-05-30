@@ -114,11 +114,11 @@ function getMenu()
           'id' => 'tujuan2',
           'subMenu' => [
             [
-              'subMenu' => 'Lama Kunjungan',
+              'subMenu' => 'Lama Kunjungan dan Bepergian Turis',
               'href' => '/riset2/tujuan2-hasil1',
             ],
             [
-              'subMenu' => 'Lama Perjalanan',
+              'subMenu' => 'Lama Kunjungan dan Bepergian Pelancong',
               'href' => '/riset2/tujuan2-hasil2',
             ],
             [
@@ -150,7 +150,22 @@ function getMenu()
         [
           'menu' => 'Analisis Inferensia',
           'icon' => 'fas fa-chart-simple',
-          'href' => '/riset2/tujuan4',
+          'href' => '#tujuan4',
+          'id' => 'tujuan4',
+          'subMenu' => [
+            [
+              'subMenu' => 'Model Zero-Inflation ZINB',
+              'href' => '/riset2/tujuan4-hasil1',
+            ],
+            [
+              'subMenu' => 'Model Count ZINB',
+              'href' => '/riset2/tujuan4-hasil2',
+            ],
+            [
+              'subMenu' => 'Tabulasi',
+              'href' => '/riset2/tujuan4-tabulasi',
+            ],
+          ],
         ],
         [
           'menu' => 'Tentang Riset 2',
