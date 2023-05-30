@@ -33,16 +33,18 @@ const bar_1 = new Chart(bar1, {
                 display: true,
                 text : 'Nilai IKUPTIK Total',
                 font: {
-                    size: 16
+                    size: 20,
+                    weight: 600,
                 },
+                color: '#4b395f',
             },
             subtitle: {
                 display: true,
                 text: 'Berdasarkan Kecamatan di Kota Batu',
                 font: {
                     size: 16,
-                    weight: 'bold',
                 },
+                color: 'var(--bs-card-color)',
             },
             legend:{
                 display: false,
@@ -118,7 +120,7 @@ function tampilData(){
                 dimensi2_kecamatan.bumiaji
             ];
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
-            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Sumber Daya Manusia';
+            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Penggunaan TIK';
             bar_1.update();
             document.getElementById("interpretasi-1").innerHTML = "2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi3'){
@@ -130,7 +132,7 @@ function tampilData(){
                 dimensi3_kecamatan.bumiaji
             ];
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
-            bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Manajemen Organisasi ';
+            bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Sumber Daya Manusia';
             bar_1.update();
             document.getElementById("interpretasi-1").innerHTML = "3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi4') {
@@ -142,7 +144,7 @@ function tampilData(){
                 dimensi4_kecamatan.bumiaji
             ];
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
-            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Penggunaan TIK ';
+            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Manajemen Organisasi';
             bar_1.update();
             document.getElementById("interpretasi-1").innerHTML = "4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi5') {
@@ -154,7 +156,7 @@ function tampilData(){
                 dimensi5_kecamatan.bumiaji
             ];
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
-            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Eksternal';
+            bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Ketersediaan Prasarana TIK';
             bar_1.update();
             document.getElementById("interpretasi-1").innerHTML = "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     } if (barKecamatan1.value =='dimensi6'){
@@ -166,7 +168,7 @@ function tampilData(){
                 dimensi6_kecamatan.bumiaji
             ];
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
-            bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Kendala';
+            bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Motivasi Penggunaan TIK';
             bar_1.update();
             document.getElementById("interpretasi-1").innerHTML = "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     }

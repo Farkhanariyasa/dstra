@@ -1,11 +1,11 @@
 const data = {
     labels: [
-        'Infrastruktur dan Konektivitas',
-        'Sumber Daya Manusia',
-        'Manajemen Organisasi',
-        'Penggunaan TIK',
-        'Eksternal',
-        'Kendala',
+        ['Infrastruktur', 'dan Konektivitas'],
+        ['Penggunaan TIK'],
+        ['Sumber Daya', 'Manusia'],
+        ['Manajemen Organisasi'],
+        ['Ketersediaan', 'Prasarana TIK'],
+        ['Motivasi', 'Penggunaan TIK'],
     ],
     datasets: [{
         label: 'IKUPTIK Kota Batu',
@@ -56,9 +56,23 @@ new Chart(radar,{
     options: {
         scales: {
             r:{
-                beginAtZero: true,
-                min: 0,
-                max: 100,
+                beginAtZero: false,
+                suggestedMin: 10,
+                suggestedMax: 100,
+                // pointLabels: {
+                //     font: {
+                //       size: 10
+                //     }
+                // }
+                ticks: {
+                    beginAtZero: true,
+                    min: 10,
+                    max: 100,
+                    stepSize: 20
+                },
+                // pointLabels: {
+                //     fontSize: 16,
+                //   },
             },
         },
         responsive: true,
@@ -68,8 +82,10 @@ new Chart(radar,{
                 display: true,
                 text : "Nilai IKUPTIK per Dimensi di Kota Batu",
                 font: {
-                    size: 16
-                }
+                    size: 20,
+                    weight: 600,
+                },
+                color: '#4b395f',
             },
             elements: {
                 line: {
@@ -82,5 +98,6 @@ new Chart(radar,{
             },
 
         },
-    }
+    },
+    // plugins: [ChartDataLabels]
 });

@@ -3,8 +3,8 @@ const piePemanfaatan1 = document.getElementById('pie-kota-batu-pemanfaatan');
 const piePemanfaatan_1 = new Chart(piePemanfaatan1, {
     type: 'doughnut',
     data: {
-        labels: [ ["Mikro"],
-            ["Kecil"],
+        labels: [ ["Tidak memanfaatkan"],
+            ["Memanfaatkan"],
         ],
 
         datasets: [{
@@ -15,8 +15,10 @@ const piePemanfaatan_1 = new Chart(piePemanfaatan1, {
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffdd99",
-                "#96a1c0",
+                "#ffab00", "#506396",
+                "#4b395f", "#b35c74",
+                "#ffbc33", "#7382ab",
+                "#6f617f", "#c27d90"
             ],
         }]
     },
@@ -25,7 +27,7 @@ const piePemanfaatan_1 = new Chart(piePemanfaatan1, {
         maintainAspectRatio: false,
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size: 20
@@ -33,7 +35,12 @@ const piePemanfaatan_1 = new Chart(piePemanfaatan1, {
             },
             legend:{
                 display: true,
-                position: 'right',
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
+                position: 'bottom',
+                align: 'start',
             },
             tooltip:{
                 enabled: true,

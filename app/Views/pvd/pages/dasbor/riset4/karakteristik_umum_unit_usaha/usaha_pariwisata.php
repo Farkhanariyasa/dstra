@@ -78,7 +78,7 @@
                   <div class="card-body">
                       <div class="row">
                           <!-- Part 1 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -110,9 +110,9 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                           <!-- Part 2 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -144,9 +144,9 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                           <!-- Part 3 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -178,9 +178,9 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                           <!-- Part 4 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -212,9 +212,9 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                           <!-- Part 5 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -246,9 +246,9 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                           <!-- Part 6 -->
-                          <div class="col-12 grid-margin stretch-card">
+                          <!-- <div class="col-12 grid-margin stretch-card">
                               <div class="card shadow">
                                   <div class="pb-2 card-body">
                                       <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -280,7 +280,247 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
+
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Jenis Usaha Pariwisata</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-1"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Skala Usaha</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-2"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Lokasi Usaha</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-3"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Skala Usaha Menurut Jenis Usaha Pariwisata</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-4"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Jenis Usaha Pariwisata Menurut Lokasi atau Tempat Usaha</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-5"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                                <i class="fa-solid fa-download"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                            <div>
+                                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Skala Usaha Menurut Lokasi atau Tempat Usaha</subtitle>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin">
+                                            <div>
+                                                <div class = "chartBox" style=" height:300px;"> 
+                                                    <canvas id="chart-6"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-6 grid-margin stretch-card">
+                                            <div>
+                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <p class="text-justify">
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                       </div>
                   </div>
               </div>

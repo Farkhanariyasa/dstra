@@ -1646,23 +1646,50 @@
                                             </ol>
                                         </div>
                                     </div>
-                                    <!-- <div class="mb-0 col-lg-5 grid-margin stretch-card">
-                                        <div>
-                                            <h3><b>Story</b></h3>
-                                            <p class="text-justify">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.
-                                            </p>
-                                        </div>
-                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+        </div>
+        <div class="isi-tujuan shadow mt-5 mb-0">
+            <h4 class="card-title judul-card">Evaluasi</h4>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="isi-tujuan shadow mt-5 mb-0">
-                        <h4 class="card-title judul-card text-center">Evaluasi</h4>
-                        <div class="card-body">
-                            <div class="row">
-
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1670,6 +1697,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Algoritma 2 -->
     <div class="tab-pane fade " id="pills-algoritma2" role="tabpanel" aria-labelledby="pills-algoritma2-tab" tabindex="0">
@@ -2527,6 +2555,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="isi-tujuan shadow mt-5 mb-0">
+            <h4 class="card-title judul-card">Evaluasi</h4>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             </div>
             <!-- With forming staypoint -->
             <div class="tab-pane fade" id="pills-with" role="tabpanel" aria-labelledby="pills-with-tab" tabindex="0">
@@ -3802,6 +3873,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="isi-tujuan shadow mt-5 mb-0">
+            <h4 class="card-title judul-card">Evaluasi</h4>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card bg-secondary">
+                            <div class="card-body">
+                                <div class="chartBox">
+                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
     </div>

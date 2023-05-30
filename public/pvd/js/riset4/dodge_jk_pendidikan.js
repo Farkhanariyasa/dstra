@@ -43,7 +43,7 @@ const dodge_2 = new Chart(dodge2, {
         },
         plugins: {
             title:{
-                display:true,
+                display: false,
                 text:['Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
@@ -56,7 +56,7 @@ const dodge_2 = new Chart(dodge2, {
                 }
             },
             subtitle: {
-                display: true,
+                display: false,
                 text : ['Berdasarkan Kelompok Usia'],
                 font: {
                     size: 14,
@@ -64,8 +64,17 @@ const dodge_2 = new Chart(dodge2, {
                 }
             },
             legend:{
-                display:true,
-                position:'bottom',
+                display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
+                position: 'bottom',
+                align: 'start',
+                labels: {
+                    // usePointStyle: true,  //<-- set this
+                    // maxWidth: 10,
+                 }
             },
             tooltip:{
                 enabled:true,

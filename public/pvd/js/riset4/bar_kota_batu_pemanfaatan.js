@@ -6,10 +6,10 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
         ['Penjualan'], 
         ['Promosi'],
         ['Transaksi'], 
-        ['Pengadaan Kebutuhan Logistik'], 
-        ['Pembuatan dan Pengiriman Faktur atau Tagihan'],
+        ['Pengadaan', 'Kebutuhan Logistik'], 
+        ['Pembuatan dan Pengiriman', 'Faktur atau Tagihan'],
         ['Pencatatan Keuangan'],
-        ['Manajemen Tenaga Kerja'],
+        ['Manajemen', 'Tenaga Kerja'],
         ['Perencanaan Keuangan'],
     ],
     datasets: [{
@@ -59,7 +59,7 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
         },
         plugins: {
             title: {
-                display: true,
+                display: false,
                 text : ['Pemanfaatan TIK pada Unit Usaha Pariwisata Berdasarkan Kegiatan Pemanfaatannya'],
                 font: {
                     size: 20

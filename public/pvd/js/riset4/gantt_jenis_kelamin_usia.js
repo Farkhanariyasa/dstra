@@ -42,14 +42,14 @@ const data = {
       maintainAspectRatio: false,
       plugins: {
         title: {
-            display: true,
+            display: false,
             text : ['Rentang Usia (Tahun) Pemilik Unit Usaha Pariwisata di Kota Batu'],
             font: {
                 size: 18
             }
         },
         subtitle: {
-            display: true,
+            display: false,
             text : ['Berdasarkan Jenis Kelamin'],
             font: {
                 size: 16,
