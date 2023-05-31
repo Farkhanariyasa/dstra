@@ -21,7 +21,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row" rowspan="2">Hubungan dengan KRT</th>
+                    <th scope="row" rowspan="3">Hubungan dengan KRT</th>
+                </tr>
+                <tr>
                     <td>KRT</td>
                     <td>29</td>
                     <td>10.58%</td>
@@ -60,7 +62,9 @@
                     <td>60.97%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="12">Umur</th>
+                    <th scope="row" rowspan="13">Umur</th>
+                </tr>
+                <tr>
                     <td>< 15</td>
                     <td>0</td>
                     <td>0.00%</td>
@@ -289,7 +293,9 @@
                     <td>4.42%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan= "5">Usia</th>
+                    <th scope="row" rowspan= "6">Usia</th>
+                </tr>
+                <tr>
                     <td>Under 15 dan 15-24</td>
                     <td>18</td>
                     <td>10.40%</td>
@@ -385,7 +391,9 @@
                     <td>4.42%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="2">Status Perkawinan</th>
+                    <th scope="row" rowspan="3">Status Perkawinan</th>
+                </tr>
+                <tr>
                     <td>Belum Kawin</td>
                     <td>19</td>
                     <td>10.22%</td>
@@ -424,7 +432,9 @@
                     <td>73.50%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="2">Jenis Kelamin</th>
+                    <th scope="row" rowspan="3">Jenis Kelamin</th>
+                </tr>
+                <tr>
                     <td>Laki-laki</td>
                     <td>45</td>
                     <td>10.74%</td>
@@ -442,7 +452,6 @@
                     <td>100.00%</td>
                     <td>419</td>
                     <td>56.69%</td>
-                </tr>
                 <tr>
                     <td>Perempuan</td>
                     <td>30</td>
@@ -463,7 +472,8 @@
                     <td>40.31%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="4">Jumlah Pendapatan</th>
+                    <th scope="row" rowspan="5">Jumlah Pendapatan</th>
+                </tr>
                     <td>< Rp1.500.000</td>
                     <td>27</td>
                     <td>12.56%</td>
@@ -481,7 +491,6 @@
                     <td>100.00%</td>
                     <td>215</td>
                     <td>30.63%</td>
-                </tr>
                 <tr>
                     <td>Rp1.500.000-Rp2.500.000</td>
                     <td>20</td>
@@ -540,7 +549,8 @@
                     <td>20.09%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="2">Tempat Bekerja Menggunakan Internet</th>
+                    <th scope="row" rowspan="3">Tempat Bekerja Menggunakan Internet</th>
+                </tr>
                     <td>Ya</td>
                     <td>64</td>
                     <td>13.62%</td>
@@ -558,7 +568,6 @@
                     <td>100.00%</td>
                     <td>470</td>
                     <td>66.95%</td>
-                </tr>
                 <tr>
                     <td>Tidak</td>
                     <td>77</td>
@@ -579,7 +588,9 @@
                     <td>100.00%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="3">Tempat Bekerja Menggunakan Internet untuk Promosi</th>
+                    <th scope="row" rowspan="4">Tempat Bekerja Menggunakan Internet untuk Promosi</th>
+                </tr>
+                <tr>
                     <td>Ya</td>
                     <td>55</td>
                     <td>14.55%</td>
@@ -637,7 +648,8 @@
                     <td>100.00%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="3">Tempat Bekerja Menggunakan Internet untuk Komunikasi</th>
+                    <th scope="row" rowspan="4">Tempat Bekerja Menggunakan Internet untuk Komunikasi</th>
+                </tr>
                     <td>Ya</td>
                     <td>63</td>
                     <td>13.73%</td>
@@ -695,7 +707,9 @@
                     <td>33.05%</td>
                 </tr>
                 <tr>
-                    <th scope="row" rowspan="3">Tempat Bekerja Menggunakan Internet untuk Transaksi</th>
+                    <th scope="row" rowspan="4">Tempat Bekerja Menggunakan Internet untuk Transaksi</th>
+                </tr>
+                <tr>
                     <td>Ya</td>
                     <td>52</td>
                     <td>15.34%</td>
