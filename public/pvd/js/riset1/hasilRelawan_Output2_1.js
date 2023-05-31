@@ -6,56 +6,157 @@ const data_relawan2_1 = {
         label: 'Telkomsel',
         data: [
             {
-                x: 1,
-                y: 71,
+                x: 1.2,
+                y: 5,
 
             },
             {
-                x: 1,
-                y: 61,
+                x: 2,
+                y: 5,
             },
             {
-                x: 1,
-                y: 51,
+                x: 2.8,
+                y: 5,
             },
             {
-                x: 1,
-                y: 41,
+                x: 3.6,
+                y: 5,
             },
             {
-                x: 1,
-                y: 31,
+                x: 4.4,
+                y: 5,
+            },
+            { 
+                x: 5.2,
+                y: 5,
             },
             {
-                x: 1,
-                y: 21,
+                x: 6,
+                y: 5,
             },
-            {   
-                x: 1,
-                y: 11,
+            {
+                
+                x: 6.8,
+                y: 5,
             },
+            {
+                x: 7.6,
+                y: 5,
+            },
+            {
+                x: 8.4,
+                y: 5,
+            },
+            {
+                label: '199',
+                x: 9.2,
+                y: 5, 
+            },
+            
 
         ],
-        backgroundColor: "#506396",
+        backgroundColor: "#FDAB01",
+        pointRadius: 9,
       },
       {
         label: 'Indosat',
         data: [
             {
+                x: 1.2,
+                y: 4,
+            },
+            { 
                 x: 2,
-                y: 33,
+                y: 4,
             },
             {
-                x: 2,
-                y: 23,
+                x: 2.8,
+                y: 4,
             },
             {
-                x: 2,
-                y: 13,
+                x: 3.6,
+                y: 4,
             },
+            {
+                x: 4.4,
+                y: 4,
+            },
+            {
+                x: 5.2,
+                y: 4,
+            },
+            {
+                label: '73',
+                x: 6,
+                y: 4,
+            },
+            
         ],
-        backgroundColor: "#506396",
-      }
+        backgroundColor: "#FDAB01",
+        pointRadius: 9,
+      },
+      {
+        label: '3 (Three)',
+        data: [
+            {
+                x: 1.2,
+                y: 3,
+            },
+            {
+                x: 2,
+                y: 3, 
+            },
+            {
+                label: '13',
+                x: 2.8,
+                y: 3,
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: 'XL Axiata',
+        data: [
+            {
+                x: 1.2,
+                y: 2,
+            },
+            {
+                label: '9',
+                x: 2,
+                y: 2,
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: 'Smartfren',
+        data: [
+            {
+                label: '2',
+                x: 1.2,
+                y: 1,
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: 'Lainnya',
+        data: [
+            {
+                label: '0',
+                x: 1.2,
+                y: 0,
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 0,
+      },
+
+
     ]
   };
 
@@ -90,7 +191,7 @@ const bar_relawan2_1 = new Chart(relawan_output2_1  , {
     plugins: {
       title: {
         display: true,
-        text: ["Jumlah Kartu SIM"],
+        text: ["Jumlah Kartu SIM Aktif yang Digunakan Relawan pada", "Satu Ponsel Utama Berdasarkan Provider Tahun 2022"],
         font: {
           size: 16,
           // family: "Poppins",
@@ -108,34 +209,39 @@ const bar_relawan2_1 = new Chart(relawan_output2_1  , {
         position: "bottom",
       },
       tooltip: {
-        enabled: true,
+        enabled: false,
       },
       datalabels: {
-        display: false,
+        display: function(context) {
+          // display all last labels
+          return context.dataIndex === context.dataset.data.length - 1;
+        },
         color: "black",
-        anchor: 'end',
-        align: 'top',
+        anchor: 'right',
+        align: 'right',    
+        offset: 8,
+
       },
     },
     maintainAspectRatio: false,
     scales: {
-      x: {
+      y: {
         min: 0,
-        max: 6,
+        max: 5.3,
         ticks: {
             stepSize: 1,
             callback: function(value, index, ticks) {
-                if(index === 1) {
+                if(index === 5) {
                     return "Telkomsel";
-                } else if(index === 2) {
+                } else if(index === 4) {
                     return "Indosat";
                 } else if(index === 3) {
-                    return "XL Axiata"; 
-                } else if(index === 4) {
-                    return "3 (Three)";
-                } else if(index === 5) {
+                    return "3 (Three)"; 
+                } else if(index === 2) {
+                    return "XL Axiata";
+                } else if(index === 1) {
                     return "Smartfren";
-                } else if(index === 6) {
+                } else if(index === 0) {
                     return "Lainnya";
                 } else {
                     return "";
@@ -147,12 +253,13 @@ const bar_relawan2_1 = new Chart(relawan_output2_1  , {
           display: false,
         },
       },
-      y: {
+      x: {
         min: 0,
-        max: 80,
+        max: 10,
         grid: {
           display: false,
         },
+        display: false,
       },
     },
   },
@@ -175,7 +282,7 @@ barChartAxisRelawan_output2_1.addEventListener("click", update_value_relawan_out
 function update_value_relawan_output2_1(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
-    bar_relawan2_1.options.scales.x.display = true;     
+    bar_relawan2_1.options.scales.x.display = false;     
     bar_relawan2_1.options.scales.y.display = true;
     bar_relawan2_1.update();
   } else {

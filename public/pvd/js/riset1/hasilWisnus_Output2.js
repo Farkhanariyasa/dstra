@@ -82,8 +82,8 @@ const pie_wisnus2 = new Chart(wisnus_output2, {
 //   }
 // }
 
-const barChartLegend = document.getElementById("forPieChartAxis_output2");
-barChartLegend.addEventListener("click", update_value_output2(chk_bx));
+const PieChartLegend = document.getElementById("forPieChartAxis_output2");
+PieChartLegend.addEventListener("click", update_value_output2(chk_bx));
 function update_value_output2(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
@@ -96,17 +96,17 @@ function update_value_output2(chk_bx) {
   }
 }
 
-const pieChartLegend = document.getElementById("forPieChartLegend");
-pieChartLegend.addEventListener("click", update_value2(chk_bx2));
-function update_value2(chk_bx2) {
-  if (chk_bx2.checked) {
-    console.log("check");
-    batang.options.plugins.legend.display = true;
-    batang.update();
-  } else {
-    console.log("uncheck");
-    batang.options.plugins.legend.display = false;
-    batang.update();
-  }
-}
+// const pieChartLegend = document.getElementById("forPieChartLegend");
+// pieChartLegend.addEventListener("click", update_value2(chk_bx2));
+// function update_value2(chk_bx2) {
+//   if (chk_bx2.checked) {
+//     console.log("check");
+//     batang.options.plugins.legend.display = true;
+//     batang.update();
+//   } else {
+//     console.log("uncheck");
+//     batang.options.plugins.legend.display = false;
+//     batang.update();
+//   }
+// }
 
