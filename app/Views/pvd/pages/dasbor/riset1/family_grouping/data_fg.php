@@ -1653,8 +1653,8 @@
                 </div>
             </div>
         </div>
-        <div class="isi-tujuan shadow mt-5 mb-0" id="ketentuan">
-            <h4 class="card-title judul-card">Ketentuan</h4>
+        <div class="isi-tujuan shadow mt-5 mb-0">
+            <h4 class="card-title judul-card" id="ketentuan">Ketentuan</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12 grid-margin stretch-card">
