@@ -5,15 +5,14 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container" data-aos="fade-up">
         <header class="section-header">
-            <p>Karakteristik Perjalanan</p>
+            <p>Model Count ZINB</p>
         </header>
 
         <hr class="hrjudul">
 
         <div class="row portfolio-container">
-            <?php include('dummy_hasil2.php') ?>
+            <?php include('dummy_hasil1.php') ?>
         </div>
-
     </div>
 </section>
 

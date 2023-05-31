@@ -7,16 +7,14 @@ const bar_relawan1 = new Chart(relawan_output1, {
     datasets: [
       {
         label: "Data Training",
-        data: [1, 2, 2, 26, 36, 10],
+        data: [9
+          ,9
+          ,5
+          ,34
+          ,125
+          ,33],
         backgroundColor: "#C27D90",
         borderWidth: 1,
-        borderRadius: 8,
-      },
-      {
-        label: "Data Testing",
-        data: [8, 7, 3, 8, 89, 23],  
-        backgroundColor: "#FDAB01",
-        borderWidth: 1, 
         borderRadius: 8,
       },
     ],
@@ -64,7 +62,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
         },
       },
       legend: {
-        display: true,
+        display: false,
         position: "bottom",
       },
       tooltip: {
@@ -83,11 +81,29 @@ const bar_relawan1 = new Chart(relawan_output1, {
         grid: {
           display: false,
         },
+        title: {
+          display: true,
+          text: "Umur",
+          font: {
+            size: 14,
+            style: "normal",
+            lineHeight: 2,
+          },
+        }
       },
       y: {
         grid: {
           display: false,
         },
+        title: {
+          display: true,
+          text: "Jumlah Relawan",
+          font: {
+            size: 14,
+            style: "normal",
+            lineHeight: 2,
+          },
+        }
       },
     },
   },

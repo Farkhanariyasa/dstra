@@ -26,7 +26,7 @@
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
-
+<?php include('modal_riset3.php') ?>
 <div class="container px-0">
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
@@ -48,6 +48,7 @@
       <!-- <option value="tujuan4-9">Jumlah Usaha Pariwisata Berdasarkan Sektor Usaha</option> -->
     </select>
   </div>
+  <!-- <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button> -->
 
   <div class="isi-tujuan shadow mt-4">
     <div id="tujuan4-1" class="datatujuan" style="width:100%">
@@ -68,13 +69,14 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_1">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -161,7 +163,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -198,7 +200,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -235,7 +237,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -272,7 +274,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -309,7 +311,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -346,7 +348,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -383,7 +385,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -399,6 +401,12 @@
     </div>
   </div>
 </div>
+
+<!-- Modal Riset 3  -->
+<!-- 1 -->
+
+
+
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -418,5 +426,6 @@
 <script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
 
 <!-- Modal Riset 3  -->
-<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/modal_riset3.php') ?>
+
+
 <?= $this->endSection(); ?>

@@ -5,13 +5,13 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container" data-aos="fade-up">
         <header class="section-header">
-            <p>Analisis Inferensia</p>
+            <p>Model Zero-Inflation ZINB</p>
         </header>
 
         <hr class="hrjudul">
 
         <div class="row portfolio-container">
-            <?php include('dummy_tujuan4.php') ?>
+            <?php include('dummy_hasil1.php') ?>
         </div>
     </div>
 </section>

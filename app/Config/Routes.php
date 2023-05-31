@@ -77,7 +77,9 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('tujuan3-hasil2', 'Riset2::tujuan3_hasil2'); // Hasil 2
         $routes->get('tujuan3-tabulasi', 'Riset2::tujuan3_tabulasi'); // Tabulasi
         // Tujuan 4
-        $routes->get('tujuan4', 'Riset2::tujuan4');
+        $routes->get('tujuan4-hasil1', 'Riset2::tujuan4_hasil1'); // Hasil 1
+        $routes->get('tujuan4-hasil2', 'Riset2::tujuan4_hasil2'); // Hasil 2
+        $routes->get('tujuan4-tabulasi', 'Riset2::tujuan4_tabulasi'); // Tabulasi
     });
     // Dasbor Riset 3
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {

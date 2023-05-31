@@ -40,6 +40,9 @@
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil3') ?>" class="text-decoration-none fs-5">Kategori Perjalanan</a>
               </li>
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+              </li>
             </ol>
           </div>
         </div>
@@ -61,6 +64,9 @@
               </li>
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-5">Lama Perjalanan</a>
+              </li>
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
               </li>
             </ol>
           </div>
@@ -84,6 +90,9 @@
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil2') ?>" class="text-decoration-none fs-5">Karakteristik Perjalanan</a>
               </li>
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+              </li>
             </ol>
           </div>
         </div>
@@ -99,9 +108,17 @@
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
-            <p class="text-justify ms-3">
-              <a href="<?= base_url('hasil-pkl/riset2/tujuan4') ?>" class="text-decoration-none fs-5">Tujuan 4</a>
-            </p>
+            <ol class="text-justify fs-5 ms-3">
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil1') ?>" class="text-decoration-none fs-5">Model Zero-Inflation ZINB</a>
+              </li>
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-5">Model Count ZINB</a>
+              </li>
+              <li>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+              </li>
+            </ol>
           </div>
         </div>
       </div>

@@ -5,9 +5,9 @@ let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 // let hoverButton =':hover{ background-color: #00ff00 }'
 
 
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 2; i++) {
     document.getElementById('unduh-3-'+[i]).addEventListener('click',(e) => {
-        idbutton='btndownload'+[i]
+        idbutton='btndownload2_'+[i]
         console.log("3-"+[i]+" diklik")
         idinput=i-1
         // konfirmasiButton= document.getElementById('btndownload'+[i]);
@@ -62,17 +62,16 @@ function getvalue(){
     }
 }
 
-// endOfValidasi
 
-document.getElementById('btndownload1').addEventListener('click', function(e) {
+document.getElementById('btndownload2_1').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('ji_batang').toDataURL();
+    let canvasUrl = document.getElementById('tujuan2_1').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
-
+    console.log("udah diklik")
     // This is the name of our downloaded file
-    createEl.download = "hasil-sp-riset-3-barplot";
+    createEl.download = "Riset3_Tujuan2_1";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -81,33 +80,4 @@ document.getElementById('btndownload1').addEventListener('click', function(e) {
 
 
 
-document.getElementById('btndownload2').addEventListener('click', function(e) {
-    // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('tk_pie').toDataURL();
-    // Create an anchor, and set the href value to our data URL
-    const createEl = document.createElement('a');
-    createEl.href = canvasUrl;
-
-    // This is the name of our downloaded file
-    createEl.download = "hasil-sp-riset-3-piechart";
-
-    // Click the download button, causing a download, and then remove it
-    createEl.click();
-    createEl.remove();
-});
-
-document.getElementById('btndownload3').addEventListener('click', function(e) {
-    // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('j_doughnut').toDataURL();
-    // Create an anchor, and set the href value to our data URL
-    const createEl = document.createElement('a');
-    createEl.href = canvasUrl;
-
-    // This is the name of our downloaded file
-    createEl.download = "hasil-sp-riset-3-doughnut";
-
-    // Click the download button, causing a download, and then remove it
-    createEl.click();
-    createEl.remove();
-});
 
