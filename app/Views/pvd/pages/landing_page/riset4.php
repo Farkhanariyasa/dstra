@@ -203,6 +203,86 @@
             </div>
         </section>
 
+                <!-- Design Sampling -->
+                <section class="offset-header">
+            <div class="container-fluid turun">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="headline text-center"><i>Design Sampling</i></h1>
+                    </div>
+                </div>
+                <!-- metode-->
+                <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box text-light" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="text-center mb-3">
+                        <h5 class="badge badge-pill badge-primary metode text-light"><i>Two Stage Sampling</i></h5>
+                    </div>
+                    <!--first section-->
+                    <div class="row align-items-center how-it-works d-flex">
+                        <div class="col-2 bottom d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">1</div>
+                        </div>
+                        <div class="col-6">
+                            <h5>Tahap I</h5>
+                            <h4><i>Probability Proportional to Size with Replacement</i> (PPS WR)</h4>
+                            <p class="text-justify">Dari kerangka sampel blok sensus di Kota Batu, dipilih sejumlah blok sensus 
+                                secara PPS WR dengan <i>measure of size</i> (MoS) yang digunakan adalah jumlah unit usaha mikro kecil 
+                                (UMK) yang meliputi jasa transportasi wisata, jasa makanan dan minuman, dan 
+                                penyediaan akomodasi.</p>
+                        </div>
+                    </div>
+                    <!--path between 1-2-->
+                    <div class="row timeline">
+                        <div class="col-2">
+                            <div class="corner top-right"></div>
+                        </div>
+                        <div class="col-8">
+                            <hr />
+                        </div>
+                        <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                        </div>
+                    </div>
+                    <!--second section-->
+                    <div class="row align-items-center justify-content-end how-it-works d-flex">
+                        <div class="col-6 text-right">
+                            <h5>Tahap II</h5>
+                            <h4><i>Systematic Sampling</i></h4>
+                            <p class="text-justify">Dari blok sensus terpilih, dipilih sejumlah usaha pariwisata melalui pendekatan 
+                                pemilik atau pengelola dari seluruh penduduk di Kota Batu tahun 2023 yang meliputi 
+                                jasa transportasi wisata, jasa makanan dan minuman, dan penyediaan akomodasi secara 
+                                <i>systematic</i> dengan <i>implicit stratification</i> berdasarkan jenis usahanya.</p>
+                        </div>
+                        <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">2</div>
+                        </div>
+                    </div>
+                    <!--path between 2-3-->
+                    <!-- <div class="row timeline">
+                        <div class="col-2">
+                            <div class="corner right-bottom"></div>
+                        </div>
+                        <div class="col-8">
+                            <hr />
+                        </div>
+                        <div class="col-2">
+                            <div class="corner top-left"></div>
+                        </div>
+                    </div> -->
+                    <!--third section-->
+                    <!-- <div class="row align-items-center how-it-works d-flex">
+                        <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">3</div>
+                        </div>
+                        <div class="col-6">
+                            <h5>Tahap III</h5>
+                            <h4>Systematic Sampling</h4>
+                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
         <!-- Hasil Penelitian -->
         <section class="offset-header">
             <div class="container-fluid turun">
