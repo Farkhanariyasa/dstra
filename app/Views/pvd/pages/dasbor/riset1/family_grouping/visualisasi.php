@@ -33,13 +33,39 @@
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
             Swal.fire({
-                title: 'Informasi Penting',
-                text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat penggunaan waktu kerja dan waktu libur',
-                icon: 'info',
-                confirmButtonColor: '#3085d6',
-                confirmButtonText: 'OK',
-                footer: '<p>Keterangan lebih lanjut <a href="#ketentuan">Tekan sini</a></p>'
+                    title: 'Informasi Penting',
+                    text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat penggunaan waktu kerja dan waktu libur',
+                    icon: 'info',
+                    confirmButtonColor: '#506396',
+                    confirmButtonText: 'OK',
+                    showConfirmButton: true,
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    allowEnterKey: false,
+                    footer: '<a href="#ketentuan" id="closeAlertLink">Tekan sini</a>',
+                    // onBeforeOpen: () => {
+                    //     const link = document.querySelector('.swal2-footer a');
+                    //     link.addEventListener('click', (event) => {
+                    //         event.preventDefault(); // Prevent the default behavior of the link
+                    //         const currentURL = window.location.href;
+                    //         const linkHref = link.getAttribute('href');
+                    //         if (linkHref === currentURL) {
+                    //             Swal.close(); // Close the alert
+                    //         }
+                    //     });
+                    // }
+                })
+                // .then((value) => {
+                //     // Handle the alert being closed
+                // });
+                document.getElementById('closeAlertLink').addEventListener('click', function(event) {
+                    // event.preventDefault(); // Prevent the default behavior of the link
+                    window.location.href = "<?= base_url('hasil-pkl/riset1/mpd-familygrouping#ketentuan') ?>";
+                    Swal.clickConfirm(); // Close the SweetAlert alert
+                    Swal.close();
             });
+
+
         });
     </script>
 </section>
