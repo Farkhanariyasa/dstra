@@ -287,7 +287,7 @@ function getMenu()
             ],
             [
               'subMenu' => 'Kendala dalam Pemanfaatan TIK',
-              'href' => '/riset4/kendala_dalam_pemanfaatan_tik',
+              'href' => '/riset4/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi',
             ],
           ],
         ],
