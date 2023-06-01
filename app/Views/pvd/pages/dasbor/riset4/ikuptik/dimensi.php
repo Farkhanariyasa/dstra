@@ -59,6 +59,6 @@
 <script src="<?= base_url('pvd/js/riset4/spider_dimensi.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/button_download_4_2.js') ?>"></script>
 </section>
 <?= $this->endSection(); ?>
