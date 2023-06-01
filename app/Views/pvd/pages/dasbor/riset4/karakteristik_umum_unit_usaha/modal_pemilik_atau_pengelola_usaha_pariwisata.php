@@ -1,5 +1,5 @@
 <!-- 1 -->
-<div class="modal fade" id="#exampleModal-m2sm1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -41,7 +41,7 @@
 </div>
 
 <!-- 2 -->
-<div class="modal fade" id="#exampleModal-m2sm1-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -74,8 +74,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
-                        data-bs-dismiss="modal">Konfirmasi</button>
+                    <button disabled type="submit" id="button-download-2" class="tombolkonf" data-bs-dismiss="modal"
+                        aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
