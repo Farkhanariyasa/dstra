@@ -26,7 +26,7 @@
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
-<?php include('modal_riset3.php') ?>
+<?php include('modal_tujuan2.php') ?>
 <div class="container px-0">
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
@@ -163,7 +163,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_2">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -200,7 +200,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_3">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -237,7 +237,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -274,7 +274,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_5">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -311,7 +311,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_6">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -348,7 +348,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_7">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -385,7 +385,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#keren4">
+                    <button id="unduh-3-8" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_8">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -404,7 +404,41 @@
 
 <!-- Modal Riset 3  -->
 <!-- 1 -->
-
+<?php for ($i = 1; $i <= 8; $i++) : ?>
+  <div class="modal fade" id="Modal2_<?php echo $i ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/hasilkajian2" method="POST">
+          <div class="modal-body">
+            <div class="mb-1">
+              <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
+              <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+              <div id="errornama" class="errorvlds"></div>
+            </div>
+            <div class="mb-1">
+              <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
+              <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+              <div id="erroremail" class="errorvlds"></div>
+            </div>
+            <div class="mb-1">
+              <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
+              <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+              <div id="errorinstansi" class="errorvlds"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
+            <button disabled type="submit" id="btndownload2_<?php echo $i ?>" class="tombolkonf">Konfirmasi<?php echo $i ?></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<?php endfor; ?>
 
 
 <!-- Jquery -->
@@ -423,7 +457,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan2.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/btn_Download_tujuan2.js') ?>"></script>
 
 <!-- Modal Riset 3  -->
 
