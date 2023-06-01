@@ -48,7 +48,7 @@ const data = {
     ]
 };
 
-const radar = document.getElementById("spider-1");
+const radar = document.getElementById("chart-1");
 
 new Chart(radar,{
     type: 'radar',
