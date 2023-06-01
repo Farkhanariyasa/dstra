@@ -1,6 +1,6 @@
-let delayed_relawan2_1;
+let delayed_relawan2;
 
-const data_relawan2_1 = {
+const data_relawan2 = {
     datasets: [
       {
         label: 'Telkomsel',
@@ -148,8 +148,6 @@ const data_relawan2_1 = {
         data: [
             {
                 label: '0',
-                x: 1.2,
-                y: 0,
             },
           ],
         backgroundColor: "#C27D90",
@@ -160,10 +158,10 @@ const data_relawan2_1 = {
     ]
   };
 
-const relawan_output2_1 = document.getElementById("relawan_output2_1");
-const bar_relawan2_1 = new Chart(relawan_output2_1  , {
+const relawan_output2 = document.getElementById("relawan_output2");
+const bar_relawan2 = new Chart(relawan_output2  , {
     type: "scatter",
-  data: data_relawan2_1,
+  data: data_relawan2,
   options: {
     responsive: true,
     maintainAspectRatio: false,
@@ -276,19 +274,19 @@ function responsivefonts() {
   }
 }
 
-const barChartAxisRelawan_output2_1= document.getElementById("forBarChartAxisRelawan_output2_1");
-barChartAxisRelawan_output2_1.addEventListener("click", update_value_relawan_output2_1(chk_bx));
+const barChartAxisRelawan_output2= document.getElementById("forBarChartAxisRelawan_output2");
+barChartAxisRelawan_output2.addEventListener("click", update_value_relawan_output2(chk_bx));
 
-function update_value_relawan_output2_1(chk_bx) {
+function update_value_relawan_output2(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
-    bar_relawan2_1.options.scales.x.display = false;     
-    bar_relawan2_1.options.scales.y.display = true;
-    bar_relawan2_1.update();
+    bar_relawan2.options.scales.x.display = false;     
+    bar_relawan2.options.scales.y.display = true;
+    bar_relawan2.update();
   } else {
     console.log("uncheck");
-    bar_relawan2_1.options.scales.x.display = false;
-    bar_relawan2_1.options.scales.y.display = false;
-    bar_relawan2_1.update();
+    bar_relawan2.options.scales.x.display = false;
+    bar_relawan2.options.scales.y.display = false;
+    bar_relawan2.update();
   }
 }
