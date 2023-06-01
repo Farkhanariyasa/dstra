@@ -1,36 +1,138 @@
 let delayed_relawan4;
-const relawan_output4 = document.getElementById("relawan_output4");
-const bar_relawan4 = new Chart(relawan_output4, {
-  type: "bar",
-  data: {
-    labels: ["0-12", "13-15", "16-18", "19-24", "25-49", ">=50"],
+
+const data_relawan4 = {
     datasets: [
       {
-        label: "Data Training",
-        data: [12, 0, 0, 0, 0, 0],
+        label: '0-12',
+        data: [
+            {
+                x: 0.4,
+                y: 5,
+            },
+            {
+                x: 1.2,
+                y: 5,
+
+            },
+            {
+                x: 2,
+                y: 5,
+            },
+            {
+                x: 2.8,
+                y: 5,
+            },
+            {
+                x: 3.6,
+                y: 5,
+            },
+            {
+                x: 4.4,
+                y: 5,
+            },
+            { 
+                x: 5.2,
+                y: 5,
+            },
+            {
+                x: 6,
+                y: 5,
+            },
+            {
+                
+                x: 6.8,
+                y: 5,
+            },
+            {
+                x: 7.6,
+                y: 5,
+            },
+            {
+                x: 8.4,
+                y: 5,
+            },
+            {
+                label: '59',
+                x: 9.2,
+                y: 5, 
+            },
+            
+
+        ],
         backgroundColor: "#C27D90",
-        borderWidth: 1,
-        borderRadius: 8,
+        pointRadius: 9,
       },
       {
-        label: "Data Testing",
-        data: [47, 2, 0, 0, 0, 2],  
-        backgroundColor: "#FDAB01",
-        borderWidth: 1, 
-        borderRadius: 8,
+        label: '13-15',
+        data: [
+            {
+                label: '2',
+                x: 0.4,
+                y: 4,
+            },
+            
+            
+        ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
       },
-    ],
-  },
+      {
+        label: '16-18',
+        data: [
+            
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: '19-24',
+        data: [
+            
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: '25-49',
+        data: [
+            {
+                label: '0',
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+      {
+        label: '>=50',
+        data: [
+            {
+                label: '2',
+                x: 0.4,
+                y: 0,
+            },
+          ],
+        backgroundColor: "#C27D90",
+        pointRadius: 9,
+      },
+
+
+    ]
+  };
+
+const relawan_output4 = document.getElementById("relawan_output4");
+const bar_relawan4 = new Chart(relawan_output4  , {
+    type: "scatter",
+  data: data_relawan4,
   options: {
     responsive: true,
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_relawan4 = true;
+        delayed_relawan1 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_relawan4) {
+        if (context.type === "data" && context.mode === "default" && !delayed_relawan1) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -38,9 +140,7 @@ const bar_relawan4 = new Chart(relawan_output4, {
     },
     scales: {
       x: {
-        ticks: {
-          display: true,
-        },
+        
       },
       y: {
         beginAtZero: true,
@@ -50,12 +150,12 @@ const bar_relawan4 = new Chart(relawan_output4, {
     plugins: {
       title: {
         display: true,
-        text: ["Jumlah Anggota Keluarga Relawan"],
+        text: ["Jumlah Anggota Keluarga Relawan yang Tidak Memiliki", "Handphone Pribadi Berdasarkan Kelompok Umur Tahun 2022"],
         font: {
           size: 16,
           // family: "Poppins",
         },
-        color: "#493a5a",
+        color: "#493a5a", 
         padding: {
           top: 5,
           bottom: 25,
@@ -64,30 +164,61 @@ const bar_relawan4 = new Chart(relawan_output4, {
         },
       },
       legend: {
-        display: true,
+        display: false,
         position: "bottom",
       },
       tooltip: {
-        enabled: true,
+        enabled: false,
       },
       datalabels: {
-        display: true,
+        display: function(context) {
+          // display all last labels
+          return context.dataIndex === context.dataset.data.length - 1;
+        },
         color: "black",
-        anchor: 'end',
-        align: 'top',
+        anchor: 'right',
+        align: 'right',    
+        offset: 8,
+
       },
     },
     maintainAspectRatio: false,
     scales: {
-      x: {
+      y: {
+        min: (-0.3),
+        max: 5.3,
+        ticks: {
+            stepSize: 1,
+            callback: function(value, index, ticks) {
+                if(index === 6) {
+                    return "0-12";
+                } else if(index === 5) {
+                    return "13-15";
+                } else if(index === 4) {
+                    return "16-18"; 
+                } else if(index === 3) {
+                    return "19-24";
+                } else if(index === 2) {
+                    return "25-49";
+                } else if(index === 1) {
+                    return ">=50";
+                } else {
+                    return "";
+                }
+
+            }
+        },
         grid: {
           display: false,
         },
       },
-      y: {
+      x: {
+        min: 0,
+        max: 10,
         grid: {
           display: false,
         },
+        display: false,
       },
     },
   },
@@ -104,13 +235,13 @@ function responsivefonts() {
   }
 }
 
-const barChartAxisRelawan_output4 = document.getElementById("forBarChartAxisRelawan_output4");
+const barChartAxisRelawan_output4= document.getElementById("forBarChartAxisRelawan_output4");
 barChartAxisRelawan_output4.addEventListener("click", update_value_relawan_output4(chk_bx));
 
 function update_value_relawan_output4(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
-    bar_relawan4.options.scales.x.display = true;
+    bar_relawan4.options.scales.x.display = false;     
     bar_relawan4.options.scales.y.display = true;
     bar_relawan4.update();
   } else {
