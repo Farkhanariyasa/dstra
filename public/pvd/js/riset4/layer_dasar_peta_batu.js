@@ -41,7 +41,7 @@ function resetHighlight(e) {
   info.update();
 }
 
-var peta_batu_hasil_2 = L.map("peta-batu").setView(
+var peta_batu_hasil_2 = L.map("chart-11").setView(
   [-7.8328, 112.5342],
   11
 );
