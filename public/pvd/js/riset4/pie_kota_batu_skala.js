@@ -1,4 +1,4 @@
-const pie1 = document.getElementById('pie-kota-batu-skala');
+const pie1 = document.getElementById('chart-4');
 
 const pie_1 = new Chart(pie1, {
     type: 'doughnut',
