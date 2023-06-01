@@ -1,4 +1,4 @@
-const piePemanfaatan1 = document.getElementById('pie-kota-batu-pemanfaatan');
+const piePemanfaatan1 = document.getElementById('chart-5');
 
 const piePemanfaatan_1 = new Chart(piePemanfaatan1, {
     type: 'doughnut',
