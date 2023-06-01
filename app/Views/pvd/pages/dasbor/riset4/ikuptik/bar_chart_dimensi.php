@@ -242,7 +242,7 @@
                             </form>
                         </div> -->
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                              <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
                                                   <i class="fa-solid fa-download"></i>
                                               </button>
                                           </div>
@@ -251,7 +251,7 @@
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
                                                   <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                      <canvas id="spider-1"></canvas>
+                                                      <canvas id="chart-1"></canvas>
                                                   </div>
                                               </div>
                                           </div>
@@ -291,7 +291,7 @@
                             </form>
                         </div>
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                              <button id="download-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-2">
                                                   <i class="fa-solid fa-download"></i>
                                               </button>
                                           </div>
@@ -300,7 +300,7 @@
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
                                                   <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                      <canvas id="bar-dimensi-kecamatan-1"></canvas>
+                                                      <canvas id="chart-2"></canvas>
                                                   </div>
                                               </div>
                                           </div>
@@ -339,7 +339,7 @@
                             </form>
                         </div>
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                              <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                              <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
                                                   <i class="fa-solid fa-download"></i>
                                               </button>
                                           </div>
@@ -348,7 +348,7 @@
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
                                                   <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                      <canvas id="bar-dimensi-jenis-1"></canvas>
+                                                      <canvas id="chart-3"></canvas>
                                                   </div>
                                               </div>
                                           </div>
