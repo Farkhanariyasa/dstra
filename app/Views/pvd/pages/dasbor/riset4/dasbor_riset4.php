@@ -89,7 +89,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -105,7 +105,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="gantt-kota-batu-jk-usia"></canvas>
+                                            <canvas id="chart-1"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-2">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -159,7 +159,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="bar-kota-batu-pendidikan"></canvas>
+                                            <canvas id="chart-2"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +197,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -213,7 +213,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="doughnut-kota-batu"></canvas>
+                                            <canvas id="chart-3"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +251,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-4">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -267,7 +267,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="pie-kota-batu-skala"></canvas>
+                                            <canvas id="chart-4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +305,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-5">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -321,7 +321,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="pie-kota-batu-pemanfaatan"></canvas>
+                                            <canvas id="chart-5"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-7">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -420,7 +420,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-9" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-9">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -475,7 +475,7 @@
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                    <button id="download-10" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-10">
                                         <i class="fa-solid fa-download"></i>
                                     </button>
                                 </div>
@@ -491,7 +491,7 @@
                                 <div class="mb-0 col-lg-12 grid-margin">
                                     <div>
                                         <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="bar-kota-batu-pemanfaatan"></canvas>
+                                            <canvas id="chart-10"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -540,14 +540,14 @@
                                         </div>
                                     </div>
                                     <div class="d-flex flex-row align-item-center justify-content-center">
-                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
                                             <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="">
+                                                <button id="download-11" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-11">
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
-                                        </div>
-                                        <div id="peta-batu" style="width: 100%; height:80vh; z-index:0;"></div>
+                                        </div> -->
+                                        <div id="chart-11" style="width: 100%; height:80vh; z-index:0;"></div>
                                     </div>
                                 </div>
                             </div>
