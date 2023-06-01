@@ -60,7 +60,11 @@ const bar_2 = new Chart(bar2, {
                         return context[0].label.replaceAll(',',' ');
                     }
                 }
-            }
+            },
+            datalabels:{
+                display:true,
+                color:'black'
+            },
         },
     },
     plugins: [ChartDataLabels]
