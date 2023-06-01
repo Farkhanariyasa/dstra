@@ -192,7 +192,7 @@
                     </div>
                 </div> -->
 
-                <div class="col-6 grid-margin stretch-card">
+                <div class="col-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -246,7 +246,7 @@
                     </div>
                 </div> -->
 
-                <div class="col-6 grid-margin stretch-card">
+                <div class="col-12 grid-margin stretch-card">
                     <div class="card shadow">
                         <div class="pb-2 card-body">
                             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
