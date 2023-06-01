@@ -95,7 +95,7 @@ const data = {
   };
     // render init block
     const myChart = new Chart(
-        document.getElementById('gantt-kota-batu-jk-usia'),
+        document.getElementById('chart-1'),
         config
       );
   
