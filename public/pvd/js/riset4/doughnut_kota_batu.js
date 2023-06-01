@@ -1,4 +1,4 @@
-const doughnut1 = document.getElementById('doughnut-kota-batu');
+const doughnut1 = document.getElementById('chart-3');
 
 const doughnut_1 = new Chart(doughnut1, {
     type: 'doughnut',
