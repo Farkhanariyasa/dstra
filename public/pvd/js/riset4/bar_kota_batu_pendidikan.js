@@ -1,4 +1,4 @@
-const barPendidikan1 = document.getElementById('bar-kota-batu-pendidikan');
+const barPendidikan1 = document.getElementById('chart-2');
 const barPendidikan_1 = new Chart(barPendidikan1, {
     type: 'bar',
     data: {
