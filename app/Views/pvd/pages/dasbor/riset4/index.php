@@ -144,7 +144,7 @@
   <script src="< ?= base_url('pvd/js/riset4/hasilSPRiset4_peta_kajian1_2.js') ?>"></script>  -->
 
   <!-- Fungsi Unduh Chart -->
-  <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/button_download_dasbor.js') ?>"></script>
 </section>
 
 <?= $this->endSection(); ?>
