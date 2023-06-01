@@ -6,7 +6,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
     labels: ["0-12", "13-15", "16-18", "19-24", "25-49", ">=50"],
     datasets: [
       {
-        label: "Data Training",
+        label: "Jumlah Relawan",
         data: [9
           ,9
           ,5
@@ -48,7 +48,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
     plugins: {
       title: {
         display: true,
-        text: ["Jumlah Relawan"],
+        text: ["Jumlah Relawan Berdasarkan Kepemilikan Handphone Pribadi", "dan Dikategorikan Menurut Kelompok Umur Tahun 2022"],
         font: {
           size: 16,
           // family: "Poppins",
