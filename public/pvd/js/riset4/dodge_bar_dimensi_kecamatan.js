@@ -1,4 +1,4 @@
-const bar1 = document.getElementById('bar-dimensi-kecamatan-1');
+const bar1 = document.getElementById('chart-2');
 
 const bar_1 = new Chart(bar1, {
     type: 'bar',
