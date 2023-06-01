@@ -117,7 +117,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -192,7 +192,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-2">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
