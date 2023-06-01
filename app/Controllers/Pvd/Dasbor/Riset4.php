@@ -409,7 +409,7 @@ class Riset4 extends BaseController
             'judul' => 'Kendala dalam Pemanfaatan TIK',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kendala_dalam_pemanfaatan_tik', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', $data);
     }
 
     public function menu4submenu1()
