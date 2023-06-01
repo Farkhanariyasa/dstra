@@ -3,12 +3,12 @@ let idbutton = "";
 let idinput = "";
 let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 
-for (let i = 1; i <= 2; i++) {
-  document.getElementById("unduh-m2sm1-" + [i]).addEventListener("click", (e) => {
-    idbutton = "button-download-" + [i];
-    console.log("m2sm1-" + [i] + " diklik");
-    idinput = i - 1;
-  });
+for (let i = 1; i < 7; i++) {
+        document.getElementById("download-" + [i]).addEventListener("click", (e) => {
+            idbutton = "button-download-" + [i];
+            console.log("download-" + [i] + " diklik");
+            idinput = i - 1;
+          });
 }
 
 function getvalue() {
@@ -59,7 +59,7 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 1; i <= 2; i++) { 
+for (let i = 1; i < 7; i++) {
   document
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {
@@ -70,7 +70,7 @@ for (let i = 1; i <= 2; i++) {
       createEl.href = canvasUrl;
 
       // This is the name of our downloaded file
-      createEl.download = "riset-4-m2sm1-" + [i];
+      createEl.download = "Hasil PKL Riset 4 - Usaha Pariwisata - Chart " + [i];
 
       // Click the download button, causing a download, and then remove it
       createEl.click();
