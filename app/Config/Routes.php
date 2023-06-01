@@ -109,7 +109,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('sumber_daya_manusia', 'Riset4::menu3submenu3'); // Menu 3 Submenu 3
         $routes->get('manajemen_organisasi', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
         $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
-        $routes->get('kendala_dalam_pemanfaatan_tik', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
+        $routes->get('kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
         // Menu 4
         $routes->get('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
         $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
