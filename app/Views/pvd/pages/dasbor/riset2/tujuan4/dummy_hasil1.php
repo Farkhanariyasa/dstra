@@ -178,7 +178,7 @@
     </div>
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
@@ -208,7 +208,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
@@ -244,7 +244,7 @@
     </div>
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
@@ -272,7 +272,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
@@ -302,7 +302,7 @@
     </div>
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
@@ -318,7 +318,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 interpretasi">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
                     <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
