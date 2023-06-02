@@ -181,11 +181,11 @@
         <div class="col-6">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Jenis Kelamin</strong>
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Kelamin</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
@@ -195,11 +195,11 @@
 
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Umur</strong>
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Umur</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
@@ -211,87 +211,29 @@
         <div class="col-6">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Tingkat Pendidikan</strong>
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Tingkat Pendidikan</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia?Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Jenis Pekerjaan KRT</strong>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-6">
-            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Jenis Pekerjaan ART</strong>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
@@ -305,11 +247,69 @@
         <div class="col-6">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Gangguan Disabilitas</strong>
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Pekerjaan KRT</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Pekerjaan ART</strong>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-start" style="font-size:15px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Gangguan Disabilitas</strong>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veniam quo saepe optio quidem placeat suscipit distinctio ipsum magni aspernatur.
                         </div>
@@ -321,11 +321,11 @@
         <div class="col-6">
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 30px;"></i>
-                    <div class="text-center" style="color: #4b395f; font-size: 30px;"><strong>Kepemilikan Mobil</strong>
+                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Kepemilikan Mobil</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i>
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
