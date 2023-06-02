@@ -159,7 +159,7 @@
 </div>
 
 <!-- Persamaan Regresi -->
-<div class="portfolio-item filter-riset2-hasil1">
+<!-- <div class="portfolio-item filter-riset2-hasil1">
     <div class="col-12 col-sm-12">
         <h1 class="headline text-center">Persamaan Regresi</h1>
     </div>
@@ -175,7 +175,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Interpretasi -->
 <div class="portfolio-item filter-riset2-hasil1">
