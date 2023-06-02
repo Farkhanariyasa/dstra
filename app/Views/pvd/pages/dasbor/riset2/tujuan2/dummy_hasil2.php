@@ -2,7 +2,7 @@
 <div class="portfolio-item filter-riset2-hasilkajian2-2">
     <div class="row mt-3">
 
-        <div class="col-sm-8 my-2 py-5">
+        <div class="col-sm-8 my-2">
             <div class="card shadow rounded-5">
                 <div class="card-body">
                     <div
@@ -35,18 +35,6 @@
                 <!-- Turis -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Turis</strong>
-                    </div>
-                    <div style="font-size:15px;">
-                        Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
-                    </div>
-                </div>
-            </div>
-
-            <div class="card shadow rounded-5 my-4">
-                <!-- Pelancong -->
-                <div class="card-body">
-                    <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
                     </div>
                     <div style="font-size:15px;">
@@ -55,9 +43,21 @@
                 </div>
             </div>
 
-            <div class="card shadow rounded-5">
+            <!-- <div class="card shadow rounded-5 my-4"> -->
+                <!-- Pelancong -->
+                <!-- <div class="card-body">
+                    <div style="line-height: 40px; color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
+                    </div>
+                    <div style="font-size:15px;">
+                        Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="card shadow rounded-5"> -->
                 <!-- Malam -->
-                <div class="card-body">
+                <!-- <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Malam</strong>
                     </div>
@@ -66,7 +66,7 @@
                         didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 

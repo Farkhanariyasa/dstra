@@ -2,7 +2,7 @@
 <div class="portfolio-item filter-riset2-hasilkajian2-1">
     <div class="row mt-3">
 
-        <div class="col-sm-8 my-2 py-5">
+        <div class="col-sm-8 my-2">
             <div class="card shadow rounded-5">
                 <div class="card-body">
                     <div
@@ -42,9 +42,9 @@
                 </div>
             </div>
 
-            <div class="card shadow rounded-5 my-4">
+            <!-- <div class="card shadow rounded-5 my-4"> -->
                 <!-- Pelancong -->
-                <div class="card-body">
+                <!-- <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
                     </div>
@@ -52,9 +52,9 @@
                         Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="card shadow rounded-5">
+            <div class="card shadow rounded-5 my-4">
                 <!-- Malam -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
