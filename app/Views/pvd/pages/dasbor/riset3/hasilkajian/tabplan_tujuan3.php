@@ -4,7 +4,7 @@ function tabplan3_1() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table1" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Kelamin</th>
@@ -37,7 +37,7 @@ function tabplan3_2() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table2" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Pelatihan</th>
@@ -76,7 +76,7 @@ function tabplan3_3() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table3" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Status Perkawinan</th>
@@ -109,7 +109,7 @@ function tabplan3_4() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table4" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Tingkat Pendapatan</th>
@@ -139,7 +139,7 @@ function tabplan3_5() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table5" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Wilayah Tempat Tinggal</th>
@@ -169,7 +169,7 @@ function tabplan3_6() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table6" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Pelatihan</th>
