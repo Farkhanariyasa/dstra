@@ -1,6 +1,6 @@
 let idinput = "";
 
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 2; i++) {
     $(document).ready(function () {
         var table = $("#k4_tabel" + [i]).DataTable({
         language: {
