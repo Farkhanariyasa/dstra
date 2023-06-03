@@ -31,7 +31,6 @@
   <header class="section-header">
     <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
     </h6>
-    <!-- <?php var_dump($data_2_2) ?> -->
   </header>
   <hr class="hrjudul">
 
@@ -402,45 +401,6 @@
   </div>
 </div>
 
-<!-- Modal Riset 3  -->
-<!-- 1 -->
-<?php for ($i = 1; $i <= 8; $i++) : ?>
-  <div class="modal fade" id="Modal2_<?php echo $i ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset3/hasilkajian2" method="POST">
-          <div class="modal-body">
-            <div class="mb-1">
-              <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-              <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
-              <div id="errornama" class="errorvlds"></div>
-            </div>
-            <div class="mb-1">
-              <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-              <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
-              <div id="erroremail" class="errorvlds"></div>
-            </div>
-            <div class="mb-1">
-              <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-              <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
-              <div id="errorinstansi" class="errorvlds"></div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-            <button disabled type="submit" id="btndownload2_<?php echo $i ?>" class="tombolkonf">Konfirmasi<?php echo $i ?></button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-<?php endfor; ?>
-
-
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -448,7 +408,7 @@
 <!-- dropdown show/hide content-->
 <script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
 <!-- Datatable Instal -->
-<!-- <script src="<?= base_url('pvd/js/riset3/datatables_export_tujuan2.js'); ?>"></script> -->
+<script src="<?= base_url('pvd/js/riset3/datatables_export.js'); ?>"></script>
 
 <!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -458,8 +418,5 @@
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download_tujuan2.js') ?>"></script>
-
-<!-- Modal Riset 3  -->
-
 
 <?= $this->endSection(); ?>
