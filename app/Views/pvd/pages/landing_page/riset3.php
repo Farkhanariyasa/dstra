@@ -451,9 +451,109 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                    </p>
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow active" id="pills-t1-tab" data-bs-toggle="pill" data-bs-target="#pills-t1" type="button" role="tab" aria-controls="pills-t1" aria-selected="true">Tujuan 1</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow" id="pills-t2-tab" data-bs-toggle="pill" data-bs-target="#pills-t2" type="button" role="tab" aria-controls="pills-t2" aria-selected="false">Tujuan 2</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow" id="pills-t3-tab" data-bs-toggle="pill" data-bs-target="#pills-t3" type="button" role="tab" aria-controls="pills-t3" aria-selected="false">Tujuan 3</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link pills-button shadow" id="pills-t4-tab" data-bs-toggle="pill" data-bs-target="#pills-t4" type="button" role="tab" aria-controls="pills-t4" aria-selected="false">Tujuan 4</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-t1" role="tabpanel" aria-labelledby="pills-t1-tab">
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <!-- <h3><b>Grafik</b></h3> -->
+                                    <div class="card-body border rounded">
+                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div> -->
+                                        <div class="row">
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 450px;">
+                                                            <canvas class="mt1" id="tujuan1_1"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 360px;">
+                                                            <canvas class="mt1" id="tujuan1_2"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 360px;">
+                                                            <canvas class="mt1" id="tujuan1_3"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 360px;">
+                                                            <canvas class="mt1" id="tujuan1_4"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-t2" role="tabpanel" aria-labelledby="pills-t2-tab">
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <!-- <h3><b>Grafik</b></h3> -->
+                                    <div class="card-body border rounded">
+                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div> -->
+                                        <div class="row">
+                                            <div class="col-lg-12 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 360px;">
+                                                            <canvas class="mt1" id="tujuan2"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-t3" role="tabpanel" aria-labelledby="pills-t3-tab">
+                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-t4" role="tabpanel" aria-labelledby="pills-t4-tab">
+                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -482,5 +582,11 @@
 
 </section><!-- End -->
 <script src="<?= base_url('pvd/js/riset3/slider_landingpage.js') ?>"></script>
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Impor Chart -->
+<script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_mading.js') ?>"></script>
+
 
 <?= $this->endSection(); ?>
