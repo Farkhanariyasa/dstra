@@ -521,7 +521,31 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-t2" role="tabpanel" aria-labelledby="pills-t2-tab">
-                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <!-- <h3><b>Grafik</b></h3> -->
+                                    <div class="card-body border rounded">
+                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div> -->
+                                        <div class="row">
+                                            <div class="col-lg-12 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body" style="padding: 16px;">
+                                                        <div class="chartBox" style="height: 360px;">
+                                                            <canvas class="mt1" id="tujuan2"></canvas>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="pills-t3" role="tabpanel" aria-labelledby="pills-t3-tab">
                             <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
