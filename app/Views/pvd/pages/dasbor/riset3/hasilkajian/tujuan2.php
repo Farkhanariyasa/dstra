@@ -75,7 +75,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_1">
+                    <button id="unduh-2-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_1">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -162,7 +162,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_2">
+                    <button id="unduh-2-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_2">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -199,7 +199,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_3">
+                    <button id="unduh-2-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_3">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -236,7 +236,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_4">
+                    <button id="unduh-2-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_4">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -273,7 +273,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_5">
+                    <button id="unduh-2-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_5">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -310,7 +310,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_6">
+                    <button id="unduh-2-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_6">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -347,7 +347,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_7">
+                    <button id="unduh-2-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_7">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
@@ -384,7 +384,7 @@
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                   <div class="me-1 mt-1 justify-content-end align-item-end">
-                    <button id="unduh-3-8" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_8">
+                    <button id="unduh-2-8" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal2_8">
                       <i class="fa-solid fa-download"></i>
                     </button>
                   </div>
