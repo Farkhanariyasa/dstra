@@ -1,7 +1,7 @@
 // StartValidasi
 let idbutton=''
 let idinput=''
-let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
+let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 // let hoverButton =':hover{ background-color: #00ff00 }'
 
 
