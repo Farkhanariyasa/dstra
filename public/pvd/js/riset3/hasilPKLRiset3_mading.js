@@ -1,6 +1,6 @@
 
-  const ctx1 = document.getElementById('tujuan1_1');
-  const pie = new Chart(ctx1, {
+  const ctx11 = document.getElementById('tujuan1_1');
+  const pie11 = new Chart(ctx11, {
    type: 'pie',
    data: {
     labels: ['Penyediaan jasa akomodasi bagi wisatawan',
@@ -48,14 +48,23 @@
           position: 'bottom',
         },
         datalabels:{
+          formatter: (value, ctx) => {
+            let sum = 0;
+            let dataArr = ctx.chart.data.datasets[0].data;
+            dataArr.map(data => {
+                sum += data;
+            });
+            let percentage = (value*100 / sum).toFixed(2)+"%";
+            return percentage;
+          },
           color :'black',
         },
       },
     }, plugins: [ChartDataLabels]
  });
 
- const ctx2 = document.getElementById('tujuan1_2');
-  const pie2 = new Chart(ctx2, {
+ const ctx12 = document.getElementById('tujuan1_2');
+  const pie12 = new Chart(ctx12, {
    type: 'pie',
    data: {
     labels: ['Laki-laki',
@@ -95,14 +104,23 @@
           position: 'bottom',
         },
         datalabels:{
+          formatter: (value, ctx) => {
+            let sum = 0;
+            let dataArr = ctx.chart.data.datasets[0].data;
+            dataArr.map(data => {
+                sum += data;
+            });
+            let percentage = (value*100 / sum).toFixed(2)+"%";
+            return percentage;
+          },
           color :'black',
         }
       },
     }, plugins: [ChartDataLabels]
  });
 
- const ctx3 = document.getElementById('tujuan1_3');
-  const pie3 = new Chart(ctx3, {
+ const ctx13 = document.getElementById('tujuan1_3');
+  const pie13 = new Chart(ctx13, {
    type: 'pie',
    data: {
     labels: ['Di Bawah SMA',
@@ -142,14 +160,23 @@
           position: 'bottom',
         },
         datalabels:{
+          formatter: (value, ctx) => {
+            let sum = 0;
+            let dataArr = ctx.chart.data.datasets[0].data;
+            dataArr.map(data => {
+                sum += data;
+            });
+            let percentage = (value*100 / sum).toFixed(2)+"%";
+            return percentage;
+          },
           color :'black',
         }
       },
     }, plugins: [ChartDataLabels]
  });
 
- const ctx4 = document.getElementById('tujuan1_4');
-  const pie4 = new Chart(ctx4, {
+ const ctx14 = document.getElementById('tujuan1_4');
+  const pie14 = new Chart(ctx14, {
    type: 'pie',
    data: {
     labels: ['Pekerja Penuh',
@@ -189,113 +216,73 @@
           position: 'bottom',
         },
         datalabels:{
+          formatter: (value, ctx) => {
+            let sum = 0;
+            let dataArr = ctx.chart.data.datasets[0].data;
+            dataArr.map(data => {
+                sum += data;
+            });
+            let percentage = (value*100 / sum).toFixed(2)+"%";
+            return percentage;
+          },
           color :'black',
         }
       },
     }, plugins: [ChartDataLabels]
  });
 
-//  const pieChart = document.getElementById('forPieChart');
-//  const pieChartLegend = document.getElementById('forPieChartLegend');
- 
-//  pieChart.addEventListener('change', tampilData);
-//  pieChartLegend.addEventListener('click', update_value1(chk_bx));
+const ctx2 = document.getElementById('tujuan2');
+const pie2 = new Chart(ctx2, {
+   type: 'pie',
+   data: {
+    labels: ['Ya',
+            'Tidak',
+    ],
 
-
-//  function update_value1(chk_bx){
-  
-//   if(chk_bx.checked)
-//   {
-//       console.log('check');
-//       pie.options.plugins.legend.display=true;
-//       pie.update();
-//   }
-      
-//   else{
-//     console.log('uncheck');
-//     pie.options.plugins.legend.display=false;
-//     pie.update();
-
-//   }
-// }
-
-
-
-//  function tampilData(){
-//      // pieChart.value.split(',');
-//      // batang.data.datasets[0].data=pieChart.value.split(',');
-//      // batang.update();
-//      if (pieChart.value =='a') {
-//           console.log(pieChart.value);
-//           pie.data.datasets[0].data = 
-//              [   datajenisindustri.ji1,
-//                  datajenisindustri.ji2,
-//                  //datajenisindustri.ji3,
-//                  datajenisindustri.ji4,
-//                 //  datajenisindustri.ji5,
-//                 //  datajenisindustri.ji6,
-//                 //  datajenisindustri.ji7,
-//                 //  datajenisindustri.ji8,
-//                  datajenisindustri.ji9,
-//                  datajenisindustri.ji10,
-//                  datajenisindustri.ji11,
-//              ];
-//              pie.data.labels = ['jasa akomodasi',
-//              'jasa makan dan minum',
-//              //'jasa angkutan rel',
-//              'jasa angkutan darat',
-//             //  'jasa angkutan air',
-//             //  'jasa angkutan udara',
-//             //  'jasa angkutan udara',
-//             //  'Agen perjalanan dan reservasi lainnya',
-//              'Jasa kebudayaan, olahraga dan rekreasi',
-//              'Aktivitas perdagangan barang-barang pariwisata',
-//              'Jenis Industri lainnya'];
-//              // console.log(batang.data.datasets[0].data)
-//              pie.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
-//              pie.update();
-
-//      } if (pieChart.value =='b') {
-//              console.log(pieChart.value);
-//              pie.data.datasets[0].data = 
-//              [   
-//                  datapendidikantertinggi.pt1,
-//                  datapendidikantertinggi.pt2,
-//                  datapendidikantertinggi.pt3,
-//                  datapendidikantertinggi.pt4,
-//                  datapendidikantertinggi.pt5,
-//                  datapendidikantertinggi.pt6,
-//                  datapendidikantertinggi.pt7,
-//                  datapendidikantertinggi.pt8,
-//                  datapendidikantertinggi.pt9
-//              ];
-//              pie.data.labels = ['Tidak/belum pernah sekolah',
-//              'Tidak/belum SD',
-//              'SD/MI/SDLB/Paket A',
-//              'SMP/MTs/SMPLB/Paket B',
-//              'SMA/MA/SMLB/Paket C',
-//              'SMK/MAK',
-//              'Diploma I/II/III',
-//              'Diploma IV',
-//              'S1/S2/S3'
-//              ];
-//              // console.log(pie.data.datasets[0].data)
-             
-//              pie.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Pendidikan Tertinggi';
-//              pie.update();
-//      } if (pieChart.value =='c'){
-//             console.log(pieChart.value);
-//             pie.data.datasets[0].data = 
-//              [   
-//                 datajeniskelamin_riset3.jk_11,
-//                 datajeniskelamin_riset3.jk_12
-//              ];
-//              pie.data.labels = ['Laki-laki',
-//              'Perempuan'
-//              ];
-             
-//              // console.log(doughnut.data.datasets[0].data)
-//              pie.options.plugins.title.text= 'Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
-//              pie.update();
-//      }
-//  }
+     datasets: [{
+       label: 'Perpindahan',
+       data: [
+        18.38,
+        81.62,
+        ],
+    borderWidth: 1,
+    backgroundColor: [
+      "#506396", "#ffab00"
+    ],
+     }]
+   },
+    options:{
+      scales:{
+      },
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins:{
+        tooltip:{
+          enabled: true
+        },
+        title: {
+          display: true,
+          text : ['Persentase Tenaga Kerja di Industri Pariwisata','Menurut Perpindahan Pekerjaan (%)'],
+          font: {
+              size: 16
+          }
+        },
+        legend:{
+          display: true,
+          position: 'bottom',
+        },
+        datalabels:{
+          formatter: (value, ctx) => {
+            let sum = 0;
+            let dataArr = ctx.chart.data.datasets[0].data;
+            dataArr.map(data => {
+                sum += data;
+            });
+            let percentage = (value*100 / sum).toFixed(2)+"%";
+            return percentage;
+          },
+          color :'black',
+        }
+      },
+    }, plugins: [ChartDataLabels]
+ });
