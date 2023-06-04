@@ -6,7 +6,7 @@ let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 
 
 for (let i = 1; i <=8 ; i++) {
-    document.getElementById('unduh-3-'+i).addEventListener('click',(e) => {
+    document.getElementById('unduh-2-'+i).addEventListener('click',(e) => {
         idbutton='btndownload2_'+i
         console.log("3-"+i+" diklik")
         idinput=i-1
