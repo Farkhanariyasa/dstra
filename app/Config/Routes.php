@@ -46,8 +46,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('riset1', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Dasbor
         $routes->get('dasbor', 'Riset1::index');
-        $routes->get('mpd-statistikarelawansurabaya','Riset1::statistikarelawansurabaya');
-        $routes->get('mpd-qualityassurance','Riset1::qualityassurance');
+        $routes->get('mpd-statistikarelawansurabaya', 'Riset1::statistikarelawansurabaya');
+        $routes->get('mpd-qualityassurance', 'Riset1::qualityassurance');
         $routes->get('mpd-doublecounting', 'Riset1::double_counting_evaluasi'); // double counting
         $routes->get('mpd-familygrouping', 'Riset1::family_grouping_evaluasi'); // Tabulasi
         // Wisata Nusantara
@@ -91,6 +91,12 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
         $routes->get('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
         $routes->get('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
+
+        $routes->post('hasilkajian1', 'Riset3::hasilkajian1'); // Hasil Kajian Tujuan 1
+        $routes->post('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
+        $routes->post('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
+        $routes->post('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
+
         // Menu 3
         $routes->get('kuesioner', 'Riset3::kuesioner'); // Menu 3 Submenu 1
         $routes->get('bukupedoman', 'Riset3::bukupedoman'); // Menu 3 Submenu 2
@@ -120,9 +126,6 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 6
         $routes->get('dokumen_terkait', 'Riset4::menu6'); // Menu 6
     });
-
-
-
 });
 
 /*
