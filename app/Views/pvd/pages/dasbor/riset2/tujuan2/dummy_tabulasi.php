@@ -18,11 +18,11 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>1.887</td>
+                        <td>1.89</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1.306</td>
+                        <td>1.31</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
@@ -30,11 +30,11 @@
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1.737</td>
+                        <td>1.74</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>1.686</td>
+                        <td>1.69</td>
                     </tr>
                 </tbody>
             </table>
@@ -62,23 +62,23 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>3.739</td>
+                        <td>5.08</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>4.173</td>
+                        <td>4.22</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>2.908</td>
+                        <td>3.28</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>3.698</td>
+                        <td>3.85</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>4.082</td>
+                        <td>4.47</td>
                     </tr>
                 </tbody>
             </table>
@@ -106,11 +106,11 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>1.873</td>
+                        <td>1.87</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>1.286</td>
+                        <td>1.29</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
@@ -118,11 +118,11 @@
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>1.649</td>
+                        <td>1.65</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>1.629</td>
+                        <td>1.63</td>
                     </tr>
                 </tbody>
             </table>
@@ -150,23 +150,23 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>2.911</td>
+                        <td>4.1</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>3.22</td>
+                        <td>3.23</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>2.163</td>
+                        <td>2.43</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>2.889</td>
+                        <td>3.12</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>3.275</td>
+                        <td>3.56</td>
                     </tr>
                 </tbody>
             </table>
