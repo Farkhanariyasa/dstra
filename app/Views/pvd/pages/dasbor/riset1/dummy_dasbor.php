@@ -36,7 +36,7 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div>
+                                <!-- <div>
                                     <canvas class="mt1" id="riset1_hasil1"></canvas>
                                 </div><br>
                                 <div>
@@ -46,6 +46,9 @@
                                         Terlihat bahwa hanya 5 rumah tangga (5,9%) yang
                                         jumlah anggotanya sebesar 5 orang yang melakukan perjalanan wisata.
                                     </p>
+                                </div> -->
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output1_1"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +56,7 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div>
+                                <!-- <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-body konten-teks">
@@ -68,6 +71,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div> -->
+                                <div class="chartBox" style=" height:400px;">
+                                    <canvas class="mt1" id="qa_output1_2"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -199,11 +205,11 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:400px">
-                                    <canvas class="mt1" id="riset1_hasil4"></canvas>
+                                    <canvas class="mt1" id="wisnus_output1"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_mpw(this);" type="checkbox" id="forBarChartAxis_mpw" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_output1(this);" type="checkbox" id="forBarChartAxis_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
@@ -211,10 +217,16 @@
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
+                        <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox" style="height: 400px;">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                <div class="chartBox" style="height:400px">
+                                    <canvas class="mt1" id="wisnus_output2"></canvas>
+                                </div>
+                                <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="form-check form-switch me-3">
+                                        <input class="form-check-input" onchange="update_value_output2(this);" type="checkbox" id="forBarChartAxis_output2" value="show" checked>
+                                        <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
