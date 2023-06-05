@@ -13,7 +13,7 @@
                             Estimasi Total Jumlah Wisatawan
                         </div>
                         <div>
-                            <div class="" style="color: #4b395f; font-size: 50px;"><strong>2180</strong></div>orang 
+                            <div class="" style="color: #4b395f; font-size: 50px;"><strong>131,097</strong></div>orang 
                         </div>
                     </div>
                 </div>
