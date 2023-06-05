@@ -105,26 +105,47 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset4::index');
+
         // Menu 2
         $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->get('usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
         $routes->get('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
+        
+        $routes->post('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
+        $routes->post('usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->post('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
+
         // Menu 3
-        $routes->get('infrastruktur_dan_konektivitas', 'Riset4::menu3submenu1'); // Menu 3 Submenu 1
-        $routes->get('penggunaan_tik', 'Riset4::menu3submenu2'); // Menu 3 Submenu 2
-        $routes->get('sumber_daya_manusia', 'Riset4::menu3submenu3'); // Menu 3 Submenu 3
-        $routes->get('manajemen_organisasi', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
-        $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
-        $routes->get('kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
+        $routes->get('karakteristik_kesiapan_uup', 'Riset4::menu3'); // Menu 3
+
+        // Menu 3
+        // $routes->get('infrastruktur_dan_konektivitas', 'Riset4::menu3submenu1'); // Menu 3 Submenu 1
+        // $routes->get('penggunaan_tik', 'Riset4::menu3submenu2'); // Menu 3 Submenu 2
+        // $routes->get('sumber_daya_manusia', 'Riset4::menu3submenu3'); // Menu 3 Submenu 3
+        // $routes->get('manajemen_organisasi', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
+        // $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
+        // $routes->get('kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
+        
         // Menu 4
         $routes->get('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
         $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
         $routes->get('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
         $routes->get('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
+
+        $routes->post('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
+        $routes->post('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
+        $routes->post('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
+        $routes->post('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
+
         // Menu 5
         $routes->get('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
+
+        $routes->post('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
+
         // Menu 6
         $routes->get('dokumen_terkait', 'Riset4::menu6'); // Menu 6
+
+        $routes->post('dokumen_terkait', 'Riset4::menu6'); // Menu 6
     });
 });
 

@@ -1,5 +1,5 @@
 <!-- Riset 4 Hasil Bar Plot -->
-<body onresize="responsivefonts()">
+<!-- <body onresize="responsivefonts()"> -->
     <div class="portfolio-item filter-riset4-hasil5">
         <div class="col-12 grid-margin stretch-card">
             <div class="card shadow">
@@ -18,4 +18,7 @@
             </div>
         </div>
     </div>
-</body>
+<!-- </body> -->
+
+<!-- Modal Riset 4  -->
+<?php include('modal_ikuptik_kecamatan.php') ?>

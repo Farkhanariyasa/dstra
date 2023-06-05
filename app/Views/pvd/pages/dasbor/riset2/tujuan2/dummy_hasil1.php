@@ -34,9 +34,13 @@
                 <!-- Turis -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Turis</strong>
+                        <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                        <!-- <div class="row-6 d-flex align-items-center justify-content-center"> -->
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                        <!-- </div> -->
+                        <strong>Turis</strong>
                     </div>
-                    <div style="font-size:15px;">
+                    <div style="font-size:15px;" class="mt-2">
                         Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
                     </div>
                 </div>
@@ -58,9 +62,13 @@
                 <!-- Malam -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Malam</strong>
+                        <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                        <!-- <div class="row-6 d-flex align-items-center justify-content-center"> -->
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_2.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                        <!-- </div> -->
+                        <strong>Malam</strong>
                     </div>
-                    <div style="font-size:15px;">
+                    <div style="font-size:15px;" class="mt-2">
                         Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
                         didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>
