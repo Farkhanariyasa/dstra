@@ -246,8 +246,10 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan Perguruan Tinggi dan penduduk yang tidak/belum 
+                            sekolah/tidak tamat SD/MI cenderung memiliki peluang yang sama 
+                            untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
                 </div>
@@ -264,20 +266,26 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT kategori pekerjaan formal dan penduduk dengan KRT 
+                            kategori pekerjaan informal cenderung memiliki peluang yang sama untuk 
+                            memutuskan melakukan perjalanan wisata.
+                        </div>
+                    </div>
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
+                        <i class="fas fa-city col-1 ikon my-auto"></i>
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT yang menganggur dan penduduk dengan KRT kategori 
+                            pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan 
+                            melakukan perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
                         <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
-                        </div>
-                    </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                            Penduduk dengan KRT kategori pekerjaan lainnya berpeluang <b>0,04 kali</b> 
+                            untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan KRT 
+                            kategori pekerjaan informal.
                         </div>
                     </div>
                 </div>
