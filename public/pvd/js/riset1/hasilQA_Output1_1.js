@@ -4,18 +4,19 @@ const data_qa_output1_1 = {
     labels: ['Dec-21', 'Jan-22', 'Feb-22', 'Mar-22', 'Apr-22', 'May-22', 'Jun-22', 'Jul-22', 'Aug-22', 'Sep-22', 'Oct-22', 'Nov-22'],
     datasets: [{
       label: 'Distribusi Jumlah Records',
-      data: [126482
-        ,141985
-        ,109704
-        ,143148
-        ,121738
-        ,136853
-        ,143489
-        ,140867
-        ,174298
-        ,166746
-        ,141159
-        ,135295], 
+      data: [618212,
+        655521,
+        627975,
+        715467,
+        514809,
+        525422,
+        530651,
+        629953,
+        549908,
+        522542,
+        435670,
+        396434,
+        ], 
       fill: false,
       borderColor: "#C27D90",
       pointStyle: 'circle',
@@ -42,9 +43,9 @@ const line_output1_1 = new Chart(qa_output1_1, {
         scales: {
             y: { // defining min and max so hiding the dataset does not change scale range
                 min: 0,
-                max: 200000,
+                max: 800000,
                 ticks: {
-                    stepSize: 50000,
+                    stepSize: 200000,
                 },
                 grid: {
                     display: true

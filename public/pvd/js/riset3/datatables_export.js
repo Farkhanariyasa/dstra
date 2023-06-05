@@ -144,16 +144,104 @@ $(document).ready(function() {
     buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"],
   });
 
+  var table6 = $('#table6').DataTable({
+    paging: false,
+    ordering: false,
+    info: false,
+    "bFilter": false,
+    language: {
+      buttons: {
+        colvis: "Visibilitas Kolom",
+        colvisRestore: "Kembalikan visibilitas",
+        copy: "Salin",
+        copySuccess: {
+          1: "1 baris disalin ke papan klip",
+          _: "%d baris disalin ke papan klip",
+        },
+        copyTitle: "Salin ke Papan klip",
+        csv: "CSV",
+        excel: "Excel",
+        pageLength: {
+          1: "Tampilkan 1 baris",
+          "-1": "Tampilkan semua baris",
+          _: "Tampilkan %d baris",
+        },
+        pdf: "PDF",
+        print: "Cetak",
+      },
+    },
+    buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"],
+  });
+
+  var table7 = $('#table7').DataTable({
+    paging: false,
+    ordering: false,
+    info: false,
+    "bFilter": false,
+    language: {
+      buttons: {
+        colvis: "Visibilitas Kolom",
+        colvisRestore: "Kembalikan visibilitas",
+        copy: "Salin",
+        copySuccess: {
+          1: "1 baris disalin ke papan klip",
+          _: "%d baris disalin ke papan klip",
+        },
+        copyTitle: "Salin ke Papan klip",
+        csv: "CSV",
+        excel: "Excel",
+        pageLength: {
+          1: "Tampilkan 1 baris",
+          "-1": "Tampilkan semua baris",
+          _: "Tampilkan %d baris",
+        },
+        pdf: "PDF",
+        print: "Cetak",
+      },
+    },
+    buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"],
+  });
+
+  var table8 = $('#table8').DataTable({
+    paging: false,
+    ordering: false,
+    info: false,
+    "bFilter": false,
+    language: {
+      buttons: {
+        colvis: "Visibilitas Kolom",
+        colvisRestore: "Kembalikan visibilitas",
+        copy: "Salin",
+        copySuccess: {
+          1: "1 baris disalin ke papan klip",
+          _: "%d baris disalin ke papan klip",
+        },
+        copyTitle: "Salin ke Papan klip",
+        csv: "CSV",
+        excel: "Excel",
+        pageLength: {
+          1: "Tampilkan 1 baris",
+          "-1": "Tampilkan semua baris",
+          _: "Tampilkan %d baris",
+        },
+        pdf: "PDF",
+        print: "Cetak",
+      },
+    },
+    buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"],
+  });
+
+
   const baris = document.createElement("div");
   baris.classList.add("row");
 
-  const div = document.createElement("div");
-  div.classList.add("col-md-12");
-  div.classList.add("col-sm-12");
-  div.classList.add("my-3");
-  div.appendChild(baris);
-  const element = document.querySelector("#table1_wrapper");
-  element.insertBefore(div, element.childNodes[1]);
+  const div1 = document.createElement("div");
+  div1.classList.add("col-md-12");
+  div1.classList.add("col-sm-12");
+  div1.classList.add("my-3");
+  div1.appendChild(baris);
+  const element1 = document.querySelector("#table1_wrapper");
+  element1.insertBefore(div1, element1.childNodes[1]);
   table1.buttons().container().appendTo("#table1_wrapper .col-md-12:eq(0)");
 
   const div2 = document.createElement("div");
@@ -161,9 +249,9 @@ $(document).ready(function() {
   div2.classList.add("col-sm-12");
   div2.classList.add("my-3");
   div2.appendChild(baris);
-  // const element2 = document.querySelector("#table2_wrapper");
-  // element.insertBefore(div2, element2.childNodes[1]);
-  // table2.buttons().container().appendTo("#table2_wrapper .col-md-12:eq(0)");
+  const element2 = document.querySelector("#table2_wrapper");
+  element2.insertBefore(div2, element2.childNodes[1]);
+  table2.buttons().container().appendTo("#table2_wrapper .col-md-12:eq(0)");
 
   const div3 = document.createElement("div");
   div3.classList.add("col-md-12");
@@ -191,7 +279,32 @@ $(document).ready(function() {
   const element5 = document.querySelector("#table5_wrapper");
   element5.insertBefore(div5, element5.childNodes[1]);
   table5.buttons().container().appendTo("#table5_wrapper .col-md-12:eq(0)");
-
   
+  const div6 = document.createElement("div");
+  div6.classList.add("col-md-12");
+  div6.classList.add("col-sm-12");
+  div6.classList.add("my-3");
+  div6.appendChild(baris);
+  const element6 = document.querySelector("#table6_wrapper");
+  element6.insertBefore(div6, element6.childNodes[1]);
+  table6.buttons().container().appendTo("#table6_wrapper .col-md-12:eq(0)");
+  
+  const div7 = document.createElement("div");
+  div7.classList.add("col-md-12");
+  div7.classList.add("col-sm-12");
+  div7.classList.add("my-3");
+  div7.appendChild(baris);
+  const element7 = document.querySelector("#table7_wrapper");
+  element7.insertBefore(div7, element7.childNodes[1]);
+  table7.buttons().container().appendTo("#table7_wrapper .col-md-12:eq(0)");
+  
+  const div8 = document.createElement("div");
+  div8.classList.add("col-md-12");
+  div8.classList.add("col-sm-12");
+  div8.classList.add("my-3");
+  div8.appendChild(baris);
+  const element8 = document.querySelector("#table8_wrapper");
+  element8.insertBefore(div8, element8.childNodes[1]);
+  table8.buttons().container().appendTo("#table8_wrapper .col-md-12:eq(0)");
 
 });

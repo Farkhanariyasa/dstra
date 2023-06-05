@@ -10,9 +10,7 @@
 
         <hr class="hrjudul">
 
-        <div class="row portfolio-container">
-            <?php include('dummy_tabulasi.php') ?>
-        </div>
+        <?php include('dummy_tabulasi.php') ?>
     </div>
 </section>
 

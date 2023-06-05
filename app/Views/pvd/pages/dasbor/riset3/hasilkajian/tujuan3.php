@@ -257,17 +257,18 @@
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- import library chart js -->
+<!-- dropdown show/hide content-->
+<script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
+<!-- Datatable Instal -->
+<script src="<?= base_url('pvd/js/riset3/datatables_export.js'); ?>"></script>
+
+<!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-<!-- import chart js visualisasi -->
+<!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan3.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download_tujuan3.js') ?>"></script>
 
-<!-- dropdown show/hide content-->
-<script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
 <?= $this->endSection(); ?>

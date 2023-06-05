@@ -11,13 +11,11 @@
         <hr class="hrjudul">
 
         <div class="row portfolio-container">
-            <?php include('dummy_hasil1.php') ?>
+            <?php include('dummy_hasil2.php') ?>
         </div>
     </div>
 </section>
 
-<!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tabelkajian3.js'); ?>"></script>
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 

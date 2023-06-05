@@ -4,7 +4,7 @@ function tabplan2_1() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table1" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -68,7 +68,7 @@ function tabplan2_2() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table2" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -117,7 +117,7 @@ function tabplan2_3() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table3" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -174,7 +174,7 @@ function tabplan2_4() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table4" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -224,7 +224,7 @@ function tabplan2_5() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table5" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -281,7 +281,7 @@ function tabplan2_6() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table6" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -331,7 +331,7 @@ function tabplan2_7() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table7" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>
@@ -423,7 +423,7 @@ function tabplan2_8() {
 <div class="card">
     <h3><b>Tabulasi</b></h3>
     <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+        <table id="table8" class="table table-hover table-bordered table-responsive display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">Jenis Industri Pariwisata</th>

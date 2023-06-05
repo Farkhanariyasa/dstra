@@ -2,15 +2,15 @@
 let idbutton=''
 let idinput=''
 let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
 // let hoverButton =':hover{ background-color: #00ff00 }'
 
 
-for (let i = 1; i <=6 ; i++) {
-    document.getElementById('unduh-3-'+i).addEventListener('click',(e) => {
-        idbutton='btndownload3_'+i
+for (let i = 1; i <=8 ; i++) {
+    document.getElementById('unduh-2-'+i).addEventListener('click',(e) => {
+        idbutton='btndownload2_'+i
         console.log("3-"+i+" diklik")
         idinput=i-1
+        // konfirmasiButton= document.getElementById('btndownload'+[i]);
     });
   }
 
@@ -21,7 +21,12 @@ function getvalue(){
     let konfirmasiButton= document.getElementById(idbutton);
     console.log(idbutton)
 
-   
+    // for (let i = 0; i < nama.length; i++) {
+    //     console.log("panjang nama:")
+    //     console.log(nama.length);
+    //     console.log("saat i="+[i])
+    //     console.log(nama[i].value)
+    // }
 
     if(nama[idinput].value != "" && email[idinput].value !="" && email[idinput].value.match(mailRegex) && instansi[idinput].value != ""){
         
@@ -57,17 +62,18 @@ function getvalue(){
     }
 }
 
-for (let i = 1; i <= 6; i++) {
+
+for (let i = 1; i <= 8; i++) {
     (function(i) {
-      document.getElementById('btndownload3_' + i).addEventListener('click', function(e) {
+      document.getElementById('btndownload2_' + i).addEventListener('click', function(e) {
         // Convert our canvas to a data URL
-        let canvasUrl = document.getElementById('tujuan3_' + i).toDataURL();
+        let canvasUrl = document.getElementById('tujuan2_' + i).toDataURL();
         // Create an anchor, and set the href value to our data URL
         const createEl = document.createElement('a');
         createEl.href = canvasUrl;
         console.log("udah diklik")
         // This is the name of our downloaded file
-        createEl.download = "Riset3_Tujuan3_" + i;
+        createEl.download = "Riset3_Tujuan2_" + i;
   
         // Click the download button, causing a download, and then remove it
         createEl.click();
@@ -75,3 +81,4 @@ for (let i = 1; i <= 6; i++) {
       });
     })(i);
 }
+
