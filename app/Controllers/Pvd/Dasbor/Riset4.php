@@ -352,65 +352,75 @@ class Riset4 extends BaseController
         return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemanfaatan_tik', $data);
     }
 
-    public function menu3submenu1()
+    public function menu3()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Infrastruktur dan Konektivitas',
+            'judul' => 'Karakteristik Kesiapan UUP',
             'menu' => $menu['riset4'],
         ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/infrastruktur_dan_konektivitas', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup', $data);
     }
 
-    public function menu3submenu2()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Penggunaan TIK',
-            'menu' => $menu['riset4'],
-        ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/penggunaan_tik', $data);
-    }
+    // public function menu3submenu1()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Infrastruktur dan Konektivitas',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/infrastruktur_dan_konektivitas', $data);
+    // }
 
-    public function menu3submenu3()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Sumber Daya Manusia',
-            'menu' => $menu['riset4'],
-        ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/sumber_daya_manusia', $data);
-    }
+    // public function menu3submenu2()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Penggunaan TIK',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/penggunaan_tik', $data);
+    // }
 
-    public function menu3submenu4()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Manajemen Organisasi',
-            'menu' => $menu['riset4'],
-        ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/manajemen_organisasi', $data);
-    }
+    // public function menu3submenu3()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Sumber Daya Manusia',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/sumber_daya_manusia', $data);
+    // }
 
-    public function menu3submenu5()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Kesiapan Lingkungan Eksternal',
-            'menu' => $menu['riset4'],
-        ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kesiapan_lingkungan_eksternal', $data);
-    }
+    // public function menu3submenu4()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Manajemen Organisasi',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/manajemen_organisasi', $data);
+    // }
 
-    public function menu3submenu6()
-    {
-        $menu = getMenu();
-        $data = [
-            'judul' => 'Kendala dalam Pemanfaatan TIK',
-            'menu' => $menu['riset4'],
-        ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', $data);
-    }
+    // public function menu3submenu5()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Kesiapan Lingkungan Eksternal',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kesiapan_lingkungan_eksternal', $data);
+    // }
+
+    // public function menu3submenu6()
+    // {
+    //     $menu = getMenu();
+    //     $data = [
+    //         'judul' => 'Kendala dalam Pemanfaatan TIK',
+    //         'menu' => $menu['riset4'],
+    //     ];
+    //     return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', $data);
+    // }
 
     public function menu4submenu1()
     {
