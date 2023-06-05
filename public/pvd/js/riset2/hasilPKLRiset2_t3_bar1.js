@@ -23,6 +23,7 @@ var batang = new Chart(t3_bar1, {
     ],
   },
   options: {
+    indexAxis: "x",
     animation: {
       onComplete: () => {
         delayed1 = true;
@@ -119,7 +120,9 @@ function tampilData() {
       "Menurut Jenis Kelamin di Kota Malang",
       "Oktober-Desember 2022",
     ];
+    batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Jenis Kelamin";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
     // batang.data.datasets[0].label = "Jumlah";
     // console.log(batang.data.datasets[0].data);
     batang.update();
@@ -136,7 +139,9 @@ function tampilData() {
       "Jumlah Wisatawan Menurut Kelompok Usia Wisatawan Nusantara",
       "Dalam Kota di Kota Malang Oktober-Desember 2022",
     ];
+    batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Kelompok Usia";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
     // console.log(batang.data.datasets[0].data)
     batang.update();
   } else if (barchart.value == "c") {
@@ -153,7 +158,9 @@ function tampilData() {
       "Jumlah Wisatawan Wisata Menurut Kegiatan Utama Wisatawan Nusantara Dalam Kota",
       "di Kota Malang Oktober - Desember 2022",
     ];
+    batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Kegiatan Utama";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
     batang.update();
   } else if (barchart.value == "d") {
     console.log(barchart.value);
@@ -178,28 +185,41 @@ function tampilData() {
     batang.options.scales.x.title.text = "Jumlah Wisatawan";
     batang.options.scales.y.title.text = "Pekerjaan Utama";
     batang.update();
-  } else if (barchart.value == "e") { 
+  } else if (barchart.value == "e") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [75998, 34471, 31253, 15472, 12316, 10273, 6251, 5879, 2971, 2785];
+    batang.data.datasets[0].data = [1660, 9398, 15442, 44715, 27414];
     batang.data.labels = [
-      "Tenaga Usaha Jasa dan Tenaga Penjualan",
-      "Pekerja Kasar",
-      "Profesional",
-      "Pekerja Pengolahan, Kerajinan, dan YBDI",
-      "Teknisi dan Asisten Profesional",
-      "Tenaga Tata Usaha",
-      "Manajer",
-      "Operator dan Perakit Mesin",
-      "Pekerja Terampil Pertanian, Kehutanan, dan Perikanan",
-      "TNI/Polri",
+      "Tidak Tamat SD Sederajat",
+      "SD/MI",
+      "SMP/MTs",
+      "SMA/MA/SMK",
+      "Perguruan Tinggi",
     ];
-    batang.options.indexAxis = "y";
     batang.options.plugins.title.text = [
       "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Pekerjaan Utama di Kota Malang Oktober-Desember 2022",
+      "Menurut Tingkat Pendidikan di Kota Malang Oktober-Desember 2022",
     ];
+    batang.options.indexAxis = "x";
+    batang.options.scales.x.title.text = "Tingkat Pendidikan";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
+    batang.update();
+  } else if (barchart.value == "f") { 
+    console.log(barchart.value);
+    batang.data.datasets[0].data = [50761, 20980, 18468, 15290, 5191];
+    batang.data.labels = [
+      "Telkomsel (meliputi kartu Hallo, Fleksi, As, dan Simpati)",
+      "XL (meliputi kartu XL dan Axis)",
+      "Indosat (meliputi kartu StarOne, Matrix, IM3, dan Mentari)",
+      "Tri (meliputi kartu 3)",
+      "lainnya (meliputi kartu Smartfren, Esia, dan sebagainya)",
+    ];
+    batang.options.plugins.title.text = [
+      "Jumlah Wisatawan Nusantara Dalam Kota",
+      "Menurut Provider yang Digunakan di Kota Malang Oktober-Desember 2022",
+    ];
+    batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Jumlah Wisatawan";
-    batang.options.scales.y.title.text = "Pekerjaan Utama";
+    batang.options.scales.y.title.text = "Jenis Provider";
     batang.update();
   }
 }
