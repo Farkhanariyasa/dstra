@@ -10,7 +10,11 @@
                 <div class="card-body">
                     <div class="text-justify" style="color: #4b395f;">
                         <!-- <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, impedit!</strong> -->
-                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model yang terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu <b>mode zero-inflation</b> dengan <b>fungsi penghubung binomial</b> dan <b>model count</b> dengan <b>fungsi penghubung negatif binomial</b>.
+                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota 
+                        adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model yang 
+                        terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu 
+                        <b>model <i>zero-inflation</i></b> dengan <b>fungsi penghubung binomial</b> dan 
+                        <b>model <i>count</i></b> dengan <b>fungsi penghubung negatif binomial</b>.
                     </div>
                 </div>
             </div>
@@ -186,8 +190,9 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan jenis kelamin laki-laki berpeluang <b>23,57 kali</b> untuk memutuskan 
+                            melakukan perjalanan wisata daripada perempuan.
                         </div>
                     </div>
                 </div>
@@ -200,8 +205,9 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Peningkatan satu tahun usia akan meningkatkan peluang untuk memutuskan 
+                            melakukan perjalanan wisata sebesar <b>1,08 kali</b>.
                         </div>
                     </div>
                 </div>
@@ -216,26 +222,34 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia?Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SD berpeluang <b>9,59 kali</b> untuk memutuskan melakukan 
+                            perjalanan wisata daripada penduduk yang tidak/belum sekolah/tidak 
+                            tamat SD/MI.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SMP dan penduduk yang tidak/belum sekolah/tidak 
+                            tamat SD/MI cenderung memiliki peluang yang sama untuk memutuskan 
+                            melakukan perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SMA dan penduduk yang tidak/belum sekolah/tidak 
+                            tamat SD/MI cenderung memiliki peluang yang sama untuk memutuskan 
+                            melakukan perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan Perguruan Tinggi dan penduduk yang tidak/belum 
+                            sekolah/tidak tamat SD/MI cenderung memiliki peluang yang sama 
+                            untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
                 </div>
@@ -252,20 +266,26 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT kategori pekerjaan formal dan penduduk dengan KRT 
+                            kategori pekerjaan informal cenderung memiliki peluang yang sama untuk 
+                            memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT yang menganggur dan penduduk dengan KRT kategori 
+                            pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan 
+                            melakukan perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT kategori pekerjaan lainnya berpeluang <b>0,04 kali</b> 
+                            untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan KRT 
+                            kategori pekerjaan informal.
                         </div>
                     </div>
                 </div>
@@ -280,20 +300,26 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            ART kategori pekerjaan formal dan ART kategori pekerjaan informal 
+                            cenderung memiliki peluang yang sama untuk memutuskan melakukan 
+                            perjalanan wisata.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            ART yang menganggur berpeluang <b>949,64 kali</b> untuk memutuskan 
+                            melakukan perjalanan wisata daripada penduduk dengan ART kategori 
+                            pekerjaan informal.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            ART kategori pekerjaan lainnya berpeluang <b>96,14 kali</b> untuk 
+                            memutuskan melakukan perjalanan wisata daripada penduduk dengan ART 
+                            kategori pekerjaan informal.
                         </div>
                     </div>
                 </div>
@@ -310,8 +336,10 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veniam quo saepe optio quidem placeat suscipit distinctio ipsum magni aspernatur.
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk yang bukan penyandang disabilitas dan penduduk penyandang 
+                            disabilitas cenderung memiliki peluang yang sama untuk memutuskan 
+                            melakukan perjalanan wisata.
                         </div>
                     </div>
                 </div>
@@ -326,8 +354,10 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk yang dalam rumah tangganya memiliki mobil dan penduduk yang 
+                            dalam rumah tangganya tidak memiliki mobil cenderung memiliki peluang 
+                            yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
                 </div>

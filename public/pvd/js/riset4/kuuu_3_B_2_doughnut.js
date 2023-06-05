@@ -4,15 +4,15 @@ new Chart(B2, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Kecil"],
             ["Mikro"],
+            ["Kecil"],
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                7.0,
-                93.0,
+                uupStatusMemanfaatkanJenisSkala.mikro,
+                uupStatusMemanfaatkanJenisSkala.kecil,
             ],
             borderwidth: 1,
             backgroundColor: [

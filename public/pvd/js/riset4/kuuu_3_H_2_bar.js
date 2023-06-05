@@ -63,16 +63,10 @@ new Chart(H2, {
                 align: 'start',
             },
             tooltip: {
-                enabled: false,
                 callbacks: {
-                    label: function(context){
-                        var label = context.label,
-                            currentValue = context.raw,
-                            total = context.chart._metasets[context.datasetIndex].total;
-              
-                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
-              
-                        return label + ": " +currentValue + ' (' + percentage + '%)';
+                    title: (context) => {
+                        console.log(context[0].label);
+                        return context[0].label.replaceAll(',',' ');
                     }
                 }
             },

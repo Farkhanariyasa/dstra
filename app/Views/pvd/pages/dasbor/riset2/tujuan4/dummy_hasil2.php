@@ -10,7 +10,11 @@
                 <div class="card-body">
                     <div class="text-justify" style="color: #4b395f;">
                         <!-- <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, impedit!</strong> -->
-                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model yang terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu <b>mode zero-inflation</b> dengan <b>fungsi penghubung binomial</b> dan <b>model count</b> dengan <b>fungsi penghubung negatif binomial</b>.
+                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota 
+                        adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model 
+                        yang terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu 
+                        <b>model <i>zero-inflation</i></b> dengan <b>fungsi penghubung binomial</b> dan 
+                        <b>model <i>count</i></b> dengan <b>fungsi penghubung negatif binomial</b>.
                     </div>
                 </div>
             </div>
@@ -186,8 +190,9 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Laki-laki dan perempuan cenderung memiliki rata-rata perjalanan wisata 
+                            yang sama.
                         </div>
                     </div>
                 </div>
@@ -200,8 +205,8 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Usia tidak berpengaruh pada besarnya rerata frekuensi perjalanan wisata.
                         </div>
                     </div>
                 </div>
@@ -216,26 +221,33 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia?Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SD dan penduduk yang tidak/belum sekolah/tidak tamat 
+                            SD/MI cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SMP cenderung memiliki rata-rata perjalanan wisata 
+                            <b>1,5 kali</b> lebih banyak daripada penduduk yang tidak/belum sekolah/tidak 
+                            tamat SD/MI.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan SMA cenderung memiliki rata-rata perjalanan wisata 
+                            <b>1,76 kali</b> lebih banyak daripada penduduk yang tidak/belum 
+                            sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk tamatan Perguruan Tinggi cenderung memiliki rata-rata perjalanan 
+                            wisata <b>2,03 kali</b> lebih banyak daripada penduduk yang tidak/belum 
+                            sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
                 </div>
@@ -252,20 +264,26 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT kategori pekerjaan formal cenderung memiliki 
+                            rata-rata perjalanan wisata <b>1,18 kali</b> lebih banyak daripada penduduk 
+                            dengan KRT kategori pekerjaan informal.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk dengan KRT yang menganggur cenderung memiliki rata-rata 
+                            perjalanan wisata <b>0,83 kali</b> lebih sedikit daripada penduduk dengan 
+                            KRT kategori pekerjaan informal.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Antara penduduk dengan KRT kategori pekerjaan lainnya dan penduduk dengan 
+                            KRT kategori pekerjaan informal cenderung memiliki rata-rata perjalanan 
+                            wisata yang sama.
                         </div>
                     </div>
                 </div>
@@ -280,20 +298,23 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Antara ART kategori pekerjaan formal dan ART kategori pekerjaan informal 
+                            cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Antara ART yang menganggur dan ART kategori pekerjaan informal cenderung 
+                            memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Antara ART kategori pekerjaan lainnya dan ART kategori pekerjaan informal 
+                            cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
                 </div>
@@ -310,8 +331,10 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veniam quo saepe optio quidem placeat suscipit distinctio ipsum magni aspernatur.
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk yang bukan penyandang disabilitas cenderung memiliki rata-rata 
+                            perjalanan wisata <b>1,15 kali</b> lebih banyak daripada penduduk 
+                            penyandang disabilitas.
                         </div>
                     </div>
                 </div>
@@ -326,8 +349,10 @@
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
                         <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-start" style="font-size:15px;">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
+                        <div class="col-10 text-justify" style="font-size:15px;">
+                            Penduduk yang dalam rumah tangganya memiliki mobil cenderung memiliki 
+                            rata-rata perjalanan wisata <b>1,07 kali</b> lebih banyak daripada 
+                            penduduk yang dalam rumah tangganya tidak memiliki mobil.
                         </div>
                     </div>
                 </div>

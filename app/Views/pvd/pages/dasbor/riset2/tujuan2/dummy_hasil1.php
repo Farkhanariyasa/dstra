@@ -40,7 +40,7 @@
                         <!-- </div> -->
                         <strong>Turis</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <!-- </div> -->
                         <strong>Malam</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
                         didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>

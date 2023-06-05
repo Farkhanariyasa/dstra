@@ -38,7 +38,7 @@
                             Estimasi Total Jumlah Perjalanan
                         </div>
                         <div>
-                            <div class="" style="color: #4b395f; font-size: 50px;"><strong>2180</strong></div>perjalanan 
+                            <div class="" style="color: #4b395f; font-size: 50px;"><strong>450,540</strong></div>perjalanan 
                         </div>
                     </div>
                 </div>

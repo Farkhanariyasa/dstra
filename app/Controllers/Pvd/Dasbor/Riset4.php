@@ -344,10 +344,27 @@ class Riset4 extends BaseController
 
     public function menu2submenu3()
     {
+        $uupStatusMemanfaatkan = [
+            'tidak' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 1),
+            'ya' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 2),
+        ];
+        $uupStatusMemanfaatkanJenis = [
+            'transportasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 1),
+            'makan' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 2),
+            'akomodasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 3),
+        ];
+        $uupStatusMemanfaatkanJenisSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 1),
+            'kecil' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 2),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Pemanfaatan TIK',
             'menu' => $menu['riset4'],
+            'uupStatusMemanfaatkan' => $uupStatusMemanfaatkan,
+            'uupStatusMemanfaatkanJenis' => $uupStatusMemanfaatkanJenis,
+            'uupStatusMemanfaatkanJenisSkala' => $uupStatusMemanfaatkanJenisSkala,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemanfaatan_tik', $data);
     }
@@ -571,31 +588,45 @@ class Riset4 extends BaseController
 
     public function menu4submenu4()
     {
-        $jasaTransportasi = [
-            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK(1),
-            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK(2),
-            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK(3),
+        $total = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 1),
+            'makan' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 3)
+        ];
+        $transportasi = [
+            'dimensi1' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 1),
+            'dimensi2' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 1),
+            'dimensi3' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 1),
+            'dimensi4' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 1),
+            'dimensi5' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 1),
+            'dimensi6' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 1),
+        ];
+        $makan = [
+            'dimensi1' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 2),
+            'dimensi2' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 2),
+            'dimensi3' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 2),
+            'dimensi4' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 2),
+            'dimensi5' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 2),
+            'dimensi6' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 2),
+        ];
+        $akomodasi = [
+            'dimensi1' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi1", 3),
+            'dimensi2' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi2", 3),
+            'dimensi3' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi3", 3),
+            'dimensi4' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi4", 3),
+            'dimensi5' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi5", 3),
+            'dimensi6' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "dimensi6", 3),
         ];
 
-        $jasaPenyediaMakananDanMinuman = [
-            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK2(1),
-            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK2(2),
-            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK2(3),
-        ];
-
-        $jasaAkomodasi = [
-            'jenis_usaha1' => $this->unitusahaTIK->getRataanIKUPTIK3(1),
-            'jenis_usaha2' => $this->unitusahaTIK->getRataanIKUPTIK3(2),
-            'jenis_usaha3' => $this->unitusahaTIK->getRataanIKUPTIK3(3),
-        ];
 
         $menu = getMenu();
         $data = [
             'judul' => 'Dasbor Riset 4',
             'menu' => $menu['riset4'],
-            'jasaTransportasi' => $jasaTransportasi,
-            'jasaPenyediaMakananDanMinuman' => $jasaPenyediaMakananDanMinuman,
-            'jasaAkomodasi' => $jasaAkomodasi
+            'total' => $total,
+            'transportasi' => $transportasi,
+            'makan' => $makan,
+            'akomodasi' => $akomodasi,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/jenis_unit_usaha', $data);
     }
