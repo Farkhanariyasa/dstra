@@ -26,6 +26,7 @@
     </div>
   </div>
 </section>
+
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <!-- Leaflet JS -->
@@ -49,10 +50,13 @@
 <script src="<?= base_url('pvd/js/riset4/bar_4_3_1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/bar_4_3_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/bar_4_3_3.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
-</section><!-- End -->
+<script src="<?= base_url('pvd/js/riset4/button_download_4_3.js') ?>"></script>
+
+</section>
+
+<!-- End -->
 <?= $this->endSection(); ?>
