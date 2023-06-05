@@ -1,4 +1,4 @@
-const bar3 = document.getElementById('bar_3');
+const bar3 = document.getElementById('chart-4');
 new Chart(bar3, {
     type: 'bar',
     data: {
