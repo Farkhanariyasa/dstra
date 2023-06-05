@@ -3,21 +3,27 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Sebaran Wisatawan dan Jumlah Perjalanan dalam Kota Malang menurut Kecamatan Asal Wisatawan di Kota
-                Malang Bulan Oktober-Desember 2022
+                Estimasi Jumlah Wisatawan dan Jumlah Perjalanan 
+                Menurut Jenis Kelamin di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
             <table class="table table-hover table-bordered table-responsive" id="k3_tabel1" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Kecamatan Asal</th>
+                        <th scope="col">Jenis Kelamin</th>
                         <th scope="col">Jumlah Wisatawan</th>
                         <th scope="col">Jumlah Perjalanan</th>
-                        <th scope="col">Rata-rata Perjalanan</th>
+                        <th scope="col">Rata-Rata Perjalanan</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <th scope="row">Laki-Laki</th>
+                        <td>62046.72</td>
+                        <td>214974.5</td>
+                        <td>3</td>
+                    </tr>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
                         <td>1</td>
