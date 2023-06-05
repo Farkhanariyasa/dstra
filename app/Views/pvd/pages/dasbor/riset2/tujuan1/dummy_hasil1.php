@@ -7,7 +7,7 @@
                     <div class="text-center">
                         <!-- <i class="fas fa-user-alt col-1 ikon" style="font-size: 30px; line-height:30px;"></i> -->
                         <div class="row-6 d-flex align-items-center justify-content-center">
-                            <img src="<?= base_url('pvd/img/landingpage/riset2/tujuan1_hasil1.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_9.png') ?>" class="img-fluid" alt="" style="height: 100px;">
                         </div>
                         <div class="card-text text-center">
                             Estimasi Total Jumlah Wisatawan

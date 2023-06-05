@@ -262,34 +262,34 @@ function getMenu()
         [
           'menu' => 'Karakteristik Kesiapan UUP',
           'icon' => 'fa-solid fa-list-check',
-          'href' => '#menu3',
-          'id' => 'menu3',
-          'subMenu' => [
-            [
-              'subMenu' => 'Infrastruktur dan Konektivitas',
-              'href' => '/riset4/infrastruktur_dan_konektivitas',
-            ],
-            [
-              'subMenu' => 'Penggunaan TIK',
-              'href' => '/riset4/penggunaan_tik',
-            ],
-            [
-              'subMenu' => 'Sumber Daya Manusia',
-              'href' => '/riset4/sumber_daya_manusia',
-            ],
-            [
-              'subMenu' => 'Manajemen Organisasi',
-              'href' => '/riset4/manajemen_organisasi',
-            ],
-            [
-              'subMenu' => 'Kesiapan Lingkungan Eksternal',
-              'href' => '/riset4/kesiapan_lingkungan_eksternal',
-            ],
-            [
-              'subMenu' => 'Kendala dalam Pemanfaatan TIK',
-              'href' => '/riset4/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi',
-            ],
-          ],
+          'href' => '/riset4/karakteristik_kesiapan_uup',
+          // 'id' => 'menu3',
+          // 'subMenu' => [
+          //   [
+          //     'subMenu' => 'Infrastruktur dan Konektivitas',
+          //     'href' => '/riset4/infrastruktur_dan_konektivitas',
+          //   ],
+          //   [
+          //     'subMenu' => 'Penggunaan TIK',
+          //     'href' => '/riset4/penggunaan_tik',
+          //   ],
+          //   [
+          //     'subMenu' => 'Sumber Daya Manusia',
+          //     'href' => '/riset4/sumber_daya_manusia',
+          //   ],
+          //   [
+          //     'subMenu' => 'Manajemen Organisasi',
+          //     'href' => '/riset4/manajemen_organisasi',
+          //   ],
+          //   [
+          //     'subMenu' => 'Kesiapan Lingkungan Eksternal',
+          //     'href' => '/riset4/kesiapan_lingkungan_eksternal',
+          //   ],
+          //   [
+          //     'subMenu' => 'Kendala dalam Pemanfaatan TIK',
+          //     'href' => '/riset4/kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi',
+          //   ],
+          // ],
         ],
         [
           'menu' => 'IKUPTIK',

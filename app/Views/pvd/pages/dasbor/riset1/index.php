@@ -61,6 +61,11 @@
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilQA_Output1_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilQA_Output1_2.js') ?>"></script>
+
 </section>
 
 
