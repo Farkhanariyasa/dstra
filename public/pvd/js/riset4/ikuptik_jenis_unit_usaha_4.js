@@ -28,12 +28,12 @@ new Chart(VIZ_2, {
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffab00",
-            "#506396",
-            "#4b395f",
-            "#b35c74",
-            "#ffdd99",
-            "#6f617f"
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
         ],
         datalabels: {
             anchor: 'end',
@@ -45,7 +45,7 @@ new Chart(VIZ_2, {
     options: {
         scales: {
             y: {
-            beginAtZero: false,
+            beginAtZero: true,
             display: false
             }
         },

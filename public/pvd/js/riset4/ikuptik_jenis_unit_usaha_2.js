@@ -31,12 +31,12 @@ new Chart(VIZ_4, {
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffab00",
-            "#506396",
-            "#4b395f",
-            "#b35c74",
             "#ffbc33",
-            "#7382ab"
+            "#ffbc33",
+            "#ffbc33",
+            "#ffbc33",
+            "#ffbc33",
+            "#ffbc33",
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
@@ -48,7 +48,7 @@ new Chart(VIZ_4, {
     options: {
         scales: {
             y: {
-            beginAtZero: false,
+            beginAtZero: true,
             display: false
             }
         },
