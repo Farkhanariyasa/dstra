@@ -41,7 +41,7 @@
                         <!-- </div> -->
                         <strong>Pelancong</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>
