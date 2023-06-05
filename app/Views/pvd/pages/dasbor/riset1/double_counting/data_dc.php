@@ -5229,6 +5229,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="isi-tujuan shadow mt-5 mb-0">
+                    <h4 class="card-title judul-card">Evaluasi</h4>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- With Frechet Distance -->
@@ -6490,6 +6533,49 @@
                                                     </ol>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-tujuan shadow mt-5 mb-0">
+                    <h4 class="card-title judul-card">Evaluasi</h4>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 grid-margin stretch-card h-100">
+                                <div class="card bg-secondary">
+                                    <div class="card-body">
+                                        <div class="chartBox">
+                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
                                         </div>
                                     </div>
                                 </div>
