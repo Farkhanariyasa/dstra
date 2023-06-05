@@ -11,8 +11,9 @@ new Chart(A1, {
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                14,
-                86
+                (uupStatusMemanfaatkan.tidak),
+                (uupStatusMemanfaatkan.ya),
+                
             ],
             borderwidth: 1,
             backgroundColor: [

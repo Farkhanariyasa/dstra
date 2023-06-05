@@ -4,17 +4,17 @@ new Chart(A2, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Penyediaan Akomodasi"],
+            ["Jasa Transportasi Wisata"],
             ["Jasa Penyediaan Makanan dan Minuman"],
-            ["Jasa Transportasi Wisata"]
+            ["Penyediaan Akomodasi"],
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                9.0,
-                72.6,
-                18.4
+                uupStatusMemanfaatkanJenis.transportasi,
+                uupStatusMemanfaatkanJenis.makan,
+                uupStatusMemanfaatkanJenis.akomodasi,
             ],
             borderwidth: 1,
             backgroundColor: [

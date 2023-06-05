@@ -344,10 +344,27 @@ class Riset4 extends BaseController
 
     public function menu2submenu3()
     {
+        $uupStatusMemanfaatkan = [
+            'tidak' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 1),
+            'ya' => $this->uup->getJumlahUUP('status_memanfaatkan_tik', 2),
+        ];
+        $uupStatusMemanfaatkanJenis = [
+            'transportasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 1),
+            'makan' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 2),
+            'akomodasi' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'jenis_usaha', 2, 3),
+        ];
+        $uupStatusMemanfaatkanJenisSkala = [
+            'mikro' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 1),
+            'kecil' => $this->uup->getJumlahUUP2('status_memanfaatkan_tik', 'skala_usaha', 2, 2),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Pemanfaatan TIK',
             'menu' => $menu['riset4'],
+            'uupStatusMemanfaatkan' => $uupStatusMemanfaatkan,
+            'uupStatusMemanfaatkanJenis' => $uupStatusMemanfaatkanJenis,
+            'uupStatusMemanfaatkanJenisSkala' => $uupStatusMemanfaatkanJenisSkala,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/pemanfaatan_tik', $data);
     }

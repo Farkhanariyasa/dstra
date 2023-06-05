@@ -57,16 +57,16 @@ new Chart(G2, {
                 align: 'start',
             },
             tooltip: {
-                enabled: false,
+                enabled: true,
                 callbacks: {
                     label: function(context){
                         var label = context.label,
                             currentValue = context.raw,
                             total = context.chart._metasets[context.datasetIndex].total;
               
-                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
+                        // var percentage = parseFloat((currentValue/total*100).toFixed(2));
               
-                        return label + ": " +currentValue + ' (' + percentage + '%)';
+                        return label + ": " +currentValue + '%';
                     }
                 }
             },

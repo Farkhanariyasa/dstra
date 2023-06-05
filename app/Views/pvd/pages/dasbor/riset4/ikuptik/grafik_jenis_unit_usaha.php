@@ -6,7 +6,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-3-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -46,7 +46,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <button id="download-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-2">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -86,7 +86,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -126,7 +126,7 @@
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <button id="download-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-4">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -158,5 +158,5 @@
     </div>
 </div>
 
-<!-- Modal Riset 2  -->
-<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset2/modal_riset2.php') ?>
+<!-- Modal -->
+<?php include('modal_ikuptik_jenis_unit_usaha.php') ?>

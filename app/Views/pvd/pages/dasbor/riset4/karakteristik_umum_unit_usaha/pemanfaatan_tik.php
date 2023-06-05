@@ -454,85 +454,6 @@
                             </div>
                         </div>
 
-
-        <!-- Charts and Interpretations Batch 2 -->
-        <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
-            <div class="isi-tujuan shadow mt-0 mb-0">
-                <h4 class="card-title judul-card">Statistik Jenis Perangkat Digital</h4>
-                <div class="card-body">
-                    <div class="row">
-                        <!-- Part 1 -->
-                        <div class="col-12 grid-margin stretch-card">
-                            <div class="card shadow">
-                                <div class="pb-2 card-body">
-                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                                <i class="fa-solid fa-download"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="mb-0 col-lg-7 grid-margin">
-                                            <div>
-                                                <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="gantt-kota-batu-jk-usia"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
-                                            <div>
-                                                <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
-                                                <p class="text-justify">
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Part 2 -->
-                        <div class="col-12 grid-margin stretch-card">
-                            <div class="card shadow">
-                                <div class="pb-2 card-body">
-                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
-                                                <i class="fa-solid fa-download"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="mb-0 col-lg-7 grid-margin">
-                                            <div>
-                                                <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="gantt-kota-batu-jk-usia"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
-                                            <div>
-                                                <h4>Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
-                                                <p class="text-justify">
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Modal Dasbor -->
         <?php include('modal_pemanfaatan_tik.php') ?>
         </div>
@@ -560,7 +481,10 @@
 
       <!-- Data Chart -->
       <script>
-        // const uupKotaBatu = < ?= json_encode($uupKotaBatu) ?>;    
+        // const uupKotaBatu = < ?= json_encode($uupKotaBatu) ?>;
+        const uupStatusMemanfaatkan = <?= json_encode($uupStatusMemanfaatkan) ?>;    
+        const uupStatusMemanfaatkanJenis = <?= json_encode($uupStatusMemanfaatkanJenis) ?>;    
+        const uupStatusMemanfaatkanJenisSkala = <?= json_encode($uupStatusMemanfaatkanJenisSkala) ?>;    
       </script>
 
       <!-- Import Chart -->
