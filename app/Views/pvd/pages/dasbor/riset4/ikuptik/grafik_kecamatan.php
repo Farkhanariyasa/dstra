@@ -36,6 +36,29 @@
     </div>
 </div>
 
+<div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
+    <div class="row mt-2">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="mb-0 col-lg-12 grid-margin stretch-card">
+                            <div>
+                                <h4>Interpretasii Mapp Chartt</h4>
+                                <p class="text-justify">
+                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
     <div class="row mt-2"> -->
         <!-- <div class="col-12 grid-margin stretch-card"> -->
