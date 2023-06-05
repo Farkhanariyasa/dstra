@@ -32,41 +32,6 @@
                   <h4 class="card-title judul-card">Statistik Pemilik atau Pengelola Usaha Pariwisata di Kota Batu</h4> -->
                   <div class="card-body">
                       <div class="row">
-                            <!-- Grafik 1 -->
-                            <div class="col-12 grid-margin stretch-card">
-                                <div class="card shadow">
-                                    <div class="pb-2 card-body">
-                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
-                                                    <i class="fa-solid fa-download"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
-                                                <div>
-                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
-                                                <div>
-                                                    <h4>spider chart dimensi 1</h4>
-                                                    <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             <!-- Tabulasi 1 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
@@ -124,6 +89,41 @@
                                         </tr>
                                         </tbody>
                                         </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Grafik 1 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -277,6 +277,41 @@
                                 </div>
                             </div>
 
+                            <!-- Grafik 2 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Tabulasi 3 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
@@ -348,6 +383,41 @@
                                 </div>
                             </div>
                             
+                            <!-- Grafik 3 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Tabulasi 4 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
@@ -419,6 +489,41 @@
                                 </div>
                             </div>
 
+                            <!-- Grafik 4 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Tabulasi 5 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
@@ -475,6 +580,41 @@
                                         </tr>
                                         </tbody>
                                         </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Grafik 5 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
