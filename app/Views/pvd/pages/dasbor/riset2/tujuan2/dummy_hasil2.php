@@ -35,9 +35,13 @@
                 <!-- Turis -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon"></i><strong> &nbsp; Pelancong</strong>
+                        <!-- <i class="fas fa-city col-1 ikon"></i> -->
+                        <!-- <div class="row-6 d-flex align-items-center justify-content-center"> -->
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                        <!-- </div> -->
+                        <strong>Pelancong</strong>
                     </div>
-                    <div style="font-size:15px;">
+                    <div style="font-size:15px;" class="mt-2">
                         Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>
