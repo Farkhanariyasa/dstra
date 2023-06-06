@@ -110,6 +110,9 @@
 <!-- Data Chart -->
 <script>
     const q231_407a = <?= json_encode($q231_407a) ?>;
+    const ikuptikPerDimensiBatu = <?= json_encode($ikuptikPerDimensiBatu) ?>;
+    const ikuptikPerDimensiJunrejo = <?= json_encode($ikuptikPerDimensiJunrejo) ?>;
+    const ikuptikPerDimensiBumiaji = <?= json_encode($ikuptikPerDimensiBumiaji) ?>;
 </script>
 
 <!-- Impor Chart -->
