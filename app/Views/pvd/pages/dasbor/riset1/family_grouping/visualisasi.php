@@ -80,9 +80,9 @@
                 </ul>
             </div>
         </div>
-        <div class="row" id="rowfg">
+        <div class="row" id="rowdc">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="row" id="containerfg">
+                <div class="row" id="testdc">
                     <?php include('data_fg.php') ?>
                 </div>
             </div>
