@@ -1,5 +1,6 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 <?= $this->section('content'); ?>
+<?php include('modal_tujuan1.php') ?>
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
@@ -68,13 +69,13 @@
                   </form>
                 </div>
                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                  <button id="unduh-3-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button id="unduh-1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal1_1">
                     <i class="fa-solid fa-download"></i>
                   </button>
                 </div>
               </div>
               <div class="chartBox bar">
-                <canvas class="mt1" id="tujuan1" style="width: 95%; height:80vh;"></canvas>
+                <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
               </div>
             </div>
           </div>
@@ -104,8 +105,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan1.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/btn_Download_tujuan1.js') ?>"></script>
 
 <!-- Modal Riset 3  -->
-<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/modal_riset3.php') ?>
 <?= $this->endSection(); ?>
