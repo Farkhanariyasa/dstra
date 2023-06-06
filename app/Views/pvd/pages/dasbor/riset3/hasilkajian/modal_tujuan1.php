@@ -1,5 +1,5 @@
 <?php for ($i = 1; $i <= 8; $i++) : ?>
-    <?php echo $i ?>
+
     <div class="modal fade" id="Modal1_<?php echo $i ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
