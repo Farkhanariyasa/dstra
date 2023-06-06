@@ -570,6 +570,33 @@ class Riset4 extends BaseController
 
     public function menu4submenu3()
     {
+        $ikuptikPerDimensiBatu = [
+            'dimensi1' => $this->uup->getRataanGeo2('kecamatan', 'dimensi1', 'BATU'),
+            'dimensi2' => $this->uup->getRataanGeo2('kecamatan', 'dimensi2', 'BATU'),
+            'dimensi3' => $this->uup->getRataanGeo2('kecamatan', 'dimensi3', 'BATU'),
+            'dimensi4' => $this->uup->getRataanGeo2('kecamatan', 'dimensi4', 'BATU'),
+            'dimensi5' => $this->uup->getRataanGeo2('kecamatan', 'dimensi5', 'BATU'),
+            'dimensi6' => $this->uup->getRataanGeo2('kecamatan', 'dimensi6', 'BATU'),
+        ];
+
+        $ikuptikPerDimensiJunrejo = [
+            'dimensi1' => $this->uup->getRataanGeo2('kecamatan', 'dimensi1', 'JUNREJO'),
+            'dimensi2' => $this->uup->getRataanGeo2('kecamatan', 'dimensi2', 'JUNREJO'),
+            'dimensi3' => $this->uup->getRataanGeo2('kecamatan', 'dimensi3', 'JUNREJO'),
+            'dimensi4' => $this->uup->getRataanGeo2('kecamatan', 'dimensi4', 'JUNREJO'),
+            'dimensi5' => $this->uup->getRataanGeo2('kecamatan', 'dimensi5', 'JUNREJO'),
+            'dimensi6' => $this->uup->getRataanGeo2('kecamatan', 'dimensi6', 'JUNREJO'),
+        ];
+
+        $ikuptikPerDimensiBumiaji = [
+            'dimensi1' => $this->uup->getRataanGeo2('kecamatan', 'dimensi1', 'BUMIAJI'),
+            'dimensi2' => $this->uup->getRataanGeo2('kecamatan', 'dimensi2', 'BUMIAJI'),
+            'dimensi3' => $this->uup->getRataanGeo2('kecamatan', 'dimensi3', 'BUMIAJI'),
+            'dimensi4' => $this->uup->getRataanGeo2('kecamatan', 'dimensi4', 'BUMIAJI'),
+            'dimensi5' => $this->uup->getRataanGeo2('kecamatan', 'dimensi5', 'BUMIAJI'),
+            'dimensi6' => $this->uup->getRataanGeo2('kecamatan', 'dimensi6', 'BUMIAJI'),
+        ];
+
         $q231_407a = [
             'q231_407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
             'q231_407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
@@ -581,6 +608,9 @@ class Riset4 extends BaseController
         $data = [
             'judul' => 'Kecamatan',
             'menu' => $menu['riset4'],
+            'ikuptikPerDimensiBatu' => $ikuptikPerDimensiBatu,
+            'ikuptikPerDimensiJunrejo' => $ikuptikPerDimensiJunrejo,
+            'ikuptikPerDimensiBumiaji' => $ikuptikPerDimensiBumiaji,
             'q231_407a' => $q231_407a,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/kecamatan', $data);
