@@ -1488,7 +1488,7 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card bg-secondary">
                             <div class="card-body">
-                                <div class="chartBox">
+                                <div class="chartBox" style="height: 150px">
                                     <canvas class="mt1" id="fg_algoritma1_4"></canvas>
                                 </div>
                             </div>
