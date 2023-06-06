@@ -8,7 +8,7 @@
 // 7 kategori: "#4b395f","#b35c74", "#506396", "#93889f", "#d19dac","#96a1c0","#ffab00"
 // 9 kategori: "#4b395f","#b35c74", "#506396","#ffab00","#7382ab", "#93889f", "#d19dac","#96a1c0","#ffdd99"
 // const tujuan1 = document.getElementById('tujuan1');
-const ctx = document.getElementById('tujuan1');
+const ctx = document.getElementById('tujuan1_1');
 const tujuan1 =new Chart(ctx, {
     type: 'bar',
     data: {
