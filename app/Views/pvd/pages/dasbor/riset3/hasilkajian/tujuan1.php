@@ -34,7 +34,6 @@
         <div class="col-lg-12 grid-margin stretch-card">
           <div class="card shadow">
             <div class="card-body">
-
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                 <div class="selectBox mt-2 me-2">
                   <form action="">
@@ -59,6 +58,12 @@
                       <option value="T1_18">T1_18</option>
                       <option value="T1_19">T1_19</option>
                       <option value="T1_20">T1_20</option>
+                      <option value="T1_21">T1_21</option>
+                      <option value="T1_22">T1_22</option>
+                      <option value="T1_23">T1_23</option>
+                      <option value="T1_24">T1_24</option>
+                      <option value="T1_25">T1_25</option>
+                      <option value="T1_26">T1_26</option>
                     </select>
                   </form>
                 </div>
