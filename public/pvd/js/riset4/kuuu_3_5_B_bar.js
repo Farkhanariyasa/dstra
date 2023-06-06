@@ -1,4 +1,4 @@
-const E2 = document.getElementById('viz-2-3-E-2');
+const E2 = document.getElementById('viz-2-3-5-B');
 
 new Chart(E2, {
     type: 'bar',

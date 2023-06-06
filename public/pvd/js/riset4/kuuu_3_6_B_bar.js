@@ -1,36 +1,26 @@
-const D2 = document.getElementById('viz-2-3-D-2');
+const F2 = document.getElementById('viz-2-3-6-B');
 
-new Chart(D2, {
+new Chart(F2, {
     type: 'bar',
     data: {
         labels: [
-            ["Twitter"],
-            ["Line"],
-            ["Telegram"],
-            ["Email"],
-            ["Lainnya"],
-            ["Telepon"],
-            ["Facebook"],
-            ["Instagram"],
-            ["WhatsApp"],
+            ["Media Sosial"],
+            ["Marketplace"],
+            ["Keduanya"],
         ],
 
         datasets: [{
-            label: 'Jumlah Pengguna',
+            label: 'Jumlah Responden',
             data: [
-                3,3,15,43,70,91,117,131,722
+                54,
+                14,
+                32,
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
-                "#7382ab",
             ],
         }]
     },
@@ -40,8 +30,8 @@ new Chart(D2, {
             x: {
                 display: false,
                 min: 0,
-                max: 900,
-            }
+                max: 100,
+            },
         },
         responsive: true,
         maintainAspectRatio: false,
@@ -67,10 +57,16 @@ new Chart(D2, {
                 align: 'start',
             },
             tooltip: {
+                enabled: true,
                 callbacks: {
-                    title: (context) => {
-                        console.log(context[0].label);
-                        return context[0].label.replaceAll(',',' ');
+                    label: function(context){
+                        var label = context.label,
+                            currentValue = context.raw,
+                            total = context.chart._metasets[context.datasetIndex].total;
+              
+                        // var percentage = parseFloat((currentValue/total*100).toFixed(2));
+              
+                        return label + ": " +currentValue + '%';
                     }
                 }
             },
@@ -79,6 +75,11 @@ new Chart(D2, {
                 color: 'black',
                 anchor: 'end',
                 align: 'end',
+                formatter: function(value, context) {
+                    total = context.chart._metasets[context.datasetIndex].total;
+                    percentage = parseFloat((value).toFixed(2));
+                    return percentage + '%';
+                },
             }
         },
     },

@@ -1,32 +1,29 @@
-const H2 = document.getElementById('viz-2-3-H-2');
+const C2 = document.getElementById('viz-2-3-3-B');
 
-new Chart(H2, {
+new Chart(C2, {
     type: 'bar',
     data: {
         labels: [
-            ["Transfer Bank"],
-            ["E-wallet"],
-            ["QRIS"],
-            ["Pembayaran dengan kartu"],
-            ["Lainnya"]
+            ["Tablet"],
+            ["PC"],
+            ["Laptop"],
+            ["Smartphone"],
         ],
 
         datasets: [{
-            label: 'Jumlah Responden',
+            label: 'Jumlah Perangkat Digital',
             data: [
-                319,
-                275,
-                85,
-                27,
-                5
+                20,
+                32,
+                110,
+                781
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
+                "#7382ab",
             ],
         }]
     },
@@ -36,8 +33,8 @@ new Chart(H2, {
             x: {
                 display: false,
                 min: 0,
-                max: 500,
-            },
+                max: 900,
+            }
         },
         responsive: true,
         maintainAspectRatio: false,
