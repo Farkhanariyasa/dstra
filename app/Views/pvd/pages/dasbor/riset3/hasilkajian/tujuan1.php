@@ -42,6 +42,13 @@
                       <option value="T1_1">T1_1</option>
                       <option value="T1_2">T1_2</option>
                       <option value="T1_3">T1_3</option>
+                      <option value="T1_4">T1_4</option>
+                      <option value="T1_5">T1_5</option>
+                      <option value="T1_6">T1_6</option>
+                      <option value="T1_7">T1_7</option>
+                      <option value="T1_8">T1_8</option>
+                      <option value="T1_9">T1_9</option>
+                      <option value="T1_10">T1_10</option>
                     </select>
                   </form>
                 </div>
