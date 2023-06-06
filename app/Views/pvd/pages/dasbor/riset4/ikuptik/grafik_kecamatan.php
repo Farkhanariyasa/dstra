@@ -46,10 +46,7 @@
                             <div>
                                 <h4>Interpretasii Mapp Chartt</h4>
                                 <p class="text-justify">
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                </p>
+                                    Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                             </div>
                         </div>
                     </div>
@@ -124,9 +121,7 @@
                             <div>
                                 <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
                                 <p class="text-justify">
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                                 </p>
                             </div>
                         </div>
@@ -162,10 +157,7 @@
                             <div>
                                 <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
                                 <p class="text-justify">
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                </p>
+                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Junrejo, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Junrejo berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,50. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Junrejo tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                             </div>
                         </div>
                     </div>
@@ -200,9 +192,7 @@
                             <div>
                                 <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
                                 <p class="text-justify">
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Junrejo, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Junrejo berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,50. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Junrejo tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                                 </p>
                             </div>
                         </div>
