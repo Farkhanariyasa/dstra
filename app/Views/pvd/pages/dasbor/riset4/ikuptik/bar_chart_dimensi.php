@@ -257,12 +257,12 @@
                                           </div>
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
-                                                  <h4>spider chart dimensi 1</h4>
+                                                  <h4>Interpretasi</h4>
                                                   <p id="interpretasi-0" class="text-justify">
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Secara keseluruhan, dimensi yang kurang siap untuk mendukung <i>Smart Tourism Destination</i> 
+                                                    di Kota Batu adalah dimensi Penggunaan TIK yang hanya memiliki indeks sebesar 22,06. Sementara 
+                                                    itu, dimensi-dimensi lain tergolong cukup siap dengan kesiapan tertinggi pada dimensi Ketersediaan 
+                                                    Prasarana TIK dengan indeks sebesar 68,69.                                                  
                                                   </p>
                                               </div>
                                           </div>
@@ -306,12 +306,9 @@
                                           </div>
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
-                                                  <h4 style="margin-top: 1.5rem;">Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan usia</h4>
+                                                  <h4 style="margin-top: 1.5rem;">Interpretasi</h4>
                                                   <p id="interpretasi-1" class="text-justify">
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Berdasarkan nilai IKUPTIK total, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 48,23.
                                                   </p>
                                               </div>
                                           </div>
@@ -354,13 +351,9 @@
                                           </div>
                                           <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                               <div>
-                                                  <h4 style="margin-top: 1.5rem;">Dodge Pemilik atau pengelola unit usaha pariwisata berdasarkan jenis kelamin dan tingkat pendidikan.</h4>
+                                                  <h4 style="margin-top: 1.5rem;">Interpretasi</h4>
                                                   <p id="interpretasi-2" class="text-justify">
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                  </p>
+                                                    Berdasarkan nilai IKUPTIK total, ketiga jenis usaha pariwisata di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Penyedia Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 52,08.</p>
                                               </div>
                                           </div>
                                       </div>

@@ -2,6 +2,9 @@
 
 <?= $this->section('content'); ?>
 
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />    
+
 <section>
     <section id="hero" class="hero d-flex align-items-center">
         <!-- Judul Landing Page -->
@@ -443,7 +446,7 @@
 
 
         <!-- Hasil Penelitian -->
-        <section class="offset-header">
+        <section  id="portfolio" class="portfolio section-bg offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -451,33 +454,30 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link pills-button shadow active" id="pills-t1-tab" data-bs-toggle="pill" data-bs-target="#pills-t1" type="button" role="tab" aria-controls="pills-t1" aria-selected="true">Tujuan 1</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link pills-button shadow" id="pills-t2-tab" data-bs-toggle="pill" data-bs-target="#pills-t2" type="button" role="tab" aria-controls="pills-t2" aria-selected="false">Tujuan 2</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link pills-button shadow" id="pills-t3-tab" data-bs-toggle="pill" data-bs-target="#pills-t3" type="button" role="tab" aria-controls="pills-t3" aria-selected="false">Tujuan 3</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link pills-button shadow" id="pills-t4-tab" data-bs-toggle="pill" data-bs-target="#pills-t4" type="button" role="tab" aria-controls="pills-t4" aria-selected="false">Tujuan 4</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-t1" role="tabpanel" aria-labelledby="pills-t1-tab">
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">Semua</li>
+                                <li data-filter=".filter-tujuan1-1">Tujuan 1</li>
+                                <li data-filter=".filter-tujuan2">Tujuan 2</li>
+                                <li data-filter=".filter-tujuan3">Tujuan 3</li>
+                                <li data-filter=".filter-tujuan4">Tujuan 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="portfolio-item filter-tujuan1-1">
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <!-- <h3><b>Grafik</b></h3> -->
-                                    <div class="card-body border rounded">
-                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="card-body border rounded pt-5">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                             <div class="me-1 mt-1 justify-content-end align-item-end">
                                                 <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
-                                        </div> -->
+                                        </div>
                                         <div class="row">
                                             <div class="col-lg-6 grid stretch-card">
                                                 <div class="card" style="border: 0">
@@ -520,18 +520,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-t2" role="tabpanel" aria-labelledby="pills-t2-tab">
+                        <div class="portfolio-item filter-tujuan2">
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <!-- <h3><b>Grafik</b></h3> -->
-                                    <div class="card-body border rounded">
-                                        <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="card-body border rounded pt-5">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                             <div class="me-1 mt-1 justify-content-end align-item-end">
                                                 <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
-                                        </div> -->
+                                        </div>
                                         <div class="row">
                                             <div class="col-lg-12 grid stretch-card">
                                                 <div class="card" style="border: 0">
@@ -547,11 +547,65 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-t3" role="tabpanel" aria-labelledby="pills-t3-tab">
-                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                        <div class="portfolio-item filter-tujuan3">
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <div class="card-body border rounded">
+                                        <div class="row">
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body">
+                                                        <div class="chartBox">
+                                                            <div>
+                                                                <p>persamaan reglog</p>
+                                                            </div>
+                                                            <div>
+                                                                <p>variabel yang signifikan</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 grid stretch-card">
+                                                <div class="card" style="border: 0">
+                                                    <div class="card-body">
+                                                        <div class="chartBox">
+                                                            <p>kerangka pikir</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-t4" role="tabpanel" aria-labelledby="pills-t4-tab">
-                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                        <div class="portfolio-item filter-tujuan4">
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
+                                    <!-- <p class="card-text text-center">
+                                        <strong></strong>
+                                    </p> -->
+                                    <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                        <div style="padding-left: 2.5rem; padding-right: 2.5rem">
+                                            <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                                Indeks Sadar Wisata (ISW) Kabupaten Malang</h1>
+                                            <subtitle>
+                                                <strong>
+                                                    <ul>
+                                                    <li style="float: left; margin: 0 20px;">0 &lt; ISW &lt; 41.53 (Kurang)</li>
+                                                    <li style="float: left; margin: 0 20px;">41.53 &le; ISW &lt; 79.14 (Sedang)</li>
+                                                    <li style="float: left; margin: 0 20px;">79.14 &le; ISW &le; 100 (Baik)</li>
+                                                    </ul>   
+                                                </strong>
+                                            </subtitle>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-item-center justify-content-center" style="width: 100%; height:80vh;">
+                                        <div id="chart_isw" style="width: 100%; height:80vh; z-index:0;"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -582,11 +636,18 @@
 
 </section><!-- End -->
 <script src="<?= base_url('pvd/js/riset3/slider_landingpage.js') ?>"></script>
+<!-- Isotope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="<?= base_url('pvd/js/main.js') ?>"></script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 <!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_mading.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/peta_malang.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/layer_dasar_peta_malang.js') ?>"></script>
 
 
 <?= $this->endSection(); ?>

@@ -1,5 +1,6 @@
 <?= $this->extend('pvd/layout/dasbor/template'); ?>
 <?= $this->section('content'); ?>
+<?php include('modal_tujuan1.php') ?>
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
@@ -34,7 +35,6 @@
         <div class="col-lg-12 grid-margin stretch-card">
           <div class="card shadow">
             <div class="card-body">
-
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                 <div class="selectBox mt-2 me-2">
                   <form action="">
@@ -59,17 +59,23 @@
                       <option value="T1_18">T1_18</option>
                       <option value="T1_19">T1_19</option>
                       <option value="T1_20">T1_20</option>
+                      <option value="T1_21">T1_21</option>
+                      <option value="T1_22">T1_22</option>
+                      <option value="T1_23">T1_23</option>
+                      <option value="T1_24">T1_24</option>
+                      <option value="T1_25">T1_25</option>
+                      <option value="T1_26">T1_26</option>
                     </select>
                   </form>
                 </div>
                 <div class="me-1 mt-1 justify-content-end align-item-end">
-                  <button id="unduh-3-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button id="unduh-1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal1_1">
                     <i class="fa-solid fa-download"></i>
                   </button>
                 </div>
               </div>
               <div class="chartBox bar">
-                <canvas class="mt1" id="tujuan1" style="width: 95%; height:80vh;"></canvas>
+                <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
               </div>
             </div>
           </div>
@@ -88,7 +94,7 @@
 <!-- dropdown show/hide content-->
 <script src="<?= base_url('pvd/js/riset3/dropdown_showhide.js') ?>"></script>
 <!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset3/datatables_export_tujuan1.js'); ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/datatables_export.js'); ?>"></script>
 <!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -99,8 +105,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan1.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset3/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset3/btn_Download_tujuan1.js') ?>"></script>
 
 <!-- Modal Riset 3  -->
-<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/modal_riset3.php') ?>
 <?= $this->endSection(); ?>

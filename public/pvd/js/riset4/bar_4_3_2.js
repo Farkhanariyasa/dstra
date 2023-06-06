@@ -2,22 +2,22 @@ const bar2 = document.getElementById('chart-3');
 new Chart(bar2, {
     type: 'bar',
     data: {
-    labels: [['Dimensi1'],
-            ['Dimensi2'],
-            ['Dimensi3'],
-            ['Dimensi4'],
-            ['Dimensi5'],
-            ['Dimensi6']
-        ],
-    datasets: [{
-        label: 'Jumlah Unit Usaha',
+        labels: [['Infrastruktur', 'dan', 'Konektivitas'],
+        ['Penggunaan', 'TIK'],
+        ['Sumber', 'Daya', 'Manusia'],
+        ['Manajemen', 'Organisasi'],
+        ['Ketersediaan', 'Prasarana', 'TIK'],
+        ['Motivasi', 'Penggunaan', 'TIK']
+    ],
+datasets: [{
+    label: 'Nilai',
         data: [
-            q231_407a.q231_407a1,
-            q231_407a.q231_407a2,
-            q231_407a.q231_407a3,
-            q231_407a.q231_407a4,
-            5,
-            5
+            (ikuptikPerDimensiJunrejo.dimensi1).toFixed(2),
+            (ikuptikPerDimensiJunrejo.dimensi2).toFixed(2),
+            (ikuptikPerDimensiJunrejo.dimensi3).toFixed(2),
+            (ikuptikPerDimensiJunrejo.dimensi4).toFixed(2),
+            (ikuptikPerDimensiJunrejo.dimensi5).toFixed(2),
+            (ikuptikPerDimensiJunrejo.dimensi6).toFixed(2),
         ],
         borderWidth: 1,
         backgroundColor: [
@@ -34,8 +34,16 @@ new Chart(bar2, {
     },
     options: {
         scales: {
-            y: {
-            beginAtZero: true
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{            
+                beginAtZero: true,
+                grid:{
+                    display:false
+                },
             }
         },
         maintainAspectRatio: false,
@@ -60,7 +68,11 @@ new Chart(bar2, {
                         return context[0].label.replaceAll(',',' ');
                     }
                 }
-            }
+            },
+            datalabels:{
+                display:true,
+                color:'black'
+            },
         },
     },
     plugins: [ChartDataLabels]
