@@ -1481,7 +1481,7 @@
                             <div class="card-body">
                                 <div class="chartBox">
                                     <canvas class="mt1" id="fg_algoritma1_3"></canvas>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>
