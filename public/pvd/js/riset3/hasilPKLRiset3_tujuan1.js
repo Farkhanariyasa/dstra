@@ -550,7 +550,107 @@ function tampilData(){
       tujuan1.data.datasets[4].data = [20.00, 13.79, 11.90, 17.78, 12.50];
       tujuan1.data.datasets[5].data = [0.00, 3.45, 4.76, 6.67, 12.50]; 
       tujuan1.data.labels = [
-        "Tidak Bersekolah","Sekolah Dasar","Sekolah Menengah Pertama ","Sekolah Menengah Atas","Diploma (Diploma ,II,III)","Sarjana (Diploma IV dan Strata I)","Pascasarjana (Strata II dan III) "
+        "Tidak Bersekolah",
+        "Sekolah Dasar",
+        "Sekolah Menengah Pertama ",
+        "Sekolah Menengah Atas",
+        "Diploma (Diploma ,II,III)",
+        "Sarjana (Diploma IV dan Strata I)",
+        "Pascasarjana (Strata II dan III) "
+      ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    } if (barChart.value =='T1_21') {
+      console.log(barChart.value);
+
+      tujuan1.data.datasets[0].data = [7.89, 14.47, 14.29];
+      tujuan1.data.datasets[1].data = [31.58, 31.58, 21.43];
+      tujuan1.data.datasets[2].data = [15.79, 17.11, 7.14];
+      tujuan1.data.datasets[3].data = [27.63, 18.42, 28.57];
+      tujuan1.data.datasets[4].data = [13.16, 14.47, 7.14];
+      tujuan1.data.datasets[5].data = [3.95, 3.95, 21.43]; 
+      tujuan1.data.labels = [
+        "Di Bawah SMA/SMK",
+        "SMA/SMK",
+        "Di Atas SMA/SMK" 
+      ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    }  if (barChart.value =='T1_22') {
+      console.log(barChart.value);
+            tujuan1.data.datasets[0].data = [18.26, 9.20];
+            tujuan1.data.datasets[1].data = [30.43, 32.20];
+            tujuan1.data.datasets[2].data = [11.30, 11.41];
+            tujuan1.data.datasets[3].data = [19.13, 15.16];
+            tujuan1.data.datasets[4].data = [10.43, 23.00];
+            tujuan1.data.datasets[5].data = [10.43, 9.03];  
+      tujuan1.data.labels = [
+        "Ya",
+        "Tidak"
+      ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    }  if (barChart.value =='T1_23') {
+      console.log(barChart.value);
+
+      tujuan1.data.datasets[0].data = [17.81	,8.81];
+            tujuan1.data.datasets[1].data = [27.40	,33.09];
+            tujuan1.data.datasets[2].data = [15.75	,10.25];
+            tujuan1.data.datasets[3].data = [13.70,	16.37];
+            tujuan1.data.datasets[4].data = [13.01,	23.02];
+            tujuan1.data.datasets[5].data = [12.33,	8.45]; 
+      tujuan1.data.labels = [
+       "Ya", "Tidak"
+      ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    } if (barChart.value =='T1_24') {
+      console.log(barChart.value);
+
+      tujuan1.data.datasets[0].data = [14.80, 8.77];
+      tujuan1.data.datasets[1].data = [34.53, 30.69];
+      tujuan1.data.datasets[2].data = [10.31, 11.90];
+      tujuan1.data.datasets[3].data = [18.39, 14.61];
+      tujuan1.data.datasets[4].data = [14.35, 24.01];
+      tujuan1.data.datasets[5].data = [7.62, 10.02]; 
+      tujuan1.data.labels = [
+        "Layak Huni",
+        " Tidak Layak Huni"
+       ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    } if (barChart.value =='T1_25') {
+      console.log(barChart.value);
+
+      tujuan1.data.datasets[0].data = [10.42, 13.82];
+      tujuan1.data.datasets[1].data = [32.29, 34.18];
+      tujuan1.data.datasets[2].data = [11.31, 11.64];
+      tujuan1.data.datasets[3].data = [16.22, 17.09];
+      tujuan1.data.datasets[4].data = [21.28, 15.27];
+      tujuan1.data.datasets[5].data = [8.48, 8.00]; 
+      tujuan1.data.labels = [
+        "Sumber air minum bersih",
+        "Akses air minum layak"       ];
+      // console.log(tujuan1.data.datasets[0].data)
+      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.update();
+    } if (barChart.value =='T1_26') {
+      console.log(barChart.value);
+
+        tujuan1.data.datasets[0].data = [11.53, 6.61];
+        tujuan1.data.datasets[1].data = [32.36, 29.75];
+        tujuan1.data.datasets[2].data = [10.50, 15.70];
+        tujuan1.data.datasets[3].data = [17.56, 7.44];
+        tujuan1.data.datasets[4].data = [19.10, 29.75];
+        tujuan1.data.datasets[5].data = [8.95, 10.74]; 
+      tujuan1.data.labels = [
+        "Sanitasi layak",
+        "Sanitasi tidak layak"      
       ];
       // console.log(tujuan1.data.datasets[0].data)
       tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
