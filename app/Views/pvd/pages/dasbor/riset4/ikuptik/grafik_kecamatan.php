@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="mb-0 col-lg-12 grid-margin stretch-card">
                             <div>
-                                <h4>Interpretasii Mapp Chartt</h4>
+                                <h4 class="text-center">Interpretasi</h4>
                                 <p class="text-justify">
                                     Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                             </div>
@@ -110,16 +110,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="mb-0 col-lg-8 grid-margin">
+                        <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style=" height:300px;"> 
+                                <div class = "chartBox" style="position: relative; height:65vh;"> 
                                     <canvas class="mt1" id="chart-2"></canvas>
                                 </div>
                             </div>
                         </div>
-                        <div class="mb-0 col-lg-4 grid-margin stretch-card">
+                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
                             <div>
-                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                <h4>Interpretasi</h4>
                                 <p class="text-justify">
                                 Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                                 </p>
@@ -146,16 +146,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="mb-0 col-lg-8 grid-margin">
+                        <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style=" height:300px;"> 
+                                <div class = "chartBox" style="position: relative; height:65vh;"> 
                                     <canvas class="mt1" id="chart-3"></canvas>
                                 </div>
                             </div>
                         </div>
-                        <div class="mb-0 col-lg-4 grid-margin stretch-card">
+                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
                             <div>
-                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                <h4>Interpretasi</h4>
                                 <p class="text-justify">
                                 Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Junrejo, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Junrejo berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,50. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Junrejo tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                             </div>
@@ -181,16 +181,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="mb-0 col-lg-8 grid-margin">
+                        <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style=" height:300px;"> 
+                                <div class = "chartBox" style="position: relative; height:65vh;"> 
                                     <canvas class="mt1" id="chart-4"></canvas>
                                 </div>
                             </div>
                         </div>
-                        <div class="mb-0 col-lg-4 grid-margin stretch-card">
+                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
                             <div>
-                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                <h4>Interpretasi</h4>
                                 <p class="text-justify">
                                 Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Junrejo, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Junrejo berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,50. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Junrejo tergolong cukup siap dalam memanfaatkan TIK.                                </p>
                                 </p>
