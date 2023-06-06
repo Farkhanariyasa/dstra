@@ -1,8 +1,15 @@
 $(document).ready(function() {
-$("#name").on('change', function() {
+    // Menampilkan selected value saat halaman pertama kali dimuat
+    var selectedValue = $("#name").val();
+    console.log(selectedValue);
+  
+    // Mengubah tampilan berdasarkan selected value
     $(".datatujuan").hide();
-
-    $("#" + $(this).val()).fadeIn(700);
-    // alert($(this).val());
-});
-});
+    $("#" + selectedValue).fadeIn(700);
+  
+    // Event handler saat pilihan diubah
+    $("#name").on('change', function() {
+      $(".datatujuan").hide();
+      $("#" + $(this).val()).fadeIn(700);
+    });
+  });
