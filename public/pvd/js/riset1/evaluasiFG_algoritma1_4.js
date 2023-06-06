@@ -8,7 +8,7 @@ const doughnutlabel = {
         ctx.save();
         const xCoor = chart.getDatasetMeta(0).data[0].x;
         const yCoor = chart.getDatasetMeta(0).data[0].y;
-        ctx.font = 'bold 40px Helvetica';
+        ctx.font = 'bold 20px Helvetica';
         ctx.fillStyle = '#000000'//'#506396';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
