@@ -83,7 +83,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -99,14 +99,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-A-1"></canvas>
+                                                    <canvas id="viz-2-3-1-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-A-2"></canvas>
+                                                    <canvas id="viz-2-3-1-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-2">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -146,14 +146,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-B-1"></canvas>
+                                                    <canvas id="viz-2-3-2-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-B-2"></canvas>
+                                                    <canvas id="viz-2-3-2-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -193,14 +193,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-C-1"></canvas>
+                                                    <canvas id="viz-2-3-3-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-C-2"></canvas>
+                                                    <canvas id="viz-2-3-3-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -224,7 +224,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-4">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -240,14 +240,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-D-1"></canvas>
+                                                    <canvas id="viz-2-3-4-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-D-2"></canvas>
+                                                    <canvas id="viz-2-3-4-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,7 +271,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-5">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -287,14 +287,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-E-1"></canvas>
+                                                    <canvas id="viz-2-3-5-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-E-2"></canvas>
+                                                    <canvas id="viz-2-3-5-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -318,7 +318,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-6">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -334,14 +334,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-F-1"></canvas>
+                                                    <canvas id="viz-2-3-6-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-F-2"></canvas>
+                                                    <canvas id="viz-2-3-6-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -365,7 +365,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-7">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -381,14 +381,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-G-1"></canvas>
+                                                    <canvas id="viz-2-3-7-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-G-2"></canvas>
+                                                    <canvas id="viz-2-3-7-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -412,7 +412,7 @@
                                 <div class="pb-2 card-body">
                                     <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                                            <button type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4-barplot">
+                                            <button id="download-8" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-8">
                                                 <i class="fa-solid fa-download"></i>
                                             </button>
                                         </div>
@@ -428,14 +428,14 @@
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-H-1"></canvas>
+                                                    <canvas id="viz-2-3-8-A"></canvas>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-4 grid-margin">
                                             <div>
                                                 <div class = "chartBox" style=" height:300px;"> 
-                                                    <canvas id="viz-2-3-H-2"></canvas>
+                                                    <canvas id="viz-2-3-8-B"></canvas>
                                                 </div>
                                             </div>
                                         </div>
@@ -488,24 +488,24 @@
       </script>
 
       <!-- Import Chart -->
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_A_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_A_2_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_B_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_B_2_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_C_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_C_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_D_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_D_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_E_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_E_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_F_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_F_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_G_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_G_2_bar.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_H_1_doughnut.js') ?>"></script>
-      <script src="<?= base_url('pvd/js/riset4/kuuu_3_H_2_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_1_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_1_B_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_2_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_2_B_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_3_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_3_B_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_4_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_4_B_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_5_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_5_B_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_6_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_6_B_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_7_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_7_B_bar.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_8_A_doughnut.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/kuuu_3_8_B_bar.js') ?>"></script>
 
       <!-- Fungsi Unduh Chart -->
-      <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+      <script src="<?= base_url('pvd/js/riset4/button_download_2_3.js') ?>"></script>
     </section>
   <?= $this->endSection(); ?>

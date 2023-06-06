@@ -1,4 +1,4 @@
-const B2 = document.getElementById('viz-2-3-B-2');
+const B2 = document.getElementById('viz-2-3-2-B');
 
 new Chart(B2, {
     type: 'doughnut',

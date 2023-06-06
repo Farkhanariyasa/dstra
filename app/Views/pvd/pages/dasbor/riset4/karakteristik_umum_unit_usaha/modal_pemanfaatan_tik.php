@@ -1,5 +1,5 @@
 <!-- 1 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -41,7 +41,7 @@
 </div>
 
 <!-- 2 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -83,7 +83,7 @@
 </div>
 
 <!-- 3 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal"
+                    <button disabled type="submit" id="button-download-3" class="tombolkonf" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -125,7 +125,7 @@
 </div>
 
 <!-- 4 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-4" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -167,7 +167,7 @@
 </div>
 
 <!-- 5 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -200,7 +200,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal"
+                    <button disabled type="submit" id="button-download-5" class="tombolkonf" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -209,7 +209,7 @@
 </div>
 
 <!-- 6 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -242,7 +242,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-6" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -251,7 +251,7 @@
 </div>
 
 <!-- 7 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -284,7 +284,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal"
+                    <button disabled type="submit" id="button-download-7" class="tombolkonf" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -293,7 +293,7 @@
 </div>
 
 <!-- 8 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -326,7 +326,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-8" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -335,7 +335,7 @@
 </div>
 
 <!-- 9 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -368,7 +368,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal"
+                    <button disabled type="submit" id="button-download-9" class="tombolkonf" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -377,7 +377,7 @@
 </div>
 
 <!-- 10 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -419,7 +419,7 @@
 </div>
 
 <!-- 11 -->
-<div class="modal fade" id="#exampleModal-m2sm3-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -461,7 +461,7 @@
 </div>
 
 <!-- 12 -->
-<div class="modal fade" id="#exampleModal-m2sm3-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-download-12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

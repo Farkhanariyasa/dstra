@@ -1,26 +1,23 @@
-const A2 = document.getElementById('viz-2-3-A-2');
+const G1 = document.getElementById('viz-2-3-7-A');
 
-new Chart(A2, {
+new Chart(G1, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Jasa Transportasi Wisata"],
-            ["Jasa Penyediaan Makanan dan Minuman"],
-            ["Penyediaan Akomodasi"],
+            ["Tidak Memanfaatkan"],
+            ["Memanfaatkan"]
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                uupStatusMemanfaatkanJenis.transportasi,
-                uupStatusMemanfaatkanJenis.makan,
-                uupStatusMemanfaatkanJenis.akomodasi,
+                (uupStatusMemanfaatkan.tidak),
+                (uupStatusMemanfaatkan.ya),
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffbc33",
-                "#7382ab",
-                "#6f617f"
+                "#ffab00",
+                "#506396",
             ],
         }]
     },
@@ -45,8 +42,13 @@ new Chart(A2, {
             },
             legend:{
                 display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
                 position: 'bottom',
                 align: 'start',
+
             },
             tooltip:{
                 enabled: true,

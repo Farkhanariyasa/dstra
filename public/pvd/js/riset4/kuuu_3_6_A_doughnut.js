@@ -1,6 +1,6 @@
-const D1 = document.getElementById('viz-2-3-D-1');
+const F1 = document.getElementById('viz-2-3-6-A');
 
-new Chart(D1, {
+new Chart(F1, {
     type: 'doughnut',
     data: {
         labels: [

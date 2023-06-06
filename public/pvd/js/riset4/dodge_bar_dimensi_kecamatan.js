@@ -21,8 +21,16 @@ const bar_1 = new Chart(bar1, {
     },
     options: {
         scales: {
-            y: {
-            beginAtZero: true
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{            
+                beginAtZero: true,
+                grid:{
+                    display:false
+                },
             }
         },
         maintainAspectRatio: false,
@@ -102,7 +110,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Total';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "0. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Berdasarkan nilai IKUPTIK total, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 48,23.";
     } if (barKecamatan1.value =='dimensi1') {
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -114,7 +122,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Infrastruktur dan Konektivitas';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Infrastruktur dan Konektivitas, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Batu memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 47,48.";
     } if (barKecamatan1.value =='dimensi2') {
             console.log(barKecamatan1.value);
             bar_1.data.datasets[0].data = 
@@ -126,7 +134,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Penggunaan TIK';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Penggunaan TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu kurang siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 22,15.";
     } if (barKecamatan1.value =='dimensi3'){
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -138,7 +146,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Sumber Daya Manusia';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Infrastruktur dan Konektivitas, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 60,12.";
     } if (barKecamatan1.value =='dimensi4') {
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -150,7 +158,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Manajemen Organisasi';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Manajemen Organisasi, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 64,56.";
     } if (barKecamatan1.value =='dimensi5') {
             console.log(barKecamatan1.value);
             bar_1.data.datasets[0].data = 
@@ -162,7 +170,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Ketersediaan Prasarana TIK';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Ketersediaan Prasarana TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Batu memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 68,92.";
     } if (barKecamatan1.value =='dimensi6'){
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -174,6 +182,6 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Motivasi Penggunaan TIK';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Motivasi Penggunaan TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Junrejo memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 49,08.";
     }
 }

@@ -1,6 +1,6 @@
-const A1 = document.getElementById('viz-2-3-A-1');
+const C1 = document.getElementById('viz-2-3-3-A');
 
-new Chart(A1, {
+new Chart(C1, {
     type: 'doughnut',
     data: {
         labels: [
@@ -13,7 +13,6 @@ new Chart(A1, {
             data: [
                 (uupStatusMemanfaatkan.tidak),
                 (uupStatusMemanfaatkan.ya),
-                
             ],
             borderwidth: 1,
             backgroundColor: [

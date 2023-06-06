@@ -1,25 +1,32 @@
-const C2 = document.getElementById('viz-2-3-C-2');
+const D2 = document.getElementById('viz-2-3-4-B');
 
-new Chart(C2, {
+new Chart(D2, {
     type: 'bar',
     data: {
         labels: [
-            ["Tablet"],
-            ["PC"],
-            ["Laptop"],
-            ["Smartphone"],
+            ["Twitter"],
+            ["Line"],
+            ["Telegram"],
+            ["Email"],
+            ["Lainnya"],
+            ["Telepon"],
+            ["Facebook"],
+            ["Instagram"],
+            ["WhatsApp"],
         ],
 
         datasets: [{
-            label: 'Jumlah Perangkat Digital',
+            label: 'Jumlah Pengguna',
             data: [
-                20,
-                32,
-                110,
-                781
+                3,3,15,43,70,91,117,131,722
             ],
             borderwidth: 1,
             backgroundColor: [
+                "#ffbc33",
+                "#ffbc33",
+                "#ffbc33",
+                "#ffbc33",
+                "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
