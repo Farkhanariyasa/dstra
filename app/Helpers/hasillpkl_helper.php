@@ -250,8 +250,8 @@ function getMenu()
               'href' => '/riset4/pemilik_atau_pengelola_usaha_pariwisata',
             ],
             [
-              'subMenu' => 'Usaha Pariwisata',
-              'href' => '/riset4/usaha_pariwisata',
+              'subMenu' => 'Unit Usaha Pariwisata',
+              'href' => '/riset4/unit_usaha_pariwisata',
             ],
             [
               'subMenu' => 'Pemanfaatan TIK',
