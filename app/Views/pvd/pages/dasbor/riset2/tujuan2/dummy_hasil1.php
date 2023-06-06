@@ -1,12 +1,10 @@
 <!-- Visualisasi 1 new -->
 <div class="portfolio-item filter-riset2-hasilkajian2-1">
     <div class="row mt-3">
-
         <div class="col-sm-8 my-2">
             <div class="card shadow rounded-5">
                 <div class="card-body">
-                    <div
-                        class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
                         <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select class="dropdownunduh1" id="forBarChart">
@@ -25,6 +23,20 @@
                     <div style=" height:500px;">
                         <canvas class="mt1" id="riset2_t2_hasil1"></canvas>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-bepergian-tab" data-bs-toggle="pill" data-bs-target="#pills-bepergian" type="button" role="tab" aria-controls="pills-bepergian" aria-selected="true">Bepergian</button>
+                                </li>
+                                <li class="nav-item" role="presen12wqetation">
+                                    <button class="nav-link" id="pills-kunjungan-tab" data-bs-toggle="pill" data-bs-target="#pills-kunjungan" type="button" role="tab" aria-controls="pills-kunjungan" aria-selected="false">Kunjungan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+ 
                 </div>
             </div>
         </div>
@@ -40,7 +52,7 @@
                         <!-- </div> -->
                         <strong>Turis</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
                     </div>
                 </div>
@@ -68,7 +80,7 @@
                         <!-- </div> -->
                         <strong>Malam</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
                         didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
                     </div>

@@ -3,31 +3,37 @@ new Chart(VIZ_3, {
     type: 'bar',
     data: {
     labels: [
-        ['Infrastruktur dan Konektivitas'],
-        ['Penggunaan TIK'],
-        ['Sumber Daya Manusia'],
-        ['Manajemen Organisasi'],
-        ['Eksternal'],
-        ['Kendala'],
+            ['Infrastruktur dan Konektivitas'],
+            ['Penggunaan TIK'],
+            ['Sumber Daya Manusia'],
+            ['Manajemen Organisasi'],
+            ['Ketersediaan Prasarana TIK'],
+            ['Motivasi Penggunaan TIK'],
     ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            45.26,
-            19.57,
-            53.56,
-            62.11,
-            67.94,
-            47.52
+            // 45.26,
+            // 19.57,
+            // 53.56,
+            // 62.11,
+            // 67.94,
+            // 47.52
+            makan.dimensi1,
+            makan.dimensi2,
+            makan.dimensi3,
+            makan.dimensi4,
+            makan.dimensi5,
+            makan.dimensi6,
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffbc33",
-            "#ffeecc",
-            "#506396",
-            "#6f617f",
-            "#4b395f",
-            "#ffab00"
+            "#c27d90",
+            "#c27d90",
+            "#c27d90",
+            "#c27d90",
+            "#c27d90",
+            "#c27d90"
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
@@ -39,7 +45,7 @@ new Chart(VIZ_3, {
     options: {
         scales: {
             y: {
-            beginAtZero: false,
+            beginAtZero: true,
             display: false
             }
         },

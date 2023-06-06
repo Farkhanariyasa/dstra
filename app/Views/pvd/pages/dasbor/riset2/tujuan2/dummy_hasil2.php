@@ -26,6 +26,20 @@
                     <div style=" height:500px;">
                         <canvas class="mt1" id="riset2_t2_hasil1"></canvas>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-bepergian-tab" data-bs-toggle="pill" data-bs-target="#pills-bepergian" type="button" role="tab" aria-controls="pills-bepergian" aria-selected="true">Bepergian</button>
+                                </li>
+                                <li class="nav-item" role="presen12wqetation">
+                                    <button class="nav-link" id="pills-kunjungan-tab" data-bs-toggle="pill" data-bs-target="#pills-kunjungan" type="button" role="tab" aria-controls="pills-kunjungan" aria-selected="false">Kunjungan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -41,7 +55,7 @@
                         <!-- </div> -->
                         <strong>Pelancong</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                         Pelancong merupakan wisatawan nusantara yang melakukan perjalanan terakhir kurang dari 1 malam.
                     </div>
                 </div>

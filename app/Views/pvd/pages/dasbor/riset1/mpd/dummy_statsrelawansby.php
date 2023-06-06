@@ -14,7 +14,7 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="chartBox" style="height:400px">
+                                <div class="chartBox" style="height:440px">
                                     <canvas class="mt1" id="relawan_output1"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -48,47 +48,36 @@
             <h4 class="card-title judul-card">Output 2</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        <button id="relawan-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="chartBox" style="height:400px">
+                                <div class="chartBox" style="height:440px">
                                     <canvas class="mt1" id="relawan_output2"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output2(this);" type="checkbox" id="forBarChartAxisRelawan_output2" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                    <div class="col-lg-4 grid-margin stretch-card h-100" style="margin-top: -1rem;">
                         <!-- <div class="card bg-secondary"> -->
-                        <div class="card shadow rounded-4">
-                            <div class="card-body">
-                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                                            <i class="fa-solid fa-download"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="chartBox" style="height:400px">
-                                    <canvas class="mt1" id="relawan_output2_2"></canvas>
-                                </div>
-                                <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                    <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output2_2(this);" type="checkbox" id="forBarChartAxisRelawan_output2_2" value="show" checked>
-                                        <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
-                                    </div>
+                        <div class="card-body">
+                            <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
+                                <h3 class="text-center"><b>Story</b></h3>
+                                <div class="card-body border rounded">
+                                    <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,41 +92,36 @@
             <h4 class="card-title judul-card">Output 3</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        <button id="relawan-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="chartBox" style="height:400px">
+                                <div class="chartBox" style="height:440px">
                                     <canvas class="mt1" id="relawan_output3"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output3(this);" type="checkbox" id="forBarChartAxisRelawan_output3" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                    <div class="col-lg-4 grid-margin stretch-card h-100" style="margin-top: -1rem;">
                         <!-- <div class="card bg-secondary"> -->
-                        <div class="card shadow rounded-4">
-                            <div class="card-body">
-                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                    <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                                            <i class="fa-solid fa-download"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="chartBox" style="height: 400px;">
-                                    <canvas class="mt1" id="relawan_output3_2"></canvas>
+                        <div class="card-body">
+                            <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
+                                <h3 class="text-center"><b>Story</b></h3>
+                                <div class="card-body border rounded">
+                                    <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +146,7 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="chartBox" style="height:400px">
+                                <div class="chartBox" style="height:440px">
                                     <canvas class="mt1" id="relawan_output4"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">

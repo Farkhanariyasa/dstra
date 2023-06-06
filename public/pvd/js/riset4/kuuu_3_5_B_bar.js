@@ -1,32 +1,35 @@
-const H2 = document.getElementById('viz-2-3-H-2');
+const E2 = document.getElementById('viz-2-3-5-B');
 
-new Chart(H2, {
+new Chart(E2, {
     type: 'bar',
     data: {
         labels: [
-            ["Transfer Bank"],
-            ["E-wallet"],
-            ["QRIS"],
-            ["Pembayaran dengan kartu"],
-            ["Lainnya"]
+            ["Transaksi"],
+            ["Promosi"],
+            ["Perencanaan Keuangan"],
+            ["Penjualan"],
+            ["Pengadaan Kebutuhan Logistik"],
+            ["Pencatatan Keuangan"],
+            ["Pembuatan dan Pengiriman Faktur atau Tagihan"],
+            ["Manajemen Tenaga Kerja"],
         ],
 
         datasets: [{
             label: 'Jumlah Responden',
             data: [
-                319,
-                275,
-                85,
-                27,
-                5
+                446,546,111,596,327,174,266,124
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffbc33",
+                "#7382ab",
+                "#ffbc33",
+                "#7382ab",
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
+                "#7382ab",
             ],
         }]
     },
@@ -36,7 +39,7 @@ new Chart(H2, {
             x: {
                 display: false,
                 min: 0,
-                max: 500,
+                max: 800,
             },
         },
         responsive: true,
@@ -63,16 +66,10 @@ new Chart(H2, {
                 align: 'start',
             },
             tooltip: {
-                enabled: false,
                 callbacks: {
-                    label: function(context){
-                        var label = context.label,
-                            currentValue = context.raw,
-                            total = context.chart._metasets[context.datasetIndex].total;
-              
-                        var percentage = parseFloat((currentValue/total*100).toFixed(2));
-              
-                        return label + ": " +currentValue + ' (' + percentage + '%)';
+                    title: (context) => {
+                        console.log(context[0].label);
+                        return context[0].label.replaceAll(',',' ');
                     }
                 }
             },

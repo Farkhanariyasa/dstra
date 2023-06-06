@@ -1,45 +1,51 @@
-const VIZ_4 = document.getElementById('viz-4');
-new Chart(VIZ_4, {
+const VIZ_2 = document.getElementById('viz-4');
+new Chart(VIZ_2, {
     type: 'bar',
     data: {
     labels: [
-        ['Infrastruktur dan Konektivitas'],
-        ['Penggunaan TIK'],
-        ['Sumber Daya Manusia'],
-        ['Manajemen Organisasi'],
-        ['Eksternal'],
-        ['Kendala'],
-        ],
+            ['Infrastruktur dan Konektivitas'],
+            ['Penggunaan TIK'],
+            ['Sumber Daya Manusia'],
+            ['Manajemen Organisasi'],
+            ['Ketersediaan Prasarana TIK'],
+            ['Motivasi Penggunaan TIK'],
+    ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            71.45,
-            51.54,
-            43.96,
-            57.44,
-            62.82,
-            32.50
+            // 69.63,
+            // 56.31,
+            // 41.61,
+            // 65.67,
+            // 69.78,
+            // 28.15,
+            akomodasi.dimensi1,
+            akomodasi.dimensi2,
+            akomodasi.dimensi3,
+            akomodasi.dimensi4,
+            akomodasi.dimensi5,
+            akomodasi.dimensi6,
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffab00",
-            "#506396",
-            "#4b395f",
-            "#b35c74",
-            "#ffbc33",
-            "#7382ab"
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
+            "#6f617f",
         ],
         datalabels: {
-            anchor: 'end', // Set the anchor to 'end' to position the labels at the top
-            align: 'top', // Align the labels to the top
-            color: 'black', // Set the color of the labels
+            anchor: 'end',
+            align: 'top',
+            color: 'black' // Set the color of the labels
         },
     }]
     },
     options: {
         scales: {
             y: {
-            beginAtZero: false,
+            beginAtZero: true,
             display: false
             }
         },
@@ -56,7 +62,7 @@ new Chart(VIZ_4, {
             },
             subtitle: {
                 display: true,
-                text : ['Pada Usaha Jasa Transportasi di Kota Batu'],
+                text : ['Pada Usaha Jasa Akomodasi di Kota Batu'],
                 font: {
                     size: 14
                 }

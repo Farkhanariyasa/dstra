@@ -1,4 +1,4 @@
-const B1 = document.getElementById('viz-2-3-B-1');
+const B1 = document.getElementById('viz-2-3-2-A');
 
 new Chart(B1, {
     type: 'doughnut',
@@ -11,8 +11,8 @@ new Chart(B1, {
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                14,
-                86
+                (uupStatusMemanfaatkan.tidak),
+                (uupStatusMemanfaatkan.ya),
             ],
             borderwidth: 1,
             backgroundColor: [

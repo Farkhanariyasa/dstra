@@ -3,14 +3,12 @@ let idbutton = "";
 let idinput = "";
 let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-for (let i = 1; i < 11; i++) {
-    if((i != 6) && (i != 8)){
+for (let i = 1; i < 6; i++) {
         document.getElementById("download-" + [i]).addEventListener("click", (e) => {
             idbutton = "button-download-" + [i];
             console.log("download-" + [i] + " diklik");
             idinput = i - 1;
           });
-    }
 }
 
 function getvalue() {
@@ -61,8 +59,7 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 1; i < 11; i++) { 
-    if((i != 6) && (i != 8)){
+for (let i = 1; i < 6; i++) {
   document
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {
@@ -73,12 +70,11 @@ for (let i = 1; i < 11; i++) {
       createEl.href = canvasUrl;
 
       // This is the name of our downloaded file
-      createEl.download = "Hasil PKL Riset 4 - Dasbor - Chart " + [i];
+      createEl.download = "Hasil PKL Riset 4 - Karakteristik Kesiapan UUP - Chart " + [i];
 
       // Click the download button, causing a download, and then remove it
       createEl.click();
       createEl.remove();
     });
   iddownload = i - 1;
-}
 }

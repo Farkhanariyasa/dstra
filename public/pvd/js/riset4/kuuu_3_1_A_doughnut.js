@@ -1,23 +1,24 @@
-const B2 = document.getElementById('viz-2-3-B-2');
+const A1 = document.getElementById('viz-2-3-1-A');
 
-new Chart(B2, {
+new Chart(A1, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Kecil"],
-            ["Mikro"],
+            ["Tidak Memanfaatkan"],
+            ["Memanfaatkan"]
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                7.0,
-                93.0,
+                (uupStatusMemanfaatkan.tidak),
+                (uupStatusMemanfaatkan.ya),
+                
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#4b395f",
-                "#c27d90",
+                "#ffab00",
+                "#506396",
             ],
         }]
     },
@@ -42,8 +43,13 @@ new Chart(B2, {
             },
             legend:{
                 display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
                 position: 'bottom',
                 align: 'start',
+
             },
             tooltip:{
                 enabled: true,

@@ -44,9 +44,10 @@
 
 <!-- Data Chart -->
 <script>
-  const IKUPTIK_JASA_TRANSPORTASI = <?= json_encode($jasaTransportasi); ?>;
-  const IKUPTIK_JASA_PENYEDIA_MAKANAN_DAN_MINUMAN = <?= json_encode($jasaPenyediaMakananDanMinuman); ?>;
-  const IKUPTIK_JASA_AKOMODASI = <?= json_encode($jasaAkomodasi); ?>;
+  const total = <?= json_encode($total); ?>;
+  const transportasi = <?= json_encode($transportasi); ?>;
+  const makan = <?= json_encode($makan); ?>;
+  const akomodasi = <?= json_encode($akomodasi); ?>;
 </script>
 
 <!-- Impor Chart -->
@@ -56,7 +57,7 @@
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_4.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset2/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/button_download_4_4.js') ?>"></script>
 
 <?= $this->endSection(); ?>
 

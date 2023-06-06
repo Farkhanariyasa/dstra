@@ -2,16 +2,17 @@ const VIZ_1 = document.getElementById('viz-1');
 new Chart(VIZ_1, {
     type: 'bar',
     data: {
-    labels: [['Jasa Penyediaan Makanan dan Minuman'],
-            ['Jasa Transportasi Wisata'],
-            ['Penyediaan Akomodasi']
+    labels: [
+        ['Jasa Transportasi Wisata'],
+        ['Jasa Penyediaan Makanan dan Minuman'],
+        ['Penyediaan Akomodasi'],
         ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            45.52,
-            51.11,
-            52.08
+            total.transportasi,
+            total.makan,
+            total.akomodasi,
         ],
         borderWidth: 1,
         backgroundColor: [
@@ -29,7 +30,7 @@ new Chart(VIZ_1, {
     options: {
         scales: {
             y: {
-            beginAtZero: false,
+            beginAtZero: true,
             display: false
             }
         },

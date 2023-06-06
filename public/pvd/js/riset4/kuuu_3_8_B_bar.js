@@ -1,35 +1,32 @@
-const E2 = document.getElementById('viz-2-3-E-2');
+const H2 = document.getElementById('viz-2-3-8-B');
 
-new Chart(E2, {
+new Chart(H2, {
     type: 'bar',
     data: {
         labels: [
-            ["Transaksi"],
-            ["Promosi"],
-            ["Perencanaan Keuangan"],
-            ["Penjualan"],
-            ["Pengadaan Kebutuhan Logistik"],
-            ["Pencatatan Keuangan"],
-            ["Pembuatan dan Pengiriman Faktur atau Tagihan"],
-            ["Manajemen Tenaga Kerja"],
+            ["Transfer Bank"],
+            ["E-wallet"],
+            ["QRIS"],
+            ["Pembayaran dengan kartu"],
+            ["Lainnya"]
         ],
 
         datasets: [{
             label: 'Jumlah Responden',
             data: [
-                446,546,111,596,327,174,266,124
+                319,
+                275,
+                85,
+                27,
+                5
             ],
             borderwidth: 1,
             backgroundColor: [
                 "#ffbc33",
-                "#7382ab",
-                "#ffbc33",
-                "#7382ab",
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
                 "#ffbc33",
-                "#7382ab",
             ],
         }]
     },
@@ -39,7 +36,7 @@ new Chart(E2, {
             x: {
                 display: false,
                 min: 0,
-                max: 800,
+                max: 500,
             },
         },
         responsive: true,

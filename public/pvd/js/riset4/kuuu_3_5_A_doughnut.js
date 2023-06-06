@@ -1,38 +1,27 @@
-const G2 = document.getElementById('viz-2-3-G-2');
+const E1 = document.getElementById('viz-2-3-5-A');
 
-new Chart(G2, {
-    type: 'bar',
+new Chart(E1, {
+    type: 'doughnut',
     data: {
         labels: [
-            ["Media Sosial"],
-            ["Marketplace"],
-            ["Keduanya"],
+            ["Tidak Memanfaatkan"],
+            ["Memanfaatkan"]
         ],
 
         datasets: [{
-            label: 'Jumlah Responden',
+            label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                48.66,
-                20.30,
-                31.04,
+                (uupStatusMemanfaatkan.tidak),
+                (uupStatusMemanfaatkan.ya),
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffbc33",
-                "#ffbc33",
-                "#ffbc33",
+                "#ffab00",
+                "#506396",
             ],
         }]
     },
     options: {
-        indexAxis: 'y',
-        scales: {
-            x: {
-                display: false,
-                min: 0,
-                max: 100,
-            },
-        },
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
@@ -52,12 +41,17 @@ new Chart(G2, {
                 }
             },
             legend:{
-                display: false,
+                display: true,
+                title: {
+                    display: false,
+                    text : 'Kategori',
+                },
                 position: 'bottom',
                 align: 'start',
+
             },
-            tooltip: {
-                enabled: false,
+            tooltip:{
+                enabled: true,
                 callbacks: {
                     label: function(context){
                         var label = context.label,
@@ -72,14 +66,14 @@ new Chart(G2, {
             },
             datalabels: {
                 display: true,
-                color: 'black',
-                anchor: 'end',
-                align: 'end',
+                color: 'white',
                 formatter: function(value, context) {
                     total = context.chart._metasets[context.datasetIndex].total;
-                    percentage = parseFloat((value).toFixed(2));
+                    percentage = parseFloat((value/total*100).toFixed(2));
                     return percentage + '%';
                 },
+                anchor: 'middle',
+                align: 'middle',
             }
         },
     },
