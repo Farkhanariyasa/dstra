@@ -122,7 +122,7 @@
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_6.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_7.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_8.js') ?>"></script>
-
+ 
     <!-- FG Algoritma 3 -->
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_1.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_2.js') ?>"></script>
