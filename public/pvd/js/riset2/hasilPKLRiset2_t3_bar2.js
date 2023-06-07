@@ -5,15 +5,24 @@ var batang = new Chart(t3_bar2, {
   type: "bar",
   data: {
     labels: [
-      "Anak-Anak (<15 Tahun)",
-      "Remaja (15-24 Tahun)",
-      "Usia Menengah/Paruh Baya-Pra Pensiun (25-54 Tahun)",
-      "Usia Lanjut/Usia Pensiun (55 Tahun Keatas)",
+      "Berlibur/Rekreasi",
+      "Mengunjungi Teman/Keluarga",
+      "Belanja/Shopping",
+      "Olahraga/Kesenian",
+      "Berziarah/Keagamaan",
+      "Kesehatan/Berobat",
+      "Profesi/Bisnis",
+      "Pertemuan/Kongres/Seminar",
+      "Lainnya",
+      "Pendidikan/Pelatihan",
+      "Mudik/Pulkam Hari Raya",
     ],
     datasets: [
       {
         label: "Persentase",
-        data: [125322, 76679, 226818, 64115],
+        data: [
+          57.06, 25.98, 9.18, 1.88, 1.68, 1.36, 1.21, 0.62, 0.53, 0.44, 0.08,
+        ],
         borderWidth: 1,
         backgroundColor: "#ffab00",
         datalabels: {
@@ -28,6 +37,7 @@ var batang = new Chart(t3_bar2, {
     ],
   },
   options: {
+    indexAxis: "y",
     animation: {
       onComplete: () => {
         delayed2 = true;
@@ -49,7 +59,7 @@ var batang = new Chart(t3_bar2, {
       x: {
         title: {
           display: true,
-          text: "Kelompok Usia",
+          text: "Jumlah Wisatawan (%)",
           font: {
             size: 14,
             style: "normal",
@@ -69,7 +79,7 @@ var batang = new Chart(t3_bar2, {
         beginAtZero: true,
         title: {
           display: true,
-          text: "Jumlah Wisatawan",
+          text: "Maksud Utama Perjalanan",
           font: {
             size: 14,
             style: "normal",
@@ -86,9 +96,8 @@ var batang = new Chart(t3_bar2, {
       title: {
         display: true,
         text: [
-          "Jumlah Wisatawan Menurut Kelompok Usia",
-          "Wisatawan Nusantara Dalam Kota di Kota Malang",
-          "Oktober-Desember 2022",
+          "Persentase Maksud Utama pada Perjalanan Terakhir yang Dilakukan",
+          "Wisatawan Nusantara Dalam Kota di Kota Malang Oktober-Desember 2022",
         ],
         font: {
           size: 16,
@@ -117,16 +126,29 @@ barchart.addEventListener("change", tampilData);
 function tampilData() {
   if (barchart.value == "a") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [62047, 69050];
-    batang.data.labels = ["Laki-Laki", "Perempuan"];
-    batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Jenis Kelamin di Kota Malang",
-      "Oktober-Desember 2022",
+    batang.data.datasets[0].data = [
+      57.06, 25.98, 9.18, 1.88, 1.68, 1.36, 1.21, 0.62, 0.53, 0.44, 0.08,
     ];
-    batang.options.indexAxis = "x";
-    batang.options.scales.x.title.text = "Jenis Kelamin";
-    batang.options.scales.y.title.text = "Jumlah Wisatawan";
+    batang.data.labels = [
+      "Berlibur/Rekreasi",
+      "Mengunjungi Teman/Keluarga",
+      "Belanja/Shopping",
+      "Olahraga/Kesenian",
+      "Berziarah/Keagamaan",
+      "Kesehatan/Berobat",
+      "Profesi/Bisnis",
+      "Pertemuan/Kongres/Seminar",
+      "Lainnya",
+      "Pendidikan/Pelatihan",
+      "Mudik/Pulkam Hari Raya",
+    ];
+    batang.options.plugins.title.text = [
+      "Persentase Maksud Utama pada Perjalanan Terakhir yang Dilakukan",
+      "Wisatawan Nusantara Dalam Kota di Kota Malang Oktober-Desember 2022",
+    ];
+    batang.options.indexAxis = "y";
+    batang.options.scales.x.title.text = "Jumlah Wisatawan (%)";
+    batang.options.scales.y.title.text = "Maksud Utama Perjalanan";
     // batang.data.datasets[0].label = "Jumlah";
     // console.log(batang.data.datasets[0].data);
     batang.update();
@@ -173,45 +195,47 @@ function tampilData() {
   } else if (barchart.value == "d") {
     console.log(barchart.value);
     batang.data.datasets[0].data = [
-      75998, 34471, 31253, 15472, 12316, 10273, 6251, 5879, 2971, 2785,
+      53.27, 21.17, 13.97, 4.84, 2.44, 2.09, 0.94, 0.86, 0.42,
     ];
     batang.data.labels = [
-      "Tenaga Usaha Jasa dan Tenaga Penjualan",
-      "Pekerja Kasar",
-      "Profesional",
-      "Pekerja Pengolahan, Kerajinan, dan YBDI",
-      "Teknisi dan Asisten Profesional",
-      "Tenaga Tata Usaha",
-      "Manajer",
-      "Operator dan Perakit Mesin",
-      "Pekerja Terampil Pertanian, Kehutanan, dan Perikanan",
-      "TNI/Polri",
+      "Wisata Kota & Pedesaan",
+      "Objek Wisata Terintegrasi",
+      "Wisata Kuliner",
+      "Wisata Olahraga/Kesehatan",
+      "Wisata Sejarah/Religi",
+      "Eko Wisata",
+      "Wisata MICE",
+      "Wisata Kesenian",
+      "Wisata Petualangan",
     ];
     batang.options.indexAxis = "y";
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Pekerjaan Utama di Kota Malang Oktober-Desember 2022",
+      "Persentase Jenis Kegiatan Wisata yang Dilakukan Wisatawan Nusantara",
+      "Dalam Kota pada Perjalanan Terakhir di Kota Malang Oktober-Desember 2022",
     ];
-    batang.options.scales.x.title.text = "Jumlah Wisatawan";
-    batang.options.scales.y.title.text = "Pekerjaan Utama";
+    batang.options.scales.x.title.text = "Frekuenisi Kegiatan Wisata (%)";
+    batang.options.scales.y.title.text = "Jenis Kegiatan Wisata";
     batang.update();
   } else if (barchart.value == "e") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [1660, 9398, 15442, 44715, 27414];
+    batang.data.datasets[0].data = [49.98, 41.67, 5.78, 1.09, 0.87, 0.45, 0.1, 0.06];
     batang.data.labels = [
-      "Tidak Tamat SD Sederajat",
-      "SD/MI",
-      "SMP/MTs",
-      "SMA/MA/SMK",
-      "Perguruan Tinggi",
+      "Tidak Menggunakan Informasi Utama",
+      "Teman/Saudara/Famili",
+      "Media Sosial",
+      "Media Internet Lainnya",
+      "Media Cetak",
+      "Website Resmi",
+      "Televisi/Radio",
+      "Lainnya",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Tingkat Pendidikan di Kota Malang Oktober-Desember 2022",
+      "Persentase Media Informasi Utama yang Digunakan Pada Perjalanan Terakhir",
+      "di Kota Malang Oktober-Desember 2022",
     ];
-    batang.options.indexAxis = "x";
-    batang.options.scales.x.title.text = "Tingkat Pendidikan";
-    batang.options.scales.y.title.text = "Jumlah Wisatawan";
+    batang.options.indexAxis = "y";
+    batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
+    batang.options.scales.y.title.text = "Media Informasi Utama";
     batang.update();
   } else if (barchart.value == "f") {
     console.log(barchart.value);
