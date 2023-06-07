@@ -5,9 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan
-          <i>Smart Tourism Destination</i></strong>
-      </h6>
+      <h4 style="color: #4b395f;"><strong>Dokumen Terkait di Riset 4</strong></h4>
     </header>
     <hr class="hrjudul">
   </div>
