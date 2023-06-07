@@ -46,7 +46,10 @@
                             <div>
                                 <h4 class="text-center">Interpretasi</h4>
                                 <p class="text-justify">
-                                    Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
+                                    Secara keseluruhan,unit usaha pariwisata yang berada di tiga kecamatan tergolong cukup siap dalam memanfaatkan TIK.
+                                    Kemudian, untuk nilai indeks kesiapan tertinggi  terletak di Kecamatan Bumiaji dengan nilai indeks sebesar 48,23. 
+                                    Yang artinya unit usaha pariwisata yang terletak di Kecamatan Bumiaji tergolong cukup siap dalam memanfaatkan TIK.                            
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -192,7 +195,7 @@
                             <div>
                                 <h4>Interpretasi</h4>
                                 <p class="text-justify">
-                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Junrejo, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Junrejo berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,50. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Junrejo tergolong cukup siap dalam memanfaatkan TIK.                                </p>
+                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Bumiaji, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi penggunaan TIK, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Bumiaji berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 67,69. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Bumiaji tergolong cukup siap dalam memanfaatkan TIK.</p>
                                 </p>
                             </div>
                         </div>
