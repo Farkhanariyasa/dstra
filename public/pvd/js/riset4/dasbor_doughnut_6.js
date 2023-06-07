@@ -66,7 +66,7 @@ new Chart(A1, {
             },
             datalabels: {
                 display: true,
-                color: 'white',
+                color: 'black',
                 formatter: function(value, context) {
                     total = context.chart._metasets[context.datasetIndex].total;
                     percentage = parseFloat((value/total*100).toFixed(2));
