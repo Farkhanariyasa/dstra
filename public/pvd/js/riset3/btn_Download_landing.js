@@ -56,7 +56,7 @@ function getvalue(){
 }
 
 
-for (let i = 1; i <= 2; i++) {
+for (let i = 2; i <= 2; i++) {
     (function(i) {
       document.getElementById('btndownloadLp_' + i).addEventListener('click', function(e) {
         // Convert our canvas to a data URL
@@ -74,4 +74,68 @@ for (let i = 1; i <= 2; i++) {
       });
     })(i);
 }
+
+document.getElementById('btndownloadLp_1').addEventListener('click', function(e) {
+    var canvas1 = document.getElementById('tujuan1_1');
+    var canvas2 = document.getElementById('tujuan1_2');
+    var canvas3 = document.getElementById('tujuan1_3');
+    var canvas4 = document.getElementById('tujuan1_4');
+    
+    var mergedCanvas = document.getElementById('mergedCanvas');
+    var mergedCtx = mergedCanvas.getContext('2d');
+
+    var canvasWidth = canvas1.width + canvas2.width;
+    var canvasHeight = canvas1.height + canvas3.height;
+
+    mergedCanvas.width = canvasWidth;
+    mergedCanvas.height = canvasHeight;
+
+    mergedCtx.drawImage(canvas1, 0, 0);
+    mergedCtx.drawImage(canvas2, canvas1.width, 0);
+    mergedCtx.drawImage(canvas3, 0, canvas1.height);
+    mergedCtx.drawImage(canvas4, canvas1.width, canvas1.height);
+
+    // Buat tautan unduhan
+    var downloadLink = document.createElement('a');
+    downloadLink.setAttribute('download', 'merged_canvas.png');
+    downloadLink.setAttribute('href', mergedCanvas.toDataURL('image/png').replace('image/png', 'image/octet-stream'));
+    downloadLink.click();
+//     // Convert our canvas to a data URL
+//     let canvasUrl1 = document.getElementById('tujuan1_1').toDataURL();
+//     let canvasUrl2 = document.getElementById('tujuan1_2').toDataURL();
+//     let canvasUrl3 = document.getElementById('tujuan1_3').toDataURL();
+//     let canvasUrl4 = document.getElementById('tujuan1_4').toDataURL();
+
+//     // Create an anchor, and set the href value to our data URL
+//     const createEl1 = document.createElement('a');
+//     const createEl2 = document.createElement('a');
+//     const createEl3 = document.createElement('a');
+//     const createEl4 = document.createElement('a'); 
+
+
+//     createEl1.href = canvasUrl1;
+//     createEl2.href = canvasUrl2;
+//     createEl3.href = canvasUrl3;
+//     createEl4.href = canvasUrl4;
+
+//     console.log("udah diklik")
+//     // This is the name of our downloaded file
+//     createEl1.download = "Riset3_Tujuan1_1";
+//     createEl2.download = "Riset3_Tujuan1_2";
+//     createEl3.download = "Riset3_Tujuan1_3";
+//     createEl4.download = "Riset3_Tujuan1_4";
+
+//     // Click the download button, causing a download, and then remove it
+//     createEl1.click();
+//     createEl1.remove();
+
+//     createEl2.click();
+//     createEl2.remove();
+
+//     createEl3.click();
+//     createEl3.remove();
+
+//     createEl4.click();
+//     createEl4.remove();
+})
 

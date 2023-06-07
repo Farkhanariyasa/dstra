@@ -1,6 +1,6 @@
-let delayed_fg_algoritma2_3;
-const fg_algoritma2_3 = document.getElementById("fg_algoritma2_3");
-const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
+let delayed_dc_algoritma2_7;
+const dc_algoritma2_7 = document.getElementById("dc_algoritma2_7");
+const bar_dc_algoritma2_7 = new Chart(dc_algoritma2_7, {
   type: "line",
   data: {
     labels: [
@@ -20,18 +20,20 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     datasets: [
       {
         label: "Yes",
-        data: [7
-            ,57
-            ,55
-            ,65
-            ,59
-            ,61
+        data: [58
             ,58
-            ,49
-            ,70
-            ,32
-            ,36
-            ,33
+            ,26
+            ,37
+            ,37
+            ,37
+            ,74
+            ,74
+            ,74
+            ,74
+            ,68
+            ,68
+            
+            
             
 
         ],
@@ -46,18 +48,20 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     },
     {
         label: "No",
-        data: [99
-            ,85
-            ,87
-            ,77
-            ,88
-            ,94
+        data: [97
+            ,97
+            ,99
+            ,98
             ,98
             ,99
-            ,91
-            ,99
-            ,99
-            ,99
+            ,96
+            ,96
+            ,96
+            ,96
+            ,96
+            ,95
+            
+            
             
             
         ],
@@ -79,11 +83,11 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_fg_algoritma2_3 = true;
+        delayed_dc_algoritma2_7 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_fg_algoritma2_3) {
+        if (context.type === "data" && context.mode === "default" && !delayed_dc_algoritma2_7) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;

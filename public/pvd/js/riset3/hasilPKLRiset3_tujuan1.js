@@ -68,7 +68,7 @@ const tujuan1 =new Chart(ctx, {
           },
         legend:{
             display: true,
-            position: "right"
+            position: "bottom"
           },
         datalabels:{
             display:true,
@@ -167,27 +167,27 @@ function tampilData(){
 
             tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
             tujuan1.data.datasets[0].data = [10.40, 11.54, 8.96, 3.33, 25.81];
-tujuan1.data.datasets[0].barThickness= 100
+            tujuan1.data.datasets[0].barThickness= 70 
       
             tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
             tujuan1.data.datasets[1].data = [40.46, 27.47, 26.12, 40.00, 16.13];
-            tujuan1.data.datasets[1].barThickness= 100
+            tujuan1.data.datasets[1].barThickness= 70
       
             tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
             tujuan1.data.datasets[2].data = [2.31, 11.54, 15.67, 16.67, 19.35];
-            tujuan1.data.datasets[2].barThickness= 100
+            tujuan1.data.datasets[2].barThickness= 70 
       
             tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
             tujuan1.data.datasets[3].data = [19.65, 12.64, 17.91, 8.33, 16.13];
-            tujuan1.data.datasets[3].barThickness= 100
+            tujuan1.data.datasets[3].barThickness= 70 
       
             tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
             tujuan1.data.datasets[4].data =  [21.39, 21.98, 18.66, 28.33, 16.13];
-            tujuan1.data.datasets[4].barThickness= 100
+            tujuan1.data.datasets[4].barThickness= 70 
       
             tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
             tujuan1.data.datasets[5].data = [5.78, 14.84, 12.69, 3.33, 6.45]; 
-            tujuan1.data.datasets[5].barThickness=100
+            tujuan1.data.datasets[5].barThickness=70  
             
             tujuan1.data.labels = [
               'Dibawah 15 dan 15 - 24',
@@ -205,7 +205,7 @@ tujuan1.data.datasets[0].barThickness= 100
       
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [10.22	,10.85];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [37.63,	29.84];
@@ -238,7 +238,7 @@ tujuan1.data.datasets[0].barThickness= 150,
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [10.74,10.60];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [24.82,42.40];
@@ -272,7 +272,7 @@ tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [12.56, 8.77, 12.71, 9.22];
-tujuan1.data.datasets[0].barThickness= 100;
+      tujuan1.data.datasets[0].barThickness= 100;
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [39.07, 33.33, 19.49, 29.08];
@@ -307,7 +307,7 @@ tujuan1.data.datasets[0].barThickness= 100;
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [13.62, 4.74];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [25.53, 44.83];
@@ -341,7 +341,7 @@ tujuan1.data.datasets[0].barThickness= 150,
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [14.55, 9.78, 4.74];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [23.81, 32.61, 44.83];
@@ -680,7 +680,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Pascasarjana (Strata II dan III) "
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='T1_20';
+      tujuan1.options.plugins.title.text='T170  ';
       tujuan1.update();
     } if (barChart.value =='T1_21') {
       console.log(barChart.value);

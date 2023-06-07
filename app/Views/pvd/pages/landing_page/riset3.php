@@ -519,6 +519,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <canvas style="display: none;" id="mergedCanvas"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -561,10 +562,29 @@
                                                     <div class="card-body">
                                                         <div class="chartBox">
                                                             <div>
-                                                                <p>persamaan reglog</p>
+                                                                <p style="font-weight: bold;">Persamaan Regresi Logistik</p>
+                                                                <!-- <div>
+                                                                    <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
+     
+                                                                 </div> -->
+                                                                 <div >
+                                                                    <p style= "">$$\ln\left(\frac{p}{1-p}\right) = -1,263 + 1,597ind(1)^*$$
+                                                                        $$+ 1,750ind(2)^* + 0,648ind(3)^*- $$
+                                                                        $$0,010ind(4) + 0,721ind(5) + 0,347jk + $$
+                                                                        $$0,106didik- 0,021usia^*+ 0,437kawin + $$
+                                                                        $$  0,319latih + 0,256umr + $$
+                                                                        $$ 0,817geo^* + 0,850wil^*$$</p>
+                                                                 </div>
+                                                                 <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
                                                             <div>
-                                                                <p>variabel yang signifikan</p>
+                                                                <p style="font-weight: bold;">Variabel yang signifikan</p>
+                                                                <ul>
+                                                                    <li>Jenis industri (Penyediaan jasa makan dan minum serta perdagangan barang-barang pariwisata)</li>
+                                                                    <li>Usia</li>
+                                                                    <li>Letak geografis</li>
+                                                                    <li>Wilayah tempat tinggal</li>
+                                                                </ul> 
                                                             </div>
                                                         </div>
                                                     </div>
@@ -574,7 +594,7 @@
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body">
                                                         <div class="chartBox">
-                                                            <p>kerangka pikir</p>
+                                                            <p style="font-weight: bold;">Kerangka Pikir</p>
                                                             <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkapikir_riset3.png') ?>" class="img-fluid" alt="">
                                                         </div>
                                                     </div>
@@ -587,27 +607,28 @@
                         </div>
                         <div class="portfolio-item filter-tujuan4">
                             <div class="col-lg-12 grid-margin stretch-card">
-                                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
-                                    <!-- <p class="card-text text-center">
-                                        <strong></strong>
-                                    </p> -->
+                                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-2 pt-5 shadow">
                                     <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
-                                        <div style="padding-left: 2.5rem; padding-right: 2.5rem">
-                                            <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                                                Indeks Sadar Wisata (ISW) Kabupaten Malang</h1>
-                                            <subtitle>
-                                                <strong>
-                                                    <ul>
-                                                        <li style="float: left; margin: 0 20px;">0 &lt; ISW &lt; 41.53 (Kurang)</li>
-                                                        <li style="float: left; margin: 0 20px;">41.53 &le; ISW &lt; 79.14 (Sedang)</li>
-                                                        <li style="float: left; margin: 0 20px;">79.14 &le; ISW &le; 100 (Baik)</li>
-                                                    </ul>
-                                                </strong>
-                                            </subtitle>
-                                        </div>
+                                        <h1 class="chart-title judul-chart text-center" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                            Indeks Sadar Wisata (ISW) Kabupaten Malang
+                                        </h1>
                                     </div>
-                                    <div class="d-flex flex-row align-item-center justify-content-center" style="width: 100%; height:80vh;">
+                                    <div class="mb-5 d-flex flex-row align-item-center justify-content-center" style="width: 100%; height:80vh;">
                                         <div id="chart_isw" style="width: 100%; height:80vh; z-index:0;"></div>
+                                    </div>
+                                    <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                        <h1 class="chart-title judul-chart text-center" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                            Indeks Sadar Wisata (ISW) per Dimensi Kabupaten Malang
+                                        </h1>
+                                        <div class="col-lg-12 grid stretch-card">
+                                            <div class="card" style="border: 0">
+                                                <div class="card-body" style="padding: 16px;">
+                                                    <div class="chartBox" style="height: 360px;">
+                                                        <canvas class="mt1" id="lp_tujuan4"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -655,5 +676,9 @@
 <script src="<?= base_url('pvd/js/riset3/layer_dasar_peta_malang.js') ?>"></script>
 <!-- fungsi unduh -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download_landing.js') ?>"></script>
+
+<!-- Rumus Reglog -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 <?= $this->endSection(); ?>

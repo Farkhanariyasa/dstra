@@ -1,6 +1,6 @@
-let delayed_fg_algoritma2_3;
-const fg_algoritma2_3 = document.getElementById("fg_algoritma2_3");
-const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
+let delayed_fg_algoritma2_8;
+const fg_algoritma2_8 = document.getElementById("fg_algoritma2_8");
+const bar_fg_algoritma2_8 = new Chart(fg_algoritma2_8, {
   type: "line",
   data: {
     labels: [
@@ -19,19 +19,21 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     ],
     datasets: [
       {
-        label: "Yes",
-        data: [7
-            ,57
-            ,55
-            ,65
-            ,59
-            ,61
-            ,58
-            ,49
-            ,70
-            ,32
-            ,36
-            ,33
+        label: "Accuracy",
+        data: [65
+            ,89
+            ,92
+            ,93
+            ,94
+            ,95
+            ,96
+            ,94
+            ,93
+            ,90
+            ,90
+            ,90
+            
+            
             
 
         ],
@@ -44,33 +46,6 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
         pointRadius: 1,
         pointHoverRadius: 10,
     },
-    {
-        label: "No",
-        data: [99
-            ,85
-            ,87
-            ,77
-            ,88
-            ,94
-            ,98
-            ,99
-            ,91
-            ,99
-            ,99
-            ,99
-            
-            
-        ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
-        fill: false,
-        borderColor: "#C27D90",
-        pointStyle: 'circle',
-        pointRadius: 1,
-        pointHoverRadius: 10,
-    },
-
       
     ],
   },
@@ -79,11 +54,11 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_fg_algoritma2_3 = true;
+        delayed_fg_algoritma2_8 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_fg_algoritma2_3) {
+        if (context.type === "data" && context.mode === "default" && !delayed_fg_algoritma2_8) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -103,7 +78,7 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     plugins: {
       title: {
         display: true,
-        text: ["Recall (%)"],
+        text: ["Accuracy (%)"],
         font: {
           size: 16,
           // family: "Poppins",
@@ -117,7 +92,7 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
         },
       },
       legend: {
-        display: true,
+        display: false,
         position: "bottom",
       },
       tooltip: {

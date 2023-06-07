@@ -96,8 +96,8 @@ var batang = new Chart(t3_bar2, {
       title: {
         display: true,
         text: [
-          "Persentase Maksud Utama pada Perjalanan Terakhir yang Dilakukan",
-          "Wisatawan Nusantara Dalam Kota di Kota Malang Oktober-Desember 2022",
+          "Persentase Maksud Utama pada", "Perjalanan Terakhir yang Dilakukan", "Wisatawan Nusantara Dalam Kota",
+          "di Kota Malang Oktober-Desember 2022",
         ],
         font: {
           size: 16,
@@ -143,8 +143,8 @@ function tampilData() {
       "Mudik/Pulkam Hari Raya",
     ];
     batang.options.plugins.title.text = [
-      "Persentase Maksud Utama pada Perjalanan Terakhir yang Dilakukan",
-      "Wisatawan Nusantara Dalam Kota di Kota Malang Oktober-Desember 2022",
+      "Persentase Maksud Utama pada", "Perjalanan Terakhir yang Dilakukan", "Wisatawan Nusantara Dalam Kota",
+          "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Jumlah Wisatawan (%)";

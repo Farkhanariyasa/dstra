@@ -408,6 +408,9 @@ class Riset4 extends BaseController
             'k9Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 1),
             'k9Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 2),
             'k9Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 3),
+            'k10Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 10, 1),
+            'k10Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 10, 2),
+            'k10Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 10, 3),
         ];
 
         $pendidikanTingkat = [

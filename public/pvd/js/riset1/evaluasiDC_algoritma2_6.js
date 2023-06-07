@@ -1,6 +1,6 @@
-let delayed_fg_algoritma2_3;
-const fg_algoritma2_3 = document.getElementById("fg_algoritma2_3");
-const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
+let delayed_dc_algoritma2_6;
+const dc_algoritma2_6 = document.getElementById("dc_algoritma2_6");
+const bar_dc_algoritma2_6 = new Chart(dc_algoritma2_6, {
   type: "line",
   data: {
     labels: [
@@ -20,18 +20,21 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     datasets: [
       {
         label: "Yes",
-        data: [7
-            ,57
-            ,55
-            ,65
-            ,59
-            ,61
-            ,58
-            ,49
-            ,70
-            ,32
-            ,36
-            ,33
+        data: [44
+            ,46
+            ,45
+            ,41
+            ,44
+            ,54
+            ,47
+            ,45
+            ,45
+            ,41
+            ,41
+            ,38
+            
+            
+            
             
 
         ],
@@ -46,18 +49,20 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     },
     {
         label: "No",
-        data: [99
-            ,85
-            ,87
-            ,77
-            ,88
-            ,94
+        data: [98
             ,98
+            ,97
+            ,97
+            ,97
+            ,97
             ,99
-            ,91
             ,99
             ,99
             ,99
+            ,99
+            ,99
+            
+            
             
             
         ],
@@ -79,11 +84,11 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_fg_algoritma2_3 = true;
+        delayed_dc_algoritma2_6 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_fg_algoritma2_3) {
+        if (context.type === "data" && context.mode === "default" && !delayed_dc_algoritma2_6) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -103,7 +108,7 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
     plugins: {
       title: {
         display: true,
-        text: ["Recall (%)"],
+        text: ["Precision (%)"],
         font: {
           size: 16,
           // family: "Poppins",

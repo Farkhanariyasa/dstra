@@ -33,7 +33,7 @@
                             </button>
                         </div>
                     </div>
-                    <div style=" height: 490px; width: 450px;">
+                    <div style=" height: 490px; width: 400px;">
                         <canvas class="mt-1" id="riset2_t1_hasil2"></canvas>
                     </div>
                 </div>

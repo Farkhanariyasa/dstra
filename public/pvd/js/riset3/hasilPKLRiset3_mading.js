@@ -286,3 +286,60 @@ const pie2 = new Chart(ctx2, {
       },
     }, plugins: [ChartDataLabels]
  });
+
+ const data_tujuan4 = {
+  labels: [
+    'Sejuk-Indah-Ramah',
+    'Kenangan',
+    'Aman-Tertib-Bersih',
+  ],
+  datasets: [{
+      label: 'ISW',
+      data: [48.65,66.37,65.83,],
+      fill: true,
+      backgroundColor: "#506396",
+      borderColor: "#506396",
+      pointBackgroundColor: "#506396",
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: "#506396"
+  },]
+};
+
+const radar = document.getElementById("lp_tujuan4");
+
+new Chart(radar,{
+  type: 'radar',
+  data: data_tujuan4,
+  options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        r: {
+          max: 80,
+          beginAtZero: true,
+          angleLines: {
+            display: false
+          },
+          ticks: {
+            display: false,
+            stepSize: 10
+          }
+        }
+      },
+      plugins: {
+          title: {
+              display: false,
+              // text : "Radar Chart",
+              font: {
+                  size: 20
+              }
+          },
+          elements: {
+              line: {
+                  borderWidth: 3
+              }
+          },
+      },
+  }
+});
