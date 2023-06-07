@@ -561,10 +561,20 @@
                                                     <div class="card-body">
                                                         <div class="chartBox">
                                                             <div>
-                                                                <p>persamaan reglog</p>
+                                                                <p style="font-weight: bold;">Persamaan Reglog</p>
+                                                                <div>
+                                                                    <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
+     
+                                                                 </div>
                                                             </div>
                                                             <div>
-                                                                <p>variabel yang signifikan</p>
+                                                                <p style="font-weight: bold;">Variabel yang signifikan</p>
+                                                                <ul>
+                                                                    <li>Jenis industri (Penyediaan jasa makan dan minum serta perdagangan barang-barang pariwisata)</li>
+                                                                    <li>Usia</li>
+                                                                    <li>Letak geografis</li>
+                                                                    <li>Wilayah tempat tinggal</li>
+                                                                </ul> 
                                                             </div>
                                                         </div>
                                                     </div>
@@ -574,7 +584,7 @@
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body">
                                                         <div class="chartBox">
-                                                            <p>kerangka pikir</p>
+                                                            <p style="font-weight: bold;">kerangka pikir</p>
                                                             <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkapikir_riset3.png') ?>" class="img-fluid" alt="">
                                                         </div>
                                                     </div>
@@ -655,5 +665,9 @@
 <script src="<?= base_url('pvd/js/riset3/layer_dasar_peta_malang.js') ?>"></script>
 <!-- fungsi unduh -->
 <script src="<?= base_url('pvd/js/riset3/btn_Download_landing.js') ?>"></script>
+
+<!-- Rumus Reglog -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 <?= $this->endSection(); ?>
