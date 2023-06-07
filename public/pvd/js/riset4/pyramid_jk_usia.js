@@ -114,7 +114,14 @@ new Chart(pyramid1, {
                 position: 'bottom',
                 align: 'center',
             },
+            // datalabels: {
+            //     display: true,
+            //     color: 'black',
+            //     anchor: 'end',
+            //     align: 'end',
+            // },
             tooltip,
         },
     },
+    // plugins: [ChartDataLabels],
 });
