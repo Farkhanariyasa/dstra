@@ -133,13 +133,10 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <ol class="text-justify">
-                        <li>Mengetahui karakteristik tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>
-                        <li>Menganalisis tingkat kesiapan pemanfaatan TIK dari tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>
-                        <li>Menganalisis faktor-faktor yang memengaruhi kesiapan unit usaha pariwisata skala mikro dan kecil di Kota Batu dalam pemanfaatan TIK.</li>
-                        <li>
-                            Menganalisis perbedaan rata-rata omzet berdasarkan kategori kesiapan pemanfaatan TIK dari unit usaha pariwisata skala mikro dan kecil di Kota Batu.
+                        <li>Mengetahui <b>karakteristik</b> tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>
+                        <li>Menganalisis <b>tingkat kesiapan pemanfaatan TIK</b> dari tiga unit usaha pariwisata skala mikro dan kecil di Kota Batu yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi dalam menerapkan <i>Smart Tourism Destination</i>.</li>
+                        <li>Menganalisis <b>faktor-faktor yang memengaruhi kesiapan</b> unit usaha pariwisata skala mikro dan kecil di Kota Batu dalam pemanfaatan TIK.</li>
                             <!-- <span id="goToMetodologi" class="invisilbe"></span> -->
-                        </li>
                     </ol>
                 </div>
             </div>
