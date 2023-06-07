@@ -31,16 +31,16 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item filter-tujuan1-grafik">
-        <div class="col-lg-12 grid-margin stretch-card">
+
+      <div class="portfolio-item filter-tujuan1-grafik"> <br>
+        <br><br>
+        <div class="col-lg-12 grid-margin stretch-card mt-5">
           <div class="card shadow">
             <div class="card-body">
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                <div class="selectBox mt-2 me-2">
+                <div class="selectBox mt-3 me-2 ">
                   <form action="">
-                    <select class="dropdownunduh1" id="filterValue">
-
-
+                    <select class="dropdownunduhriset3" id="filterValue">
                       <option value="T1_1">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT</option>
                       <option value="T1_2"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia </option>
                       <option value="T1_3"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Perkawinan</option>
@@ -70,13 +70,13 @@
                     </select>
                   </form>
                 </div>
-                <div class="me-1 mt-1 justify-content-end align-item-end">
+                <div class="me-1 mt-3 justify-content-end align-item-end">
                   <button id="unduh-1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal1_1">
                     <i class="fa-solid fa-download"></i>
                   </button>
                 </div>
               </div>
-              <div class="chartBox bar">
+              <div class="chartBox bar mt-3">
                 <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
               </div>
             </div>
