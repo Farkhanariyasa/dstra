@@ -2694,7 +2694,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_1"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2703,7 +2703,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_2"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2712,7 +2712,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_3"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2721,7 +2721,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4130,7 +4130,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma2_1"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_5"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4139,7 +4139,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma2_2"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_6"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4148,7 +4148,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma2_3"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_7"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4157,7 +4157,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma2_4"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma2_8"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -5400,7 +5400,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_1"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -5409,7 +5409,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_2"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -5418,7 +5418,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_3"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -5427,7 +5427,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6744,7 +6744,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
 
                 <div class="isi-tujuan shadow mt-5 mb-0">
                     <h4 class="card-title judul-card">Evaluasi</h4>
@@ -6754,7 +6754,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_1"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_5"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6763,7 +6763,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_2"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_6"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6772,7 +6772,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_3"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_7"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6781,7 +6781,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_4"></canvas>
+                                            <canvas class="mt1" id="fg_algoritma3_8"></canvas>
                                         </div>
                                     </div>
                                 </div>

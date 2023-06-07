@@ -107,11 +107,32 @@
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 
-    <!-- Algoritma 1 -->
+    <!-- FG Algoritma 1 -->
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_1.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_2.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_3.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_4.js') ?>"></script> 
+
+    <!-- FG Algoritma 2 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_4.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_5.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_6.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_7.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_8.js') ?>"></script>
+ 
+    <!-- FG Algoritma 3 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_4.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_5.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_6.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_7.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_8.js') ?>"></script>
+    
 
     <!-- Latex Math -->
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
