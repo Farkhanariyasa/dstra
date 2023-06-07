@@ -39,11 +39,14 @@ function resetHighlight(e) {
   info.update();
 }
 
-var peta_malang_isw = L.map("chart_isw").setView(
-  [-8.1, 112.65],
-  10.2
-);
-  
+var peta_malang_isw = L.map("chart_isw", {
+  maxBounds: [[-7.8, 112.3],[-8.4, 113]],
+  maxBoundsViscosity: 1,
+  center: [-8.1, 112.65],
+  zoom: 10.2,
+  zoomSnap: 0.01 // enables fractional zooms
+});
+
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution:
@@ -76,17 +79,18 @@ info.update = function() {
 info.addTo(peta_malang_isw);
 
 legend.onAdd = function (peta_malang_isw) {
-  var div = L.DomUtil.create("div", "info legend"),
-  grades = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-  // labels = [];
+  var div = L.DomUtil.create("div", "info legend");
+  grades = [0, 41.53, 79.14, 100];
+  labels = ['Kurang', 'Sedang', 'Baik'];
   
   // loop through our density intervals and generate a label with a colored square for each interval
-  for (var i = 0; i < grades.length; i++) {
+  for (var i = 0; i < grades.length-1; i++) {
     div.innerHTML +=
-    '<i style="background:' +
-    getColor(grades[i] + 1) +
-    '"></i> ' +
-      grades[i] +
+    // '<i style="background:' +
+    // getColor(grades[i] + 1) +
+    // '"></i> ' +
+      grades[i] + " &le; ISW &lt; " + grades[i+1] +
+      " (" + labels[i] + ")" +
       "<br>";
     }
 
