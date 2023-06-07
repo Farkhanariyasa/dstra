@@ -584,7 +584,7 @@
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body">
                                                         <div class="chartBox">
-                                                            <p style="font-weight: bold;">kerangka pikir</p>
+                                                            <p style="font-weight: bold;">Kerangka Pikir</p>
                                                             <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkapikir_riset3.png') ?>" class="img-fluid" alt="">
                                                         </div>
                                                     </div>
