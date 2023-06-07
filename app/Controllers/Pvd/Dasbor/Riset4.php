@@ -371,10 +371,87 @@ class Riset4 extends BaseController
 
     public function menu3()
     {
+        $jenisKelaminTingkat = [
+            'lakiTidak' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 1),
+            'lakiCukup' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 2),
+            'lakiSiap' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 3),
+            'perempuanTidak' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 1),
+            'perempuanCukup' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 2),
+            'perempuanSiap' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 3),
+        ];
+
+        $umurTingkat = [
+            'k1Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 1),
+            'k1Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 2),
+            'k1Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 3),
+            'k2Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 2, 1),
+            'k2Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 2, 2),
+            'k2Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 2, 3),
+            'k3Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 3, 1),
+            'k3Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 3, 2),
+            'k3Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 3, 3),
+            'k4Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 4, 1),
+            'k4Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 4, 2),
+            'k4Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 4, 3),
+            'k5Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 5, 1),
+            'k5Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 5, 2),
+            'k5Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 5, 3),
+            'k6Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 6, 1),
+            'k6Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 6, 2),
+            'k6Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 6, 3),
+            'k7Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 7, 1),
+            'k7Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 7, 2),
+            'k7Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 7, 3),
+            'k8Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 8, 1),
+            'k8Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 8, 2),
+            'k8Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 8, 3),
+            'k9Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 1),
+            'k9Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 2),
+            'k9Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 9, 3),
+        ];
+
+        $pendidikanTingkat = [
+            'dasarTidak' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 1, 1),
+            'dasarCukup' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 1, 2),
+            'dasarSiap' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 1, 3),
+            'menengahTidak' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 2, 1),
+            'menengahCukup' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 2, 2),
+            'menengahSiap' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 2, 3),
+            'tinggiTidak' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 3, 1),
+            'tinggiCukup' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 3, 2),
+            'tinggiSiap' => $this->uup->getJumlahUUP2('kelompok_pendidikan', 'status_kesiapan', 3, 3),
+        ];
+
+        $jenisUsahaTingkat = [
+            'transportasiTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 1, 1),
+            'transportasiCukup' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 1, 2),
+            'transportasiSiap' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 1, 3),
+            'makananTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 2, 1),
+            'makananCukup' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 2, 2),
+            'makananSiap' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 2, 3),
+            'akomodasiTidak' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 3, 1),
+            'akomodasiCukup' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 3, 2),
+            'akomodasiSiap' => $this->uup->getJumlahUUP2('jenis_usaha', 'status_kesiapan', 3, 3),
+        ];
+
+        $skalaTingkat = [
+            'mikroTidak' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 1, 1),
+            'mikroCukup' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 1, 2),
+            'mikroSiap' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 1, 3),
+            'kecilTidak' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 1),
+            'kecilCukup' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 2),
+            'kecilSiap' => $this->uup->getJumlahUUP2('skala_kelamin', 'status_kesiapan', 2, 3),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Karakteristik Kesiapan UUP',
             'menu' => $menu['riset4'],
+            'jenisKelaminTingkat' => $jenisKelaminTingkat,
+            'umurTingkat' => $umurTingkat,
+            'pendidikanTingkat' => $pendidikanTingkat,
+            'jenisUsahaTingkat' => $jenisUsahaTingkat,
+            'skalaTingkat' => $skalaTingkat,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup', $data);
     }
