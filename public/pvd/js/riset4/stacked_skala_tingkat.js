@@ -1,31 +1,31 @@
-const stacked1 = document.getElementById('chart-1');
-const stacked_1 = new Chart(stacked1, {
+const stacked5 = document.getElementById('chart-5');
+const stacked_5 = new Chart(stacked5, {
     type:'bar',
     data: {
-        labels: [ ['Laki-laki'],
-            ['Perempuan'],
+        labels: [ ['Mikro'],
+            ['Kecil'],
         ],
         datasets: [{
             label: 'Siap',
             data:[
-                (jenisKelaminTingkat.lakiSiap/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanSiap/450*100).toFixed(2),
+                (skalaTingkat.mikroSiap/870*100).toFixed(2),
+                (skalaTingkat.kecilSiap/55*100).toFixed(2),
             ],
             backgroundColor:"#b35c74",
             borderWidth:1
         },{
             label: 'Cukup Siap',
             data:[
-                (jenisKelaminTingkat.lakiCukup/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanCukup/450*100).toFixed(2),
+                (skalaTingkat.mikroCukup/870*100).toFixed(2),
+                (skalaTingkat.kecilCukup/55*100).toFixed(2),
             ],
             backgroundColor:"#506396",
             borderWidth:1
         },{
             label: 'Kurang Siap',
             data:[
-                (jenisKelaminTingkat.lakiTidak/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanTidak/450*100).toFixed(2),
+                (skalaTingkat.mikroTidak/870*100).toFixed(2),
+                (skalaTingkat.kecilTidak/55*100).toFixed(2),
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
@@ -127,14 +127,14 @@ function responsivefonts(){
 // function update_value_axis_dodge_bar_5(chk_bx) {
 //   if (chk_bx.checked) {
 //     console.log("check");
-//     stacked_1.options.scales.x.display = true;
-//     stacked_1.options.scales.y.display = true;
-//     stacked_1.update();
+//     stacked_5.options.scales.x.display = true;
+//     stacked_5.options.scales.y.display = true;
+//     stacked_5.update();
 //   } else {
 //     console.log("uncheck");
-//     stacked_1.options.scales.x.display = false;
-//     stacked_1.options.scales.y.display = false;
-//     stacked_1.update();
+//     stacked_5.options.scales.x.display = false;
+//     stacked_5.options.scales.y.display = false;
+//     stacked_5.update();
 //   }
 // };
 
@@ -144,11 +144,11 @@ function responsivefonts(){
 // function update_value_legend_dodge_bar_5(chk_bx) {
 //     if (chk_bx.checked) {
 //       console.log("check");
-//       stacked_1.options.plugins.legend.display=true;
-//       stacked_1.update();
+//       stacked_5.options.plugins.legend.display=true;
+//       stacked_5.update();
 //     } else {
 //       console.log("uncheck");
-//       stacked_1.options.plugins.legend.display=false;
-//       stacked_1.update();
+//       stacked_5.options.plugins.legend.display=false;
+//       stacked_5.update();
 //     }
 // };

@@ -372,15 +372,15 @@ class Riset4 extends BaseController
     public function menu3()
     {
         $jenisKelaminTingkat = [
-            'lakiTidak' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 1),
-            'lakiCukup' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 2),
-            'lakiSiap' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 1, 3),
-            'perempuanTidak' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 1),
-            'perempuanCukup' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 2),
-            'perempuanSiap' => $this->uup->getJumlahUUP2('jenis_kelamin', 'status_kesiapan', 2, 3),
+            'lakiTidak' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 1, 1),
+            'lakiCukup' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 1, 2),
+            'lakiSiap' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 1, 3),
+            'perempuanTidak' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 2, 1),
+            'perempuanCukup' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 2, 2),
+            'perempuanSiap' => $this->uup->getJumlahUUP2('gender_pemilik_pengelola', 'status_kesiapan', 2, 3),
         ];
 
-        $umurTingkat = [
+        $usiaTingkat = [
             'k1Tidak' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 1),
             'k1Cukup' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 2),
             'k1Siap' => $this->uup->getJumlahUUP2('kelompok_usia', 'status_kesiapan', 1, 3),
@@ -440,7 +440,7 @@ class Riset4 extends BaseController
             'mikroSiap' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 1, 3),
             'kecilTidak' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 1),
             'kecilCukup' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 2),
-            'kecilSiap' => $this->uup->getJumlahUUP2('skala_kelamin', 'status_kesiapan', 2, 3),
+            'kecilSiap' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 3),
         ];
 
         $menu = getMenu();
@@ -448,7 +448,7 @@ class Riset4 extends BaseController
             'judul' => 'Karakteristik Kesiapan UUP',
             'menu' => $menu['riset4'],
             'jenisKelaminTingkat' => $jenisKelaminTingkat,
-            'umurTingkat' => $umurTingkat,
+            'usiaTingkat' => $usiaTingkat,
             'pendidikanTingkat' => $pendidikanTingkat,
             'jenisUsahaTingkat' => $jenisUsahaTingkat,
             'skalaTingkat' => $skalaTingkat,

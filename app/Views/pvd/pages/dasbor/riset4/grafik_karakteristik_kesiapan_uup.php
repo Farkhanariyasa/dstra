@@ -292,7 +292,7 @@
                                             <div class="mb-0 col-lg-7 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
+                                                        <canvas id="chart-2"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
@@ -398,7 +398,7 @@
                                             <div class="mb-0 col-lg-7 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
+                                                        <canvas id="chart-3"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
@@ -504,7 +504,7 @@
                                             <div class="mb-0 col-lg-7 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
+                                                        <canvas id="chart-4"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
@@ -599,7 +599,7 @@
                                             <div class="mb-0 col-lg-7 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
+                                                        <canvas id="chart-5"></canvas>
                                                     </div>
                                                 </div>
                                             </div>

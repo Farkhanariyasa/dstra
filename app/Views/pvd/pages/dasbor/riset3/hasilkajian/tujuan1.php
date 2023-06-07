@@ -31,50 +31,52 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item filter-tujuan1-grafik">
-        <div class="col-lg-12 grid-margin stretch-card">
+
+      <div class="portfolio-item filter-tujuan1-grafik"> <br>
+        <br><br>
+        <div class="col-lg-12 grid-margin stretch-card mt-5">
           <div class="card shadow">
             <div class="card-body">
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                <div class="selectBox mt-2 me-2">
+                <div class="selectBox mt-3 me-2 ">
                   <form action="">
-                    <select class="dropdownunduh1" id="filterValue">
-                      <option value="T1_1">T1_1</option>
-                      <option value="T1_2">T1_2</option>
-                      <option value="T1_3">T1_3</option>
-                      <option value="T1_4">T1_4</option>
-                      <option value="T1_5">T1_5</option>
-                      <option value="T1_6">T1_6</option>
-                      <option value="T1_7">T1_7</option>
-                      <option value="T1_8">T1_8</option>
-                      <option value="T1_9">T1_9</option>
-                      <option value="T1_10">T1_10</option>
-                      <option value="T1_11">T1_11</option>
-                      <option value="T1_12">T1_12</option>
-                      <option value="T1_13">T1_13</option>
-                      <option value="T1_14">T1_14</option>
+                    <select class="dropdownunduhriset3" id="filterValue">
+                      <option value="T1_1">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT</option>
+                      <option value="T1_2"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia </option>
+                      <option value="T1_3"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Perkawinan</option>
+                      <option value="T1_4"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kelamin</option>
+                      <option value="T1_5"> Persentase Tenaga Kerja di Industri Pariwisata menurut Jenis Industri dan Jumlah Pendapatan</option>
+                      <option value="T1_6"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet</option>
+                      <option value="T1_7"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Promosi</option>
+                      <option value="T1_8"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Komunikasi</option>
+                      <option value="T1_9"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Transaksi Barang/Jasa</option>
+                      <option value="T1_10"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Keinginan untuk Menambah Pekerjaan</option>
+                      <option value="T1_11"> Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata menurut Industri Pariwisata dan Status Pekerjaan Utama</option>
+                      <option value="T1_12"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Lama Bekerja</option>
+                      <option value="T1_13"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan Sebelumnya</option>
+                      <option value="T1_14"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</option>
                       <option value="T1_15">T1_15</option>
                       <option value="T1_16">T1_16</option>
                       <option value="T1_17">T1_17</option>
                       <option value="T1_18">T1_18</option>
                       <option value="T1_19">T1_19</option>
                       <option value="T1_20">T1_20</option>
-                      <option value="T1_21">T1_21</option>
-                      <option value="T1_22">T1_22</option>
-                      <option value="T1_23">T1_23</option>
-                      <option value="T1_24">T1_24</option>
-                      <option value="T1_25">T1_25</option>
-                      <option value="T1_26">T1_26</option>
+                      <option value="T1_21">Persentase Tenaga Kerja yang Pernah Bekerja di Sektor Pariwisata dalam Tiga Tahun Terakhir Berdasarkan Jenis Industri dan Pendidikan Tertinggi yang Ditamatkan</option>
+                      <option value="T1_22">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Keikutsertaan dalam Pelatihan</option>
+                      <option value="T1_23">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</option>
+                      <option value="T1_24">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Rumah Layak Huni</option>
+                      <option value="T1_25">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sumber Air Minum Bersih dan Akses Air Minum Layak</option>
+                      <option value="T1_26">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sanitasi Layak</option>
                     </select>
                   </form>
                 </div>
-                <div class="me-1 mt-1 justify-content-end align-item-end">
+                <div class="me-1 mt-3 justify-content-end align-item-end">
                   <button id="unduh-1-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#Modal1_1">
                     <i class="fa-solid fa-download"></i>
                   </button>
                 </div>
               </div>
-              <div class="chartBox bar">
+              <div class="chartBox bar mt-3">
                 <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
               </div>
             </div>

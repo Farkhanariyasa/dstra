@@ -1,32 +1,64 @@
-const stacked1 = document.getElementById('chart-1');
-const stacked_1 = new Chart(stacked1, {
+const stacked2 = document.getElementById('chart-2');
+const stacked_2 = new Chart(stacked2, {
     type:'bar',
     data: {
-        labels: [ ['Laki-laki'],
-            ['Perempuan'],
+        labels: [ ['15-19'],
+            ['20-24'],
+            ['25-29'],
+            ['30-34'],
+            ['35-39'],
+            ['40-44'],
+            ['45-49'],
+            ['50-54'],
+            ['55-59'],
+            ['60 ke atas'],
         ],
         datasets: [{
             label: 'Siap',
             data:[
-                (jenisKelaminTingkat.lakiSiap/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanSiap/450*100).toFixed(2),
+                (usiaTingkat.k1Siap/3*100).toFixed(2),
+                (usiaTingkat.k2Siap/31*100).toFixed(2),
+                (usiaTingkat.k3Siap/75*100).toFixed(2),
+                (usiaTingkat.k4Siap/97*100).toFixed(2),
+                (usiaTingkat.k5Siap/98*100).toFixed(2),
+                (usiaTingkat.k6Siap/148*100).toFixed(2),
+                (usiaTingkat.k7Siap/108*100).toFixed(2),
+                (usiaTingkat.k8Siap/136*100).toFixed(2),
+                (usiaTingkat.k9Siap/100*100).toFixed(2),
+                (usiaTingkat.k10Siap/109*100).toFixed(2),        
             ],
             backgroundColor:"#b35c74",
             borderWidth:1
         },{
             label: 'Cukup Siap',
             data:[
-                (jenisKelaminTingkat.lakiCukup/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanCukup/450*100).toFixed(2),
+                (usiaTingkat.k1Cukup/3*100).toFixed(2),
+                (usiaTingkat.k2Cukup/31*100).toFixed(2),
+                (usiaTingkat.k3Cukup/75*100).toFixed(2),
+                (usiaTingkat.k4Cukup/97*100).toFixed(2),
+                (usiaTingkat.k5Cukup/98*100).toFixed(2),
+                (usiaTingkat.k6Cukup/148*100).toFixed(2),
+                (usiaTingkat.k7Cukup/108*100).toFixed(2),
+                (usiaTingkat.k8Cukup/136*100).toFixed(2),
+                (usiaTingkat.k9Cukup/100*100).toFixed(2), 
+                (usiaTingkat.k10Cukup/109*100).toFixed(2),        
             ],
             backgroundColor:"#506396",
             borderWidth:1
         },{
             label: 'Kurang Siap',
             data:[
-                (jenisKelaminTingkat.lakiTidak/475*100).toFixed(2),
-                (jenisKelaminTingkat.perempuanTidak/450*100).toFixed(2),
-            ],
+                (usiaTingkat.k1Tidak/3*100).toFixed(2),
+                (usiaTingkat.k2Tidak/31*100).toFixed(2),
+                (usiaTingkat.k3Tidak/75*100).toFixed(2),
+                (usiaTingkat.k4Tidak/97*100).toFixed(2),
+                (usiaTingkat.k5Tidak/98*100).toFixed(2),
+                (usiaTingkat.k6Tidak/148*100).toFixed(2),
+                (usiaTingkat.k7Tidak/108*100).toFixed(2),
+                (usiaTingkat.k8Tidak/136*100).toFixed(2),
+                (usiaTingkat.k9Tidak/100*100).toFixed(2),  
+                (usiaTingkat.k10Tidak/109*100).toFixed(2),        
+              ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },
@@ -127,14 +159,14 @@ function responsivefonts(){
 // function update_value_axis_dodge_bar_5(chk_bx) {
 //   if (chk_bx.checked) {
 //     console.log("check");
-//     stacked_1.options.scales.x.display = true;
-//     stacked_1.options.scales.y.display = true;
-//     stacked_1.update();
+//     stacked_2.options.scales.x.display = true;
+//     stacked_2.options.scales.y.display = true;
+//     stacked_2.update();
 //   } else {
 //     console.log("uncheck");
-//     stacked_1.options.scales.x.display = false;
-//     stacked_1.options.scales.y.display = false;
-//     stacked_1.update();
+//     stacked_2.options.scales.x.display = false;
+//     stacked_2.options.scales.y.display = false;
+//     stacked_2.update();
 //   }
 // };
 
@@ -144,11 +176,11 @@ function responsivefonts(){
 // function update_value_legend_dodge_bar_5(chk_bx) {
 //     if (chk_bx.checked) {
 //       console.log("check");
-//       stacked_1.options.plugins.legend.display=true;
-//       stacked_1.update();
+//       stacked_2.options.plugins.legend.display=true;
+//       stacked_2.update();
 //     } else {
 //       console.log("uncheck");
-//       stacked_1.options.plugins.legend.display=false;
-//       stacked_1.update();
+//       stacked_2.options.plugins.legend.display=false;
+//       stacked_2.update();
 //     }
 // };

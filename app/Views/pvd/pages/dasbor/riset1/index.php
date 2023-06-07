@@ -11,7 +11,7 @@
   </div>
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-center">
-      <div class="navbar">
+      <!-- <div class="navbar"> -->
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-qa-tab" data-bs-toggle="pill" data-bs-target="#pills-qa" type="button" role="tab" aria-controls="pills-qa" aria-selected="true">Quality Assurance</button>
@@ -26,7 +26,7 @@
           <button class="nav-link" id="pills-wisnus-tab" data-bs-toggle="pill" data-bs-target="#pills-wisnus" type="button" role="tab" aria-controls="pills-wisnus" aria-selected="false">Statistik Wisatawan Nusantara</button>
         </li>
       </ul>
-      </div>
+      <!-- </div> -->
     </div>
   </div>
   <div class="row" id="row">

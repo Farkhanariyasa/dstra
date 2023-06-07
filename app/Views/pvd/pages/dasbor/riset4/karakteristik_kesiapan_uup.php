@@ -47,7 +47,7 @@
 <script src="<?= base_url('pvd/js/riset4/stacked_jenis_kelamin_tingkat.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/stacked_usia_tingkat.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/stacked_pendidikan_tingkat.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/stacked_jenis_usaha_kelamin_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/stacked_jenis_usaha_tingkat.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/stacked_skala_tingkat.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
