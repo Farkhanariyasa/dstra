@@ -121,6 +121,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 3
         $routes->get('karakteristik_kesiapan_uup', 'Riset4::menu3'); // Menu 3
 
+        $routes->post('karakteristik_kesiapan_uup', 'Riset4::menu3'); // Menu 3
+
         // Menu 3
         // $routes->get('infrastruktur_dan_konektivitas', 'Riset4::menu3submenu1'); // Menu 3 Submenu 1
         // $routes->get('penggunaan_tik', 'Riset4::menu3submenu2'); // Menu 3 Submenu 2
