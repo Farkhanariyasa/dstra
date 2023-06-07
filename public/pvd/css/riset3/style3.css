@@ -216,7 +216,16 @@
   }
 }
 
-
+.dropdownunduhriset3 {
+  background-color: #506396;
+  border: transparent;
+  border-radius: 25px;
+  height: 30px;
+  color: white;
+  font-size: small;
+  padding-left: 7px;
+  width: 50%;
+}
 /* waffle chart */
 
 div.tooltip {
