@@ -25,7 +25,7 @@ const stacked_2 = new Chart(stacked2, {
                 (usiaTingkat.k7Siap/108*100).toFixed(2),
                 (usiaTingkat.k8Siap/136*100).toFixed(2),
                 (usiaTingkat.k9Siap/100*100).toFixed(2),
-                (usiaTingkat.k10Siap/109*100).toFixed(2),        
+                (usiaTingkat.k10Siap/129*100).toFixed(2),        
             ],
             backgroundColor:"#b35c74",
             borderWidth:1
@@ -41,7 +41,7 @@ const stacked_2 = new Chart(stacked2, {
                 (usiaTingkat.k7Cukup/108*100).toFixed(2),
                 (usiaTingkat.k8Cukup/136*100).toFixed(2),
                 (usiaTingkat.k9Cukup/100*100).toFixed(2), 
-                (usiaTingkat.k10Cukup/109*100).toFixed(2),        
+                (usiaTingkat.k10Cukup/129*100).toFixed(2),        
             ],
             backgroundColor:"#506396",
             borderWidth:1
@@ -57,7 +57,7 @@ const stacked_2 = new Chart(stacked2, {
                 (usiaTingkat.k7Tidak/108*100).toFixed(2),
                 (usiaTingkat.k8Tidak/136*100).toFixed(2),
                 (usiaTingkat.k9Tidak/100*100).toFixed(2),  
-                (usiaTingkat.k10Tidak/109*100).toFixed(2),        
+                (usiaTingkat.k10Tidak/129*100).toFixed(2),        
               ],
             backgroundColor:"#ffab00",
             borderWidth:1
