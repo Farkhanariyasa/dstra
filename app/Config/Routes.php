@@ -94,10 +94,11 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
         $routes->get('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
 
-        $routes->post('hasilkajian1', 'Riset3::hasilkajian1'); // Hasil Kajian Tujuan 1
-        $routes->post('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
-        $routes->post('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
-        $routes->post('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
+        $routes->post('unduhtujuan1', 'Riset3::unduhtujuan1');
+        $routes->post('unduhtujuan2', 'Riset3::unduhtujuan2');
+        $routes->post('unduhtujuan3', 'Riset3::unduhtujuan3');
+        $routes->post('unduhtujuan4', 'Riset3::unduhtujuan4');
+
 
         // Menu 3
         $routes->get('kuesioner', 'Riset3::kuesioner'); // Menu 3 Submenu 1
