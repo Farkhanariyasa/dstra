@@ -1,14 +1,12 @@
 <!-- Visualisasi 2 -->
 <div class="portfolio-item filter-riset2-hasilkajian3-2">
-    <div class="row mt-3">
+    <div class="row t3h2 mt-3">
         <div class="col-sm-8 my-2 grid-margin stretch-card">
             <div class="card shadow rounded-5">
                 <div class="card-body">
-                    <div
-                        class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal3">
+                            <button id="unduh-3-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                 <i class="fa-solid fa-download"></i>
                             </button>
                         </div>
@@ -23,12 +21,13 @@
 
         <div class="col-sm-4 my-2">
 
-
-            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_12.png') ?>" class="img-fluid" alt="" style="height: auto;">
+            <div class="row m-auto">
+                <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_12.png') ?>" class="img-fluid" alt="" style="height: auto;">
+            </div>
 
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <ul class=" nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
+                    <ul class=" nav-pills mb-3 flex-column" id="pills-tab" role="tablist" style="color:#506396">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-bepergian-tab" data-bs-toggle="pill" data-bs-target="#pills-bepergian" type="button" role="tab" aria-controls="pills-bepergian" aria-selected="true">Maksud Utama</button>
                         </li>
