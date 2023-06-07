@@ -39,6 +39,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
         // Tentang Riset
         $routes->get('/', 'LandingPage::riset/$1');
+        $routes->post('/', 'LandingPage::riset/$1');
+
         // Fungsi Unduh
         $routes->post('unduh', 'Tools::unduh/$1');
     });
@@ -110,7 +112,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->get('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
         $routes->get('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
-        
+
         $routes->post('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->post('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
         $routes->post('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
@@ -125,7 +127,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // $routes->get('manajemen_organisasi', 'Riset4::menu3submenu4'); // Menu 3 Submenu 4
         // $routes->get('kesiapan_lingkungan_eksternal', 'Riset4::menu3submenu5'); // Menu 3 Submenu 5
         // $routes->get('kendala_dalam_pemanfaatan_teknologi_informasi_dan_komunikasi', 'Riset4::menu3submenu6'); // Menu 3 Submenu 6
-        
+
         // Menu 4
         $routes->get('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
         $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
