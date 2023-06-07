@@ -1,4 +1,4 @@
-const sdm_ekonomi = document.getElementById('chart-4');
+const sdm_ekonomi = document.getElementById('chart-3');
 const bar = new Chart(sdm_ekonomi, {
     type:'bar',
     data: {
@@ -32,6 +32,12 @@ const bar = new Chart(sdm_ekonomi, {
         },
         ]
     },options:{
+        indexAxis: 'y',
+        elements: {
+            bar: {
+              borderWidth: 5,
+            }
+          },
         responsive: true,
         maintainAspectRatio: false,
         scales:{
