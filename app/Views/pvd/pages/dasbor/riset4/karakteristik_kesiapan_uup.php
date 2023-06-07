@@ -36,27 +36,19 @@
 
 <!-- Data Chart -->
 <script>
-  // const dimensi_kecamatan = < ?= json_encode($dimensi_kecamatan) ?>;
-  // const dimensi1_kecamatan = < ?= json_encode($dimensi1_kecamatan) ?>;
-  // const dimensi2_kecamatan = < ?= json_encode($dimensi2_kecamatan) ?>;
-  // const dimensi3_kecamatan = < ?= json_encode($dimensi3_kecamatan) ?>;
-  // const dimensi4_kecamatan = < ?= json_encode($dimensi4_kecamatan) ?>;
-  // const dimensi5_kecamatan = < ?= json_encode($dimensi5_kecamatan) ?>;
-  // const dimensi6_kecamatan = < ?= json_encode($dimensi6_kecamatan) ?>;
-  // const dimensi_jenis = < ?= json_encode($dimensi_jenis) ?>;
-  // const dimensi1_jenis = < ?= json_encode($dimensi1_jenis) ?>;
-  // const dimensi2_jenis = < ?= json_encode($dimensi2_jenis) ?>;
-  // const dimensi3_jenis = < ?= json_encode($dimensi3_jenis) ?>;
-  // const dimensi4_jenis = < ?= json_encode($dimensi4_jenis) ?>;
-  // const dimensi5_jenis = < ?= json_encode($dimensi5_jenis) ?>;
-  // const dimensi6_jenis = < ?= json_encode($dimensi6_jenis) ?>;
-  // const ikuptikPerDimensi = < ?= json_encode($ikuptikPerDimensi) ?>;
+  const jenisKelaminTingkat = <?= json_encode($jenisKelaminTingkat) ?>;
+  const usiaTingkat = <?= json_encode($usiaTingkat) ?>;
+  const pendidikanTingkat = <?= json_encode($pendidikanTingkat) ?>;
+  const jenisUsahaTingkat = <?= json_encode($jenisUsahaTingkat) ?>;
+  const skalaTingkat = <?= json_encode($skalaTingkat) ?>;
 </script>
 
 <!-- Impor Chart -->
-<!-- <script src="< ?= base_url('pvd/js/riset4/dodge_bar_dimensi_kecamatan.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/dodge_bar_dimensi_jenis.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/spider_dimensi.js') ?>"></script> -->
+<script src="<?= base_url('pvd/js/riset4/stacked_jenis_kelamin_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/stacked_usia_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/stacked_pendidikan_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/stacked_jenis_usaha_kelamin_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/stacked_skala_tingkat.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_3.js') ?>"></script>
