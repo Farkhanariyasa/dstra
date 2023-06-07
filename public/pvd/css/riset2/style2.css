@@ -175,7 +175,10 @@
         font-size: medium;
     }
 
-    .row.t2h1 {
+    .row.t2h1,
+    .row.t2h2,
+    .row.t3h1,
+    .row.t3h2 {
         /* Reverse Column Order */
         -webkit-flex-flow: column-reverse;
         flex-flow: column-reverse;
@@ -228,7 +231,9 @@
     }
 
     .row.t2h1,
-    .row.t2h2 {
+    .row.t2h2,
+    .row.t3h1,
+    .row.t3h2 {
         /* Reverse Column Order */
         -webkit-flex-flow: column-reverse;
         flex-flow: column-reverse;
