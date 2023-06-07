@@ -1,7 +1,7 @@
 let delayed_fg_algoritma2_6;
 const fg_algoritma2_6 = document.getElementById("fg_algoritma2_6");
 const bar_fg_algoritma2_6 = new Chart(fg_algoritma2_6, {
-  type: "bar",
+  type: "line",
   data: {
     labels: [
         "1", 
@@ -37,9 +37,14 @@ const bar_fg_algoritma2_6 = new Chart(fg_algoritma2_6, {
             
 
         ],
-        backgroundColor: ["#516296",],
-        borderWidth: 1,
-        borderRadius: 8,
+        // backgroundColor: ["#516296",],
+        // borderWidth: 1,
+        // borderRadius: 8,
+        fill: false,
+        borderColor: "#516296",
+        pointStyle: 'circle',
+        pointRadius: 1,
+        pointHoverRadius: 10,
     },
     {
         label: "No",
@@ -59,9 +64,14 @@ const bar_fg_algoritma2_6 = new Chart(fg_algoritma2_6, {
             
             
         ],
-        backgroundColor: [ "#C27D90"],
-        borderWidth: 1,
-        borderRadius: 8,
+        // backgroundColor: [ "#C27D90"],
+        // borderWidth: 1,
+        // borderRadius: 8,
+        fill: false,
+        borderColor: "#C27D90",
+        pointStyle: 'circle',
+        pointRadius: 1,
+        pointHoverRadius: 10,
     },
 
       
