@@ -1928,7 +1928,7 @@
                         <div class="card bg-secondary">
                             <div class="card-body">
                                 <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                    <canvas class="mt1" id="dc_algoritma1_1"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1937,7 +1937,7 @@
                         <div class="card bg-secondary">
                             <div class="card-body">
                                 <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                    <canvas class="mt1" id="dc_algoritma1_2"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1946,7 +1946,7 @@
                         <div class="card bg-secondary">
                             <div class="card-body">
                                 <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                    <canvas class="mt1" id="dc_algoritma1_3"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1955,7 +1955,7 @@
                         <div class="card bg-secondary">
                             <div class="card-body">
                                 <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                    <canvas class="mt1" id="dc_algoritma1_4"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -2972,7 +2972,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_1"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2981,7 +2981,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_2"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2990,7 +2990,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_3"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -2999,7 +2999,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4569,7 +4569,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_5"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4578,7 +4578,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_6"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4587,7 +4587,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_7"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -4596,7 +4596,7 @@
                                 <div class="card bg-secondary">
                                     <div class="card-body">
                                         <div class="chartBox">
-                                            <canvas class="mt1" id="riset1_hasil5"></canvas>
+                                            <canvas class="mt1" id="dc_algoritma2_8"></canvas>
                                         </div>
                                     </div>
                                 </div>

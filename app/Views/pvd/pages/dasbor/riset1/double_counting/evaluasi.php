@@ -65,6 +65,24 @@
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_peta.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
 
+  <!-- DC Algoritma 1 -->
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma1_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma1_2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma1_3.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma1_4.js') ?>"></script>
+
+  <!-- DC Algoritma 2 -->
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_3.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_4.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_5.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_6.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_7.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_8.js') ?>"></script>
+
+
+
   <!-- Latex Math -->
   <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
