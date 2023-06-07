@@ -17,8 +17,12 @@
     </div>
 </section>
 
-<!-- Datatable Instal -->
-<script src="<?= base_url('pvd/js/riset2/hasilSPRiset2_tabelkajian3.js'); ?>"></script>
+<!-- Chart JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Import Chart -->
+<script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t3_bar2.js'); ?>"></script>
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
