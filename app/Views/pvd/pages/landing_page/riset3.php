@@ -1,9 +1,9 @@
 <?= $this->extend('pvd/layout/landing_page/template'); ?>
 
 <?= $this->section('content'); ?>
-
+<?php include(APPPATH . 'Views/pvd/pages/dasbor/riset3/hasilkajian/modal_landing_3.php') ?>
 <!-- Leaflet CSS -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
 
 <section>
     <section id="hero" class="hero d-flex align-items-center">
@@ -60,7 +60,7 @@
                         </a>
                     </p>
                     <div class="collapse" id="collapseExample">
-                        <ol class="text-justify" >
+                        <ol class="text-justify">
                             <li>Kemampuan dalam hal pembangunan destinasi pariwisata</li>
                             <li>Potensi pembangunan pemasaran pariwisata yang nilainya terus naik dari tahun ke tahun</li>
                             <li>Pembangunan industri pariwisata</li>
@@ -86,8 +86,8 @@
                         <h1 class="headline text-center">Tujuan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000" > 
-                    <ol class="text-justify" >
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <ol class="text-justify">
                         <li>Memperoleh gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata.</li>
                         <li>Menganalisis dinamika tenaga kerja di industri pariwisata.</li>
                         <li>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</li>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> 
+                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="col">
                         <div class="row align-items-center text-center">
                             <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
@@ -213,8 +213,8 @@
                         <h1 class="headline text-center">Ruang Lingkup Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000"> 
-                <div class=" col">
+                <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class=" col">
                         <div class="row">
                             <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                 <div class="ruang">
@@ -272,7 +272,7 @@
                                         <div class="col-2 sidebuttonr">
                                             <button class="slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -280,135 +280,135 @@
                 </div>
                 <!-- Modal -->
                 <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="populasiModalLabel">Populasi</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-dialog modal-sm modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="populasiModalLabel">Populasi</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Seluruh penduduk di Kabupaten Malang.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>Seluruh penduduk di Kabupaten Malang.</p>
-                    </div>
-                    </div>
-                </div>
                 </div>
                 <div class="modal fade" id="poptarModal" tabindex="-1" aria-labelledby="poptarModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="poptarModalLabel">Populasi Target</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-dialog modal-sm modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="poptarModalLabel">Populasi Target</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Penduduk usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja (Tahun 2023) atau 3 tahun sebelum pencacahan (2020-2023) pernah bekerja di industri pariwisata.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>Penduduk usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja (Tahun 2023) atau 3 tahun sebelum pencacahan (2020-2023) pernah bekerja di industri pariwisata.</p>
-                    </div>
-                    </div>
-                </div>
                 </div>
                 <div class="modal fade" id="unitobsModal" tabindex="-1" aria-labelledby="unitobsModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="unitobsModalLabel">Unit Observasi</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-dialog modal-sm modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="unitobsModalLabel">Unit Observasi</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Kepala rumah tangga atau anggota rumah tangga yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>Kepala rumah tangga atau anggota rumah tangga yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p> 
-                    </div>
-                    </div>
-                </div>
                 </div>
 
                 <div class="modal fade" id="unsampModal1" tabindex="-1" aria-labelledby="unsampModal1Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="unsampModal1Label">Primary Sampling Unit</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Kecamatan</li>
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="unsampModal1Label">Primary Sampling Unit</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Kecamatan</li>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="unsampModal2" tabindex="-1" aria-labelledby="unsampModal2Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="unsampModal2Label">Secondary Sampling Unit</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Blok Sensus</p>    
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="unsampModal2Label">Secondary Sampling Unit</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Blok Sensus</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="unsampModal3" tabindex="-1" aria-labelledby="unsampModal3Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="unsampModal3Label">Ultimate Sampling Unit</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Rumah Tangga</p>    
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="unsampModal3Label">Ultimate Sampling Unit</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Rumah Tangga</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="modal fade" id="unitanaModal" tabindex="-1" aria-labelledby="unitanaModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="unitanaModalLabel">Unit Analisis</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-dialog modal-sm modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="unitanaModalLabel">Unit Analisis</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Anggota rumah tangga usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>Anggota rumah tangga usia 15 tahun ke atas di Kabupaten Malang yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p> 
-                    </div>
-                    </div>
-                </div>
                 </div>
 
                 <div class="modal fade" id="krsampModal1" tabindex="-1" aria-labelledby="krsampModal1Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="krsampModal1Label">Kerangka Sampel Tahap Pertama</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Daftar kecamatan di Kabupaten Malang.</li>
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="krsampModal1Label">Kerangka Sampel Tahap Pertama</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Daftar kecamatan di Kabupaten Malang.</li>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="krsampModal2" tabindex="-1" aria-labelledby="krsampModal2Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="krsampModal2Label">Kerangka Sampel Tahap Kedua</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</p>    
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="krsampModal2Label">Kerangka Sampel Tahap Kedua</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Daftar seluruh blok sensus pada kecamatan terpilih di Kabupaten Malang.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="krsampModal3" tabindex="-1" aria-labelledby="krsampModal3Label" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="krsampModal3Label">Kerangka Sampel Tahap Ketiga</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>    
-                        </div>
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="krsampModal3Label">Kerangka Sampel Tahap Ketiga</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Seluruh rumah tangga yang memiliki anggota rumah tangga usia 10 tahun ke atas yang sedang bekerja atau 3 tahun sebelum pencacahan pernah bekerja di industri pariwisata.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -436,8 +436,12 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab"><p class="text-justify"><b>Data primer</b> dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <b><i>Computer Assisted Personal Interview</i> (CAPI)</b> dan <b><i>Pen-and-Paper Personal Interview</i> (PAPI)</b>.</p></div>
-                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab"><p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p></div>
+                        <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">
+                            <p class="text-justify"><b>Data primer</b> dikumpulkan dari unit observasi penelitian ini yaitu rumah tangga dengan metode wawancara menggunakan moda <b><i>Computer Assisted Personal Interview</i> (CAPI)</b> dan <b><i>Pen-and-Paper Personal Interview</i> (PAPI)</b>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">
+                            <p class="text-justify"><b>Data sekunder</b> dikumpulkan dari BPS yaitu <b>data Kecamatan</b> dan <b>Blok Sensus (BS)</b> yang tersedia di lokus penelitian yang digunakan sebagai dasar penentuan sampel.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -446,7 +450,7 @@
 
 
         <!-- Hasil Penelitian -->
-        <section  id="portfolio" class="portfolio section-bg offset-header">
+        <section id="portfolio" class="portfolio section-bg offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -473,7 +477,7 @@
                                     <div class="card-body border rounded pt-5">
                                         <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                             <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                <button id="unduh-lp-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#ModalLp_1">
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
@@ -527,7 +531,7 @@
                                     <div class="card-body border rounded pt-5">
                                         <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                             <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="unduh-3-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                <button id="unduh-lp-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#ModalLp_2">
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
@@ -537,7 +541,7 @@
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body" style="padding: 16px;">
                                                         <div class="chartBox" style="height: 360px;">
-                                                            <canvas class="mt1" id="tujuan2"></canvas>
+                                                            <canvas class="mt1" id="lp_tujuan2"></canvas>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -593,10 +597,10 @@
                                             <subtitle>
                                                 <strong>
                                                     <ul>
-                                                    <li style="float: left; margin: 0 20px;">0 &lt; ISW &lt; 41.53 (Kurang)</li>
-                                                    <li style="float: left; margin: 0 20px;">41.53 &le; ISW &lt; 79.14 (Sedang)</li>
-                                                    <li style="float: left; margin: 0 20px;">79.14 &le; ISW &le; 100 (Baik)</li>
-                                                    </ul>   
+                                                        <li style="float: left; margin: 0 20px;">0 &lt; ISW &lt; 41.53 (Kurang)</li>
+                                                        <li style="float: left; margin: 0 20px;">41.53 &le; ISW &lt; 79.14 (Sedang)</li>
+                                                        <li style="float: left; margin: 0 20px;">79.14 &le; ISW &le; 100 (Baik)</li>
+                                                    </ul>
                                                 </strong>
                                             </subtitle>
                                         </div>
@@ -648,6 +652,7 @@
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_mading.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/peta_malang.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset3/layer_dasar_peta_malang.js') ?>"></script>
-
+<!-- fungsi unduh -->
+<script src="<?= base_url('pvd/js/riset3/btn_Download_landing.js') ?>"></script>
 
 <?= $this->endSection(); ?>
