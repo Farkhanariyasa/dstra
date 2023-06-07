@@ -2,32 +2,27 @@ const dodge2 = document.getElementById('chart-2');
 const dodge_2 = new Chart(dodge2, {
     type:'bar',
     data: {
-        labels: [ ['Laki-laki'],
-            ['Perempuan'],
+        labels: [ ['Maksimal', 'Pendidikan', 'Dasar'],
+            ['Pendidikan', 'Menengah'],
+            ['Pendidikan', 'Tinggi']
         ],
         datasets: [{
-            label: 'Maksimal Pendidikan Dasar',
+            label: 'Laki-laki',
             data:[
-                (uupJkPendidikan.lakiDasar/925*100).toFixed(2),
-                (uupJkPendidikan.perempuanDasar/925*100).toFixed(2),
+                uupJkPendidikan.lakiDasar,
+                uupJkPendidikan.lakiMenengah,
+                uupJkPendidikan.lakiTinggi,
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
-            label: 'Pendidikan Menengah',
+            label: 'Perempuan',
             data:[
-                (uupJkPendidikan.lakiMenengah/925*100).toFixed(2),
-                (uupJkPendidikan.perempuanMenengah/925*100).toFixed(2),
+                uupJkPendidikan.perempuanDasar,
+                uupJkPendidikan.perempuanMenengah,
+                uupJkPendidikan.perempuanTinggi,
             ],
             backgroundColor:"#506396",
-            borderWidth:1
-        },{
-            label: 'Pendidikan Tinggi',
-            data:[
-                (uupJkPendidikan.lakiTinggi/925*100).toFixed(2),
-                (uupJkPendidikan.perempuanTinggi/925*100).toFixed(2),
-            ],
-            backgroundColor:"#4b395f",
             borderWidth:1
         },
         ]
@@ -44,7 +39,7 @@ const dodge_2 = new Chart(dodge2, {
         plugins: {
             title:{
                 display: false,
-                text:['Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
+                text:['Jumlah Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu'],
                 font: {
                     size:16,
                 },
@@ -57,7 +52,7 @@ const dodge_2 = new Chart(dodge2, {
             },
             subtitle: {
                 display: false,
-                text : ['Berdasarkan Kelompok Usia'],
+                text : ['Berdasarkan Jenis Kelamin dan Pendidikan'],
                 font: {
                     size: 14,
                     weight: 'bold',

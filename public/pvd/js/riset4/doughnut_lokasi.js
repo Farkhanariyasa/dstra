@@ -1,4 +1,4 @@
-const doughnut3 = document.getElementById('chart-3');
+const doughnut3 = document.getElementById('chart-4');
 
 const doughnut_3 = new Chart(doughnut3, {
     type: 'doughnut',
