@@ -519,6 +519,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <canvas style="display: none;" id="mergedCanvas"></canvas>
                                         </div>
                                     </div>
                                 </div>
