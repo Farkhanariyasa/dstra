@@ -1,23 +1,23 @@
-const bar3 = document.getElementById('bar_3');
+const bar3 = document.getElementById('chart-4');
 new Chart(bar3, {
     type: 'bar',
     data: {
-    labels: [['Dimensi1'],
-            ['Dimensi2'],
-            ['Dimensi3'],
-            ['Dimensi4'],
-            ['Dimensi5'],
-            ['Dimensi6']
+    labels: [['Infrastruktur', 'dan', 'Konektivitas'],
+            ['Penggunaan', 'TIK'],
+            ['Sumber', 'Daya', 'Manusia'],
+            ['Manajemen', 'Organisasi'],
+            ['Ketersediaan', 'Prasarana', 'TIK'],
+            ['Motivasi', 'Penggunaan', 'TIK']
         ],
     datasets: [{
-        label: 'Jumlah Unit Usaha',
+        label: 'Nilai',
         data: [
-            q231_407a.q231_407a1,
-            q231_407a.q231_407a2,
-            q231_407a.q231_407a3,
-            q231_407a.q231_407a4,
-            2,
-            2
+            (ikuptikPerDimensiBumiaji.dimensi1).toFixed(2),
+            (ikuptikPerDimensiBumiaji.dimensi2).toFixed(2),
+            (ikuptikPerDimensiBumiaji.dimensi3).toFixed(2),
+            (ikuptikPerDimensiBumiaji.dimensi4).toFixed(2),
+            (ikuptikPerDimensiBumiaji.dimensi5).toFixed(2),
+            (ikuptikPerDimensiBumiaji.dimensi6).toFixed(2),
         ],
         borderWidth: 1,
         backgroundColor: [
@@ -34,8 +34,16 @@ new Chart(bar3, {
     },
     options: {
         scales: {
-            y: {
-            beginAtZero: true
+            x:{
+                grid:{
+                    display:false
+                },
+            },
+            y:{            
+                beginAtZero: true,
+                grid:{
+                    display:false
+                },
             }
         },
         maintainAspectRatio: false,
@@ -60,7 +68,11 @@ new Chart(bar3, {
                         return context[0].label.replaceAll(',',' ');
                     }
                 }
-            }
+            },
+            datalabels:{
+                display:true,
+                color:'black'
+            },
         },
     },
     plugins: [ChartDataLabels]

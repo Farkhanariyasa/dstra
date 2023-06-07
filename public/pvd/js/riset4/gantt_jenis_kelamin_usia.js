@@ -29,12 +29,18 @@ const data = {
     options: {
       indexAxis: 'y',
       scales: {
-        x: {
-            min:10,
-            max: 100
+        x:{
+            min: 10,
+            max: 100,
+            grid:{
+                display:false
+            },
         },
-        y: {
-          beginAtZero: true
+        y:{            
+            beginAtZero: true,
+            grid:{
+                display:false
+            },
         }
       },
       maintainAspectRatio: false,
@@ -65,7 +71,7 @@ const data = {
                 title: (context) => {
                     console.log(context[0].label);
                     return context[0].label.replaceAll(',',' ');
-                }
+                },
             },
             enabled: true,
             // callbacks: {
@@ -83,11 +89,9 @@ const data = {
         datalabels: {
             display: true,
             color: 'black',
-            // formatter: function(value, context) {
-            //     total = context.chart._metasets[context.datasetIndex].total;
-            //     percentage = parseFloat((value/total*100).toFixed(1));
-            //     return percentage + '%';
-            // },
+            formatter: function(value, context) {
+                return `${value[0]} - ${value[1]} tahun`;
+            },
         },
       },
     },

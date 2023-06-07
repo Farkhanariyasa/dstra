@@ -141,3 +141,35 @@
 .pills-output1-tab:focus{
   background: #506396;
 }
+
+@media only screen and (max-width: 414px){
+  .navbar{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #pills-tab{
+    display: flex;
+    justify-content: center;
+  }
+  #test{
+    display: flex;
+    justify-content: center;
+    width: 150%;
+    margin-left: -4rem;
+  }
+  #row{
+    width: 150%;
+  }
+  #rowdc{
+    width: 170%;
+    
+  }
+  #testdc{
+    display: flex;
+    justify-content: center;
+    margin-left: -6.5rem;
+    width: 200%;
+    font-size: 0.5rem;
+  }
+}

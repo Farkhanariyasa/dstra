@@ -4,18 +4,19 @@ const data_qa_output2_2 = {
     labels: ['Dec-21', 'Jan-22', 'Feb-22', 'Mar-22', 'Apr-22', 'May-22', 'Jun-22', 'Jul-22', 'Aug-22', 'Sep-22', 'Oct-22', 'Nov-22'],
     datasets: [{
       label: 'Jumlah Records',
-      data: [12210
-        ,8453
-        ,1157
-        ,13258
-        ,13495
-        ,10135
-        ,3199
-        ,303
-        ,35357
-        ,27289
-        ,34812
-        ,50873], 
+      data: [12210,
+        8454,
+        1157,
+        13260,
+        13495,
+        10135,
+        3200,
+        1070,
+        96534,
+        107697,
+        62062,
+        57875,
+        ], 
       fill: false,
       borderColor: "#C27D90",
       pointStyle: 'circle',
@@ -77,9 +78,9 @@ const line_output2_2 = new Chart(qa_output2_2, {
         scales: {
             y: { // defining min and max so hiding the dataset does not change scale range
                 min: 0,
-                max: 60000,
+                max: 125000,
                 ticks: {
-                    stepSize: 20000,
+                    stepSize: 25000,
                 },
                 grid: {
                     display: true

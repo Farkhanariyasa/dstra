@@ -139,7 +139,7 @@
                                         </div>
                                         <div class="mb-0 col-lg-6 grid-margin stretch-card">
                                             <div>
-                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <h4>Interpretasi</h4>
                                                 <p class="text-justify">
                                                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
@@ -201,8 +201,8 @@
                                         <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
                                             <div>
                                                 <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                                                Persentase Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu</h1>
-                                                <subtitle>Berdasarkan Jenis Kelamin dan Pendidikan Terakhir yang Ditamatkan</subtitle>
+                                                    Jumlah Pemilik atau Pengelola Unit Usaha Pariwisata di Kota Batu</h1>
+                                                <subtitle>Berdasarkan Jenis Kelamin dan Tingkat Pendidikan</subtitle>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-6 grid-margin">
@@ -214,7 +214,7 @@
                                         </div>
                                         <div class="mb-0 col-lg-6 grid-margin stretch-card">
                                             <div>
-                                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+                                                <h4>Interpretasi</h4>
                                                 <p class="text-justify">
                                                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                                                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.

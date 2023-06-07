@@ -11,6 +11,7 @@
   </div>
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-center">
+      <!-- <div class="navbar"> -->
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-qa-tab" data-bs-toggle="pill" data-bs-target="#pills-qa" type="button" role="tab" aria-controls="pills-qa" aria-selected="true">Quality Assurance</button>
@@ -25,6 +26,7 @@
           <button class="nav-link" id="pills-wisnus-tab" data-bs-toggle="pill" data-bs-target="#pills-wisnus" type="button" role="tab" aria-controls="pills-wisnus" aria-selected="false">Statistik Wisatawan Nusantara</button>
         </li>
       </ul>
+      <!-- </div> -->
     </div>
   </div>
   <div class="row" id="row">
@@ -61,6 +63,11 @@
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilQA_Output1_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilQA_Output1_2.js') ?>"></script>
+
 </section>
 
 

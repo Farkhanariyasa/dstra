@@ -30,40 +30,29 @@
 </style>
 
 <section>
-    <script>
+<script>
         window.addEventListener('DOMContentLoaded', (event) => {
             Swal.fire({
-                    title: 'Informasi Penting',
-                    text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat penggunaan waktu kerja dan waktu libur',
-                    icon: 'info',
-                    confirmButtonColor: '#506396',
-                    confirmButtonText: 'OK',
-                    showConfirmButton: true,
-                    allowOutsideClick: false,
-                    allowEscapeKey: false,
-                    allowEnterKey: false,
-                    footer: '<a href="#ketentuan" id="closeAlertLink">Tekan sini</a>',
-                    // onBeforeOpen: () => {
-                    //     const link = document.querySelector('.swal2-footer a');
-                    //     link.addEventListener('click', (event) => {
-                    //         event.preventDefault(); // Prevent the default behavior of the link
-                    //         const currentURL = window.location.href;
-                    //         const linkHref = link.getAttribute('href');
-                    //         if (linkHref === currentURL) {
-                    //             Swal.close(); // Close the alert
-                    //         }
-                    //     });
-                    // }
-                })
-                // .then((value) => {
-                //     // Handle the alert being closed
-                // });
-                document.getElementById('closeAlertLink').addEventListener('click', function(event) {
-                    // event.preventDefault(); // Prevent the default behavior of the link
-                    window.location.href = "<?= base_url('hasil-pkl/riset1/mpd-familygrouping#ketentuan') ?>";
-                    Swal.clickConfirm(); // Close the SweetAlert alert
-                    Swal.close();
-            });
+                title: 'Informasi Penting',
+                text: 'Algoritma yang digunakan pada Family Grouping sama dengan Double Counting baik Algoritma 1, 2 ,dan 3. Namun terdapat perbedaan pada saat penggunaan waktu kerja dan waktu libur',
+                icon: 'info',
+                confirmButtonColor: '#506396',
+                confirmButtonText: 'OK',
+                showConfirmButton: true,
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                footer: '<p>Ketentuan lebih lanjut <a href="#ketentuan" id="closeAlertLink">Tekan sini</a></p>',
+            })
+
+            linkDetail = document.getElementById('closeAlertLink')
+            linkDetail.onclick = function() {
+                window.location.href = "<?= base_url('hasil-pkl/riset1/mpd-familygrouping#ketentuan') ?>";
+                // console.log(this.parentElement.parentElement);
+                this.parentElement.parentElement.style.display = 'none';
+                shadow = document.getElementsByClassName('swal2-backdrop-show')[0];
+                shadow.style.display = 'none';
+            }
 
 
         });
@@ -80,20 +69,20 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Algoritma 1</button>
+                        <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Jarak Stay Point</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma 2</button>
+                        <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma H3</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">Algoritma 3</button>
+                        <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">DBSCAN Clustering & Pembentukan Matrix Distance</button>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="row" id="rowfg">
+        <div class="row" id="rowdc">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="row" id="containerfg">
+                <div class="row" id="testdc">
                     <?php include('data_fg.php') ?>
                 </div>
             </div>
@@ -117,6 +106,33 @@
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
+
+    <!-- FG Algoritma 1 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_4.js') ?>"></script> 
+
+    <!-- FG Algoritma 2 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_4.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_5.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_6.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_7.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma2_8.js') ?>"></script>
+ 
+    <!-- FG Algoritma 3 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_4.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_5.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_6.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_7.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma3_8.js') ?>"></script>
+    
 
     <!-- Latex Math -->
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>

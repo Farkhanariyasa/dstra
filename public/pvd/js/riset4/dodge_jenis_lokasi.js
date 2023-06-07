@@ -27,6 +27,12 @@ const dodge_5 = new Chart(dodge5, {
         },
         ]
     },options:{
+        indexAxis: 'y',
+        elements: {
+            bar: {
+              borderWidth: 3,
+            }
+          },
         responsive: true,
         maintainAspectRatio: false,
         scales:{
