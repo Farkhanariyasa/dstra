@@ -116,7 +116,7 @@ function tampilData(){
             'KRT','Bukan KRT'
         ];
             // console.log(tujuan1.data.datasets[0].data)
-            tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Industri';
+            tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT';
             tujuan1.update();
             
           } if (barChart.value =='T1_2') {
@@ -159,7 +159,7 @@ function tampilData(){
                 '65+',
             ];
             // console.log(tujuan1.data.datasets[0].data)
-            tujuan1.options.plugins.title.text='asdasdasd';
+            tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia ';
             tujuan1.update();
 
     } if (barChart.value =='T1_3') {
@@ -197,7 +197,7 @@ tujuan1.data.datasets[0].barThickness= 100
               '65 +',
             ];
             // console.log(tujuan1.data.datasets[0].data)
-            tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+            tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Perkawinan';
             tujuan1.update();
 
     } if (barChart.value =='T1_4') {
@@ -232,7 +232,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Pernah Kawin',
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kelamin';
       tujuan1.update();
     } if (barChart.value =='T1_5') {
       console.log(barChart.value);
@@ -265,7 +265,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Perempuan',
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata menurut Jenis Industri dan Jumlah Pendapatan';
       tujuan1.update();
     } if (barChart.value =='T1_6') {
       console.log(barChart.value);
@@ -301,7 +301,7 @@ tujuan1.data.datasets[0].barThickness= 100;
         '> Rp3.500.000',
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet';
       tujuan1.update();
     } if (barChart.value =='T1_7') {
       console.log(barChart.value);
@@ -333,7 +333,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak',
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Promosi';
       tujuan1.update();
     } if (barChart.value =='T1_8') {
       
@@ -368,7 +368,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak Menggunakan'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Komunikasi';
       tujuan1.update();
     
 
@@ -406,7 +406,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak Menggunakan'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Transaksi Barang/Jasa';
       tujuan1.update();
     
     } if (barChart.value =='T1_10') {
@@ -443,7 +443,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak Menggunakan'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Keinginan untuk Menambah Pekerjaan';
       tujuan1.update();
     }if (barChart.value =='T1_11') {
       console.log(barChart.value);
@@ -466,7 +466,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata menurut Industri Pariwisata dan Status Pekerjaan Utama';
       tujuan1.update();
     } if (barChart.value =='T1_12') {
       console.log(barChart.value);
@@ -489,7 +489,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Lama Bekerja';
       tujuan1.update();
     } if (barChart.value =='T1_13') {
       console.log(barChart.value);
@@ -513,7 +513,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan Sebelumnya';
       tujuan1.update();
     } if (barChart.value =='T1_14') {
       console.log(barChart.value);
@@ -535,7 +535,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri Tempat Bekerja dan Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya';
       tujuan1.update();
     } if (barChart.value =='T1_15') {
       console.log(barChart.value);
@@ -557,7 +557,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_15';
       tujuan1.update();
     } if (barChart.value =='T1_16') {
       console.log(barChart.value);
@@ -579,7 +579,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_16';
       tujuan1.update();
     } if (barChart.value =='T1_17') {
       console.log(barChart.value);
@@ -601,7 +601,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Perempuan'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_17';
       tujuan1.update();
     } if (barChart.value =='T1_18') {
       console.log(barChart.value);
@@ -624,7 +624,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         'Tidak'
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_18';
       tujuan1.update();
     }if (barChart.value =='T1_19') {
       console.log(barChart.value);
@@ -653,7 +653,7 @@ tujuan1.data.datasets[0].barThickness= 150,
          "S1/S2/S3"
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_19';
       tujuan1.update();
     }if (barChart.value =='T1_20') {
       console.log(barChart.value);
@@ -680,7 +680,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Pascasarjana (Strata II dan III) "
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='T1_20';
       tujuan1.update();
     } if (barChart.value =='T1_21') {
       console.log(barChart.value);
@@ -703,7 +703,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Di Atas SMA/SMK" 
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja yang Pernah Bekerja di Sektor Pariwisata dalam Tiga Tahun Terakhir Berdasarkan Jenis Industri dan Pendidikan Tertinggi yang Ditamatkan';
       tujuan1.update();
     }  if (barChart.value =='T1_22') {
       console.log(barChart.value);
@@ -724,7 +724,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Tidak"
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Keikutsertaan dalam Pelatihan';
       tujuan1.update();
     }  if (barChart.value =='T1_23') {
       console.log(barChart.value);
@@ -745,7 +745,7 @@ tujuan1.data.datasets[0].barThickness= 150,
        "Ya", "Tidak"
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja';
       tujuan1.update();
     } if (barChart.value =='T1_24') {
       console.log(barChart.value);
@@ -767,7 +767,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         " Tidak Layak Huni"
        ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Rumah Layak Huni';
       tujuan1.update();
     } if (barChart.value =='T1_25') {
       console.log(barChart.value);
@@ -788,7 +788,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Sumber air minum bersih",
         "Akses air minum layak"       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sumber Air Minum Bersih dan Akses Air Minum Layak';
       tujuan1.update();
     } if (barChart.value =='T1_26') {
       console.log(barChart.value);
@@ -810,7 +810,7 @@ tujuan1.data.datasets[0].barThickness= 150,
         "Sanitasi tidak layak"      
       ];
       // console.log(tujuan1.data.datasets[0].data)
-      tujuan1.options.plugins.title.text='Banyaknya Tenaga Pariwisata Berdasarkan Jenis Kelamin';
+      tujuan1.options.plugins.title.text='Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sanitasi Layak';
       tujuan1.update();
     }
 }
