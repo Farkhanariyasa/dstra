@@ -231,7 +231,7 @@
     }, plugins: [ChartDataLabels]
  });
 
-const ctx2 = document.getElementById('tujuan2');
+const ctx2 = document.getElementById('lp_tujuan2');
 const pie2 = new Chart(ctx2, {
    type: 'pie',
    data: {
