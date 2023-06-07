@@ -87,9 +87,11 @@ var batang = new Chart(t2_bar2, {
     plugins: {
       title: {
         display: true,
-        text: ["Estimasi Rata-Rata Lama Bepergian",
-          "yang Dilakukan Wisatawan dalam Kota di Kota Malang",
-          "Bulan Oktober-Desember 2022 (dalam satuan Malam)"],
+        text: [
+          "Estimasi Rata-Rata Lama Kunjungan", 
+      "yang Dilakukan Wisatawan dalam Kota", 
+      "di Kota Malang Bulan Oktober-Desember 2022",
+      "(dalam satuan Malam)",],
         font: {
           size: 16,
           style: "normal"
@@ -126,9 +128,10 @@ function tampilData() {
       "Blimbing",
     ];
     batang.options.plugins.title.text = [
-      "Estimasi Rata-Rata Lama Bepergian",
-      "yang Dilakukan Wisatawan dalam Kota di Kota Malang",
-      "Bulan Oktober-Desember 2022 (dalam satuan Malam)",
+      "Estimasi Rata-Rata Lama Kunjungan", 
+      "yang Dilakukan Wisatawan dalam Kota", 
+      "di Kota Malang Bulan Oktober-Desember 2022",
+      "(dalam satuan Malam)",
     ];
     batang.options.scales.y.title.text = "Rata-Rata Lama Bepergian (Malam)";
     batang.data.datasets[0].label = "Rata-Rata Lama Bepergian (Malam)";
@@ -145,9 +148,10 @@ function tampilData() {
       "Kedungkandang",
     ];
     batang.options.plugins.title.text = [
-      "Estimasi Rata-Rata Lama Bepergian",
-      "yang Dilakukan Wisatawan dalam Kota di Kota Malang",
-      "Bulan Oktober-Desember 2022 (dalam satuan Jam)",
+      "Estimasi Rata-Rata Lama Kunjungan", 
+      "yang Dilakukan Wisatawan dalam Kota", 
+      "di Kota Malang Bulan Oktober-Desember 2022",
+      "(dalam satuan Jam)",
     ];
     batang.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Jam)";
     batang.data.datasets[0].label = "Rata-Rata Lama Kunjungan (Jam)";

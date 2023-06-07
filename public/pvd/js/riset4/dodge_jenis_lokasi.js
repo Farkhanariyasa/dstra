@@ -85,7 +85,10 @@ const dodge_5 = new Chart(dodge5, {
             },
             datalabels:{
                 display:true,
-                color:'black'
+                color:'black',
+                formatter: function(value, context) {
+                    return value + '%';
+                },
             }
         },maintainAspectRatio: false,
         scales:{
