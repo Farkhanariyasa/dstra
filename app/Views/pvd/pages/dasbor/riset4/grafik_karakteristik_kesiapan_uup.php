@@ -116,11 +116,7 @@
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    </p>
+                                                    Visualisasi di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK berdasarkan jenis kelamin responden. Responden yang berjenis laki-laki untuk cukup siap dalam pemanfaatan TIK sebesar 66.526%, kurang siap dalam pemanfaatan TIK sebesar 25.658% dan sisanya siap sebesar 7,789%. Sementara itu, pada responden yang berjenis kelamin perempuan untuk cukup siap dalam pemanfaatan TIK sebesar 68.444%, kurang siap dalam pemanfaatan TIK sebesar 28% dan sisanya siap sebesar 3.556%.                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -289,24 +285,39 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
+                                            <div class="mb-0 col-lg-12 grid-margin">
                                                 <div>
-                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                    <div class = "chartBox" style="position: relative; height:55vh;"> 
                                                         <canvas id="chart-2"></canvas>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
-                                                <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                        Tabel di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
+                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
+                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
+                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
+                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
+                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
+                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
+                                                        ada pada interval 60 tahun ke atas.
                                                     </p>
                                                 </div>
                                             </div>
+                                            <!-- <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Tabel di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
+                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
+                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
+                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
+                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
+                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
+                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
+                                                        ada pada interval 60 tahun ke atas.
+                                                    </p>
+                                                </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -406,10 +417,24 @@
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Berdasarkan visualisasi, kesiapan unit usaha dalam memanfaatkan TIK untuk keperluan 
+                                                    usahanya dapat tercermin dari tingkat pendidikan yang ditamatkan oleh pemilik atau 
+                                                    pengelola usaha tersebut. Bagi para pemilik atau pengelola yang hanya mampu menempuh 
+                                                    pendidikan dasar lebih dari separuhnya atau sekitar 57% tergolong ke dalam kategori kurang 
+                                                    siap. Sedangkan tidak ada satupun yang tergolong dalam kategori siap. Hal ini berbeda dengan 
+                                                    pemilik atau pengelola usaha pariwisata dengan tingkat pendidikan menengah maupun tinggi yang 
+                                                    mayoritas tergolong ke dalam kategori cukup siap.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-12 grid-margin text-justify">
+                                                <div>
+                                                    <p>
+                                                        Pada pendidikan tinggi, usaha pariwisata yang tergolong dalam kategori siap memiliki 
+                                                        persentase yang lebih besar dibandingkan tingkat pendidikan di bawahnya, yakni sekitar 
+                                                        15% dari keseluruhan pemilik atau pengelola yang menamatkan jenjang pendidikan tinggi. 
+                                                        Tentunya hal ini semakin memperkuat bahwa semakin tinggi tingkat pendidikan akan lebih siap 
+                                                        dalam memanfaatkan TIK untuk kebutuhan usahanya.
                                                     </p>
                                                 </div>
                                             </div>
@@ -501,22 +526,18 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
+                                            <div class="mb-0 col-lg-6 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
                                                         <canvas id="chart-4"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <div class="mb-0 col-lg-6 grid-margin stretch-card">
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    </p>
+                                                    Berdasarkan grafik, dapat dilihat bahwa jenis usaha jasa penyedia makanan dan minuman memiliki proporsi yang tergolong ke dalam kategori kurang siap paling besar dibandingkan dengan jenis usaha lain dengan sejumlah 192 responden atau sekitar 28%. Hal ini cukup serupa dengan usaha transportasi wisata yang memiliki proporsi usaha pariwisata yang tergolong dalam kategori kurang siap sebesar 26,22 %. Pada usaha penyediaan akomodasi mayoritas digolongkan pada kategori cukup siap dengan angka sekitar 72%. Persentase ini lebih tinggi dibandingkan dengan usaha lain yang memiliki nilai 69% pada usaha jasa penyedia makanan dan minuman dan 59% pada usaha jasa transportasi wisata.                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -596,21 +617,18 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
+                                            <div class="mb-0 col-lg-6 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
                                                         <canvas id="chart-5"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <div class="mb-0 col-lg-6 grid-margin stretch-card">
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                                    Jika dilihat berdasarkan skala usaha, Usaha berskala kecil secara proporsi memiliki nilai yang lebih besar dibandingkan dengan usaha berskala mikro. Sekitar 14,5% dari total keseluruhan sampel berskala usaha kecil tergolongkan siap dalam memanfaatkan TIK dalam kegiatan usahanya. Hal ini didukung oleh perbedaan proporsi pada kategori kurang siap yang dimana usaha berskala kecil memiliki nilai yang lebih rendah dibandingkan skala mikro. Oleh karenanya, dapat diartikan bahwa diduga secara deskriptif bahwa terdapat kecenderungan bahwa usaha kecil yang dimana memiliki jumlah tenaga kerja yang lebih banyak dibandingkan usaha pariwisata berskala mikro untuk lebih siap dalam memanfaatkan TIK dibandingkan usaha pariwisata berskala mikro.
                                                     </p>
                                                 </div>
                                             </div>

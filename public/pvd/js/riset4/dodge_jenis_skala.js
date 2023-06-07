@@ -89,7 +89,10 @@ const bar = new Chart(sdm_ekonomi, {
             },
             datalabels:{
                 display:true,
-                color:'black'
+                color:'black',
+                formatter: function(value, context) {
+                    return value + '%';
+                },
             }
         },maintainAspectRatio: false,
         scales:{

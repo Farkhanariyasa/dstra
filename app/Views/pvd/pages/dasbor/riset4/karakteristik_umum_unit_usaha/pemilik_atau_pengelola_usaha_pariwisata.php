@@ -141,10 +141,7 @@
                                             <div>
                                                 <h4>Interpretasi</h4>
                                                 <p class="text-justify">
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                </p>
+                                                Grafik di atas menunjukkan bahwa pemilik atau pengelola unit usaha pariwisata di Kota Batu didominasi oleh mereka yang berada pada interval usia 40 - 44 tahun, yaitu sebesar 16 persen dari total pemilik atau pengelola unit usaha pariwisata di Kota Batu, dimana didominasi perempuan sebesar 8,97 persen dan laki-laki sebesar 7,03 persen. Setelah itu disusul oleh pemilik atau pengelola pada interval usia 50 - 54 tahun sebesar 14,7 persen, dan selanjutnya interval usia lebih dari 60 tahun sebesar 13,9 persen. Selain itu, dari segi jenis kelamin dapat dilihat bahwa jenis kelamin pemilik atau pengelola unit usaha pariwisata di Kota Batu hampir seimbang antara laki-laki dan perempuan.                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -216,10 +213,7 @@
                                             <div>
                                                 <h4>Interpretasi</h4>
                                                 <p class="text-justify">
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                                </p>
+                                                Grafik di atas menunjukkan bahwa pemilik atau pengelola unit usaha pariwisata di Kota Batu didominasi oleh mereka yang pernah menempuh pendidikan menengah, yaitu sebanyak 585 orang, setelah itu disusul oleh tingkat pendidikan maksimal pendidikan dasar, dan yang paling sedikit yaitu pendidikan tinggi. Selain itu jenis kelamin pemilik atau pengelola unit usaha pariwisata di Kota Batu hampir seimbang antara laki-laki dan perempuan.                                                </p>
                                             </div>
                                         </div>
                                     </div>
