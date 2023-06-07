@@ -330,7 +330,7 @@ class Riset4 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Usaha Pariwisata',
+            'judul' => 'Unit Usaha Pariwisata',
             'menu' => $menu['riset4'],
             'uupKotaBatuJenis' => $uupKotaBatuJenis,
             'uupKotaBatuSkala' => $uupKotaBatuSkala,
@@ -339,7 +339,7 @@ class Riset4 extends BaseController
             'uupKotaBatuJenisLokasi' => $uupKotaBatuJenisLokasi,
             'uupKotaBatuSkalaLokasi' => $uupKotaBatuSkalaLokasi,
         ];
-        return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/usaha_pariwisata', $data);
+        return view('pvd/pages/dasbor/riset4/karakteristik_umum_unit_usaha/unit_usaha_pariwisata', $data);
     }
 
     public function menu2submenu3()

@@ -108,11 +108,11 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
 
         // Menu 2
         $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->get('usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->get('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
         $routes->get('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
         
         $routes->post('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->post('usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
+        $routes->post('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
         $routes->post('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
 
         // Menu 3

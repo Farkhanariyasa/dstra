@@ -107,6 +107,12 @@
     <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_sankey.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
 
+    <!-- Algoritma 1 -->
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_1.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_2.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_3.js') ?>"></script>
+    <script src="<?= base_url('pvd/js/riset1/evaluasiFG_algoritma1_4.js') ?>"></script> 
+
     <!-- Latex Math -->
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 

@@ -10,11 +10,7 @@
                 <div class="card-body">
                     <div class="text-justify" style="color: #4b395f;">
                         <!-- <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, impedit!</strong> -->
-                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota 
-                        adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model yang 
-                        terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu 
-                        <b>model <i>zero-inflation</i></b> dengan <b>fungsi penghubung binomial</b> dan 
-                        <b>model <i>count</i></b> dengan <b>fungsi penghubung negatif binomial</b>.
+                        Model terbaik yang dapat menjelaskan jumlah perjalanan wisata dalam kota adalah <b>regresi Zero-Inflated Negative Binomial</b>. Terdapat dua model yang terbentuk pada regresi <i>Zero-Inflated Negative Binomial</i>, yaitu <b>mode zero-inflation</b> dengan <b>fungsi penghubung binomial</b> dan <b>model count</b> dengan <b>fungsi penghubung negatif binomial</b>.
                     </div>
                 </div>
             </div>
@@ -32,6 +28,10 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow rounded-5">
                 <div class="card-body">
+
+                    <!-- <div class="row-6 d-flex align-items-center justify-content-center"> -->
+                    <img src="<?= base_url('pvd/img/dasbor/riset2/kerangka_pikir.png') ?>" class="img-fluid" alt="">
+                    <!-- </div> -->
 
                     <!-- <p>
                         <b>VARIABEL BEBAS</b>
@@ -183,31 +183,44 @@
 
     <div class="row">
         <div class="col-6 interpretasi">
+            <!-- Jenis Kelamin -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_4.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Kelamin</strong>
                     </div>
-                    <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk dengan jenis kelamin laki-laki berpeluang <b>23,57 kali</b> untuk memutuskan 
-                            melakukan perjalanan wisata daripada perempuan.
+                    <div class="row mt-2" style="color: #4b395f; font-size:25px; ">
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_14.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Umur -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_9.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Umur</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Peningkatan satu tahun usia akan meningkatkan peluang untuk memutuskan 
-                            melakukan perjalanan wisata sebesar <b>1,08 kali</b>.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_15.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
@@ -215,41 +228,53 @@
         </div>
 
         <div class="col-6 interpretasi">
+            <!-- Tingkat Pendidikan -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_5.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Tingkat Pendidikan</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk tamatan SD berpeluang <b>9,59 kali</b> untuk memutuskan melakukan 
-                            perjalanan wisata daripada penduduk yang tidak/belum sekolah/tidak 
-                            tamat SD/MI.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_21.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk tamatan SMP dan penduduk yang tidak/belum sekolah/tidak 
-                            tamat SD/MI cenderung memiliki peluang yang sama untuk memutuskan 
-                            melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_22.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk tamatan SMA dan penduduk yang tidak/belum sekolah/tidak 
-                            tamat SD/MI cenderung memiliki peluang yang sama untuk memutuskan 
-                            melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_23.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk tamatan Perguruan Tinggi dan penduduk yang tidak/belum 
-                            sekolah/tidak tamat SD/MI cenderung memiliki peluang yang sama 
-                            untuk memutuskan melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_24.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
@@ -259,33 +284,43 @@
 
     <div class="row">
         <div class="col-6 interpretasi">
+            <!-- Jenis Pekerjaan KRT -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_6.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Pekerjaan KRT</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk dengan KRT kategori pekerjaan formal dan penduduk dengan KRT 
-                            kategori pekerjaan informal cenderung memiliki peluang yang sama untuk 
-                            memutuskan melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk dengan KRT yang menganggur dan penduduk dengan KRT kategori 
-                            pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan 
-                            melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk dengan KRT kategori pekerjaan lainnya berpeluang <b>0,04 kali</b> 
-                            untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan KRT 
-                            kategori pekerjaan informal.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
@@ -293,33 +328,43 @@
         </div>
 
         <div class="col-6 interpretasi">
+            <!-- Jenis Pekerjaan ART -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_13.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Jenis Pekerjaan ART</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            ART kategori pekerjaan formal dan ART kategori pekerjaan informal 
-                            cenderung memiliki peluang yang sama untuk memutuskan melakukan 
-                            perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            ART yang menganggur berpeluang <b>949,64 kali</b> untuk memutuskan 
-                            melakukan perjalanan wisata daripada penduduk dengan ART kategori 
-                            pekerjaan informal.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            ART kategori pekerjaan lainnya berpeluang <b>96,14 kali</b> untuk 
-                            memutuskan melakukan perjalanan wisata daripada penduduk dengan ART 
-                            kategori pekerjaan informal.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
@@ -329,17 +374,23 @@
 
     <div class="row">
         <div class="col-6 interpretasi">
+            <!-- Gangguan Disabilitas -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_7.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Gangguan Disabilitas</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk yang bukan penyandang disabilitas dan penduduk penyandang 
-                            disabilitas cenderung memiliki peluang yang sama untuk memutuskan 
-                            melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_19.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
@@ -347,17 +398,23 @@
         </div>
 
         <div class="col-6 interpretasi">
+            <!-- Kepemilikan Mobil -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                 <div class="card-body text-center">
-                    <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i>
+                    <!-- <i class="fas fa-user-alt col-1 ikon " style="font-size: 25px;"></i> -->
+                    <div class="row-6 d-flex align-items-center justify-content-center">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_8.png') ?>" class="img-fluid" alt="" style="height: 75px;">
+                    </div>
                     <div class="text-center" style="color: #4b395f; font-size: 25px;"><strong>Kepemilikan Mobil</strong>
                     </div>
                     <div class="row mt-2" style="color: #4b395f; font-size:25px;">
-                        <i class="fas fa-city col-1 ikon my-auto"></i>
-                        <div class="col-10 text-justify" style="font-size:15px;">
-                            Penduduk yang dalam rumah tangganya memiliki mobil dan penduduk yang 
-                            dalam rumah tangganya tidak memiliki mobil cenderung memiliki peluang 
-                            yang sama untuk memutuskan melakukan perjalanan wisata.
+                        <!-- <i class="fas fa-city col-1 ikon my-auto"></i> -->
+                        <div class="col-lg-3 grid-margin" style="margin-left: -1rem;">
+                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_20.png') ?>" class="img-fluid" alt="" >
+                        </div>
+                        
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quisquam magnam, maxime eaque ab officia? Sint perspiciatis cum dolorem!
                         </div>
                     </div>
                 </div>
