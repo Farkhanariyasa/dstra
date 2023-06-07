@@ -97,12 +97,47 @@
                         <h1 class="headline text-center">Batasan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <p class="text-justify">
-                        <b>Jenis Usaha Pariwisata</b> dibatasi pada tiga jenis usaha antara lain Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px; color: #4b395f;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="d-none d-md-block">
+                        <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Jenis Usaha Pariwisata -->
+                                <div class="carousel-item active">
+                                    <div class="card-title text-center" style="line-height: 25px; font-weight: bold; font-size: 18px">
+                                        <strong>Jenis Usaha Pariwisata</strong>
+                                    </div>
+                                    <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
+                                    Usaha pariwisata dibatasi pada tiga jenis usaha antara lain Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
+                                    </div>
+                                </div>
+                                
+                                <!-- Skala Usaha -->
+                                <div class="carousel-item ">
+                                    <div class="card-title text-center" style="line-height: 25px; font-weight: bold; font-size: 18px">
+                                        <strong>Skala Usaha</strong>
+                                    </div>
+                                    <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
+                                    Skala usaha yang digunakan dalam penelitian ini hanya mengambil dua kategori skala usaha yaitu skala mikro dan kecil.
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button class="carousel-control-prev"   type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+    
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                <span   class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <p class="text-justify">
+                        <b>Jenis Usaha Pariwisata</b> Usaha pariwisata dibatasi pada tiga jenis usaha antara lain Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
                         <br>
-                        <b>Skala Usaha</b> yang digunakan dalam penelitian ini yaitu skala usaha mikro dan kecil.
-                    </p>
+                        <b>Skala Usaha</b> Hanya mengambil dua kategori skala usaha yaitu skala mikro dan kecil.
+                    </p> -->
                 </div>
             </div>
         </section>
