@@ -160,7 +160,7 @@ function tampilData() {
       "Rumah Teman/Keluarga",
       "Hotel",
       "Akomodasi Komersial Lainnya",
-      "Lainnya"
+      "Lainnya",
     ];
     batang.options.plugins.title.text = [
       "Persentase Akomodasi Utama Wisatawan Nusantara",
@@ -218,7 +218,9 @@ function tampilData() {
     batang.update();
   } else if (barchart.value == "e") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [49.98, 41.67, 5.78, 1.09, 0.87, 0.45, 0.1, 0.06];
+    batang.data.datasets[0].data = [
+      49.98, 41.67, 5.78, 1.09, 0.87, 0.45, 0.1, 0.06,
+    ];
     batang.data.labels = [
       "Tidak Menggunakan Informasi Utama",
       "Teman/Saudara/Famili",
@@ -239,23 +241,61 @@ function tampilData() {
     batang.update();
   } else if (barchart.value == "f") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [50761, 20980, 18468, 15290, 5191];
+    batang.data.datasets[0].data = [
+      1551600, 331487.2, 96527.78, 94166.67, 81000, 76623.25, 71760, 61803.92,
+      22742.86, 20000, 19935.89,
+    ];
     batang.data.labels = [
-      "Telkomsel (meliputi kartu Hallo, Fleksi, As, dan Simpati)",
-      "XL (meliputi kartu XL dan Axis)",
-      "Indosat (meliputi kartu StarOne, Matrix, IM3, dan Mentari)",
-      "Tri (meliputi kartu 3)",
-      "lainnya (meliputi kartu Smartfren, Esia, dan sebagainya)",
+      "Kesehatan",
+      "Akomodasi",
+      "Hiburan",
+      "Paket Perjalanan",
+      "Cinderamata",
+      "Makanan dan Minuman",
+      "Tembakau dan Rokok",
+      "Belanja",
+      "Lainnya",
+      "Seminar Pertemuan",
+      "Angkutan",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Provider yang Digunakan di Kota Malang Oktober-Desember 2022",
+      "Rata-Rata Biaya yang Dikeluarkan Turis Dalam Kota",
+      "Menurut Kategori Biaya pada Perjalanan Terakhir Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
-    batang.options.scales.x.title.text = "Jumlah Wisatawan";
-    batang.options.scales.y.title.text = "Jenis Provider";
+    batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
+    batang.options.scales.y.title.text = "Kategori Biaya";
+    batang.data.datasets[0].label = "Pengeluaran";
     batang.update();
-  }
+  } else if (barchart.value == "g") {
+    console.log(barchart.value);
+    batang.data.datasets[0].data = [
+      731590.1, 572013.2, 191445.6, 110177.5, 59521.79, 39945.6, 33749.75, 24701.53,
+      8997.17, 6974.73, 5000.08,
+    ];
+    batang.data.labels = [
+      "Seminar Pertemuan",
+      "Kesehatan",
+      "Belanja",
+      "Paket Perjalanan",
+      "Cinderamata",
+      "Tembakau dan Rokok",
+      "Makanan dan Minuman",
+      "Hiburan",
+      "Lainnya",
+      "Angkutan",
+      "Pramuwisata",
+    ];
+    batang.options.plugins.title.text = [
+      "Rata-rata Biaya yang Dikeluarkan Pelancong Dalam Kota",
+      "Menurut Kategori Biaya pada Perjalanan Terakhir Oktober-Desember 2022",
+    ];
+    batang.options.indexAxis = "y";
+    batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
+    batang.options.scales.y.title.text = "Kategori Biaya";
+    batang.data.datasets[0].label = "Pengeluaran";
+    batang.update();
+  } 
 }
 
 // function responsivefonts(){
