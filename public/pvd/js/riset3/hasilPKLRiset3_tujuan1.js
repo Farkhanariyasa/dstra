@@ -68,7 +68,7 @@ const tujuan1 =new Chart(ctx, {
           },
         legend:{
             display: true,
-            position: "right"
+            position: "bottom"
           },
         datalabels:{
             display:true,
@@ -205,7 +205,7 @@ function tampilData(){
       
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [10.22	,10.85];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [37.63,	29.84];
@@ -238,7 +238,7 @@ tujuan1.data.datasets[0].barThickness= 150,
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [10.74,10.60];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [24.82,42.40];
@@ -272,7 +272,7 @@ tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [12.56, 8.77, 12.71, 9.22];
-tujuan1.data.datasets[0].barThickness= 100;
+      tujuan1.data.datasets[0].barThickness= 100;
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [39.07, 33.33, 19.49, 29.08];
@@ -307,7 +307,7 @@ tujuan1.data.datasets[0].barThickness= 100;
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [13.62, 4.74];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [25.53, 44.83];
@@ -341,7 +341,7 @@ tujuan1.data.datasets[0].barThickness= 150,
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [14.55, 9.78, 4.74];
-tujuan1.data.datasets[0].barThickness= 150,
+      tujuan1.data.datasets[0].barThickness= 150,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [23.81, 32.61, 44.83];

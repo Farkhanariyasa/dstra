@@ -76,7 +76,7 @@
                   </button>
                 </div>
               </div>
-              <div class="chartBox bar mt-3">
+              <div class="chartBox bar mt-4">
                 <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
               </div>
             </div>
