@@ -110,7 +110,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
             },
             title: {
                 display: true,
-                text: ["Estimasi Jumlah Perjalanan menurut Kecamatan Asal Wisatawan dan", "Kategori Utama Perjalanan di Kota Malang Oktober-Desember 2022"],
+                text: ["Estimasi Jumlah Perjalanan menurut","Kecamatan Asal Wisatawan dan Kategori", "Utama Perjalanan di Kota Malang", "Oktober-Desember 2022"],
                 font: {
                     // size: 20,
                     size: 16,
