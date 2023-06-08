@@ -1,6 +1,6 @@
 <div class="tab-pane fade show active" id="pills-output1" role="tabpanel" aria-labelledby="pills-output1-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
-            <h3 class="card-title judul-card">Deskripsi Singkat</h3>
+            <h4 class="card-title judul-card">Deskripsi Singkat</h4>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12 grid-margin stretch-card">
@@ -140,10 +140,10 @@
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
-                        <strong>Turis</strong>
+                        <strong>Lorem</strong>
                     </div>
                     <div style="font-size:15px;" class="mt-2">
-                        Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam.
+                        <!-- Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam. -->
                     </div>
                 </div>
             </div>
@@ -153,11 +153,11 @@
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_2.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
-                        <strong>Malam</strong>
+                        <strong>Lorem</strong>
                     </div>
                     <div style="font-size:15px;" class="mt-2">
-                        Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
-                        didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00.
+                        <!-- Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
+                        didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00. -->
                     </div>
                 </div>
             </div>
