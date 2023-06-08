@@ -7,12 +7,20 @@ const bar_output1 = new Chart(wisnus_output1, {
     labels: ["Oktober", "November", "Desember"],
     datasets: [
       {
-        label: "Jumlah Perjalanan Wisata",
+        label: "Survei Konvesional",
         data: [497328, 60817, 467514],
+        backgroundColor: "#516296",
+        borderWidth: 1,
+        borderRadius: 8,
+      },
+      {
+        label: "Data MPD",
+        data: [529544, 516147, 618740],
         backgroundColor: "#C27D90",
         borderWidth: 1,
         borderRadius: 8,
       },
+
     ],
   },
   options: {
@@ -49,13 +57,13 @@ const bar_output1 = new Chart(wisnus_output1, {
       },
       legend: {
         display: true,
-        position: "top",
+        position: "bottom",
       },
       tooltip: {
         enabled: true,
       },
       datalabels: {
-        display: false,
+        display: true,
         color: "black",
         anchor: 'end',
         align: 'top',
