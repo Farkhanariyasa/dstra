@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output2(this);" type="checkbox" id="forBarChartAxisRelawan_output2" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output3(this);" type="checkbox" id="forBarChartAxisRelawan_output4" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
@@ -185,7 +185,10 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
-                                    <canvas class="mt1" id="relawan_output4"></canvas>
+                                    <iframe 
+                                    src="<?= base_url('pvd/html/tsel-tsel.html'); ?>" 
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +197,10 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
-                                    <canvas class="mt1" id="relawan_output4"></canvas>
+                                    <iframe 
+                                    src="<?= base_url('pvd/html/isat-isat.html'); ?>"
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +209,10 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
-                                    <canvas class="mt1" id="relawan_output4"></canvas>
+                                    <iframe src="<?= 
+                                    base_url('pvd/html/tsel-isat.html'); ?>"
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>
