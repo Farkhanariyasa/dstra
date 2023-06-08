@@ -2,7 +2,7 @@
 <div class="portfolio-item filter-riset4-jenis-uup-4 mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
@@ -39,10 +39,10 @@
 </div>
 
 <!-- Visualisasi 2 -->
-<div class="portfolio-item filter-riset4-jenis-uup-1  mb-1">
+<div class="portfolio-item filter-riset4-jenis-uup-1 mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
@@ -82,7 +82,7 @@
 <div class="portfolio-item filter-riset4-jenis-uup-2 mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">
@@ -120,10 +120,10 @@
 </div>
 
 <!-- Visualisasi 4 -->
-<div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
+<div class="portfolio-item filter-riset4-jenis-uup-3 mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card shadow">
+            <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center ">
                         <div class="me-1 mt-1 justify-content-end align-item-end">

@@ -1,38 +1,29 @@
-const VIZ_4 = document.getElementById('viz-2');
-new Chart(VIZ_4, {
+const VIZ_1 = document.getElementById('chart-5');
+new Chart(VIZ_1, {
     type: 'bar',
     data: {
     labels: [
-        ['Infrastruktur', 'dan', 'Konektivitas'],
-        ['Penggunaan', 'TIK'],
-        ['Sumber', 'Daya', 'Manusia'],
-        ['Manajemen', 'Organisasi'],
-        ['Ketersediaan', 'Prasarana', 'TIK'],
-        ['Motivasi', 'Penggunaan', 'TIK']
+        ['Jasa','Transportasi','Wisata'],
+        ['Jasa','Penyediaan Makanan','dan Minuman'],
+        ['Penyediaan','Akomodasi'],
         ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            transportasi.dimensi1,
-            transportasi.dimensi2,
-            transportasi.dimensi3,
-            transportasi.dimensi4,
-            transportasi.dimensi5,
-            transportasi.dimensi6,
+            total.transportasi,
+            total.makan,
+            total.akomodasi,
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#7382ab",
-            "#b35c74",
-            "#7382ab",
-            "#7382ab",
+            "#506396",
             "#ffab00",
-            "#7382ab",
+            "#b35c74",
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
             align: 'top', // Align the labels to the top
-            color: 'black', // Set the color of the labels
+            color: 'black' // Set the color of the labels
         },
         borderRadius: 10,
     }]
@@ -53,7 +44,7 @@ new Chart(VIZ_4, {
         plugins: {
             title: {
                 display: true,
-                text : ['Nilai IKUPTIK Setiap Dimensi'],
+                text : ['Nilai IKUPTIK'],
                 color: '#493A5A',
                 font: {
                     family: 'Arial',
@@ -66,7 +57,7 @@ new Chart(VIZ_4, {
             },
             subtitle: {
                 display: true,
-                text : [['Pada Usaha Jasa Transportasi Wisata di Kota Batu'],[''],['']],
+                text : [['Berdasarkan Jenis Usaha Pariwisata di Kota Batu'],[''],['']],
                 color: '#493A5A',
                 font: {
                     family: 'Arial',

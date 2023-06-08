@@ -25,6 +25,7 @@
 <!-- Data Chart -->
 <script>
   const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
+  const total = <?= json_encode($total); ?>;
 </script>
 
 <!-- Impor Chart -->
@@ -32,6 +33,9 @@
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_1_pie.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_2_spider.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->

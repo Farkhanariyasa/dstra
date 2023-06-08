@@ -1,4 +1,4 @@
-<div class="tab-pane fade show active" id="pills-output1" role="tabpanel" aria-labelledby="pills-output1-tab" tabindex="0">
+<!-- <div class="tab-pane fade show active" id="pills-output1" role="tabpanel" aria-labelledby="pills-output1-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
             <h4 class="card-title judul-card">Deskripsi Singkat</h4>
             <div class="card-body">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 <!-- Visualisasi 1 -->
 <div class="portfolio-item">
@@ -208,7 +208,7 @@
                     </div>
 
                     <div style="height:450px;">
-                        <canvas class="mt1" id="chart-4"></canvas>
+                        <canvas class="mt1" id="chart" style="width: 95%; height:80vh; z-index:0;"></canvas>
                     </div>
  
                 </div>
