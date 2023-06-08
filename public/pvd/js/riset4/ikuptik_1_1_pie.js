@@ -1,4 +1,4 @@
-const pie = document.getElementById('vis-1');
+const pie = document.getElementById('chart-1');
 
 new Chart(pie, {
     type: 'pie',
@@ -34,8 +34,8 @@ new Chart(pie, {
         maintainAspectRatio: false,
         plugins: {
             title: {
-                display: true,
-                text : ['Dimeni Pada IKUPTIK'],
+                display: False,
+                text : ['Dimensi Pada IKUPTIK'],
                 font: {
                     size: 14
                 }

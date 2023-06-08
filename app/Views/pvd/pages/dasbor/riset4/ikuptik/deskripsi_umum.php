@@ -26,6 +26,7 @@
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_1_pie.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_2_spider.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->
