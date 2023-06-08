@@ -3,7 +3,7 @@ let idbutton=''
 let idinput=''
 let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
 
-for (let i = 1; i < 7; i++) {
+for (let i = 1; i < 5; i++) {
     document.getElementById('relawan-'+[i]).addEventListener('click',(e) => {
         idbutton='relawan'+[i]
         console.log("relawan-"+[i]+" diklik")
@@ -71,37 +71,23 @@ document.getElementById('relawan1').addEventListener('click', function(e) {
 
 document.getElementById('relawan2').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('relawan_output2_1').toDataURL();
+    let canvasUrl = document.getElementById('relawan_output2').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
 
     // This is the name of our downloaded file
-    createEl.download = "Statistik Relawan Surabaya Output 2.1";
+    createEl.download = "Statistik Relawan Surabaya Output 2";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();
     createEl.remove();
 });
+
 
 document.getElementById('relawan3').addEventListener('click', function(e) {
-    // Convert our canvas to a data URL7
-    let canvasUrl = document.getElementById('relawan_output2_2').toDataURL();
-    // Create an anchor, and set the href value to our data URL
-    const createEl = document.createElement('a');
-    createEl.href = canvasUrl;
-
-    // This is the name of our downloaded file
-    createEl.download = "Wisnus Output 3";
-
-    // Click the download button, causing a download, and then remove it
-    createEl.click();
-    createEl.remove();
-});
-
-document.getElementById('relawan4').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('relawan_output3_1').toDataURL();
+    let canvasUrl = document.getElementById('relawan_output3').toDataURL();
     // Create an anchor, and set the href value to our data URL
     const createEl = document.createElement('a');
     createEl.href = canvasUrl;
@@ -114,22 +100,8 @@ document.getElementById('relawan4').addEventListener('click', function(e) {
     createEl.remove();
 });
 
-document.getElementById('relawan5').addEventListener('click', function(e) {
-    // Convert our canvas to a data URL
-    let canvasUrl = document.getElementById('relawan_output3_2').toDataURL();
-    // Create an anchor, and set the href value to our data URL
-    const createEl = document.createElement('a');
-    createEl.href = canvasUrl;
 
-    // This is the name of our downloaded file
-    createEl.download = "Statistik Relawan Surabaya Output 3.2";
-
-    // Click the download button, causing a download, and then remove it
-    createEl.click();
-    createEl.remove();
-});
-
-document.getElementById('relawan6').addEventListener('click', function(e) {
+document.getElementById('relawan4').addEventListener('click', function(e) {
     // Convert our canvas to a data URL
     let canvasUrl = document.getElementById('relawan_output4').toDataURL();
     // Create an anchor, and set the href value to our data URL
