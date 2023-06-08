@@ -183,6 +183,13 @@
         -webkit-flex-flow: column-reverse;
         flex-flow: column-reverse;
     }
+
+    /* .interpretasi{
+        align-content: center;
+        text-align: center;
+        -webkit-column-width: auto;
+
+    } */
 }
 
 @media (max-width: 768px) {
@@ -238,6 +245,16 @@
         -webkit-flex-flow: column-reverse;
         flex-flow: column-reverse;
     }
+
+    /* .interpretasi{
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .row.interpretasi{
+        -webkit-flex-flow: column-reverse;
+    } */
 
     /* .bukulaporan{
         height: 200%;

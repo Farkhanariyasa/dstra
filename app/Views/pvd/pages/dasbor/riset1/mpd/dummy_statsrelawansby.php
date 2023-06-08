@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output2(this);" type="checkbox" id="forBarChartAxisRelawan_output2" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="form-check form-switch me-3">
-                                        <input class="form-check-input" onchange="update_value_relawan_output1(this);" type="checkbox" id="forBarChartAxisRelawan_output1" value="show" checked>
+                                        <input class="form-check-input" onchange="update_value_relawan_output3(this);" type="checkbox" id="forBarChartAxisRelawan_output4" value="show" checked>
                                         <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                                     </div>
                                 </div>
@@ -170,6 +170,52 @@
                             </div>
                         </div>
                         <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-output5" role="tabpanel" aria-labelledby="pills-output5-tab" tabindex="0">
+        <div class="isi-tujuan shadow mt-0 mb-0">
+            <h4 class="card-title judul-card"></h4>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card shadow rounded-4">
+                            <div class="card-body">
+                                <div class="chartBox" style="height:440px">
+                                    <iframe 
+                                    src="<?= base_url('pvd/html/tsel-tsel.html'); ?>" 
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                        <div class="card shadow rounded-4">
+                            <div class="card-body">
+                                <div class="chartBox" style="height:440px">
+                                    <iframe 
+                                    src="<?= base_url('pvd/html/isat-isat.html'); ?>"
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 grid-margin stretch-card h-100">
+                        <div class="card shadow rounded-4">
+                            <div class="card-body">
+                                <div class="chartBox" style="height:440px">
+                                    <iframe src="<?= 
+                                    base_url('pvd/html/tsel-isat.html'); ?>"
+                                    style="width:100%; height: 440px;"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
