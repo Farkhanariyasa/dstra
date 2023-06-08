@@ -61,8 +61,19 @@
                         </div>
                     </div>
 
-                    <div style="height:450px;">
-                        <canvas class="mt1" id="chart-1"></canvas>
+                    <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                        <div>
+                            <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                            Penjelasan Mengenai IKUPTIK</h1>
+                            <subtitle>Pada Tiap-Tiap Dimensi</subtitle>
+                        </div>
+                    </div>
+                    <div class="mb-0 col-lg-12 grid-margin">
+                        <div>
+                            <div class = "chartBox" style=" height:450px;"> 
+                                <canvas id="chart-1"></canvas>
+                            </div>
+                        </div>
                     </div>
  
                 </div>

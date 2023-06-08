@@ -22,6 +22,11 @@
 <!-- Highchartjs Heatmap -->
 <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 
+<!-- Data Chart -->
+<script>
+  const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
+</script>
+
 <!-- Impor Chart -->
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>

@@ -4,12 +4,12 @@ new Chart(pie, {
     type: 'pie',
     data: {
         labels: [
-            ['Infrastruktur dan Konektivitas'],
-            ['Penggunaan TIK'],
-            ['Sumber Daya Manusia'],
-            ['Manajemen Organisasi'],
-            ['Eksternal'],
-            ['Kendala'],
+            ['Infrastruktur', 'dan', 'Konektivitas'],
+            ['Penggunaan', 'TIK'],
+            ['Sumber', 'Daya', 'Manusia'],
+            ['Manajemen', 'Organisasi'],
+            ['Ketersediaan', 'Prasarana', 'TIK'],
+            ['Motivasi', 'Penggunaan', 'TIK'],
         ],
 
         datasets: [{
@@ -30,7 +30,6 @@ new Chart(pie, {
     },
     options: {
         responsive: true,
-        cutoutPercentage: 0,
         maintainAspectRatio: false,
         plugins: {
             title: {
@@ -40,9 +39,6 @@ new Chart(pie, {
                     size: 20
                 }
             },
-            legend:{
-                display: false,
-            }
         },
     },
     plugins: [ChartDataLabels]
