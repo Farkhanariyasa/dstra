@@ -3,9 +3,9 @@ new Chart(VIZ_1, {
     type: 'bar',
     data: {
     labels: [
-        ['Jasa Transportasi Wisata'],
-        ['Jasa Penyediaan Makanan dan Minuman'],
-        ['Penyediaan Akomodasi'],
+        ['Jasa','Transportasi','Wisata'],
+        ['Jasa','Penyediaan','Makanan dan Minuman'],
+        ['Penyediaan','Akomodasi'],
         ],
     datasets: [{
         label: 'Nilai IKUPTIK',
@@ -16,9 +16,9 @@ new Chart(VIZ_1, {
         ],
         borderWidth: 1,
         backgroundColor: [
+            "#506396",
             "#ffab00",
             "#b35c74",
-            "#4b395f"
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
@@ -47,7 +47,7 @@ new Chart(VIZ_1, {
             },
             subtitle: {
                 display: true,
-                text : ['Berdasarkan Jenis Usaha Pariwisata di Kota Batu'],
+                text : [['Berdasarkan Jenis Usaha Pariwisata di Kota Batu'],[''],['']],
                 font: {
                     size: 14
                 }

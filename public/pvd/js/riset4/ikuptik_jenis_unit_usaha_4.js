@@ -3,22 +3,16 @@ new Chart(VIZ_2, {
     type: 'bar',
     data: {
     labels: [
-            ['Infrastruktur dan Konektivitas'],
-            ['Penggunaan TIK'],
-            ['Sumber Daya Manusia'],
-            ['Manajemen Organisasi'],
-            ['Ketersediaan Prasarana TIK'],
-            ['Motivasi Penggunaan TIK'],
+        ['Infrastruktur', 'dan', 'Konektivitas'],
+        ['Penggunaan', 'TIK'],
+        ['Sumber', 'Daya', 'Manusia'],
+        ['Manajemen', 'Organisasi'],
+        ['Ketersediaan', 'Prasarana', 'TIK'],
+        ['Motivasi', 'Penggunaan', 'TIK']
     ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            // 69.63,
-            // 56.31,
-            // 41.61,
-            // 65.67,
-            // 69.78,
-            // 28.15,
             akomodasi.dimensi1,
             akomodasi.dimensi2,
             akomodasi.dimensi3,
@@ -28,12 +22,12 @@ new Chart(VIZ_2, {
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#6f617f",
-            "#6f617f",
-            "#6f617f",
-            "#6f617f",
-            "#6f617f",
-            "#6f617f",
+            "#7382ab",
+            "#b35c74",
+            "#7382ab",
+            "#ffab00",
+            "#7382ab",
+            "#7382ab",
         ],
         datalabels: {
             anchor: 'end',
@@ -62,7 +56,7 @@ new Chart(VIZ_2, {
             },
             subtitle: {
                 display: true,
-                text : ['Pada Usaha Jasa Akomodasi di Kota Batu'],
+                text : [['Pada Usaha Jasa Penyediaan Akomodasi di Kota Batu'],[''],['']],
                 font: {
                     size: 14
                 }

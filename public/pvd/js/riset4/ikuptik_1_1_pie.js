@@ -37,7 +37,7 @@ new Chart(pie, {
                 display: False,
                 text : ['Dimensi Pada IKUPTIK'],
                 font: {
-                    size: 14
+                    size: 20
                 }
             },
             legend:{

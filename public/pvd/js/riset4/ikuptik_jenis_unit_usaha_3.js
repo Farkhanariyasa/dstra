@@ -3,22 +3,16 @@ new Chart(VIZ_3, {
     type: 'bar',
     data: {
     labels: [
-            ['Infrastruktur dan Konektivitas'],
-            ['Penggunaan TIK'],
-            ['Sumber Daya Manusia'],
-            ['Manajemen Organisasi'],
-            ['Ketersediaan Prasarana TIK'],
-            ['Motivasi Penggunaan TIK'],
+        ['Infrastruktur', 'dan', 'Konektivitas'],
+        ['Penggunaan', 'TIK'],
+        ['Sumber', 'Daya', 'Manusia'],
+        ['Manajemen', 'Organisasi'],
+        ['Ketersediaan', 'Prasarana', 'TIK'],
+        ['Motivasi', 'Penggunaan', 'TIK']
     ],
     datasets: [{
         label: 'Nilai IKUPTIK',
         data: [
-            // 45.26,
-            // 19.57,
-            // 53.56,
-            // 62.11,
-            // 67.94,
-            // 47.52
             makan.dimensi1,
             makan.dimensi2,
             makan.dimensi3,
@@ -28,12 +22,12 @@ new Chart(VIZ_3, {
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#c27d90",
-            "#c27d90",
-            "#c27d90",
-            "#c27d90",
-            "#c27d90",
-            "#c27d90"
+            "#7382ab",
+            "#b35c74",
+            "#7382ab",
+            "#7382ab",
+            "#ffab00",
+            "#7382ab"
         ],
         datalabels: {
             anchor: 'end', // Set the anchor to 'end' to position the labels at the top
@@ -62,7 +56,7 @@ new Chart(VIZ_3, {
             },
             subtitle: {
                 display: true,
-                text : ['Pada Usaha Jasa Makan-Minum di Kota Batu'],
+                text : [['Pada Usaha Jasa Penyediaan Makanan dan Minuman di Kota Batu'],[''],['']],
                 font: {
                     size: 14
                 }
