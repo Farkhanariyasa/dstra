@@ -29,6 +29,9 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-output6-tab" data-bs-toggle="pill" data-bs-target="#pills-output6" type="button" role="tab" aria-controls="pills-output6" aria-selected="false">Output 6</button>
                     </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-output7-tab" data-bs-toggle="pill" data-bs-target="#pills-output7" type="button" role="tab" aria-controls="pills-output6" aria-selected="false">Output 7</button>
+                    </li>
                 </ul>
             </div>
         </div>
