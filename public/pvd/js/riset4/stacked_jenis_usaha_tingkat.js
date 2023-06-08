@@ -49,8 +49,8 @@ const stacked_4 = new Chart(stacked4, {
         },
         plugins: {
             title:{
-                display: false,
-                text:['Persentase Unit Usaha Pariwisata di Kota Batu'],
+                display: true,
+                text:['IKUPTIK Berdasarkan Jenis Usaha Pariwisata'],
                 font: {
                     size:16,
                 },
