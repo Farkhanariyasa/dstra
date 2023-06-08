@@ -1,11 +1,11 @@
 const data = {
     labels: [
-        ['Infrastruktur', 'dan Konektivitas'],
-        ['Penggunaan TIK'],
-        ['Sumber Daya', 'Manusia'],
-        ['Manajemen Organisasi'],
-        ['Ketersediaan', 'Prasarana TIK'],
-        ['Motivasi', 'Penggunaan TIK'],
+        ['Infrastruktur', 'dan', 'Konektivitas'],
+        ['Penggunaan', 'TIK'],
+        ['Sumber', 'Daya', 'Manusia'],
+        ['Manajemen', 'Organisasi'],
+        ['Ketersediaan', 'Prasarana', 'TIK'],
+        ['Motivasi', 'Penggunaan', 'TIK']
     ],
     datasets: [{
         label: 'IKUPTIK Kota Batu',
