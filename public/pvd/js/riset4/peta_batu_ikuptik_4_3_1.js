@@ -8,7 +8,7 @@ features: [
         properties: { 
             Kecamatan: "Batu", 
             IKUPTIK: 46.74,
-            status: "Tidak Siap" 
+            status: "Cukup Siap" 
         }, 
         geometry: { 
             type: "MultiPolygon", 
@@ -907,7 +907,7 @@ features: [
         properties: { 
             Kecamatan: "Bumiaji", 
             IKUPTIK: 48.23, 
-            status: "Tidak Siap"
+            status: "Cukup Siap"
         },
         geometry: { 
             type: "MultiPolygon", 
@@ -2244,7 +2244,7 @@ features: [
         properties: { 
             Kecamatan: "Junrejo", 
             IKUPTIK: 47.07,
-            status: "Tidak Siap" 
+            status: "Cukup Siap" 
         }, 
         geometry: { 
             type: "MultiPolygon", 
