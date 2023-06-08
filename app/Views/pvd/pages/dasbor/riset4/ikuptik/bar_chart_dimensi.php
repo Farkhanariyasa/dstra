@@ -220,7 +220,7 @@
           <!-- Charts and Interpretations -->
           <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
               <div class="isi-tujuan shadow mt-0 mb-0">
-                  <h4 class="card-title judul-card">Statistik Pemilik atau Pengelola Usaha Pariwisata di Kota Batu</h4>
+                  <h4 class="card-title judul-card">Dimensi Penyusun IKUPTIK</h4>
                   <div class="card-body">
                       <div class="row">
                             <!-- Part 0 -->
