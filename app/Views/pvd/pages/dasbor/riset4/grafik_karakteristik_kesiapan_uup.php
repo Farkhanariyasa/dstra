@@ -32,6 +32,39 @@
                   <h4 class="card-title judul-card">Statistik Pemilik atau Pengelola Usaha Pariwisata di Kota Batu</h4> -->
                   <div class="card-body">
                       <div class="row">
+
+
+                            <!-- Grafik 1 -->
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="pb-2 card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="mb-0 col-lg-7 grid-margin">
+                                                <div>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-1"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                    Visualisasi di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK berdasarkan jenis kelamin responden. Responden yang berjenis laki-laki untuk cukup siap dalam pemanfaatan TIK sebesar 66.526%, kurang siap dalam pemanfaatan TIK sebesar 25.684% dan sisanya siap sebesar 7.789%. Sementara itu, pada responden yang berjenis kelamin perempuan untuk cukup siap dalam pemanfaatan TIK sebesar 68.444%, kurang siap dalam pemanfaatan TIK sebesar 28% dan sisanya siap sebesar 3.556%.                                                     </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Tabulasi 1 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
@@ -40,7 +73,7 @@
                                             Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK Berdasarkan Jenis Kelamin
                                         </strong>
                                     </div>
-                                    <div class="card-body table-responsive">//button etc.
+                                    <div class="card-body table-responsive"><!-- //button etc. -->
                                         <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
                                         <thead style="color: #fff;  font-weight:bold; text-align:center;">
                                         <tr>
@@ -93,7 +126,7 @@
                                 </div>
                             </div>
 
-                            <!-- Grafik 1 -->
+                            <!-- Grafik 2 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
                                     <div class="pb-2 card-body">
@@ -105,34 +138,52 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
+                                            <div class="mb-0 col-lg-12 grid-margin">
                                                 <div>
-                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-1"></canvas>
+                                                    <div class = "chartBox" style="position: relative; height:55vh;"> 
+                                                        <canvas id="chart-2"></canvas>
                                                     </div>
+                                                    <h4>Interpretasi</h4>
+                                                    <p id="interpretasi-0" class="text-justify">
+                                                        Tabel di bawah ini menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
+                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
+                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
+                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
+                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
+                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
+                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
+                                                        ada pada interval 60 tahun ke atas.
+                                                    </p>
                                                 </div>
                                             </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <!-- <div class="mb-0 col-lg-5 grid-margin stretch-card">
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                    Visualisasi di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK berdasarkan jenis kelamin responden. Responden yang berjenis laki-laki untuk cukup siap dalam pemanfaatan TIK sebesar 66.526%, kurang siap dalam pemanfaatan TIK sebesar 25.658% dan sisanya siap sebesar 7,789%. Sementara itu, pada responden yang berjenis kelamin perempuan untuk cukup siap dalam pemanfaatan TIK sebesar 68.444%, kurang siap dalam pemanfaatan TIK sebesar 28% dan sisanya siap sebesar 3.556%.                                                     </p>
+                                                        Tabel di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
+                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
+                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
+                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
+                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
+                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
+                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
+                                                        ada pada interval 60 tahun ke atas.
+                                                    </p>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <!-- Tabulasi 2 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
                                     <div class="card-header">
                                         <strong>
-                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK berdasarkan interval usia
+                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK Berdasarkan Interval Usia
                                         </strong>
                                     </div>
-                                    <div class="card-body table-responsive">//button etc.
+                                    <div class="card-body table-responsive"><!-- //button etc. -->
                                         <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
                                         <thead style="color: #fff;  font-weight:bold; text-align:center;">
                                         <tr>
@@ -272,8 +323,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Grafik 2 -->
+                            
+                            <!-- Grafik 3 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
                                     <div class="pb-2 card-body">
@@ -285,52 +336,52 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-12 grid-margin">
+                                            <div class="mb-0 col-lg-7 grid-margin">
                                                 <div>
-                                                    <div class = "chartBox" style="position: relative; height:55vh;"> 
-                                                        <canvas id="chart-2"></canvas>
+                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                        <canvas id="chart-3"></canvas>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                                <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                        Tabel di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
-                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
-                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
-                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
-                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
-                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
-                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
-                                                        ada pada interval 60 tahun ke atas.
+                                                    Berdasarkan visualisasi, kesiapan unit usaha dalam memanfaatkan TIK untuk keperluan 
+                                                    usahanya dapat tercermin dari tingkat pendidikan yang ditamatkan oleh pemilik atau 
+                                                    pengelola usaha tersebut. Bagi para pemilik atau pengelola yang hanya mampu menempuh 
+                                                    pendidikan dasar lebih dari separuhnya atau sekitar 57% tergolong ke dalam kategori kurang 
+                                                    siap. Sedangkan tidak ada satupun yang tergolong dalam kategori siap. Hal ini berbeda dengan 
+                                                    pemilik atau pengelola usaha pariwisata dengan tingkat pendidikan menengah maupun tinggi yang 
+                                                    mayoritas tergolong ke dalam kategori cukup siap.
                                                     </p>
                                                 </div>
                                             </div>
-                                            <!-- <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <div class="mb-0 col-lg-12 grid-margin text-justify">
                                                 <div>
-                                                    <h4>Interpretasi</h4>
-                                                    <p id="interpretasi-0" class="text-justify">
-                                                        Tabel di atas menunjukkan sebaran indeks kesiapan usaha pariwisata dalam pemanfaatan TIK 
-                                                        berdasarkan interval usia. Pada interval usia termuda yaitu 15-19 tahun, menyatakan cukup 
-                                                        siap dalam pemanfaatan TIK. Sementara itu, pada interval usia 60 tahun ke atas, sebanyak 82 
-                                                        responden (63.566%) menyatakan kurang siap dalam memanfaatkan TIK dan sisanya yaitu 47 
-                                                        responden (36.434%) menyatakan cukup siap dalam memanfaatkan TIK. Diperoleh pula informasi, 
-                                                        mayoritas responden untuk siap dalam memanfaatkan TIK ada pada interval usia 20-24 tahun, 
-                                                        untuk cukup siap memanfaatkan TIK ada pada interval 20-24 dan kurang siap memanfaatkan TIK 
-                                                        ada pada interval 60 tahun ke atas.
+                                                    <p>
+                                                        Pada pendidikan tinggi, usaha pariwisata yang tergolong dalam kategori siap memiliki 
+                                                        persentase yang lebih besar dibandingkan tingkat pendidikan di bawahnya, yakni sekitar 
+                                                        15% dari keseluruhan pemilik atau pengelola yang menamatkan jenjang pendidikan tinggi. 
+                                                        Tentunya hal ini semakin memperkuat bahwa semakin tinggi tingkat pendidikan akan lebih siap 
+                                                        dalam memanfaatkan TIK untuk kebutuhan usahanya.
                                                     </p>
                                                 </div>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
+                            
                             <!-- Tabulasi 3 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
                                     <div class="card-header">
                                         <strong>
-                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK berdasarkan tingkat pendidikan                                        </strong>
+                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK Berdasarkan Tingkat Pendidikan</strong>
                                     </div>
-                                    <div class="card-body table-responsive">//button etc.
+                                    <div class="card-body table-responsive"><!-- //button etc. -->
                                         <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
                                         <thead style="color: #fff;  font-weight:bold; text-align:center;">
                                         <tr>
@@ -393,8 +444,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            <!-- Grafik 3 -->
+                            <!-- Grafik 4 -->
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card shadow">
                                     <div class="pb-2 card-body">
@@ -406,36 +456,18 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="mb-0 col-lg-7 grid-margin">
+                                            <div class="mb-0 col-lg-6 grid-margin">
                                                 <div>
                                                     <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-3"></canvas>
+                                                        <canvas id="chart-4"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <div class="mb-0 col-lg-6 grid-margin stretch-card">
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                    Berdasarkan visualisasi, kesiapan unit usaha dalam memanfaatkan TIK untuk keperluan 
-                                                    usahanya dapat tercermin dari tingkat pendidikan yang ditamatkan oleh pemilik atau 
-                                                    pengelola usaha tersebut. Bagi para pemilik atau pengelola yang hanya mampu menempuh 
-                                                    pendidikan dasar lebih dari separuhnya atau sekitar 57% tergolong ke dalam kategori kurang 
-                                                    siap. Sedangkan tidak ada satupun yang tergolong dalam kategori siap. Hal ini berbeda dengan 
-                                                    pemilik atau pengelola usaha pariwisata dengan tingkat pendidikan menengah maupun tinggi yang 
-                                                    mayoritas tergolong ke dalam kategori cukup siap.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="mb-0 col-lg-12 grid-margin text-justify">
-                                                <div>
-                                                    <p>
-                                                        Pada pendidikan tinggi, usaha pariwisata yang tergolong dalam kategori siap memiliki 
-                                                        persentase yang lebih besar dibandingkan tingkat pendidikan di bawahnya, yakni sekitar 
-                                                        15% dari keseluruhan pemilik atau pengelola yang menamatkan jenjang pendidikan tinggi. 
-                                                        Tentunya hal ini semakin memperkuat bahwa semakin tinggi tingkat pendidikan akan lebih siap 
-                                                        dalam memanfaatkan TIK untuk kebutuhan usahanya.
-                                                    </p>
+                                                    Berdasarkan grafik, dapat dilihat bahwa jenis usaha jasa penyedia makanan dan minuman memiliki proporsi yang tergolong ke dalam kategori kurang siap paling besar dibandingkan dengan jenis usaha lain dengan sejumlah 192 responden atau sekitar 28%. Hal ini cukup serupa dengan usaha transportasi wisata yang memiliki proporsi usaha pariwisata yang tergolong dalam kategori kurang siap sebesar 26.22 %. Pada usaha penyediaan akomodasi mayoritas digolongkan pada kategori cukup siap dengan angka sekitar 72%. Persentase ini lebih tinggi dibandingkan dengan usaha lain yang memiliki nilai 69% pada usaha jasa penyedia makanan dan minuman dan 59% pada usaha jasa transportasi wisata.                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -448,9 +480,9 @@
                                 <div class="card shadow">
                                     <div class="card-header">
                                         <strong>
-                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK berdasarkan jenis usaha pariwisata                                        </strong>
+                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK Berdasarkan Jenis Usaha Pariwisata                                        </strong>
                                     </div>
-                                    <div class="card-body table-responsive">//button etc.
+                                    <div class="card-body table-responsive"><!-- //button etc. -->
                                         <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
                                         <thead style="color: #fff;  font-weight:bold; text-align:center;">
                                         <tr>
@@ -477,108 +509,6 @@
                                         <tbody>
                                         <tr>
                                             <td>Jasa Transportasi Wisata</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>100</td>   
-                                        </tr>
-                                        <tr>
-                                            <td>Jasa Penyedia Makanan dan Minuman</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>100</td>   
-                                        </tr>
-                                        <tr>
-                                            <td>Penyedia Akomodasi</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>100</td>   
-                                        </tr>
-                                        </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Grafik 4 -->
-                            <div class="col-12 grid-margin stretch-card">
-                                <div class="card shadow">
-                                    <div class="pb-2 card-body">
-                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center">
-                                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                                <button id="download-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-1">
-                                                    <i class="fa-solid fa-download"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="mb-0 col-lg-6 grid-margin">
-                                                <div>
-                                                    <div class = "chartBox" style="position: relative; height:65vh;"> 
-                                                        <canvas id="chart-4"></canvas>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="mb-0 col-lg-6 grid-margin stretch-card">
-                                                <div>
-                                                    <h4>Interpretasi</h4>
-                                                    <p id="interpretasi-0" class="text-justify">
-                                                    Berdasarkan grafik, dapat dilihat bahwa jenis usaha jasa penyedia makanan dan minuman memiliki proporsi yang tergolong ke dalam kategori kurang siap paling besar dibandingkan dengan jenis usaha lain dengan sejumlah 192 responden atau sekitar 28%. Hal ini cukup serupa dengan usaha transportasi wisata yang memiliki proporsi usaha pariwisata yang tergolong dalam kategori kurang siap sebesar 26,22 %. Pada usaha penyediaan akomodasi mayoritas digolongkan pada kategori cukup siap dengan angka sekitar 72%. Persentase ini lebih tinggi dibandingkan dengan usaha lain yang memiliki nilai 69% pada usaha jasa penyedia makanan dan minuman dan 59% pada usaha jasa transportasi wisata.                                                     </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Tabulasi 5 -->
-                            <div class="col-12 grid-margin stretch-card">
-                                <div class="card shadow">
-                                    <div class="card-header">
-                                        <strong>
-                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK berdasarkan skala usaha pariwisata                                        </strong>
-                                    </div>
-                                    <div class="card-body table-responsive">//button etc.
-                                        <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
-                                        <thead style="color: #fff;  font-weight:bold; text-align:center;">
-                                        <tr>
-                                            <th rowspan="3">Skala Usaha Pariwisata</th>
-                                            <th colspan="6">Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK</th>
-                                            <th rowspan="2" colspan="2">Total</th>
-                                        </tr>
-                                        <tr>
-                                            <th colspan="2">Kurang Siap</th>
-                                            <th colspan="2">Cukup Siap</th>
-                                            <th colspan="2">Siap</th>
-                                        </tr>
-                                        <tr>
-                                            <th>Jumlah</th>
-                                            <th>(%)</th>
-                                            <th>Jumlah</th>
-                                            <th>(%)</th>
-                                            <th>Jumlah</th>
-                                            <th>(%)</th>
-                                            <th>Jumlah</th>
-                                            <th>(%)</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Mikro</td>
                                             <td>43</td>
                                             <td>26.220</td>
                                             <td>97</td>
@@ -589,7 +519,7 @@
                                             <td>100</td>   
                                         </tr>
                                         <tr>
-                                            <td>Kecil</td>
+                                            <td>Jasa Penyedia Makanan dan Minuman</td>
                                             <td>192</td>
                                             <td>28.029</td>
                                             <td>472</td>
@@ -597,6 +527,17 @@
                                             <td>21</td>
                                             <td>3.066</td>
                                             <td>685</td>
+                                            <td>100</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Penyedia Akomodasi</td>
+                                            <td>13</td>
+                                            <td>17.105</td>
+                                            <td>55</td>
+                                            <td>72.368</td>
+                                            <td>8</td>
+                                            <td>10.526</td>
+                                            <td>76</td>
                                             <td>100</td>   
                                         </tr>
                                         </tbody>
@@ -628,7 +569,7 @@
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                    Jika dilihat berdasarkan skala usaha, Usaha berskala kecil secara proporsi memiliki nilai yang lebih besar dibandingkan dengan usaha berskala mikro. Sekitar 14,5% dari total keseluruhan sampel berskala usaha kecil tergolongkan siap dalam memanfaatkan TIK dalam kegiatan usahanya. Hal ini didukung oleh perbedaan proporsi pada kategori kurang siap yang dimana usaha berskala kecil memiliki nilai yang lebih rendah dibandingkan skala mikro. Oleh karenanya, dapat diartikan bahwa diduga secara deskriptif bahwa terdapat kecenderungan bahwa usaha kecil yang dimana memiliki jumlah tenaga kerja yang lebih banyak dibandingkan usaha pariwisata berskala mikro untuk lebih siap dalam memanfaatkan TIK dibandingkan usaha pariwisata berskala mikro.
+                                                    Jika dilihat berdasarkan skala usaha, Usaha berskala kecil secara proporsi memiliki nilai yang lebih besar dibandingkan dengan usaha berskala mikro. Sekitar 14.5% dari total keseluruhan sampel berskala usaha kecil tergolongkan siap dalam memanfaatkan TIK dalam kegiatan usahanya. Hal ini didukung oleh perbedaan proporsi pada kategori kurang siap yang dimana usaha berskala kecil memiliki nilai yang lebih rendah dibandingkan skala mikro. Oleh karenanya, dapat diartikan bahwa diduga secara deskriptif bahwa terdapat kecenderungan bahwa usaha kecil yang dimana memiliki jumlah tenaga kerja yang lebih banyak dibandingkan usaha pariwisata berskala mikro untuk lebih siap dalam memanfaatkan TIK dibandingkan usaha pariwisata berskala mikro.
                                                     </p>
                                                 </div>
                                             </div>
@@ -636,6 +577,67 @@
                                     </div>
                                 </div>
                             </div>
+
+                                                        <!-- Tabulasi 5 -->
+                                                        <div class="col-12 grid-margin stretch-card">
+                                <div class="card shadow">
+                                    <div class="card-header">
+                                        <strong>
+                                        Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK Berdasarkan Skala Usaha Pariwisata</strong>
+                                    </div>
+                                    <div class="card-body table-responsive"><!-- //button etc. -->
+                                        <table class="table table-hover table-bordered table-responsive" id="tabel-1" style="width:100%">
+                                        <thead style="color: #fff;  font-weight:bold; text-align:center;">
+                                        <tr>
+                                            <th rowspan="3">Skala Usaha Pariwisata</th>
+                                            <th colspan="6">Indeks Kesiapan Usaha Pariwisata dalam Pemanfaatan TIK</th>
+                                            <th rowspan="2" colspan="2">Total</th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Kurang Siap</th>
+                                            <th colspan="2">Cukup Siap</th>
+                                            <th colspan="2">Siap</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Jumlah</th>
+                                            <th>(%)</th>
+                                            <th>Jumlah</th>
+                                            <th>(%)</th>
+                                            <th>Jumlah</th>
+                                            <th>(%)</th>
+                                            <th>Jumlah</th>
+                                            <th>(%)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Mikro</td>
+                                            <td>244</td>
+                                            <td>28.046</td>
+                                            <td>581</td>
+                                            <td>66.782</td>
+                                            <td>45</td>
+                                            <td>5.172</td>
+                                            <td>870</td>
+                                            <td>100</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Kecil</td>
+                                            <td>4</td>
+                                            <td>7.273</td>
+                                            <td>43</td>
+                                            <td>78.182</td>
+                                            <td>8</td>
+                                            <td>14.545</td>
+                                            <td>55</td>
+                                            <td>100</td>   
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                   </div>
               <!-- </div> -->
