@@ -8,7 +8,7 @@ const bar_wisnus7 = new Chart(wisnus_output7, {
       {
         label: "Jumlah Perjalanan Wisata",
         data: [99900, 18773, 21459, 50053, 174128, 99415],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -54,7 +54,7 @@ const bar_wisnus7 = new Chart(wisnus_output7, {
         },
       },
       legend: {
-        display: true,
+        display: false,
         position: "top",
       },
       tooltip: {

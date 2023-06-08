@@ -43,7 +43,25 @@ const bar_output5 = new Chart(wisnus_output5, {
                 104,
                 
             ],
-            backgroundColor:"#C27D90",
+            backgroundColor: [
+                "#516296",
+                "#FDAB01",
+                "#FDAB01",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#516296",
+                "#FDAB01",
+                "#516296",
+                "#516296",
+                "#516296",
+                
+            ],
             borderWidth:1,
             borderRadius:8,
         }]
@@ -75,7 +93,7 @@ const bar_output5 = new Chart(wisnus_output5, {
                 }
             },
             legend:{
-                display:true,
+                display:false,
                 position:'top',
             },
             tooltip:{
