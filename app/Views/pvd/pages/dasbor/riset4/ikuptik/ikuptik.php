@@ -76,7 +76,6 @@
 <div class="row mt-3">
 <div class="col-sm-4 my-2">
         <div class="card shadow rounded-4" style="height: 350px;">
-            <!-- Turis -->
             <div class="card-body">
                 <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                     <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
@@ -150,18 +149,11 @@
                 <!-- Turis -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
-<<<<<<< HEAD
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
                         <strong>Analisis</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                     Berdasarkan indeks tiap dimensi yang telah dihasilkan, dapat disimpulkan bahwa dimensi yang memiliki indeks kesiapan paling tinggi adalah dimensi Ketersediaan Prasarana TIK. Sementara itu, dimensi yang memiliki indeks kesiapan paling rendah adalah dimensi penggunaan TIK.
-=======
-                        <strong>Lorem</strong>
-                    </div>
-                    <div style="font-size:15px;" class="mt-2">
-                        <!-- Turis merupakan wisatawan dalam kota yang melakukan perjalanan terakhir lebih dari 1 malam. -->
->>>>>>> c133e18295739e5d4714a8e130648317eeb5bc83
                     </div>
                 </div>
             </div>
@@ -181,20 +173,11 @@
                 <!-- Turis -->
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-<<<<<<< HEAD
-                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
                         <strong>Analisis</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                     Selain itu, secara umum, terdapat kemiripan tingkat kesiapan unit usaha pariwisata dalam pemanfaatan TIK di seluruh kecamatan di Kota Batu, yaitu tergolong cukup siap dengan rentang nilai IKUPTIK 40,0 hingga 70,0.
-=======
-                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_2.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
-                        <strong>Lorem</strong>
-                    </div>
-                    <div style="font-size:15px;" class="mt-2">
-                        <!-- Lama perjalanan dan kunjungan wisata diukur dalam malam atau jam. Dalam hal ini, malam
-                        didefinisikan ketika terjadi pergantian tanggal atau melewati pukul 00.00. -->
->>>>>>> c133e18295739e5d4714a8e130648317eeb5bc83
                     </div>
                 </div>
             </div>
@@ -251,10 +234,10 @@
             <div class="card shadow rounded-4">
                 <div class="card-body">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
-                            <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
+                        <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
                         <strong>Analisis</strong>
                     </div>
-                    <div style="font-size:15px;" class="mt-2">
+                    <div style="font-size:15px;" class="mt-2 text-justify">
                     Hal ini juga berlaku apabila dilakukan perbandingan tingkat kesiapan antar jenis usaha di Kota Batu, yaitu ketiga jenis usaha yang menjadi fokus penelitian kali ini tergolong cukup siap dalam memanfaatkan TIK untuk mendukung Smart Tourism Destination. Berdasarkan seluruh unit usaha yang menjadi sampel di Kota Batu, diketahui bahwa sebagian besar, yaitu 69,51% unit usaha atau 624 dari 925 unit usaha di Kota Batu tergolong cukup siap dalam pemanfaatan TIK. Sementara itu, 24,76% unit usaha atau 248 dari 925 unit usaha yang menjadi sampel di Kota Batu tergolong kurang siap dalam pemanfaatan TIK dan sisanya, yaitu 5,73% unit usaha tergolong siap.
                     </div>
                 </div>
