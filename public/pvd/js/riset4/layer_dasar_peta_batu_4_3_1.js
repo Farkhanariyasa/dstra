@@ -110,7 +110,7 @@ info.update = function (props) {
         props.status +
         "</strong>)"
         // " people / mi<sup>2</sup>"
-      : "<strong>Kota Batu</strong> </b><br /> 46.98 (<strong>Tidak Siap</strong>)");
+      : "<strong>Kota Batu</strong> </b><br /> 46.98 (<strong>Cukup Siap</strong>)");
 };
 
 info.addTo(peta_batu_hasil_2);
