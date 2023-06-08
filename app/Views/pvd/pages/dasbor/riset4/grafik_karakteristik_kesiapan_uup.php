@@ -28,8 +28,8 @@
 
           <!-- Charts and Interpretations -->
           <div class="portfolio-item filter-riset4-semua" onresize="responsivefonts()">
-              <!-- <div class="isi-tujuan shadow mt-0 mb-0">
-                  <h4 class="card-title judul-card">Statistik Pemilik atau Pengelola Usaha Pariwisata di Kota Batu</h4> -->
+              <div class="isi-tujuan shadow mt-0 mb-0">
+                  <h4 class="card-title judul-card">Sebaran IKUPTIK</h4>
                   <div class="card-body">
                       <div class="row">
 
@@ -640,9 +640,9 @@
 
                         </div>
                   </div>
-              <!-- </div> -->
+              </div>
           </div>
 
           <!-- Modal Dasbor -->
           <?php include('modal_karakteristik_kesiapan_uup.php') ?>
-        </div>
+</div>
