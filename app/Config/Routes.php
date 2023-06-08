@@ -59,6 +59,13 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('kuesioner-sby', 'Riset1::kuesioner_sby'); // Surabaya
         $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Malang
 
+        // Unduh
+        $routes->post('mpd-statistikarelawansurabaya', 'Riset1::unduhstatsrelawansby');
+        $routes->post('mpd-qualityassurance', 'Riset1::unduhqa');
+        $routes->post('mpd-doublecounting', 'Riset1::unduhdc');
+        $routes->post('mpd-familygrouping', 'Riset1::unduhfg');
+        $routes->post('wisnus-visualisasi', 'Riset1::unduhwisnus');
+
 
     });
     // Dasbor Riset 2
