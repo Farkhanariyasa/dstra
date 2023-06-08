@@ -531,9 +531,9 @@
                                             <subtitle>
                                                 <strong>
                                                     <ul>
-                                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &lt; 40 (Kurang Siap)</li>
-                                                    <li style="float: left; margin: 0 20px;">40 &le; IKUPTIK &lt; 70 (Cukup Siap)</li>
-                                                    <li style="float: left; margin: 0 20px;">70 &le; IKUPTIK &le; 100 (Siap)</li>
+                                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &le; 40 (Kurang Siap)</li>
+                                                    <li style="float: left; margin: 0 20px;">40 &lt; IKUPTIK &le; 70 (Cukup Siap)</li>
+                                                    <li style="float: left; margin: 0 20px;">70 &lt; IKUPTIK &le; 100 (Siap)</li>
                                                     </ul>   
                                                 </strong>
                                             </subtitle>
@@ -869,7 +869,7 @@
                     </div>
                 </div>
                 <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-doublecounting') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="< ?= base_url('hasil-pkl/riset1/MPD-doublecounting') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>
@@ -922,7 +922,7 @@
                     </div>
                 </div>
                 <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-familygrouping') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="< ?= base_url('hasil-pkl/riset1/MPD-familygrouping') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>
@@ -975,7 +975,7 @@
                     </div>
                 </div>
                 <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                    <a id="tombol" href="<?= base_url('hasil-pkl/riset1/MPD-familygrouping') ?>" class="tombol btn-for text-decoration-none">
+                    <a id="tombol" href="< ?= base_url('hasil-pkl/riset1/MPD-familygrouping') ?>" class="tombol btn-for text-decoration-none">
                         <span>Selengkapnya</span>
                         <i class="fas fa-arrow-circle-right"></i>
                     </a>

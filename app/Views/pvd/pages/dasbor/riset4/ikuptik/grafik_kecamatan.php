@@ -13,9 +13,9 @@
                             <subtitle>
                                 <strong>
                                     <ul>
-                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &lt; 40 (Kurang Siap)</li>
-                                    <li style="float: left; margin: 0 20px;">40 &le; IKUPTIK &lt; 70 (Cukup Siap)</li>
-                                    <li style="float: left; margin: 0 20px;">70 &le; IKUPTIK &le; 100 (Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &le; 40 (Kurang Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">40 &lt; IKUPTIK &le; 70 (Cukup Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">70 &lt; IKUPTIK &le; 100 (Siap)</li>
                                     </ul>   
                                 </strong>
                             </subtitle>

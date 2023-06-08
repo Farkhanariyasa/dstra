@@ -372,7 +372,7 @@
                                             <div>
                                                 <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
                                                 Persentase Unit Usaha Pariwisata di Kota Batu</h1>
-                                                <subtitle>Berdasarkan Lokasi Usaha</subtitle>
+                                                <subtitle>Berdasarkan Skala Usaha Menurut Jenis Usaha Pariwisata</subtitle>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-7 grid-margin">
@@ -429,7 +429,7 @@
                                             <div>
                                                 <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
                                                 Persentase Unit Usaha Pariwisata di Kota Batu</h1>
-                                                <subtitle>Berdasarkan Skala Usaha Menurut Jenis Usaha Pariwisata</subtitle>
+                                                <subtitle>Berdasarkan Lokasi Usaha</subtitle>
                                             </div>
                                         </div>
                                         <div class="mb-0 col-lg-6 grid-margin">
