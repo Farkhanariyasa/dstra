@@ -12,12 +12,6 @@
     <hr class="hrjudul">
     <?php include('bar_chart_dimensi.php') ?>
   </div>
-
-  <!-- <div class="container px-0">
-    <div class="row portfolio-container"> -->
-      <!-- < ?php include('bar_chart_dimensi.php') ?> -->
-    <!-- </div>
-  </div> -->
 </section>
 
 <!-- Istope -->
