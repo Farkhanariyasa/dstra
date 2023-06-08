@@ -54,11 +54,11 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Lama Menekuni Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php include('tabplan_tujuan2.php');
             tabplan2_1() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -67,7 +67,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
@@ -93,16 +93,16 @@
       <h4 class="card-title  judul-card">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
-            <?php tabplan2_2() ?>
-          </div>
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-12 grid-margin stretch-card h-100">
+            php tabplan2_2() 
+          </div> -->
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <br>
             <br>
             <div class="card">
               <h3><b>Tabulasi</b></h3>
               <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-                <table class="table table-hover table-bordered table-responsive display" style="width:100%">
+                <table id="table2" class="table table-hover table-bordered table-responsive display" style="width:100%">
                   <thead>
                     <tr>
                       <th scope="col">Jenis Industri Pariwisata</th>
@@ -146,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -155,7 +155,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -180,10 +180,10 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Perpindahan Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_3() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -192,7 +192,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -217,10 +217,10 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_4() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -229,7 +229,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -254,10 +254,10 @@
       <h4 class="card-title judul-card ">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Frekuensi Kepunyaan Pekerjaan di Industri Pariwisata Tiga Tahun yang Lalu</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_5() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -266,7 +266,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -291,10 +291,10 @@
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Jenis Kelamin</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_6() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -303,7 +303,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -328,10 +328,10 @@
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Tingkat Pendidikan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_7() ?>
           </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
+          <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
               <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
@@ -340,7 +340,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -365,18 +365,8 @@
       <h4 class="card-title judul-card ">Rata-rata Frekuensi Perpindahan Pekerjaan Tenaga Kerja di Industri Pariwisata menurut Status Perkawinan</h4>
       <div class="card-body">
         <div class="row">
-          <div class="col-lg-9 grid-margin stretch-card h-100">
+          <div class="col-lg-12 grid-margin stretch-card h-100">
             <?php tabplan2_8() ?>
-          </div>
-          <div class="col-lg-3 grid-margin stretch-card h-100">
-            <div class="card">
-              <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
-                <div class="col-12 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
@@ -393,6 +383,20 @@
                   <canvas id="tujuan2_8" style="width: 95%; height:80vh;"></canvas>
                 </div>
               </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="isi-tujuan bg-white shadow mt-4">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+          <div class="card">
+            <h3><b>Interpretasi</b></h3>
+            <div class="card-body p-2 border rounded">
+              <p>Berdasarkan hasil yang diperoleh, tenaga kerja yang sedang bekerja di industri pariwisata pada setiap jenis industri cenderung tidak berpindah pekerjaan. Hal ini dapat dilihat dari seluruh persentase tenaga kerja yang tidak berpindah pekerjaan pada setiap jenis industri pariwisata lebih besar dibandingkan persentase tenaga kerja yang berpindah pekerjaan dengan perbandingan yang cukup besar. Hampir 80% tenaga kerja yang sedang bekerja dari setiap jenis industri pariwisata tidak berpindah pekerjaan dalam kurun waktu 3 tahun terakhir. Sehingga, hanya sebagian kecil dari mereka yaitu sekitar 20% yang melakukan pindah pekerjaan di Kabupaten Malang dalam kurun waktu tersebut. Rendahnya perpindahan ini menunjukkan bahwa pekerjaan di industri pariwisata tergolong stabil dan tidak berdinamika. Namun jika dikaitkan dengan pekerja di industri ini yang mayoritas masih memiliki pendapatan yang tergolong rendah, ini tentunya dapat menunjukkan bahwa pekerja tidak mudah berpindah pekerjaan bukan karena pendapatannya yang tinggi namun terdapat faktor lain yang mempengaruhinya seperti kemudahan bekerja di industri ini.</p>
             </div>
           </div>
         </div>
