@@ -99,7 +99,7 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px; color: #4b395f;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="d-none d-md-block">
-                        <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div id="carouselExampleControls3" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <!-- Jenis Usaha Pariwisata -->
                                 <div class="carousel-item active">
@@ -122,22 +122,17 @@
                                 </div>
                             </div>
     
-                            <button class="carousel-control-prev"   type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
     
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
                                 <span   class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
-                    <!-- <p class="text-justify">
-                        <b>Jenis Usaha Pariwisata</b> Usaha pariwisata dibatasi pada tiga jenis usaha antara lain Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi.
-                        <br>
-                        <b>Skala Usaha</b> Hanya mengambil dua kategori skala usaha yaitu skala mikro dan kecil.
-                    </p> -->
                 </div>
             </div>
         </section>
@@ -244,7 +239,6 @@
                             <!-- Unit Sampling -->
                             <div class="card konten2 third5 par col-12 mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                 <div class="card-body text-center">
-                                    <!-- <i class="fas fa-clipboard-list ikon"></i> -->
                                     <div class="row-6 d-flex align-items-center justify-content-center">
                                         <img src="<?= base_url('pvd/img/landingpage/riset2/kerangka_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px;">
                                     </div>
@@ -253,43 +247,44 @@
                                         <div class="text-justify" style="line-height: 25px;">
                                             Metode penarikan sampel yang digunakan adalah Two Stage Sampling. Oleh karena itu, unit sampling dalam penelitian ini ada dua, yaitu :
                                         </div>
-                                    </div>
-                                    
-                                    <div class="d-none d-md-block">
-                                        <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <!-- PSU -->
-                                                <div class="carousel-item active">
-                                                    <div class="card-title text-center" style="line-height: 14px; font-weight: bold;">
-                                                        <strong>1. Primary Unit Sampling</strong>
+                                        <div class="d-none d-md-block">
+                                            <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <!-- PSU -->
+                                                    <div class="carousel-item active">
+                                                        <div class="card-title text-center" style="line-height: 14px; font-weight: bold;">
+                                                            <strong>1. Primary Unit Sampling</strong>
+                                                        </div>
+                                                        <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
+                                                            Blok sensus dengan measure of size (MoS) jumlah unit usaha mikro dan kecil (UMK) yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu.
+                                                        </div>
                                                     </div>
-                                                    <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
-                                                        Blok sensus dengan measure of size (MoS) jumlah unit usaha mikro dan kecil (UMK) yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu.
+                                                    
+                                                    <!-- USU -->
+                                                    <div class="carousel-item ">
+                                                        <div class="card-title text-center" style="line-height: 14px; font-weight: bold;">
+                                                            <strong>2. Ultimate Unit Sampling</strong>
+                                                        </div>
+                                                        <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
+                                                        Unit usaha mikro dan kecil dengan pendekatan pemilik atau pengelola dari seluruh penduduk yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu tahun 2023.
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                
-                                                <!-- USU -->
-                                                <div class="carousel-item ">
-                                                    <div class="card-title text-center" style="line-height: 14px; font-weight: bold;">
-                                                        <strong>2. Ultimate Unit Sampling</strong>
-                                                    </div>
-                                                    <div class="konten2 row w-75 mx-auto text-justify" style="line-height: 25px;">
-                                                    Unit usaha mikro dan kecil dengan pendekatan pemilik atau pengelola dari seluruh penduduk yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu tahun 2023.
-                                                    </div>
-                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                                    <span   class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
                                             </div>
-
-                                            <button class="carousel-control-prev"   type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </button>
-
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                                                <span   class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </button>
                                         </div>
                                     </div>
+                                    
+                                    
                                 </div>
                             </div>
 
