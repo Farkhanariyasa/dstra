@@ -623,6 +623,13 @@
                                         <div class="col-lg-12 grid stretch-card">
                                             <div class="card" style="border: 0">
                                                 <div class="card-body" style="padding: 16px;">
+                                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                            <button id="unduh-lp-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#ModalLp_4">
+                                                                <i class="fa-solid fa-download"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
                                                     <div class="chartBox" style="height: 360px;">
                                                         <canvas class="mt1" id="lp_tujuan4"></canvas>
                                                     </div>
