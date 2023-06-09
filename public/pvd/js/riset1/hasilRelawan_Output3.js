@@ -6,6 +6,10 @@ const data_relawan3 = {
         label: 'Telkomsel-Indosat',
         data: [
             {
+                x: 0.4,
+                y: 21,
+            },
+            {
                 x: 1.2,
                 y: 21,
 
@@ -62,6 +66,10 @@ const data_relawan3 = {
         label: 'Telkomsel-Telkomsel',
         data: [
             {
+                x: 0.4,
+                y: 20,
+            },
+            {
                 x: 1.2,
                 y: 20,
             },
@@ -115,6 +123,10 @@ const data_relawan3 = {
         label: 'Telkomsel-3 (Three)',
         data: [
             {
+                x: 0.4,
+                y: 19,
+            },
+            {
                 x: 1.2,
                 y: 19,
             },
@@ -160,6 +172,10 @@ const data_relawan3 = {
         label: 'Telkomsel-XL Axiata',
         data: [
             {
+                x: 0.4,
+                y: 18,
+            },
+            {
                 x: 1.2,
                 y: 18,
             },
@@ -192,6 +208,10 @@ const data_relawan3 = {
         label: 'Indosat-Indosat',
         data: [
             {
+                x: 0.4,
+                y: 17,
+            },
+            {
                 
                 x: 1.2,
                 y: 17,
@@ -214,6 +234,10 @@ const data_relawan3 = {
         label: 'Telkomsel-Smartfren',
         data: [
             {
+                x: 0.4,
+                y: 16,
+            },
+            {
                 x: 1.2,
                 y: 16,
             },
@@ -229,6 +253,10 @@ const data_relawan3 = {
       {
         label: 'Indosat-3 (Three)',
         data: [
+            {
+                x: 0.4,
+                y: 15,
+            },
             {
                 label: '1',
                 x: 1.2,

@@ -6,6 +6,10 @@ const data_relawan2 = {
         label: 'Telkomsel',
         data: [
             {
+                x: 0.4,
+                y: 5,
+            },
+            {
                 x: 1.2,
                 y: 5,
 
@@ -62,6 +66,10 @@ const data_relawan2 = {
         label: 'Indosat',
         data: [
             {
+                x: 0.4,
+                y: 4,
+            },
+            {
                 x: 1.2,
                 y: 4,
             },
@@ -99,6 +107,10 @@ const data_relawan2 = {
         label: '3 (Three)',
         data: [
             {
+                x: 0.4,
+                y: 3,
+            },
+            {
                 x: 1.2,
                 y: 3,
             },
@@ -119,6 +131,10 @@ const data_relawan2 = {
         label: 'XL Axiata',
         data: [
             {
+                x: 0.4,
+                y: 2,
+            },
+            {
                 x: 1.2,
                 y: 2,
             },
@@ -134,6 +150,10 @@ const data_relawan2 = {
       {
         label: 'Smartfren',
         data: [
+            {
+                x: 0.4,
+                y: 1,
+            },
             {
                 label: '2',
                 x: 1.2,
