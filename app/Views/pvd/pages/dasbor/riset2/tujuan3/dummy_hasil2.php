@@ -25,7 +25,7 @@
                 <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_12.png') ?>" class="img-fluid" alt="" style="height: auto;">
             </div>
 
-            <div class="selectBox mt-2 p-auto d-inline-flex p-2 justify-content-center">
+            <div class="selectBox mt-2 d-flex flex-row justify-content-center align-item-center ">
                 <form action="">
                     <select class="dropdownunduh1" id="forBarChart">
                         <option value="a">Maksud Utama</option>
@@ -33,8 +33,8 @@
                         <option value="c">Angkutan Utama</option>
                         <option value="d">Jenis Kegiatan Wisata</option>
                         <option value="e">Media Informasi Utama</option>
-                        <option value="f"> Rata-rata Biaya yang Dikeluarkan Turis</option>
-                        <option value="g"> Rata-rata Biaya yang Dikeluarkan Pelancong</option>
+                        <option value="f">Rata-rata Biaya yang Dikeluarkan Turis</option>
+                        <option value="g">Rata-rata Biaya yang Dikeluarkan Pelancong</option>
                     </select>
                 </form>
             </div>
