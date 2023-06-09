@@ -93,7 +93,7 @@
 
 <section>
     <script>
-        const jumlahanggota = <?= json_encode($ja) ?>;
+        
     </script>
     <!-- Istope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
