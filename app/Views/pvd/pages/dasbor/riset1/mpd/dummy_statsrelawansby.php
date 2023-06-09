@@ -104,7 +104,7 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="chartBox" style="height:440px">
+                                <div class="chartBox" style="height: 550px;">
                                     <canvas class="mt1" id="relawan_output3"></canvas>
                                 </div>
                                 <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -190,7 +190,7 @@
                                 <div class="chartBox" style="height:440px">
                                     <iframe 
                                     src="<?= base_url('pvd/html/tsel-tsel.html'); ?>" 
-                                    style="width:100%; height: 440px;"
+                                    style="width:100%; height: 440px; border-radius: 5px;"
                                     ></iframe>
                                 </div>
                             </div>
