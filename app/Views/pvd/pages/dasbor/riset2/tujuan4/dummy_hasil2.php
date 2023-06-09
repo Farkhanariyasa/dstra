@@ -4,7 +4,7 @@
         <h1 class="headline text-center">Model Regresi</h1>
     </div>
 
-    <div class="row mt-3">
+    <div class="row mt-3 tujuan4hasil2">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow rounded-5">
                 <div class="card-body">
@@ -181,7 +181,7 @@
         <h1 class="headline">Interpretasi</h1>
     </div>
 
-    <div class="row interpretasi">
+    <div class="row interpretasi tujuan4hasil2">
         <div class="col interpretasi">
             <!-- Jenis Kelamin -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
@@ -196,7 +196,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_14.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Laki-laki dan perempuan cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                         <div class="col-lg-3 grid-margin mt-2" style="margin-left: -1rem;">
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_15.png') ?>" class="img-fluid" alt="">
                         </div>
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Usia tidak berpengaruh pada besarnya rerata frekuensi perjalanan wisata.
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_21.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk tamatan SD dan penduduk yang tidak/belum sekolah/tidak tamat SD/MI cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -248,7 +248,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_22.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk tamatan SMP cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">1,5 kali</b> lebih banyak daripada penduduk yang tidak/belum sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_23.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk tamatan SMA cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">1,76 kali</b> lebih banyak daripada penduduk yang tidak/belum sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
@@ -268,7 +268,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_24.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk tamatan Perguruan Tinggi cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">2,03 kali</b> lebih banyak daripada penduduk yang tidak/belum sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
@@ -277,7 +277,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row tujuan4hasil2">
         <div class="col interpretasi">
             <!-- Jenis Pekerjaan KRT -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
@@ -293,7 +293,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk dengan KRT kategori pekerjaan formal cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">1,18 kali</b> lebih banyak daripada penduduk dengan KRT kategori pekerjaan informal.
                         </div>
                     </div>
@@ -303,7 +303,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk dengan KRT yang menganggur cenderung memiliki rata-rata perjalanan wisata <b style="color: red;">0,83 kali</b> lebih sedikit daripada penduduk dengan KRT kategori pekerjaan informal.
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Antara penduduk dengan KRT kategori pekerjaan lainnya dan penduduk dengan KRT kategori pekerjaan informal cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Antara ART kategori pekerjaan formal dan ART kategori pekerjaan informal cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Antara ART yang menganggur dan ART kategori pekerjaan informal cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -356,7 +356,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Antara ART kategori pekerjaan lainnya dan ART kategori pekerjaan informal cenderung memiliki rata-rata perjalanan wisata yang sama.
                         </div>
                     </div>
@@ -365,7 +365,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row tujuan4hasil2">
         <div class="col interpretasi">
             <!-- Gangguan Disabilitas -->
             <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
@@ -380,7 +380,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_19.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk yang bukan penyandang disabilitas cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">1,15 kali</b> lebih banyak daripada penduduk penyandang disabilitas.
                         </div>
                     </div>
@@ -402,7 +402,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_20.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
                             Penduduk yang dalam rumah tangganya memiliki mobil cenderung memiliki rata-rata perjalanan wisata <b style="color: green;">1,07 kali</b> lebih banyak daripada penduduk yang dalam rumah tangganya tidak memiliki mobil
                         </div>
                     </div>
