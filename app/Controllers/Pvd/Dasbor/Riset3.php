@@ -4,7 +4,7 @@ namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
 use App\Models\Pvd\Riset3HasilSpModel;
-use App\Models\Pvd\Riset3HasilPKLModel;
+use App\Models\Pvd\Riset3HasilPklModel;
 use App\Models\Pvd\UnduhHasilPklModel;
 
 class Riset3 extends BaseController
@@ -25,8 +25,8 @@ class Riset3 extends BaseController
         $this->jeniskelamin_riset3 = new Riset3HasilSpModel();
         $this->pendapatan_riset3 = new Riset3HasilSpModel();
 
-        $this->HasilPKL = new Riset3HasilPKLModel();
-        $this->tujuan1_5 = new Riset3HasilPKLModel();
+        $this->HasilPKL = new Riset3HasilPklModel();
+        $this->tujuan1_5 = new Riset3HasilPklModel();
     }
     public function index()
     {

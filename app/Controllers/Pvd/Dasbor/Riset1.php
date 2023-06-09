@@ -21,7 +21,7 @@ class Riset1 extends BaseController
         $this->hasilsp2 = new Riset1HasilSpModel();
         $this->simcard = new Riset1HasilSpModel();
         $this->dataresponden = new Riset1HasilSpModel();
-        $this->hasilpklriset1 = new Riset1HasilPKLModel();
+        $this->hasilpklriset1 = new Riset1HasilPklModel();
     }
 
     public function index()

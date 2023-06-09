@@ -10,7 +10,7 @@ class Riset3HasilPklModel extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
-    public function getByJenisIndustri1($ji, $sr,)
+    public function getByJenisIndustri1($ji, $sr)
     {
         return $this->where(['b503' => $ji, 'b301' => $sr])->countAllResults();
     }
@@ -33,7 +33,7 @@ class Riset3HasilPklModel extends Model
 
 
     // Tujuan 2 
-    public function get_2_1($ji, $sr,)
+    public function get_2_1($ji, $sr)
     {
         return $this->where(['b503' => $ji, 'b301' => $sr])->countAllResults();
     }
