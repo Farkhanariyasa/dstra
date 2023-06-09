@@ -17,17 +17,17 @@
                     <tbody>
                         <tr>
                             <td>Oktober</td>
-                            <td>-</td>
+                            <td>529544</td>
                             <td>497.328</td>
                         </tr>
                         <tr>
                             <td>November</td>
-                            <td>-</td>
+                            <td>516147</td>
                             <td>60.817</td>
                         </tr>
                         <tr>
                             <td>Desember</td>
-                            <td>-</td>
+                            <td>618740</td>
                             <td>467.514</td>
                         </tr>
                     </tbody>
@@ -78,10 +78,62 @@
     <div class="tab-pane fade " id="pills-output3" role="tabpanel" aria-labelledby="pills-output3-tab" tabindex="0">
         <div class="card">
             <div class="card-header">
-                <div class="card-title text-center mt-2">Jumlah Kepemilikan Kartu SIM Aktif yang Digunakan Wisatawan Nusantara Berdasarkan Provider di Kota Malang Triwulan IV 2022</div>
+                <div class="card-title text-center mt-2">Jumlah Wisatawan Nusantara Berdasarkan Status Kepemilikan Ponsel dan Dikategorikan Menurut Kelompok Umur di Kota Malang Triwulan IV 2022</div>
             </div>
             <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                 <table class="table table-hover table-bordered table-responsive" id="k1_tabel3" style="width:100%;overflow-x:auto;">
+                    <thead style="color: #fff; font-weight:bold;">
+                        <tr>
+                            <th scope="col">Kelompok Umur (Tahun)</th>
+                            <th scope="col">Memiliki Ponsel</th>
+                            <th scope="col">Tidak Memiliki Ponsel</th>
+                            
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-12</td>
+                            <td>54411</td>
+                            <td>45487</td>
+                        </tr>
+                        <tr>
+                            <td>13-15</td>
+                            <td>15666</td>
+                            <td>3107</td>
+                        </tr>
+                        <tr>
+                            <td>16-18</td>
+                            <td>18986</td>
+                            <td>2474</td>
+                        </tr>
+                        <tr>
+                            <td>19-24</td>
+                            <td>44627</td>
+                            <td>5426</td>
+                        </tr>
+                        <tr>
+                            <td>25-49</td>
+                            <td>148796</td>
+                            <td>25332</td>
+                        </tr>
+                        <tr>
+                            <td>&gt;=50</td>
+                            <td>74858</td>
+                            <td>24558</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade " id="pills-output4" role="tabpanel" aria-labelledby="pills-output4-tab" tabindex="0">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title text-center mt-2">Jumlah Kepemilikan Kartu SIM Aktif yang Digunakan Wisatawan Nusantara Berdasarkan Provider di Kota Malang Triwulan IV 2022</div>
+            </div>
+            <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
+                <table class="table table-hover table-bordered table-responsive" id="k1_tabel4" style="width:100%;overflow-x:auto;">
                     <thead style="color: #fff; font-weight:bold;">
                         <tr>
                             <th scope="col">Provider</th>
@@ -118,13 +170,13 @@
             </div>
         </div>
     </div>
-    <div class="tab-pane fade " id="pills-output4" role="tabpanel" aria-labelledby="pills-output4-tab" tabindex="0">
+    <div class="tab-pane fade " id="pills-output5" role="tabpanel" aria-labelledby="pills-output5-tab" tabindex="0">
         <div class="card">
             <div class="card-header">
                 <div class="card-title text-center mt-2">Jumlah Wisatawan Nusantara dengan Kepemilikan Ganda Kartu SIM Aktif dalam Satu Ponsel Utama Berdasarkan Kombinasi Provider di Kota Malang Triwulan IV 2022</div>
             </div>
             <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                <table class="table table-hover table-bordered table-responsive" id="k1_tabel4" style="width:100%;overflow-x:auto;">
+                <table class="table table-hover table-bordered table-responsive" id="k1_tabel5" style="width:100%;overflow-x:auto;">
                     <thead style="color: #fff; font-weight:bold;">
                         <tr>
                             <th scope="col">Kombinasi Provider</th>
@@ -197,13 +249,13 @@
             </div>
         </div>
     </div>
-    <div class="tab-pane fade " id="pills-output5" role="tabpanel" aria-labelledby="pills-output5-tab" tabindex="0">
+    <div class="tab-pane fade " id="pills-output6" role="tabpanel" aria-labelledby="pills-output6-tab" tabindex="0">
         <div class="card">
             <div class="card-header">
                 <div class="card-title text-center mt-2"> Jumlah Perjalanan Wisata Asal Kota Malang Berdasarkan Kelompok Umur Triwulan IV 2022</div>
             </div>
             <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                <table class="table table-hover table-bordered table-responsive" id="k1_tabel5" style="width:100%;overflow-x:auto;">
+                <table class="table table-hover table-bordered table-responsive" id="k1_tabel6" style="width:100%;overflow-x:auto;">
                     <thead style="color: #fff; font-weight:bold;">
                         <tr>
                             <th scope="col">Kelompok Umur (Tahun)</th>
@@ -228,13 +280,13 @@
             </div>
         </div>
     </div>
-    <div class="tab-pane fade " id="pills-output6" role="tabpanel" aria-labelledby="pills-output6-tab" tabindex="0">
+    <div class="tab-pane fade " id="pills-output7" role="tabpanel" aria-labelledby="pills-output7-tab" tabindex="0">
         <div class="card">
             <div class="card-header">
                 <div class="card-title text-center mt-2">Jumlah Wisatawan Nusantara Asal Kota Malang Berdasarkan Kelompok Umur Triwulan IV 2022</div>
             </div>
             <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                <table class="table table-hover table-bordered table-responsive" id="k1_tabel6" style="width:100%;overflow-x:auto;">
+                <table class="table table-hover table-bordered table-responsive" id="k1_tabel7" style="width:100%;overflow-x:auto;">
                     <thead style="color: #fff; font-weight:bold;">
                         <tr>
                             <th scope="col">Kelompok Umur (Tahun)</th>
