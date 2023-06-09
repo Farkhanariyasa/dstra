@@ -5,8 +5,8 @@
         <div class="col-lg-12 text-center text-white ;">
           <h5 style="font-size: 14px;">Bersinergi dengan Data, Majukan Pariwisata Nusantara</h5>
           <p style="font-size: 14px;">&copy; Divisi PVD TI PKL 62 2022/2023</p>
-          <a href="https://www.instagram.com/kaleidoskop.pkld4_62/" class="text-white" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-          <a href="mailto:pkl@stis.ac.id" class="text-white" target="_blank"><i class="fa-regular fa-envelope fa-xl"></i></a>
+          <!-- <a href="https://www.instagram.com/kaleidoskop.pkld4_62/" class="text-white" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href="mailto:pkl@stis.ac.id" class="text-white" target="_blank"><i class="fa-regular fa-envelope fa-xl"></i></a> -->
         </div>
       </div>
     </div>
@@ -34,6 +34,13 @@
 <script src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.html5.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.print.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.colVis.min.js"></script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('.hover-link'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl);
+});
+
+</script>
 </body>
 
 </html>
