@@ -165,7 +165,7 @@ function tampilData() {
     batang.options.scales.y.title.text = "Jumlah Wisatawan";
     batang.update();
   } else if (barchart.value == "d") {
-    console.log(barchart.value);
+    console.log(barchart.value);    
     batang.data.datasets[0].data = [75998, 34471, 31253, 15472, 12316, 10273, 6251, 5879, 2971, 2785];
     batang.data.labels = [
       "Tenaga Usaha Jasa dan Tenaga Penjualan",
@@ -179,14 +179,14 @@ function tampilData() {
       "Pekerja Terampil Pertanian, Kehutanan, dan Perikanan",
       "TNI/Polri",
     ];
-    batang.options.indexAxis = "y";
+    batang.options.indexAxis = "x";
     batang.options.plugins.title.text = [
       "Jumlah Wisatawan Nusantara Dalam Kota", 
       "Menurut Pekerjaan Utama di",
       "Kota Malang Oktober-Desember 2022",
     ];
-    batang.options.scales.x.title.text = "Jumlah Wisatawan";
-    batang.options.scales.y.title.text = "Pekerjaan Utama";
+    batang.options.scales.x.title.text = "Pekerjaan Utama";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
     batang.update();
   } else if (barchart.value == "e") {
     console.log(barchart.value);
@@ -222,9 +222,9 @@ function tampilData() {
       "Menurut Provider yang Digunakan di",
       "Kota Malang Oktober-Desember 2022",
     ];
-    batang.options.indexAxis = "y";
-    batang.options.scales.x.title.text = "Jumlah Wisatawan";
-    batang.options.scales.y.title.text = "Jenis Provider";
+    batang.options.indexAxis = "x";
+    batang.options.scales.x.title.text = "Jenis Provider";
+    batang.options.scales.y.title.text = "Jumlah Wisatawan";
     batang.update();
   }
 }
