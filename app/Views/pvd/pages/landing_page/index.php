@@ -47,9 +47,9 @@
     </div>
 </section><!-- End Hero -->
 
-<section class="hero d-flex align-items-center">
+<!-- <section class="hero d-flex align-items-center"> -->
     <!-- About STIS & Angkatan 62 -->
-    <div class="container ">
+    <!-- <div class="container ">
         <div class="row">
             <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
                 <div data-aos="fade-up" class="card62 shadow">
@@ -87,16 +87,20 @@
                 </div>
             </div>
         </div>
-</section> <!-- End About -->
+    </div> -->
+<!-- </section> End About -->
 
 
 <section class="hero">
     <!-- riset 1 -->
-    <div class="container mt-3">
+    <div class="container mt-3" id="riset1">
         <div class="row">
-            <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center">
+            <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center mb-2">
                 <div class="d-flex flex-row align-items-center justify-content-center ">
                     <h1 data-aos="fade-up" class=" foreachriset">Riset 1</h1>
+                </div>
+                <div class="hero-img mt-2" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="<?= base_url('pvd/img/landingpage/riset1/riset1.png') ?>" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row  justify-content-center">
@@ -167,9 +171,12 @@
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
                 <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
-            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-4 col-md-8 d-flex flex-column mb-2" data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center ">
                     <h1 data-aos="fade-up" class=" foreachriset">Riset 2</h1>
+                </div>
+                <div class="hero-img mt-2" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="<?= base_url('pvd/img/landingpage/riset2/riset2.png') ?>" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -178,9 +185,12 @@
     <!-- riset 3 -->
     <div class="container mt-3">
         <div class="row">
-            <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center justify-content-center ">
+            <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center mb-2">
                 <div data-aos="fade-up" class="d-flex flex-row align-items-center justify-content-center ">
                     <h1 class="text-center foreachriset">Riset 3</h1>
+                </div>
+                <div class="hero-img mt-2" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="<?= base_url('pvd/img/landingpage/riset3/riset3.png') ?>" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
@@ -259,14 +269,66 @@
             <div class="col-lg-1 col-md-1 d-flex flex-row justify-content-center">
                 <img src="<?= base_url('pvd/img/landingpage/line1.png') ?>" class="orangeline" alt="">
             </div>
-            <div class="col-lg-4 col-md-8 d-flex flex-column justify-content-center " data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-4 col-md-8 d-flex flex-column mb-2" data-aos="zoom-out" data-aos-delay="200">
                 <div class="d-flex flex-row align-items-center justify-content-center text-center ">
                     <h1 data-aos="fade-up" class=" foreachriset">Riset 4</h1>
+                </div>
+                <div class="hero-img mt-2" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="<?= base_url('pvd/img/landingpage/riset4/riset4.png') ?>" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </div>
 
 </section>
+
+<section class="hero d-flex align-items-center">
+    <!-- About STIS & Angkatan 62 -->
+    <div class="container ">
+        <div class="row">
+            <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+                <h1 data-aos="fade-up" class=" foreachriset">Tentang Kami</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
+                <div data-aos="fade-up" class="card62 shadow">
+                    <div class="card-body d-grid rounded pr-4 pl-4">
+                        <h5 class="card-title text-center h5judullp mt-4">Politeknik Statistika STIS</h5>
+                        <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+                            kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
+                            Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
+                            secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
+                            di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
+                            Tinggi.
+                        </p>
+                        <div class="img text-center mb-4">
+                            <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
+                <div data-aos="fade-up" class="card62 shadow">
+                    <div class="card-body d-grid rounded pr-4 pl-4 ">
+                        <h5 class="card-title text-center h5judullp mt-4">Angkatan 62</h5>
+                        <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+                            kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
+                            Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
+                            secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
+                            di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
+                            Tinggi.
+                        </p>
+                        <div class="img text-center mb-4">
+                            <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
+                        </div>
+                        <br id="riset1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- End About -->
 
 <?= $this->endSection(); ?>

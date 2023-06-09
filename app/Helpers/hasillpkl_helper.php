@@ -192,19 +192,19 @@ function getMenu()
               'href' => '/riset3/tempviz',
             ],
             [
-              'subMenu' => 'Tujuan 1',
+              'subMenu' => 'Gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata',
               'href' => '/riset3/hasilkajian1',
             ],
             [
-              'subMenu' => 'Tujuan 2',
+              'subMenu' => 'Dinamika tenaga kerja di industri pariwisata',
               'href' => '/riset3/hasilkajian2',
             ],
             [
-              'subMenu' => 'Tujuan 3',
+              'subMenu' => 'Faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata',
               'href' => '/riset3/hasilkajian3',
             ],
             [
-              'subMenu' => 'Tujuan 4',
+              'subMenu' => 'Tingkat sadar wisata dari tenaga kerja industri pariwisata',
               'href' => '/riset3/hasilkajian4',
             ],
           ],

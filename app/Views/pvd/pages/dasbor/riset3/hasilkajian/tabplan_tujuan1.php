@@ -1,8 +1,8 @@
 <div class="card">
     <h3><b>Tabulasi</b></h3>
-    <div class="card-body table-responsive border rounded" style="padding: 0.5rem 1rem;">
-        <table id="table1" class="table table-hover table-bordered table-responsive display" style="width:100%">
-            <thead>
+    <div class="card-body table-responsive border rounded" style="padding: 0 1rem 0.5rem 1rem;">
+        <table id="table1" class="table table-hover table-bordered table-responsive display table-tujuan1" style="width:100%; overflow: auto; height: 100px;">
+            <thead style="position: sticky; top: 0; z-index: 1;">
                 <tr>
                     <th rowspan="2" colspan="2">KLB</th>
                     <th colspan="6" class="text-center">Jenis Industri Pariwisata</th>
@@ -21,7 +21,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <th rowspan="2">Hubungan dengan KRT</th>
+                    <td rowspan="2" class="fw-bold">Hubungan dengan KRT</td>
                     <td>KRT</td>
                     <td>10.58</td>
                     <td>21.53</td>
@@ -45,7 +45,7 @@
                     <td>60.97</td>
                 </tr>
                 <tr>
-                    <th rowspan="5">Usia</th>
+                    <td rowspan="5" class="fw-bold">Usia</td>
                     <td>Under 15 dan 15-24</td>
                     <td>10.40</td>
                     <td>40.46</td>
@@ -105,7 +105,7 @@
                     <td>4.42</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Status Perkawinan</th>
+                    <td rowspan="2" class="fw-bold">Status Perkawinan</td>
                     <td>Belum Kawin</td>
                     <td>10.22</td>
                     <td>37.63</td>
@@ -129,7 +129,7 @@
                     <td>73.50</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Jenis Kelamin</th>
+                    <td rowspan="2" class="fw-bold">Jenis Kelamin</td>
                     <td>Laki-laki</td>
                     <td>10.74</td>
                     <td>24.82</td>
@@ -152,7 +152,7 @@
                     <td>40.31</td>
                 </tr>
                 <tr>
-                    <th rowspan="4">Jumlah Pendapatan</th>
+                    <td rowspan="4" class="fw-bold">Jumlah Pendapatan</td>
                     <td>< Rp1.500.000</td>
                     <td>12.56</td>
                     <td>39.07</td>
@@ -199,7 +199,7 @@
                     <td>20.09</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Tempat Bekerja Menggunakan Internet</th>
+                    <td rowspan="2" class="fw-bold">Tempat Bekerja Menggunakan Internet</td>
                     <td>Ya</td>
                     <td>13.62</td>
                     <td>25.53</td>
@@ -222,7 +222,7 @@
                     <td>33.05</td>
                 </tr>
                 <tr>
-                    <th rowspan="3">Tempat Bekerja Menggunakan Internet untuk Promosi</th>
+                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Promosi</td>
                     <td>Ya</td>
                     <td>14.55</td>
                     <td>23.81</td>
@@ -258,7 +258,7 @@
                     <td>33.05</td>
                 </tr>
                 <tr>
-                    <th rowspan="3">Tempat Bekerja Menggunakan Internet untuk Komunikasi</th>
+                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Komunikasi</td>
                     <td>Ya</td>
                     <td>13.73</td>
                     <td>25.49</td>
@@ -294,7 +294,7 @@
                     <td>33.05</td>
                 </tr>
                 <tr>
-                    <th rowspan="3">Tempat Bekerja Menggunakan Internet untuk Transaksi</th>
+                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Transaksi</td>
                     <td>Ya</td>
                     <td>15.34</td>
                     <td>22.71</td>
@@ -330,7 +330,7 @@
                     <td>33.05</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Keinginan untuk Menambah Pekerjaan</th>
+                    <td rowspan="2" class="fw-bold">Keinginan untuk Menambah Pekerjaan</td>
                     <td>Ya</td>
                     <td>8.04</td>
                     <td>26.22</td>
@@ -354,7 +354,7 @@
                     <td>59.26</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Pekerjaan Utama</th>
+                    <td rowspan="2" class="fw-bold">Pekerjaan Utama</td>
                     <td>Ya</td>
                     <td>9.86</td>
                     <td>32.75</td>
@@ -378,7 +378,7 @@
                     <td>10.40</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Lama Bekerja</th>
+                    <td rowspan="2" class="fw-bold">Lama Bekerja</td>
                     <td><=36 bulan</td>
                     <td>10.38</td>
                     <td>38.75</td>
@@ -402,7 +402,7 @@
                     <td>58.83</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Kepunyaan Pekerjaan Sebelumnya</th>
+                    <td rowspan="2" class="fw-bold">Kepunyaan Pekerjaan Sebelumnya</td>
                     <td>Ya</td>
                     <td>9.30</td>
                     <td>35.66</td>
@@ -426,7 +426,7 @@
                     <td>81.62</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</th>
+                    <td rowspan="2" class="fw-bold">Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</td>
                     <td>Ya</td>
                     <td>9.52</td>
                     <td>35.71</td>
@@ -450,7 +450,7 @@
                     <td>94.02</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>)</th>
+                    <td rowspan="2" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>)</td>
                     <td>Ya</td>
                     <td>14.22</td>
                     <td>24.17</td>
@@ -474,7 +474,7 @@
                     <td>69.94</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>) berdasarkan Jenis Kelamin</th>
+                    <td rowspan="2" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>) berdasarkan Jenis Kelamin</td>
                     <td>Laki-laki</td>
                     <td>11.80</td>
                     <td>18.63</td>
@@ -498,7 +498,7 @@
                     <td>23.70</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Pendapatan Sampingan Lebih Besar daripadda Pendapatan Utama</th>
+                    <td rowspan="2" class="fw-bold">Pendapatan Sampingan Lebih Besar daripadda Pendapatan Utama</td>
                     <td>Ya</td>
                     <td>10.17</td>
                     <td>25.42</td>
@@ -522,7 +522,7 @@
                     <td>72.04</td>
                 </tr>     
                 <tr>
-                    <th rowspan="3">Pendidikan Tertinggi</th>
+                    <td rowspan="3" class="fw-bold">Pendidikan Tertinggi</td>
                     <td>Di Bawah SMA/SMK</td>
                     <td>7.89</td>
                     <td>31.58</td>
@@ -558,7 +558,7 @@
                     <td>8.43</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Keikutsertaan dalam Pelatihan</th>
+                    <td rowspan="2" class="fw-bold">Keikutsertaan dalam Pelatihan</td>
                     <td>Ya</td>
                     <td>18.26</td>
                     <td>30.43</td>
@@ -582,7 +582,7 @@
                     <td>83.62</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Penggunaan Bahasa Asing di Tempat Kerja</th>
+                    <td rowspan="2" class="fw-bold">Penggunaan Bahasa Asing di Tempat Kerja</td>
                     <td>Ya</td>
                     <td>17.81</td>
                     <td>27.40</td>
@@ -606,7 +606,7 @@
                     <td>79.20</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Rumah Layak Huni</th>
+                    <td rowspan="2" class="fw-bold">Rumah Layak Huni</td>
                     <td>Layak Huni</td>
                     <td>14.80</td>
                     <td>34.53</td>
@@ -630,7 +630,7 @@
                     <td>68.23</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Sumber Air Minum Bersih dan Akses Air Minum Layak</th>
+                    <td rowspan="2" class="fw-bold">Sumber Air Minum Bersih dan Akses Air Minum Layak</td>
                     <td>Sumber air minum bersih</td>
                     <td>10.42</td>
                     <td>32.29</td>
@@ -654,7 +654,7 @@
                     <td>39.17</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Sanitasi Layak</th>
+                    <td rowspan="2" class="fw-bold">Sanitasi Layak</td>
                     <td>Sanitasi Layak</td>
                     <td>11.53</td>
                     <td>32.36</td>
@@ -678,7 +678,7 @@
                     <td>17.24</td>
                 </tr>
                 <tr>
-                    <th colspan="2" class="text-center">Total</th>
+                    <td colspan="2" class="text-center fw-bold">Total</td>
                     <td style="display: none;"></td>
                     <td>10.83</td>
                     <td>31.68</td>
@@ -689,7 +689,7 @@
                     <td>100.00</td>
                     <td></td>
                 </tr>
-            </tbody> 
+            </tbody>
         </table>
     </div>
 </div>

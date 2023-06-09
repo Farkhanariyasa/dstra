@@ -356,6 +356,10 @@ div.tooltip {
   background: #337ab7;
 }
 
+.table-tujuan1 thead tr th{
+    pointer-events: none;
+}
+
 .isi-tujuan{
   border-radius: 15px;
 }
