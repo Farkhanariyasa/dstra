@@ -646,45 +646,54 @@
             <table class="table table-hover table-bordered table-responsive" id="k3_tabel11" style="width:100%">
                 <thead>
                     <tr>
-                        <th scope="col">Jenis Kegiatan Wisata</th>
-                        <th scope="col">Frekuensi Kegiatan Wisata</th>
+                        <th scope="col">Media Informasi Utama</th>
+                        <th scope="col">Jumlah Perjalanan</th>
                         <th scope="col">Persentase</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Wisata Bahari</th>
-                        <td>0</td>
-                        <td>0</td>
+                        <th scope="row">Tidak menggunakan informasi utama</th>
+                        <td>3981</td>
+                        <td>49.981</td>
                     </tr>
                     <tr>
-                        <th scope="row">Eko Wisata</th>
-                        <td>189</td>
-                        <td>2.087</td>
+                        <th scope="row">Website Resmi</th>
+                        <td>36</td>
+                        <td>0.452</td>
                     </tr>
                     <tr>
-                        <th scope="row">Wisata Petualangan</th>
-                        <td>38</td>
-                        <td>0.42</td>
+                        <th scope="row">Media Sosial</th>
+                        <td>460</td>
+                        <td>5.775</td>
                     </tr>
                     <tr>
-                        <th scope="row">Wisata Sejarah/Religi</th>
-                        <td>221</td>
-                        <td>2.441</td>
+                        <th scope="row">Media Internet Lainnya</th>
+                        <td>87</td>
+                        <td>1.092</td>
                     </tr>
                     <tr>
-                        <th scope="row">Wisata Kesenian</th>
-                        <td>78</td>
-                        <td>0.861</td>
+                        <th scope="row">Televisi/radio</th>
+                        <td>8</td>
+                        <td>0.1</td>
                     </tr>
                     <tr>
-                        <th scope="row">Wisata Kuliner</th>
-                        <td>1265</td>
-                        <td>13.972</td>
+                        <th scope="row">Media Cetak</th>
+                        <td>69</td>
+                        <td>0.866</td>
                     </tr>
                     <tr>
-                        <th scope="row">Wisata Kota & Pedesaan</th>
-                        <td>4823</td>
-                        <td>53.269</td>
+                        <th scope="row">Teman / Saudara / Famili</th>
+                        <td>3319</td>
+                        <td>41.67</td>
                     </tr>
                     <tr>
+                        <th scope="row">Lainnya</th>
+                        <td>5</td>
+                        <td>0.063</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
