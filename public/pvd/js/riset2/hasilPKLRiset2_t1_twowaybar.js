@@ -8,7 +8,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
         datasets: [
             {
                 label: "Ke Objek Wisata",
-                data: [2377, 3359, 4290, 2296, 1822],
+                data: [52.59, 64.59, 63.32, 40.22, 54.72],
                 borderWidth: 1,
                 backgroundColor: "#ffab00",
                 datalabels: {
@@ -22,7 +22,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
             },
             {
                 label: "Menginap di Akomodasi Komersial",
-                data: [43, 47, 127, 80, 34],
+                data: [0.91, 0.95, 1.93, 1.4, 1.03],
                 borderWidth: 1,
                 backgroundColor: "#B35C74",
                 datalabels: {
@@ -32,11 +32,11 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                     font: {
                         size: 10
                     }
-                  }
+                }
             },
             {
                 label: "Menuju ke Kecamatan Lain",
-                data: [2114, 1797, 2518, 3449, 1451],
+                data: [46.5, 34.46, 34.76, 58.39, 44.25],
                 borderWidth: 1,
                 backgroundColor: "#4B395F",
                 datalabels: {
@@ -46,7 +46,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                     font: {
                         size: 10
                     }
-                  }
+                }
             },
         ],
     },
@@ -80,7 +80,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 },
                 ticks: {
                     font: {
-                      size: 9
+                        size: 9
                     }
                 }
             },
@@ -88,7 +88,7 @@ const batang_duaarah = new Chart(t1_twowaybar, {
                 beginAtZero: true,
                 title: {
                 display: true,
-                text: "Jumlah Perjalanan",
+                text: "Jumlah Perjalanan (%)",
                 font: {
                     size: 14,
                     style: "normal",

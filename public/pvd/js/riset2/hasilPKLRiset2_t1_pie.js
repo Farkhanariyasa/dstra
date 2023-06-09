@@ -13,7 +13,7 @@ const diagram_lingkaran = new Chart(t1_pie, {
     datasets: [
       {
         label: "Jumlah",
-        data: [53.59, 45.2, 1.21],
+        data: [53.46, 45.31, 1.23],
         backgroundColor: ["#c27d90", "#ffab00", "#506396" ],
         hoverOffset: 4,
         datalabels: {
