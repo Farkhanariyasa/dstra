@@ -6,7 +6,7 @@
 
 <div class="container px-0">
   <header class="section-header">
-    <h6 style="color: #4b395f;"><strong>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata.</strong>
+    <h6 style="color: #4b395f;"><strong>Menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata</strong>
     </h6>
   </header>
   <hr class="hrjudul">
