@@ -59,6 +59,13 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('kuesioner-sby', 'Riset1::kuesioner_sby'); // Surabaya
         $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Malang
 
+        // Unduh
+        $routes->post('mpd-statistikarelawansurabaya', 'Riset1::unduhstatsrelawansby');
+        $routes->post('mpd-qualityassurance', 'Riset1::unduhqa');
+        $routes->post('mpd-doublecounting', 'Riset1::unduhdc');
+        $routes->post('mpd-familygrouping', 'Riset1::unduhfg');
+        $routes->post('wisnus-visualisasi', 'Riset1::unduhwisnus');
+
 
     });
     // Dasbor Riset 2
@@ -94,10 +101,10 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
         $routes->get('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
 
-        $routes->post('unduhtujuan1', 'Riset3::unduhtujuan1');
-        $routes->post('unduhtujuan2', 'Riset3::unduhtujuan2');
-        $routes->post('unduhtujuan3', 'Riset3::unduhtujuan3');
-        $routes->post('unduhtujuan4', 'Riset3::unduhtujuan4');
+        $routes->post('hasilkajian1', 'Riset3::unduhtujuan1');
+        $routes->post('hasilkajian2', 'Riset3::unduhtujuan2');
+        $routes->post('hasilkajian3', 'Riset3::unduhtujuan3');
+        $routes->post('hasilkajian4', 'Riset3::unduhtujuan4');
 
 
         // Menu 3

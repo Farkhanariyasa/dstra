@@ -2,11 +2,12 @@
 <?= $this->section('content'); ?>
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
-    <div class="row portfolio-container">
-      <?php include('ikuptik.php') ?>
-    </div>
-  </div>
-</section>
+    <header class="section-header">
+        <h6 style="color: #4b395f;"><strong>Deskripsi Singkat Mengenai IKUPTIK</strong></h6>
+    </header>
+    <hr class="hrjudul">
+    <?php include('ikuptik.php') ?>
+      
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <!-- Leaflet JS -->
@@ -21,9 +22,20 @@
 <!-- Highchartjs Heatmap -->
 <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 
+<!-- Data Chart -->
+<script>
+  const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
+  const total = <?= json_encode($total); ?>;
+</script>
+
 <!-- Impor Chart -->
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_1_pie.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_2_spider.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->

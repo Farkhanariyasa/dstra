@@ -56,7 +56,7 @@
 
   <!-- Data Grafik -->
   <script>
-    const jumlahanggota = <?= json_encode($ja) ?>;
+    
   </script>
   <!-- Grafik Dasbor -->
   <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>

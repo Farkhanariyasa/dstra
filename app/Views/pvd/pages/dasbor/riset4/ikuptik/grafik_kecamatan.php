@@ -1,9 +1,10 @@
 <!-- Visualisasi 1 -->
+<p id="go-to-chart-1"></p>
 <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
     <div class="row mt-2">
         <div class="card-body">
-            <div class="col-lg-12 grid-margin stretch-card">
-                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow">
+            <div class="col-lg-12 grid-margin stretch-card" style="margin-bottom:0rem">
+                <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-2 pt-5 shadow">
                     <!-- <div class="card d-flex justify-content-center flex-column align-item-center flex-md primary pb-5 pt-5 shadow rounded-5"> -->
                         <div style="padding-left: 2.5rem; padding-right: 2.5rem">
                             <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
@@ -12,9 +13,9 @@
                             <subtitle>
                                 <strong>
                                     <ul>
-                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &lt; 40 (Kurang Siap)</li>
-                                    <li style="float: left; margin: 0 20px;">40 &le; IKUPTIK &lt; 70 (Cukup Siap)</li>
-                                    <li style="float: left; margin: 0 20px;">70 &le; IKUPTIK &le; 100 (Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">10 &le; IKUPTIK &le; 40 (Kurang Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">40 &lt; IKUPTIK &le; 70 (Cukup Siap)</li>
+                                    <li style="float: left; margin: 0 20px;">70 &lt; IKUPTIK &le; 100 (Siap)</li>
                                     </ul>   
                                 </strong>
                             </subtitle>
@@ -29,6 +30,18 @@
                             </div>
                             <div id="chart-1" style="width: 95%; height:80vh; z-index:0;"></div>
                         </div>
+                        <div class="d-flex flex-row align-item-center justify-content-center">
+                        <div class="mb-0 col-lg-12 grid-margin stretch-card">
+                            <div class="card-body" style="padding-top:1.5rem;padding-right:1.25rem;padding-bottom:0rem;padding-left:1.25rem">
+                                <h4 class="text-center">Interpretasi</h4>
+                                <p class="text-justify">
+                                    Secara keseluruhan,unit usaha pariwisata yang berada di tiga kecamatan tergolong cukup siap dalam memanfaatkan TIK.
+                                    Kemudian, untuk nilai indeks kesiapan tertinggi  terletak di Kecamatan Bumiaji dengan nilai indeks sebesar 48,23. 
+                                    Yang artinya unit usaha pariwisata yang terletak di Kecamatan Bumiaji tergolong cukup siap dalam memanfaatkan TIK.                            
+                                </p>
+                            </div>
+                        </div>
+                        </div>
                     <!-- </div> -->
                 </div>
             </div>
@@ -36,7 +49,7 @@
     </div>
 </div>
 
-<div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
+<!-- <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card shadow">
@@ -57,7 +70,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
     <div class="row mt-2"> -->
@@ -100,6 +113,7 @@
 </div> -->
 
 <!-- Visualisasi 2 -->
+<p id="go-to-chart-2"></p>
 <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
@@ -136,6 +150,7 @@
 </div>
 
 <!-- Visualisasi 3 -->
+<p id="go-to-chart-3"></p>
 <div class="portfolio-item filter-riset4-jenis-uup-2 mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">
@@ -171,6 +186,7 @@
 </div>
 
 <!-- Visualisasi 4 -->
+<p id="go-to-chart-4"></p>
 <div class="portfolio-item filter-riset4-jenis-uup-1  mb-1">
     <div class="row mt-2">
         <div class="col-lg-12 grid-margin stretch-card">

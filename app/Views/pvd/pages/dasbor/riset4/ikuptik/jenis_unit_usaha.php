@@ -13,11 +13,11 @@
 
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-            <li data-filter=".filter-riset4-jenis-uup-1" class="filter">Jasa Transportasi</li>
-            <li data-filter=".filter-riset4-jenis-uup-2" class="filter">Jasa Makan-Minum</li>
-            <li data-filter=".filter-riset4-jenis-uup-3" class="filter">Jasa Akomodasi</li>
-            <li data-filter=".filter-riset4-jenis-uup-4" class="filter-active">Total</li>
+        <ul id="portfolio-flters" role="tablist">
+            <li data-filter=".filter-riset4-jenis-uup-1" class="filter" type="button" role="tab">Jasa Transportasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-2" class="filter" type="button" role="tab">Jasa Makan-Minum</li>
+            <li data-filter=".filter-riset4-jenis-uup-3" class="filter" type="button" role="tab">Jasa Akomodasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-4" class="filter" type="button" role="tab">Total</li>
         </ul>
       </div>
     </div>

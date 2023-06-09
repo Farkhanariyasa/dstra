@@ -521,10 +521,29 @@ class Riset4 extends BaseController
 
     public function menu4submenu1()
     {
+        $ikuptikPerDimensi = [
+            'dimensi1' => $this->uup->getRataanGeo('dimensi1'),
+            'dimensi2' => $this->uup->getRataanGeo('dimensi2'),
+            'dimensi3' => $this->uup->getRataanGeo('dimensi3'),
+            'dimensi4' => $this->uup->getRataanGeo('dimensi4'),
+            'dimensi5' => $this->uup->getRataanGeo('dimensi5'),
+            'dimensi6' => $this->uup->getRataanGeo('dimensi6'),
+        ];
+
+        $total = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 1),
+            'makan' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 2),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 3)
+        ];
+
+
+
         $menu = getMenu();
         $data = [
             'judul' => 'Deskripsi Singkat',
             'menu' => $menu['riset4'],
+            'ikuptikPerDimensi' => $ikuptikPerDimensi,
+            'total' => $total,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/deskripsi_umum', $data);
     }

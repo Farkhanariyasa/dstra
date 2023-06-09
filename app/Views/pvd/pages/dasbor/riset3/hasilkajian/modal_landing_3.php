@@ -1,4 +1,4 @@
-<?php for ($i = 1; $i <= 2; $i++) : ?>
+<?php for ($i = 1; $i <= 4; $i++) : ?>
 
     <div class="modal fade" id="ModalLp_<?php echo $i ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

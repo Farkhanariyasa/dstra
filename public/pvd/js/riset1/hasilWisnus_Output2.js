@@ -2,14 +2,17 @@ const wisnus_output2 = document.getElementById("wisnus_output2");
 const pie_wisnus2 = new Chart(wisnus_output2, {
   type: "pie",
   data: {
-    labels: ["Berkunjung ke luar kota untuk tujuan lain  ", "Menginap di Akomodasi Komersial", "Berkunjung ke Objek Wisata"],
+    labels: [
+      "Berkunjung ke Objek Wisata", 
+      "Berkunjung ke luar kota untuk tujuan lain  ", 
+      "Menginap di Akomodasi Komersial", ],
 
     datasets: [
       {
         label: "Jumlah Anggota",
-        data: [497329, 60817, 467513],
+        data: [497329,467513, 60817, ],
         borderwidth: 1,
-        backgroundColor: ["#C27D90", "#FDAB01", "#516296"],
+        backgroundColor: ["#FDAB01","#C27D90", "#516296"],
       },
     ],
   },

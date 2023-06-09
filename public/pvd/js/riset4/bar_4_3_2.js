@@ -38,6 +38,11 @@ datasets: [{
                 grid:{
                     display:false
                 },
+                ticks: {
+                    font: {
+                        size: 10
+                    }
+                }
             },
             y:{            
                 beginAtZero: true,

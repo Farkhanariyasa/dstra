@@ -38,6 +38,11 @@ new Chart(bar3, {
                 grid:{
                     display:false
                 },
+                ticks: {
+                    font: {
+                        size: 10
+                    }
+                }
             },
             y:{            
                 beginAtZero: true,

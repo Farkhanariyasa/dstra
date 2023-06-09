@@ -5,7 +5,8 @@ let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 // let hoverButton =':hover{ background-color: #00ff00 }'
 
 
-for (let i = 1; i <=2 ; i++) {
+for (let i = 1; i <=4 ; i++) {
+    if (i === 3) { continue; }
     document.getElementById('unduh-lp-'+i).addEventListener('click',(e) => {
         idbutton='btndownloadLp_'+i
         console.log("1-"+i+" diklik")
@@ -56,7 +57,8 @@ function getvalue(){
 }
 
 
-for (let i = 2; i <= 2; i++) {
+for (let i = 2; i <= 4; i++) {
+    if (i === 3) { continue; }
     (function(i) {
       document.getElementById('btndownloadLp_' + i).addEventListener('click', function(e) {
         // Convert our canvas to a data URL
@@ -97,7 +99,7 @@ document.getElementById('btndownloadLp_1').addEventListener('click', function(e)
 
     // Buat tautan unduhan
     var downloadLink = document.createElement('a');
-    downloadLink.setAttribute('download', 'merged_canvas.png');
+    downloadLink.setAttribute('download', 'Riset3_Tujuan1.png');
     downloadLink.setAttribute('href', mergedCanvas.toDataURL('image/png').replace('image/png', 'image/octet-stream'));
     downloadLink.click();
 //     // Convert our canvas to a data URL

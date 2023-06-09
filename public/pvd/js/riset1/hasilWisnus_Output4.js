@@ -4,12 +4,19 @@ const wisnus_output4 = document.getElementById("wisnus_output4");
 const bar_output4 = new Chart(wisnus_output4, {
   type: "bar",
   data: {
-    labels: ["Telkomsel", "XL-Axiata", "Indosat Ooredo", "3 (Three)", "Smartfren", "Lainnya"],
+    labels: ["Telkomsel", "Indosat Ooredo", "XL-Axiata", "3 (Three)", "Smartfren", "Lainnya"],
     datasets: [
       {
         label: "Jumlah Kepemilikan Kartu SIM",
-        data: [187873, 63958, 72854, 52276, 13985, 2208	],
-        backgroundColor: "#C27D90",
+        data: [187873, 72854, 63958, 52276, 13985, 2208	],
+        backgroundColor: [ 
+          "#FDAB01",
+          "#FDAB01",
+          "#516296", 
+          "#516296",
+          "#516296", 
+          "#516296",
+        ],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -47,7 +54,7 @@ const bar_output4 = new Chart(wisnus_output4, {
         },
       },
       legend: {
-        display: true,
+        display: false,
         position: "top",
       },
       tooltip: {

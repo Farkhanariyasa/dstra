@@ -562,11 +562,20 @@
                                                     <div class="card-body">
                                                         <div class="chartBox">
                                                             <div>
-                                                                <p style="font-weight: bold;">Persamaan Reglog</p>
-                                                                <div>
+                                                                <p style="font-weight: bold;">Persamaan Regresi Logistik</p>
+                                                                <!-- <div>
                                                                     <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
      
+                                                                 </div> -->
+                                                                 <div >
+                                                                    <p style= "">$$\ln\left(\frac{p}{1-p}\right) = -1,263 + 1,597ind(1)^*$$
+                                                                        $$+ 1,750ind(2)^* + 0,648ind(3)^*- $$
+                                                                        $$0,010ind(4) + 0,721ind(5) + 0,347jk + $$
+                                                                        $$0,106didik- 0,021usia^*+ 0,437kawin + $$
+                                                                        $$  0,319latih + 0,256umr + $$
+                                                                        $$ 0,817geo^* + 0,850wil^*$$</p>
                                                                  </div>
+                                                                 <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
                                                             <div>
                                                                 <p style="font-weight: bold;">Variabel yang signifikan</p>
@@ -614,6 +623,13 @@
                                         <div class="col-lg-12 grid stretch-card">
                                             <div class="card" style="border: 0">
                                                 <div class="card-body" style="padding: 16px;">
+                                                    <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                                        <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                            <button id="unduh-lp-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#ModalLp_4">
+                                                                <i class="fa-solid fa-download"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
                                                     <div class="chartBox" style="height: 360px;">
                                                         <canvas class="mt1" id="lp_tujuan4"></canvas>
                                                     </div>

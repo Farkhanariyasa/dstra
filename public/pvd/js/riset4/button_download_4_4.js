@@ -70,7 +70,7 @@ for (let i = 1; i < 5; i++) {
       createEl.href = canvasUrl;
 
       // This is the name of our downloaded file
-      createEl.download = "Hasil PKL Riset 4 - Dimensi - Chart " + [i];
+      createEl.download = "Hasil PKL Riset 4 - IKUPTIK - Jenis Unit Usaha - Chart " + [i];
 
       // Click the download button, causing a download, and then remove it
       createEl.click();
