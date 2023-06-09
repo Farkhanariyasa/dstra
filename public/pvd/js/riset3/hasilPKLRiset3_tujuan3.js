@@ -23,6 +23,7 @@ new Chart(tujuan3_1, {
   scales: {
       x: {
         stacked: true,
+        max: 100
       },
       y: {
         stacked: true
