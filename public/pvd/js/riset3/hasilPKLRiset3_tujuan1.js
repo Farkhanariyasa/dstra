@@ -61,7 +61,7 @@ const tujuan1 =new Chart(ctx, {
     plugins:{
         title: {
             display: true,
-            text : ["Persentase Tenaga Kerja di Industri Pariwisata", "Menurut Jenis Industri dan Lama Menekuni Pekerjaan"],
+            text : ["Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT"],
             font: {
                 size: 18
             }
@@ -123,27 +123,27 @@ function tampilData(){
             console.log(barChart.value);
             tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
             tujuan1.data.datasets[0].data = [0.00,4.35,12.80,10.81,12.68,11.27,6.35,6.67,16.13,6.25,0.00,25.81];
-            tujuan1.data.datasets[0].barThickness= 35,
+            tujuan1.data.datasets[0].barThickness= 30,
 
             tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
             tujuan1.data.datasets[1].data = [50.00,50.00,36.80,27.93,26.76,25.35,26.98,26.67,38.71,50.00,28.57,16.13];
-            tujuan1.data.datasets[1].barThickness= 35,
+            tujuan1.data.datasets[1].barThickness= 30,
 
             tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
             tujuan1.data.datasets[2].data = [0.00,0.00,3.20,10.81,12.68,14.08,17.46,16.67,12.90,6.25,28.57,19.35];
-            tujuan1.data.datasets[2].barThickness= 35,
+            tujuan1.data.datasets[2].barThickness= 30,
 
             tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
             tujuan1.data.datasets[3].data = [50.00,26.09,16.80,13.51,11.27,14.08,22.22,25.00,8.06,12.50,3.57,16.13];
-            tujuan1.data.datasets[3].barThickness= 35,
+            tujuan1.data.datasets[3].barThickness= 30,
 
             tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
             tujuan1.data.datasets[4].data =  [0.00,19.57,22.40,20.72,23.94,22.54,14.29,23.33,14.52,21.88,35.71,16.33];
-            tujuan1.data.datasets[4].barThickness= 35,
+            tujuan1.data.datasets[4].barThickness= 30,
 
             tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
             tujuan1.data.datasets[5].data =  [0.00,0.00,8.00,16.22,12.68,12.68,12.70,1.67,9.68,3.13,3.57,6.45];
-            tujuan1.data.datasets[5].barThickness= 35,    
+            tujuan1.data.datasets[5].barThickness= 30,    
             tujuan1.data.labels = [
                 '<15',
                 '15-19',
