@@ -27,7 +27,7 @@ var batang = new Chart(t3_bar2, {
         backgroundColor: "#ffab00",
         datalabels: {
           anchor: "end",
-          align: "top",
+          align: "right",
           offset: 1,
           font: {
             size: 12,
