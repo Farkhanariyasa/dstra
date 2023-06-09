@@ -27,7 +27,7 @@
                         <canvas class="mt1" id="riset2_t2_hasil1"></canvas>
                     </div>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-lg-12 d-flex justify-content-center">
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
                                 <li class="nav-item" role="presentation">
@@ -39,7 +39,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+                     -->
                 </div>
             </div>
         </div>
