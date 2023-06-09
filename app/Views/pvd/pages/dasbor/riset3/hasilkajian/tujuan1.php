@@ -22,7 +22,7 @@
         <div class="col-lg-12 grid-margin stretch-card">
           <div class="card shadow">
             <div class="card-body">
-              <div class="row">
+              <div style="height:600px;" class="row ">
                 <div class="col-lg-12 grid-margin stretch-card h-100">
                   <?php include('tabplan_tujuan1.php') ?>
                 </div>
