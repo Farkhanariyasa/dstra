@@ -47,8 +47,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Estimasi Jumlah Wisatawan dan Jumlah Perjalanan 
+                menurut Kelompok usia di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -103,8 +103,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Estimasi Jumlah Wisatawan dan Jumlah Perjalanan 
+                menurut Kegiatan Utama Wisatawan di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -165,8 +165,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Estimasi Jumlah Wisatawan dan Jumlah Perjalanan Wisata 
+                dalam Kota menurut Jenis Pekerjaan Utama Wisatawan di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -257,8 +257,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Estimasi Jumlah Wisatawan dan Jumlah Perjalanan Wisata 
+                dalam Kota menurut Tingkat Pendidikan Wisatawan di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -319,8 +319,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Sebaran penduduk yang melakukan perjalanan wisata 
+                berdasarkan Provider yang digunakan (Telkomsel, XL, Tri, Indosat , dll)
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -363,8 +363,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Persentase Maksud Utama pada Perjalanan Terakhir yang 
+                Dilakukan Wisatawan dalam Kota di Kota Malang Bulan Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -448,8 +448,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Akomodasi Utama yang Digunakan wisatawan dalam Kota 
+                pada perjalanan terakhir di Kota Malang Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -498,8 +498,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Angkutan Utama yang digunakan pada Perjalanan Terakhir oleh Wisatawan 
+                dalam Kota di Kota Malang Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -563,8 +563,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Jenis Kegiatan Wisata yang dilakukan Wisatawan dalam Kota pada 
+                Perjalanan Terakhir di Kota Malang Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
@@ -638,8 +638,8 @@
     <div class="card">
         <div class="card-header">
             <strong>
-                Estimasi Jumlah Perjalanan Wisata Menurut Kecamatan Asal dan Kecamatan Tujuan Wisata di Kota Malang
-                Bulan Oktober-Desember 2022
+                Sebaran Penduduk yang Melakukan Perjalanan menurut Media Informasi yang Digunakan
+                di Kota Malang Oktober-Desember 2022
             </strong>
         </div>
         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
