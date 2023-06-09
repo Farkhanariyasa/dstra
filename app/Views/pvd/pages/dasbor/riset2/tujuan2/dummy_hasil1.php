@@ -8,8 +8,8 @@
                         <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select class="dropdownunduh1" id="forBarChart">
-                                    <option value="a">Satuan Malam</option>
-                                    <option value="b">Satuan Jam</option>
+                                    <option value="a">Bepergian</option>
+                                    <option value="b">Kunjungan</option>
                                 </select>
                             </form>
                         </div>
@@ -24,7 +24,7 @@
                         <canvas class="mt1" id="riset2_t2_hasil1"></canvas>
                     </div>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-lg-12 d-flex justify-content-center">
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
                                 <li class="nav-item" role="presentation">
@@ -35,7 +35,20 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
+
+                    <!-- <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul class="nav nav-pills mb-3" id="forBarChart" role="tablist" style="color:#506396">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" value="a" role="tab" aria-selected="true" type="button">Bepergian</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" value="b" role="tab" aria-selected="true" type="button">Kunjungan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
  
                 </div>
             </div>

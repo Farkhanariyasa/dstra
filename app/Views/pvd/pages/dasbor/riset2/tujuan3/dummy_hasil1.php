@@ -19,12 +19,25 @@
             </div>
         </div>
 
-        <div class="col-sm-4 my-2">
+        <div class="col-sm-4">
             <div class="row m-auto">
                 <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_11.png') ?>" class="img-fluid" alt="" style="height: auto;">
             </div>
 
-            <div class="row">
+            <div class="selectBox mt-2 p-auto d-inline-flex p-2 justify-content-center">
+                <form action="">
+                    <select class="dropdownunduh1" id="forBarChart">
+                        <option value="a">Jenis Kelamin</option>
+                        <option value="b">Kelompok Usia</option>
+                        <option value="c">Kegiatan Utama</option>
+                        <option value="d">Pekerjaan Utama</option>
+                        <option value="e">Tingkat Pendidikan</option>
+                        <option value="f">Menurut Provider</option>
+                    </select>
+                </form>
+            </div>
+
+            <!-- <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul class=" nav-pill mb-3 flex-column" id="pills-tab" role="tablist" style="color:#506396">
                         <li class="nav-item" role="presentation">
@@ -47,7 +60,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 

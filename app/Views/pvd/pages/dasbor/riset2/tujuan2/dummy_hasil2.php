@@ -10,8 +10,8 @@
                         <div class="selectBox mt-2 me-2">
                             <form action="">
                                 <select class="dropdownunduh1" id="forBarChart">
-                                    <option value="a">Satuan Malam</option>
-                                    <option value="b">Satuan Jam</option>
+                                    <option value="a">Bepergian</option>
+                                    <option value="b">Kunjungan</option>
                                 </select>
                             </form>
                         </div>
