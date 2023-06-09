@@ -25,7 +25,7 @@
 
 <!-- Tujuan 1 Hasil 2 -->
 <div class="portfolio-item filter-riset2-hasiltujuan1-2">
-    <div class="row mt-3">
+    <div class="row mt-3 tujuan1hasil2">
         <div class="col-sm-4 my-2 ">
             <div class="card shadow rounded-5">
                 <div class="card-body">

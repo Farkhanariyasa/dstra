@@ -1,6 +1,6 @@
 <!-- Tab 3 new -->
 <div class="portfolio-item filter-riset2-hasiltujuan1-3">
-    <div class="row mt-3">
+    <div class="row mt-3 tujuan1hasil3">
         <div class="col-sm-5 my-2">
             <div class="card shadow rounded-5">
                 <div class="card-body">
