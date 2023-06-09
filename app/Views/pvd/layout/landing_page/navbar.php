@@ -10,6 +10,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav nav ml-auto mt-2" style="background:transparent !important">
+				<li class="nav-item"><a href="<?= base_url("hasil-pkl") ?>" class="nav-link nav-menu text-center <?= $request->uri->getSegment(2) == "" ? "active" : "" ?>"><span>Beranda</span></a></li>
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset1") ?>" class="nav-link nav-menu text-center <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>"data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata"><span>Riset 1</span></a></li>
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset2") ?>" class="nav-link nav-menu text-center <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Pilot Survei Wisatawan Nusantara"><span>Riset 2</span></a></li>
 				<li class="nav-item"><a href="<?= base_url("hasil-pkl/riset3") ?>" class="nav-link nav-menu text-center <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Tenaga Kerja di Industri Pariwisata"><span>Riset 3</span></a></li>

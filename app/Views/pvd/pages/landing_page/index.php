@@ -93,7 +93,7 @@
 
 <section class="hero">
     <!-- riset 1 -->
-    <div class="container mt-3">
+    <div class="container mt-3" id="riset1">
         <div class="row">
             <div class="col-lg-4 col-md-3 d-flex flex-column align-items-center mb-2">
                 <div class="d-flex flex-row align-items-center justify-content-center ">
@@ -281,5 +281,54 @@
     </div>
 
 </section>
+
+<section class="hero d-flex align-items-center">
+    <!-- About STIS & Angkatan 62 -->
+    <div class="container ">
+        <div class="row">
+            <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+                <h1 data-aos="fade-up" class=" foreachriset">Tentang Kami</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
+                <div data-aos="fade-up" class="card62 shadow">
+                    <div class="card-body d-grid rounded pr-4 pl-4">
+                        <h5 class="card-title text-center h5judullp mt-4">Politeknik Statistika STIS</h5>
+                        <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+                            kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
+                            Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
+                            secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
+                            di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
+                            Tinggi.
+                        </p>
+                        <div class="img text-center mb-4">
+                            <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
+                <div data-aos="fade-up" class="card62 shadow">
+                    <div class="card-body d-grid rounded pr-4 pl-4 ">
+                        <h5 class="card-title text-center h5judullp mt-4">Angkatan 62</h5>
+                        <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
+                            kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
+                            Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
+                            secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
+                            di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
+                            Tinggi.
+                        </p>
+                        <div class="img text-center mb-4">
+                            <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
+                        </div>
+                        <br id="riset1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- End About -->
 
 <?= $this->endSection(); ?>
