@@ -13,8 +13,8 @@ var batang = new Chart(t2_bar1, {
     ],
     datasets: [
       {
-        label: "Lama Kunjungan (malam)",
-        data: [1.29, 1.63, 1.65, 1.79, 1.87],
+        label: "Lama Bepergian (malam)",
+        data: [1.31, 1.69, 1.74, 1.84, 1.89],
         borderWidth: 1,
         backgroundColor: "#ffab00",
         datalabels: {
@@ -70,7 +70,7 @@ var batang = new Chart(t2_bar1, {
         beginAtZero: true,
         title: {
           display: true,
-          text: "Rata-Rata Lama Kunjungan (Malam)",
+          text: "Rata-Rata Lama Bepergian (Malam)",
           font: {
             size: 14,
             style: "normal",
@@ -87,10 +87,10 @@ var batang = new Chart(t2_bar1, {
       title: {
         display: true,
         text: [
-          "Estimasi Rata-Rata Lama Kunjungan", 
-      "yang Dilakukan Wisatawan dalam Kota", 
-      "di Kota Malang Bulan Oktober-Desember 2022",
-      "(dalam satuan Malam)",
+          "Estimasi Rata-Rata Lama Bepergian", 
+          "yang Dilakukan Wisatawan dalam Kota", 
+          "di Kota Malang Bulan Oktober-Desember 2022",
+          "(dalam satuan Malam)",
         ],
         font: {
           size: 16,
@@ -119,6 +119,26 @@ barchart.addEventListener("change", tampilData);
 function tampilData() {
   if (barchart.value == "a") {
     console.log(barchart.value);
+    batang.data.datasets[0].data = [1.31, 1.69, 1.74, 1.84, 1.89];
+    batang.data.labels = [
+      "Kedungkandang",
+      "Sukun",
+      "Lowokwaru",
+      "Klojen",
+      "Blimbing",
+    ];
+    batang.options.plugins.title.text = [
+      "Estimasi Rata-Rata Lama Bepergian", 
+      "yang Dilakukan Wisatawan dalam Kota", 
+      "di Kota Malang Bulan Oktober-Desember 2022",
+      "(dalam satuan Malam)",
+    ];
+    batang.options.scales.y.title.text = "Rata-Rata Lama Bepergian (Malam)";
+    batang.data.datasets[0].label = "Rata-Rata Lama Bepergian (Malam)";
+    // console.log(batang.data.datasets[0].data);
+    batang.update();
+  } else {
+    console.log(barchart.value);
     batang.data.datasets[0].data = [1.29, 1.63, 1.65, 1.79, 1.87];
     batang.data.labels = [
       "Kedungkandang",
@@ -135,26 +155,6 @@ function tampilData() {
     ];
     batang.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Malam)";
     batang.data.datasets[0].label = "Rata-Rata Lama Kunjungan (Malam)";
-    // console.log(batang.data.datasets[0].data);
-    batang.update();
-  } else {
-    console.log(barchart.value);
-    batang.data.datasets[0].data = [2.14, 2.78, 3.03, 3.09, 3.17];
-    batang.data.labels = [
-      "Klojen",
-      "Lowokwaru",
-      "Blimbing",
-      "Sukun",
-      "Kedungkandang",
-    ];
-    batang.options.plugins.title.text = [
-      "Estimasi Rata-Rata Lama Kunjungan", 
-      "yang Dilakukan Wisatawan dalam Kota", 
-      "di Kota Malang Bulan Oktober-Desember 2022",
-      "(dalam satuan Jam)",
-    ];
-    batang.options.scales.y.title.text = "Rata-Rata Lama Kunjungan (Jam)";
-    batang.data.datasets[0].label = "Rata-Rata Lama Kunjungan (Jam)";
     // console.log(batang.data.datasets[0].data)
     batang.update();
   }
