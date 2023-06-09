@@ -136,8 +136,9 @@ function tampilData() {
       "Usia Lanjut/Pensiun (55 Tahun keatas)",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Menurut Kelompok Usia Wisatawan Nusantara",
-      "Dalam Kota di Kota Malang Oktober-Desember 2022",
+      "Jumlah Wisatawan Menurut Kelompok Usia", 
+      "Wisatawan Nusantara Dalam Kota di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Kelompok Usia";
@@ -155,8 +156,9 @@ function tampilData() {
       "Bekerja",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Wisata Menurut Kegiatan Utama Wisatawan Nusantara Dalam Kota",
-      "di Kota Malang Oktober - Desember 2022",
+      "Jumlah Wisatawan Wisata Menurut Kegiatan Utama", 
+      "Wisatawan Nusantara Dalam Kota di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Kegiatan Utama";
@@ -179,8 +181,9 @@ function tampilData() {
     ];
     batang.options.indexAxis = "y";
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Pekerjaan Utama di Kota Malang Oktober-Desember 2022",
+      "Jumlah Wisatawan Nusantara Dalam Kota", 
+      "Menurut Pekerjaan Utama di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.scales.x.title.text = "Jumlah Wisatawan";
     batang.options.scales.y.title.text = "Pekerjaan Utama";
@@ -196,8 +199,9 @@ function tampilData() {
       "Perguruan Tinggi",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Tingkat Pendidikan di Kota Malang Oktober-Desember 2022",
+      "Jumlah Wisatawan Nusantara Dalam Kota", 
+      "Menurut Tingkat Pendidikan di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "x";
     batang.options.scales.x.title.text = "Tingkat Pendidikan";
@@ -214,8 +218,9 @@ function tampilData() {
       "lainnya (meliputi kartu Smartfren, Esia, dan sebagainya)",
     ];
     batang.options.plugins.title.text = [
-      "Jumlah Wisatawan Nusantara Dalam Kota",
-      "Menurut Provider yang Digunakan di Kota Malang Oktober-Desember 2022",
+      "Jumlah Wisatawan Nusantara Dalam Kota", 
+      "Menurut Provider yang Digunakan di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Jumlah Wisatawan";

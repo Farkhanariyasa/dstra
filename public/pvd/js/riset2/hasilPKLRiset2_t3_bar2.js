@@ -96,7 +96,9 @@ var batang = new Chart(t3_bar2, {
       title: {
         display: true,
         text: [
-          "Persentase Maksud Utama pada", "Perjalanan Terakhir yang Dilakukan", "Wisatawan Nusantara Dalam Kota",
+          "Persentase Maksud Utama pada", 
+          "Perjalanan Terakhir yang Dilakukan", 
+          "Wisatawan Nusantara Dalam Kota",
           "di Kota Malang Oktober-Desember 2022",
         ],
         font: {
@@ -143,8 +145,10 @@ function tampilData() {
       "Mudik/Pulkam Hari Raya",
     ];
     batang.options.plugins.title.text = [
-      "Persentase Maksud Utama pada", "Perjalanan Terakhir yang Dilakukan", "Wisatawan Nusantara Dalam Kota",
-          "di Kota Malang Oktober-Desember 2022",
+      "Persentase Maksud Utama pada", 
+      "Perjalanan Terakhir yang Dilakukan", 
+      "Wisatawan Nusantara Dalam Kota",
+      "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Jumlah Wisatawan (%)";
@@ -163,8 +167,9 @@ function tampilData() {
       "Lainnya",
     ];
     batang.options.plugins.title.text = [
-      "Persentase Akomodasi Utama Wisatawan Nusantara",
-      "Dalam Kota pada Perjalanan Terakhir di Kota Malang Oktober-Desember 2022",
+      "Persentase Akomodasi Utama Wisatawan", 
+      "Nusantara Dalam Kota pada Perjalanan Terakhir",
+      "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
@@ -184,7 +189,8 @@ function tampilData() {
       "Travel",
     ];
     batang.options.plugins.title.text = [
-      "Persentase Angkutan Utama yang Digunakan pada Perjalanan Terakhir",
+      "Persentase Angkutan Utama yang", 
+      "Digunakan pada Perjalanan Terakhir", 
       "oleh Wisatawan Nusantara Dalam Kota",
       "di Kota Malang Oktober-Desember 2022",
     ];
@@ -210,8 +216,10 @@ function tampilData() {
     ];
     batang.options.indexAxis = "y";
     batang.options.plugins.title.text = [
-      "Persentase Jenis Kegiatan Wisata yang Dilakukan Wisatawan Nusantara",
-      "Dalam Kota pada Perjalanan Terakhir di Kota Malang Oktober-Desember 2022",
+      "Persentase Jenis Kegiatan Wisata yang", 
+      "Dilakukan Wisatawan Nusantara Dalam", 
+      "Kota pada Perjalanan Terakhir di",
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.scales.x.title.text = "Frekuenisi Kegiatan Wisata (%)";
     batang.options.scales.y.title.text = "Jenis Kegiatan Wisata";
@@ -232,8 +240,9 @@ function tampilData() {
       "Lainnya",
     ];
     batang.options.plugins.title.text = [
-      "Persentase Media Informasi Utama yang Digunakan Pada Perjalanan Terakhir",
-      "di Kota Malang Oktober-Desember 2022",
+      "Persentase Media Informasi Utama yang", 
+      "Digunakan pada Perjalanan Terakhir di", 
+      "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
@@ -259,8 +268,9 @@ function tampilData() {
       "Angkutan",
     ];
     batang.options.plugins.title.text = [
-      "Rata-Rata Biaya yang Dikeluarkan Turis Dalam Kota",
-      "Menurut Kategori Biaya pada Perjalanan Terakhir Oktober-Desember 2022",
+      "Rata-Rata Biaya yang Dikeluarkan Turis", 
+      "Dalam Kota Menurut Kategori Biaya pada", 
+      "Perjalanan Terakhir Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
@@ -287,8 +297,9 @@ function tampilData() {
       "Pramuwisata",
     ];
     batang.options.plugins.title.text = [
-      "Rata-rata Biaya yang Dikeluarkan Pelancong Dalam Kota",
-      "Menurut Kategori Biaya pada Perjalanan Terakhir Oktober-Desember 2022",
+      "Rata-Rata Biaya yang Dikeluarkan Pelancong", 
+      "Dalam Kota Menurut Kategori Biaya pada", 
+      "Perjalanan Terakhir Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
