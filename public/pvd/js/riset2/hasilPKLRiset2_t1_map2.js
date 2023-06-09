@@ -85,22 +85,22 @@ info_2.update = function (props) {
 
 info_2.addTo(petatematik2);
 
-legend.onAdd = function (petatematik2) {
-  var div = L.DomUtil.create("div", "info legend"),
-    grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
-  // labels = [];
+// legend.onAdd = function (petatematik2) {
+//   var div = L.DomUtil.create("div", "info legend"),
+//     grades = [60, 80, 100, 120, 140, 160, 180, 200, 220];
+//   // labels = [];
 
-  // loop through our density intervals and generate a label with a colored square for each interval
-  for (var i = 0; i < grades.length; i++) {
-    div.innerHTML +=
-      '<i style="background:' +
-      getColor(grades[i] + 1) +
-      '"></i> ' +
-      grades[i] +
-      "<br>";
-  }
+//   // loop through our density intervals and generate a label with a colored square for each interval
+//   for (var i = 0; i < grades.length; i++) {
+//     div.innerHTML +=
+//       '<i style="background:' +
+//       getColor(grades[i] + 1) +
+//       '"></i> ' +
+//       grades[i] +
+//       "<br>";
+//   }
 
-  return div;
-};
+//   return div;
+// };
 
-legend.addTo(petatematik2);
+// legend.addTo(petatematik2);
