@@ -1,12 +1,6 @@
 const t1_sankey = document.getElementById("riset2_t1_hasil1");
 
-var colors2 = [
-  "#ffab00",
-  "#506396",
-  "#4b395f",
-  "#b35c74",
-  "#ffbc33",
-];
+var colors2 = ["#506396", "#ffbc33", "#b35c74", "#4b395f", "#ffab00"];
 
 var assigned = {};
 function c2(name) {
