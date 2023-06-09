@@ -5,16 +5,16 @@ var batang = new Chart(t2_bar2, {
   type: "bar",
   data: {
     labels: [
+      "Klojen",
+      "Lowokwaru",
       "Kedungkandang",
       "Sukun",
-      "Lowokwaru",
-      "Klojen",
       "Blimbing",
     ],
     datasets: [
       {
-        label: "Lama Kunjungan (malam)",
-        data: [1.31, 1.69, 1.74, 1.84, 1.89],
+        label: "Lama Kunjungan (Jam)",
+        data: [3.28, 3.85, 4.22, 4.47, 5.08],
         borderWidth: 1,
         backgroundColor: "#ffab00",
         datalabels: {
@@ -66,7 +66,7 @@ var batang = new Chart(t2_bar2, {
         beginAtZero: true,
         title: {
           display: true,
-          text: "Rata-Rata Lama Bepergian (Malam)",
+          text: "Rata-Rata Lama Bepergian (Jam)",
           font: {
             size: 14,
             style: "normal",
@@ -88,10 +88,10 @@ var batang = new Chart(t2_bar2, {
       title: {
         display: true,
         text: [
-          "Estimasi Rata-Rata Lama Kunjungan", 
-      "yang Dilakukan Wisatawan dalam Kota", 
-      "di Kota Malang Bulan Oktober-Desember 2022",
-      "(dalam satuan Malam)",],
+          "Estimasi Rata-Rata Lama Bepergian", 
+          "yang Dilakukan Pelancong dalam Kota", 
+          "di Kota Malang Bulan Oktober-Desember 2022",
+          "(dalam satuan Jam)"],
         font: {
           size: 16,
           style: "normal"
@@ -119,22 +119,22 @@ barchart.addEventListener("change", tampilData);
 function tampilData() {
   if (barchart.value == "a") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [1.31, 1.69, 1.74, 1.84, 1.89];
+    batang.data.datasets[0].data = [3.28, 3.85, 4.22, 4.47, 5.08];
     batang.data.labels = [
+      "Klojen",
+      "Lowokwaru",
       "Kedungkandang",
       "Sukun",
-      "Lowokwaru",
-      "Klojen",
       "Blimbing",
     ];
     batang.options.plugins.title.text = [
-      "Estimasi Rata-Rata Lama Kunjungan", 
-      "yang Dilakukan Wisatawan dalam Kota", 
+      "Estimasi Rata-Rata Lama Bepergian", 
+      "yang Dilakukan Pelancong dalam Kota", 
       "di Kota Malang Bulan Oktober-Desember 2022",
       "(dalam satuan Malam)",
     ];
-    batang.options.scales.y.title.text = "Rata-Rata Lama Bepergian (Malam)";
-    batang.data.datasets[0].label = "Rata-Rata Lama Bepergian (Malam)";
+    batang.options.scales.y.title.text = "Rata-Rata Lama Bepergian (Jam)";
+    batang.data.datasets[0].label = "Rata-Rata Lama Bepergian (Jam)";
     // console.log(batang.data.datasets[0].data);
     batang.update();
   } else {
