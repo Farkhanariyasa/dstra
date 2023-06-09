@@ -4,11 +4,11 @@ const t1_bar = document.getElementById("riset2_t1_hasil1");
 var bar_lamakunjungan = new Chart(t1_bar, {
   type: "bar",
   data: {
-    labels: ["Klojen", "Sukun", "Blimbing", "Kedungkandang", "Lowokwaru"],
+    labels: ["Sukun", "Blimbing", "Klojen", "Kedungkandang", "Lowokwaru"],
     datasets: [
       {
         label: "Persentase",
-        data: [52.71, 53.13, 55.94, 61.21, 66.42],
+        data: [12.95, 14.74, 15.4, 15.99, 18.81],
         borderWidth: 1,
         backgroundColor: "#ffab00",
         datalabels: {
