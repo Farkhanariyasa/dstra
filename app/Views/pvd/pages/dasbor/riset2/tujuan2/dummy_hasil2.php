@@ -1,6 +1,6 @@
 <!-- Visualisasi 2 new -->
 <div class="portfolio-item filter-riset2-hasilkajian2-2">
-    <div class="row t2h2 mt-3">
+    <div class="row t2h2 mt-3 tujuan2hasil2">
 
         <div class="col-sm-8 my-2">
             <div class="card shadow rounded-5">
