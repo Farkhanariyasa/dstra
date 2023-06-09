@@ -70,7 +70,7 @@
           </div> -->
 
           <div class="col-lg-12 grid-margin stretch-card">
-            <div class="card">
+            <div class=" card ">
               <h3><b>Grafik</b></h3>
               <div class="card-body border rounded">
                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -80,8 +80,15 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_1" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox " style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_1"></canvas>
+                    </div>
+                    <!-- <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_1" style="width: 100%; height:300px;"></canvas>
+                    </div> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -167,9 +174,14 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_2" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox " style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_2"></canvas>
+                    </div>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -204,8 +216,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_3" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_3" style="width: 100%; height:300px;"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -241,8 +257,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_4" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_4" style="width: 100%; height:300px;"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -278,8 +298,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_5" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_5" style="width: 100%; height:300px;"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -315,8 +339,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_6" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_6" style="width: 100%; height:300px;"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -352,8 +380,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_7" style="width: 95%; height:80vh;"></canvas>
+                <div class="mb-0 col-lg-12 grid-margin ">
+                  <div class="">
+                    <div class="chartBox" style="width: 100%; height:300px;">
+                      <canvas id="tujuan2_7" style="width: 100%; height:300px;"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -379,12 +411,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="chartBox bar">
-                  <canvas id="tujuan2_8" style="width: 95%; height:80vh;"></canvas>
+                <div class="chartBox" style="width: 100%; height:300px;">
+                  <canvas id="tujuan2_8" style="width: 100%; height:300px;"></canvas>
                 </div>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
@@ -417,6 +449,8 @@
 <!-- Chart JS -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset3/hasilPKLRiset3_tujuan2.js') ?>"></script>
 
