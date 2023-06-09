@@ -29,7 +29,7 @@
 <?php include('modal_tujuan2.php') ?>
 <div class="container px-0">
   <header class="section-header">
-    <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata.</strong>
+    <h6 style="color: #4b395f;"><strong>Menganalisis dinamika tenaga kerja di industri pariwisata</strong>
     </h6>
   </header>
   <hr class="hrjudul">

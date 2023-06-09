@@ -225,7 +225,7 @@
   font-size: small;
   margin-left: 10px ;
   padding-left: 7px;
-  width: 50%;
+  width: 80%;
 }
 /* waffle chart */
 
@@ -378,8 +378,10 @@ div.tooltip {
   height: 40px;
   border-top-left-radius:15px;
   border-top-right-radius:15px;
+  font-size: medium;
   align-items: center;
   justify-content: center;
+  text-align: center;
   display: flex;
   color: white;
 }

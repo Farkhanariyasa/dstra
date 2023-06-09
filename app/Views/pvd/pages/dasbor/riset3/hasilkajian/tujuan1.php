@@ -40,15 +40,12 @@
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                 <div class="selectBox mt-3 me-2 ">
                   <form action="">
-                    <select class="dropdownunduhriset3 w-auto" id="filterValue">
-                      <option value="T1_25">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sumber Air Minum Bersih dan Akses Air Minum Layak</option>
-                      <option value="T1_26">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sanitasi Layak</option>
-                      <option value="T1_24">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Rumah Layak Huni</option>
-                      <option value="T1_2"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia </option>
+                    <select class="dropdownunduhriset3" id="filterValue">
                       <option value="T1_1">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Hubungan dengan KRT</option>
+                      <option value="T1_2"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Usia </option>
                       <option value="T1_3"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Status Perkawinan</option>
                       <option value="T1_4"> Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Jenis Kelamin</option>
-                      <!-- <option value="T1_5"> Persentase Tenaga Kerja di Industri Pariwisata menurut Jenis Industri dan Jumlah Pendapatan</option>
+                      <option value="T1_5"> Persentase Tenaga Kerja di Industri Pariwisata menurut Jenis Industri dan Jumlah Pendapatan</option>
                       <option value="T1_6"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet</option>
                       <option value="T1_7"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Promosi</option>
                       <option value="T1_8"> Persentase Tenaga Kerja Industri Pariwisata Menurut Jenis Industri yang Tempat Bekerjanya Menggunakan Internet untuk Komunikasi</option>
@@ -66,7 +63,10 @@
                       <option value="T1_20">T1_20</option>
                       <option value="T1_21">Persentase Tenaga Kerja yang Pernah Bekerja di Sektor Pariwisata dalam Tiga Tahun Terakhir Berdasarkan Jenis Industri dan Pendidikan Tertinggi yang Ditamatkan</option>
                       <option value="T1_22">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Keikutsertaan dalam Pelatihan</option>
-                      <option value="T1_23">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</option> -->
+                      <option value="T1_23">Persentase Tenaga Kerja di Industri Pariwisata Menurut Jenis Industri dan Penggunaan Bahasa Asing di Tempat Bekerja</option>
+                      <option value="T1_24">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Rumah Layak Huni</option>
+                      <option value="T1_25">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sumber Air Minum Bersih dan Akses Air Minum Layak</option>
+                      <option value="T1_26">Persentase Rumah Tangga di Industri Pariwisata menurut Industri dan Sanitasi Layak</option>
                     </select>
                   </form>
                 </div>
