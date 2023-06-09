@@ -48,7 +48,7 @@ const bar_wisnus7 = new Chart(wisnus_output7, {
         color: "#493a5a",
         padding: {
           top: 5,
-          bottom: 5,
+          bottom: 25,
           right: 10,
           left: 10,
         },
