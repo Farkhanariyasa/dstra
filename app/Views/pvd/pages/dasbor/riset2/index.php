@@ -30,7 +30,7 @@
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
-            <ol class="text-justify fs-5 ms-3">
+            <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil1') ?>" class="text-decoration-none fs-5">Estimasi Banyak Wisatawan</a>
               </li>
@@ -58,12 +58,12 @@
         </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
-            <ol class="text-justify fs-5 ms-3">
+            <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil1') ?>" class="text-decoration-none fs-5">Lama Kunjungan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil1') ?>" class="text-decoration-none fs-5">Lama Kunjungan dan Bepergian Turis</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-5">Lama Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-5">Lama Kunjungan dan Bepergian Pelancong</a>
               </li>
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan2-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
@@ -83,7 +83,7 @@
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
-            <ol class="text-justify fs-5 ms-3">
+            <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil1') ?>" class="text-decoration-none fs-5">Karakteristik Wisatawan</a>
               </li>
@@ -108,7 +108,7 @@
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body rounded-bottom">
-            <ol class="text-justify fs-5 ms-3">
+            <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
                 <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil1') ?>" class="text-decoration-none fs-5">Model Zero-Inflation ZINB</a>
               </li>
