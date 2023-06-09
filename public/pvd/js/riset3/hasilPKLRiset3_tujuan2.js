@@ -33,6 +33,7 @@ new Chart(tujuan2_1, {
     scales: {
         x: {
           stacked: true,
+          max: 100
         },
         y: {
           stacked: true
@@ -52,7 +53,8 @@ new Chart(tujuan2_1, {
           },
         datalabels:{
             display:true,
-            color:'black'
+            
+            color:'black',
           },
       },
     maintainAspectRatio: false
@@ -83,6 +85,7 @@ new Chart(tujuan2_2, {
     scales: {
         x: {
           stacked: true,
+          max: 100
         },
         y: {
           stacked: true
