@@ -68,7 +68,7 @@
                         </div>
                         <div class="position-absolute bot-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                             <div class="form-check form-switch me-3">
-                                <input class="form-check-input" onchange="update_value_output4(this);" type="checkbox" id="forBarChartAxis_output3" value="show" checked>
+                                <input class="form-check-input" onchange="update_value_output3(this);" type="checkbox" id="forBarChartAxis_output3" value="show" checked>
                                 <label class="form-check-label" style="margin-left:-3px;" for="flexSwitchCheckChecked">Tampilkan Sumbu</label>
                             </div>
                         </div>
