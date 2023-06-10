@@ -26,4 +26,7 @@
 <!-- Istope -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
+<!-- Fungsi Unduh Chart -->
+<script src="<?= base_url('pvd/js/riset2/btn_Download_t3.js') ?>"></script>
+
 <?= $this->endSection(); ?>
