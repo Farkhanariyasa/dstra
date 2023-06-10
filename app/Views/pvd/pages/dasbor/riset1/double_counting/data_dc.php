@@ -1896,36 +1896,36 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
+                        <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox">
+                                <div class="chartBox" style="height: 250px;">
                                     <canvas class="mt1" id="dc_algoritma1_1"></canvas>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
+                        <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox">
+                                <div class="chartBox" style="height: 250px;">
                                     <canvas class="mt1" id="dc_algoritma1_2"></canvas>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
+                        <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox">
+                                <div class="chartBox" style="height: 250px;">
                                     <canvas class="mt1" id="dc_algoritma1_3"></canvas>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
+                        <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox">
+                                <div class="chartBox" style="height: 250px;">
                                     <canvas class="mt1" id="dc_algoritma1_4"></canvas>
                                 </div>
                             </div>
@@ -3473,36 +3473,36 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_1"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_2"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_3"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_4"></canvas>
                                         </div>
                                     </div>
@@ -5206,36 +5206,36 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_5"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_6"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_7"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
+                                        <div class="chartBox" style="height: 250px;">
                                             <canvas class="mt1" id="dc_algoritma2_8"></canvas>
                                         </div>
                                     </div>
@@ -6657,37 +6657,37 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_1"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_1"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_2"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_2"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_3"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_3"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_4"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -8080,37 +8080,37 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_5"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_5"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_6"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_6"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_7"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_7"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card bg-secondary">
+                                <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox">
-                                            <canvas class="mt1" id="fg_algoritma3_8"></canvas>
+                                        <div class="chartBox" style="height: 250px;">
+                                            <canvas class="mt1" id="dc_algoritma3_8"></canvas>
                                         </div>
                                     </div>
                                 </div>
