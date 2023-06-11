@@ -181,11 +181,12 @@
 
     <div class="tab-pane fade" id="pills-output5" role="tabpanel" aria-labelledby="pills-output5-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
-            <h4 class="card-title judul-card"></h4>
+            <h3 class="card-title judul-card">Kepler</h3>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                    <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
+                        <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Telkomsel - Telkomsel</h3>
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
                                     <iframe 
@@ -196,8 +197,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
+                    <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
+                        <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Indosat - Indosat </h3>
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
                                     <iframe 
@@ -210,6 +212,7 @@
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
+                        <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Telkomsel - Indosat</h3>
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
                                     <iframe src="<?= 
