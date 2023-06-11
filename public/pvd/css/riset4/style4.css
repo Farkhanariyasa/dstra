@@ -79,3 +79,26 @@
 .heatmap-data-table tr:hover {
   background: #f1f7ff;
 }
+
+#latbel-linechart-container {
+  position: relative;
+  width: 700px;
+  height: 300px;
+}
+
+#latbel-linechart {
+  /* height: 300px;
+  width: 600px; */
+}
+
+@media (max-width: 500px) {
+  #latbel-linechart-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  #latbel-linechart {
+    height: 400px;
+    width: 400px;
+  }
+}

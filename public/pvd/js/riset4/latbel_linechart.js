@@ -32,12 +32,13 @@ var data = {
 // Membuat variabel options yang berisi pengaturan-pengaturan untuk grafik
 var options = {
   responsive: true,
-  maintainAspectRatio: false,
+  // aspectRatio: 2,
+  // maintainAspectRatio: true,
   plugins: {
     legend:{
       display: true,
       position: 'right',
-      align: 'center', // Options: start, center, end
+      align: 'start', // Options: start, center, end
       fullWidth: false,
       labels: {
         boxWidth: 10,
@@ -45,7 +46,7 @@ var options = {
       },
     },
     title: {
-      display: true,
+      display: false,
       text : [
           'Laju Pertumbuhan PDRB Kota Batu', 
           'Atas Dasar Harga Konstan 2010 (persen)',

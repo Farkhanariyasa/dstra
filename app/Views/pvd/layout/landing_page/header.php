@@ -16,6 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Landing Page CSS-->
     <link rel="stylesheet" href="<?= base_url('pvd/css/riset3/style3.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('pvd/css/riset4/style4.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/landing_page.css') ?>">
     <link rel="stylesheet" href="<?= base_url('pvd/css/navbar.css') ?>">
 </head>

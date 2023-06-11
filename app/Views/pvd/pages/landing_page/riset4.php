@@ -59,9 +59,21 @@
                         </a>
                     </p>
                     <div class="collapse" id="collapseExample">
-                        <div class="chartBox justify-content-center align-item-center" style="height:350px;">
+                        <!-- ============================= -->
+                        <div>
+                            <h1 class="chart-title judul-chart" style="font-size: 16px; font-weight: 600; text-align: left; line-height: 25px">
+                            Laju Pertumbuhan PDRB Kota Batu <br>Atas Dasar Harga Konstan 2010 (persen) <br>Tahun 2017-2021</h1>
+                        </div>
+                        <div>
+                            <div id="latbel-linechart-container" class="chart-container" style="">
+                                <canvas id="latbel-linechart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- <div class="chartBox justify-content-center align-item-center" style="height:350px;">
                             <canvas id='latbel-linechart'></canvas>
-                        </div>    
+                        </div>   -->
+                        <!-- ====================================   -->
                         <p class="text-justify" style="line-height: 25px;">
                             <strong>Batu memiliki posisi dan peran sebagai Kota Wisata</strong>, bahkan pemerintah Kota Batu berencana untuk meningkatkan
                             peranan Kota Batu dari Kota Wisata menjadi Sentra Wisata yang tertuang dalam Peraturan Daerah Kota Batu Nomor 7 Tahun 2011 tentang
