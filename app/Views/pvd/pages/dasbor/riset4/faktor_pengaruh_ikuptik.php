@@ -27,7 +27,7 @@
                         <div class="mb-0 col-lg-12 grid-margin">
                             <div>
                                 <div class="chartBox" style="">
-                                <img id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/faktor_pengaruh.png') ?>" class="img-fluid" alt="" style="max-width: 100%; height: auto;">
+                                <img id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/faktor_pengaruh.png') ?>" class="img-fluid" alt="" style="max-width: auto; height: auto;">
                                 </div>
                             </div>
                         </div>
