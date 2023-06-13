@@ -141,15 +141,15 @@
                             <div class="row justify-content-center">
                                 <!-- Lokus Penelitian -->
                                 <div class="col-6 align-items-center d-flex align-self-center">
-                                    <div class="card-body text-center card rounded-5 shadow" style="height: 160px; display: flex; border-radius: 15px; padding-left: 3px; padding-right: 3px;">
+                                    <div class="card-body text-center card rounded-5 shadow" style="height: auto; display: flex; border-radius: 15px; padding-left: 3px; padding-right: 3px;">
                                         <div class="row-3 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/primary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset4/lokasi.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
                                         </div>
                                         <div class="col">
                                             <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f; margin-left: 30px; margin-right: 30px"><strong>Lokus Penelitian</strong></div>
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Lokus Penelitian</strong></div>
                                             <!-- <div class="angka">347</div> -->
-                                            <p style="line-height: 20px; margin-left: 30px; margin-right: 30px">Kota Batu</p>
+                                            <p style="line-height: 20px;">Kota Batu</p>
                                             </p>
                                         </div>
                                     </div>
@@ -157,15 +157,15 @@
             
                                 <!-- Time Reference -->
                                 <div class="col-6 align-items-center d-flex align-self-center">
-                                    <div class="card-body text-center card rounded-5 shadow" style="height: 160px; display: flex; border-radius: 15px; padding-left: 3px; padding-right: 3px;">
+                                    <div class="card-body text-center card rounded-5 shadow" style="height: auto; display: flex; border-radius: 15px; padding-left: 3px; padding-right: 3px;">
                                         <!-- <i class="fas fa-city col-1 ikon"></i> -->
                                         <div class="row-3 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/secondary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset4/time.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
                                         </div>
                                         <div class="col">
                                             <p class="card-title text-center">
-                                            <div style="line-height: 20px; color: #4b395f; margin-left: 30px; margin-right: 30px"><strong>Time References</strong></div>
-                                            <p style="line-height: 20px; margin-left: 30px; margin-right: 30px">Oktober 2022 - Juli 2023</p>
+                                            <div style="line-height: 20px; color: #4b395f;"><strong>Time References</strong></div>
+                                            <p style="line-height: 20px;">Oktober 2022 - Juli 2023</p>
                                             <!-- <div class="angka">23</div> -->
                                             </p>
                                         </div>
@@ -176,7 +176,7 @@
                             <div class="card konten2 third5 par col-12 mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                 <div class="card-body text-center">
                                     <div class="row-6 d-flex align-items-center justify-content-center">
-                                        <img src="<?= base_url('pvd/img/landingpage/riset2/populasi.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset4/populasi_target.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
                                     </div>
                                     <h5 class="card-title text-center" style="line-height: 25px;"><strong>Populasi Target</strong></h5>
                                     <div class="card-text text-justify" style="margin: 30px;">
@@ -186,49 +186,40 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- UO dan UA -->
-                            <div class="row justify-content-center" style="display: flex; flex-wrap: wrap;">
-                                <!-- Unit Observasi-->
-                                <div class="col-6 align-items-center d-flex align-self-center">
-                                    <div class="card-body text-center card rounded-5 shadow">
-                                        <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
-                                        <div class="row-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/populasi_target.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
-                                        </div>
-                                        <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Observasi</strong></h5>
-                                        <p class="card-text text-justify">
-                                            <p class="text-justify" style="line-height: 25px; margin-left: 30px; margin-right: 30px;">
-                                            Pemilik atau pengelola usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023.
-                                            </p>
-                                        </p>
+                            <!-- Unit Observasi -->
+                            <div class="card konten2 third5 par col-12 mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                <div class="card-body text-center">
+                                    <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset4/unit_observasi.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
                                     </div>
-                                </div>
-
-
-                                <!-- Unit Analisis-->
-                                <div class="col-6 align-items-center d-flex align-self-center">
-                                    <div class="card-body text-center card rounded-5 shadow">
-                                        <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
-                                        <div class="row-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/unit_analisis.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
-                                        </div>
-                                        <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Analisis</strong></h5>
-                                        <p class="card-text text-justify">
-                                            <p class="text-justify" style="line-height: 25px; margin-left: 30px; margin-right: 30px;">
-                                                <br>
-                                                Unit usaha mikro dan kecil pariwisata yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023.
-                                            </p>
+                                    <h5 class="card-title text-center" style="line-height: 25px;"><strong>Unit Observasi</strong></h5>
+                                    <div class="card-text text-justify" style="margin: 30px;">
+                                        <p class="text-justify" style="line-height: 25px;">
+                                        Pemilik atau pengelola usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!-- Unit Analisis -->
+                            <div class="card konten2 third5 par col-12 mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                <div class="card-body text-center">
+                                    <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset4/unit_analisis.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
+                                    </div>
+                                    <h5 class="card-title text-center" style="line-height: 25px;"><strong>Unit Analisis</strong></h5>
+                                    <div class="card-text text-justify" style="margin: 30px;">
+                                        <p class="text-justify" style="line-height: 25px;">
+                                        Unit usaha mikro dan kecil pariwisata yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+
                             <!-- Unit Sampling -->
                             <div class="card konten2 third5 par col-12 mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                 <div class="card-body text-center">
                                     <div class="row-6 d-flex align-items-center justify-content-center">
-                                        <img src="<?= base_url('pvd/img/landingpage/riset2/kerangka_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px; width: 80px">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset4/unit_sampling.png') ?>" class="img-fluid" alt="" style="height: 50px; width: auto;">
                                     </div>
                                     <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Sampling</strong></h5>
                                     <div class="card-text text-justify" style="margin: 30px;">
