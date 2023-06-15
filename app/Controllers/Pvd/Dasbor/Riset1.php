@@ -3,7 +3,7 @@
 namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
-use App\Models\Pvd\Riset1HasilPKLModel;
+use App\Models\Pvd\Riset1HasilPklModel;
 use App\Models\Pvd\Riset1HasilSpModel;
 use App\Models\Pvd\UnduhHasilPklModel;
 
