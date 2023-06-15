@@ -1,7 +1,8 @@
 // StartValidasi
 let idbutton = "";
 let idinput = "";
-let mailRegex = /^[a-zA-Z][a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}$/;
+let mailRegex =
+  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 for (let i = 1; i < 2; i++) {
   document.getElementById("unduh-t3-" + [i]).addEventListener("click", (e) => {
@@ -59,12 +60,14 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 1; i < 2; i++) { 
+for (let i = 1; i < 2; i++) {
   document
     .getElementById("btndownload" + [i])
     .addEventListener("click", function (e) {
       // Convert our canvas to a data URL
-      let canvasUrl = document.getElementById("riset2_t3_hasil"+[i]).toDataURL();
+      let canvasUrl = document
+        .getElementById("riset2_t3_hasil" + [i])
+        .toDataURL();
       // Create an anchor, and set the href value to our data URL
       const createEl = document.createElement("a");
       createEl.href = canvasUrl;

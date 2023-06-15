@@ -4,11 +4,11 @@ let idinput = "";
 let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 for (let i = 1; i < 7; i++) {
-        document.getElementById("download-" + [i]).addEventListener("click", (e) => {
-            idbutton = "button-download-" + [i];
-            console.log("download-" + [i] + " diklik");
-            idinput = i - 1;
-          });
+  document.getElementById("download-" + [i]).addEventListener("click", (e) => {
+    idbutton = "button-download-" + [i];
+    console.log("download-" + [i] + " diklik");
+    idinput = i - 1;
+  });
 }
 
 function getvalue() {
@@ -64,7 +64,7 @@ for (let i = 1; i < 7; i++) {
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {
       // Convert our canvas to a data URL
-      let canvasUrl = document.getElementById("chart-"+[i]).toDataURL();
+      let canvasUrl = document.getElementById("chart-" + [i]).toDataURL();
       // Create an anchor, and set the href value to our data URL
       const createEl = document.createElement("a");
       createEl.href = canvasUrl;
