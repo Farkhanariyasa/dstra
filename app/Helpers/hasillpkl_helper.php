@@ -187,10 +187,10 @@ function getMenu()
           'href' => '#hasilkajian',
           'id' => 'hasilkajian',
           'subMenu' => [
-            [
-              'subMenu' => 'Template visualisasi',
-              'href' => '/riset3/tempviz',
-            ],
+            // [
+            //   'subMenu' => 'Template visualisasi',
+            //   'href' => '/riset3/tempviz',
+            // ],
             [
               'subMenu' => 'Gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata',
               'href' => '/riset3/hasilkajian1',
