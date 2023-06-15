@@ -259,7 +259,45 @@
           <div class="card">
             <h3><b>Interpretasi</b></h3>
             <div class="card-body p-2 border rounded">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eaque sed possimus, consequuntur quae tenetur. Accusantium, optio ullam? Porro, non optio quia labore doloribus culpa reprehenderit aut nesciunt odio suscipit facere nihil natus dolore, laborum praesentium eaque quo sapiente. Reprehenderit dignissimos, veniam doloribus explicabo quidem blanditiis ea aliquid quod commodi.</p>
+              <p>
+              Pada model MLE diperoleh 4 variabel penelitian yang signifikan dalam model yakni variabel Industri Pariwisata (dengan kategori yang signifikan adalah Penyedia Jasa Makan dan Minum, Perdagangan Barang-barang Pariwisata, dan Penyediaan Jasa Akomodasi bagi Wisatawan), Usia, Letak Geografis, dan Wilayah Tempat Tinggal.
+              </p>
+
+              <p style="font-weight: bold;">Industri Pariwisata</p>
+              <p>Regresi logistik PMLE yang dipilih sebagai model terbaik menunjukkan bahwa terdapat 2 industri yang berpengaruh terhadap jam kerja tenaga kerja di industri pariwisata, yaitu industri penyediaan jasa makan dan minum dan industri perdagangan barang-barang pariwisata. Berdasarkan nilai odds ratio yang diperoleh, dapat disimpulkan bahwa</p>
+              <ul>
+                <li>Kecenderungan tenaga kerja untuk bekerja penuh waktu (dibandingkan dengan tidak penuh waktu) saat bekerja di industri penyediaan jasa makan dan minum adalah sebesar 4,936 kali dibandingkan dengan yang bekerja di industri pariwisata lainnya dengan asumsi variabel lain konstan.</li>
+                <li>Kecenderungan tenaga kerja untuk bekerja penuh waktu (dibandingkan dengan tidak penuh waktu) saat bekerja di industri perdagangan barang-barang pariwisata adalah sebesar 5,752 kali dibandingkan dengan yang bekerja di industri pariwisata lainnya dengan asumsi variabel lain konstan.</li>
+              </ul>
+               
+              <p style="font-weight: bold;">Usia</p>
+              <p>
+              Berdasarkan hasil regresi logistik PMLE di atas, nilai odds ratio usia sebesar 0,979. Hal ini menunjukkan bahwa pekerja di industri pariwisata yang mempunyai usia satu tahun lebih tua memiliki kecenderungan bekerja penuh waktu sebesar 0,979 kali (dibandingkan bekerja tidak penuh waktu) dengan asumsi variabel lain konstan. Berdasarkan hasil uji signifikansi parameter, variabel usia bernilai signifikan memengaruhi jam kerja tenaga kerja di industri pariwisata pada tingkat signifikansi 5%. 
+              </p>
+              <p>
+              Hasil bahwa pengaruh variabel usia bernilai negatif menunjukkan bahwa tenaga kerja berusia muda lebih dibutuhkan dalam industri pariwisata. Hal ini sesuai dengan karakteristik industri pariwisata yang membutuhkan tenaga kerja yang terampil dan cekatan untuk melayani wisatawan baik domestik maupun mancanegara.
+              </p>
+
+              <p style="font-weight: bold;">Jenis Kelamin</p>
+              <p>
+              Berdasarkan hasil regresi logistik PMLE di atas, nilai odds ratio jenis kelamin sebesar 1,415. Hal ini berarti bahwa tenaga kerja yang berjenis kelamin laki-laki memiliki kecenderungan lebih besar, yaitu 1,415 kali untuk bekerja penuh waktu dibandingkan tenaga kerja yang berjenis kelamin perempuan, dengan asumsi variabel lain konstan. Berdasarkan hasil uji signifikansi parameter, variabel jenis kelamin tidak bernilai signifikan memengaruhi jam kerja tenaga kerja di industri pariwisata pada tingkat signifikansi 5%.
+              </p>
+              <p>
+              Temuan bahwa tidak terdapat perbedaan yang signifikan antara jam kerja laki-laki dengan perempuan menunjukkan bahwa tidak adanya persepsi breadwinners terhadap jenis kelamin laki-laki pada tenaga kerja di industri pariwisata.
+              </p>
+
+              <p style="font-weight: bold;">Letak Geografis</p>
+              <p>
+              Nilai odds ratio untuk pekerja di industri pariwisata yang bekerja di utara adalah sebesar 2,264. Hal ini berarti bahwa tenaga kerja yang bekerja di daerah utara memiliki kecenderungan lebih besar, yaitu 2,264 kali untuk bekerja penuh waktu dibandingkan tenaga kerja yang bekerja di daerah selatan, dengan asumsi variabel lain konstan.
+              </p>
+              <p>
+              Bagian utara Kabupaten Malang memiliki daya tarik alam yang lebih kuat. Wilayah ini meliputi dataran tinggi seperti Gunung Bromo, Gunung Semeru, dan Kawah Ijen. Keindahan alam, pemandangan yang menakjubkan, dan keberagaman geografis yang ditawarkan oleh daerah ini menjadi daya tarik utama bagi wisatawan. Tempat-tempat seperti ini menarik banyak pengunjung dari dalam dan luar negeri, yang pada gilirannya mendorong pengembangan fasilitas pariwisata di daerah tersebut. Ini dapat mempengaruhi preferensi pekerjaan penuh waktu karena adanya lebih banyak pilihan pekerjaan yang tersedia. Selain itu, bagian utara Kabupaten Malang memiliki rencana pariwisata yang lebih baik dan strategis. Perencanaan yang matang, termasuk pengembangan produk pariwisata, pengaturan kebijakan, pengelolaan destinasi, dan perlindungan lingkungan, dapat berdampak pada pengembangan pariwisata yang berkelanjutan.
+              </p>
+
+              <p style="font-weight: bold;">Wilayah Tempat Tinggal</p>
+              <p>
+              Nilai odds ratio untuk pekerja di industri pariwisata yang tinggal di wilayah perkotaan sebesar 2,339 yang berarti bahwa pekerja di industri pariwisata yang tinggal di wilayah perkotaan memiliki kecenderungan yang lebih besar, yaitu 2,339 kali, untuk bekerja penuh waktu dibandingkan pekerja di industri pariwisata yang tinggal di wilayah perdesaan dengan asumsi variabel lain konstan.
+              </p>
             </div>
           </div>
         </div>
