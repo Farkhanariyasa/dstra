@@ -1561,7 +1561,7 @@
 
 
         <!-- Hasil Penelitian -->
-        <section class="offset-header mt-5">
+        <!-- <section class="offset-header mt-5">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -1593,10 +1593,10 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Infografis -->
-        <section class="offset-header mt-5">
+        <!-- <section class="offset-header mt-5">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -1608,7 +1608,7 @@
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </section>
 </section>
 

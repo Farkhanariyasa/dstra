@@ -65,7 +65,7 @@
                             Laju Pertumbuhan PDRB Kota Batu <br>Atas Dasar Harga Konstan 2010 (persen) <br>Tahun 2017-2021</h1>
                         </div>
                         <div>
-                            <div id="latbel-linechart-container" class="chart-container" style="">
+                            <div id="latbel-linechart-container" class="chart-container">
                                 <canvas id="latbel-linechart"></canvas>
                             </div>
                         </div>
@@ -408,7 +408,7 @@
         </section>
 
         <!-- Hasil Penelitian -->
-        <section class="offset-header">
+        <!-- <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -421,10 +421,10 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Infografis -->
-        <section class="offset-header">
+        <!-- <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -432,14 +432,11 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <!-- <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                </p> -->
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
