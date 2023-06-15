@@ -567,13 +567,16 @@
                                                                     <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
      
                                                                  </div> -->
-                                                                 <div >
-                                                                    <p>$$\ln\left(\frac{p}{1-p}\right) = -1,263 + 1,597ind(1)^*$$
-                                                                        $$+ 1,750ind(2)^* + 0,648ind(3)^*- $$
-                                                                        $$0,010ind(4) + 0,721ind(5) + 0,347jk + $$
-                                                                        $$0,106didik- 0,021usia^*+ 0,437kawin + $$
-                                                                        $$  0,319latih + 0,256umr + $$
-                                                                        $$ 0,817geo^* + 0,850wil^*$$</p>
+                                                                 <div>
+                                                                    <p class="text-left" style="font-size: 12px;">
+                                                                    \begin{align*}
+                                                                        \ln\left(\frac{p_{i}}{1-p_{i}}\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^*\\
+                                                                        &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5)\\
+                                                                        &+ 0,347jk + 0,106didik - 0,021usia^*\\ 
+                                                                        &+ 0,437kawin + 0,319latih + 0,256umr\\ 
+                                                                        &+ 0,817geo^* + 0,850wil^*
+                                                                    \end{align*}
+                                                                    </p>
                                                                  </div>
                                                                  <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
@@ -646,7 +649,7 @@
         </section>
 
         <!-- Infografis -->
-        <section class="offset-header">
+        <!-- <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -654,14 +657,11 @@
                     </div>
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <!-- <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
-                </p> -->
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
