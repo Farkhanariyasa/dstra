@@ -20,7 +20,7 @@
     <div class="row portfolio-container">
       <div class="portfolio-item filter-tujuan1-tabulasi">
         <div class="col-lg-12 grid-margin stretch-card">
-          <div class="card shadow">
+          <div class="card shadow" style="border-radius: 15px;">
             <div class="card-body">
               <div class="row" style="height:650px">
                 <div class="col-lg-12 grid-margin stretch-card h-100">
@@ -32,10 +32,10 @@
         </div>
       </div>
 
-      <div class="portfolio-item filter-tujuan1-grafik"> <br>
-        <br><br>
-        <div class="col-lg-12 grid-margin stretch-card mt-5">
-          <div class="card shadow">
+      <div class="portfolio-item filter-tujuan1-grafik">
+        <!-- <br><br> -->
+        <div class="col-lg-12 grid-margin stretch-card">
+          <div class="card shadow" style="border-radius: 15px;">
             <div class="card-body">
               <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                 <div class="selectBox mt-3 me-2 ">
@@ -78,6 +78,23 @@
               </div>
               <div class="chartBox bar mt-4">
                 <canvas class="mt1" id="tujuan1_1" style="width: 95%; height:80vh;"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="isi-tujuan bg-white shadow mt-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <h3><b>Interpretasi</b></h3>
+                  <div class="card-body p-2 border rounded">
+                      <p>Terlihat bahwa dimensi Kenangan memiliki nilai skor tertinggi dibandingkan dimensi lainnya, yaitu sebesar 66,37. Sementara itu, nilai skor terendah dimiliki oleh dimensi Sejuk-Indah-Ramah dengan nilai sebesar 48,65, lebih rendah 17,72 poin dibandingkan dimensi Kenangan. Hal ini menunjukkan bahwa upaya untuk meningkatkan sadar wisata tenaga kerja di industri pariwisata di Kabupaten Malang dapat difokuskan mulai dari dimensi Sejuk-Indah-Ramah.</p>
+                      <p>Dimensi Sejuk-Indah-Ramah merupakan dimensi yang memiliki nilai indeks yang paling rendah. Hal ini disebabkan karena kesejukan dan keindahan yang sudah khas di daerah Kabupaten Malang menjadikan tenaga kerja di sana tidak terlalu menerapkan penjagaan kesejukan dan keindahan. Selain itu, rendahnya nilai dimensi ini disebabkan karena keramahan pada wisatawan yang masih kurang dari tenaga kerja pariwisata. Nilai dimensi sejuk-indah-ramah yang memiliki nilai paling rendah dibandingkan dimensi lainnya dapat ditingkatkan dengan melakukan sosialisasi kepada para tenaga kerja di bidang pariwisata untuk selalu menerapkan budaya 5S (Senyum, Salam, Sapa, Sopan, dan Santun) dalam melayani wisatawan atau pengunjung, serta meningkatkan kebiasaan untuk menanam dan merawat tanaman di sekitar tempat wisata guna meningkatkan keasrian dan kesejukan.</p>
+                      <p>Di lain sisi, dimensi kenangan menjadi dimensi dengan nilai tertinggi. Hal ini berarti tenaga kerja di sektor pariwisata di Kabupaten Malang turut serta dalam mengenalkan kesenian dan kebudayaan yang berasal dari daerahnya kepada wisatawan dan juga mempromosikan makanan dan minuman khas maupun cindera mata dari kabupaten malang. Dimensi ini tetap perlu diperhatikan karena akan menentukan kesan positif yang akan disampaikan kepada orang lain dan kunjungan kembali dari wisatawan.</p>
+                      <p>Selain itu, nilai indeks dimensi Aman-Tertib-Bersih memiliki nilai yang sedang, yaitu diantara dimensi Kenangan dan dimensi Sejuk-Indah-Ramah. Hal ini berarti tenaga kerja di sektor industri pariwisata sudah menerapkan sadar wisata pada dimensi Aman-Tertib-Bersih akan tetapi masih terdapat kekurangan. Bentuk tindak keamanan seperti sikap tidak mengganggu kenyamanan wisatawan, tidak membuat kegaduhan dan meminimalkan resiko kecelakaan telah dilakukan tenaga kerja di Kabupaten Malang.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
