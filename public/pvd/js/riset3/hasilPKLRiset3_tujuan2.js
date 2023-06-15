@@ -8,7 +8,7 @@ new Chart(tujuan2_1, {
     datasets: [
       {
         label: '< 12 Bulan',
-        data: [21.34, 36.61, 6.25, 26.13, 25.85, 13.85],
+        data: [21.33, 36.61, 6.25, 26.13, 25.85, 13.85],
         backgroundColor: ["#ffab00"],
       },
       {
