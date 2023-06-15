@@ -100,10 +100,10 @@
       <h4 class="card-title  judul-card">Persentase Tenaga Kerja yang Sedang Bekerja di Industri Pariwisata Menurut Jenis Industri dan Perpindahan Pekerjaan</h4>
       <div class="card-body">
         <div class="row">
-          <!-- <div class="col-lg-12 grid-margin stretch-card h-100">
-            php tabplan2_2() 
-          </div> -->
           <div class="col-lg-12 grid-margin stretch-card h-100">
+            <?php tabplan2_2() ?>
+          </div>
+          <!-- <div class="col-lg-12 grid-margin stretch-card h-100">
             <br>
             <br>
             <div class="card">
@@ -120,39 +120,39 @@
                   <tbody>
                     <tr>
                       <th scope="row">Penyediaan jasa akomodasi bagi wisatawan</th>
-                      <td><?php echo $data_2_2['t2_1_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_1_2'] ?></td>
+                      <td> echo $data_2_2['t2_1_1'] ?></td>
+                      <td> echo $data_2_2['t2_1_2'] ?></td>
                     </tr>
                     <tr>
                       <th scope="row">Penyediaan jasa makan dan minum</th>
-                      <td><?php echo $data_2_2['t2_2_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_2_2'] ?></td>
+                      <td> echo $data_2_2['t2_2_1'] ?></td>
+                      <td> echo $data_2_2['t2_2_2'] ?></td>
                     </tr>
                     <tr>
                       <th scope="row">Penyediaan jasa angkutan darat untuk penumpang</th>
-                      <td><?php echo $data_2_2['t2_3_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_3_2'] ?></td>
+                      <td> echo $data_2_2['t2_3_1'] ?></td>
+                      <td> echo $data_2_2['t2_3_2'] ?></td>
                     </tr>
                     <tr>
                       <th scope="row">Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
-                      <td><?php echo $data_2_2['t2_4_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_4_2'] ?></td>
+                      <td> echo $data_2_2['t2_4_1'] ?></td>
+                      <td> echo $data_2_2['t2_4_2'] ?></td>
                     </tr>
                     <tr>
                       <th scope="row">Aktivitas perdagangan barang-barang pariwisata</th>
-                      <td><?php echo $data_2_2['t2_5_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_5_2'] ?></td>
+                      <td> echo $data_2_2['t2_5_1'] ?></td>
+                      <td> echo $data_2_2['t2_5_2'] ?></td>
                     </tr>
                     <tr>
                       <th scope="row">Jenis Industri Lainnya</th>
-                      <td><?php echo $data_2_2['t2_6_1'] ?></td>
-                      <td><?php echo $data_2_2['t2_6_2'] ?></td>
+                      <td> echo $data_2_2['t2_6_1'] ?></td>
+                      <td> echo $data_2_2['t2_6_2'] ?></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-lg-3 grid-margin stretch-card h-100">
             <div class="card">
               <h3><b>Interpretasi</b></h3>
