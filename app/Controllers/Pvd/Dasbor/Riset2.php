@@ -4,7 +4,7 @@ namespace App\Controllers\Pvd\Dasbor;
 
 use App\Controllers\BaseController;
 use App\Models\Pvd\Riset2HasilSpModel;
-use App\Models\Pvd\Riset2HasilAnaferenModel;
+use App\Models\Pvd\Riset2HasilPklModel;
 
 class Riset2 extends BaseController
 {
@@ -13,7 +13,7 @@ class Riset2 extends BaseController
     protected $pendidikantertinggi_riset2;
     protected $tujuanutama;
     protected $data_tabel_sp_riset2;
-    protected $hasil_anaferen_riset2;
+    protected $hasil_pkl_riset2;
 
 
     public function __construct()
@@ -23,7 +23,7 @@ class Riset2 extends BaseController
         $this->pendidikantertinggi_riset2 = new Riset2HasilSpModel();
         $this->tujuanutama = new Riset2HasilSpModel();
         $this->data_tabel_sp_riset2 = new Riset2HasilSpModel();
-        $this->hasil_anaferen_riset2 = new Riset2HasilAnaferenModel();
+        $this->hasil_pkl_riset2 = new Riset2HasilPklModel();
     }
 
     public function index()
@@ -377,10 +377,10 @@ class Riset2 extends BaseController
     public function tujuan4_tabulasi()
     {
         $menu = getMenu();
-        $hasil_anaferen_riset2 = $this->hasil_anaferen_riset2->findAll();
+        $hasil_pkl_riset2 = $this->hasil_pkl_riset2->findAll();
         $data = [
             'judul' => 'Tujuan 4 | Tabulasi',
-            'hasil_anaferen_riset2' => $hasil_anaferen_riset2,
+            'hasil_pkl_riset2' => $hasil_pkl_riset2,
             'menu' => $menu['riset2'],
         ];
         return view('pvd/pages/dasbor/riset2/tujuan4/tabulasi', $data);

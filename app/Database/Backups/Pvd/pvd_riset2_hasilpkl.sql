@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pvd_riset2_hasilanaferen`
+-- Table structure for table `pvd_riset2_hasilpkl`
 --
 
-CREATE TABLE `pvd_riset2_hasilanaferen` (
+CREATE TABLE `pvd_riset2_hasilpkl` (
   `id` int(10) UNSIGNED NOT NULL,
   `Jumlah Perjalanan Wisata Dalam Kota` int(2) DEFAULT NULL,
   `Jenis Kelamin` varchar(9) DEFAULT NULL,
@@ -40,10 +40,10 @@ CREATE TABLE `pvd_riset2_hasilanaferen` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `pvd_riset2_hasilanaferen`
+-- Dumping data for table `pvd_riset2_hasilpkl`
 --
 
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (1, 3, 'Laki-laki', 61, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (2, 0, 'Perempuan', 59, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (3, 9, 'Perempuan', 32, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
@@ -650,7 +650,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (604, 2, 'Perempuan', 33, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (605, 0, 'Laki-laki', 36, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (606, 0, 'Perempuan', 36, 'Perguruan Tinggi', 'Formal', 'Informal', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (607, 3, 'Laki-laki', 35, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (608, 1, 'Perempuan', 32, 'SMA', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (609, 2, 'Perempuan', 63, 'SD', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
@@ -1256,7 +1256,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (1209, 0, 'Laki-laki', 22, 'SMA', 'Formal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (1210, 4, 'Laki-laki', 33, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (1211, 0, 'Perempuan', 32, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (1212, 5, 'Laki-laki', 69, 'SMA', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (1213, 5, 'Perempuan', 51, 'SMP', 'Lainnya', 'Lainnya', 'Ada', 'Ada'),
 (1214, 0, 'Laki-laki', 16, 'SMP', 'Lainnya', 'Lainnya', 'Ada', 'Ada'),
@@ -1852,7 +1852,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (1804, 1, 'Laki-laki', 63, 'SMP', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (1805, 0, 'Perempuan', 58, 'SMP', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (1806, 1, 'Laki-laki', 49, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (1807, 1, 'Perempuan', 40, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (1808, 0, 'Perempuan', 74, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (1809, 1, 'Perempuan', 50, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
@@ -2453,7 +2453,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (2404, 0, 'Perempuan', 71, 'SD', 'Informal', 'Lainnya', 'Ada', 'Tidak Ada'),
 (2405, 0, 'Perempuan', 51, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (2406, 7, 'Laki-laki', 53, 'SD', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (2407, 7, 'Perempuan', 55, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (2408, 1, 'Perempuan', 27, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (2409, 0, 'Laki-laki', 15, 'SMP', 'Formal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
@@ -3057,7 +3057,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (3007, 0, 'Perempuan', 68, 'SMA', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (3008, 0, 'Laki-laki', 24, 'Perguruan Tinggi', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (3009, 0, 'Perempuan', 67, 'SMA', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (3010, 3, 'Laki-laki', 47, 'Perguruan Tinggi', 'Lainnya', 'Formal', 'Tidak Ada', 'Ada'),
 (3011, 3, 'Perempuan', 38, 'Perguruan Tinggi', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (3012, 4, 'Laki-laki', 43, 'SMP', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
@@ -3660,7 +3660,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (3609, 2, 'Laki-laki', 16, 'SMP', 'Formal', 'Lainnya', 'Ada', 'Tidak Ada'),
 (3610, 0, 'Perempuan', 61, 'SD', 'Formal', 'Lainnya', 'Ada', 'Tidak Ada'),
 (3611, 0, 'Laki-laki', 47, 'Perguruan Tinggi', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (3612, 3, 'Perempuan', 43, 'Perguruan Tinggi', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (3613, 3, 'Perempuan', 20, 'SMA', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Ada'),
 (3614, 3, 'Perempuan', 18, 'SMA', 'Lainnya', 'Pengangguran', 'Tidak Ada', 'Ada'),
@@ -4262,7 +4262,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (4210, 2, 'Laki-laki', 31, 'SMP', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (4211, 2, 'Perempuan', 29, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (4212, 1, 'Laki-laki', 45, 'SMP', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (4213, 1, 'Perempuan', 36, 'SMP', 'Formal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (4214, 1, 'Perempuan', 57, 'SD', 'Informal', 'Informal', 'Tidak Ada', 'Ada'),
 (4215, 3, 'Laki-laki', 24, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Ada'),
@@ -4865,7 +4865,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (4812, 3, 'Laki-laki', 42, 'SD', 'Informal', 'Informal', 'Tidak Ada', 'Ada'),
 (4813, 3, 'Perempuan', 35, 'SD', 'Informal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (4814, 0, 'Perempuan', 15, 'SD', 'Informal', 'Lainnya', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (4815, 5, 'Laki-laki', 42, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (4816, 5, 'Perempuan', 33, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (4817, 0, 'Laki-laki', 45, 'SMA', 'Informal', 'Informal', 'Ada', 'Tidak Ada'),
@@ -5466,7 +5466,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (5412, 0, 'Laki-laki', 25, 'Perguruan Tinggi', 'Lainnya', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (5413, 4, 'Laki-laki', 40, 'Perguruan Tinggi', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
 (5414, 4, 'Perempuan', 40, 'Perguruan Tinggi', 'Informal', 'Formal', 'Tidak Ada', 'Tidak Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (5415, 4, 'Laki-laki', 15, 'SMP', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (5416, 0, 'Laki-laki', 54, 'SMA', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (5417, 0, 'Laki-laki', 41, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Tidak Ada'),
@@ -6066,7 +6066,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (6011, 1, 'Laki-laki', 62, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (6012, 1, 'Perempuan', 54, 'SMA', 'Formal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (6013, 1, 'Laki-laki', 27, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (6014, 1, 'Perempuan', 24, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (6015, 3, 'Perempuan', 60, 'SD', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (6016, 0, 'Laki-laki', 24, 'SMA', 'Lainnya', 'Formal', 'Tidak Ada', 'Tidak Ada'),
@@ -6670,7 +6670,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (6614, 3, 'Laki-laki', 47, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (6615, 3, 'Perempuan', 46, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (6616, 0, 'Laki-laki', 19, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (6617, 0, 'Laki-laki', 60, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (6618, 0, 'Perempuan', 55, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (6619, 1, 'Laki-laki', 29, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
@@ -7272,7 +7272,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (7215, 0, 'Perempuan', 67, 'SD', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (7216, 1, 'Laki-laki', 66, 'SD', 'Lainnya', 'Lainnya', 'Ada', 'Tidak Ada'),
 (7217, 0, 'Perempuan', 65, 'SD', 'Lainnya', 'Lainnya', 'Ada', 'Tidak Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (7218, 2, 'Laki-laki', 41, 'SMP', 'Lainnya', 'Formal', 'Tidak Ada', 'Tidak Ada'),
 (7219, 0, 'Perempuan', 45, 'SMA', 'Lainnya', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (7220, 0, 'Laki-laki', 50, 'SMA', 'Lainnya', 'Formal', 'Tidak Ada', 'Tidak Ada'),
@@ -7877,7 +7877,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (7819, 3, 'Laki-laki', 44, 'Perguruan Tinggi', 'Lainnya', 'Formal', 'Tidak Ada', 'Ada'),
 (7820, 3, 'Perempuan', 40, 'Perguruan Tinggi', 'Lainnya', 'Formal', 'Tidak Ada', 'Ada'),
 (7821, 2, 'Laki-laki', 48, 'SMA', 'Informal', 'Informal', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (7822, 2, 'Perempuan', 36, 'SMA', 'Informal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (7823, 2, 'Perempuan', 88, 'SMP', 'Informal', 'Lainnya', 'Ada', 'Ada'),
 (7824, 0, 'Perempuan', 30, 'SMA', 'Informal', 'Formal', 'Tidak Ada', 'Ada'),
@@ -8487,7 +8487,7 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 (8428, 0, 'Perempuan', 20, 'SMA', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (8429, 0, 'Perempuan', 16, 'SD', 'Informal', 'Lainnya', 'Tidak Ada', 'Tidak Ada'),
 (8430, 0, 'Laki-laki', 74, 'SMA', 'Formal', 'Formal', 'Tidak Ada', 'Ada');
-INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
+INSERT INTO `pvd_riset2_hasilpkl` (`id`, `Jumlah Perjalanan Wisata Dalam Kota`, `Jenis Kelamin`, `Usia`, `Tingkat Pendidikan`, `Pekerjaan KRT`, `Pekerjaan ART`, `Disabilitas`, `Kepemilikan Mobil Ruta`) VALUES
 (8431, 0, 'Laki-laki', 50, 'Perguruan Tinggi', 'Formal', 'Formal', 'Tidak Ada', 'Ada'),
 (8432, 0, 'Perempuan', 48, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
 (8433, 7, 'Perempuan', 25, 'Perguruan Tinggi', 'Formal', 'Lainnya', 'Tidak Ada', 'Ada'),
@@ -8672,9 +8672,9 @@ INSERT INTO `pvd_riset2_hasilanaferen` (`id`, `Jumlah Perjalanan Wisata Dalam Ko
 --
 
 --
--- Indexes for table `pvd_riset2_hasilanaferen`
+-- Indexes for table `pvd_riset2_hasilpkl`
 --
-ALTER TABLE `pvd_riset2_hasilanaferen`
+ALTER TABLE `pvd_riset2_hasilpkl`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -8682,9 +8682,9 @@ ALTER TABLE `pvd_riset2_hasilanaferen`
 --
 
 --
--- AUTO_INCREMENT for table `pvd_riset2_hasilanaferen`
+-- AUTO_INCREMENT for table `pvd_riset2_hasilpkl`
 --
-ALTER TABLE `pvd_riset2_hasilanaferen`
+ALTER TABLE `pvd_riset2_hasilpkl`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8609;
 COMMIT;
 
