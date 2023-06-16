@@ -21,7 +21,7 @@
             <tbody>
                 <?php
                 $i = 1;
-                foreach ($hasil_anaferen_riset2 as $v) :
+                foreach ($hasil_pkl_riset2 as $v) :
                 ?>
                     <tr>
                         <td><?php echo $v["Jumlah Perjalanan Wisata Dalam Kota"]; ?></td>
