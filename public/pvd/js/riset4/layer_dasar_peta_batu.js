@@ -41,13 +41,11 @@ function resetHighlight(e) {
   info.update();
 }
 
-var peta_batu_hasil_2 = L.map("chart-11").setView(
-  [-7.8328, 112.5342],
-  11
-);
+var peta_batu_hasil_2 = L.map("chart-11").setView([-7.8328, 112.5342], 11);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
+  minZoom: 12,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(peta_batu_hasil_2);
@@ -82,8 +80,8 @@ info.update = function (props) {
         "<strong>" +
         props.status +
         "</strong>)"
-        // " people / mi<sup>2</sup>"
-      : "<strong>Kota Batu</strong> </b><br /> 46.98 (<strong>Cukup Siap</strong>)");
+      : // " people / mi<sup>2</sup>"
+        "<strong>Kota Batu</strong> </b><br /> 46.98 (<strong>Cukup Siap</strong>)");
 };
 
 info.addTo(peta_batu_hasil_2);
@@ -91,7 +89,7 @@ info.addTo(peta_batu_hasil_2);
 legend.onAdd = function (peta_batu_hasil_2) {
   var div = L.DomUtil.create("div", "info legend"),
     grades = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-    // labels = [];
+  // labels = [];
 
   // loop through our density intervals and generate a label with a colored square for each interval
   for (var i = 0; i < grades.length; i++) {
@@ -107,4 +105,3 @@ legend.onAdd = function (peta_batu_hasil_2) {
 };
 
 legend.addTo(peta_batu_hasil_2);
-

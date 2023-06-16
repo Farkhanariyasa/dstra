@@ -7,7 +7,7 @@ function getColor(d) {
     return "#4C395F";
   } else if (d == "Sukun") {
     return "#F5A300";
-  } else if (d == "Klojen") { 
+  } else if (d == "Klojen") {
     return "#B45C75";
   }
 }
@@ -49,6 +49,7 @@ var petatematik1 = L.map("riset2_t1_hasil2").setView([-7.9797, 112.6304], 12.4);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
+  minZoom: 12,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(petatematik1);
@@ -75,12 +76,9 @@ info.update = function (props) {
   this._div.innerHTML =
     "<h4>Sebaran Wisatawan</h4>" +
     (props
-      ? "<b>" +
-        props.NAME_3 +
-        "</b><br />" +
-        props.sebaran
-        // " people / mi<sup>2</sup>"
-      : "Kecamatan");
+      ? "<b>" + props.NAME_3 + "</b><br />" + props.sebaran
+      : // " people / mi<sup>2</sup>"
+        "Kecamatan");
 };
 
 info.addTo(petatematik1);
@@ -104,4 +102,3 @@ info.addTo(petatematik1);
 // };
 
 // legend.addTo(petatematik1);
-

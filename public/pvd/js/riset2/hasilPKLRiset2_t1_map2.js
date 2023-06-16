@@ -45,13 +45,11 @@ function resetHighlight(e) {
   info_2.update();
 }
 
-var petatematik2 = L.map("riset2_t1_hasil2").setView(
-  [-7.9797, 112.6304],
-  12.4
-);
+var petatematik2 = L.map("riset2_t1_hasil2").setView([-7.9797, 112.6304], 12.4);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
+  minZoom: 12,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(petatematik2);
