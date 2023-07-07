@@ -26,11 +26,11 @@ const barPemanfaatan_1 = new Chart(barPemanfaatan1, {
         ],
         borderWidth: 1,
         backgroundColor: [
-            "#ffab00", "#506396",
-            "#4b395f", "#b35c74",
-            "#ffbc33", "#7382ab",
-            "#6f617f", "#c27d90",
-            "#ffdd99", "96a1c0",
+            "#b35c74", "#b35c7490",
+            "#b35c7490", "#b35c7490",
+            "#b35c7490", "#b35c7490",
+            "#b35c7490", "#b35c7490",
+            "#b35c7490", "#b35c7490",
         ],
     }]
     },
