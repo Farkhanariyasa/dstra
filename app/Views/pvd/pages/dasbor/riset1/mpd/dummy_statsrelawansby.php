@@ -30,7 +30,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3 class="text-center"><b>Story</b></h3>
+                                <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p class="text-justify">Kategori usia 25-49 tahun memiliki jumlah relawan terbanyak dan kategori usia 16-18 tahun memiliki jumlah relawan yang paling sedikit berdasarkan kepemilikan handphone pribadi. Sebaran jumlah relawan atas kepemilikan ponsel pribadi didominasi oleh usia 19 tahun ke atas.</p>
@@ -75,7 +75,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3 class="text-center"><b>Story</b></h3>
+                                <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p class="text-justify">Sebagian besar relawan menggunakan kartu SIM aktif dengan provider Telkomsel dan Indosat Ooredoo. Hal tersebut dikarenakan pada survei relawan MPD diprioritaskan relawan yang menggunakan provider Telkomsel dan Indosat.</p>
@@ -120,7 +120,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3 class="text-center"><b>Story</b></h3>
+                                <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p class="text-justify">Jumlah relawan terbanyak yang menggunakan dua kartu sim aktif dalam satu ponsel utama adalah relawan yang menggunakan kartu SIM Telkomsel-Indosat Ooredoo, diikuti oleh Telkomsel-Telkomsel, Telkomsel-3 (Three), dan Telkomsel-XL Axiata. Sedangkan jumlah relawan yang menggunakan kombinasi provider Indosat Ooredoo-Indosat Ooredoo cenderung lebih sedikit.</p>
@@ -165,7 +165,7 @@
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
                             <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
-                                <h3 class="text-center"><b>Story</b></h3>
+                                <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
                                     <p class="text-justify">Terdapat 63 anggota keluarga relawan yang tidak memiliki handphone, sebagian besar berasal dari kelompok umur 0—12 tahun. </p>
