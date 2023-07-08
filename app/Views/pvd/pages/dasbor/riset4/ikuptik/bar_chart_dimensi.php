@@ -259,10 +259,7 @@
                                               <div>
                                                   <h4>Interpretasi</h4>
                                                   <p id="interpretasi-0" class="text-justify">
-                                                    Secara keseluruhan, dimensi yang kurang siap untuk mendukung <i>Smart Tourism Destination</i> 
-                                                    di Kota Batu adalah dimensi Penggunaan TIK yang hanya memiliki indeks sebesar 22,06. Sementara 
-                                                    itu, dimensi-dimensi lain tergolong cukup siap dengan kesiapan tertinggi pada dimensi Ketersediaan 
-                                                    Prasarana TIK dengan indeks sebesar 68,69.                                                  
+                                                  Pada unit-unit usaha pariwisata di Kota Batu, dimensi yang tergolong kurang siap dalam memanfaatkan TIK adalah Penggunaan TIK, sedangkan dimensi-dimensi lain sudah tergolong cukup siap dengan tingkat kesiapan tertinggi pada dimensi Ketersediaan Prasarana TIK, yaitu dengan indeks sebesar 68,69.                                                 
                                                   </p>
                                               </div>
                                           </div>
@@ -353,7 +350,7 @@
                                               <div>
                                                   <h4 style="margin-top: 1.5rem;">Interpretasi</h4>
                                                   <p id="interpretasi-2" class="text-justify">
-                                                    Berdasarkan nilai IKUPTIK total, ketiga jenis usaha pariwisata di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Penyedia Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 52,08.</p>
+                                                  Ketiga jenis unit usaha pariwisata di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, usaha pariwisata berjenis Penyediaan Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai IKUPTIK sebesar 52,08.</p>
                                               </div>
                                           </div>
                                       </div>
