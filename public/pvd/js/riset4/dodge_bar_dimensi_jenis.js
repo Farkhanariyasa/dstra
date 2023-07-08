@@ -116,7 +116,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Total';
             bar_2.update();
-        document.getElementById("interpretasi-2").innerHTML = "Berdasarkan nilai IKUPTIK total, ketiga jenis usaha pariwisata di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Penyedia Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 52,08.";
+        document.getElementById("interpretasi-2").innerHTML = "Ketiga jenis unit usaha pariwisata di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, usaha pariwisata berjenis Penyediaan Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai IKUPTIK sebesar 52,08.";
     } if (barJenis1.value =='dimensi1') {
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
@@ -191,7 +191,7 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text='Nilai IKUPTIK Dimensi Ketersediaan Prasarana TIK';
             bar_2.update();
-            document.getElementById("interpretasi-2").innerHTML = "Pada dimensi Ketersediaan Prasarana TIK, jenis usaha Jasa Penyedia Makanan dan Minuman serta jenis usaha Penyedia Akomodasi di Kota Batu cukup siap dalam memanfaatkan TIK. Sementara itu, jenis usaha Jasa Transportasi Wisata di Kota Batu sudah siap dalam memanfaatkan TIK. Di antara ketiga jenis usaha tersebut, Jasa Transportasi Wisata adalah jenis usaha dengan indeks tertinggi, yaitu sebesar 71,45.";
+            document.getElementById("interpretasi-2").innerHTML = "Pada dimensi Ketersediaan Prasarana TIK, untuk usaha pariwisata berjenis Penyediaan Akomodasi dan Jasa Penyediaan Makanan dan Minuman di Kota Batu tergolong cukup siap dalam memanfaatkan TIK, sedangkan jenis usaha Jasa Transportasi Wisata tergolong siap dengan nilai indeks sebesar 71,45.";
     } if (barJenis1.value =='dimensi6'){
         console.log(barJenis1.value);
         bar_2.data.datasets[0].data = 
@@ -206,6 +206,6 @@ function tampilData(){
             ];
             bar_2.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Motivasi Penggunaan TIK';
             bar_2.update();
-            document.getElementById("interpretasi-2").innerHTML = "Pada dimensi Motivasi Penggunaan TIK, ketiga jenis usaha pariwisata di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Jasa Penyedia Makanan dan Minuman memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 47,52.";
+            document.getElementById("interpretasi-2").innerHTML = "Pada dimensi Motivasi Penggunaan TIK, ketiga jenis usaha pariwisata di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Jasa Penyediaan Makanan dan Minuman memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 47,52.";
     }
 }
