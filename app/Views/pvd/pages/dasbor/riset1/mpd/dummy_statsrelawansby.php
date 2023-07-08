@@ -33,7 +33,7 @@
                                 <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                                    <p class="text-justify">Kategori usia 25-49 tahun memiliki jumlah relawan terbanyak dan kategori usia 16-18 tahun memiliki jumlah relawan yang paling sedikit berdasarkan kepemilikan handphone pribadi. Sebaran jumlah relawan atas kepemilikan ponsel pribadi didominasi oleh usia 19 tahun ke atas.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                 <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                                    <p class="text-justify">Sebagian besar relawan menggunakan kartu SIM aktif dengan provider Telkomsel dan Indosat Ooredoo. Hal tersebut dikarenakan pada survei relawan MPD diprioritaskan relawan yang menggunakan provider Telkomsel dan Indosat.</p>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                 <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                                    <p class="text-justify">Jumlah relawan terbanyak yang menggunakan dua kartu sim aktif dalam satu ponsel utama adalah relawan yang menggunakan kartu SIM Telkomsel-Indosat Ooredoo, diikuti oleh Telkomsel-Telkomsel, Telkomsel-3 (Three), dan Telkomsel-XL Axiata. Sedangkan jumlah relawan yang menggunakan kombinasi provider Indosat Ooredoo-Indosat Ooredoo cenderung lebih sedikit.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,11 +164,11 @@
                     <div class="col-lg-4 grid-margin stretch-card h-100" style="margin-top: -1rem;">
                         <!-- <div class="card bg-secondary"> -->
                         <div class="card-body">
-                            <div class="card border rounded-4" style="padding: 1.5rem 0rem;">
+                            <div class="card shadow border rounded-4" style="padding: 1.5rem 0rem;">
                                 <h3 class="text-center"><b>Story</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
+                                    <p class="text-justify">Terdapat 63 anggota keluarga relawan yang tidak memiliki handphone, sebagian besar berasal dari kelompok umur 0—12 tahun. </p>
                                 </div>
                             </div>
                         </div>
