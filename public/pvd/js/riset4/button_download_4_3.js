@@ -3,7 +3,7 @@ let idbutton = "";
 let idinput = "";
 let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-for (let i = 2; i < 5; i++) {
+for (let i = 2; i < 6; i++) {
   document.getElementById("download-" + [i]).addEventListener("click", (e) => {
     idbutton = "button-download-" + [i];
     console.log("download-" + [i] + " diklik");
@@ -59,7 +59,7 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 2; i < 5; i++) {
+for (let i = 2; i < 6; i++) {
   document
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {
