@@ -35,9 +35,7 @@
                             <div class="card-body" style="padding-top:1.5rem;padding-right:1.25rem;padding-bottom:0rem;padding-left:1.25rem">
                                 <h4 class="text-center">Interpretasi</h4>
                                 <p class="text-justify">
-                                    Secara keseluruhan,unit usaha pariwisata yang berada di tiga kecamatan tergolong cukup siap dalam memanfaatkan TIK.
-                                    Kemudian, untuk nilai indeks kesiapan tertinggi  terletak di Kecamatan Bumiaji dengan nilai indeks sebesar 48,23. 
-                                    Yang artinya unit usaha pariwisata yang terletak di Kecamatan Bumiaji tergolong cukup siap dalam memanfaatkan TIK.                            
+                                Unit-unit usaha pariwisata di ketiga kecamatan Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai IKUPTIK sebesar 48,23.    
                                 </p>
                             </div>
                         </div>
@@ -138,7 +136,7 @@
                             <div>
                                 <h4>Interpretasi</h4>
                                 <p class="text-justify">
-                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Batu, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi sumber daya manusia, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Batu berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 68,92. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK.                                </p>
+                                Dimensi Penggunaan TIK di Kecamatan Batu tergolong kurang siap dalam memanfaatkan TIK, sedangkan dimensi-dimensi lainnya sudah tergolong cukup siap. Selain itu, Ketersediaan Prasarana TIK yang memiliki nilai indeks sebesar 68,92 menjadi dimensi dengan tingkat kesiapan tertinggi di kecamatan ini.</p>
                                 </p>
                             </div>
                         </div>
@@ -211,7 +209,7 @@
                             <div>
                                 <h4>Interpretasi</h4>
                                 <p class="text-justify">
-                                Jika dilihat berdasarkan dimensinya, unit usaha pariwisata yang terletak di Kecamatan Bumiaji, hampir keseluruhan memiliki kategori cukup siap dalam pemanfaaran TIK. Kecuali pada dimensi penggunaan TIK, yang dikategorikan kurang siap . Kemudian, untuk nilai indeks kesiapan tertinggi pada unit usaha pariwisata yang terletak di Kecamatan Bumiaji berada di dimensi ketersediaan prasarana TIK, dengan nilai indeks sebesar 67,69. Yang artinya, berdasarkan dimensi ketersediaan prasarana TIK, untuk unit usaha pariwisata yang terletak di Kecamatan Bumiaji tergolong cukup siap dalam memanfaatkan TIK.</p>
+                                Dimensi Penggunaan TIK di Kecamatan Bumiaji tergolong kurang siap dalam memanfaatkan TIK, sedangkan dimensi-dimensi yang lain sudah tergolong cukup siap. Selain itu, Ketersediaan Prasarana TIK yang memiliki nilai indeks sebesar 67,69 menjadi dimensi dengan tingkat kesiapan tertinggi di kecamatan ini.</p>
                                 </p>
                             </div>
                         </div>
