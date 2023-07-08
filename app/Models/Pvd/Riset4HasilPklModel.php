@@ -87,6 +87,13 @@ class Riset4HasilPklModel extends Model
         return round($result['rataan'], 2);
     }
 
+    # fungsi agregat (geometric) untuk satu kolom kategorik dan satu kolom numerik
+    public function getRataanGeo3($kolom_kategorik1, $kolom_kategorik2, $kolom_numerik, $k1, $k2){
+        $sub_query = 'exp(avg(ln('.$kolom_numerik.'))) as rataan';
+        $result =  $this->where([$kolom_kategorik1 => $k1, $kolom_kategorik2 => $k2])->select($sub_query)->first();
+        return round($result['rataan'], 2);
+    }
+
     // ke bawah adalah kode dummy
     # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
     public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
