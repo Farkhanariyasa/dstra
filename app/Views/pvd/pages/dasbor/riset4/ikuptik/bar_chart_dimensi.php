@@ -250,7 +250,7 @@
                                       <div class="row">
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
-                                                  <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                  <div class ="chartBox" style=" height:350px;"> 
                                                       <canvas id="chart-1"></canvas>
                                                   </div>
                                               </div>
@@ -296,7 +296,7 @@
                                       <div class="row">
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
-                                                  <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                  <div class ="chartBox" style=" height:350px;"> 
                                                       <canvas id="chart-2"></canvas>
                                                   </div>
                                               </div>
@@ -341,7 +341,7 @@
                                       <div class="row">
                                           <div class="mb-0 col-lg-7 grid-margin">
                                               <div>
-                                                  <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                                  <div class ="chartBox" style=" height:350px;"> 
                                                       <canvas id="chart-3"></canvas>
                                                   </div>
                                               </div>
