@@ -146,7 +146,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Sumber Daya Manusia';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Infrastruktur dan Konektivitas, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 60,12.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Sumber Daya Manusia, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Bumiaji memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 60,12.";
     } if (barKecamatan1.value =='dimensi4') {
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -170,7 +170,7 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text='Nilai IKUPTIK Dimensi Ketersediaan Prasarana TIK';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Ketersediaan Prasarana TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Batu memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 68,92.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Ketersediaan Prasarana TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Batu memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 68,93.";
     } if (barKecamatan1.value =='dimensi6'){
         console.log(barKecamatan1.value);
         bar_1.data.datasets[0].data = 
@@ -182,6 +182,6 @@ function tampilData(){
             bar_1.data.labels = ["Batu", "Junrejo", "Bumiaji"];
             bar_1.options.plugins.title.text= 'Nilai IKUPTIK Dimensi Motivasi Penggunaan TIK';
             bar_1.update();
-            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Motivasi Penggunaan TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Junrejo memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 49,08.";
+            document.getElementById("interpretasi-1").innerHTML = "Untuk dimensi Motivasi Penggunaan TIK, unit-unit usaha pariwisata pada tiap kecamatan di Kota Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, Kecamatan Junrejo memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai indeks sebesar 49,08.";
     }
 }
