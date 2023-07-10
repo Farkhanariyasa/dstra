@@ -703,7 +703,25 @@ class Riset4 extends BaseController
             'q231_407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
         ];
 
-        $menu = getMenu();
+        $kecamatan1_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 1, "BATU"),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 2, "BATU"),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 3, "BATU")
+        ];
+
+        $kecamatan2_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 1, "JUNREJO"),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 2, "JUNREJO"),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 3, "JUNREJO")
+        ];
+
+        $kecamatan3_jenis = [
+            'transportasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 1, "BUMIAJI"),
+            'makanminum' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 2, "BUMIAJI"),
+            'akomodasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 3, "BUMIAJI")
+        ];
+
+        $menu = getMenu(); 
         $data = [
             'judul' => 'Kecamatan',
             'menu' => $menu['riset4'],
@@ -711,6 +729,9 @@ class Riset4 extends BaseController
             'ikuptikPerDimensiJunrejo' => $ikuptikPerDimensiJunrejo,
             'ikuptikPerDimensiBumiaji' => $ikuptikPerDimensiBumiaji,
             'q231_407a' => $q231_407a,
+            'kecamatan1_jenis' => $kecamatan1_jenis,
+            'kecamatan2_jenis' => $kecamatan2_jenis,
+            'kecamatan3_jenis' => $kecamatan3_jenis,
         ];
         return view('pvd/pages/dasbor/riset4/ikuptik/kecamatan', $data);
     }

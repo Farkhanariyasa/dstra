@@ -33,6 +33,9 @@
     const ikuptikPerDimensiBatu = <?= json_encode($ikuptikPerDimensiBatu) ?>;
     const ikuptikPerDimensiJunrejo = <?= json_encode($ikuptikPerDimensiJunrejo) ?>;
     const ikuptikPerDimensiBumiaji = <?= json_encode($ikuptikPerDimensiBumiaji) ?>;
+    const kecamatan1_jenis = <?= json_encode($kecamatan1_jenis) ?>;
+    const kecamatan2_jenis = <?= json_encode($kecamatan2_jenis) ?>;
+    const kecamatan3_jenis = <?= json_encode($kecamatan3_jenis) ?>;
 </script>
 
 <!-- Impor Chart -->
@@ -41,6 +44,7 @@
 <script src="<?= base_url('pvd/js/riset4/bar_4_3_3.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/dodge_bar_kecamatan_jenis.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_4_3.js') ?>"></script>

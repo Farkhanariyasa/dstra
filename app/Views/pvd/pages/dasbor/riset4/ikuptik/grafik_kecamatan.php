@@ -110,6 +110,48 @@
     <!-- </div>
 </div> -->
 
+<!-- Visualisasi 5 (Tambahan: Kecamatan x Jenis Usaha) -->
+<div class="col-12 grid-margin stretch-card">
+    <div class="card shadow">
+        <div class="pb-2 card-body">
+            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                <div class="selectBox mt-2 me-2">
+                    <form action="">
+                        <select style="width: 175px" class="dropdownunduh1" id="bar-kecamatan-1">
+                            <option value="batu">Pilih Kecamatan:</option>
+                            <option value="batu">Batu</option>
+                            <option value="junrejo">Junrejo</option>
+                            <option value="bumiaji">Bumiaji</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="me-1 mt-1 justify-content-end align-item-end">
+                    <button id="download-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-5">
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-0 col-lg-7 grid-margin">
+                    <div>
+                        <div class ="chartBox" style=" height:350px;"> 
+                            <canvas id="chart-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                    <div>
+                        <h4 style="margin-top: 1.5rem;">Interpretasi</h4>
+                        <p id="interpretasi-2" class="text-justify">
+                        Ketiga jenis usaha pariwisata di Kecamatan Batu tergolong cukup siap dalam memanfaatkan TIK. Namun, jenis usaha Penyediaan Akomodasi memiliki tingkat kesiapan yang paling tinggi di antara yang lain dengan nilai IKUPTIK sebesar 51,92.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Visualisasi 2 -->
 <p id="go-to-chart-2"></p>
 <div class="portfolio-item filter-riset4-jenis-uup-3  mb-1">
@@ -127,7 +169,7 @@
                     <div class="row">
                         <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                <div class ="chartBox" style=" height:350px;"> 
                                     <canvas class="mt1" id="chart-2"></canvas>
                                 </div>
                             </div>
@@ -164,7 +206,7 @@
                     <div class="row">
                         <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                <div class ="chartBox" style=" height:350px;"> 
                                     <canvas class="mt1" id="chart-3"></canvas>
                                 </div>
                             </div>
@@ -200,7 +242,7 @@
                     <div class="row">
                         <div class="mb-0 col-lg-7 grid-margin">
                             <div>
-                                <div class = "chartBox" style="position: relative; height:65vh;"> 
+                                <div class ="chartBox" style=" height:350px;"> 
                                     <canvas class="mt1" id="chart-4"></canvas>
                                 </div>
                             </div>

@@ -106,14 +106,11 @@ const data_relawan3 = {
                 y: 20,
             },
             {
+                label: '16',
                 x: 8.4,
                 y: 20,
             },
-            {
-                label: '16',
-                x: 9.2,
-                y: 20,
-            },
+            
             
         ],
         backgroundColor: "#FDAB01",

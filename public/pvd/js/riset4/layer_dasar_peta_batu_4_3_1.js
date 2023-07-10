@@ -70,7 +70,7 @@ function onMapClick(e) {
     lng >= 112.49653236038586
   ) {
     // alert("2");
-    const element = document.getElementById("go-to-chart-2");
+    const element = document.getElementById("go-to-chart-4");
     element.scrollIntoView();
   } else if (
     lat <= -7.873880050433476 &&
@@ -79,7 +79,7 @@ function onMapClick(e) {
     lng >= 112.49309913284678
   ) {
     // alert("3");
-    const element = document.getElementById("go-to-chart-3");
+    const element = document.getElementById("go-to-chart-2");
     element.scrollIntoView();
   } else if (
     lat <= -7.890187131876999 &&
@@ -88,7 +88,7 @@ function onMapClick(e) {
     lng >= 112.54734412796397
   ) {
     // alert("4");
-    const element = document.getElementById("go-to-chart-4");
+    const element = document.getElementById("go-to-chart-3");
     element.scrollIntoView();
   } else {
     // alert("1");
