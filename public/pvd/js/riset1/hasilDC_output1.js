@@ -73,6 +73,10 @@ const bubble_dc_output1 = new Chart(dc_output1, {
             display: true,
             text: "F1-Score True DC",
         },
+        grid: {
+            display: false,
+        },
+
         },
     }, 
     plugins: {
