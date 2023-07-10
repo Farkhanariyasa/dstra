@@ -1899,7 +1899,7 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="dc_algoritma1_1"></canvas>
+                                    <canvas class="mt1" id="dc_output1"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1908,7 +1908,7 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="dc_algoritma1_2"></canvas>
+                                    <canvas class="mt1" id="dc_output2"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1917,7 +1917,7 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="dc_algoritma1_3"></canvas>
+                                    <canvas class="mt1" id="dc_output3"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -3476,7 +3476,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="dc_algoritma2_1"></canvas>
+                                            <canvas class="mt1" id="dc_output4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -3485,7 +3485,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="dc_algoritma2_2"></canvas>
+                                            <canvas class="mt1" id="dc_output5"></canvas>
                                         </div>
                                     </div>
                                 </div>

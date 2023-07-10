@@ -69,6 +69,13 @@
   <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_7.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_8.js') ?>"></script>
 
+  <!-- DC Output baru -->
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output3.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output4.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output5.js') ?>"></script>
+
 
 
   <!-- Latex Math -->
