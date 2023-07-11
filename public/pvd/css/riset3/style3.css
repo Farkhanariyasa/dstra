@@ -389,3 +389,13 @@ div.tooltip {
   display: flex;
   color: white;
 }
+
+#reglogContainer > div {
+  color: #4b395f;
+}
+
+@media (max-width: 450px) {
+  #reglogContainer > div {
+    font-size: 12px;
+  }
+}
