@@ -1,18 +1,18 @@
-let delayed_relawan1;
-const relawan_output1 = document.getElementById("relawan_output1");
-const bar_relawan1 = new Chart(relawan_output1, {
+let delayed_relawan4rev;
+const relawan_output4rev = document.getElementById("relawan_output4rev");
+const bar_relawan4rev = new Chart(relawan_output4rev, {
   type: "bar",
   data: {
     labels: ["0-12", "13-15", "16-18", "19-24", "25-49", ">=50"],
     datasets: [
       {
-        label: "Jumlah Relawan",
-        data: [9
-          ,9
-          ,5
-          ,34
-          ,125
-          ,33],
+        label: "Jumlah Anggota Keluarga",
+        data: [59
+          ,2
+          ,0
+          ,0
+          ,0
+          ,2    ],
         backgroundColor: "#516296",
         borderWidth: 1,
         borderRadius: 8,
@@ -48,7 +48,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
     plugins: {
       title: {
         display: true,
-        text: ["Jumlah Relawan Berdasarkan Kepemilikan Handphone Pribadi", "dan Dikategorikan Menurut Kelompok Umur Tahun 2022"],
+        text: ["Jumlah Anggota Keluarga Relawan yang Tidak Memiliki", "Handphone Pribadi Berdasarkan Kelompok Umur Tahun 2022"],
         font: {
           size: 16,
           // family: "Poppins",
@@ -97,7 +97,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
         },
         title: {
           display: true,
-          text: "Jumlah Relawan",
+          text: "Jumlah Anggota Keluarga",
           font: {
             size: 14,
             style: "normal",
@@ -120,19 +120,19 @@ function responsivefonts() {
   }
 }
 
-const barChartAxisRelawan_output1 = document.getElementById("forBarChartAxisRelawan_output1");
-barChartAxisRelawan_output1.addEventListener("click", update_value_relawan_output1(chk_bx));
+const barChartAxisRelawan_output4rev = document.getElementById("forBarChartAxisRelawan_output4rev");
+barChartAxisRelawan_output4rev.addEventListener("click", update_value_relawan_output4rev(chk_bx));
 
-function update_value_relawan_output1(chk_bx) {
+function update_value_relawan_output4rev(chk_bx) {
   if (chk_bx.checked) {
     console.log("check");
-    bar_relawan1.options.scales.x.display = true;
-    bar_relawan1.options.scales.y.display = true;
-    bar_relawan1.update();
+    bar_relawan4rev.options.scales.x.display = true;
+    bar_relawan4rev.options.scales.y.display = true;
+    bar_relawan4rev.update();
   } else {
     console.log("uncheck");
-    bar_relawan1.options.scales.x.display = false;
-    bar_relawan1.options.scales.y.display = false;
-    bar_relawan1.update();
+    bar_relawan4rev.options.scales.x.display = false;
+    bar_relawan4rev.options.scales.y.display = false;
+    bar_relawan4rev.update();
   }
 }
