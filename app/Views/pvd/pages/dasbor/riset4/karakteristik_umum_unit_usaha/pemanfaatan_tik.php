@@ -3,8 +3,7 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <header class="section-header">
-            <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan
-                    <i>Smart Tourism Destination</i></strong>
+            <h6 style="color: #4b395f;"><strong>Pemanfaatan Teknologi Informasi dan Komunikasi (TIK)</strong>
             </h6>
         </header>
         <hr class="hrjudul">
@@ -35,40 +34,6 @@
                     /* font-family: 'Poppins', 'Courier', 'monospace'; */
                     color: #506396;
                 }
-            </style>
-
-            <!-- style untuk gantt chart -->
-            <style>
-                /* * {
-              margin: 0;
-              padding: 0;
-              font-family: sans-serif;
-            } */
-                /* .chartMenu {
-              width: 100vw;
-              height: 40px;
-              background: #1A1A1A;
-              color: rgba(54, 162, 235, 1);
-            }
-            .chartMenu p {
-              padding: 10px;
-              font-size: 20px;
-            }
-            .chartCard {
-              width: 100vw;
-              height: calc(100vh - 40px);
-              background: rgba(54, 162, 235, 0.2);
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-            .chartBox {
-              width: 700px;
-              padding: 20px;
-              border-radius: 20px;
-              border: solid 3px rgba(54, 162, 235, 1);
-              background: white;
-            } */
             </style>
 
             <!-- Charts and Interpretations Batch 1 -->
@@ -1090,7 +1055,6 @@
 
     <!-- Data Chart -->
     <script>
-        // const uupKotaBatu = < ?= json_encode($uupKotaBatu) ?>;
         const uupStatusMemanfaatkan = <?= json_encode($uupStatusMemanfaatkan) ?>;
         const uupStatusMemanfaatkanJenis = <?= json_encode($uupStatusMemanfaatkanJenis) ?>;
         const uupStatusMemanfaatkanJenisSkala = <?= json_encode($uupStatusMemanfaatkanJenisSkala) ?>;

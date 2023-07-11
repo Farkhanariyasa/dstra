@@ -240,7 +240,7 @@ function getMenu()
           'href' => '/riset4/dasbor',
         ],
         [
-          'menu' => 'Karakteristik Umum Unit Usaha',
+          'menu' => 'Gambaran Umum Unit Usaha',
           'icon' => 'fa-solid fa-shop',
           'href' => '#menu2',
           'id' => 'menu2',

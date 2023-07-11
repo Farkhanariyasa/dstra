@@ -5,8 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-          <i>Smart Tourism Destination</i></strong>
+        <h6 style="color: #4b395f;"><strong>IKUPTIK Berdasarkan Jenis Unit Usaha</strong>
         </h6>
     </header>
     <hr class="hrjudul">
@@ -14,9 +13,10 @@
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters" role="tablist">
-            <li data-filter=".filter-riset4-jenis-uup-1" class="filter" type="button" role="tab">Jasa Transportasi</li>
-            <li data-filter=".filter-riset4-jenis-uup-2" class="filter" type="button" role="tab">Jasa Makan-Minum</li>
-            <li data-filter=".filter-riset4-jenis-uup-3" class="filter" type="button" role="tab">Jasa Akomodasi</li>
+            <li data-filter="*" class="filter-active" type="button" role="tab">Semua Visualisasi</li>
+            <li data-filter=".filter-riset4-jenis-uup-1" class="filter" type="button" role="tab">Jasa Transportasi Wisata</li>
+            <li data-filter=".filter-riset4-jenis-uup-2" class="filter" type="button" role="tab">Jasa Penyedia Makanan dan Minuman</li>
+            <li data-filter=".filter-riset4-jenis-uup-3" class="filter" type="button" role="tab">Penyedia Akomodasi</li>
             <li data-filter=".filter-riset4-jenis-uup-4" class="filter" type="button" role="tab">Total</li>
         </ul>
       </div>

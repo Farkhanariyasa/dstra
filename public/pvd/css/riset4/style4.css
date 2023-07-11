@@ -86,11 +86,6 @@
   height: 300px;
 }
 
-#latbel-linechart {
-  /* height: 300px;
-  width: 600px; */
-}
-
 @media (max-width: 500px) {
   #latbel-linechart-container {
     height: 200px;
