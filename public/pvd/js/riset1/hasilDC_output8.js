@@ -1,28 +1,49 @@
-let delayed_dc_output1;
-const dc_output1 = document.getElementById("dc_output1");
-const bubble_dc_output1 = new Chart(dc_output1, {
+let delayed_dc_output8;
+const dc_output8 = document.getElementById("dc_output8");
+const bubble_dc_output8 = new Chart(dc_output8, {
   type: "bubble",
   data: {
-    labels: ["Visualisasi Algoritma", "Visualisasi Algoritma"],
+    labels: ["Jarak Terdekat Staypoint", "H3 Tanpa Staypoint", "H3 Dengan Staypoint", "Frechet Distance", "DTW"],
     datasets: [
       {
-        label: "Yes",
+        label: "(x, y, r)",
         data: [
             {   
-                label: "0.56",
+                label: "0.64",
                 x: 1,
-                y: 0.56,
+                y: 0.64,
                 r: 10
             },
             {
-                label: "0.64",
+                label: "0.44",
                 x: 2,
-                y: 0.64,
-                r: 35
+                y: 0.44,
+                r: 7
+            },
+            {
+                label: "0.44", 
+                x: 3,
+                y: 0.44,
+                r: 10
+            },
+            {
+                label: "0",
+                x: 4,
+                y: 0,
+                r: 20
+            },
+            {
+                label: "0",
+                x: 5,
+                y: 0,
+                r: 25
             },
 
+
+
+
         ],
-        backgroundColor: ["#C27D90"],
+        backgroundColor: ["#516296"],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -34,11 +55,11 @@ const bubble_dc_output1 = new Chart(dc_output1, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_dc_output1 = true;
+        delayed_dc_output8 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_dc_output1) {
+        if (context.type === "data" && context.mode === "default" && !delayed_dc_output8) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -46,26 +67,40 @@ const bubble_dc_output1 = new Chart(dc_output1, {
     },
     scales: {
       x: {
+        min: 0,
         beginAtZero: true,
-        min: 0.5,
-        max: 2.5,
         ticks: {
-            stepSize: 0.5,
+            stepSize: 1,
             display: true,
+            callback: function(value, index, values) {
+                if(index === 5) {
+                    return ["DTW"];
+                } else if(index === 4) {
+                    return ["Frechet","Distance"]; 
+                } else if(index === 3) {
+                    return ["H3" ,"Dengan","Staypoint"];
+                } else if(index === 2) {
+                    return ["H3", "Tanpa", "Staypoint"];
+                } else if(index === 1) {
+                    return ["Jarak", "Terdekat", "Staypoint"];
+                } else {
+                    return "";
+                }
+            },
         },
         grid: {
             display: false,
         },
         title: {
             display: true,
-            text: "Periode Waktu Referensi",
+            text: "Jenis Algoritma",
             
         },  
       },
       y: {
         beginAtZero: true,
         min: 0,
-        max: 1,
+        max: 0.8,
         ticks: {
             stepSize: 0.2
         },
@@ -75,14 +110,14 @@ const bubble_dc_output1 = new Chart(dc_output1, {
         },
         grid: {
             display: false,
-        },
 
         },
+    },
     }, 
     plugins: {
       title: {
         display: true,
-        text: ["Visualisasi Hasil Algoritma Berdasarkan", "F1Score (yes) dan Waktu Running (Haversine)"],
+        text: ["Visualisasi Kombinasi Algoritma Berdasarkan", "F1Score (yes) dan Waktu Running"],
         font: {
           size: 16,
           // family: "Poppins",
@@ -127,10 +162,10 @@ function responsivefonts() {
   }
 }
 
-// const barChartAxisRelawan_output1 = document.getElementById("forBarChartAxisRelawan_output1");
-// barChartAxisRelawan_output1.addEventListener("click", update_value_relawan_output1(chk_bx));
+// const barChartAxisRelawan_output8 = document.getElementById("forBarChartAxisRelawan_output8");
+// barChartAxisRelawan_output8.addEventListener("click", update_value_relawan_output8(chk_bx));
 
-// function update_value_relawan_output1(chk_bx) {
+// function update_value_relawan_output8(chk_bx) {
 //   if (chk_bx.checked) {
 //     console.log("check");
 //     bar_relawan1.options.scales.x.display = true;

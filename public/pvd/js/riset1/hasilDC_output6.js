@@ -1,28 +1,22 @@
-let delayed_dc_output1;
-const dc_output1 = document.getElementById("dc_output1");
-const bubble_dc_output1 = new Chart(dc_output1, {
+let delayed_dc_output6;
+const dc_output6 = document.getElementById("dc_output6");
+const bubble_dc_output6 = new Chart(dc_output6, {
   type: "bubble",
   data: {
-    labels: ["Visualisasi Algoritma", "Visualisasi Algoritma"],
+    labels: ["Frechet"],
     datasets: [
       {
-        label: "Yes",
+        label: "(x, y, r)",
         data: [
             {   
-                label: "0.56",
-                x: 1,
-                y: 0.56,
-                r: 10
-            },
-            {
-                label: "0.64",
-                x: 2,
-                y: 0.64,
-                r: 35
+                label: "0",
+                x: 20.34,
+                y: 0,
+                r: 30
             },
 
         ],
-        backgroundColor: ["#C27D90"],
+        backgroundColor: ["#516296"],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -34,11 +28,11 @@ const bubble_dc_output1 = new Chart(dc_output1, {
     maintainAspectRatio: false,
     animation: {
       onComplete: () => {
-        delayed_dc_output1 = true;
+        delayed_dc_output6 = true;
       },
       delay: (context) => {
         let delay = 0;
-        if (context.type === "data" && context.mode === "default" && !delayed_dc_output1) {
+        if (context.type === "data" && context.mode === "default" && !delayed_dc_output6) {
           delay = context.dataIndex * 300 + context.datasetIndex * 100;
         }
         return delay;
@@ -47,10 +41,10 @@ const bubble_dc_output1 = new Chart(dc_output1, {
     scales: {
       x: {
         beginAtZero: true,
-        min: 0.5,
-        max: 2.5,
+        min: 0,
+        max: 30,
         ticks: {
-            stepSize: 0.5,
+            stepSize: 5,
             display: true,
         },
         grid: {
@@ -58,16 +52,16 @@ const bubble_dc_output1 = new Chart(dc_output1, {
         },
         title: {
             display: true,
-            text: "Periode Waktu Referensi",
+            text: "Waktu (menit/msisdn)",
             
         },  
       },
       y: {
         beginAtZero: true,
-        min: 0,
+        min: -1,
         max: 1,
         ticks: {
-            stepSize: 0.2
+            stepSize: 0.5
         },
         title: {
             display: true,
@@ -75,14 +69,14 @@ const bubble_dc_output1 = new Chart(dc_output1, {
         },
         grid: {
             display: false,
-        },
 
         },
+    },
     }, 
     plugins: {
       title: {
         display: true,
-        text: ["Visualisasi Hasil Algoritma Berdasarkan", "F1Score (yes) dan Waktu Running (Haversine)"],
+        text: ["Visualisasi Hasil Algoritma Berdasarkan", "F1Score (yes) dan Waktu Running (Frechet)"],
         font: {
           size: 16,
           // family: "Poppins",
@@ -127,10 +121,10 @@ function responsivefonts() {
   }
 }
 
-// const barChartAxisRelawan_output1 = document.getElementById("forBarChartAxisRelawan_output1");
-// barChartAxisRelawan_output1.addEventListener("click", update_value_relawan_output1(chk_bx));
+// const barChartAxisRelawan_output6 = document.getElementById("forBarChartAxisRelawan_output6");
+// barChartAxisRelawan_output6.addEventListener("click", update_value_relawan_output6(chk_bx));
 
-// function update_value_relawan_output1(chk_bx) {
+// function update_value_relawan_output6(chk_bx) {
 //   if (chk_bx.checked) {
 //     console.log("check");
 //     bar_relawan1.options.scales.x.display = true;

@@ -196,7 +196,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_14.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk dengan jenis kelamin laki-laki berpeluang <b style="color: green;">23,57 kali</b> untuk memutuskan melakukan perjalanan wisata daripada perempuan.
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                         <div class="col-lg-3 grid-margin mt-2" style="margin-left: -1rem;">
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_15.png') ?>" class="img-fluid" alt="">
                         </div>
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Peningkatan satu tahun usia akan meningkatkan peluang untuk memutuskan melakukan perjalanan wisata sebesar <b style="color: green;">1,08 kali</b>.
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_21.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk tamatan SD berpeluang <b style="color: green;">9,59 kali</b> untuk memutuskan melakukan perjalanan wisata daripada penduduk yang tidak/belum sekolah/tidak tamat SD/MI.
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk dengan KRT kategori pekerjaan formal dan penduduk dengan KRT kategori pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
@@ -303,7 +303,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk dengan KRT yang menganggur dan penduduk dengan KRT kategori pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk dengan KRT kategori pekerjaan lainnya berpeluang <b style="color: red;">0,04 kali</b> untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan KRT kategori pekerjaan informal.
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_16.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             ART kategori pekerjaan formal dan ART kategori pekerjaan informal cenderung memiliki peluang yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_17.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             ART yang menganggur berpeluang <b style="color: green;">949,64 kali</b> untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan ART kategori pekerjaan informal.
                         </div>
                     </div>
@@ -356,7 +356,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_18.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             ART kategori pekerjaan lainnya berpeluang <b style="color: green;">96,14 kali</b> untuk memutuskan melakukan perjalanan wisata daripada penduduk dengan ART kategori pekerjaan informal.
                         </div>
                     </div>
@@ -380,7 +380,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_19.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; ">
                             Penduduk yang bukan penyandang disabilitas dan penduduk penyandang disabilitas cenderung memiliki peluang yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>
@@ -402,7 +402,7 @@
                             <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_20.png') ?>" class="img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem; margin-right: 1rem">
+                        <div class="col-lg-10 grid-margin text-start pl-0" style="font-size:15px; margin-left: -1rem;">
                             Penduduk yang dalam rumah tangganya memiliki mobil dan penduduk yang dalam rumah tangganya tidak memiliki mobil cenderung memiliki peluang yang sama untuk memutuskan melakukan perjalanan wisata.
                         </div>
                     </div>

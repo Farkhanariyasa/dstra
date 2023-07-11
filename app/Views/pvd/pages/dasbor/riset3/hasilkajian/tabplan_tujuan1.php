@@ -11,12 +11,12 @@
                     <th rowspan="2">Sampel</th>
                 </tr>
                 <tr>
-                	<th >Penyediaan jasa akomodasi bagi wisatawan</th>
-                    <th >Penyediaan jasa makan dan minum</th>
-                    <th >Penyediaan jasa angkutan darat untuk penumpang</th>
-                    <th >Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
-                    <th >Aktivitas perdagangan barang-barang pariwisata</th>
-                    <th >Jenis Industri Lainnya</th>
+                	<th>Penyediaan jasa akomodasi bagi wisatawan</th>
+                    <th>Penyediaan jasa makan dan minum</th>
+                    <th>Penyediaan jasa angkutan darat untuk penumpang</th>
+                    <th>Penyediaan jasa kebudayaan, olahraga dan rekreasi</th>
+                    <th>Aktivitas perdagangan barang-barang pariwisata</th>
+                    <th>Jenis Industri Lainnya</th>
                 </tr>
             </thead>
             <tbody>
@@ -46,7 +46,7 @@
                 </tr>
                 <tr>
                     <td rowspan="5" class="fw-bold">Usia</td>
-                    <td>Under 15 dan 15-24</td>
+                    <td>&lt;15 dan 15-24</td>
                     <td>10.40</td>
                     <td>40.46</td>
                     <td>2.31</td>
@@ -153,7 +153,7 @@
                 </tr>
                 <tr>
                     <td rowspan="4" class="fw-bold">Jumlah Pendapatan</td>
-                    <td>< Rp1.500.000</td>
+                    <td>&lt;Rp1.500.000</td>
                     <td>12.56</td>
                     <td>39.07</td>
                     <td>9.30</td>
@@ -188,7 +188,7 @@
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
-                    <td>>Rp3.500.000</td>
+                    <td>&gt;Rp3.500.000</td>
                     <td>9.22</td>
                     <td>29.08</td>
                     <td>13.48</td>
@@ -379,7 +379,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2" class="fw-bold">Lama Bekerja</td>
-                    <td><=36 bulan</td>
+                    <td>&le;36 bulan</td>
                     <td>10.38</td>
                     <td>38.75</td>
                     <td>5.88</td>
@@ -391,7 +391,7 @@
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
-                    <td>>36 bulan</td>
+                    <td>&lt;36 bulan</td>
                     <td>10.90</td>
                     <td>27.12</td>
                     <td>15.25</td>

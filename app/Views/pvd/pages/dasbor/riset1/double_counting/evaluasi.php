@@ -75,6 +75,12 @@
   <script src="<?= base_url('pvd/js/riset1/hasilDC_output3.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilDC_output4.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilDC_output5.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output6.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output7.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output8.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output9.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output10.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output11.js') ?>"></script>
 
 
 
