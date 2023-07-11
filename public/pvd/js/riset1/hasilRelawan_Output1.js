@@ -13,7 +13,7 @@ const bar_relawan1 = new Chart(relawan_output1, {
           ,34
           ,125
           ,33],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         borderWidth: 1,
         borderRadius: 8,
       },

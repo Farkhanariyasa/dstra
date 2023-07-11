@@ -7,54 +7,54 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 21,
+                y: 8,
             },
             {
                 x: 1.2,
-                y: 21,
+                y: 8,
 
             },
             {
                 x: 2,
-                y: 21,
+                y: 8,
             },
             {
                 x: 2.8,
-                y: 21,
+                y: 8,
             },
             {
                 x: 3.6,
-                y: 21,
+                y: 8,
             },
             {
                 x: 4.4,
-                y: 21,
+                y: 8,
             },
             { 
                 x: 5.2,
-                y: 21,
+                y: 8,
             },
             {
                 x: 6,
-                y: 21,
+                y: 8,
             },
             {
                 
                 x: 6.8,
-                y: 21,
+                y: 8,
             },
             {
                 x: 7.6,
-                y: 21,
+                y: 8,
             },
             {
                 x: 8.4,
-                y: 21,
+                y: 8,
             },
             {
                 label: '38',
                 x: 9.2,
-                y: 21, 
+                y: 8, 
             },
             
 
@@ -67,48 +67,44 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 20,
+                y: 7,
             },
             {
                 x: 1.2,
-                y: 20,
+                y: 7,
             },
             { 
                 x: 2,
-                y: 20,
+                y: 7,
             },
             {
                 x: 2.8,
-                y: 20,
+                y: 7,
             },
             {
                 x: 3.6,
-                y: 20,
+                y: 7,
             },
             {
                 x: 4.4,
-                y: 20,
+                y: 7,
             },
             {
                 x: 5.2,
-                y: 20,
+                y: 7,
             },
             {
                 x: 6,
-                y: 20,
+                y: 7,
             },
             {
                 x: 6.8,
-                y: 20,
-            },
-            {
-                x: 7.6,
-                y: 20,
+                y: 7,
             },
             {
                 label: '16',
-                x: 8.4,
-                y: 20,
+                x: 7.6,
+                y: 7,
             },
             
             
@@ -121,48 +117,40 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 19,
+                y: 6,
             },
             {
                 x: 1.2,
-                y: 19,
+                y: 6,
             },
             {
                 x: 2,
-                y: 19, 
+                y: 6, 
             },
             {
                 x: 2.8,
-                y: 19,
+                y: 6,
             },
             {
                 x: 3.6,
-                y: 19,
+                y: 6,
             },
             {
                 x: 4.4,
-                y: 19,
+                y: 6,
             },
             {
                 x: 5.2,
-                y: 19,
-            },
-            {
-                x: 6,
-                y: 19,
-            },
-            {
-                x: 6.8,
-                y: 19,
+                y: 6,
             },
             {
                 label: '9',
-                x: 7.6,
-                y: 19,
+                x: 6,
+                y: 6,
             },
             
           ],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         pointRadius: 9,
       },
       {
@@ -170,35 +158,35 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 18,
+                y: 5,
             },
             {
                 x: 1.2,
-                y: 18,
+                y: 5,
             },
             {
                 x: 2,
-                y: 18,
+                y: 5,
             },
             {
                 x: 2.8,
-                y: 18,
+                y: 5,
             },
             {
                 x: 3.6,
-                y: 18,
+                y: 5,
             },
             {
                 x: 4.4,
-                y: 18,
+                y: 5,
             },
             {
                 label: '7',
                 x: 5.2,
-                y: 18,
+                y: 5,
             },
           ],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         pointRadius: 9,
       },
       {
@@ -206,22 +194,18 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 17,
+                y: 4,
             },
             {
                 
                 x: 1.2,
-                y: 17,
-            },
-            {
-                x: 2,
-                y: 17,
+                y: 4,
             },
             {
                 label: '3',
-                x: 2.8,
-                y: 17,
-            }
+                x: 2,
+                y: 4,
+            },
 
           ],
         backgroundColor: "#FDAB01",
@@ -232,35 +216,27 @@ const data_relawan3 = {
         data: [
             {
                 x: 0.4,
-                y: 16,
-            },
-            {
-                x: 1.2,
-                y: 16,
+                y: 3,
             },
             {
                 label: '2',
-                x: 2,
-                y: 16,
+                x: 1.2,
+                y: 3,
             },
           ],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         pointRadius: 9,
       },
       {
         label: 'Indosat-3 (Three)',
         data: [
             {
-                x: 0.4,
-                y: 15,
-            },
-            {
                 label: '1',
-                x: 1.2,
-                y: 15,
+                x: 0.4,
+                y: 2,
             },
             ],
-        backgroundColor: "#C27D90",
+        backgroundColor: "#516296",
         pointRadius: 9,
       },
 
@@ -336,54 +312,71 @@ const bar_relawan3 = new Chart(relawan_output3  , {
     scales: {
       y: {
         min: 0,
-        max: 22,
+        max: 8.5,
         ticks: {
             stepSize: 1,
             callback: function(value, index, ticks) {
-                if(index === 21) {
+                // if(index === 21) {
+                //     return "Telkomsel-Indosat";
+                // } else if(index === 20) {
+                //     return "Telkomsel-Telkomsel";
+                // } else if(index === 19) {
+                //     return "Telkomsel-3 (Three)"; 
+                // } else if(index === 18) {
+                //     return "Telkomsel-Xl Axiata";
+                // } else if(index === 17) {
+                //     return "Indosat-Indosat";
+                // } else if(index === 16) {
+                //     return "Telkomsel-Smartfren";
+                // } else if(index === 15) {
+                //     return "Indosat-3 (Three)"; 
+                // } else if(index === 14) {
+                //     return "3 (Three)-3 (Three)";
+                // } else if(index === 13) {
+                //     return "3 (Three)-Lainnya";
+                // } else if(index === 12) {
+                //     return "3 (Three)-Smartfren";
+                // } else if(index === 11) {
+                //     return "Indosat-Lainnya";
+                // } else if(index === 10) {
+                //     return "Indosat-Smartfren";
+                // } else if(index === 9) {
+                //     return "Indosat-XL Axiata";
+                // } else if(index === 8) {
+                //     return "Lainnya-Lainnya";
+                // } else if(index === 7) {
+                //     return "Smartfren-Lainnya";
+                // } else if(index === 6) {
+                //     return "Smartfren-Smartfren";
+                // } else if(index === 5) {
+                //     return "Telkomsel-Lainnya";
+                // } else if(index === 4) {
+                //     return "XL Axiata-3 (Three)";
+                // } else if(index === 3) {
+                //     return "XL Axiata-Lainnya";
+                // } else if(index === 2) {
+                //     return "XL Axiata-Smartfren";
+                // } else if(index === 1) {
+                //     return "XL Axiata-XL Axiata";
+                // } else {
+                //     return "";
+                // }
+                if(index === 8) {
                     return "Telkomsel-Indosat";
-                } else if(index === 20) {
-                    return "Telkomsel-Telkomsel";
-                } else if(index === 19) {
-                    return "Telkomsel-3 (Three)"; 
-                } else if(index === 18) {
-                    return "Telkomsel-Xl Axiata";
-                } else if(index === 17) {
-                    return "Indosat-Indosat";
-                } else if(index === 16) {
-                    return "Telkomsel-Smartfren";
-                } else if(index === 15) {
-                    return "Indosat-3 (Three)"; 
-                } else if(index === 14) {
-                    return "3 (Three)-3 (Three)";
-                } else if(index === 13) {
-                    return "3 (Three)-Lainnya";
-                } else if(index === 12) {
-                    return "3 (Three)-Smartfren";
-                } else if(index === 11) {
-                    return "Indosat-Lainnya";
-                } else if(index === 10) {
-                    return "Indosat-Smartfren";
-                } else if(index === 9) {
-                    return "Indosat-XL Axiata";
-                } else if(index === 8) {
-                    return "Lainnya-Lainnya";
                 } else if(index === 7) {
-                    return "Smartfren-Lainnya";
+                    return "Telkomsel-Telkomsel";
                 } else if(index === 6) {
-                    return "Smartfren-Smartfren";
+                    return "Telkomsel-3 (Three)"; 
                 } else if(index === 5) {
-                    return "Telkomsel-Lainnya";
+                    return "Telkomsel-Xl Axiata";
                 } else if(index === 4) {
-                    return "XL Axiata-3 (Three)";
+                    return "Indosat-Indosat";
                 } else if(index === 3) {
-                    return "XL Axiata-Lainnya";
+                    return "Telkomsel-Smartfren";
                 } else if(index === 2) {
-                    return "XL Axiata-Smartfren";
+                    return "Indosat-3 (Three)"; 
                 } else if(index === 1) {
-                    return "XL Axiata-XL Axiata";
-                } else {
-                    return "";
+                    return "Kombinasi Lainnya";
                 }
 
             }
