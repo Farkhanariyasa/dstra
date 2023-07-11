@@ -109,20 +109,26 @@
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="col">
                         <div class="row align-items-center text-center">
-                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="card">
-                                    <h5 class="card-header">Objek</h5>
-                                    <div class="card-body">
-                                        <p class="card-text">Tenaga Kerja di Industri Pariwisata</p>
-                                    </div>
+                            <div class="col-6 align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Objek Penelitian</strong></h5>
+                                  <div class="card-body text-center">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/objek_penelitian.png') ?>" class="img-fluid">
+                                      </div>
+                                      <p class="card-text">Tenaga Kerja di Industri Pariwisata</p>
+                                  </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="card">
-                                    <h5 class="card-header">Cakupan Penelitian</h5>
-                                    <div class="card-body">
-                                        <p class="card-text">Kabupaten Malang</p>
-                                    </div>
+                            <div class="col-6 align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Cakupan Penelitian</strong></h5>
+                                  <div class="card-body text-center">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/cakupan_penelitian.png') ?>" class="img-fluid">
+                                      </div>
+                                      <p class="card-text">Kabupaten Malang<br>Jawa Timur</p>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -150,8 +156,8 @@
                             <div class="circle font-weight-bold">1</div>
                         </div>
                         <div class="col-6">
-                            <h5>Tahap I</h5>
-                            <h4>PPS WR</h4>
+                            <h5 class="fw-bold">Tahap I: Kecamatan</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">PPS WR</h4>
                             <p>size: jumlah objek wisata & akomodasi</>
                         </div>
                     </div>
@@ -170,8 +176,8 @@
                     <!--second section-->
                     <div class="row align-items-center justify-content-end how-it-works d-flex">
                         <div class="col-6 text-right">
-                            <h5>Tahap II</h5>
-                            <h4>PPS WR</h4>
+                            <h5 class="fw-bold">Tahap II: Blok Sensus</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">PPS WR</h4>
                             <p>size: jumlah usaha sektor pariwisata</p>
                         </div>
                         <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
@@ -196,9 +202,9 @@
                             <div class="circle font-weight-bold">3</div>
                         </div>
                         <div class="col-6">
-                            <h5>Tahap III</h5>
-                            <h4>Systematic Sampling</h4>
-                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
+                            <h5 class="fw-bold">Tahap III: Rumah Tangga</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">Systematic Sampling</h4>
+                            <p style="max-width: 360px;">dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
                         </div>
                     </div>
                 </div>
@@ -559,26 +565,12 @@
                                         <div class="row">
                                             <div class="col-lg-6 grid stretch-card">
                                                 <div class="card" style="border: 0">
-                                                    <div class="card-body">
+                                                    <div class="card-body px-0">
                                                         <div class="chartBox">
                                                             <div>
                                                                 <p style="font-weight: bold;">Persamaan Regresi Logistik</p>
-                                                                <!-- <div>
-                                                                    <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
-     
-                                                                 </div> -->
-                                                                 <div>
-                                                                    <p class="text-left" style="font-size: 12px;">
-                                                                    \begin{align*}
-                                                                        \ln\left(\frac{p_{i}}{1-p_{i}}\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^*\\
-                                                                        &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5)\\
-                                                                        &+ 0,347jk + 0,106didik - 0,021usia^*\\ 
-                                                                        &+ 0,437kawin + 0,319latih + 0,256umr\\ 
-                                                                        &+ 0,817geo^* + 0,850wil^*
-                                                                    \end{align*}
-                                                                    </p>
-                                                                 </div>
-                                                                 <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
+                                                                <div id="reglogContainer"></div>
+                                                                <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
                                                             <div>
                                                                 <p style="font-weight: bold;">Variabel yang signifikan</p>
@@ -687,5 +679,28 @@
 <!-- Rumus Reglog -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script>
+  function createMathJaxEquation(mathContainerId, equation) {
+    var script = document.createElement("script");
+    script.type = "math/tex; mode=display";
+    script.appendChild(document.createTextNode(equation));
+    var mathContainer = document.getElementById(mathContainerId);
+    mathContainer.appendChild(script);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, mathContainer]);
+  }
+  function createMathJaxEquationBasedOnWidth(mathContainerId, equationSmall, equationLarge) {
+    var windowWidth = window.innerWidth;
+
+    if (windowWidth <= 450) {
+      createMathJaxEquation(mathContainerId, equationSmall);
+    } else {
+      createMathJaxEquation(mathContainerId, equationLarge);
+    }
+  }
+  var equationSmall = "\\begin{align}\\ln&(\\frac{p_{i}}{1-p_{i}}) = -1,263 + 1,597ind(1)^* \\\\ &+ 1,750ind(2)^* + 0,648ind(3)^* \\\\ &- 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik \\\\ &- 0,021usia^* + 0,437kawin \\\\ &+ 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  var equationLarge = "\\begin{align}\\ln\\left(\\frac{p_{i}}{1-p_{i}}\\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^* \\\\ &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik - 0,021usia^* \\\\ &+ 0,437kawin + 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  createMathJaxEquationBasedOnWidth("reglogContainer", equationSmall, equationLarge);
+</script>
 
 <?= $this->endSection(); ?>
