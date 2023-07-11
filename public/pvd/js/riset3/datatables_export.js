@@ -21,11 +21,17 @@ $(document).ready(function() {
           "-1": "Tampilkan semua baris",
           _: "Tampilkan %d baris",
         },
-        pdf: "PDF",
         print: "Cetak",
       },
     },
-    buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"],
+    buttons: [
+      {extend:"copy"},{extend:"csv"},{extend:"excel"},
+      {
+          extend: 'pdfHtml5',
+          orientation: 'landscape',
+      },
+      {extend:"print"},{extend:"colvis"},
+    ],
   });
 
   var table2 = $('#table2').DataTable({
