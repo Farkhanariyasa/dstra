@@ -93,49 +93,37 @@
     <div class="tab-pane fade " id="pills-dc" role="tabpanel" aria-labelledby="pills-dc-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
             <h4 class="card-title judul-card">Double Counting</h4>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+            <div class="card-shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card shadow">
+                                <div class="pb-2 card-body">
+                                    <div class="row">
+                                        <div class="mb-0 col-lg-7 grid-margin">
+                                            <div>
+                                                <div class="chartBox" style=" height:400px;">
+                                                    <canvas id="dc_output8"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                            <div>
+                                                <h3 class="text-center"><b>Interpretasi</b></h3>
+                                                <p id="interpretasi-0" class="text-justify">
+                                                    Algoritma terbaik yang dapat digunakan untuk mengatasi permasalahan double counting adalah algoritma kombinasi jarak terdekat antar staypoint dengan periode waktu referensi tahunan. Algoritma ini memiliki nilai F1-Score kelas True DC yang paling tinggi diantara algoritma lainnya. Selain itu, waktu running dari algoritma ini juga cukup singkat yaitu hanya selama 0,63 menit atau sekitar 38 detik untuk 1 msisdn/nomor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
+                        <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
+                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/mpd-doublecounting') ?>" class="tombol btn-for text-decoration-none">
+                                <span>Selengkapnya</span>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="position-relative bottom-0 end-0 mt-0 mr-4 d-flex flex-row justify-content-end align-items-end">
-                        <a id="tombol" href="<?= base_url('hasil-pkl/riset1/mpd-doublecounting') ?>" class="tombol btn-for text-decoration-none">
-                            <span>Selengkapnya</span>
-                            <i class="fas fa-arrow-circle-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -148,38 +136,24 @@
             <h4 class="card-title judul-card">Family Grouping</h4>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card bg-secondary">
-                            <div class="card-body">
-                                <div class="chartBox">
-                                    <canvas class="mt1" id="riset1_hasil5"></canvas>
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card shadow">
+                            <div class="pb-2 card-body">
+                                <div class="row">
+                                    <div class="mb-0 col-lg-7 grid-margin">
+                                        <div>
+                                            <div class="chartBox" style=" height:400px;">
+                                                <canvas id="fg_dasbor"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                        <div>
+                                            <h3 class="text-center"><b>Interpretasi</b></h3>
+                                            <p id="interpretasi-0" class="text-justify">
+                                                Algoritma terbaik yang dapat digunakan untuk menangani fenomena family grouping adalah algoritma H3 dengan staypoint resolusi 10. Algoritma ini memiliki nilai F1-Score kelas True FG yang paling tinggi diantara algoritma lainnya meskipun waktu running dari algoritma ini tergolong cukup lama, yakni 1,32 menit untuk 1 msisdn/nomor.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
