@@ -101,6 +101,17 @@ const bubble_dc_output1 = new Chart(dc_output1, {
       },
       tooltip: {
         enabled: true,
+        //return text label 
+        callbacks: {
+          label: function (tooltipItem, data) {
+            if (tooltipItem.dataIndex == 0) {
+              return "Waktu (menit/msisdn): 0.06"
+            } else if (tooltipItem.dataIndex == 1) {
+              return "Waktu (menit/msisdn): 0.63"
+            } 
+
+          }
+        }
       },
       datalabels: {
         display: true,

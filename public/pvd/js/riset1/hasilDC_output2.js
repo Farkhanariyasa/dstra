@@ -3,7 +3,19 @@ const dc_output2 = document.getElementById("dc_output2");
 const bubble_dc_output2 = new Chart(dc_output2, {
   type: "bubble",
   data: {
-    labels: [""],
+    labels: ["Visualisasi Algoritma", 
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma"
+  ],
     datasets: [
       {
         label: "Yes",
@@ -12,19 +24,19 @@ const bubble_dc_output2 = new Chart(dc_output2, {
                 label: "0.54",
                 x: 1,
                 y: 0.54,
-                r: 10
+                r: 5
             },
             {
                 label: "0.25",
                 x: 2,
                 y: 0.25,
-                r: 10
+                r: 8
             },
             {
                 label: "0.33",
                 x: 3,
                 y: 0.33,
-                r: 10
+                r: 8
             },
             {
                 label: "0.33",
@@ -36,56 +48,56 @@ const bubble_dc_output2 = new Chart(dc_output2, {
                 label: "0.42",
                 x: 5,
                 y: 0.42,
-                r: 10
+                r: 8
             },
             {
                 label: "0.44",
                 x: 6,
                 y: 0.44,
-                r: 10
+                r: 8
             },
             {
                 label: "0.40",
                 x: 7,
                 y: 0.40,
-                r: 10
+                r: 9
             },
             {
                 label: "0.40",
                 x: 8,
                 y: 0.40,
-                r: 10
+                r: 11
             },
             {
                 label: "0.35",
                 x: 9,
                 y: 0.35,
-                r: 15
+                r: 14
             },
             {
                 label: "0.25",
                 x: 10,
                 y: 0.25,
-                r: 20
+                r: 17
             },
             {
                 label: "0.26",
                 x: 11,
                 y: 0.26,
-                r: 25
+                r: 20
             },
             {
                 label: "0.29",
                 x: 12,
                 y: 0.29,
-                r: 30
+                r: 23
             },
 
 
 
 
         ],
-        backgroundColor: ["#516296"],
+        backgroundColor: ["#C27D90"],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -163,6 +175,35 @@ const bubble_dc_output2 = new Chart(dc_output2, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem) {
+            if(tooltipItem.dataIndex == 0){
+              return "Waktu (menit/msisdn): 0.03"
+            } else if(tooltipItem.dataIndex == 1){
+              return "Waktu (menit/msisdn): 0.04"
+            } else if(tooltipItem.dataIndex == 2){
+              return "Waktu (menit/msisdn): 0.04"
+            } else if(tooltipItem.dataIndex == 3){
+              return "Waktu (menit/msisdn): 0.03"
+            } else if(tooltipItem.dataIndex == 4){
+              return "Waktu (menit/msisdn): 0.04"
+            } else if(tooltipItem.dataIndex == 5){
+              return "Waktu (menit/msisdn): 0.04"
+            } else if(tooltipItem.dataIndex == 6){
+              return "Waktu (menit/msisdn): 0.05"
+            } else if(tooltipItem.dataIndex == 7){
+              return "Waktu (menit/msisdn): 0.07"
+            } else if(tooltipItem.dataIndex == 8){
+              return "Waktu (menit/msisdn): 0.14"
+            } else if(tooltipItem.dataIndex == 9){
+              return "Waktu (menit/msisdn): 0.32"
+            }else if(tooltipItem.dataIndex == 10){
+              return "Waktu (menit/msisdn): 0.76"
+            } else if(tooltipItem.dataIndex == 11){
+              return "Waktu (menit/msisdn): 1.35"
+            }
+          },
+        },
       },
       datalabels: {
         display: true,

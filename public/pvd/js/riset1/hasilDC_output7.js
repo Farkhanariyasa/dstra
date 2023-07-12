@@ -16,7 +16,7 @@ const bubble_dc_output7 = new Chart(dc_output7, {
             },
 
         ],
-        backgroundColor: ["#516296"],
+        backgroundColor: ["#C27D90"],
         borderWidth: 1,
         borderRadius: 8,
       },

@@ -3,7 +3,18 @@ const dc_output3 = document.getElementById("dc_output3");
 const bubble_dc_output3 = new Chart(dc_output3, {
   type: "bubble",
   data: {
-    labels: [""],   
+    labels: ["Visualisasi Algoritma", 
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma",
+    "Visualisasi Algoritma"],   
     datasets: [
       {
         label: "Yes",
@@ -18,7 +29,7 @@ const bubble_dc_output3 = new Chart(dc_output3, {
                 label: "0.00",
                 x: 2,
                 y: 0.00,
-                r: 8
+                r: 5
             },
             {
                 label: "0.33",
@@ -36,31 +47,31 @@ const bubble_dc_output3 = new Chart(dc_output3, {
                 label: "0.31",
                 x: 5,
                 y: 0.31,
-                r: 8
+                r: 11
             },
             {
                 label: "0.31",
                 x: 6,
                 y: 0.31,
-                r: 11
+                r: 14
             },
             {
                 label: "0.24",
                 x: 7,
                 y: 0.24,
-                r: 14
+                r: 17
             },
             {
                 label: "0.44",
                 x: 8,
                 y: 0.44,
-                r: 17
+                r: 20
             },
             {
                 label: "0.35",
                 x: 9,
                 y: 0.35,
-                r: 20
+                r: 23
             },
             {
                 label: "0.29",
@@ -72,13 +83,13 @@ const bubble_dc_output3 = new Chart(dc_output3, {
                 label: "0.10",
                 x: 11,
                 y: 0.10,
-                r: 23
+                r: 26
             },
             {
                 label: "0.09",
                 x: 12,
                 y: 0.09,
-                r: 26
+                r: 29
             },
 
 
@@ -163,6 +174,35 @@ const bubble_dc_output3 = new Chart(dc_output3, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem) {
+            if(tooltipItem.dataIndex == 0){
+              return "Waktu (menit/msisdn): 0.08"
+            } else if(tooltipItem.dataIndex == 1){
+              return "Waktu (menit/msisdn): 0.08"
+            } else if(tooltipItem.dataIndex == 2){
+              return "Waktu (menit/msisdn): 0.09"
+            } else if(tooltipItem.dataIndex == 3){
+              return "Waktu (menit/msisdn): 0.09"
+            } else if(tooltipItem.dataIndex == 4){
+              return "Waktu (menit/msisdn): 0.10"
+            } else if(tooltipItem.dataIndex == 5){
+              return "Waktu (menit/msisdn): 0.13"
+            } else if(tooltipItem.dataIndex == 6){
+              return "Waktu (menit/msisdn): 0.19"
+            } else if(tooltipItem.dataIndex == 7){
+              return "Waktu (menit/msisdn): 0.26"
+            } else if(tooltipItem.dataIndex == 8){
+              return "Waktu (menit/msisdn): 0.34"
+            } else if(tooltipItem.dataIndex == 9){
+              return "Waktu (menit/msisdn): 0.40"
+            }else if(tooltipItem.dataIndex == 10){
+              return "Waktu (menit/msisdn): 0.43"
+            } else if(tooltipItem.dataIndex == 11){
+              return "Waktu (menit/msisdn): 0.44"
+            }
+          },
+        },
       },
       datalabels: {
         display: true,

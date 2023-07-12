@@ -43,7 +43,7 @@ const bubble_dc_output8 = new Chart(dc_output8, {
 
 
         ],
-        backgroundColor: ["#516296"],
+        backgroundColor: ["#C27D90"],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -136,6 +136,21 @@ const bubble_dc_output8 = new Chart(dc_output8, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem) {
+            if(tooltipItem.dataIndex == 0){
+              return "Waktu (menit/msisdn): 0.63"
+            } else if(tooltipItem.dataIndex == 1){
+              return "Waktu (menit/msisdn): 0.04"
+            } else if(tooltipItem.dataIndex == 2){
+              return "Waktu (menit/msisdn): 0.26"
+            } else if(tooltipItem.dataIndex == 3){
+              return "Waktu (menit/msisdn): 8.96"
+            } else if(tooltipItem.dataIndex == 4){
+              return "Waktu (menit/msisdn): 20.34"
+            }
+          },
+        }
       },
       datalabels: {
         display: true,

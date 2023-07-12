@@ -16,7 +16,7 @@ const bubble_dc_output6 = new Chart(dc_output6, {
             },
 
         ],
-        backgroundColor: ["#516296"],
+        backgroundColor: ["#C27D90"],
         borderWidth: 1,
         borderRadius: 8,
       },
@@ -95,6 +95,13 @@ const bubble_dc_output6 = new Chart(dc_output6, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem, data) {
+            if(tooltipItem.dataIndex == 0){
+                return ["F1-Score: 0.00", "Waktu (menit/msisdn): 8.96"]
+            }
+          },
+        },
       },
       datalabels: {
         display: true,
