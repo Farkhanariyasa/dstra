@@ -1013,7 +1013,7 @@
                                                             <li>Hitung jarak anchor lain dengan kandidat utama menggunakan jarak Haversine dan eliminasi anchor yang memiliki jarak kurang dari 500m dari kandidat utama.</li>
                                                             <li>Anchor yang tidak tereliminasi dibiarkan dan dijadikan staypoint baru.</li>
                                                         </ol>
-                                                        <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel X. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
+                                                        <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel 8. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                 <thead>
@@ -1202,7 +1202,7 @@
                                                     </p>
                                                     <div class="collapse" id="collapseExample10">
                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                            <p style="font-weight: bold; text-align:center;">Tabel X. MSISDN 00xxx1 dengan 2 Staypoint pada Interval 1</p>
+                                                            <p style="font-weight: bold; text-align:center;">Tabel 9. MSISDN 00xxx1 dengan 2 Staypoint pada Interval 1</p>
                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                 <thead>
                                                                     <tr>
@@ -1377,7 +1377,7 @@
                                                             </table>
                                                         </div>
                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                            <p style="font-weight: bold; text-align:center;">Tabel X. MSISDN 00xxx1 dengan 3 Staypoint pada Interval 1</p>
+                                                            <p style="font-weight: bold; text-align:center;">Tabel 10. MSISDN 00xxx1 dengan 3 Staypoint pada Interval 1</p>
                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                 <thead>
                                                                     <tr>
@@ -1615,7 +1615,7 @@
                                                             </a>
                                                             <div class="collapse" id="collapseExample12">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Pengurutan Berdasarkan Nilai Average_D dan Menghitung Rata-ratanya</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 11. Pengurutan Berdasarkan Nilai Average_D dan Menghitung Rata-ratanya</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                             <tr>
@@ -1764,7 +1764,7 @@
 
                                                             <div class="collapse" id="collapseExample72">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Pengurutan Berdasarkan Nilai Average_D dan Menghitung Rata-ratanya</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 12. Pengurutan Berdasarkan Nilai Average_D dan Menghitung Rata-ratanya</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                             <tr>
@@ -1870,7 +1870,7 @@
                                                                 [<strong><i>Tampilkan Semua</i></strong>]
                                                             </a>
                                                             <div class="collapse" id="collapseExample73">
-                                                                <p style="font-weight: normal;">Pada Tabel x. dapat dilihat bahwa threshold 5.3346490 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold rata-rata kestabilan jarak terdekat antar nomor adalah < 5.3346490 untuk kelas yang diprediksi yes (entitas double counting) dan rata-rata kestabilan jarak terdekat antar nomor>= 5.3346490 untuk kelas yang diprediksi no (bukan entitas double counting).</p>
+                                                                <p style="font-weight: normal;">Pada Tabel 12 dapat dilihat bahwa threshold 5.3346490 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold rata-rata kestabilan jarak terdekat antar nomor adalah < 5.3346490 untuk kelas yang diprediksi yes (entitas double counting) dan rata-rata kestabilan jarak terdekat antar nomor>= 5.3346490 untuk kelas yang diprediksi no (bukan entitas double counting).</p>
                                                                 <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample73" aria-expanded="false" aria-controls="collapseExample">
                                                                     [<strong><i>Tampilkan Sebagian</i></strong>]
                                                                 </a>
@@ -1938,7 +1938,7 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="fg_algoritma1_1"></canvas>
+                                    <canvas class="mt1" id="fg_output3"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1947,25 +1947,7 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="fg_algoritma1_2"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card shadow rounded-4">
-                            <div class="card-body">
-                                <div class="chartBox" style="height: 250px;">
-                                    <canvas class="mt1" id="fg_algoritma1_3"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 grid-margin stretch-card h-100">
-                        <div class="card shadow rounded-4">
-                            <div class="card-body">
-                                <div class="chartBox" st style="height: 250px;" yle="height: 150px">
-                                    <canvas class="mt1" id="fg_algoritma1_4"></canvas>
+                                    <canvas class="mt1" id="fg_output7"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -2025,7 +2007,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Pembulatan lokasi dengan membulatkan koordinat latitude dan longitude dengan ketelitian lima decimal.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 1. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                                             <tr style="background-color:yellow;">
@@ -2111,7 +2093,7 @@
                                                                                     </table>
                                                                                 </div>
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Record MPD Setelah Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 2. Contoh Record MPD Setelah Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -2199,7 +2181,7 @@
                                                                             </li>
                                                                             <li class="mt-3">Menghilangkan fast movers dengan menghapus record dengan kecepatan melebihi ambang batas (diatas 10 km/jam). Untuk menghitung kecepatan, sebelumnya dihitung jarak dari urutan setiap lokasi MSISDN menggunakan formula Haversine terlebih dahulu. Kemudian, dihitung waktu yang dibutuhkan untuk berpindah dari satu koordinat ke koordinat lainnya secara berurutan. Terakhir, dihitung kecepatan dengan membagi jarak dengan waktu tempuh.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD dengan Penghitungan Kecepatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 3. Contoh Record MPD dengan Penghitungan Kecepatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -2428,7 +2410,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Hitung jumlah record (N_event), jumlah hari unik (N_date), serta rata-rata jam kejadian (AVG_hour) diikuti dengan standar deviasi jam kejadian (SD_hour) untuk setiap nomor/subscriber per bulannya.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 1</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 4. Contoh Agregasi Penghitungan Anchor 1</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <th scope="col">msisdn</th>
@@ -2511,7 +2493,7 @@
                                                                             <li>
                                                                                 Potensi kandidat utama dilihat dengan mengelompokkan setiap lokasi yang ada. Mulanya, jarak antar lokasi dihitung dengan jarak Haversine, kemudian dikelompokkan lokasi-lokasi dengan radius jarak 0,5 km. Lokasi yang dianggap dekat dengan kandidat utama pada akhirnya dihilangkan dari calon lokasi usual environment.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 5. Contoh Agregasi Penghitungan Anchor 2</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -2628,7 +2610,7 @@
                                                                     </a>
                                                                     <div class="collapse" id="collapseExample18">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p style="text-align: center; font-weight:bold">Tabel X. Prediksi Lokasi Usual Environment</p>
+                                                                            <p style="text-align: center; font-weight:bold">Tabel 6. Prediksi Lokasi Usual Environment</p>
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -2828,7 +2810,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample20">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 7. Contoh Agregasi Penghitungan Anchor 2</>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -3009,7 +2991,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample21">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 8. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -3116,7 +3098,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample81">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 9. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -3235,7 +3217,7 @@
                                                                         [<strong><i>Tampilkan Semua</i></strong>]</a>
                                                                     <div class="collapse" id="collapseExample83">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p class="mt-3" style="font-weight: bold; text-align:center">Tabel X. Pengurutan Berdasarkan Nilai Jumlah_Irisan dan Menghitung Rata-ratanya</p>
+                                                                            <p class="mt-3" style="font-weight: bold; text-align:center">Tabel 10. Pengurutan Berdasarkan Nilai Jumlah_Irisan dan Menghitung Rata-ratanya</p>
                                                                             <table class="table table-hover table-bordered table-responsive" id="k1_tabel1" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -3376,7 +3358,7 @@
                                                                         [<strong><i>Tampilkan Semua</i></strong>]</a>
                                                                     <div class="collapse" id="collapseExample86">
                                                                         <p class="mt-2" style="text-align:center">Gini Impurity = ( 0.1975 x (9/10)) + (0 x (1/10)) = 0.17777778</p>
-                                                                        <p class="mt-3" style="font-weight: bold; text-align:center">Tabel X. Gini Impurity untuk Setiap Threshold Rata-rata Jumlah_Irisan</p>
+                                                                        <p class="mt-3" style="font-weight: bold; text-align:center">Tabel 11. Gini Impurity untuk Setiap Threshold Rata-rata Jumlah_Irisan</p>
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
@@ -3481,7 +3463,7 @@
                                                                     <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample87" aria-expanded="false" aria-controls="collapseExample">
                                                                         [<strong><i>Tampilkan Semua</i></strong>]</a>
                                                                     <div class="collapse" id="collapseExample87">
-                                                                        <p style="font-weight: normal;">Pada Tabel x. dapat dilihat bahwa threshold 49 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold jumlah irisan heksagon antar nomor adalah >= 49 untuk kelas yang diprediksi yes (entitas family grouping) dan jumlah irisan heksagon antar nomor < 49 untuk kelas yang diprediksi no (bukan entitas family grouping).</p>
+                                                                        <p style="font-weight: normal;">Pada Tabel 11. dapat dilihat bahwa threshold 49 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold jumlah irisan heksagon antar nomor adalah >= 49 untuk kelas yang diprediksi yes (entitas family grouping) dan jumlah irisan heksagon antar nomor < 49 untuk kelas yang diprediksi no (bukan entitas family grouping).</p>
                                                                                 <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample87" aria-expanded="false" aria-controls="collapseExample">
                                                                                     [<strong><i>Tampilkan Sebagian</i></strong>]</a>
                                                                     </div>
@@ -3553,7 +3535,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height:250px">
-                                            <canvas class="mt1" id="fg_algoritma2_1"></canvas>
+                                            <canvas class="mt1" id="fg_output9"></canvas>
                                         </div>
                                     </div style="height:250px">
                                 </div>
@@ -3562,25 +3544,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height:250px">
-                                            <canvas class="mt1" id="fg_algoritma2_2"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height:250px">
-                                            <canvas class="mt1" id="fg_algoritma2_3"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height:250px">
-                                            <canvas class="mt1" id="fg_algoritma2_4"></canvas>
+                                            <canvas class="mt1" id="fg_output10"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -3624,7 +3588,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Pembulatan lokasi dengan membulatkan koordinat latitude dan longitude dengan ketelitian lima decimal.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 1. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                                             <tr style="background-color:yellow;">
@@ -3710,7 +3674,7 @@
                                                                                     </table>
                                                                                 </div>
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Record MPD Setelah Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 2 Contoh Record MPD Setelah Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -3798,7 +3762,7 @@
                                                                             </li>
                                                                             <li class="mt-3">Menghilangkan fast movers dengan menghapus record dengan kecepatan melebihi ambang batas (diatas 10 km/jam). Untuk menghitung kecepatan, sebelumnya dihitung jarak dari urutan setiap lokasi MSISDN menggunakan formula Haversine terlebih dahulu. Kemudian, dihitung waktu yang dibutuhkan untuk berpindah dari satu koordinat ke koordinat lainnya secara berurutan. Terakhir, dihitung kecepatan dengan membagi jarak dengan waktu tempuh.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD dengan Penghitungan Kecepatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 3. Contoh Record MPD dengan Penghitungan Kecepatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -4029,7 +3993,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Hitung jumlah record (N_event), jumlah hari unik (N_date), serta rata-rata jam kejadian (AVG_hour) diikuti dengan standar deviasi jam kejadian (SD_hour) untuk setiap nomor/subscriber per bulannya.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 1</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 4. Contoh Agregasi Penghitungan Anchor 1</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <th scope="col">msisdn</th>
@@ -4112,7 +4076,7 @@
                                                                             <li>
                                                                                 Potensi kandidat utama dilihat dengan mengelompokkan setiap lokasi yang ada. Mulanya, jarak antar lokasi dihitung dengan jarak Haversine, kemudian dikelompokkan lokasi-lokasi dengan radius jarak 0,5 km. Lokasi yang dianggap dekat dengan kandidat utama pada akhirnya dihilangkan dari calon lokasi usual environment.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 5. Contoh Agregasi Penghitungan Anchor 2</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -4229,7 +4193,7 @@
                                                                     </a>
                                                                     <div class="collapse" id="collapseExample29">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p style="text-align: center; font-weight:bold">Tabel X. Prediksi Lokasi Usual Environment</p>
+                                                                            <p style="text-align: center; font-weight:bold">Tabel 6. Prediksi Lokasi Usual Environment</p>
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -4429,7 +4393,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample31">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</c>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 7. Contoh Agregasi Penghitungan Anchor 2</c>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -4617,7 +4581,7 @@
                                                                     <li>Hitung jarak anchor lain dengan kandidat utama menggunakan jarak Haversine dan eliminasi anchor yang memiliki jarak kurang dari 500m dari kandidat utama.</li>
                                                                     <li>Anchor yang tidak tereliminasi dibiarkan dan dijadikan staypoint baru.</li>
                                                                 </ol>
-                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel X.. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
+                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel 7. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
@@ -4807,7 +4771,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample33">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 8. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -4886,7 +4850,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample90">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 9. Contoh Konversi Koordinat Lokasi Menjadi Indeks H3 (Resolusi 8)</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -5003,7 +4967,7 @@
                                                                     </a>
                                                                     <div class="collapse" id="collapseExample35">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p class="mt-3" style="font-weight: bold; text-align:center">Tabel X. Pengurutan Berdasarkan Nilai Jumlah_Irisan dan Menghitung Rata-ratanya</p>
+                                                                            <p class="mt-3" style="font-weight: bold; text-align:center">Tabel 10. Pengurutan Berdasarkan Nilai Jumlah_Irisan dan Menghitung Rata-ratanya</p>
                                                                             <table class="table table-hover table-bordered table-responsive" id="k1_tabel1" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -5149,7 +5113,7 @@
 
                                                                     <div class="collapse" id="collapseExample38">
                                                                         <p class="mt-2" style="text-align:center">Gini Impurity = ( 0.1975 x (9/10)) + (0 x (1/10)) = 0.17777778</p>
-                                                                        <p class="mt-3" style="font-weight: bold; text-align:center">Tabel X. Gini Impurity untuk Setiap Threshold Rata-rata Jumlah_Irisan</p>
+                                                                        <p class="mt-3" style="font-weight: bold; text-align:center">Tabel 11. Gini Impurity untuk Setiap Threshold Rata-rata Jumlah_Irisan</p>
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
@@ -5255,7 +5219,7 @@
                                                                     <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample91" aria-expanded="false" aria-controls="collapseExample">
                                                                         [<strong><i>Tampilkan Semua</i></strong>]</a>
                                                                     <div class="collapse" id="collapseExample91">
-                                                                        <p style="font-weight: normal;">Pada Tabel x. dapat dilihat bahwa threshold 49 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold jumlah irisan heksagon antar nomor adalah >= 49 untuk kelas yang diprediksi yes (entitas family grouping) dan jumlah irisan heksagon antar nomor < 49 untuk kelas yang diprediksi no (bukan entitas family grouping).</p>
+                                                                        <p style="font-weight: normal;">Pada Tabel 11. dapat dilihat bahwa threshold 49 memiliki nilai gini impurity yang paling kecil. Berdasarkan hal tersebut, ditentukan threshold jumlah irisan heksagon antar nomor adalah >= 49 untuk kelas yang diprediksi yes (entitas family grouping) dan jumlah irisan heksagon antar nomor < 49 untuk kelas yang diprediksi no (bukan entitas family grouping).</p>
                                                                                 <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample91" aria-expanded="false" aria-controls="collapseExample">
                                                                                     [<strong><i>Tampilkan Sebagian</i></strong>]
                                                                                 </a>
@@ -5328,7 +5292,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma2_5"></canvas>
+                                            <canvas class="mt1" id="fg_output4"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -5337,29 +5301,12 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma2_6"></canvas>
+                                            <canvas class="mt1" id="fg_output8"></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma2_7"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma2_8"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -5387,7 +5334,7 @@
             <!-- With Dynamic Time Warping -->
             <div class="tab-pane fade show active" id="pills-dtw" role="tabpanel" aria-labelledby="pills-dtw-tab" tabindex="0">
                 <div class="isi-tujuan shadow mt-0 mb-0">
-                    <h4 class="card-title judul-card text-center">Algoritma Clustering DBSCAN dan Pembentukan Matrix Distance Menggunakan Dynamic Time Warping</h4>
+                    <h4 class="card-title judul-card text-center">Algoritma Dynamic Time Warping Distance</h4>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 grid-margin stretch-card">
@@ -5419,7 +5366,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Pembulatan lokasi dengan membulatkan koordinat latitude dan longitude dengan ketelitian lima decimal.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 1. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                                             <tr style="background-color:yellow;">
@@ -5505,7 +5452,7 @@
                                                                                     </table>
                                                                                 </div>
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Record MPD Setelah Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 2. Contoh Record MPD Setelah Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -5593,7 +5540,7 @@
                                                                             </li>
                                                                             <li class="mt-3">Menghilangkan fast movers dengan menghapus record dengan kecepatan melebihi ambang batas (diatas 10 km/jam). Untuk menghitung kecepatan, sebelumnya dihitung jarak dari urutan setiap lokasi MSISDN menggunakan formula Haversine terlebih dahulu. Kemudian, dihitung waktu yang dibutuhkan untuk berpindah dari satu koordinat ke koordinat lainnya secara berurutan. Terakhir, dihitung kecepatan dengan membagi jarak dengan waktu tempuh.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD dengan Penghitungan Kecepatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 3. Contoh Record MPD dengan Penghitungan Kecepatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -5826,7 +5773,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Hitung jumlah record (N_event), jumlah hari unik (N_date), serta rata-rata jam kejadian (AVG_hour) diikuti dengan standar deviasi jam kejadian (SD_hour) untuk setiap nomor/subscriber per bulannya.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 1</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 4. Contoh Agregasi Penghitungan Anchor 1</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <th scope="col">msisdn</th>
@@ -5909,7 +5856,7 @@
                                                                             <li>
                                                                                 Potensi kandidat utama dilihat dengan mengelompokkan setiap lokasi yang ada. Mulanya, jarak antar lokasi dihitung dengan jarak Haversine, kemudian dikelompokkan lokasi-lokasi dengan radius jarak 0,5 km. Lokasi yang dianggap dekat dengan kandidat utama pada akhirnya dihilangkan dari calon lokasi usual environment.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 5. Contoh Agregasi Penghitungan Anchor 2</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -6026,7 +5973,7 @@
 
                                                                     <div class="collapse" id="collapseExample45">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p style="text-align: center; font-weight:bold">Tabel X. Prediksi Lokasi Usual Environment</p>
+                                                                            <p style="text-align: center; font-weight:bold">Tabel 6. Prediksi Lokasi Usual Environment</p>
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -6225,7 +6172,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample47">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</c>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 7. Contoh Agregasi Penghitungan Anchor 2</c>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -6399,7 +6346,6 @@
 
                                                             </div>
                                                         </li>
-
                                                         <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
                                                             <p style="font-weight:normal;">Bentuk staypoint dengan cara berikut.
                                                                 <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample48" aria-expanded="false" aria-controls="collapseExample">
@@ -6414,7 +6360,7 @@
                                                                     <li>Hitung jarak anchor lain dengan kandidat utama menggunakan jarak Haversine dan eliminasi anchor yang memiliki jarak kurang dari 500m dari kandidat utama.</li>
                                                                     <li>Anchor yang tidak tereliminasi dibiarkan dan dijadikan staypoint baru.</li>
                                                                 </ol>
-                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel X.. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
+                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel 7. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
@@ -6607,7 +6553,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample49">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Lokasi Home msisdn00xxx Untuk Setiap Bulan</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 8. Lokasi Home msisdn00xxx Untuk Setiap Bulan</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal; text-align:center;">
                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                             <tr>
@@ -6706,62 +6652,98 @@
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
-                                                                <p style="font-weight:normal">Berdasarkan Tabel X, sesuai dengan penentuan lokasi home yearly, maka msisdn00xxx memiliki lokasi home yearly di Provinsi Jawa Timur, Kabupaten Jember. Oleh karena itu ekstraksi lintasan dimulai dari record pertama yang menunjukkan event dengan lokasi home berada di Kabupaten Jember (pada Bulan Februari 2022) sampai dengan record terakhir yang menunjukkan event dengan lokasi home yang sama, yakni Kabupaten Jember (pada Bulan Agustus 2022).</p>
+                                                                <p style="font-weight:normal">Berdasarkan Tabel 8, sesuai dengan penentuan lokasi home yearly, maka msisdn00xxx memiliki lokasi home yearly di Provinsi Jawa Timur, Kabupaten Jember. Oleh karena itu ekstraksi lintasan dimulai dari record pertama yang menunjukkan event dengan lokasi home berada di Kabupaten Jember (pada Bulan Februari 2022) sampai dengan record terakhir yang menunjukkan event dengan lokasi home yang sama, yakni Kabupaten Jember (pada Bulan Agustus 2022).</p>
                                                                 <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample49" aria-expanded="false" aria-controls="collapseExample">
                                                                     [<strong><i>Tampilkan Sebagian</i></strong>]
                                                                 </a>
                                                             </div>
                                                         </li>
                                                         <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Setelah mengekstraksi lintasan spasial setiap nomor, bangun matriks jarak Dynamic Time Warping (DTW) yang dibangun dari list lintasan spasial setiap nomor pada kelompok yang sama. Sehingga nantinya ukuran matriks DTW yang terbentuk adalah m x m, dimana m adalah banyaknya nomor yang berada di kelompok yang sama.</p>
-                                                        </li>
-                                                        
-                                                    
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Tentukan epsilon untuk DBSCAN Clustering dengan mengikuti algoritma hasil penelitian Elbatta tahun 2012 sebagai berikut.
-                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample51" aria-expanded="false" aria-controls="collapseExample">
+                                                            <p style="font-weight: normal;">Menghitung jarak antar lintasan satu dengan lintasan lainnya yang berada di dalam kelompok yang sama menggunakan DTW. Hasil penghitungan ini disimpan dalam sebuah dataset untuk nantinya akan dibangun threshold menggunakan gini impurity dengan langkah-langkah seperti yang sudah dijelaskan pada algoritma sebelumnya.
+                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample102" aria-expanded="false" aria-controls="collapseExample">
                                                                     [<strong><i>Tampilkan Semua</i></strong>]
                                                                 </a>
                                                             </p>
-                                                            <div class="collapse" id="collapseExample51">
-                                                                <ol class="list-styled mt-3 mb-3" style="text-align:justify; list-style-type:lower-latin; font-weight:normal; font-size:1rem">
-                                                                    <li>Hitung jarak haversine pada setiap pasangan data latitude dan longitude.</li>
-                                                                    <li>Bangun matriks utuh dari jarak yang sudah dihitung.</li>
-                                                                    <li>Lakukan normalisasi untuk mempermudah pencarian k tetangga terdekat pada setiap baris perhitungan jarak.</li>
-                                                                    <li>Lakukan inialisasi untuk menghitung jumlah baris data pada matriks.</li>
-                                                                    <li>Selanjutnya, pencarian dilakukan untuk k tetangga terdekat dari setiap baris matriks dengan mengurutkannya secara ascending untuk setiap hasil jarak terdekat.</li>
-                                                                    <li>Pengurutan hasil setiap baris yang merepresentasikan jarak tetangga terdekat digunakan untuk membuat plot dengan sumbu x adalah jumlah objek dan sumbu y adalah jarak k tetangga terdekat.</li>
-                                                                    <li>Dari plot yang terbentuk, selanjutnya dihitung perbedaan kemiringan garis untuk mendapatkan nilai Eps. Titik yang memiliki perubahan pada kemiringan plot akan menjadi nilai Eps optimal yang signifikan.</li>
-                                                                    <p class="mt-3" style="font-weight: bold; text-align:center">Gambar X. Sebaran Heksagon msisdn00xxx1</p>
-                                                                    <p style="color: red;">GAMBAR</p>
-                                                                </ol>
-                                                                <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample51" aria-expanded="false" aria-controls="collapseExample">
-                                                                    [<strong><i>Tampilkan Sebagian</i></strong>]
-                                                                </a>
+                                                            <div class="collapse" id="collapseExample102">
+                                                                <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 9. Jarak DTW antar Nomor (MSISDN)</p>
+                                                                    <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal; text-align:center;">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col">MSISDN 1</th>
+                                                                                <th scope="col">MSISDN 2</th>
+                                                                                <th scope="col">Is_Double</th>
+                                                                                <th scope="col">Jarak_DTW (km)</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>56073.94</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>363313.9</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>327057.7</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>351945.7</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>242016.3</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>148682</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xx106</td>
+                                                                                <td>msisdn00xxx17</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>200314.3</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx41</td>
+                                                                                <td>msisdn00xxx22</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>65965.24</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx74</td>
+                                                                                <td>msisdn00xxx28</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>88656.95</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx38</td>
+                                                                                <td>msisdn00xxx33</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>299433.9</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample102" aria-expanded="false" aria-controls="collapseExample">
+                                                                        [<strong><i>Tampilkan Sebagian</i></strong>]
+                                                                    </a>
+                                                                </div>
                                                             </div>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Setelah nilai eps ditentukan, maka proses clustering trajectories (lintasan) menggunakan DBSCAN dapat dilakukan, dengan input parameternya berupa:
-                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample52" aria-expanded="false" aria-controls="collapseExample">
-                                                                    [<strong><i>Tampilkan Semua</i></strong>]
-                                                                </a>
-                                                            </p>
-                                                            <div class="collapse" id="collapseExample52">
-                                                                <ul class="list-style">
-                                                                    <li>distance_matrix = matrix distance yang sudah dibangun menggunakan DTW atau Frechet Distance</li>
-                                                                    <li>epsilon (eps) = nilai eps terbaik yang telah ditentukan</li>
-                                                                    <li>min_samples = 1, untuk memastikan semua lintasan dikelompokkan menjadi sebuah cluster.</li>
-                                                                </ul>
-                                                                <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample52" aria-expanded="false" aria-controls="collapseExample">
-                                                                    [<strong><i>Tampilkan Sebagian</i></strong>]
-                                                                </a>
-                                                            </div>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Hasil clustering DBSCAN akan menunjukkan beberapa klaster lintasan (trajectories), dimana lintasan-lintasan yang berada di dalam satu klaster memiliki kemiripan path satu sama lain.</p>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Jika terdapat lebih dari dua nomor dalam satu klaster, bandingkan jarak DTW antara dua nomor dalam klaster tersebut. Jarak DTW terkecil antara dua nomor mengindikasikan adanya double counting, yakni kedua nomor tersebut dimiliki oleh satu entitas.</p>
                                                         </li>
                                                     </ol>
                                                 </div>
@@ -6824,7 +6806,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_1"></canvas>
+                                            <canvas class="mt1" id="fg_output1"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6833,25 +6815,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_2"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_3"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_4"></canvas>
+                                            <canvas class="mt1" id="fg_output6"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6864,7 +6828,7 @@
             <!-- With Frechet Distance -->
             <div class="tab-pane fade show" id="pills-fd" role="tabpanel" aria-labelledby="pills-fd-tab" tabindex="0">
                 <div class="isi-tujuan shadow mt-0 mb-0">
-                    <h4 class="card-title judul-card text-center">Algoritma Clustering DBSCAN dan Pembentukan Matrix Distance Menggunakan Frechet Distance</h4>
+                    <h4 class="card-title judul-card text-center">Algoritma Frechet Distance</h4>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 grid-margin stretch-card">
@@ -6895,7 +6859,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Pembulatan lokasi dengan membulatkan koordinat latitude dan longitude dengan ketelitian lima decimal.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 1. Contoh Record MPD Sebelum Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                                             <tr style="background-color:yellow;">
@@ -6981,7 +6945,7 @@
                                                                                     </table>
                                                                                 </div>
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Record MPD Setelah Dilakukan Pembulatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 2. Contoh Record MPD Setelah Dilakukan Pembulatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -7069,7 +7033,7 @@
                                                                             </li>
                                                                             <li class="mt-3">Menghilangkan fast movers dengan menghapus record dengan kecepatan melebihi ambang batas (diatas 10 km/jam). Untuk menghitung kecepatan, sebelumnya dihitung jarak dari urutan setiap lokasi MSISDN menggunakan formula Haversine terlebih dahulu. Kemudian, dihitung waktu yang dibutuhkan untuk berpindah dari satu koordinat ke koordinat lainnya secara berurutan. Terakhir, dihitung kecepatan dengan membagi jarak dengan waktu tempuh.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Contoh Record MPD dengan Penghitungan Kecepatan</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 3. Contoh Record MPD dengan Penghitungan Kecepatan</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -7298,7 +7262,7 @@
                                                                         <ol class="list-styled mt-3" style="text-align:justify; list-style-type:lower-roman; font-weight:normal; font-size:1rem">
                                                                             <li>Hitung jumlah record (N_event), jumlah hari unik (N_date), serta rata-rata jam kejadian (AVG_hour) diikuti dengan standar deviasi jam kejadian (SD_hour) untuk setiap nomor/subscriber per bulannya.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 1</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 4. Contoh Agregasi Penghitungan Anchor 1</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <th scope="col">msisdn</th>
@@ -7381,7 +7345,7 @@
                                                                             <li>
                                                                                 Potensi kandidat utama dilihat dengan mengelompokkan setiap lokasi yang ada. Mulanya, jarak antar lokasi dihitung dengan jarak Haversine, kemudian dikelompokkan lokasi-lokasi dengan radius jarak 0,5 km. Lokasi yang dianggap dekat dengan kandidat utama pada akhirnya dihilangkan dari calon lokasi usual environment.
                                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</p>
+                                                                                    <p style="text-align: center; font-weight:bold">Tabel 5. Contoh Agregasi Penghitungan Anchor 2</p>
                                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                         <thead style="color: #fff; font-weight:bold;">
                                                                                             <tr>
@@ -7497,7 +7461,7 @@
                                                                     </a>
                                                                     <div class="collapse" id="collapseExample58">
                                                                         <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                            <p style="text-align: center; font-weight:bold">Tabel X. Prediksi Lokasi Usual Environment</p>
+                                                                            <p style="text-align: center; font-weight:bold">Tabel 6. Prediksi Lokasi Usual Environment</p>
                                                                             <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto;">
                                                                                 <thead style="color: #fff; font-weight:bold;">
                                                                                     <tr>
@@ -7696,7 +7660,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample12">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X Contoh Agregasi Penghitungan Anchor 2</c>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 7. Contoh Agregasi Penghitungan Anchor 2</c>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
                                                                             <tr>
@@ -7869,7 +7833,6 @@
                                                                 </a>
                                                             </div>
                                                         </li>
-
                                                         <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
                                                             <p style="font-weight:normal;">Bentuk staypoint dengan cara berikut.
                                                                 <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample61" aria-expanded="false" aria-controls="collapseExample">
@@ -7884,7 +7847,7 @@
                                                                     <li>Hitung jarak anchor lain dengan kandidat utama menggunakan jarak Haversine dan eliminasi anchor yang memiliki jarak kurang dari 500m dari kandidat utama.</li>
                                                                     <li>Anchor yang tidak tereliminasi dibiarkan dan dijadikan staypoint baru.</li>
                                                                 </ol>
-                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel X.. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
+                                                                <p style="font-weight:normal;">Sebagai contoh, kita akan menentukan staypoint berdasarkan data pada Tabel 7. Pertama-tama, data perlu dibagi menjadi dua interval berdasarkan waktu pencatatan (datetime). Interval 1 (07.00-18.59) dan Interval 2 (19.00-06.59). Pada interval 1, terdapat dua titik koordinat (anchor), yaitu koordinat 1 (-6.24925, 106.90133) yang direpresentasikan dengan baris warna kuning dan koordinat 2 (-6.2501, 106.90658) yang direpresentasikan dengan baris warna aqua. Koordinat 1 muncul sebanyak tiga kali dan koordinat 2 muncul sebanyak enam kali. Dengan begitu, koordinat 2 akan dijadikan sebagai kandidat utama.</p>
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal">
                                                                         <thead>
@@ -8076,7 +8039,7 @@
                                                             </p>
                                                             <div class="collapse" id="collapseExample62">
                                                                 <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
-                                                                    <p style="text-align: center; font-weight:bold">Tabel X. Lokasi Home msisdn00xxx Untuk Setiap Bulan</p>
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 8. Lokasi Home msisdn00xxx Untuk Setiap Bulan</p>
                                                                     <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal; text-align:center;">
                                                                         <thead style="color: #fff; font-weight:bold; background-color:yellow;">
                                                                             <tr>
@@ -8181,54 +8144,91 @@
                                                             </div>
                                                         </li>
                                                         <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Bangun matriks jarak Frechet dari list lintasan spasial setiap nomor pada kelompok yang sama. Sehingga nantinya ukuran matriks yang terbentuk adalah m x m, dimana m adalah banyaknya nomor yang berada di kelompok yang sama.</p>
-                                                        </li>
-
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Tentukan epsilon untuk DBSCAN Clustering dengan mengikuti algoritma hasil penelitian Elbatta tahun 2012 sebagai berikut.
-                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample63" aria-expanded="false" aria-controls="collapseExample">
+                                                            <p style="font-weight: normal;">Menghitung jarak antar lintasan satu dengan lintasan lainnya yang berada di dalam kelompok yang sama menggunakan Frechet Distance. Hasil penghitungan ini disimpan dalam sebuah dataset untuk nantinya akan dibangun threshold menggunakan gini impurity dengan langkah-langkah seperti yang sudah dijelaskan pada algoritma sebelumnya.
+                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample101" aria-expanded="false" aria-controls="collapseExample">
                                                                     [<strong><i>Tampilkan Semua</i></strong>]
                                                                 </a>
                                                             </p>
-                                                            <div class="collapse" id="collapseExample63">
-                                                                <ol class="list-styled mt-3 mb-3" style="text-align:justify; list-style-type:lower-latin; font-weight:normal; font-size:1rem">
-                                                                    <li>Hitung jarak haversine pada setiap pasangan data latitude dan longitude.</li>
-                                                                    <li>Bangun matriks utuh dari jarak yang sudah dihitung.</li>
-                                                                    <li>Lakukan normalisasi untuk mempermudah pencarian k tetangga terdekat pada setiap baris perhitungan jarak.</li>
-                                                                    <li>Lakukan inialisasi untuk menghitung jumlah baris data pada matriks.</li>
-                                                                    <li>Selanjutnya, pencarian dilakukan untuk k tetangga terdekat dari setiap baris matriks dengan mengurutkannya secara ascending untuk setiap hasil jarak terdekat.</li>
-                                                                    <li>Pengurutan hasil setiap baris yang merepresentasikan jarak tetangga terdekat digunakan untuk membuat plot dengan sumbu x adalah jumlah objek dan sumbu y adalah jarak k tetangga terdekat.</li>
-                                                                    <li>Dari plot yang terbentuk, selanjutnya dihitung perbedaan kemiringan garis untuk mendapatkan nilai Eps. Titik yang memiliki perubahan pada kemiringan plot akan menjadi nilai Eps optimal yang signifikan.</li>
-                                                                    <p class="mt-3" style="font-weight: bold; text-align:center">Gambar X. Sebaran Heksagon msisdn00xxx1</p>
-                                                                    <p style="color: red;">GAMBAR</p>
-                                                                </ol>
-                                                                <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample63" aria-expanded="false" aria-controls="collapseExample">
+                                                            <div class="collapse" id="collapseExample101">
+                                                                <div class="card-body table-responsive" style="padding: 0.5rem 1rem;">
+                                                                    <p style="text-align: center; font-weight:bold">Tabel 9. Jarak Frechet antar Nomor (MSISDN)</p>
+                                                                    <table class="table table-hover table-bordered table-responsive mt-3" style="width:100%;overflow-x:auto; font-weight:normal; text-align:center;">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col">MSISDN 1</th>
+                                                                                <th scope="col">MSISDN 2</th>
+                                                                                <th scope="col">Is_Double</th>
+                                                                                <th scope="col">Jarak_Frechet (km)</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody class="text-center">
+                                                                            <tr>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>245.37</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>1050.63</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>1051.09</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx05</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>1050.63</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx06</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>1051.09</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx08</td>
+                                                                                <td>msisdn00xxx07</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>643.49</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xx106</td>
+                                                                                <td>msisdn00xxx17</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>176.42</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx41</td>
+                                                                                <td>msisdn00xxx22</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>131.63</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx74</td>
+                                                                                <td>msisdn00xxx28</td>
+                                                                                <td>TRUE</td>
+                                                                                <td>154.49</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>msisdn00xxx38</td>
+                                                                                <td>msisdn00xxx33</td>
+                                                                                <td>FALSE</td>
+                                                                                <td>171.4</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                                <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample101" aria-expanded="false" aria-controls="collapseExample">
                                                                     [<strong><i>Tampilkan Sebagian</i></strong>]
                                                                 </a>
                                                             </div>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Setelah nilai eps ditentukan, maka proses clustering trajectories (lintasan) menggunakan DBSCAN dapat dilakukan, dengan input parameternya berupa:
-                                                                <a id="1b" onclick="ubahKelas1(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample64" aria-expanded="false" aria-controls="collapseExample">
-                                                                    [<strong><i>Tampilkan Semua</i></strong>]
-                                                                </a>
-                                                            </p>
-                                                            <div class="collapse" id="collapseExample64">
-                                                                <ul class="list-style">
-                                                                    <li>distance_matrix = matrix distance yang sudah dibangun menggunakan DTW atau Frechet Distance</li>
-                                                                    <li>epsilon (eps) = nilai eps terbaik yang telah ditentukan</li>
-                                                                    <li>min_samples = 1, untuk memastikan semua lintasan dikelompokkan menjadi sebuah cluster.</li>
-                                                                </ul>
-                                                                <a id="1b" onclick="ubahKelas2(this.id);" style="color: #4b395f; font-weight:normal; font-size:1rem; margin-top:-2rem;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample64" aria-expanded="false" aria-controls="collapseExample">
-                                                                    [<strong><i>Tampilkan Sebagian</i></strong>]
-                                                                </a>
-                                                            </div>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Hasil clustering DBSCAN akan menunjukkan beberapa klaster lintasan (trajectories), dimana lintasan-lintasan yang berada di dalam satu klaster memiliki kemiripan path satu sama lain.</p>
-                                                        </li>
-                                                        <li class="text-justify" style="font-size: 1.2rem; font-weight:bold">
-                                                            <p style="font-weight: normal;">Jika terdapat lebih dari dua nomor dalam satu klaster, bandingkan jarak Frechet antara dua nomor dalam klaster tersebut. Jarak Frechet terkecil antara dua nomor mengindikasikan adanya double counting, yakni kedua nomor tersebut dimiliki oleh satu entitas.</p>
                                                         </li>
                                                     </ol>
                                                 </div>
@@ -8290,7 +8290,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_5"></canvas>
+                                            <canvas class="mt1" id="fg_output2"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -8299,25 +8299,7 @@
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
                                         <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_6"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_7"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 grid-margin stretch-card h-100">
-                                <div class="card shadow rounded-4">
-                                    <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="fg_algoritma3_8"></canvas>
+                                            <canvas class="mt1" id="fg_output5"></canvas>
                                         </div>
                                     </div>
                                 </div>
