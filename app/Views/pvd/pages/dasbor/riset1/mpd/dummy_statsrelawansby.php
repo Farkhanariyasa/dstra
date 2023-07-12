@@ -168,7 +168,7 @@
                                 <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p class="text-justify">Terdapat 63 anggota keluarga relawan yang tidak memiliki handphone, sebagian besar berasal dari kelompok umur 0—12 tahun. </p>
+                                    <p class="text-justify">Terdapat 63 anggota keluarga relawan yang tidak memiliki handphone, sebagian besar berasal dari kelompok umur 0-12 tahun. </p>
                                 </div>
                             </div>
                         </div>
