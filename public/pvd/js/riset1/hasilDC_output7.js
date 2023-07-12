@@ -95,6 +95,13 @@ const bubble_dc_output7 = new Chart(dc_output7, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem, data) {
+            if(tooltipItem.dataIndex == 0){
+                return ["F1-Score: 0.00", "Waktu (menit/msisdn): 20.34"]
+            }
+          },
+        },
       },
       datalabels: {
         display: true,
