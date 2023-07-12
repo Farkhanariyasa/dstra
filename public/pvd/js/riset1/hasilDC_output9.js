@@ -20,16 +20,6 @@ const bar_output9 = new Chart(dc_output9, {
         borderWidth: 1,
         borderRadius: 8,
       },
-      //make treshold line 
-        {
-            type: 'line',
-            label: 'Treshold',
-            data: [0.4, 0.4],
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            borderColor: '#FDAB01',
-            borderWidth: 2,
-            pointStyle: 'rectRounded',
-        },
 
 
     ],
@@ -50,6 +40,49 @@ const bar_output9 = new Chart(dc_output9, {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
+      annotation: {
+        annotations: {
+            line1: {
+                type: 'line',
+                yMin: 0.4,
+                yMax: 0.4,
+                xMin: 0,
+                xMax: 0,
+                borderColor: '#FDAB01',
+                borderWidth: 2,
+                label: {
+                    backgroundColor: '#FDAB01',
+                    content: 'Treshold: 0.4',
+                    display: true,
+                    position: 'center',
+                    xAdjust: 0,
+                    yAdjust: 0,
+
+                }
+
+            },
+            line2: {
+              type: 'line',
+                yMin: 2.4,
+                yMax: 2.4,
+                xMin: 1,
+                xMax: 1,
+                borderColor: '#FDAB01',
+                borderWidth: 2,
+                label: {
+                    backgroundColor: '#FDAB01',
+                    content: 'Treshold: 2.4',
+                    display: true,
+                    position: 'center',
+                    xAdjust: 0,
+                    yAdjust: 0,
+
+                },
+              },
+
+        },
+
+    },
       title: {
         display: true,
         text: ["Grafik Perbandingan Rata-Rata", "Antar Label (Haversine)"],
@@ -86,6 +119,10 @@ const bar_output9 = new Chart(dc_output9, {
         grid: {
           display: false,
         },
+        title: {
+            display: true,
+            text: 'Periode Waktu Referensi',
+        },
       },
       y: {        
         grid: {
@@ -100,6 +137,10 @@ const bar_output9 = new Chart(dc_output9, {
               return (value).toFixed(0);
             }
           },
+        title: {
+            display: true,
+            text: 'Jarak (km)',
+        },
       },
     },
   },

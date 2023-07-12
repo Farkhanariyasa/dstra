@@ -5,19 +5,12 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-          <i>Smart Tourism Destination</i></strong>
+        <h6 style="color: #4b395f;"><strong>Karakteristik Kesiapan Unit Usaha Pariwisata (UUP)</strong>
         </h6>
       </header>
     <hr class="hrjudul">
     <?php include('grafik_karakteristik_kesiapan_uup.php') ?>
   </div>
-
-  <!-- <div class="container px-0">
-    <div class="row portfolio-container"> -->
-      <!-- < ?php include('bar_chart_dimensi.php') ?> -->
-    <!-- </div>
-  </div> -->
 </section>
 
 <!-- Istope -->

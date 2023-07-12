@@ -102,32 +102,30 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center">Batasan Penelitian</h1>
+                        <h1 class="headline text-center">Batasan</h1>
                     </div>
                 </div>
 
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="col">
                         <div class="row align-items-center text-center">
-                            <div class="col-6 align-items-center d-flex flex-column mt-3">
+                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
                                 <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
                                   <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Objek Penelitian</strong></h5>
-                                  <div class="card-body text-center">
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
                                       <div class="row-6 d-flex align-items-center justify-content-center">
                                           <img src="<?= base_url('pvd/img/landingpage/riset3/objek_penelitian.png') ?>" class="img-fluid">
                                       </div>
-                                      <p class="card-text">Tenaga Kerja di Industri Pariwisata</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="col-6 align-items-center d-flex flex-column mt-3">
+                            <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
                                 <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
-                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Cakupan Penelitian</strong></h5>
-                                  <div class="card-body text-center">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Lokasi Penelitian</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
                                       <div class="row-6 d-flex align-items-center justify-content-center">
-                                          <img src="<?= base_url('pvd/img/landingpage/riset3/cakupan_penelitian.png') ?>" class="img-fluid">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/lokasi_penelitian.png') ?>" class="img-fluid">
                                       </div>
-                                      <p class="card-text">Kabupaten Malang<br>Jawa Timur</p>
                                   </div>
                                 </div>
                             </div>
@@ -216,76 +214,97 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center">Ruang Lingkup Penelitian</h1>
+                        <h1 class="headline text-center">Ruang Lingkup</h1>
                     </div>
                 </div>
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class=" col">
-                        <div class="row">
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
+                    <div class="col">
+                        <div class="row align-items-center text-center">
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang pt-2">
-                                    <div class="row backrow">
-                                        <div class="col-2 sidebuttonl">
-                                            <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
-                                        </div>
-                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
-                                            <p style="font-size: 22px;" class="mySlides text-white text-center">Unit Sampling</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal1">Primary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal2">Secondary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal3">Ultimate</p>
-                                        </div>
-                                        <div class="col-2 sidebuttonr">
-                                            <button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
-                                        </div>
-                                    </div>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Populasi</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/populasi.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Populasi Target</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/populasi_target.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang pt-2">
-                                    <div class="row backrow">
-                                        <div class="col-2 sidebuttonl">
-                                            <button class="slideButton" onclick="plusDivs2(-1)">&#10094;</button>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Observasi</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/unit_observasi.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Sampling</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <div class="col-1 sidebuttonl">
+                                          <button class="slideButton" style="color: #506396;" onclick="plusDivs(-1)">&#10094;</button>
                                         </div>
-                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
-                                            <p style="font-size: 22px;" class="mySlides2 text-white text-center">Kerangka Sampel</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal1">Primary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal2">Secondary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal3">Ultimate</p>
+                                        <div class="col d-flex justify-content-center align-items-center img-ruang">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_1.png') ?>" class="mySlides img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_2.png') ?>" class="mySlides img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_3.png') ?>" class="mySlides img-fluid">
                                         </div>
-                                        <div class="col-2 sidebuttonr">
-                                            <button class="slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
+                                        <div class="col-1 sidebuttonr">
+                                            <button class="slideButtonR" style="color: #506396;" onclick="plusDivs(1)">&#10095;</button>
                                         </div>
-                                    </div>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px; height: 286px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Analisis</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/unit_analisis.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="border: 2px solid #506396; border-radius: 25px; height: 286px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Kerangka Sampel</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row d-flex align-items-center justify-content-center">
+                                        <div class="col-1 sidebuttonl">
+                                          <button class="slideButton" style="color: #506396;" onclick="plusDivs2(-1)">&#10094;</button>
+                                        </div>
+                                        <div class="col d-flex justify-content-center align-items-center img-ruang">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_1.png') ?>" class="mySlides2 img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_2.png') ?>" class="mySlides2 img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_3.png') ?>" class="mySlides2 img-fluid">
+                                        </div>
+                                        <div class="col-1 sidebuttonr">
+                                            <button class="slideButtonR" style="color: #506396;" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
+                <!-- <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-sm modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -417,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
         </section>
 
         <div class="">
