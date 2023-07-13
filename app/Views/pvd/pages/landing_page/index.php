@@ -311,13 +311,10 @@
             <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center justify-content-start " data-aos="zoom-out" data-aos-delay="200">
                 <div data-aos="fade-up" class="card62 shadow">
                     <div class="card-body d-grid rounded pr-4 pl-4 ">
-                        <h5 class="card-title text-center h5judullp mt-4">Angkatan 62</h5>
-                        <p class="card-text text-justify pdesclp">Politeknik Statistika STIS adalah perguruan tinggi
-                            kedinasan di lingkungan Badan Pusat Statistik. Pembinaan secara fungsional Politeknik
-                            Statistika STIS dilaksanakan oleh Kepala Badan Pusat Statistik, namun secara pembinaan
-                            secara teknis akademik dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan
-                            di bidang pendidikan tinggi dalam hal ini adalah Menteri Riset, Teknologi, dan Pendidikan
-                            Tinggi.
+                        <h5 class="card-title text-center h5judullp mt-4">Angkatan D-IV 62</h5>
+                        <p class="card-text text-justify pdesclp">Angkatan D-IV 62 terdiri dari dua program studi (prodi), yaitu prodi Statistika (10 kelas) dan prodi Komputasi Statistik (5 kelas). Pada PKL D-IV 62, seluruh mahasiswa/i terbagi ke dalam empat riset dan/atau bidang, 
+                            yaitu 131 mahasiswa/i untuk riset 1, 129 mahasiswa/i untuk riset 2, 131 mahasiswa/i untuk riset 3, 128 mahasiswa/i untuk riset 4, 
+                            49 mahasiswa/i untuk bidang TI, dan 70 mahasiswa/i untuk bidang umum.
                         </p>
                         <div class="img text-center mb-4">
                             <img src="<?= base_url('pvd/img/landingpage/logo62.png') ?>" alt="">
