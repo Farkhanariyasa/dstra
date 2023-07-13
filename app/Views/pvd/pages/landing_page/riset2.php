@@ -1121,7 +1121,7 @@
         </section> -->
 
         <!-- Buku Laporan -->
-        <section class="offset-header mt-4">
+        <!-- <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -1131,32 +1131,29 @@
 
                 <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
                     <p class="text-justify">
-                    <div>
-                        <div class="text-center text-lg-start kontener">
-                            <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
-                            <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
-                            <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
-                                <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
-                                <div class="d-flex justify-content-center my-auto">
-                                    <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
-                                        <div class="text-center">
-                                            <button class="btn btn-primary gdrive" type="button">
-                                                <div>
-                                                    <i class="fas fa-download"></i>
-                                                    Unduh
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </a>
+                        <div>
+                            <div class="text-center text-lg-start kontener">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
+                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center my-auto">
+                                        <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                            <div class="text-center">
+                                                <button class="btn btn-primary gdrive" type="button">
+                                                    <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Unduh
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- </a> -->
                         </div>
-                    </div>
-
+                    </p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Kuesioner Pencacahan -->
         <section class="offset-header mt-4">
