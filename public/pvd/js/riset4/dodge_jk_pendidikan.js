@@ -88,6 +88,8 @@ const dodge_2 = new Chart(dodge2, {
             datalabels:{
                 display:true,
                 color:'black',
+                anchor: 'end',
+                align: 'end',
                 // formatter: function(value, context) {
                 //     total = context.chart._metasets[context.datasetIndex].total;
                 //     percentage = parseFloat((value/total*100).toFixed(1));
