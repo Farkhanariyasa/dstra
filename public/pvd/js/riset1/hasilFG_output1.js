@@ -7,7 +7,7 @@ const bar_output1 = new Chart(fg_output1, {
     labels: ["True FG", "False FG"],
     datasets: [
       {
-        label: "True/False",
+        label: "Jarak (km)",
         data: [35921.98,1324329.68],
         backgroundColor: "#516296",
         borderWidth: 1,
@@ -21,15 +21,7 @@ const bar_output1 = new Chart(fg_output1, {
     //     borderRadius: 8,
     //   },
       //make treshold line 
-        {
-            type: 'line',
-            label: 'Treshold',
-            data: [46276.1,46276.1],
-            backgroundColor: '#FDAB01',
-            borderColor: '#FDAB01',
-            borderWidth: 2,
-            pointStyle: 'rectRounded',
-        },
+        
 
 
     ],
@@ -50,6 +42,28 @@ const bar_output1 = new Chart(fg_output1, {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
+      annotation: {
+        annotations: {
+            line1: {
+                type: 'line',
+                yMin: 42676.1,
+                yMax: 42676.1,
+                borderColor: '#FDAB01',
+                borderWidth: 2,
+                label: {
+                    backgroundColor: '#FDAB01',
+                    content: 'Treshold: 42676.1',
+                    display: true,
+                    position: 'center',
+                    xAdjust: 0,
+                    yAdjust: 0,
+
+                }
+
+            }
+        },
+
+    },
       title: {
         display: true,
         text: ["Grafik Perbandingan Rata-Rata", "Antar Label (DTW)"],
