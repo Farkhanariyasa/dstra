@@ -21000,12 +21000,6 @@ td {
   width: 100%;
 }
 
-@media (max-width: 767px) {
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-  }
-}
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link i {
   font-size: 1.25rem;

@@ -68,7 +68,7 @@
         <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
           <div class="nav-profile-img">
             <img src="<?= isset((session()->get())['akun_picture']) ? (session()->get())['akun_picture'] : base_url('pvd/img/default.png') ?>" alt="image">
-            <span class="availability-status online"></span>
+            <!-- <span class="availability-status online"></span> -->
           </div>
           <div class="nav-profile-text">
             <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> <span class="mdi mdi-chevron-down"></span></p>

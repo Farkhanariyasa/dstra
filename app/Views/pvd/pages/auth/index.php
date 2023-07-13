@@ -46,19 +46,19 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-center p-5">
               <div class="brand-logo">
-                <a href="/hasil-pkl"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
+                <a href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
               </div>
-              <a href="/hasil-pkl" class="text-decoration-none">
+              <a href="<?= base_url('hasil-pkl'); ?>" class="text-decoration-none">
                 <h1>Web Hasil PKL 62
                   <br /> T.A. 2022/2023
                 </h1>
               </a>
               <h4 class="font-weight-light mt-4">Masuk untuk melanjutkan.</h4>
               <div class="mt-4">
-                <a href="/hasil-pkl/googlelogin" class="btn btn-block btn-google auth-form-btn mb-2">
+                <a href="<?= base_url('hasil-pkl/googlelogin'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
                   <i class="mdi mdi-google me-3"></i>Google STIS </a>
-                <a href="/hasil-pkl/googlelogin" class="btn btn-block btn-google auth-form-btn mb-2">
-                  <i class="mdi mdi-google me-3"></i>Google BPS </a>
+                <a href="<?= base_url('hasil-pkl/googlelogin'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
+                  <i class="mdi mdi-google me-3"></i>Google STIS </a>
               </div>
             </div>
           </div>
