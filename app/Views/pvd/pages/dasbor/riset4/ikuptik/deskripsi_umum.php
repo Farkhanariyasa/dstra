@@ -36,6 +36,7 @@
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/doughnut_ikuptik.js') ?>"></script>
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
 </section><!-- End -->

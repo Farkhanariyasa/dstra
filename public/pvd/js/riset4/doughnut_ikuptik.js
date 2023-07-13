@@ -1,4 +1,4 @@
-const A1 = document.getElementById('chart-6');
+const A1 = document.getElementById('chart-0');
 
 const doughnutLabel = {
     id: 'doughnutLabel',
@@ -19,15 +19,18 @@ new Chart(A1, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Tidak Memanfaatkan"],
-            ["Memanfaatkan"]
+            ["Infrastruktur", "dan", "Konektivitas"],
+            ["Pemanfaatan TIK"],
+            ["Sumber Daya Manusia"],
+            ["Manajemen Organisasi"],
+            ["Ketersediaan Prasarana TIK"],
+            ["Motivasi Penggunaan TIK"],
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                pemanfaatanTik.tidak,
-                pemanfaatanTik.ya,
+                1, 1, 1, 1, 1, 1,
             ],
             borderwidth: 1,
             backgroundColor: [
@@ -56,7 +59,7 @@ new Chart(A1, {
                 }
             },
             legend:{
-                display: true,
+                display: false,
                 title: {
                     display: false,
                     text : 'Kategori',
@@ -79,18 +82,24 @@ new Chart(A1, {
                     }
                 }
             },
-            datalabels: {
+           datalabels: {
                 display: true,
-                color: 'black',
-                formatter: function(value, context) {
-                    total = context.chart._metasets[context.datasetIndex].total;
-                    percentage = parseFloat((value/total*100).toFixed(2));
-                    return percentage + '%';
+                formatter: (val, ctx) => {
+                // Grab the label for this value
+                const label = ctx.chart.data.labels[ctx.dataIndex];
+
+                // Format the number with 2 decimal places
+                const formattedVal = Intl.NumberFormat('en-US', {
+                    minimumFractionDigits: 2,
+                }).format(val);
+
+                // Put them together
+                return wordWarp(`${label}`);
                 },
-                anchor: 'middle',
-                align: 'middle',
-            }
+                color: '#fff'
+            }, 
         },
     },
     plugins: [ChartDataLabels, doughnutLabel]
+
 });

@@ -48,41 +48,35 @@
     </div> -->
 
 <!-- Visualisasi 1 -->
-<div class="portfolio-item">
-    <div class="row mt-3">
-        <div class="col-sm-12 my-2">
-            <div class="card shadow rounded-4">
-                <div class="card-body">
-                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-item-center">
-                        <div class="me-1 mt-1 justify-content-end align-item-end">
-                            <button id="unduh-t2-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal_t2_hasil1">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
-                        <div>
-                            <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                            Penjelasan Mengenai IKUPTIK</h1>
-                            <subtitle>Pada Tiap-Tiap Dimensi</subtitle>
-                        </div>
-                    </div>
-                    <div class="mb-0 col-lg-12 grid-margin">
-                        <div>
-                            <div class = "chartBox" style="height:450px; display: flex; justify-content: center; align-items: center;"> 
-                                <!-- <canvas id="chart-1"></canvas> -->
-                                <img src="<?= base_url('pvd/img/dasbor/riset4/pie-chart-deskripsi-singkat.png') ?>" class="img-fluid" alt="" style="height: 400px;">
+<div class="col-12 grid-margin stretch-card">
+                    <div class="card shadow">
+                        <div class="pb-2 card-body">
+                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
+                                    <div>
+                                        <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
+                                        Persentase Unit Usaha Pariwisata di Kota Batu</h1>
+                                        <subtitle>Berdasarkan Jenis Usaha Pariwisata</subtitle>
+                                    </div>
+                                </div>
+                                <div class="mb-0 col-lg-12 grid-margin">
+                                    <div>
+                                        <div class = "chartBox" style=" height:300px;"> 
+                                            <canvas id="chart-0"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
- 
                 </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 <!-- Visualisasi 2 -->
 <div class="row mt-3">
