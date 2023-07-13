@@ -55,6 +55,7 @@
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_3.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/ikuptik_jenis_unit_usaha_4.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/dodge_bar_jenis_kecamatan.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_4_4.js') ?>"></script>
