@@ -1,35 +1,5 @@
 <!-- Visualisasi 1 -->
 <div class="col-12 grid-margin stretch-card">
-<<<<<<< HEAD
-                    <div class="card shadow">
-                        <div class="pb-2 card-body">
-                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                <div class="me-1 mt-1 justify-content-end align-item-end">
-                                    <button id="download-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#modal-download-3">
-                                        <i class="fa-solid fa-download"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
-                                    <div>
-                                        <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                                        Persentase Unit Usaha Pariwisata di Kota Batu</h1>
-                                        <subtitle>Berdasarkan Jenis Usaha Pariwisata</subtitle>
-                                    </div>
-                                </div>
-                                <div class="mb-0 col-lg-12 grid-margin">
-                                    <div>
-                                        <div class = "chartBox" style=" height:300px;"> 
-                                            <canvas id="chart-0"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-=======
     <div class="card shadow">
         <div class="pb-2 card-body">
             <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -63,7 +33,6 @@
         </div>
     </div>
 </div>
->>>>>>> b5d5574bb50579ecab6982d6683009af5f3dc9b6
 
 <!-- Visualisasi Teks -->
 <div class="container px-0">
