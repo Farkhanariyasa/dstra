@@ -3,7 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Filters\CSRF;
-use App\Filters\IsLoggedInFilter;
+use App\Filters\HasilPklFilter;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\DebugToolbar;
@@ -22,7 +22,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'isLoggedIn' => IsLoggedInFilter::class,
+        'hasilPkl' => HasilPklFilter::class,
     ];
 
     /**
@@ -63,6 +63,6 @@ class Filters extends BaseConfig
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
     public array $filters = [
-        'isLoggedIn' => ['before' => ['hasil-pkl/riset1/', 'hasil-pkl/riset1/*', 'hasil-pkl/riset2/', 'hasil-pkl/riset2/*', 'hasil-pkl/riset3/', 'hasil-pkl/riset3/*', 'hasil-pkl/riset4/', 'hasil-pkl/riset4/*']],
+        'hasilPkl' => ['before' => ['hasil-pkl/riset1/', 'hasil-pkl/riset1/*', 'hasil-pkl/riset2/', 'hasil-pkl/riset2/*', 'hasil-pkl/riset3/', 'hasil-pkl/riset3/*', 'hasil-pkl/riset4/', 'hasil-pkl/riset4/*']],
     ];
 }

@@ -49,7 +49,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Fungsi Unduh
         $routes->post('unduh', 'Tools::unduh/$1');
     });
-    
+
     // Dasbor Riset 1
     $routes->group('riset1', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Dasbor
@@ -71,8 +71,6 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->post('mpd-doublecounting', 'Riset1::unduhdc');
         $routes->post('mpd-familygrouping', 'Riset1::unduhfg');
         $routes->post('wisnus-visualisasi', 'Riset1::unduhwisnus');
-
-
     });
     // Dasbor Riset 2
     $routes->group('riset2', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
@@ -118,7 +116,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('bukupedoman', 'Riset3::bukupedoman'); // Menu 3 Submenu 2
     });
     // Dasbor Riset 4
-    $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'],['filter' => 'isLoggedIn'], function ($routes) {
+    $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset4::index');
 

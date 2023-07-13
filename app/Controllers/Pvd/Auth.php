@@ -29,7 +29,7 @@ class Auth extends BaseController
     public function logout()
     {
         session()->destroy();
-        session()->set('isLoggedIn', false);
+        session()->set('isLoggedInHasilPkl', false);
         session()->setFlashdata('sukses', 'Anda berhasil keluar');
         return redirect()->to('/hasil-pkl/masuk');
     }
@@ -77,7 +77,7 @@ class Auth extends BaseController
         return redirect()->to($client->createAuthUrl());
     }
 
-    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $isLoggedIn)
+    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $isLoggedInHasilPkl)
     {
         $data = [
             'akun_id' => $id,
@@ -85,7 +85,7 @@ class Auth extends BaseController
             'akun_nama_lengkap' => $nama_lengkap,
             'akun_picture' => $picture,
             'akun_email' => $email,
-            'isLoggedIn' => $isLoggedIn
+            'isLoggedInHasilPkl' => $isLoggedInHasilPkl
         ];
         session()->set($data);
     }
