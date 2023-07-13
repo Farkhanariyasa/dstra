@@ -186,31 +186,27 @@
                 <div class="row">
                     <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
-                        <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Telkomsel - Telkomsel</h3>
+                        <h3 class="text-center mt-4" style="font-weight:bold">Jumlah Relawan</h3>
                             <div class="card-body">
-                                <div class="chartBox" style="height:440px">
-                                    <iframe 
-                                    src="<?= base_url('pvd/html/tsel-tsel.html'); ?>" 
-                                    style="width:100%; height: 440px; border-radius: 5px;"
-                                    ></iframe>
+                                <div class="row-6 d-flex align-items-center justify-content-center"style="height:440px">
+                                    <img src="<?= base_url('pvd/img/Riset1/relawanAsset.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 440px; width:auto;">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
-                        <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Indosat - Indosat </h3>
+                        <h3 class="text-center mt-4" style="font-weight:bold">Jumlah Nomor</h3>
                             <div class="card-body">
-                                <div class="chartBox" style="height:440px">
-                                    <iframe 
-                                    src="<?= base_url('pvd/html/isat-isat.html'); ?>"
-                                    style="width:100%; height: 440px;"
-                                    ></iframe>
+                                <div class="row-6 d-flex align-items-center justify-content-center" style="height:440px">
+                                    <img src="<?= base_url('pvd/img/Riset1/nomorAsset.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 440px; width:auto;">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 grid-margin stretch-card h-100">
+                    <!-- <div class="col-lg-12 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                         <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Telkomsel - Indosat</h3>
                             <div class="card-body">
@@ -222,7 +218,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
