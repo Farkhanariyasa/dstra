@@ -94,6 +94,26 @@ class Riset4HasilPklModel extends Model
         return round($result['rataan'], 2);
     }
 
+    # fungsi filter data dan me-retrieve-nya
+    public function getIKUPTIK($kolom_kategorik, $k1){
+        $result = $this->where([$kolom_kategorik => $k1])->select("geometrik_mean")->findAll();
+        $result = array_column($result, "geometrik_mean");
+        return $result;
+    }
+
+    # fungsi no filter data dan me-retrieve-nya
+    public function getIKUPTIK2(){
+        $result = $this->select("geometrik_mean")->findAll();
+        $result = array_column($result, "geometrik_mean");
+        return $result;
+    }
+
+    public function getUmur2(){
+        $result = $this->select("usia_pemilik_pengelola")->findAll();
+        $result = array_column($result, "usia_pemilik_pengelola");
+        return $result;
+    }
+
     // ke bawah adalah kode dummy
     # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
     public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
