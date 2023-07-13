@@ -9,6 +9,7 @@
       <span class="mdi mdi-menu"></span>
     </button>
     <ul class="navbar-nav navbar-nav-left">
+      
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
           <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?> <span class="mdi mdi-chevron-down"></span>
@@ -63,9 +64,28 @@
           Riset 4
         </a>
       </li>
+      <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="<?= isset((session()->get())['akun_picture']) ? (session()->get())['akun_picture'] : base_url('pvd/img/default.png') ?>" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : ""; ?></p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <!-- <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-cached me-2 text-success"></i> Activity Log </a> -->
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="" onclick="mKeluar()">
+                  <i class="mdi mdi-logout me-2"></i> Keluar </a>
+              </div>
+            </li>
     </ul>
     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
       <span class="mdi mdi-menu"></span>
     </button>
   </div>
 </nav>
+

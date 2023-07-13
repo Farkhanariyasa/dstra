@@ -34,6 +34,11 @@ $routes->get('/', 'Home::index');
 
 // Hasil PKL
 $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
+    // Autentikasi
+    $routes->get('masuk', 'Auth::login');
+    $routes->get('keluar', 'Auth::logout');
+    $routes->get('googlelogin', 'Auth::googleLogin');
+
     // Landing Page
     $routes->get('/', 'LandingPage::index');
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
@@ -44,6 +49,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Fungsi Unduh
         $routes->post('unduh', 'Tools::unduh/$1');
     });
+    
     // Dasbor Riset 1
     $routes->group('riset1', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Dasbor
@@ -112,7 +118,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('bukupedoman', 'Riset3::bukupedoman'); // Menu 3 Submenu 2
     });
     // Dasbor Riset 4
-    $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
+    $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'],['filter' => 'isLoggedIn'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset4::index');
 

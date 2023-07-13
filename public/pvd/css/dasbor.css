@@ -7125,7 +7125,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #343a40;
+  color: #fff;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -20692,6 +20692,7 @@ td {
 /* Auth */
 .auth .auth-form-light {
   background: #ffffff;
+  border-radius: 0.5rem;
 }
 
 .auth .auth-form-light select {
@@ -22480,4 +22481,10 @@ a.page-link {
 button.btn.btn-secondary {
   background-color: #506396;
   border-color: #506396;
+}
+
+.forbody {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

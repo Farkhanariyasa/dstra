@@ -41,6 +41,24 @@
 });
 
 </script>
+<script>
+    function mKeluar() {
+        event.preventDefault();
+        Swal.fire({
+            title: 'Apakah Anda ingin keluar?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Keluar',
+            cancelButtonText: 'Batal'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/hasil-pkl/keluar";
+            }
+        })
+    }
+</script>
 </body>
 
 </html>

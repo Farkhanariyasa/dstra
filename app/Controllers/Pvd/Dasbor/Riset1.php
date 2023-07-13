@@ -2,10 +2,11 @@
 
 namespace App\Controllers\Pvd\Dasbor;
 
+use App\Models\Pvd\UserModel;
 use App\Controllers\BaseController;
-use App\Models\Pvd\Riset1HasilPklModel;
 use App\Models\Pvd\Riset1HasilSpModel;
 use App\Models\Pvd\UnduhHasilPklModel;
+use App\Models\Pvd\Riset1HasilPklModel;
 
 class Riset1 extends BaseController
 {
@@ -14,6 +15,8 @@ class Riset1 extends BaseController
     protected $simcard;
     protected $dataresponden;
     protected $hasilpklriset1;
+    protected $userModel;
+    protected $data;
 
     public function __construct()
     {
@@ -22,6 +25,7 @@ class Riset1 extends BaseController
         $this->simcard = new Riset1HasilSpModel();
         $this->dataresponden = new Riset1HasilSpModel();
         $this->hasilpklriset1 = new Riset1HasilPklModel();
+        $this->userModel = new UserModel();
     }
 
     public function index()
@@ -30,7 +34,6 @@ class Riset1 extends BaseController
         $data = [
             'judul' => 'Dasbor Riset 1',
             'menu' => $menu['riset1'],
-            
         ];
         return view('pvd/pages/dasbor/riset1/index', $data);
     }
