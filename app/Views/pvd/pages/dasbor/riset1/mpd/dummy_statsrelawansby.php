@@ -49,7 +49,7 @@
             <h4 class="card-title judul-card">Output 2</h4>
             <div class="card-body">
                 <div class="row">
-                <div class="col-lg-8 grid-margin stretch-card h-100">
+                    <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -94,7 +94,7 @@
             <h4 class="card-title judul-card">Output 3</h4>
             <div class="card-body">
                 <div class="row">
-                <div class="col-lg-8 grid-margin stretch-card h-100">
+                    <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
@@ -181,22 +181,21 @@
 
     <div class="tab-pane fade" id="pills-output5" role="tabpanel" aria-labelledby="pills-output5-tab" tabindex="0">
         <div class="isi-tujuan shadow mt-0 mb-0">
-            <h3 class="card-title judul-card">Kepler</h3>
+            <h3 class="card-title judul-card">Jumlah Relawan Double Counting dan Family Grouping</h3>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                    <!-- <div class="me-1 mt-1 justify-content-end align-item-end">
                                         <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
-                                    </div>
+                                    </div> -->
                                 </div>
-                                <div class="row-6 d-flex align-items-center justify-content-center"style="height:440px">
-                                    <img src="<?= base_url('pvd/img/Riset1/relawanAsset.png') ?>"
-                                                        class="img-fluid" alt="" style="height: 60vh; width:auto;">
+                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%">
+                                    <img src="<?= base_url('pvd/img/Riset1/relawanAsset.png') ?>" class="img-fluid" alt="" style="height: 60vh; width:auto;">
                                 </div>
                             </div>
                         </div>
@@ -208,27 +207,31 @@
                                 <h3 class="text-center"><b>Interpretasi</b></h3>
                                 <div class="card-body border rounded">
                                     <!-- <canvas class="mt1" id="riset1_hasil5"></canvas> -->
-                                    <p class="text-justify">Berdasarkan diagram di atas, terdapat sebanyak 167 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai fenomena family grouping dan sebanyak 23 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai permasalahan double counting. Selain itu, terdapat sebanyak 32 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai keduanya, yakni fenomena family grouping dan permasalahan double counting. </p>
+                                    <p class="text-justify">Berdasarkan diagram yang tertera, terdapat sebanyak 167 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai fenomena family grouping dan sebanyak 23 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai permasalahan double counting. Selain itu, terdapat sebanyak 32 relawan yang bersedia data MPD-nya digunakan dalam penelitian mengenai keduanya, yakni fenomena family grouping dan permasalahan double counting. </p>
                                 </div>
                             </div>
                         </div>
                         <!-- </div> -->
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="isi-tujuan shadow mt-5 mb-0">
+            <h3 class="card-title judul-card">Jumlah Nomor Double Counting dan Family Grouping</h3>
+            <div class="card-body">
                 <div class="row">
                     <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="me-1 mt-1 justify-content-end align-item-end">
                                         <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
                                     </div>
-                                </div>
-                                <div class="row-6 d-flex align-items-center justify-content-center"style="height:440px">
-                                    <img src="<?= base_url('pvd/img/Riset1/nomorAsset.png') ?>"
-                                                        class="img-fluid" alt="" style="height: 60vh; width:auto;">
+                                </div> -->
+                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%">
+                                    <img src="<?= base_url('pvd/img/Riset1/nomorAsset.png') ?>" class="img-fluid" alt="" style="height: 60vh; width:auto;">
                                 </div>
                             </div>
                         </div>
@@ -275,8 +278,8 @@
                         <h3 class="text-center mt-4" style="font-weight:bold">Persebaran Telkomsel - Indosat</h3>
                             <div class="card-body">
                                 <div class="chartBox" style="height:440px">
-                                    <iframe src="<?= 
-                                    base_url('pvd/html/tsel-isat.html'); ?>"
+                                    <iframe src="<?=
+                                                    base_url('pvd/html/tsel-isat.html'); ?>"
                                     style="width:100%; height: 440px;"
                                     ></iframe>
                                 </div>
@@ -288,6 +291,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 
 <!-- Modal -->
