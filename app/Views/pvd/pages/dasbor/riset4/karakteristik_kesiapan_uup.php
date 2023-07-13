@@ -5,19 +5,12 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan 
-          <i>Smart Tourism Destination</i></strong>
+        <h6 style="color: #4b395f;"><strong>Karakteristik Kesiapan Unit Usaha Pariwisata (UUP)</strong>
         </h6>
       </header>
     <hr class="hrjudul">
     <?php include('grafik_karakteristik_kesiapan_uup.php') ?>
   </div>
-
-  <!-- <div class="container px-0">
-    <div class="row portfolio-container"> -->
-      <!-- < ?php include('bar_chart_dimensi.php') ?> -->
-    <!-- </div>
-  </div> -->
 </section>
 
 <!-- Istope -->
@@ -41,14 +34,27 @@
   const pendidikanTingkat = <?= json_encode($pendidikanTingkat) ?>;
   const jenisUsahaTingkat = <?= json_encode($jenisUsahaTingkat) ?>;
   const skalaTingkat = <?= json_encode($skalaTingkat) ?>;
+  const jk = <?= json_encode($jk) ?>;
+  const pendidikan = <?= json_encode($pendidikan) ?>;
+  const jenis = <?= json_encode($jenis) ?>;
+  const skala = <?= json_encode($skala) ?>;
+  const umurIKUPTIK = <?= json_encode($umurIKUPTIK) ?>;
+  const ikuptik = <?= json_encode($ikuptik) ?>;
 </script>
 
 <!-- Impor Chart -->
-<script src="<?= base_url('pvd/js/riset4/stacked_jenis_kelamin_tingkat.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/stacked_usia_tingkat.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/stacked_pendidikan_tingkat.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/stacked_jenis_usaha_tingkat.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset4/stacked_skala_tingkat.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/boxplot_jenis_kelamin.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/scatter_plot_usia_ikuptik.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/boxplot_pendidikan.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/boxplot_jenis_usaha.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/boxplot_skala.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/boxplot_ikuptik.js') ?>"></script>
+
+<!-- <script src="< ?= base_url('pvd/js/riset4/stacked_jenis_kelamin_tingkat.js') ?>"></script>
+<script src="< ?= base_url('pvd/js/riset4/stacked_usia_tingkat.js') ?>"></script>
+<script src="< ?= base_url('pvd/js/riset4/stacked_pendidikan_tingkat.js') ?>"></script>
+<script src="< ?= base_url('pvd/js/riset4/stacked_jenis_usaha_tingkat.js') ?>"></script>
+<script src="< ?= base_url('pvd/js/riset4/stacked_skala_tingkat.js') ?>"></script> -->
 
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_3.js') ?>"></script>

@@ -259,7 +259,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-users col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi</strong></h5>
                                 <p class="card-text text-justify">
@@ -275,7 +275,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi_target.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi_target.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Populasi Target</strong></h5>
                                 <p class="card-text text-justify">
@@ -291,7 +291,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_observasi.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_observasi.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Observasi</strong></h5>
                                 <p class="card-text text-justify">
@@ -303,7 +303,7 @@
                         </div>
 
                         <!-- Primary & Secondary Sampling Unit -->
-                        <div class="col">
+                        <div class="row">
                             <!-- <div class="row"> -->
                                 <!-- Populasi -->
                                 <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
@@ -347,13 +347,13 @@
                                 </div> -->
                             <!-- </div> -->
 
-                            <div class="row justify-content-center">
+                            <div class="col justify-content-center">
                                 <!-- Primary Sampling Unit -->
-                                <div class="col-5 align-items-center d-flex align-self-center">
+                                <div class="align-items-center d-flex align-self-center">
                                     <div class="card-body text-center batasan2 shadow">
                                         <!-- <i class="fas fa-home col-1 ikon"></i> -->
                                         <div class="row-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/primary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset2/primary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                         </div>
                                         <div class="col">
                                             <p class="card-title text-center">
@@ -364,13 +364,14 @@
                                         </div>
                                     </div>
                                 </div>
-
+                            </div>
+                            <div class="col justify-content-center">
                                 <!-- Secondary Sampling Unit -->
-                                <div class="col-5 align-items-center d-flex align-self-center">
+                                <div class="align-items-center d-flex align-self-center">
                                     <div class="card-body text-center batasan2 shadow">
                                         <!-- <i class="fas fa-city col-1 ikon"></i> -->
                                         <div class="row-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?= base_url('pvd/img/landingpage/riset2/secondary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                            <img src="<?= base_url('pvd/img/landingpage/riset2/secondary_sampling_unit.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                         </div>
                                         <div class="col">
                                             <p class="card-title text-center">
@@ -403,7 +404,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_analisis.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/unit_analisis.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Unit Analisis</strong></h5>
                                 <p class="card-text text-justify">
@@ -419,7 +420,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-clipboard-list ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/kerangka_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/kerangka_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Kerangka Sampel</strong></h5>
                                 <p class="card-text text-justify">
@@ -503,7 +504,7 @@
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-cubes ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
-                                    <img src="<?= base_url('pvd/img/landingpage/riset2/metode_penarikan_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px;">
+                                    <img src="<?= base_url('pvd/img/landingpage/riset2/metode_penarikan_sampel.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto;">
                                 </div>
                                 <h5 class="card-title text-center" style="line-height: 20px;"><strong>Metode Penarikan Sampel</strong></h5>
                                 <p class="card-text text-center">
@@ -1120,7 +1121,7 @@
         </section> -->
 
         <!-- Buku Laporan -->
-        <section class="offset-header mt-4">
+        <!-- <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -1130,32 +1131,29 @@
 
                 <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
                     <p class="text-justify">
-                    <div>
-                        <div class="text-center text-lg-start kontener">
-                            <!-- <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan text-decoration-none"> -->
-                            <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
-                            <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
-                                <!-- <h1 class="text-center fw-bold">Buku Laporan</h1> -->
-                                <div class="d-flex justify-content-center my-auto">
-                                    <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
-                                        <div class="text-center">
-                                            <button class="btn btn-primary gdrive" type="button">
-                                                <div>
-                                                    <i class="fas fa-download"></i>
-                                                    Unduh
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </a>
+                        <div>
+                            <div class="text-center text-lg-start kontener">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.png') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
+                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center my-auto">
+                                        <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                            <div class="text-center">
+                                                <button class="btn btn-primary gdrive" type="button">
+                                                    <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Unduh
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- </a> -->
                         </div>
-                    </div>
-
+                    </p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Kuesioner Pencacahan -->
         <section class="offset-header mt-4">

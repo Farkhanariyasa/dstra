@@ -71,8 +71,7 @@ for (let i = 1; i < 3; i++) {
 
       // This is the name of our downloaded file
       createEl.download =
-        "Hasil PKL Riset 4 - Pemilik atau Pengelola Usaha Pariwisata - Chart " +
-        [i];
+        "Hasil PKL Riset 4 - Pemilik atau Pengelola Usaha Pariwisata - Chart " + [i];
 
       // Click the download button, causing a download, and then remove it
       createEl.click();

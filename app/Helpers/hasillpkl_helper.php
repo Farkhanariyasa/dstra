@@ -240,7 +240,7 @@ function getMenu()
           'href' => '/riset4/dasbor',
         ],
         [
-          'menu' => 'Karakteristik Umum Unit Usaha',
+          'menu' => 'Gambaran Umum Unit Usaha',
           'icon' => 'fa-solid fa-shop',
           'href' => '#menu2',
           'id' => 'menu2',
@@ -260,7 +260,7 @@ function getMenu()
           ],
         ],
         [
-          'menu' => 'Karakteristik Kesiapan UUP',
+          'menu' => 'Karakteristik Indeks Kesiapan UUP',
           'icon' => 'fa-solid fa-list-check',
           'href' => '/riset4/karakteristik_kesiapan_uup',
           // 'id' => 'menu3',

@@ -12,13 +12,13 @@
       <div class="col-lg-12 d-flex justify-content-center">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:#506396">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Jarak Stay Point</button>
+            <button class="nav-link active" id="pills-algoritma1-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma1" type="button" role="tab" aria-controls="pills-algoritma1" aria-selected="true">Algoritma Haversine</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-algoritma2-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma2" type="button" role="tab" aria-controls="pills-algoritma2" aria-selected="false">Algoritma H3</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">DBSCAN Clustering & Pembentukan Matrix Distance</button>
+            <button class="nav-link" id="pills-algoritma3-tab" data-bs-toggle="pill" data-bs-target="#pills-algoritma3" type="button" role="tab" aria-controls="pills-algoritma3" aria-selected="false">Algoritma Dynamic Time Warping dan Frechet Distance </button>
           </li>
         </ul>
       </div>
@@ -41,6 +41,7 @@
   <!-- Chart JS -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js" integrity="sha512-Hn1w6YiiFw6p6S2lXv6yKeqTk0PLVzeCwWY9n32beuPjQ5HLcvz5l2QsP+KilEr1ws37rCTw3bZpvfvVIeTh0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Data Chart -->
   <script>
     
@@ -68,6 +69,19 @@
   <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_6.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_7.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/evaluasiDC_algoritma2_8.js') ?>"></script>
+
+  <!-- DC Output baru -->
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output2.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output3.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output4.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output5.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output6.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output7.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output8.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output9.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output10.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/hasilDC_output11.js') ?>"></script>
 
 
 

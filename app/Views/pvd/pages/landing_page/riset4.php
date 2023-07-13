@@ -58,7 +58,7 @@
                             [<strong><i>Tampilkan Semua</i></strong>]
                         </a>
                     </p>
-                    <div class="collapse" id="collapseExample">
+                    <div class="collapse" id="collapseExample" style="width: 100%;">
                         <!-- ============================= -->
                         <div>
                             <h1 class="chart-title judul-chart" style="font-size: 16px; font-weight: 600; text-align: left; line-height: 25px">
@@ -408,7 +408,7 @@
         </section>
 
         <!-- Hasil Penelitian -->
-        <!-- <section class="offset-header">
+        <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
@@ -417,26 +417,40 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis. Quia harum qui ipsum nihil odio, perspiciatis architecto asperiores quam. Architecto, enim dolor cupiditate harum ipsam quibusdam consequuntur temporibus totam, dolorem consectetur quod maiores, obcaecati saepe velit. Laboriosam ad impedit corrupti error perspiciatis nemo tempore quae possimus, obcaecati numquam ullam recusandae dolore maiores doloribus quasi animi asperiores! Quasi culpa exercitationem officiis sit magni voluptatem, reiciendis unde! Similique minima, dignissimos repellat veniam laboriosam odit maiores illum alias doloribus, beatae, labore unde porro? Incidunt, assumenda explicabo. Eaque nisi, impedit repellendus fugiat laborum in soluta? Dolores dolorum ex recusandae atque quidem aliquid placeat?
+                    Hasil penelitian menunjukkan dari sampel unit usaha pariwisata Kota Batu terpilih, 799 sampel atau 86% 
+                    sudah memanfaatkan TIK dalam operasi unit usahanya. Hasil IKUPTIK di Kota Batu adalah sebesar 46,98 
+                    yang menunjukkan secara keseluruhan unit usaha pariwisata di Kota Batu cukup siap dalam memanfaatkan TIK. Jika 
+                    ditinjau dari jenis usahanya, ketiga jenis unit usaha di Kota Batu secara keseluruhan memiliki IKUPTIK dengan kategori 
+                    cukup siap dengan nilai indeks Jasa Transportasi Wisata sebesar 51,10; Penyediaan Akomodasi sebesar 52,08 serta Jasa 
+                    Makanan dan Minuman sebesar 45,51. Adapun faktor yang memengaruhi tingkat kesiapan unit usaha dalam memanfaatkan TIK 
+                    antara lain usia, jenis kelamin, dan tingkat pendidikan pemilik/pengelola, serta jumlah tenaga kerja. Usia pemilik/pengelola 
+                    memiliki pengaruh negatif sehingga semakin tua pemilik/pengelola maka kesiapan unit usahanya memanfaatkan TIK semakin rendah. 
+                    Pemilik/pengelola perempuan memiliki tingkat kesiapan TIK yang lebih rendah daripada laki-laki. Tingkat pendidikan pemilik/pengelola 
+                    memiliki pengaruh positif sehingga peningkatan tingkat pendidikan pemilik/pengelola akan meningkatkan kesiapan unit usaha dalam 
+                    pemanfaatan TIK. Peningkatan jumlah tenaga kerja akan meningkatkan kesiapan unit usaha dalam memanfaatkan TIK.
                     </p>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Infografis -->
-        <!-- <section class="offset-header">
+        <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
-                    <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                <div class="konten third5 par m-auto p-4 p-md-4 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="info-item m-1 shawdow-lg text-center">
+                        <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/dummy_infografis_1.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                    </div>
+                    <div class="info-item m-1 shawdow-lg text-center">
+                        <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/dasbor/riset4/dummy_infografis_2.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 

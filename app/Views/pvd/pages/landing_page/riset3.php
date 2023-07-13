@@ -102,7 +102,7 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center">Batasan Penelitian</h1>
+                        <h1 class="headline text-center">Batasan</h1>
                     </div>
                 </div>
 
@@ -110,19 +110,23 @@
                     <div class="col">
                         <div class="row align-items-center text-center">
                             <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="card">
-                                    <h5 class="card-header">Objek</h5>
-                                    <div class="card-body">
-                                        <p class="card-text">Tenaga Kerja di Industri Pariwisata</p>
-                                    </div>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Objek Penelitian</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/objek_penelitian.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 align-items-center d-flex flex-column mt-3">
-                                <div class="card">
-                                    <h5 class="card-header">Cakupan Penelitian</h5>
-                                    <div class="card-body">
-                                        <p class="card-text">Kabupaten Malang</p>
-                                    </div>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Lokasi Penelitian</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/lokasi_penelitian.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -150,8 +154,8 @@
                             <div class="circle font-weight-bold">1</div>
                         </div>
                         <div class="col-6">
-                            <h5>Tahap I</h5>
-                            <h4>PPS WR</h4>
+                            <h5 class="fw-bold">Tahap I: Kecamatan</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">PPS WR</h4>
                             <p>size: jumlah objek wisata & akomodasi</>
                         </div>
                     </div>
@@ -170,8 +174,8 @@
                     <!--second section-->
                     <div class="row align-items-center justify-content-end how-it-works d-flex">
                         <div class="col-6 text-right">
-                            <h5>Tahap II</h5>
-                            <h4>PPS WR</h4>
+                            <h5 class="fw-bold">Tahap II: Blok Sensus</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">PPS WR</h4>
                             <p>size: jumlah usaha sektor pariwisata</p>
                         </div>
                         <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
@@ -196,9 +200,9 @@
                             <div class="circle font-weight-bold">3</div>
                         </div>
                         <div class="col-6">
-                            <h5>Tahap III</h5>
-                            <h4>Systematic Sampling</h4>
-                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
+                            <h5 class="fw-bold">Tahap III: Rumah Tangga</h5>
+                            <h4 class="badge badge-pill badge-primary metode text-light">Systematic Sampling</h4>
+                            <p style="max-width: 360px;">dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
                         </div>
                     </div>
                 </div>
@@ -210,76 +214,97 @@
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
-                        <h1 class="headline text-center">Ruang Lingkup Penelitian</h1>
+                        <h1 class="headline text-center">Ruang Lingkup</h1>
                     </div>
                 </div>
                 <div class="konten third5 par d-flex flex-row m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class=" col">
-                        <div class="row">
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#populasiModal">Populasi</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#poptarModal">Populasi Target</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitobsModal">Unit Observasi</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
+                    <div class="col">
+                        <div class="row align-items-center text-center">
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang pt-2">
-                                    <div class="row backrow">
-                                        <div class="col-2 sidebuttonl">
-                                            <button class="slideButton" onclick="plusDivs(-1)">&#10094;</button>
-                                        </div>
-                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
-                                            <p style="font-size: 22px;" class="mySlides text-white text-center">Unit Sampling</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal1">Primary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal2">Secondary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#unsampModal3">Ultimate</p>
-                                        </div>
-                                        <div class="col-2 sidebuttonr">
-                                            <button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
-                                        </div>
-                                    </div>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Populasi</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/populasi.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang">
-                                    <p style="font-size: 22px; cursor: pointer;" class="text-white" data-bs-toggle="modal" data-bs-target="#unitanaModal">Unit Analisis</p>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Populasi Target</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/populasi_target.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="ruang pt-2">
-                                    <div class="row backrow">
-                                        <div class="col-2 sidebuttonl">
-                                            <button class="slideButton" onclick="plusDivs2(-1)">&#10094;</button>
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Observasi</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/unit_observasi.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Sampling</strong></h5>
+                                  <div class="card-body text-center px-0" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <div class="col-1 sidebuttonl">
+                                          <button class="slideButton" style="color: #506396;" onclick="plusDivs(-1)">&#10094;</button>
                                         </div>
-                                        <div class="col-8 boxkerangka d-flex justify-content-center align-items-center">
-                                            <p style="font-size: 22px;" class="mySlides2 text-white text-center">Kerangka Sampel</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal1">Primary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal2">Secondary</p>
-                                            <p style="font-size: 20px; cursor: pointer;" class="mySlides2 text-white text-center resizefont" data-bs-toggle="modal" data-bs-target="#krsampModal3">Ultimate</p>
+                                        <div class="col d-flex px-0 justify-content-center align-items-center img-ruang">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_1.png') ?>" class="mySlides img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_2.png') ?>" class="mySlides img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_3.png') ?>" class="mySlides img-fluid">
                                         </div>
-                                        <div class="col-2 sidebuttonr">
-                                            <button class="slideButtonR" onclick="plusDivs2(1)">&#10095;</button>
+                                        <div class="col-1 sidebuttonr">
+                                            <button class="slideButtonR" style="color: #506396;" onclick="plusDivs(1)">&#10095;</button>
                                         </div>
-                                    </div>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px; height: 286px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Analisis</strong></h5>
+                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
+                                          <img src="<?= base_url('pvd/img/landingpage/riset3/unit_analisis.png') ?>" class="img-fluid">
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col align-items-center d-flex flex-column mt-3">
+                                <div class="card" style="border: 2px solid #506396; border-radius: 25px;">
+                                  <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Kerangka Sampel</strong></h5>
+                                  <div class="card-body text-center px-0" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <div class="col-1 sidebuttonl">
+                                          <button class="slideButton" style="color: #506396;" onclick="plusDivs2(-1)">&#10094;</button>
+                                        </div>
+                                        <div class="col d-flex px-0 justify-content-center align-items-center img-ruang">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_1.png') ?>" class="mySlides2 img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_2.png') ?>" class="mySlides2 img-fluid">
+                                              <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_3.png') ?>" class="mySlides2 img-fluid">
+                                        </div>
+                                        <div class="col-1 sidebuttonr">
+                                            <button class="slideButtonR" style="color: #506396;" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
+                <!-- <div class="modal fade" id="populasiModal" tabindex="-1" aria-labelledby="populasiModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-sm modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -411,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
         </section>
 
         <div class="">
@@ -559,26 +584,12 @@
                                         <div class="row">
                                             <div class="col-lg-6 grid stretch-card">
                                                 <div class="card" style="border: 0">
-                                                    <div class="card-body">
+                                                    <div class="card-body px-0">
                                                         <div class="chartBox">
                                                             <div>
                                                                 <p style="font-weight: bold;">Persamaan Regresi Logistik</p>
-                                                                <!-- <div>
-                                                                    <p>$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1X_1 + \ldots + \beta_nX_n$$</p>
-     
-                                                                 </div> -->
-                                                                 <div>
-                                                                    <p class="text-left" style="font-size: 12px;">
-                                                                    \begin{align*}
-                                                                        \ln\left(\frac{p_{i}}{1-p_{i}}\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^*\\
-                                                                        &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5)\\
-                                                                        &+ 0,347jk + 0,106didik - 0,021usia^*\\ 
-                                                                        &+ 0,437kawin + 0,319latih + 0,256umr\\ 
-                                                                        &+ 0,817geo^* + 0,850wil^*
-                                                                    \end{align*}
-                                                                    </p>
-                                                                 </div>
-                                                                 <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
+                                                                <div id="reglogContainer"></div>
+                                                                <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
                                                             <div>
                                                                 <p style="font-weight: bold;">Variabel yang signifikan</p>
@@ -596,8 +607,8 @@
                                             <div class="col-lg-6 grid stretch-card">
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body">
-                                                        <div class="chartBox">
-                                                            <p style="font-weight: bold;">Kerangka Pikir</p>
+                                                        <p style="font-weight: bold;">Kerangka Pikir</p>
+                                                        <div class="chartBox img-hasil">
                                                             <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkapikir_riset3.png') ?>" class="img-fluid" alt="">
                                                         </div>
                                                     </div>
@@ -687,5 +698,28 @@
 <!-- Rumus Reglog -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script>
+  function createMathJaxEquation(mathContainerId, equation) {
+    var script = document.createElement("script");
+    script.type = "math/tex; mode=display";
+    script.appendChild(document.createTextNode(equation));
+    var mathContainer = document.getElementById(mathContainerId);
+    mathContainer.appendChild(script);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, mathContainer]);
+  }
+  function createMathJaxEquationBasedOnWidth(mathContainerId, equationSmall, equationLarge) {
+    var windowWidth = window.innerWidth;
+
+    if (windowWidth <= 450) {
+      createMathJaxEquation(mathContainerId, equationSmall);
+    } else {
+      createMathJaxEquation(mathContainerId, equationLarge);
+    }
+  }
+  var equationSmall = "\\begin{align}\\ln&(\\frac{p_{i}}{1-p_{i}}) = -1,263 + 1,597ind(1)^* \\\\ &+ 1,750ind(2)^* + 0,648ind(3)^* \\\\ &- 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik \\\\ &- 0,021usia^* + 0,437kawin \\\\ &+ 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  var equationLarge = "\\begin{align}\\ln\\left(\\frac{p_{i}}{1-p_{i}}\\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^* \\\\ &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik - 0,021usia^* \\\\ &+ 0,437kawin + 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  createMathJaxEquationBasedOnWidth("reglogContainer", equationSmall, equationLarge);
+</script>
 
 <?= $this->endSection(); ?>

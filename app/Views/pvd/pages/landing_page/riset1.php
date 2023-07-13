@@ -13,25 +13,29 @@
                         Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata
                     </h5>
                     <p data-aos="fade-up" data-aos-delay="400" class="text-justify">
-                        Dalam bidang pariwisata, pemanfaatan <i>mobile positioning data</i> (MPD), yaitu
-                        salah satu jenis big data yang berisi data lokasi dari pengguna provider tertentu,
-                        menjadi salah satu opsi <i>official statistics</i> dalam mengestimasi statistik pariwisata
-                        untuk menggontikan survei konvensional yang membutuhkan waktu dan biaya yang tidak sedikit.
-                        Namun banyak keterbatasan dari MPD yang masih perlu dipertimbangkan untuk mendapatkan statistik
-                        yang akurat. Beberapa diantaranya adalah adanya kemungkinan seseorang memiliki lebih dari satu
-                        nomor
-                        HP dan belum tercakupnya penduduk yang belum memiliki HP seperti anak-anak di bawah 10 tahun.
-                        Pada penelitian ini,
-                        kami melakukan kajian pemanfaatan MPD untuk statistik pariwisata dengan tujuan memperbaiki
-                        cakupan MPD
-                        dengan menganalisis MPD dari beberapa nomor HP yang dimiliki orang yang sama dan MPD dciri
-                        beberapa nomor
-                        yang termasuk dalam satu keluarga.
-
+                        Dalam bidang pariwisata, pemanfaatan <i>Positioning Data</i> (MPD), yaitu suatu dataset berskala
+                        besar (<i>big data</i>) mengenai catatan transaksi dan lokasi dari operator seluler (<i>Mobile
+                            Network
+                            Operator</i>/MNO), menjadi salah satu opsi <i>official statistics</i> dalam mengestimasi
+                        statistik
+                        pariwisata untuk menggatikan survei konvensional yang memiliki kelemahan seperti bergantung pada
+                        daya ingat responden serta memiliki peluang terjadinya sampling & <i>non-sampling error</i>.
+                        Kelemahan
+                        survei konvensional tersebut membuat pengembangan MPD menjadi sebuah inovasi untuk mendapatkan
+                        data statistik yang akurat. Hal inilah yang menjadi latar belakang kami dalam melakukan
+                        pengembangan MPD dengan melakukan pembangunan algoritma <i>family grouping</i> dan <i>double
+                            counting</i>
+                        menggunakan data MPD yang sudah terlebih dahulu dipastikan kualitasnya melalui tahapan
+                        <i>quality
+                            assurance</i>. Berangkat dari sana, untuk melengkapi karakteristik wisatawan nusantara yang
+                        tidak
+                        bisa didapatkan melalui data MPD, penelitian ini juga melakukan survei konvensional di Kota
+                        Malang dengan <i>time reference</i> triwulan IV tahun 2022.
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
-                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>" class="tombol btn-for text-decoration-none">
+                            <a id="tombol" href="<?= base_url('hasil-pkl/riset1/dasbor') ?>"
+                                class="tombol btn-for text-decoration-none">
                                 <span>Hasil PKL</span>
                                 <i class="fas fa-arrow-circle-right"></i>
                             </a>
@@ -54,54 +58,67 @@
                         <h1 class="headline text-center pt-5">Latar Belakang</h1>
                     </div>
                 </div>
-                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 shadow box par m-auto p-4 p-md-5 mt-4" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <p class="text-justify">
-                        Terdapat sebuah fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan
-                        wisata sebagian besar melakukan perjalanan wisata bersama keluarga atau kerabat terdekatnya
-                        (Koranti, Sriyanto & Sidik, 2017). Hal ini penting untuk dianalisis apakah untuk menentukan
-                        seseorang termasuk ke dalam satu keluarga dapat diidentifikasi berdasarkan usual environment
-                        dan
-                        pola perjalanan wisata yang dilakukan melalui MPD.
-                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Sebagai salah satu sumber big data, MPD juga memiliki masalah terkait karakteristik
+                        <i>veracity</i>,
+                        yaitu perihal kualitas, keakuratan dan ketidakpastian data. Oleh karena itu penting untuk
+                        memeriksa apakah data MPD memiliki kualitas yang cukup baik dan dapat digunakan untuk pemrosesan
+                        analisis lebih lanjut dengan melakukan penjaminan kualitas (<i>Quality Assurance</i>).
+                        <a id="latarBelakangAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;"
+                            class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                            aria-expanded="false" aria-controls="collapseExample">
                             [<strong><i>Tampilkan Semua</i></strong>]
                         </a>
                     </p>
                     <div class="collapse" id="collapseExample">
                         <p class="text-justify">
-                            Setiap operator baik Telkomsel maupun Indosat memungkinkan mempunyai hasil mobile
-                            positioning
-                            berbeda satu sama lain, bahkan juga di operator itu sendiri meskipun orang tersebut berada
-                            di lokasi
-                            dan waktu yang sama. Penyebabnya adalah jarak tower seluler (BTS) tiap operator dan
-                            aktivitas
-                            seluler masing-masing pengguna berpengaruh, sehingga data mobile positioning yang dihasilkan
-                            tidak
-                            sama. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel sebagai penentu
-                            mobile
-                            positioning, wisatawan tersebut akan terhitung sebanyak dua kali sehingga seolah-olah kedua
-                            nomor
-                            tersebut dimiliki oleh dua orang yang berbeda, atau dengan kata lain terjadi double counting
-                            pada data MPD.
+                            Menurut data BPS pada tahun 2022, proporsi individu yang memiliki telepon genggam pada
+                            kelompok umur kurang dari 15 tahun adalah sekitar 40,25%. Sementara pada kelompok umur 15-24
+                            tahun sebesar 91,82 % dan umur 25-64 tahun sebesar 74,09 %. Di sisi lain, sebanyak 27,46%
+                            individu dengan umur lebih dari 65 tahun memiliki telepon genggam. Statistik ini menunjukkan
+                            bahwa tidak semua penduduk memiliki telepon genggam. Jika perjalanan wisata dihitung
+                            menggunakan MPD, perjalanan individu yang tidak memiliki telepon genggam tidak dapat
+                            direkam. Pendekatan lain yang dapat dilakukan adalah dengan mengestimasi perjalanan wisata
+                            yang dilakukan bersama orang terdekatnya, seperti keluarga. Hal ini sejalan dengan sebuah
+                            fenomena yang cukup sering ditemui, dimana seseorang yang melakukan perjalanan wisata
+                            sebagian besar melakukan perjalanan wisatanya bersama keluarga atau kerabat terdekatnya
+                            (Koranti, Sriyanto & Sidik, 2017). Oleh karena itu, penentuan individu ke dalam suatu
+                            keluarga (<i>family grouping</i>) berdasarkan <i>usual environment</i> dan pola perjalanan
+                            menggunakan MPD
+                            menarik untuk dilakukan.
+                        </p>
+                        <p class="text-justify">
+                            Dalam menganalisis dan mendapatkan jumlah perjalanan wisata dengan MPD, terdapat sebuah
+                            tantangan yaitu data <i>mobile positioning</i> seseorang yang dihasilkan oleh operator dapat
+                            berbeda meskipun orang tersebut berada di lokasi dan waktu yang sama. Hal ini dipengaruhi
+                            oleh jangkauan dan lokasi tower seluler (BTS) tiap operator serta aktivitas seluler untuk
+                            nomor masing-masing. Jika seorang wisatawan menggunakan dua nomor berbeda dalam satu ponsel
+                            sebagai penentu <i>mobile positioning</i>, wisatawan tersebut akan terhitung sebanyak dua
+                            kali.
+                            Selain itu, jumlah perjalanan wisata yang dilakukan wisatawan tersebut juga akan terhitung
+                            sebanyak dua kali. Hal inilah yang kemudian disebut dengan <i>double counting</i> pada data
+                            MPD.
+                            Untuk mengatasi hal ini, diperlukan metode atau penanganan terhadap data MPD yang sebenarnya
+                            merepresentasikan satu individu namun seolah-olah terhitung layaknya dua individu (<i>double
+                                counting</i>), sehingga data MPD tersebut dapat menentukan posisi dan aktivitas
+                            wisatawan secara
+                            akurat untuk kepentingan lebih lanjut.
                         </p>
                         <p class="text-justify">
                             Dibalik kelebihan yang ditawarkannya, MPD juga memiliki kelemahan dalam mengumpulkan data
-                            wisatawan.
-                            Salah satunya adalah informasi mengenai karakteristik pengguna tidak dapat diperoleh jika
-                            hanya
-                            menggunakan MPD tanpa melakukan survei. Hal ini diperkuat juga dengan sulitnya mengestimasi
-                            jumlah
-                            perjalanan wisata di dalam kabupaten/kota (setingkat kecamatan) yang disebabkan tidak
-                            meratanya
-                            ketersediaan Base Transceiver Station (BTS) di setiap kecamatan di Indonesia. Apabila data
-                            wisata
-                            dalam kabupaten/kota ini tidak tertangkap, kekurangan data wisatawan akan terjadi. Selain
-                            itu, MPD
-                            juga tidak bisa menangkap jumlah perjalanan wisata yang tidak melibatkan penggunaan telepon
-                            seluler.
-                            Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat dibutuhkannya data wisata
-                            yang
-                            komprehensif dalam hal pengembangan wisata guna memulihkan sektor pariwisata.
-                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            wisatawan. Salah satunya adalah informasi mengenai karakteristik pengguna tidak dapat
+                            diperoleh jika hanya menggunakan MPD tanpa melakukan survei (Ahas et al., 2009). Selain itu,
+                            MPD juga tidak bisa menangkap jumlah perjalanan wisata yang tidak melibatkan penggunaan
+                            telepon seluler. Beberapa kekurangan MPD tersebut menjadi cukup merugikan mengingat data
+                            wisata yang komprehensif dibutuhkan dalam hal pengembangan wisata guna memulihkan sektor
+                            pariwisata. Oleh karena itu, diperlukan pengumpulan data lain untuk melengkapi data
+                            wisatawan nusantara yang belum mampu dihasilkan oleh pendekatan MPD melalui survei
+                            konvensional.
+                            <a id="latarBelakangBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;"
+                                class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                                aria-expanded="false" aria-controls="collapseExample">
                                 [<strong><i>Tampilkan Sebagian</i></strong>]
                             </a>
                         </p>
@@ -118,19 +135,24 @@
                         <h1 class="headline text-center">Tujuan Penelitian</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                    data-aos="zoom-in" data-aos-duration="1000">
                     <ol class="text-justify">
-                        <li>Membangun metode untuk mengelompokkan individu yang termasuk dalam satu rumah tangga
-                            berdasarkan
-                            usual environment dan pola perjalanan wisata (family grouping).
+                        <li>Menerapkan penjaminan kualitas (<i>quality assurance</i>) <i>Mobile Positioning Data</i>
+                            (MPD) yang
+                            dihasilkan dari nomor-nomor relawan.
                         </li>
-                        <li>Membangun metode untuk mengidentifikasi double counting berdasarkan pola perjalanan individu
-                            yang menggunakan lebih dari satu nomor Telkomsel dan/atau Indosat berbeda dalam satu
-                            perangkat.
+                        <li>Membangun algoritma untuk mengelompokkan individu yang termasuk dalam satu keluarga
+                            berdasarkan <i>usual environment</i> dan pola perjalanan wisata (<i>family grouping</i>).
                         </li>
-                        <li>Menyajikan statistik wisatawan nusantara melalui pendekatan Mobile Positioning Data (MPD)
-                            dan
-                            survei konvensional di Kota Malang tahun 2022.
+                        <li>Membangun algoritma untuk mengidentifikasi <i>double counting</i> berdasarkan pola
+                            perjalanan
+                            individu yang menggunakan lebih dari satu nomor Telkomsel dan/atau Indosat berbeda dalam
+                            satu perangkat.
+                        </li>
+                        <li>Menyajikan statistik wisatawan nusantara melalui pendekatan <i>Mobile Positioning Data</i>
+                            (MPD)
+                            dan survei konvensional di Kota Malang selama Triwulan IV 2022.
                         </li>
                     </ol>
                 </div>
@@ -202,10 +224,14 @@
                 </div>
                 <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill" data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer" aria-selected="true">Kota Surabaya</button>
+                        <button class="nav-link pills-button shadow active" id="pills-primer-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-primer" type="button" role="tab" aria-controls="pills-primer"
+                            aria-selected="true">Survei Kajian MPD</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill" data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder" aria-selected="false">Kota Malang</button>
+                        <button class="nav-link pills-button shadow" id="pills-sekunder-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-sekunder" type="button" role="tab" aria-controls="pills-sekunder"
+                            aria-selected="false">Survei Wisatawan Nusantara</button>
                     </li>
                 </ul>
 
@@ -213,7 +239,8 @@
                 <div class="tab-content" id="pills-tabContent">
 
                     <!-- Kota Surabaya -->
-                    <div class="tab-pane fade show active" id="pills-primer" role="tabpanel" aria-labelledby="pills-primer-tab">
+                    <div class="tab-pane fade show active" id="pills-primer" role="tabpanel"
+                        aria-labelledby="pills-primer-tab">
 
 
 
@@ -295,33 +322,36 @@
                             </button>
                         </div> -->
 
-                        <!-- Metodologi (Tujuan 1 dan Tujuan 2 Data training) -->
+                        <!-- Cakupan Penelitian -->
 
-                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;"
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <p>
-                                <b>Tujuan 1 Dan Tujuan 2 (Data Training) </b>
+                                <b>Cakupan Penelitian</b>
                             </p>
                             <div id="carouselKontenMetodologi" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <!-- Populasi -->
                                     <div class="carousel-item active">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-users col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/populasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi dari penelitian ini adalah seluruh mahasiswa
-                                                    Tingkat III
-                                                    Politeknik Statistika STIS Tahun Akademik 2022/2023, seluruh
-                                                    mahasiswa
-                                                    Politeknik Statistika STIS Tahun Akademik 2022/2023 yang
-                                                    berdomisili di
-                                                    Jakarta (selain Tingkat III), dan seluruh dosen Politeknik
-                                                    Statistika
-                                                    STIS beserta anggota keluarganya.
+                                                    Populasi dari penelitian ini adalah seluruh pegawai BPS Kota
+                                                    Surabaya, pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III
+                                                    Tahun Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa
+                                                    selain Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya.
                                                 </div>
                                                 </p>
                                             </div>
@@ -330,26 +360,26 @@
 
                                     <!-- Populasi Target -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-street-view col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/populasi_target.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Target</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi target dari penelitian ini adalah seluruh mahasiswa
-                                                    Tingkat III
-                                                    Prodi D-IV Politeknik Statistika STIS Tahun Akademik
-                                                    2022/2023, seluruh
-                                                    mahasiswa Politeknik Statistika STIS Tahun Akademik
-                                                    2022/2023 yang
-                                                    berdomisili di Jakarta (selain Tingkat III), dan seluruh
-                                                    dosen
-                                                    Politeknik Statistika STIS beserta anggota keluarganya yang
-                                                    pernah
-                                                    melakukan perjalanan wisata nusantara dalam satu tahun
-                                                    terakhir.
+                                                    Populasi target dari penelitian ini adalah seluruh pegawai BPS Kota
+                                                    Surabaya, pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III
+                                                    Tahun Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa
+                                                    selain Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya yang pernah melakukan perjalanan wisata nusantara dalam
+                                                    satu tahun terakhir.
                                                 </div>
                                                 </p>
                                             </div>
@@ -358,26 +388,26 @@
 
                                     <!-- Populasi Survei -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-friends col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset2/populasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Survei</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi dari penelitian ini adalah seluruh mahasiswa
-                                                    Tingkat III Prodi
-                                                    D-IV Politeknik Statistika STIS Tahun Akademik 2022/2023,
-                                                    seluruh
-                                                    mahasiswa Politeknik Statistika STIS Tahun Akademik
-                                                    2022/2023 yang
-                                                    berdomisili di Jakarta (selain Tingkat III), dan seluruh
-                                                    dosen
-                                                    Politeknik Statistika STIS beserta anggota keluarganya yang
-                                                    pernah
-                                                    melakukan perjalanan wisata nusantara dalam satu tahun
-                                                    terakhir.
+                                                    Populasi dari penelitian ini adalah seluruh pegawai BPS Kota
+                                                    Surabaya, pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III
+                                                    Tahun Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa
+                                                    selain Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya yang pernah melakukan perjalanan wisata nusantara dalam
+                                                    satu tahun terakhir.
                                                 </div>
                                                 </p>
                                             </div>
@@ -386,27 +416,26 @@
 
                                     <!-- Unit Observasi -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_observasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Observasi</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Unit observasi dari penelitian ini adalah mahasiswa Tingkat
-                                                    III Prodi
-                                                    D-IV Politeknik Statistika STIS Tahun Akademik 2022/2023,
-                                                    mahasiswa
-                                                    Politeknik Statistika STIS Tahun Akademik 2022/2023 yang
-                                                    berdomisili di
-                                                    Jakarta (selain Tingkat III), dan dosen Politeknik
-                                                    Statistika STIS
-                                                    beserta anggota keluarganya yang menggunakan provider
-                                                    Telkomsel dan atau
-                                                    Indosat 2 tahun terakhir serta bersedia datanya digunakan
-                                                    untuk
-                                                    penelitian.
+                                                    Unit observasi dari penelitian ini adalah pegawai BPS Kota Surabaya,
+                                                    pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III Tahun
+                                                    Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa selain
+                                                    Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya yang menggunakan provider Telkomsel dan atau Indosat 2
+                                                    tahun terakhir serta bersedia datanya digunakan untuk penelitian.
                                                 </div>
                                                 </p>
                                             </div>
@@ -415,27 +444,26 @@
 
                                     <!-- Unit Sampling-->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-home col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_sampling.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Sampling</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Unit sampling dari penelitian ini adalah mahasiswa Tingkat
-                                                    III Prodi
-                                                    D-IV Politeknik Statistika STIS Tahun Akademik 2022/2023,
-                                                    mahasiswa
-                                                    Politeknik Statistika STIS Tahun Akademik 2022/2023 yang
-                                                    berdomisili di
-                                                    Jakarta (selain Tingkat III), dan dosen Politeknik
-                                                    Statistika STIS
-                                                    beserta anggota keluarganya yang menggunakan provider
-                                                    Telkomsel dan atau
-                                                    Indosat 2 tahun terakhir serta bersedia datanya digunakan
-                                                    untuk
-                                                    penelitian.
+                                                    Unit sampling dari penelitian ini adalah pegawai BPS Kota Surabaya,
+                                                    pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III Tahun
+                                                    Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa selain
+                                                    Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya yang menggunakan provider Telkomsel dan atau Indosat 2
+                                                    tahun terakhir serta bersedia datanya digunakan untuk penelitian.
                                                 </div>
                                                 </p>
                                             </div>
@@ -444,29 +472,27 @@
 
                                     <!-- Unit Analisis -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-check col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_analisis.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Analisis</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Unit analisis dari penelitian ini adalah mahasiswa Tingkat
-                                                    III Prodi
-                                                    D-IV Politeknik Statistika STIS Tahun Akademik 2022/2023,
-                                                    mahasiswa
-                                                    Politeknik Statistika STIS Tahun Akademik 2022/2023 yang
-                                                    berdomisili di
-                                                    Jakarta (selain Tingkat III), dan dosen Politeknik
-                                                    Statistika STIS
-                                                    beserta anggota keluarganya yang pernah melakukan perjalanan
-                                                    wisata
-                                                    nusantara setahun terakhir yang menggunakan provider
-                                                    Telkomsel dan atau
-                                                    Indosat 2 tahun terakhir serta bersedia datanya digunakan
-                                                    untuk
-                                                    penelitian.
+                                                    Unit analisis dari penelitian ini adalah pegawai BPS Kota Surabaya,
+                                                    pegawai BPS Provinsi Jawa Timur, mahasiswa Tingkat III Tahun
+                                                    Akademik 2022/2023 Politeknik Statistika STIS, mahasiswa selain
+                                                    Tingkat III (Tingkat I, II, dan IV) Tahun Akademik 2022/2023
+                                                    Politeknik Statistika STIS yang berdomisili DKI Jakarta dan Jawa
+                                                    Timur, serta dosen Politeknik Statistika STIS beserta anggota rumah
+                                                    tangganya yang pernah melakukan perjalanan wisata nusantara setahun
+                                                    terakhir yang menggunakan provider Telkomsel dan atau Indosat 2
+                                                    tahun terakhir serta bersedia datanya digunakan untuk penelitian.
                                                 </div>
                                                 </p>
                                             </div>
@@ -475,23 +501,22 @@
 
                                     <!-- Kerangka Sampel -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/kerangka_sampel.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Kerangka Sampel</strong>
                                                 </h5>
                                                 <p class="card-text text-justify">
                                                 <div class="text-justify" style="line-height: 25px;">
-                                                    Kerangka sampel dari penelitian ini adalah daftar mahasiswa
-                                                    Tingkat III
-                                                    Prodi D-IV Politeknik Statistika STIS Tahun Akademik
-                                                    2022/2023, daftar
-                                                    mahasiswa Politeknik Statistika STIS Tahun Akademik
-                                                    2022/2023 yang
-                                                    berdomisili di Jakarta (selain Tingkat III), dan daftar
-                                                    dosen Politeknik
-                                                    Statistika STIS.
+                                                    Kerangka sampel dari penelitian ini adalah daftar pegawai BPS Kota
+                                                    Surabaya, Provinsi Jawa Timur pada tahun 2022, daftar pegawai BPS
+                                                    Provinsi Jawa Timur pada tahun 2022, daftar mahasiswa Politeknik
+                                                    Statistika STIS, dan daftar dosen Politeknik Statistika STIS.
                                                 </div>
                                                 </p>
                                             </div>
@@ -500,12 +525,14 @@
                                 </div>
                             </div>
 
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi" data-bs-slide="prev" style="width: 5%;">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselKontenMetodologi" data-bs-slide="prev" style="width: 5%;">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi" data-bs-slide="next" style="width: 5%;">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselKontenMetodologi" data-bs-slide="next" style="width: 5%;">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -660,209 +687,6 @@
                                     </div> -->
                         <!-- </div> -->
 
-                        <!-- Metodologi (Tujuan 1 dan Tujuan 2 Data Testing) -->
-                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
-                            <p>
-                                <b>Tujuan 1 Dan Tujuan 2 (Data Testing) </b>
-                            </p>
-                            <div id="carouselKontenMetodologi2" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <!-- Populasi -->
-                                    <div class="carousel-item active">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-users col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Populasi</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi dari penelitian ini adalah seluruh pegawai BPS Kota
-                                                    Surabaya,
-                                                    pegawai BPS Provinsi Jawa Timur, dan mahasiswa Politeknik
-                                                    Statistika
-                                                    STIS yang berdomisili di Provinsi Jawa Timur (selain Tingkat
-                                                    III)
-                                                    beserta anggota rumah tangganya.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Populasi Target -->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-street-view col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Populasi Target</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi target dari penelitian ini adalah seluruh pegawai
-                                                    BPS Kota
-                                                    Surabaya, pegawai BPS Provinsi Jawa Timur, dan mahasiswa
-                                                    Politeknik
-                                                    Statistika STIS yang berdomisili di Provinsi Jawa Timur
-                                                    (selain Tingkat
-                                                    III) beserta anggota rumah tangganya yang pernah melakukan
-                                                    perjalanan
-                                                    wisata nusantara dalam satu tahun terakhir.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Populasi Survei -->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-user-friends col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Populasi Survei</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Populasi dari penelitian ini adalah seluruh pegawai BPS Kota
-                                                    Surabaya,
-                                                    pegawai BPS Provinsi Jawa Timur, dan mahasiswa Politeknik
-                                                    Statistika
-                                                    STIS yang berdomisili di Provinsi Jawa Timur (selain Tingkat
-                                                    III)
-                                                    beserta anggota rumah tangganya yang pernah melakukan
-                                                    perjalanan wisata
-                                                    nusantara dalam satu tahun terakhir.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Unit Observasi -->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-user-alt col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Unit Observasi</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Unit observasi dari penelitian ini adalah pegawai BPS Kota
-                                                    Surabaya,
-                                                    pegawai BPS Provinsi Jawa Timur, dan mahasiswa Politeknik
-                                                    Statistika
-                                                    STIS yang berdomisili di Provinsi Jawa Timur (selain Tingkat
-                                                    III)
-                                                    beserta anggota rumah tangganya yang menggunakan provider
-                                                    Telkomsel atau
-                                                    Indosat 2 tahun terakhir serta bersedia datanya digunakan
-                                                    untuk
-                                                    penelitian.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Unit Sampling-->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-home col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Unit Sampling</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Unit sampling dari penelitian ini adalah pegawai BPS Kota
-                                                    Surabaya,
-                                                    pegawai BPS Provinsi Jawa Timur, dan mahasiswa Politeknik
-                                                    Statistika
-                                                    STIS yang berdomisili di Provinsi Jawa Timur (selain Tingkat
-                                                    III)
-                                                    beserta anggota rumah tangganya yang menggunakan provider
-                                                    Telkomsel atau
-                                                    Indosat 2 tahun terakhir serta bersedia datanya digunakan
-                                                    untuk
-                                                    penelitian.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Unit Analisis -->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-user-check col-1 ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Unit Analisis</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Unit analisis dari penelitian ini adalah pegawai BPS Kota
-                                                    Surabaya,
-                                                    pegawai BPS Provinsi Jawa Timur, dan mahasiswa Politeknik
-                                                    Statistika
-                                                    STIS yang berdomisili di Provinsi Jawa Timur (selain Tingkat
-                                                    III)
-                                                    beserta anggota rumah tangganya yang pernah melakukan
-                                                    perjalanan wisata
-                                                    nusantara dalam satu tahun terakhir yang menggunakan
-                                                    provider Telkomsel
-                                                    atau Indosat 2 tahun terakhir serta bersedia datanya
-                                                    digunakan untuk
-                                                    penelitian.
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Kerangka Sampel -->
-                                    <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
-                                            <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
-                                                <h5 class="card-title text-center" style="line-height: 20px;">
-                                                    <strong>Kerangka Sampel</strong>
-                                                </h5>
-                                                <p class="card-text text-justify">
-                                                <div class="text-justify" style="line-height: 25px;">
-                                                    Kerangka sampel dari penelitian ini adalah daftar pegawai
-                                                    BPS Kota
-                                                    Surabaya, Provinsi Jawa Timur pada tahun 2022, daftar
-                                                    pegawai BPS
-                                                    Provinsi Jawa Timur pada tahun 2022, dan daftar mahasiswa
-                                                    Politeknik
-                                                    Statistika STIS yang berdomisili di Provinsi Jawa Timur
-                                                    (selain Tingkat
-                                                    III).
-                                                </div>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi2" data-bs-slide="prev" style="width: 5%;">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi2" data-bs-slide="next" style="width: 5%;">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-
-
-
                         <!-- Batas Metodologi (Tujuan 1 dan Tujuan 2 Data testing) -->
                         <!-- <section class="offset-header">
                             <div class="container-fluid turun">
@@ -1013,46 +837,70 @@
                             </div>
                         </section> -->
 
-                        <!-- Desain Sampling Tujuan 1 dan Tujuan 2 -->
-                        <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                            <p>
-                                <b>Desain Sampling Tujuan 1 dan Tujuan 2</b>
-                            </p>
-                            <p class="text-justify">
-                                Metode penarikan sampel yang digunakan adalah
-                                <i>Judgment (Purposive) Sampling</i>.
-                                <i>Judgment (Purposive) Sampling</i>
-                                adalah metodologi pengambilan sampel secara acak dimana kelompok sampel yang
-                                ditargetkan memiliki atribut-atribut tertentu. Metode ini dapat digunakan pada
-                                banyak populasi, tetapi lebih efektif dengan ukuran sampel yang lebih kecil dan
-                                populasi yang lebih homogen. Cara yang dilakukan pada
-                                <i><b>Judgment (Purposive) Sampling</b></i>
-                                penelitian ini adalah pengambilan sampel yang homogen. Dengan sampling homogen,
-                                sekelompok orang dengan usia, jenis kelamin, latar belakang, atau pekerjaan yang
-                                sama akan dipilih. Pada penelitian ini, dipilih sampel dengan pekerjaan yang
-                                sama, yaitu orang yang bekerja di BPS Kota Surabaya dan BPS Provinsi Jawa Timur,
-                                dan sampel dengan latar belakang yang sama, yaitu orang yang sedang berkuliah di
-                                Politeknik Statistika STIS.
-                            </p>
+                        <!-- Desain Sampling-->
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;"
+                            data-aos="zoom-in" data-aos-duration="1000">
+                            <div
+                                class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                <div class="card-body text-center">
+                                    <!-- <i class="fas fa-cubes ikon"></i> -->
+                                    <div class="row-6 d-flex align-items-center justify-content-center">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset2/metode_penarikan_sampel.png') ?>"
+                                            class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                    </div>
+                                    <h5 class="card-title text-center" style="line-height: 20px;"><strong>Desain
+                                            Sampling</strong></h5>
+                                    <p class="card-text text-center">
+                                    <div class="text-justify" style="line-height: 25px;">
+                                        Metode penarikan sampel yang digunakan adalah <i>Judgment (Purposive)
+                                            Sampling</i>. <i>Judgment (Purposive) Sampling</i> adalah metodologi
+                                        pengambilan
+                                        sampel secara acak dimana kelompok sampel yang ditargetkan memiliki
+                                        atribut-atribut
+                                        tertentu. Metode ini dapat digunakan pada banyak populasi, tetapi lebih efektif
+                                        dengan
+                                        ukuran sampel yang lebih kecil dan populasi yang lebih homogen. Cara yang
+                                        dilakukan
+                                        pada
+                                        <i><b>Judgment (Purposive) Sampling</b></i> penelitian ini adalah pengambilan
+                                        sampel
+                                        yang homogen. Dengan sampling homogen, sekelompok orang dengan usia, jenis
+                                        kelamin,
+                                        latar belakang, atau pekerjaan yang sama akan dipilih. Pada penelitian ini,
+                                        dipilih
+                                        sampel dengan pekerjaan yang sama, yaitu orang yang bekerja di BPS Kota Surabaya
+                                        dan
+                                        BPS
+                                        Provinsi Jawa Timur, dan sampel dengan latar belakang yang sama, yaitu orang
+                                        yang
+                                        sedang
+                                        berkuliah di Politeknik Statistika STIS.
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-
-
                     </div>
 
                     <!-- Kota Malang -->
                     <div class="tab-pane fade" id="pills-sekunder" role="tabpanel" aria-labelledby="pills-sekunder-tab">
-                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;"
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <p>
-                                <b>Tujuan 3</b>
+                                <b>Cakupan Penelitian</b>
                             </p>
                             <div id="carouselKontenMetodologi3" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
 
                                     <!-- Populasi -->
                                     <div class="carousel-item active">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-users col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/populasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi</strong>
                                                 </h5>
@@ -1069,9 +917,13 @@
 
                                     <!-- Populasi Target -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-street-view col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/populasi_target.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Target</strong>
                                                 </h5>
@@ -1091,9 +943,13 @@
 
                                     <!-- Populasi Survei -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-friends col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/populasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Populasi Survei</strong>
                                                 </h5>
@@ -1112,9 +968,13 @@
 
                                     <!-- Unit Observasi -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-alt col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_observasi.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Observasi</strong>
                                                 </h5>
@@ -1133,9 +993,13 @@
 
                                     <!-- Unit Sampling-->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-home col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_sampling.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Sampling</strong>
                                                 </h5>
@@ -1154,9 +1018,13 @@
 
                                     <!-- Unit Analisis -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-user-check col-1 ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/unit_analisis.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Unit Analisis</strong>
                                                 </h5>
@@ -1175,9 +1043,13 @@
 
                                     <!-- Kerangka Sampel -->
                                     <div class="carousel-item">
-                                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                                        <div
+                                            class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 w-100 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                             <div class="card-body text-center">
-                                                <i class="fas fa-clipboard-list ikon"></i>
+                                                <div class="row-6 d-flex align-items-center justify-content-center">
+                                                    <img src="<?= base_url('pvd/img/landingpage/riset1/kerangka_sampel.png') ?>"
+                                                        class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                </div>
                                                 <h5 class="card-title text-center" style="line-height: 20px;">
                                                     <strong>Kerangka Sampel</strong>
                                                 </h5>
@@ -1191,15 +1063,60 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row justify-content-center">
+                                            <!-- Primary Sampling Unit -->
+                                            <div class="col-5 align-items-center d-flex align-self-center">
+                                                <div class="card-body text-center batasan2 shadow">
+                                                    <div class="row-6 d-flex align-items-center justify-content-center">
+                                                        <img src="<?= base_url('pvd/img/landingpage/riset1/primary_sampling_unit.png') ?>"
+                                                            class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="card-title text-center">
+                                                        <div style="line-height: 20px; color: #4b395f;"><strong>Primary
+                                                                Sampling Unit</strong></div>
+                                                        <div class="angka">347</div>
+                                                        <div style="line-height: 20px;">Blok Sensus</div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Secondary Sampling Unit -->
+                                            <div class="col-5 align-items-center d-flex align-self-center">
+                                                <div class="card-body text-center batasan2 shadow">
+                                                    <div class="row-6 d-flex align-items-center justify-content-center">
+                                                        <img src="<?= base_url('pvd/img/landingpage/riset1/secondary_sampling_unit.png') ?>"
+                                                            class="img-fluid" alt="" style="height: 50px; width:auto;">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="card-title text-center">
+                                                        <div style="line-height: 20px; color: #4b395f;">
+                                                            <strong>Secondary
+                                                                Sampling Unit</strong>
+                                                        </div>
+                                                        <div class="angka">10</div>
+                                                        <div style="line-height: 20px;">Rumah Tangga</div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="prev" style="width: 5%;">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselKontenMetodologi3" data-bs-slide="prev" style="width: 5%;">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselKontenMetodologi3" data-bs-slide="next" style="width: 5%;">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselKontenMetodologi3" data-bs-slide="next" style="width: 5%;">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -1334,17 +1251,21 @@
 
 
                         <!-- Desain Sampling Tujuan 3 -->
-                        <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="konten third5 par m-auto p-4 p-md-5 shadow box" style="line-height: 30px;"
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <!-- DESAIN SAMPLING -->
                             <p>
-                                <b>Desain Sampling Tujuan 3</b>
+                                <b>Desain Sampling</b>
                             </p>
 
                             <p class="text-justify">
                             <div class="d-flex flex-row justify-content-center align-items-center">
                                 <div class="text-center text-lg-start">
                                     <a class="bagan text-decoration-none">
-                                        <img style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#baganSkema" src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>" class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
+                                        <img style="cursor: pointer;" data-bs-toggle="modal"
+                                            data-bs-target="#baganSkema"
+                                            src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>"
+                                            class="img-fluid rounded-3 w-75 mx-auto d-block" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -1361,7 +1282,7 @@
                                     dengan Multistage Random Sampling:</p>
                                 <ul class="text-justify">
                                     <li>
-                                        Tahap Pertama: Melakukan pemilihan n blok sensus (BS) dari semua
+                                        <b>Tahap Pertama</b> : Melakukan pemilihan n blok sensus (BS) dari semua
                                         kecamatan
                                         secara Probability Proportional to Size (PPS WR-Systematic) dengan
                                         size
@@ -1371,7 +1292,7 @@
                                         Penduduk 2020.
                                     </li>
                                     <li>
-                                        Tahap Kedua: Melakukan pemilihan n rumah tangga dari blok sensus
+                                        <b>Tahap Kedua</b> : Melakukan pemilihan n rumah tangga dari blok sensus
                                         (BS)
                                         terpilih secara Systematic Sampling dengan variabel dasar pengurutan
                                         jumlah
@@ -1384,33 +1305,37 @@
                         </div>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="baganSkema" tabindex="-1" aria-labelledby="baganModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="baganSkema" tabindex="-1" aria-labelledby="baganModalLabel"
+                            aria-hidden="true">
                             <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="baganModalLabel">Skema Sampling
                                         </h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>" class="img-fluid" alt="">
+                                        <img src="<?= base_url('pvd/img/landingpage/riset1/bagan_riset1.png') ?>"
+                                            class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Cakupan Penelitian -->
-                        <div class="konten third5 par mt-3 mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
-                            <!-- DESAIN SAMPLING -->
-                            <p>
+                        <!-- <div class="konten third5 par mt-3 mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;"
+                            data-aos="zoom-in" data-aos-duration="1000">
+                            <-- DESAIN SAMPLING -->
+                        <!-- <p>
                                 <b>Cakupan Penelitian</b>
-                            </p>
+                            </p> -->
 
-                            <!-- Primary & Secondary Sampling Unit -->
-                            <div class="col">
-                                <!-- <div class="row"> -->
-                                <!-- Populasi -->
-                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                        <!-- Primary & Secondary Sampling Unit -->
+                        <!-- <div class="col"> -->
+                        <!-- <div class="row"> -->
+                        <!-- Populasi -->
+                        <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-users col-1 ikon"></i>
                                         <div class="col">
@@ -1423,8 +1348,8 @@
                                     </div>
                                 </div> -->
 
-                                <!-- Populasi Target -->
-                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                        <!-- Populasi Target -->
+                        <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-friends col-1 ikon"></i>
                                         <div class="col">
@@ -1437,8 +1362,8 @@
                                     </div>
                                 </div> -->
 
-                                <!-- Unit Observasi -->
-                                <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                        <!-- Unit Observasi -->
+                        <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-alt col-1 ikon"></i>
                                         <div class="col">
@@ -1449,11 +1374,11 @@
                                         </div>
                                     </div>
                                 </div> -->
-                                <!-- </div> -->
+                        <!-- </div> -->
 
-                                <div class="row justify-content-center">
-                                    <!-- Primary Sampling Unit -->
-                                    <div class="col-5 align-items-center d-flex align-self-center">
+                        <!-- <div class="row justify-content-center"> -->
+                        <!-- Primary Sampling Unit -->
+                        <!-- <div class="col-5 align-items-center d-flex align-self-center">
                                         <div class="card-body text-center batasan2 shadow">
                                             <i class="fas fa-home col-1 ikon"></i>
                                             <div class="col">
@@ -1465,10 +1390,10 @@
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Secondary Sampling Unit -->
-                                    <div class="col-5 align-items-center d-flex align-self-center">
+                        <!-- Secondary Sampling Unit -->
+                        <!-- <div class="col-5 align-items-center d-flex align-self-center">
                                         <div class="card-body text-center batasan2 shadow">
                                             <i class="fas fa-city col-1 ikon"></i>
                                             <div class="col">
@@ -1480,10 +1405,10 @@
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <!-- Unit Analisis -->
-                                    <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
+                        <!-- Unit Analisis -->
+                        <!-- <div class="col-lg-4 align-items-center d-flex flex-column mt-3">
                                     <div class="card-body text-center batasan2 shadow">
                                         <i class="fas fa-user-alt col-1 ikon"></i>
                                         <div class="col">
@@ -1495,11 +1420,12 @@
                                         </div>
                                     </div>
                                 </div> -->
-                                </div>
-                            </div>
+                        <!-- </div>
+                            </div> -->
 
-                            <!-- Metode Penarikan Sampel -->
-                            <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <!-- Metode Penarikan Sampel -->
+                        <!-- <div
+                                class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
                                 <div class="card-body text-center">
                                     <i class="fas fa-cubes ikon"></i>
                                     <h5 class="card-title text-center" style="line-height: 20px;"><strong>Metode
@@ -1523,8 +1449,7 @@
                                 </div>
                             </div>
 
-                        </div>
-
+                        </div> -->
 
                         <!-- <p>
                                         <b>Desain Sampling Tujuan 3</b>
