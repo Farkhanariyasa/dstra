@@ -39,13 +39,9 @@
   <!-- <script src="< ?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script> -->
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
-<<<<<<< HEAD:app/Views/pvd/pages/dasbor/riset4/ikuptik/deskripsi_umum.php
-  <script src="<?= base_url('pvd/js/riset4/doughnut_ikuptik.js') ?>"></script>
-=======
   <script src="<?= base_url('pvd/js/riset4/bar_4_1_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_4_1_2.js') ?>"></script>
 
->>>>>>> b5d5574bb50579ecab6982d6683009af5f3dc9b6:app/Views/pvd/pages/dasbor/riset4/ikuptik/deskripsi_singkat.php
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_4_1_asli.js') ?>"></script>
 
