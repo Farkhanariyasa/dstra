@@ -160,6 +160,35 @@ const bubble_fg_output10 = new Chart(fg_output10, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem) {
+            if(tooltipItem.dataIndex == 0){
+              return "Waktu (menit/msisdn): 0.331"
+            } else if(tooltipItem.dataIndex == 1){
+              return "Waktu (menit/msisdn): 0.332"
+            } else if(tooltipItem.dataIndex == 2){
+              return "Waktu (menit/msisdn): 0.331"
+            } else if(tooltipItem.dataIndex == 3){
+              return "Waktu (menit/msisdn): 0.330"
+            } else if(tooltipItem.dataIndex == 4){
+              return "Waktu (menit/msisdn): 0.339"
+            } else if(tooltipItem.dataIndex == 5){
+              return "Waktu (menit/msisdn): 0.334"
+            } else if(tooltipItem.dataIndex == 6){
+              return "Waktu (menit/msisdn): 0.334"
+            } else if(tooltipItem.dataIndex == 7){
+              return "Waktu (menit/msisdn): 0.335"
+            } else if(tooltipItem.dataIndex == 8){
+              return "Waktu (menit/msisdn): 0.348"
+            } else if(tooltipItem.dataIndex == 9){
+              return "Waktu (menit/msisdn): 0.357"
+            }else if(tooltipItem.dataIndex == 10){
+              return "Waktu (menit/msisdn): 0.366"
+            } else if(tooltipItem.dataIndex == 11){
+              return "Waktu (menit/msisdn): 0.373"
+            }
+          },
+        },
       },
       datalabels: {
         display: true,

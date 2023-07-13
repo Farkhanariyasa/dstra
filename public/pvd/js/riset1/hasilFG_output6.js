@@ -62,7 +62,8 @@ const bubble_fg_output6 = new Chart(fg_output6, {
         min: 0,
         max: 0.1,
         ticks: {
-            stepSize: 0.025
+            stepSize: 0.025,
+            
         },
         title: {
             display: true,
@@ -92,6 +93,14 @@ const bubble_fg_output6 = new Chart(fg_output6, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem, data) {
+            if(tooltipItem.dataIndex == 0){
+                return ["F1-Score: 0.05", "Waktu (menit/msisdn): 22.13"]
+            }
+          },
+        },
+        
       },
       datalabels: {
         display: true,

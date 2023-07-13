@@ -100,14 +100,14 @@
                             <div class="card shadow">
                                 <div class="pb-2 card-body">
                                     <div class="row">
-                                        <div class="mb-0 col-lg-7 grid-margin">
+                                        <div class="mb-0 col-lg-8 grid-margin">
                                             <div>
                                                 <div class="chartBox" style=" height:400px;">
                                                     <canvas id="dc_output8"></canvas>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                        <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                             <div>
                                                 <h3 class="text-center"><b>Interpretasi</b></h3>
                                                 <p id="interpretasi-0" class="text-justify">
@@ -140,14 +140,14 @@
                         <div class="card shadow">
                             <div class="pb-2 card-body">
                                 <div class="row">
-                                    <div class="mb-0 col-lg-7 grid-margin">
+                                    <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
                                             <div class="chartBox" style=" height:400px;">
                                                 <canvas id="fg_dasbor"></canvas>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mb-0 col-lg-5 grid-margin stretch-card">
+                                    <div class="mb-0 col-lg-4 grid-margin stretch-card">
                                         <div>
                                             <h3 class="text-center"><b>Interpretasi</b></h3>
                                             <p id="interpretasi-0" class="text-justify">

@@ -260,7 +260,7 @@ function getMenu()
           ],
         ],
         [
-          'menu' => 'Karakteristik Kesiapan UUP',
+          'menu' => 'Karakteristik Indeks Kesiapan UUP',
           'icon' => 'fa-solid fa-list-check',
           'href' => '/riset4/karakteristik_kesiapan_uup',
           // 'id' => 'menu3',

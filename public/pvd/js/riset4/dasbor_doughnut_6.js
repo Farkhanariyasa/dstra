@@ -1,5 +1,20 @@
 const A1 = document.getElementById('chart-6');
 
+const doughnutLabel = {
+    id: 'doughnutLabel',
+    beforeDatasetDraw(chart, args, pluginOptions){
+        const { ctx, data } = chart;
+        ctx.save;
+        const xCoor = chart.getDatasetMeta(0).data[0].x;
+        const yCoor = chart.getDatasetMeta(0).data[0].y;
+        ctx.font = 'bold 20px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseLine = 'middle';
+        ctx.fillText('IKUPTIK', xCoor, yCoor);
+
+    }
+}
+
 new Chart(A1, {
     type: 'doughnut',
     data: {
@@ -77,5 +92,5 @@ new Chart(A1, {
             }
         },
     },
-    plugins: [ChartDataLabels]
+    plugins: [ChartDataLabels, doughnutLabel]
 });

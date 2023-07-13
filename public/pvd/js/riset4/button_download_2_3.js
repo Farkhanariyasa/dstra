@@ -4,7 +4,7 @@ let idinput = "";
 let mailRegex =
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-for (let i = 1; i < 9; i++) {
+for (let i = 1; i < 22; i++) {
   document.getElementById("download-" + [i]).addEventListener("click", (e) => {
     idbutton = "button-download-" + [i];
     console.log("download-" + [i] + " diklik");
@@ -60,13 +60,13 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 1; i < 9; i++) {
+for (let i = 1; i < 22; i++) {
   document
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {
       // Convert our canvas to a data URL
       let canvasUrl = document
-        .getElementById("viz-2-3-" + [i] + "-B")
+        .getElementById("chart-" + [i])
         .toDataURL();
       // Create an anchor, and set the href value to our data URL
       const createEl = document.createElement("a");
@@ -74,7 +74,7 @@ for (let i = 1; i < 9; i++) {
 
       // This is the name of our downloaded file
       createEl.download =
-        "Hasil PKL Riset 4 - KUUU - Pemanfaatan TIK - Chart " + [i];
+        "Hasil PKL Riset 4 - Pemanfaatan TIK - Chart " + [i];
 
       // Click the download button, causing a download, and then remove it
       createEl.click();

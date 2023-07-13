@@ -1898,7 +1898,7 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox" style="height: 250px;">
+                                <div class="chartBox" style="height: 350px;">
                                     <canvas class="mt1" id="dc_output9"></canvas>
                                 </div>
                             </div>
@@ -1907,7 +1907,7 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <div class="chartBox" style="height: 250px;">
+                                <div class="chartBox" style="height: 350px;">
                                     <canvas class="mt1" id="dc_output1"></canvas>
                                 </div>
                             </div>
@@ -3457,7 +3457,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output5"></canvas>
                                         </div>
                                     </div>
@@ -3466,7 +3466,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output2"></canvas>
                                         </div>
                                     </div>
@@ -5173,7 +5173,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output4"></canvas>
                                         </div>
                                     </div>
@@ -5182,7 +5182,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output3"></canvas>
                                         </div>
                                     </div>
@@ -6641,8 +6641,8 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="dc_output7"></canvas>
+                                        <div class="chartBox" style="height: 350px;">
+                                            <canvas class="mt1" id="dc_output11"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -6650,8 +6650,8 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
-                                            <canvas class="mt1" id="dc_output11"></canvas>
+                                        <div class="chartBox" style="height: 350px;">
+                                            <canvas class="mt1" id="dc_output7"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -8083,7 +8083,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output6"></canvas>
                                         </div>
                                     </div>
@@ -8092,7 +8092,7 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
-                                        <div class="chartBox" style="height: 250px;">
+                                        <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output10"></canvas>
                                         </div>
                                     </div>

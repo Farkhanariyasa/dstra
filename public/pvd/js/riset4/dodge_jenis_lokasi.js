@@ -7,15 +7,6 @@ const dodge_5 = new Chart(dodge5, {
             ['Penyedia', 'Akomodasi']
         ],
         datasets: [{
-            label: 'Berada di bangunan fisik rumah tangga',
-            data:[
-                (uupKotaBatuJenisLokasi.transportasiYa/164*100).toFixed(2),
-                (uupKotaBatuJenisLokasi.makananYa/685*100).toFixed(2),
-                (uupKotaBatuJenisLokasi.akomodasiYa/76*100).toFixed(2),
-            ],
-            backgroundColor:"#ffab00",
-            borderWidth:1
-        },{
             label: 'Tidak berada di bangunan fisik rumah tangga',
             data:[
                 (uupKotaBatuJenisLokasi.transportasiTidak/164*100).toFixed(2),
@@ -23,6 +14,15 @@ const dodge_5 = new Chart(dodge5, {
                 (uupKotaBatuJenisLokasi.akomodasiTidak/76*100).toFixed(2),
             ],
             backgroundColor:"#506396",
+            borderWidth:1
+        },{
+            label: 'Berada di bangunan fisik rumah tangga',
+            data:[
+                (uupKotaBatuJenisLokasi.transportasiYa/164*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.makananYa/685*100).toFixed(2),
+                (uupKotaBatuJenisLokasi.akomodasiYa/76*100).toFixed(2),
+            ],
+            backgroundColor:"#ffab00",
             borderWidth:1
         },
         ]

@@ -1,24 +1,24 @@
-const A1 = document.getElementById('viz-2-3-1-A');
+const A1 = document.getElementById('chart-1');
 
 new Chart(A1, {
     type: 'doughnut',
     data: {
         labels: [
-            ["Tidak Memanfaatkan"],
-            ["Memanfaatkan"]
+            ["Memanfaatkan"],
+            ["Tidak Memanfaatkan"]
         ],
 
         datasets: [{
             label: 'Persentase Unit Usaha Pariwisata',
             data: [
-                (uupStatusMemanfaatkan.tidak),
                 (uupStatusMemanfaatkan.ya),
+                (uupStatusMemanfaatkan.tidak),
                 
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffab00",
                 "#506396",
+                "#ffab00", 
             ],
         }]
     },

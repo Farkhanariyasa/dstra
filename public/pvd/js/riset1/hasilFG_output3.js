@@ -7,31 +7,12 @@ const bar_output3 = new Chart(fg_output3, {
     labels: ["True FG", "False FG"],
     datasets: [
       {
-        label: "True/False",
+        label: ["Jarak (km)"],
         data: [28.11,58.38],
         backgroundColor: "#516296",
         borderWidth: 1,
         borderRadius: 8,
       },
-    //   {
-    //     label: "False DC",
-    //     data: [1324329.68,1324329.68],
-    //     backgroundColor: "#516296",
-    //     borderWidth: 1,
-    //     borderRadius: 8,
-    //   },
-      //make treshold line 
-        {
-            type: 'line',
-            label: 'Treshold',
-            data: [0.6,0.6],
-            backgroundColor: '#FDAB01',
-            borderColor: '#FDAB01',
-            borderWidth: 2,
-            pointStyle: 'rectRounded',
-        },
-
-
     ],
   },
   options: {
@@ -50,6 +31,25 @@ const bar_output3 = new Chart(fg_output3, {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
+      annotation: {
+        annotations: {
+            line1: {
+                type: 'line',
+                yMin: 0.6,
+                yMax: 0.6,
+                borderColor: '#FDAB01',
+                borderWidth: 2,
+                label: {
+                    backgroundColor: '#FDAB01',
+                    content: 'Treshold: 0.6',
+                    display: true,
+                    position: 'center',
+                    xAdjust: 0,
+                    yAdjust: 0,
+                }
+            }
+        },
+    },
       title: {
         display: true,
         text: ["Grafik Perbandingan Rata-Rata", "Antar Label (Haversine)"],

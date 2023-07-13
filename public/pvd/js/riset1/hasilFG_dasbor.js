@@ -12,31 +12,31 @@ const bubble_fg_dasbor = new Chart(fg_dasbor, {
                 label: "0.4",
                 x: 1,
                 y: 0.4,
-                r: 15
+                r: 18
             },
             {
                 label: "0.31",
                 x: 2,
                 y: 0.31,
-                r: 3
+                r: 6
             },
             {
                 label: "0.88", 
                 x: 3,
                 y: 0.88,
-                r: 13
+                r: 15
             },
             {
                 label: "0.05",
                 x: 4,
                 y: 0.05,
-                r: 25
+                r: 30
             },
             {
                 label: "0.08 ",
                 x: 5,
                 y: 0.08,
-                r: 22
+                r: 25
             },
 
 
@@ -136,6 +136,21 @@ const bubble_fg_dasbor = new Chart(fg_dasbor, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem) {
+            if(tooltipItem.dataIndex == 0){
+              return "Waktu (menit/msisdn): 1,49"
+            } else if(tooltipItem.dataIndex == 1){
+              return "Waktu (menit/msisdn): 0.332"
+            } else if(tooltipItem.dataIndex == 2){
+              return "Waktu (menit/msisdn): 1.32"
+            } else if(tooltipItem.dataIndex == 3){
+              return "Waktu (menit/msisdn): 22.14"
+            } else if(tooltipItem.dataIndex == 4){
+              return "Waktu (menit/msisdn): 15.56"
+            }
+          },
+        }
       },
       datalabels: {
         display: true,

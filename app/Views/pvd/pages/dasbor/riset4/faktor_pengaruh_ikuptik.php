@@ -5,7 +5,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-      <h6 style="color: #4b395f;"><strong>Faktor-Faktor yang Memengaruhi IKUPTIK</i></strong>
+      <h6 style="color: #4b395f;"><strong>Faktor-faktor yang Memengaruhi Indeks Kesiapan Unit Usaha Pariwisata dalam Pemanfaatan TIK (IKUPTIK)</i></strong>
       </h6>
     </header>
     <hr class="hrjudul">
@@ -15,32 +15,76 @@
         <!-- Part A -->
         <div class="col-12 grid-margin stretch-card">
             <div class="card shadow rounded-4">
-                <div class="pb-2 card-body">
+                <div class="px-0 py-1 card-body">
                     <div class="row">
-                        <!-- <div class="mb-3 row-lg-2 col-lg-12 grid-margin">
-                            <div>
-                                <h1 class="chart-title judul-chart" style="font-size: 20px; font-weight: 600; text-align: left;">
-                                    Pemanfaatan TIK Pada Unit Usaha Pariwisata</h1>
-                                <subtitle>Berdasarkan Jenis Usaha Pariwisata</subtitle>
-                            </div>
-                        </div> -->
                         <div class="mb-0 col-lg-12 grid-margin">
                             <div>
-                                <div class="chartBox" style="">
-                                <img id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/faktor_pengaruh.png') ?>" class="img-fluid" alt="" style="max-width: auto; height: auto;">
+                                <div class="chartBox text-center mt-3">
+                                <img id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/faktor_pengaruh.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: auto;">
                                 </div>
                             </div>
                         </div>
-                        <div class="mb-0 col-lg-12 grid-margin stretch-card">
-                            <div>
-                                <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
-                                <p class="text-justify">
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                                </p>
+                            <div class="accordion" id="accordionExample">
+                                <!-- Faktor 1 -->
+                                <div class="accordion-item my-3 mx-4 rounded-5 shadow">
+                                    <h3 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span class="fa-solid fa-users-gear pe-2"></span>
+                                        Jumlah Tenaga Kerja
+                                    </button>
+                                    </h3>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Jika jumlah tenaga kerja bertambah satu orang, akan meningkatkan kesiapan unit usaha pariwisata dalam memanfaatkan TIK sebesar 1,078 secara rata-rata dengan asumsi bahwa variabel lain konstan.</p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Faktor 2 -->
+                                <div class="accordion-item my-3 mx-4 rounded-5 shadow">
+                                    <h3 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="fa-solid fa-user-graduate pe-2"></span>
+                                        Tingkat Pendidikan Pemilik/Pengelola 
+                                    </button>
+                                    </h3>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Jika capaian pendidikan pemilik/pengelola bertambah satu jenjang (maksimal lulusan SD &#8594; lulusan SMP dan SMA &#8594; sarjana), akan meningkatkan kesiapan unit usaha pariwisata dalam memanfaatkan TIK sebesar 7,790 secara rata-rata dengan asumsi bahwa variabel lain konstan.</p>      
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Faktor 3 -->
+                                <div class="accordion-item my-3 mx-4 rounded-5 shadow">
+                                    <h3 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="fa-solid fa-calendar-week pe-2"></span>
+                                        Usia Pemilik/Pengelola
+                                    </button>
+                                    </h3>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Jika usia pemilik/pengelola bertambah satu tahun, akan menurunkan kesiapan unit usaha pariwisata dalam memanfaatkan TIK sebesar 0,415 secara rata-rata dengan asumsi bahwa variabel lain konstan.</p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Faktor 4 -->
+                                <div class="accordion-item my-3 mx-4 rounded-5 shadow">
+                                    <h3 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <span class="fa-solid fa-venus-mars pe-2"></span>
+                                        Jenis Kelamin Pemilik/Pengelola
+                                    </button>
+                                    </h3>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Pemilik/pengelola yang berjenis kelamin perempuan secara rata-rata akan memiliki kesiapan sebesar 1,932 lebih rendah dibandingkan laki-laki dengan asumsi bahwa variabel lain konstan.</p>
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -66,10 +110,6 @@
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <!-- Highchartjs Heatmap -->
   <script src="https://code.highcharts.com/modules/heatmap.js"></script>
-
-  <!-- Data Chart -->
-
-  <!-- Import Chart -->
 
   <!-- Fungsi Unduh Chart -->
   <script src="<?= base_url('pvd/js/riset4/button_download_5.js') ?>"></script>

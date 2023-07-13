@@ -92,6 +92,13 @@ const bubble_fg_output5 = new Chart(fg_output5, {
       },
       tooltip: {
         enabled: true,
+        callbacks: {
+          label: function (tooltipItem, data) {
+            if(tooltipItem.dataIndex == 0){
+                return ["F1-Score: 0.08", "Waktu (menit/msisdn): 15.56"]
+            }
+          },
+        },
       },
       datalabels: {
         display: true,
