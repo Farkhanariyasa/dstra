@@ -446,6 +446,37 @@ class Riset4 extends BaseController
             'kecilSiap' => $this->uup->getJumlahUUP2('skala_usaha', 'status_kesiapan', 2, 3),
         ];
 
+        $jk = [
+            'laki' => $this->uup-> getIKUPTIK('gender_pemilik_pengelola', 1),
+            'perempuan' => $this->uup-> getIKUPTIK('gender_pemilik_pengelola', 2),
+        ];
+
+        $pendidikan = [
+            'dasar' => $this->uup-> getIKUPTIK('kelompok_pendidikan', 1),
+            'menengah' => $this->uup-> getIKUPTIK('kelompok_pendidikan', 2),
+            'tinggi' => $this->uup-> getIKUPTIK('kelompok_pendidikan', 3),
+        ];
+
+        $jenis = [
+            'transportasi' => $this->uup-> getIKUPTIK('jenis_usaha', 1),
+            'makanan' => $this->uup-> getIKUPTIK('jenis_usaha', 2),
+            'akomodasi' => $this->uup-> getIKUPTIK('jenis_usaha', 3),
+        ];
+
+        $skala = [
+            'mikro' => $this->uup-> getIKUPTIK('skala_usaha', 1),
+            'kecil' => $this->uup-> getIKUPTIK('skala_usaha', 2),
+        ];
+
+        $umurIKUPTIK = [
+            'umur' => $this-> uup-> getUmur2(),
+            'ikuptik' => $this-> uup-> getIKUPTIK2(),
+        ];
+
+        $ikuptik =[
+            'ikuptik' =>  $this-> uup-> getIKUPTIK2(),
+        ];
+
         $menu = getMenu();
         $data = [
             'judul' => 'Karakteristik Kesiapan UUP',
@@ -455,6 +486,12 @@ class Riset4 extends BaseController
             'pendidikanTingkat' => $pendidikanTingkat,
             'jenisUsahaTingkat' => $jenisUsahaTingkat,
             'skalaTingkat' => $skalaTingkat,
+            'jk' => $jk,
+            'pendidikan' => $pendidikan,
+            'jenis' => $jenis,
+            'skala' => $skala,
+            'umurIKUPTIK' => $umurIKUPTIK,
+            'ikuptik' => $ikuptik,
         ];
         return view('pvd/pages/dasbor/riset4/karakteristik_kesiapan_uup', $data);
     }
@@ -536,7 +573,17 @@ class Riset4 extends BaseController
             'akomodasi' => $this->unitusahaTIK->getRataanGeo2("jenis_usaha", "geometrik_mean", 3)
         ];
 
+        $ikuptikKec = [
+            'batu' =>  $this->uup->getRataanGeo2('kecamatan', 'geometrik_mean', 'BATU'),
+            'junrejo' => $this->uup->getRataanGeo2('kecamatan', 'geometrik_mean', 'JUNREJO'),
+            'bumiaji' => $this->uup->getRataanGeo2('kecamatan', 'geometrik_mean', 'BUMIAJI'),
+        ];
 
+        $ikuptikJenis = [
+            'transportasi' =>  $this->uup->getRataanGeo2('jenis_usaha', 'geometrik_mean', 1),
+            'makanan' => $this->uup->getRataanGeo2('jenis_usaha', 'geometrik_mean', 2),
+            'akomodasi' => $this->uup->getRataanGeo2('jenis_usaha', 'geometrik_mean', 3),
+        ];
 
         $menu = getMenu();
         $data = [
@@ -544,8 +591,10 @@ class Riset4 extends BaseController
             'menu' => $menu['riset4'],
             'ikuptikPerDimensi' => $ikuptikPerDimensi,
             'total' => $total,
+            'ikuptikKec' => $ikuptikKec,
+            'ikuptikJenis' => $ikuptikJenis
         ];
-        return view('pvd/pages/dasbor/riset4/ikuptik/deskripsi_umum', $data);
+        return view('pvd/pages/dasbor/riset4/ikuptik/deskripsi_singkat', $data);
     }
 
     public function menu4submenu2()
