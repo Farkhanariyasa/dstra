@@ -8,24 +8,24 @@ const bar = new Chart(sdm_ekonomi, {
         datasets: [{
             label: ['Jasa Transportasi Wisata'],
             data:[
-                (uupKotaBatuJenisSkala.transportasiMikro/870*100).toFixed(2),
-                (uupKotaBatuJenisSkala.transportasiKecil/55*100).toFixed(2),
+                uupKotaBatuJenisSkala.transportasiMikro,
+                uupKotaBatuJenisSkala.transportasiKecil,
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: ['Jasa Penyedia Makanan dan Minuman'],
             data:[
-                (uupKotaBatuJenisSkala.makananMikro/870*100).toFixed(2),
-                (uupKotaBatuJenisSkala.makananKecil/55*100).toFixed(2),
+                uupKotaBatuJenisSkala.makananMikro,
+                uupKotaBatuJenisSkala.makananKecil,
             ],
             backgroundColor:"#506396",
             borderWidth:1
         },{
             label: ['Penyedia Akomodasi'],
             data:[
-                (uupKotaBatuJenisSkala.akomodasiMikro/870*100).toFixed(2),
-                (uupKotaBatuJenisSkala.akomodasiKecil/55*100).toFixed(2),
+                uupKotaBatuJenisSkala.akomodasiMikro,
+                uupKotaBatuJenisSkala.akomodasiKecil,
             ],
             backgroundColor:"#4b395f",
             borderWidth:1
@@ -90,8 +90,10 @@ const bar = new Chart(sdm_ekonomi, {
             datalabels:{
                 display:true,
                 color:'black',
+                anchor: 'end',
+                align: 'end',
                 formatter: function(value, context) {
-                    return value + '%';
+                    return value;
                 },
             }
         },maintainAspectRatio: false,

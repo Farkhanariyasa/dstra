@@ -15,7 +15,7 @@ const doughnut_2 = new Chart(doughnut2, {
             ],
             borderwidth: 1,
             backgroundColor: [
-                "#ffab00", "#506396",
+                "#506396", "#ffab00",
                 "#4b395f", "#b35c74",
                 "#ffbc33", "#7382ab",
                 "#6f617f", "#c27d90"

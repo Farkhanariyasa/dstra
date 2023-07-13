@@ -4,7 +4,7 @@ let idinput = "";
 let mailRegex =
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 6; i++) {
   document.getElementById("download-" + [i]).addEventListener("click", (e) => {
     idbutton = "button-download-" + [i];
     console.log("download-" + [i] + " diklik");
@@ -60,7 +60,7 @@ function getvalue() {
 // endOfValidasi
 
 iddownload = "";
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 6; i++) {
   document
     .getElementById("button-download-" + [i])
     .addEventListener("click", function (e) {

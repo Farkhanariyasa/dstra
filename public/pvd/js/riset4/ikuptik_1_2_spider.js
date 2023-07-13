@@ -48,7 +48,7 @@ const data = {
     ]
 };
 
-const radar = document.getElementById("chart-3");
+const radar = document.getElementById("chart-2");
 
 new Chart(radar,{
     type: 'radar',

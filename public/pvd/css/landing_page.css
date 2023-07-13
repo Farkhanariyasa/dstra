@@ -706,6 +706,11 @@ h1.headline {
     .img-ruang{
       width: auto !important;
     }
+
+    .img-hasil>img{
+      height: 198px;
+      width: 198px;
+    }
 }
 
 .boxbatas{

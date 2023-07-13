@@ -3,7 +3,7 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container">
     <header class="section-header">
-        <h6 style="color: #4b395f;"><strong>Deskripsi Singkat Mengenai IKUPTIK</strong></h6>
+        <h6 style="color: #4b395f;"><strong>Deskripsi Singkat Indeks Kesiapan Unit Usaha Pariwisata dalam Pemanfaatan TIK (IKUPTIK)</strong></h6>
     </header>
     <hr class="hrjudul">
     <?php include('ikuptik.php') ?>
@@ -26,17 +26,24 @@
 <script>
   const ikuptikPerDimensi = <?= json_encode($ikuptikPerDimensi) ?>;
   const total = <?= json_encode($total); ?>;
+  const ikuptikKec = <?= json_encode($ikuptikKec); ?>;
+  const ikuptikJenis = <?= json_encode($ikuptikJenis); ?>;
 </script>
 
 <!-- Impor Chart -->
+  <script src="<?= base_url('pvd/js/riset4/doughnut_dimensi_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_1_pie.js') ?>"></script>
+  <!-- <script src="< ?= base_url('pvd/js/riset4/ikuptik_1_1_pie.js') ?>"></script> -->
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_2_spider.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script>
+  <!-- <script src="< ?= base_url('pvd/js/riset4/ikuptik_1_3_bar.js') ?>"></script> -->
   <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_4_1_1.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset4/bar_4_1_2.js') ?>"></script>
+
 <!-- Fungsi Unduh Chart -->
-<script src="<?= base_url('pvd/js/riset4/btn_Download.js') ?>"></script>
+<script src="<?= base_url('pvd/js/riset4/button_download_4_1_asli.js') ?>"></script>
+
 </section><!-- End -->
 <?= $this->endSection(); ?>

@@ -11,7 +11,7 @@ const dodge_6 = new Chart(dodge6, {
                 (uupKotaBatuSkalaLokasi.mikroYa/870*100).toFixed(2),
                 (uupKotaBatuSkalaLokasi.kecilYa/55*100).toFixed(2),
             ],
-            backgroundColor:"#ffab00",
+            backgroundColor:"#506396",
             borderWidth:1
         },{
             label: 'Tidak berada di bangunan fisik rumah tangga',
@@ -19,7 +19,7 @@ const dodge_6 = new Chart(dodge6, {
                 (uupKotaBatuSkalaLokasi.mikroTidak/870*100).toFixed(2),
                 (uupKotaBatuSkalaLokasi.kecilTidak/55*100).toFixed(2),
             ],
-            backgroundColor:"#506396",
+            backgroundColor:"#ffab00",
             borderWidth:1
         },
         ]

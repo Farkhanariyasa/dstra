@@ -6,7 +6,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -48,7 +48,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -90,7 +90,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -132,7 +132,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -174,7 +174,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -216,7 +216,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -258,7 +258,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -300,7 +300,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -342,7 +342,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -384,7 +384,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -410,7 +410,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-10" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -426,7 +426,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -452,7 +452,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal"
+                    <button disabled type="submit" id="button-download-11" class="tombolkonf" data-bs-dismiss="modal"
                         aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
@@ -468,7 +468,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -494,7 +494,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-12" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -510,7 +510,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -536,7 +536,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-13" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -552,7 +552,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -578,7 +578,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-14" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -594,7 +594,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -620,7 +620,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-15" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -636,7 +636,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -662,7 +662,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-16" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -678,7 +678,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -704,7 +704,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-17" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -720,7 +720,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -746,7 +746,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-18" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -762,7 +762,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -788,7 +788,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-19" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -804,7 +804,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -830,7 +830,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-20" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
@@ -846,7 +846,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">Unduh Hasil PKL</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form name="unduhVisualisasi" action="<?= base_url(); ?>/hasil-pkl/riset4/unduh" method="POST">
+            <form name="unduhVisualisasi" action="<?= base_url('hasil-pkl/riset4/pemanfaatan_tik'); ?>" method="POST">
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span
@@ -872,7 +872,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf"
+                    <button disabled type="submit" id="button-download-21" class="tombolkonf"
                         data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>

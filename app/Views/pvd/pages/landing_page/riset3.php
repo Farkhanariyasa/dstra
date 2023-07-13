@@ -113,7 +113,7 @@
                                 <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
                                   <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Objek Penelitian</strong></h5>
                                   <div class="card-body text-center" style="background-color: #dce0ea50;">
-                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
                                           <img src="<?= base_url('pvd/img/landingpage/riset3/objek_penelitian.png') ?>" class="img-fluid">
                                       </div>
                                   </div>
@@ -123,7 +123,7 @@
                                 <div class="card" style="max-width: 242px; border: 2px solid #506396; border-radius: 25px;">
                                   <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Lokasi Penelitian</strong></h5>
                                   <div class="card-body text-center" style="background-color: #dce0ea50;">
-                                      <div class="row-6 d-flex align-items-center justify-content-center">
+                                      <div class="row-6 d-flex align-items-center justify-content-center img-ruang">
                                           <img src="<?= base_url('pvd/img/landingpage/riset3/lokasi_penelitian.png') ?>" class="img-fluid">
                                       </div>
                                   </div>
@@ -253,12 +253,12 @@
                             <div class="col align-items-center d-flex flex-column mt-3">
                                 <div class="card" style="border: 2px solid #506396; border-radius: 25px;">
                                   <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Unit Sampling</strong></h5>
-                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
+                                  <div class="card-body text-center px-0" style="background-color: #dce0ea50;">
                                       <div class="row-6 d-flex align-items-center justify-content-center">
                                         <div class="col-1 sidebuttonl">
                                           <button class="slideButton" style="color: #506396;" onclick="plusDivs(-1)">&#10094;</button>
                                         </div>
-                                        <div class="col d-flex justify-content-center align-items-center img-ruang">
+                                        <div class="col d-flex px-0 justify-content-center align-items-center img-ruang">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_1.png') ?>" class="mySlides img-fluid">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_2.png') ?>" class="mySlides img-fluid">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/unitsampling_3.png') ?>" class="mySlides img-fluid">
@@ -281,14 +281,14 @@
                                 </div>
                             </div>
                             <div class="col align-items-center d-flex flex-column mt-3">
-                                <div class="card" style="border: 2px solid #506396; border-radius: 25px; height: 286px;">
+                                <div class="card" style="border: 2px solid #506396; border-radius: 25px;">
                                   <h5 class="card-header text-center text-light" style="line-height: 20px; background-color: #506396; border-top-left-radius: 22px; border-top-right-radius: 22px;"><strong>Kerangka Sampel</strong></h5>
-                                  <div class="card-body text-center" style="background-color: #dce0ea50;">
-                                      <div class="row d-flex align-items-center justify-content-center">
+                                  <div class="card-body text-center px-0" style="background-color: #dce0ea50;">
+                                      <div class="row-6 d-flex align-items-center justify-content-center">
                                         <div class="col-1 sidebuttonl">
                                           <button class="slideButton" style="color: #506396;" onclick="plusDivs2(-1)">&#10094;</button>
                                         </div>
-                                        <div class="col d-flex justify-content-center align-items-center img-ruang">
+                                        <div class="col d-flex px-0 justify-content-center align-items-center img-ruang">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_1.png') ?>" class="mySlides2 img-fluid">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_2.png') ?>" class="mySlides2 img-fluid">
                                               <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkasampel_3.png') ?>" class="mySlides2 img-fluid">
@@ -607,8 +607,8 @@
                                             <div class="col-lg-6 grid stretch-card">
                                                 <div class="card" style="border: 0">
                                                     <div class="card-body">
-                                                        <div class="chartBox">
-                                                            <p style="font-weight: bold;">Kerangka Pikir</p>
+                                                        <p style="font-weight: bold;">Kerangka Pikir</p>
+                                                        <div class="chartBox img-hasil">
                                                             <img src="<?= base_url('pvd/img/landingpage/riset3/kerangkapikir_riset3.png') ?>" class="img-fluid" alt="">
                                                         </div>
                                                     </div>
