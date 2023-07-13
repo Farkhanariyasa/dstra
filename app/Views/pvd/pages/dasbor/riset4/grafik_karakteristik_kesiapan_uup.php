@@ -211,7 +211,7 @@
                                         <div class="row">
                                             <div class="mb-0 col-lg-6 grid-margin">
                                                 <div>
-                                                    <div class = "chartBox" style="position: relative; height:55vh;"> 
+                                                    <div class = "chartBox" style="height:300px;"> 
                                                         <canvas id="chart-2"></canvas>
                                                     </div>
                                                 </div>
