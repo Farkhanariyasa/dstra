@@ -34,11 +34,11 @@ class Auth extends BaseController
         return redirect()->to('/hasil-pkl/masuk');
     }
 
-    public function googleLogin()
+    public function loginstis()
     {
-        $clientID = '757666081991-snbp16456mser4ksa8ugl5smmjtklctt.apps.googleusercontent.com';
-        $clientSecret = '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';
-        $redirectUri = 'http://localhost:8080/hasil-pkl/googlelogin'; //Harus sama dengan yang kita daftarkan
+        $clientID = getenv('CLIENT_ID_GOOGLESTIS');
+        $clientSecret = getenv('CLIENT_SECRET_GOOGLESTIS');
+        $redirectUri = getenv('REDIRECT_URI_GOOGLESTIS');
 
         $client = new Client();
         $client->setClientId($clientID);
@@ -61,6 +61,49 @@ class Auth extends BaseController
                         'email' => $userInfo->email,
                         'nama_lengkap' => $userInfo->name,
                         'username' => str_replace('@stis.ac.id', '', $userInfo->email),
+                        'picture' => $userInfo->picture
+                    ])) {
+                        $data = $users->where('platform_id', $userInfo->id)->find();
+                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE);
+
+                        return redirect()->to('/hasil-pkl/riset1/dasbor');
+                    }
+                    return redirect()->back();
+                }
+                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE);
+                return redirect()->to('/hasil-pkl/riset1/dasbor');
+            }
+        }
+        return redirect()->to($client->createAuthUrl());
+    }
+
+    public function loginbps()
+    {
+        $clientID = getenv('CLIENT_ID_GOOGLEBPS');
+        $clientSecret = getenv('CLIENT_SECRET_GOOGLEBPS');
+        $redirectUri = getenv('REDIRECT_URI_GOOGLEBPS');
+
+        $client = new Client();
+        $client->setClientId($clientID);
+        $client->setClientSecret($clientSecret);
+        $client->setRedirectUri($redirectUri);
+        $client->addScope("email");
+        $client->addScope("profile");
+
+        if (isset($_GET['code'])) {
+            $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
+            if (isset($token['access_token'])) {
+                $client->setAccessToken($token['access_token']);
+                $Oauth = new Oauth2($client);
+                $userInfo = $Oauth->userinfo->get();
+                $users = new UserModel();
+                $data = $users->where('platform_id', $userInfo->id)->find();
+                if (!$data) {
+                    if ($users->insert([
+                        'platform_id' => $userInfo->id,
+                        'email' => $userInfo->email,
+                        'nama_lengkap' => $userInfo->name,
+                        'username' => str_replace('@bps.go.id', '', $userInfo->email),
                         'picture' => $userInfo->picture
                     ])) {
                         $data = $users->where('platform_id', $userInfo->id)->find();
