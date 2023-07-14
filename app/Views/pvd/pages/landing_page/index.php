@@ -21,7 +21,7 @@
                     <div class="text-center text-lg-start my-5">
                         <a href="#riset1" class="tombol btn-for">
                             <span>Selengkapnya</span>
-                            <i class="bi bi-arrow-right fas fa-arrow-circle-right"></i>
+                            <i class="fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -48,8 +48,8 @@
 </section><!-- End Hero -->
 
 <!-- <section class="hero d-flex align-items-center"> -->
-    <!-- About STIS & Angkatan 62 -->
-    <!-- <div class="container ">
+<!-- About STIS & Angkatan 62 -->
+<!-- <div class="container ">
         <div class="row">
             <div class="col-lg-6 col-md-6 mb-2 d-flex align-items-center flex-row justify-content-end " data-aos="zoom-out" data-aos-delay="200">
                 <div data-aos="fade-up" class="card62 shadow">
@@ -153,7 +153,7 @@
                     </div>
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
-                        Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.
+                            Wisatawan nusantara (wisnus) memiliki peran yang penting dalam pengembangan wisata nasional. Ketersediaan data wisnus seperti jumlah perjalanan wisnus, banyaknya wisnus serta karakteristiknya dapat membantu pemerintah dalam pengambilan kebijakan yang lebih terarah. Saat ini, pemenuhan data wisnus di Indonesia memanfaatkan data mobilisasi penduduk yang direkam jejaknya dari telepon genggam atau dikenal dengan istilah <i>mobile positioning data</i> (MPD). Namun, metode ini hanya dapat menyajikan data wisnus ke luar kabupaten/kota saja. Sementara itu, data wisnus di dalam kabupaten/kota juga tidak kalah penting keberadaannya. Oleh karena itu, Riset 2 fokus pada estimasi data wisnus dalam kabupaten/kota serta mendapatkan gambaran karakteristik sosiodemografi dan perjalanan dari wisatawan nusantara dalam kabupaten/kota. Riset ini juga dilakukan untuk mendapatkan faktor-faktor yang memengaruhi jumlah perjalanan wisata dalam kabupaten/kota seseorang.
                         </p>
                     </div>
                     <div class="row-2 d-flex flex-row justify-content-center align-items-center">
@@ -206,12 +206,12 @@
                     <div class="row-8 ">
                         <p class="card-text text-justify pdesclp">
                             Pariwisata merupakan <i>leading sector</i> pembangunan di Indonesia yang menjadi salah satu
-                            penyumbang devisa terbesar di Indonesia. Peningkatan kontribusi pariwisata terhadap perekonomian 
-                            dapat dilakukan dengan meningkatkan kualitas tenaga kerja. Sehingga diperlukan data terkait 
-                            karakteristik dan kualitas tenaga kerja di industri pariwisata. Riset ini bertujuan untuk memperoleh 
-                            gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata, menganalisis dinamika tenaga 
-                            kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja di 
-                            industri pariwisata, dan mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan 
+                            penyumbang devisa terbesar di Indonesia. Peningkatan kontribusi pariwisata terhadap perekonomian
+                            dapat dilakukan dengan meningkatkan kualitas tenaga kerja. Sehingga diperlukan data terkait
+                            karakteristik dan kualitas tenaga kerja di industri pariwisata. Riset ini bertujuan untuk memperoleh
+                            gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata, menganalisis dinamika tenaga
+                            kerja di industri pariwisata, menganalisis faktor-faktor yang memengaruhi jam kerja tenaga kerja di
+                            industri pariwisata, dan mengukur tingkat sadar wisata dari tenaga kerja industri pariwisata dengan
                             indeks komposit.
                         </p>
                     </div>
@@ -312,8 +312,8 @@
                 <div data-aos="fade-up" class="card62 shadow">
                     <div class="card-body d-grid rounded pr-4 pl-4 ">
                         <h5 class="card-title text-center h5judullp mt-4">Angkatan D-IV 62</h5>
-                        <p class="card-text text-justify pdesclp">Angkatan D-IV 62 terdiri dari dua program studi (prodi), yaitu prodi Statistika (10 kelas) dan prodi Komputasi Statistik (5 kelas). Pada PKL D-IV 62, seluruh mahasiswa/i terbagi ke dalam empat riset dan/atau bidang, 
-                            yaitu 131 mahasiswa/i untuk riset 1, 129 mahasiswa/i untuk riset 2, 131 mahasiswa/i untuk riset 3, 128 mahasiswa/i untuk riset 4, 
+                        <p class="card-text text-justify pdesclp">Angkatan D-IV 62 terdiri dari dua program studi (prodi), yaitu prodi Statistika (10 kelas) dan prodi Komputasi Statistik (5 kelas). Pada PKL D-IV 62, seluruh mahasiswa/i terbagi ke dalam empat riset dan/atau bidang,
+                            yaitu 131 mahasiswa/i untuk riset 1, 129 mahasiswa/i untuk riset 2, 131 mahasiswa/i untuk riset 3, 128 mahasiswa/i untuk riset 4,
                             49 mahasiswa/i untuk bidang TI, dan 70 mahasiswa/i untuk bidang umum.
                         </p>
                         <div class="img text-center mb-4">
@@ -325,7 +325,7 @@
             </div>
         </div>
     </div>
-</section> 
+</section>
 <!-- End About -->
 
 <?= $this->endSection(); ?>

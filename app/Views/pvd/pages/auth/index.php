@@ -18,27 +18,30 @@
 
 <body>
 
-  <div class="container-scroller">
+  <div class="container-scroller ">
     <div class="container-fluid page-body-wrapper full-page-wrapper">
       <div class="content-wrapper d-flex align-items-center auth forbody">
-        <div class="row flex-grow">
-          <div class="col-lg-4 mx-auto">
-            <div class="auth-form-light text-center p-5">
-              <div class="brand-logo">
-                <a href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
-              </div>
-              <a href="<?= base_url('hasil-pkl'); ?>" class="text-decoration-none">
-                <h1>Web Hasil PKL 62
-                  <br /> T.A. 2022/2023
-                </h1>
-              </a>
-              <h4 class="font-weight-light mt-4">Masuk untuk melanjutkan.</h4>
-              <div class="mt-4">
-                <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
-                  <i class="mdi mdi-google me-3"></i>Masuk dengan Google STIS </a>
-                <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
-                  <i class="mdi mdi-google me-3"></i>Masuk dengan Google BPS </a>
-              </div>
+        <div class="m-auto p-5 flex-grow row auth-form-light">
+          <div class="col-lg-7 text-center my-5">
+            <div class="brand-logo">
+              <a href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
+            </div>
+            <a href="<?= base_url('hasil-pkl'); ?>" class="text-decoration-none">
+              <h1>Web Hasil PKL 62
+                <br /> T.A. 2022/2023
+              </h1>
+            </a>
+            <h4 class="font-weight-light mt-4">Masuk untuk melanjutkan.</h4>
+            <div class="mt-4">
+              <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
+                <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" class="logo-login" alt=""> Masuk dengan Google STIS </a>
+              <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
+                <img src="<?= base_url('pvd/img/landingpage/logobps.png') ?>" class="logo-login" alt=""> Masuk dengan Google BPS </a>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center my-5">
+            <div class="brand-maskot">
+              <img class="img-fluid" src="<?= base_url('pvd/img/maskot_pkl.png') ?>" alt="">
             </div>
           </div>
         </div>

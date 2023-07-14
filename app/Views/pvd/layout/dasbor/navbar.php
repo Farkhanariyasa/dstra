@@ -12,7 +12,7 @@
 
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?> <span class="mdi mdi-chevron-down"></span>
+          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata">
@@ -68,13 +68,15 @@
         <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
           <div class="nav-profile-img">
             <img src="<?= isset((session()->get())['akun_picture']) ? (session()->get())['akun_picture'] : base_url('pvd/img/default.png') ?>" alt="image">
-            <!-- <span class="availability-status online"></span> -->
           </div>
           <div class="nav-profile-text">
-            <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> <span class="mdi mdi-chevron-down"></span></p>
+            <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> </p>
           </div>
         </a>
         <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+          <a class="dropdown-item" href="<?= base_url('hasil-pkl') ?>">
+            <i class="mdi mdi-home me-2"></i> Beranda </a>
+          <hr class="dropdown-divider" />
           <a class="dropdown-item" href="<?= base_url('hasil-pkl/keluar') ?>">
             <i class="mdi mdi-logout me-2"></i> Keluar </a>
         </div>
