@@ -39,10 +39,6 @@ CREATE TABLE `pvd_users` (
 --
 -- Dumping data for table `pvd_users`
 --
-
-INSERT INTO `pvd_users` (`id`, `platform_id`, `username`, `nama_lengkap`, `email`, `picture`) VALUES
-(1, '114056809839607846541', '222011460', 'I Putu Agus Wahyu D.', '222011460@stis.ac.id', 'https://lh3.googleusercontent.com/a/AAcHTteOL8R6-KBGVnGCy5shFwmDe54Mn1arLtCEd8qVfDoKF5A=s96-c');
-
 --
 -- Indexes for dumped tables
 --
@@ -61,7 +57,7 @@ ALTER TABLE `pvd_users`
 -- AUTO_INCREMENT for table `pvd_users`
 --
 ALTER TABLE `pvd_users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
