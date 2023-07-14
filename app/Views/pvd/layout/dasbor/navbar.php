@@ -75,7 +75,7 @@
           </div>
         </a>
         <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-          <a class="dropdown-item" href="#" onclick="mKeluar()">
+          <a class="dropdown-item" href="<?= base_url('hasil-pkl/keluar') ?>">
             <i class="mdi mdi-logout me-2"></i> Keluar </a>
         </div>
       </li>

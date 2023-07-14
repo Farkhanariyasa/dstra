@@ -36,28 +36,9 @@
 <script src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.colVis.min.js"></script>
 <script>
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('.hover-link'));
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl);
-});
-
-</script>
-<script>
-    function mKeluar() {
-        event.preventDefault();
-        Swal.fire({
-            title: 'Apakah Anda ingin keluar?',
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#d33',
-            cancelButtonColor: '#3085d6',
-            confirmButtonText: 'Keluar',
-            cancelButtonText: 'Batal'
-        }).then((result) => {
-            if (result.isConfirmed) {
-                window.location.href = "/hasil-pkl/keluar";
-            }
-        })
-    }
+  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
 </script>
 </body>
 

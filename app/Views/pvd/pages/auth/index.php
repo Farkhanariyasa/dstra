@@ -17,27 +17,6 @@
 </head>
 
 <body>
-  <!-- <div class="container-scroller">
-    <div class="container-fluid page-body-wrapper full-page-wrapper">
-      <div class="content-wrapper d-flex align-items-center auth forbody">
-        <div class="row flex-grow">
-          <div class="col-lg-4 mx-auto">
-            <div class="auth-form-light text-left p-5">
-              <div class="brand-logo">
-                <img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" />
-              </div>
-              <h4>Hello! let's get started</h4>
-              <h6 class="font-weight-light">Sign in to continue.</h6>
-              <a href="/hasil-pkl/googlelogin" class="btn btn-block btn-google auth-form-btn">
-                <i class="mdi mdi-google me-2"></i>Google STIS </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
 
   <div class="container-scroller">
     <div class="container-fluid page-body-wrapper full-page-wrapper">
@@ -55,10 +34,10 @@
               </a>
               <h4 class="font-weight-light mt-4">Masuk untuk melanjutkan.</h4>
               <div class="mt-4">
-                <a href="<?= base_url('hasil-pkl/googlelogin'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
-                  <i class="mdi mdi-google me-3"></i>Google STIS </a>
-                <a href="<?= base_url('hasil-pkl/googlelogin'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
-                  <i class="mdi mdi-google me-3"></i>Google STIS </a>
+                <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
+                  <i class="mdi mdi-google me-3"></i>Masuk dengan Google STIS </a>
+                <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-google auth-form-btn mb-2">
+                  <i class="mdi mdi-google me-3"></i>Masuk dengan Google BPS </a>
               </div>
             </div>
           </div>
