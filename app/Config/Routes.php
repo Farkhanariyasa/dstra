@@ -37,7 +37,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     // Autentikasi
     $routes->get('masuk', 'Auth::login');
     $routes->get('keluar', 'Auth::logout');
-    $routes->get('googlelogin', 'Auth::googleLogin');
+    $routes->get('loginstis', 'Auth::loginstis');
+    $routes->get('loginbps', 'Auth::loginbps');
 
     // Landing Page
     $routes->get('/', 'LandingPage::index');
@@ -121,7 +122,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('dasbor', 'Riset4::index');
 
         $routes->post('dasbor', 'Riset4::index');
-        
+
         // Menu 2
         $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->get('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
