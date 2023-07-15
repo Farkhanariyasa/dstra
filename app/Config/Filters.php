@@ -2,10 +2,11 @@
 
 namespace Config;
 
-use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
-use CodeIgniter\Filters\DebugToolbar;
+use App\Filters\HasilPklFilter;
 use CodeIgniter\Filters\Honeypot;
+use CodeIgniter\Config\BaseConfig;
+use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
 
@@ -21,6 +22,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'hasilPkl' => HasilPklFilter::class,
     ];
 
     /**
@@ -60,5 +62,7 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        'hasilPkl' => ['before' => ['hasil-pkl/riset1/', 'hasil-pkl/riset1/*', 'hasil-pkl/riset2/', 'hasil-pkl/riset2/*', 'hasil-pkl/riset3/', 'hasil-pkl/riset3/*', 'hasil-pkl/riset4/', 'hasil-pkl/riset4/*']],
+    ];
 }

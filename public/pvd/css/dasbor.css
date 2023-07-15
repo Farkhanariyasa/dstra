@@ -6029,10 +6029,10 @@ textarea.form-control.is-invalid {
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
-  padding: 0.875rem 2.5rem;
+  border: 2px solid transparent;
+  padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  border-radius: 0.1875rem;
+  border-radius: 0.5rem;
   -webkit-transition: color 0.15s ease-in-out,
     background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
@@ -7125,7 +7125,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #343a40;
+  color: #fff;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -17832,23 +17832,23 @@ code {
   color: #ffffff;
 }
 
-.btn-google {
-  background: #dc4a38;
+.btn-login {
+  background: #7382ab;
   color: #ffffff;
 }
 
-.btn-google:hover,
-.btn-google:focus {
-  background: #bf3322;
+.btn-login:hover,
+.btn-login:focus {
+  background: #4b395f;
   color: #ffffff;
 }
 
-.btn-google.btn-social-icon-text {
+.btn-login.btn-social-icon-text {
   padding: 0 1.5rem 0 0;
   background: #e47163;
 }
 
-.btn-google.btn-social-icon-text i {
+.btn-login.btn-social-icon-text i {
   background: #dc4a38;
   padding: 0.75rem;
   display: inline-block;
@@ -20691,7 +20691,8 @@ td {
 /* === Landing screens === */
 /* Auth */
 .auth .auth-form-light {
-  background: #ffffff;
+  background: #dce0eb;
+  border-radius: 0.5rem;
 }
 
 .auth .auth-form-light select {
@@ -20709,6 +20710,10 @@ td {
 
 .auth .brand-logo img {
   width: 150px;
+}
+
+.auth .brand-maskot img {
+  width: 220px;
 }
 
 .auth form .form-group {
@@ -20982,7 +20987,7 @@ td {
   border-bottom: 3px solid;
 }
 
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link::after {
+/* .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link::after {
   position: absolute;
   bottom: -0.5px;
   left: 0;
@@ -20993,17 +20998,10 @@ td {
   content: "";
   height: 2.5px;
   transition: all 0.5s;
-}
+} */
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link:hover::after {
   width: 100%;
-}
-
-@media (max-width: 767px) {
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-  }
 }
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link i {
@@ -22480,4 +22478,16 @@ a.page-link {
 button.btn.btn-secondary {
   background-color: #506396;
   border-color: #506396;
+}
+
+.forbody {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.logo-login {
+  width: 30px;
+  height: 30px;
 }

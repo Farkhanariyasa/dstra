@@ -36,10 +36,9 @@
 <script src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.colVis.min.js"></script>
 <script>
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('.hover-link'));
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl);
-});
-
+  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
 </script>
 </body>
 

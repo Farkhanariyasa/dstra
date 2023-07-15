@@ -9,9 +9,10 @@
       <span class="mdi mdi-menu"></span>
     </button>
     <ul class="navbar-nav navbar-nav-left">
+
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?> <span class="mdi mdi-chevron-down"></span>
+          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
           <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata">
@@ -29,7 +30,7 @@
               <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6>
             </div>
           </a>
-          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" data-bs-toggle="tooltip" title="Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan Smart Tourism Destination" >
+          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" data-bs-toggle="tooltip" title="Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan Smart Tourism Destination">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
               <h6 class="preview-subject font-weight-normal mb-1">Riset 4</h6>
             </div>
@@ -62,6 +63,23 @@
         <a href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" class="nav-link <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>">
           Riset 4
         </a>
+      </li>
+      <li class="nav-item nav-profile dropdown">
+        <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+          <div class="nav-profile-img">
+            <img src="<?= isset((session()->get())['akun_picture']) ? (session()->get())['akun_picture'] : base_url('pvd/img/default.png') ?>" alt="image">
+          </div>
+          <div class="nav-profile-text">
+            <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> </p>
+          </div>
+        </a>
+        <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+          <a class="dropdown-item" href="<?= base_url('hasil-pkl') ?>">
+            <i class="mdi mdi-home me-2"></i> Beranda </a>
+          <hr class="dropdown-divider" />
+          <a class="dropdown-item" href="<?= base_url('hasil-pkl/keluar') ?>">
+            <i class="mdi mdi-logout me-2"></i> Keluar </a>
+        </div>
       </li>
     </ul>
     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
