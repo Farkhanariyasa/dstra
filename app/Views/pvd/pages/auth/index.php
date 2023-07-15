@@ -36,7 +36,7 @@
               <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
                 <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" class="logo-login me-2" alt=""> Google STIS </a>
               <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
-                <img src="<?= base_url('pvd/img/landingpage/logobps.png') ?>" class="logo-login me-2" alt=""> Google BPS </a>
+                <img src="<?= base_url('pvd/img/landingpage/logobps.png') ?>" class="logo-login me-2" alt=""> SSO BPS </a>
             </div>
           </div>
           <div class="col-lg-4 text-center my-5">
