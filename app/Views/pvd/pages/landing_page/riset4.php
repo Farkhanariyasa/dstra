@@ -443,10 +443,10 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-4 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="info-item m-1 shawdow-lg text-center">
-                        <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/dummy_infografis_1.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                        <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/infografis_riset4_gambaranumum_rev1-4-01.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
                     </div>
                     <div class="info-item m-1 shawdow-lg text-center">
-                        <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/dasbor/riset4/dummy_infografis_2.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                        <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/dasbor/riset4/infografis_riset4_IKUPTIK_5-01.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
                     </div>
                 </div>
             </div>
