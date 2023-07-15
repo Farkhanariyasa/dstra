@@ -2,11 +2,13 @@
 
 namespace App\Controllers\Pvd;
 
+use Exception;
 use Google\Client;
-use Google\Service\Oauth2;
 use Config\Services;
+use Google\Service\Oauth2;
 use App\Models\Pvd\UserModel;
 use App\Controllers\BaseController;
+use JKD\SSO\Client\Provider\Keycloak;
 
 class Auth extends BaseController
 {
@@ -64,63 +66,74 @@ class Auth extends BaseController
                         'picture' => $userInfo->picture
                     ])) {
                         $data = $users->where('platform_id', $userInfo->id)->find();
-                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE);
+                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE, null);
 
                         return redirect()->to('/hasil-pkl/riset1/dasbor');
                     }
                     return redirect()->back();
                 }
-                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE);
+                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE, null);
                 return redirect()->to('/hasil-pkl/riset1/dasbor');
             }
         }
         return redirect()->to($client->createAuthUrl());
     }
+
 
     public function loginbps()
     {
-        $clientID = getenv('CLIENT_ID_GOOGLEBPS');
-        $clientSecret = getenv('CLIENT_SECRET_GOOGLEBPS');
-        $redirectUri = getenv('REDIRECT_URI_GOOGLEBPS');
+        $provider = new Keycloak([
+            'clientId'              => getenv('CLIENT_ID_SSOBPS'),
+            'clientSecret'          => getenv('CLIENT_SECRET_SSOBPS'),
+            'redirectUri'           => getenv('REDIRECT_URI_SSOBPS'),
+            'authServerUrl'         => 'https://sso.bps.go.id',
+            'realm'                 => 'pegawai-bps',
+            'scope'                 => 'openid profile-pegawai'
+        ]);
 
-        $client = new Client();
-        $client->setClientId($clientID);
-        $client->setClientSecret($clientSecret);
-        $client->setRedirectUri($redirectUri);
-        $client->addScope("email");
-        $client->addScope("profile");
-
-        if (isset($_GET['code'])) {
-            $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
-            if (isset($token['access_token'])) {
-                $client->setAccessToken($token['access_token']);
-                $Oauth = new Oauth2($client);
-                $userInfo = $Oauth->userinfo->get();
-                $users = new UserModel();
-                $data = $users->where('platform_id', $userInfo->id)->find();
-                if (!$data) {
-                    if ($users->insert([
-                        'platform_id' => $userInfo->id,
-                        'email' => $userInfo->email,
-                        'nama_lengkap' => $userInfo->name,
-                        'username' => str_replace('@bps.go.id', '', $userInfo->email),
-                        'picture' => $userInfo->picture
-                    ])) {
-                        $data = $users->where('platform_id', $userInfo->id)->find();
-                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE);
-
-                        return redirect()->to('/hasil-pkl/riset1/dasbor');
-                    }
-                    return redirect()->back();
-                }
-                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE);
-                return redirect()->to('/hasil-pkl/riset1/dasbor');
+        if (!isset($_GET['code'])) {
+            $authUrl = $provider->getAuthorizationUrl();
+            session()->set('oauth2state', $provider->getState());
+            header('Location: ' . $authUrl);
+            exit;
+        } elseif (empty($_GET['state']) || ($_GET['state'] !== session()->get('oauth2state'))) {
+            unset($_SESSION['oauth2state']);
+            exit('Invalid state');
+        } else {
+            try {
+                $token = $provider->getAccessToken('authorization_code', ['code' => $_GET['code']]);
+            } catch (Exception $e) {
+                exit('Gagal mendapatkan akses token : ' . $e->getMessage());
             }
         }
-        return redirect()->to($client->createAuthUrl());
+
+
+
+        if (isset($token)) {
+            $userInfo = $provider->getResourceOwner($token);
+            $users = new UserModel();
+            $data = $users->where('platform_id', $userInfo->getNip())->find();
+            $url_logout = $provider->getLogoutUrl();
+            if (!$data) {
+                if ($users->insert([
+                    'platform_id' => $userInfo->getNip(),
+                    'email' => $userInfo->getEmail(),
+                    'nama_lengkap' => $userInfo->getName(),
+                    'username' => $userInfo->getUsername(),
+                    'picture' => base_url('pvd/img/default.png')
+                ])) {
+                    $data = $users->where('platform_id', $userInfo->getNip())->find();
+                    $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE, $url_logout);
+                    return redirect()->to('/hasil-pkl/riset1/dasbor');
+                }
+                return redirect()->back();
+            }
+            $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE, $url_logout);
+            return redirect()->to('/hasil-pkl/riset1/dasbor');
+        }
     }
 
-    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $isLoggedInHasilPkl)
+    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $isLoggedInHasilPkl, $url_logout)
     {
         $data = [
             'akun_id' => $id,
@@ -128,7 +141,8 @@ class Auth extends BaseController
             'akun_nama_lengkap' => $nama_lengkap,
             'akun_picture' => $picture,
             'akun_email' => $email,
-            'isLoggedInHasilPkl' => $isLoggedInHasilPkl
+            'isLoggedInHasilPkl' => $isLoggedInHasilPkl,
+            'url_logout' => $url_logout
         ];
         session()->set($data);
     }
