@@ -77,8 +77,16 @@
           <a class="dropdown-item" href="<?= base_url('hasil-pkl') ?>">
             <i class="mdi mdi-home me-2"></i> Beranda </a>
           <hr class="dropdown-divider" />
-          <a class="dropdown-item" href="<?= base_url('hasil-pkl/keluar') ?>">
-            <i class="mdi mdi-logout me-2"></i> Keluar </a>
+          <?php if (isset((session()->get())['url_logout'])) : ?>
+            <script>
+              var url = "<?= base_url('hasil-pkl/keluar') ?>";
+            </script>
+            <a class="dropdown-item" href="<?= (session()->get())['url_logout'] ?>" onclick="window.open(url)">
+              <i class="mdi mdi-logout me-2"></i> Keluar </a>
+          <?php else : ?>
+            <a class="dropdown-item" href="<?= base_url('hasil-pkl/keluar') ?>">
+              <i class="mdi mdi-logout me-2"></i> Keluar </a>
+          <?php endif ?>
         </div>
       </li>
     </ul>
