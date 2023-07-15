@@ -2,9 +2,11 @@
 
 Proyek ini menggunakan framework CodeIgniter 4 dan berlisensi MIT.
 
+![Gambar](tampilan_web.png)
+
 ## Daftar Perubahan
 
-Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika melakukan perubahan mayor seperti merubah struktur basis data.
+Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika melakukan perubahan mayor seperti merubah struktur basis data ataupun menginstal librari dengan composer.
 
 - 15-01-2023 : Pembuatan Awal Proyek Dasbor Hasil PKL 62
 - 17-01-2023 : Perubahan URL yang awalnya `pvd` menjadi `hasil-pkl`
@@ -13,6 +15,8 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 20-01-2023 : Perubahan struktur basis data pada tabel `pvd_unduh_hasil_pkl`. Lakukan hapus terdahulu tabel yang sebelumnya dan `migrations` `php spark migrate` untuk melakukan migrasi tabel.
 - 08-02-2023 : Perubahan Controller dan Routes. Diharapkan untuk memperhatikan perubahan tersebut.
 - 05-03-2023 : Ditambahkan instalasi menggunakan Docker.
+- 14-07-2023 : Ditambahkan fitur login dengan akun google stis untuk mengakses dasbor. Lakukan `composer install` untuk menginstall library googleapi client. Kemudian lakukan migrasi untuk menambahkan tabel `pvd_user` dengan perintah `php spark migrate`. Tambahkan `CLIENT_ID_GOOGLESTIS` dan `CLIENT_SECRET_GOOGLESTIS` serta atur `REDIRECT_URI_GOOGLESTIS` pada file `.env` untuk mengatur konfigurasi login dengan akun google stis. Lihat contoh pada file `.env.example`.
+- 15-07-2023 : Ditambahkan fitur login dengan akun sso bps untuk mengakses dasbor. Lakukan `composer install` untuk menginstall library jkd sso. Tambahkan `CLIENT_ID_SSOBPS` dan `CLIENT_SECRET_SSOBPS` serta atur `REDIRECT_URI_SSOBPS` pada file `.env` untuk mengatur konfigurasi login dengan akun sso bps. Lihat contoh pada file `.env.example`.
 
 ## Cara Instalasi
 
@@ -50,13 +54,13 @@ Contoh : `pvd_riset1_hasilsp`
 ## Penamaan Url
 
 - Untuk halaman utama, gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/pvd/beranda`.
-  Contoh : `http://localhost:8080/pvd`
-- Gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/pvd/[namariset]`.
-  Contoh : `http://localhost:8080/pvd/riset1`
-- Untuk halaman dasbor hasil riset, gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/pvd/[namariset]/dasbor`.
-  Contoh : `http://localhost:8080/pvd/riset1/dasbor`
-- Untuk menu yang berada pada halaman dasbor, gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/pvd/[namariset]/[namamenu]`.
-  Contoh : `http://localhost:8080/pvd/riset1/hasilsp`
+  Contoh : `http://localhost:8080/hasil-pkl`
+- Gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/hasil-pkl/[namariset]`.
+  Contoh : `http://localhost:8080/hasil-pkl/riset1`
+- Untuk halaman dasbor hasil riset, gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/hasil-pkl/[namariset]/dasbor`.
+  Contoh : `http://localhost:8080/hasil-pkl/riset1/dasbor`
+- Untuk menu yang berada pada halaman dasbor, gunakan nama url yang sesuai dengan ketentuan berikut `[baseurl]/hasil-pkl/[namariset]/[namamenu]`.
+  Contoh : `http://localhost:8080/hasil-pkl/riset1/hasilsp`
 
 ## Aturan Controller
 
