@@ -26,13 +26,12 @@
             <div class="brand-logo">
               <a href="<?= base_url('hasil-pkl'); ?>"><img src="<?= base_url('pvd/img/logo_pkl.png'); ?>" alt="logo" /></a>
             </div>
+            <h1>Web Hasil PKL 62 <br />T.A. 2022/2023 </h1>
             <a href="<?= base_url('hasil-pkl'); ?>" class="text-decoration-none">
-              <h1>Web Hasil PKL 62
-                <br /> T.A. 2022/2023
-              </h1>
+              <h4 style="color: #4b395f;"> <i class="mdi mdi-home"></i>Kembali Ke Beranda</h4>
             </a>
             <h4 class="font-weight-light mt-4">Masuk untuk melanjutkan.</h4>
-            <div class="mt-4">
+            <div class="mt-1">
               <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
                 <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" class="logo-login me-2" alt=""> Google STIS </a>
               <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
@@ -48,9 +47,7 @@
           </div>
         </div>
       </div>
-      <!-- content-wrapper ends -->
     </div>
-    <!-- page-body-wrapper ends -->
   </div>
 
   <!-- Plugin JS -->
