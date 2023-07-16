@@ -67,14 +67,14 @@ class Auth extends BaseController
                         'picture' => $userInfo->picture
                     ])) {
                         $data = $users->where('platform_id', $userInfo->id)->find();
-                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, null);
+                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], $data[0]['instansi'], TRUE, null);
 
-                        return redirect()->to('/hasil-pkl/riset1/dasbor');
+                        return redirect()->to('/hasil-pkl/riset1');
                     }
                     return redirect()->back();
                 }
                 $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, null);
-                return redirect()->to('/hasil-pkl/riset1/dasbor');
+                return redirect()->to('/hasil-pkl/riset1');
             }
         }
         return redirect()->to($client->createAuthUrl());
@@ -126,12 +126,12 @@ class Auth extends BaseController
                 ])) {
                     $data = $users->where('platform_id', $userInfo->getNip())->find();
                     $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, $url_logout);
-                    return redirect()->to('/hasil-pkl/riset1/dasbor');
+                    return redirect()->to('/hasil-pkl/riset1');
                 }
                 return redirect()->back();
             }
             $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], $data[0]['instansi'], TRUE, $url_logout);
-            return redirect()->to('/hasil-pkl/riset1/dasbor');
+            return redirect()->to('/hasil-pkl/riset1');
         }
     }
 
