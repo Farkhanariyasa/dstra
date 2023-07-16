@@ -83,10 +83,14 @@ class Auth extends BaseController
 
     public function loginbps()
     {
+        $clientID              = getenv('CLIENT_ID_SSOBPS');
+        $clientSecret          = getenv('CLIENT_SECRET_SSOBPS');
+        $redirectUri           = getenv('REDIRECT_URI_SSOBPS');
+
         $provider = new Keycloak([
-            'clientId'              => getenv('CLIENT_ID_SSOBPS'),
-            'clientSecret'          => getenv('CLIENT_SECRET_SSOBPS'),
-            'redirectUri'           => getenv('REDIRECT_URI_SSOBPS'),
+            'clientId'              => $clientID,
+            'clientSecret'          => $clientSecret,
+            'redirectUri'           => $redirectUri,
             'authServerUrl'         => 'https://sso.bps.go.id',
             'realm'                 => 'pegawai-bps',
             'scope'                 => 'openid profile-pegawai'
@@ -107,8 +111,6 @@ class Auth extends BaseController
                 exit('Gagal mendapatkan akses token : ' . $e->getMessage());
             }
         }
-
-
 
         if (isset($token)) {
             $userInfo = $provider->getResourceOwner($token);
