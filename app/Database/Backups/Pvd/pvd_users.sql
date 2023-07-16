@@ -33,7 +33,8 @@ CREATE TABLE `pvd_users` (
   `username` varchar(255) NOT NULL,
   `nama_lengkap` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `picture` varchar(100) NOT NULL
+  `instansi` varchar(255) NOT NULL,
+  `picture` varchar(100) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
