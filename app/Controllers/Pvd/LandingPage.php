@@ -11,13 +11,13 @@ class LandingPage extends BaseController
         $data = [
             'judul' => 'Beranda',
         ];
-
         return view('pvd/pages/landing_page/index', $data);
     }
 
     public function riset($riset)
     {
         $judul = '';
+        session()->set('riset', $riset);
         switch ($riset) {
             case 'riset1':
                 $judul = 'Riset 1';
@@ -35,7 +35,6 @@ class LandingPage extends BaseController
         $data = [
             'judul' => 'Tentang ' . $judul,
         ];
-
         return view('pvd/pages/landing_page/' . $riset, $data);
     }
 }
