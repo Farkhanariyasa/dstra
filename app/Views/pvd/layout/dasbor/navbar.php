@@ -70,7 +70,7 @@
             <img src="<?= isset((session()->get())['akun_picture']) ? (session()->get())['akun_picture'] : base_url('pvd/img/default.png') ?>" alt="image">
           </div>
           <div class="nav-profile-text">
-            <p class="mb-1 text-black"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> </p>
+            <p class="mb-1"><?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : "" ?> </p>
           </div>
         </a>
         <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">

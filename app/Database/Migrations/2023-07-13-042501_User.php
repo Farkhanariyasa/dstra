@@ -31,6 +31,10 @@ class User extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 255
             ],
+            'instansi' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255
+            ],
             'picture' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,

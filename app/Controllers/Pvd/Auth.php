@@ -63,16 +63,17 @@ class Auth extends BaseController
                         'email' => $userInfo->email,
                         'nama_lengkap' => $userInfo->name,
                         'username' => str_replace('@stis.ac.id', '', $userInfo->email),
+                        'instansi' => 'POLSTAT STIS',
                         'picture' => $userInfo->picture
                     ])) {
                         $data = $users->where('platform_id', $userInfo->id)->find();
-                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE, null);
+                        $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, null);
 
                         return redirect()->to('/hasil-pkl/riset1/dasbor');
                     }
                     return redirect()->back();
                 }
-                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE, null);
+                $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, null);
                 return redirect()->to('/hasil-pkl/riset1/dasbor');
             }
         }
@@ -120,20 +121,21 @@ class Auth extends BaseController
                     'email' => $userInfo->getEmail(),
                     'nama_lengkap' => $userInfo->getName(),
                     'username' => $userInfo->getUsername(),
+                    'instansi' => 'BPS',
                     'picture' => base_url('pvd/img/default.png')
                 ])) {
                     $data = $users->where('platform_id', $userInfo->getNip())->find();
-                    $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], TRUE, $url_logout);
+                    $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, $url_logout);
                     return redirect()->to('/hasil-pkl/riset1/dasbor');
                 }
                 return redirect()->back();
             }
-            $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], TRUE, $url_logout);
+            $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'], $data[0]['instansi'], TRUE, $url_logout);
             return redirect()->to('/hasil-pkl/riset1/dasbor');
         }
     }
 
-    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $isLoggedInHasilPkl, $url_logout)
+    public function _sessionAkun($id, $username, $nama_lengkap, $picture, $email, $instansi, $isLoggedInHasilPkl, $url_logout)
     {
         $data = [
             'akun_id' => $id,
@@ -141,6 +143,7 @@ class Auth extends BaseController
             'akun_nama_lengkap' => $nama_lengkap,
             'akun_picture' => $picture,
             'akun_email' => $email,
+            'akun_instansi' => $instansi,
             'isLoggedInHasilPkl' => $isLoggedInHasilPkl,
             'url_logout' => $url_logout
         ];
