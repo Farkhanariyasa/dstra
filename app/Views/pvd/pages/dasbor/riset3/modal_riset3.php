@@ -12,17 +12,17 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required value="<?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : '' ?>">
                         <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required value="<?= isset((session()->get())['akun_email']) ? session()->get()['akun_email'] : '' ?>">
                         <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required value="<?= isset((session()->get())['akun_instansi']) ? session()->get()['akun_instansi'] : '' ?>">
                         <div id="errorinstansi" class="errorvlds"></div>
                     </div>
                 </div>
@@ -47,12 +47,12 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required value="<?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : '' ?>">
                         <div id="errornama" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required value="<?= isset((session()->get())['akun_email']) ? session()->get()['akun_email'] : '' ?>">
                         <div id="erroremail" class="errorvlds"></div>
                     </div>
                     <div class="mb-1">
@@ -82,15 +82,15 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required value="<?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required value="<?= isset((session()->get())['akun_email']) ? session()->get()['akun_email'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required value="<?= isset((session()->get())['akun_instansi']) ? session()->get()['akun_instansi'] : '' ?>">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -114,15 +114,15 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required value="<?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required value="<?= isset((session()->get())['akun_email']) ? session()->get()['akun_email'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required value="<?= isset((session()->get())['akun_instansi']) ? session()->get()['akun_instansi'] : '' ?>">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -146,15 +146,15 @@
                 <div class="modal-body">
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Nama <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required>
+                        <input oninput="getvalue()" type="text" class="form-control nama" name="nama" id="nama" placeholder="Nama Anda" required value="<?= isset((session()->get())['akun_nama_lengkap']) ? session()->get()['akun_nama_lengkap'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label" name="emailunduh">Email <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required>
+                        <input oninput="getvalue()" type="email" class="form-control email" name="email" id="email" placeholder="Email Anda" required value="<?= isset((session()->get())['akun_email']) ? session()->get()['akun_email'] : '' ?>">
                     </div>
                     <div class="mb-1">
                         <label for="recipient-name" class="col-form-label">Instansi <span class="text-danger">*</span></label>
-                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required>
+                        <input oninput="getvalue()" type="text" class="form-control instansi" name="instansi" id="instansi" placeholder="Instansi Asal" required value="<?= isset((session()->get())['akun_instansi']) ? session()->get()['akun_instansi'] : '' ?>">
                     </div>
                 </div>
                 <div class="modal-footer">
