@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
     protected $table = 'pvd_users';
-    protected $allowedFields = ['username','platform_id','nama_lengkap','picture', 'email'];
+    protected $allowedFields = ['username', 'platform_id', 'nama_lengkap', 'picture', 'email', 'instansi'];
 
     // untuk ambil data
     public function getData($parameter)
@@ -31,7 +31,8 @@ class UserModel extends Model
         }
     }
 
-    public function findUserByUserName($username){
+    public function findUserByUserName($username)
+    {
         $user = $this
             ->asArray()
             ->where(['username' => $username])
@@ -43,5 +44,4 @@ class UserModel extends Model
     {
         return $this->db->table('users')->getWhere(['id' => $id])->getRowArray();
     }
-
 }
