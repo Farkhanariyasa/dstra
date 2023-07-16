@@ -47,10 +47,6 @@
     </div>
 </section><!-- End Hero -->
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d55e46311d1d58191e057350fbb641ba5842a3be
 <section class="hero">
     <!-- riset 1 -->
     <div class="container mt-3" id="riset1">
