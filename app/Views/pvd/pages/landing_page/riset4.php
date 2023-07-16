@@ -59,21 +59,22 @@
                         </a>
                     </p>
                     <div class="collapse" id="collapseExample" style="width: 100%;">
-                        <!-- ============================= -->
-                        <div>
-                            <h1 class="chart-title judul-chart" style="font-size: 16px; font-weight: 600; text-align: left; line-height: 25px">
-                            Laju Pertumbuhan PDRB Kota Batu <br>Atas Dasar Harga Konstan 2010 (persen) <br>Tahun 2017-2021</h1>
-                        </div>
-                        <div>
-                            <div id="latbel-linechart-container" class="chart-container">
-                                <canvas id="latbel-linechart"></canvas>
+                        <div class="col-12 grid-margin stretch-card p-0">
+                            <div class="card shadow rounded-4">
+                                <div class="p-0 card-body">
+                                    <div class="row">
+                                    <div class="mb-0 col-lg-12 grid-margin px-4 py-2">
+                                        <div>
+                                            <div class="chartBox text-center m-0">
+                                            <img id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/image006.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: auto;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <!-- <div class="chartBox justify-content-center align-item-center" style="height:350px;">
-                            <canvas id='latbel-linechart'></canvas>
-                        </div>   -->
-                        <!-- ====================================   -->
+                        <br>
                         <p class="text-justify" style="line-height: 25px;">
                             <strong>Batu memiliki posisi dan peran sebagai Kota Wisata</strong>, bahkan pemerintah Kota Batu berencana untuk meningkatkan
                             peranan Kota Batu dari Kota Wisata menjadi Sentra Wisata yang tertuang dalam Peraturan Daerah Kota Batu Nomor 7 Tahun 2011 tentang
@@ -236,17 +237,11 @@
                                         Unit usaha mikro dan kecil dengan pendekatan pemilik atau pengelola dari seluruh penduduk yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu tahun 2023.
                                         </p>
                                     </div>
-                                    
-                                    
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
-                
             </div>
         </section>
 
@@ -280,31 +275,6 @@
                 </div>
                 <!-- konten -->
                 <div class="konten third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <!-- <p class="text-justify">
-                    Kegiatan pengumpulan data dilakukan di Kota Batu, Provinsi Jawa Timur. Kota Batu terdiri dari 3 kecamatan yaitu 
-                    Kecamatan Batu, Kecamatan Bumiaji, dan Kecamatan Junrejo. Data yang digunakan bersumber dari data primer yang 
-                    didapatkan dari wawancara langsung CAPI terhadap pemilik atau pengelola usaha pariwisata yang terpilih sebagai sampel 
-                    dan menggunakan data sekunder yang diperoleh dari BPS berupa daftar jumlah usaha mikro dan kecil yang meliputi tiga 
-                    usaha pariwisata yang tercakup dalam penelitian ini. 
-                    <a id="metodologiAtas" onclick="ubahKelas1(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseMetodologi" aria-expanded="false" aria-controls="collapseMetodologi">
-                        [<strong><i>Tampilkan Semua</i></strong>]
-                    </a>
-                </p> -->
-                    <!-- <div class="collapse" id="collapseMetodologi">
-                    <p class="text-justify">    
-                        Populasi dalam penelitian ini adalah seluruh unit usaha pariwisata skala mikro dan kecil di Kota Batu tahun 2023. Populasi Target adalah 
-                        seluruh unit usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi 
-                        di Kota Batu pada tahun 2023. Unit Observasi adalah pemilik atau pengelola usaha pariwisata skala mikro dan kecil yang meliputi Jasa Transportasi 
-                        Wisata, Jasa Makanan dan Minuman, serta Penyediaan Akomodasi di Kota Batu pada tahun 2023. Metode Penarikan Sampel yang digunakan adalah 
-                        <i>Two Stage Sampling</i>. Untuk pemilihan sampel tahap pertama, dari kerangka sampel blok sensus di Kota Batu, dipilih sejumlah 
-                        blok sensus secara PPS WR. Kemudian tahap kedua, dari blok sensus terpilih, dipilih sejumlah usaha pariwisata melalui pendekatan 
-                        pemilik atau pengelola dari seluruh penduduk di Kota Batu tahun 2023 meliputi tiga usaha pariwisata yang tercakup dalam penelitian. 
-                        Tahap kedua ini dilakukan secara <i>systematic</i> dengan <i>implicit stratification</i> berdasarkan jenis usahanya.               
-                        <a id="metodologiBawah" onclick="ubahKelas2(this.id);" style="color: #4b395f;" class="collapsed text-decoration-none" data-bs-toggle="collapse" href="#collapseMetodologi" aria-expanded="false" aria-controls="collapseMetodologi">
-                                [<strong><i>Tampilkan Sebagian</i></strong>]
-                        </a>
-                    </p>
-                </div> -->
                     <p class="text-justify">
                         Kegiatan pengumpulan data dilakukan di Kota Batu, Provinsi Jawa Timur. Kota Batu terdiri dari 3 kecamatan yaitu
                         Kecamatan Batu, Kecamatan Bumiaji, dan Kecamatan Junrejo. Data yang digunakan bersumber dari data primer yang
@@ -380,29 +350,6 @@
                             <div class="circle font-weight-bold">2</div>
                         </div>
                     </div>
-                    <!--path between 2-3-->
-                    <!-- <div class="row timeline">
-                        <div class="col-2">
-                            <div class="corner right-bottom"></div>
-                        </div>
-                        <div class="col-8">
-                            <hr />
-                        </div>
-                        <div class="col-2">
-                            <div class="corner top-left"></div>
-                        </div>
-                    </div> -->
-                    <!--third section-->
-                    <!-- <div class="row align-items-center how-it-works d-flex">
-                        <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                            <div class="circle font-weight-bold">3</div>
-                        </div>
-                        <div class="col-6">
-                            <h5>Tahap III</h5>
-                            <h4>Systematic Sampling</h4>
-                            <p>dengan <i>implicit stratification</i> berupa penggolongan "sedang bekerja" dan "pernah bekerja"</p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -456,7 +403,7 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="<?= base_url('pvd/js/riset4/latbel_linechart.js') ?>"></script>
+    <!-- <script src="< ?= base_url('pvd/js/riset4/latbel_linechart.js') ?>"></script> -->
 </section><!-- End -->
 
 <?= $this->endSection(); ?>
