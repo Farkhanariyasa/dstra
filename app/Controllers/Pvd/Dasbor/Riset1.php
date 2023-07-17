@@ -44,7 +44,7 @@ class Riset1 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Relawan Surabaya Riset 1',
+            'judul' => 'Statistik Relawan Surabaya',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby', $data);
@@ -54,7 +54,7 @@ class Riset1 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Dasbor Riset 1',
+            'judul' => 'Quality Assurance',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/mpd/qualityassurance', $data);
@@ -65,7 +65,7 @@ class Riset1 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Double Counting Evaluasi Riset 1',
+            'judul' => 'Double Counting Evaluasi',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/double_counting/evaluasi', $data);
@@ -76,7 +76,7 @@ class Riset1 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Family Grouping Evaluasi Riset 1',
+            'judul' => 'Family Grouping Evaluasi',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/family_grouping/visualisasi', $data);
@@ -87,7 +87,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara Visualisasi Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Visualisasi',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/wisnus/visualisasi', $data);
@@ -98,7 +98,7 @@ class Riset1 extends BaseController
         $menu = getMenu();
         $hasilpklriset1 = $this->hasilpklriset1->findAll();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara Tabulasi Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Tabulasi',
             'hasilpklriset1' => $hasilpklriset1,
             'menu' => $menu['riset1'],
         ];
@@ -109,7 +109,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Kuesioner Kota Surabaya Riset 1',
+            'judul' => 'Kuesioner Kota Surabaya',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/kuesioner/surabaya', $data);
@@ -119,7 +119,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Kuesioner Kota Malang Riset 1',
+            'judul' => 'Kuesioner Kota Malang',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/kuesioner/malang', $data);
@@ -129,7 +129,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Relawan Surabaya Riset 1',
+            'judul' => 'Statistik Relawan Surabaya',
             'menu' => $menu['riset1'],
         ];
 
@@ -146,7 +146,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Quality Assurance Riset 1',
+            'judul' => 'Quality Assurance',
             'menu' => $menu['riset1'],
         ];
 
@@ -163,7 +163,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Double Counting Evaluasi Riset 1',
+            'judul' => 'Double Counting Evaluasi',
             'menu' => $menu['riset1'],
         ];
 
@@ -179,7 +179,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Family Grouping Evaluasi Riset 1',
+            'judul' => 'Family Grouping Evaluasi',
             'menu' => $menu['riset1'],
         ];
 
@@ -196,7 +196,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara Visualisasi Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Visualisasi',
             'menu' => $menu['riset1'],
         ];
 

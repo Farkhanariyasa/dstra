@@ -94,7 +94,7 @@ class Riset3 extends BaseController
     {
         $menu = getMenu();
         $data1 = [
-            'judul' => 'Hasil Kajian Tujuan 1 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 1',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan1', $data1);
@@ -122,7 +122,7 @@ class Riset3 extends BaseController
 
         ];
         $data = [
-            'judul' => 'Hasil Kajian Tujuan 2 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 2',
             'menu' => $menu['riset3'],
             'data_2_1' => $data_2_1,
             'data_2_2' => $data_2_2,
@@ -133,7 +133,7 @@ class Riset3 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Hasil Kajian Tujuan 3 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 3',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan3', $data);
@@ -143,7 +143,7 @@ class Riset3 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Hasil Kajian 4 Riset 3',
+            'judul' => 'Hasil Kajian 4',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan4', $data);
@@ -154,7 +154,7 @@ class Riset3 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Kuesioner Riset 3',
+            'judul' => 'Kuesioner',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/dokumen/kuesioner', $data);
@@ -164,7 +164,7 @@ class Riset3 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Buku Pedoman Riset 3',
+            'judul' => 'Buku Pedoman',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/dokumen/bukupedoman', $data);
@@ -175,7 +175,7 @@ class Riset3 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Hasil Kajian Tujuan 1 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 1',
             'menu' => $menu['riset3'],
         ];
 
@@ -211,7 +211,7 @@ class Riset3 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Hasil Kajian Tujuan 2 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 2',
             'menu' => $menu['riset3'],
             'data_2_1' => $data_2_1,
             'data_2_2' => $data_2_2,
@@ -239,7 +239,7 @@ class Riset3 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Hasil Kajian Tujuan 3 Riset 3',
+            'judul' => 'Hasil Kajian Tujuan 3',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan3', $data);
@@ -256,7 +256,7 @@ class Riset3 extends BaseController
         $this->datapengunduh->insert($data4);
         $menu = getMenu();
         $data = [
-            'judul' => 'Hasil Kajian 4 Riset 3',
+            'judul' => 'Hasil Kajian 4',
             'menu' => $menu['riset3'],
         ];
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan4', $data);
