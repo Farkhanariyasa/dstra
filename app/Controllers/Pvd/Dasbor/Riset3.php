@@ -17,6 +17,7 @@ class Riset3 extends BaseController
     protected $HasilPKL;
     protected $statusrumah1;
     protected $tujuan1_5;
+    protected $datapengunduh;
 
     public function __construct()
     {
@@ -27,6 +28,7 @@ class Riset3 extends BaseController
 
         $this->HasilPKL = new Riset3HasilPklModel();
         $this->tujuan1_5 = new Riset3HasilPklModel();
+        $this->datapengunduh = new UnduhHasilPklModel();
     }
     public function index()
     {
@@ -124,12 +126,7 @@ class Riset3 extends BaseController
             'menu' => $menu['riset3'],
             'data_2_1' => $data_2_1,
             'data_2_2' => $data_2_2,
-
         ];
-
-
-
-
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan2', $data);
     }
     public function hasilkajian3()
@@ -175,7 +172,7 @@ class Riset3 extends BaseController
 
     public function unduhtujuan1()
     {
-        $datapengunduh = new UnduhHasilPklModel();
+
         $menu = getMenu();
         $data = [
             'judul' => 'Hasil Kajian Tujuan 1 Riset 3',
@@ -188,7 +185,7 @@ class Riset3 extends BaseController
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
+        $this->datapengunduh->insert($data1);
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan1', $data);
     }
     public function unduhtujuan2()
@@ -220,25 +217,25 @@ class Riset3 extends BaseController
             'data_2_2' => $data_2_2,
 
         ];
-        $datapengunduh = new UnduhHasilPklModel();
+
         $data2 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data2);
+        $this->datapengunduh->insert($data2);
 
         return view('pvd/pages/dasbor/riset3/hasilkajian/tujuan2', $data);
     }
     public function unduhtujuan3()
     {
-        $datapengunduh = new UnduhHasilPklModel();
+
         $data3 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data3);
+        $this->datapengunduh->insert($data3);
 
         $menu = getMenu();
         $data = [
@@ -250,13 +247,13 @@ class Riset3 extends BaseController
 
     public function unduhtujuan4()
     {
-        $datapengunduh = new UnduhHasilPklModel();
+
         $data4 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data4);
+        $this->datapengunduh->insert($data4);
         $menu = getMenu();
         $data = [
             'judul' => 'Hasil Kajian 4 Riset 3',

@@ -115,7 +115,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 | Estimasi Banyak Wisatawan',
+            'judul' => 'Tujuan 1 Estimasi Banyak Wisatawan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -171,7 +171,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 | Estimasi Banyak Perjalanan',
+            'judul' => 'Tujuan 1 Estimasi Banyak Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -227,7 +227,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 | Kategori Perjalanan',
+            'judul' => 'Tujuan 1 Kategori Perjalanan',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -269,7 +269,7 @@ class Riset2 extends BaseController
         ];
 
         $data = [
-            'judul' => 'Tujuan 1 | Tabulasi',
+            'judul' => 'Tujuan 1 Tabulasi',
             'menu' => $menu['riset2'],
             'jk' => $jk,
             'jpu' => $jpu,
@@ -283,7 +283,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 2 | Lama Kunjungan & Bepergian Turis',
+            'judul' => 'Tujuan 2 Lama Kunjungan & Bepergian Turis',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -295,7 +295,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 2 | Lama Kunjungan & Bepergian Pelancong',
+            'judul' => 'Tujuan 2 Lama Kunjungan & Bepergian Pelancong',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -307,7 +307,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 2 | Tabulasi',
+            'judul' => 'Tujuan 2 Tabulasi',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -319,7 +319,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 3 | Karakteristik Wisatawan',
+            'judul' => 'Tujuan 3 Karakteristik Wisatawan',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -331,7 +331,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 3 | Karakteristik Perjalanan',
+            'judul' => 'Tujuan 3 Karakteristik Perjalanan',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -343,7 +343,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 3 | Tabulasi',
+            'judul' => 'Tujuan 3 Tabulasi',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -355,7 +355,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 4 | Zero-Inflation ZINB',
+            'judul' => 'Tujuan 4 Zero-Inflation ZINB',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -367,7 +367,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $data_tabel_sp_riset2 = $this->data_tabel_sp_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 4 | Count ZINB',
+            'judul' => 'Tujuan 4 Count ZINB',
             'data_tabel_sp_riset2' => $data_tabel_sp_riset2,
             'menu' => $menu['riset2'],
         ];
@@ -379,7 +379,7 @@ class Riset2 extends BaseController
         $menu = getMenu();
         $hasil_pkl_riset2 = $this->hasil_pkl_riset2->findAll();
         $data = [
-            'judul' => 'Tujuan 4 | Tabulasi',
+            'judul' => 'Tujuan 4 Tabulasi',
             'hasil_pkl_riset2' => $hasil_pkl_riset2,
             'menu' => $menu['riset2'],
         ];

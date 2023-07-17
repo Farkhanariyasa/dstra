@@ -55,10 +55,9 @@ class Auth extends BaseController
                 $client->setAccessToken($token['access_token']);
                 $Oauth = new Oauth2($client);
                 $userInfo = $Oauth->userinfo->get();
-                $users = new UserModel();
-                $data = $users->where('platform_id', $userInfo->id)->find();
+                $data = $this->userModel->where('platform_id', $userInfo->id)->find();
                 if (!$data) {
-                    if ($users->insert([
+                    if ($this->userModel->insert([
                         'platform_id' => $userInfo->id,
                         'email' => $userInfo->email,
                         'nama_lengkap' => $userInfo->name,
@@ -66,7 +65,7 @@ class Auth extends BaseController
                         'instansi' => 'POLSTAT STIS',
                         'picture' => $userInfo->picture
                     ])) {
-                        $data = $users->where('platform_id', $userInfo->id)->find();
+                        $data = $this->userModel->where('platform_id', $userInfo->id)->find();
                         $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], $data[0]['instansi'], TRUE, null);
                         return redirect()->to('/hasil-pkl/' . session()->get('riset'));
                     }
@@ -113,11 +112,10 @@ class Auth extends BaseController
 
         if (isset($token)) {
             $userInfo = $provider->getResourceOwner($token);
-            $users = new UserModel();
-            $data = $users->where('platform_id', $userInfo->getNip())->find();
+            $data = $this->userModel->where('platform_id', $userInfo->getNip())->find();
             $url_logout = $provider->getLogoutUrl();
             if (!$data) {
-                if ($users->insert([
+                if ($this->userModel->insert([
                     'platform_id' => $userInfo->getNip(),
                     'email' => $userInfo->getEmail(),
                     'nama_lengkap' => $userInfo->getName(),
@@ -125,7 +123,7 @@ class Auth extends BaseController
                     'instansi' => 'BPS',
                     'picture' => base_url('pvd/img/default.png')
                 ])) {
-                    $data = $users->where('platform_id', $userInfo->getNip())->find();
+                    $data = $this->userModel->where('platform_id', $userInfo->getNip())->find();
                     $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, $url_logout);
                     return redirect()->to('/hasil-pkl/' . session()->get('riset'));
                 }

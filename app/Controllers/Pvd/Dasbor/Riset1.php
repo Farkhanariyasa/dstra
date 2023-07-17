@@ -17,6 +17,7 @@ class Riset1 extends BaseController
     protected $hasilpklriset1;
     protected $userModel;
     protected $data;
+    protected $datapengunduh;
 
     public function __construct()
     {
@@ -26,6 +27,7 @@ class Riset1 extends BaseController
         $this->dataresponden = new Riset1HasilSpModel();
         $this->hasilpklriset1 = new Riset1HasilPklModel();
         $this->userModel = new UserModel();
+        $this->datapengunduh = new UnduhHasilPklModel();
     }
 
     public function index()
@@ -39,33 +41,31 @@ class Riset1 extends BaseController
     }
     public function statistikarelawansurabaya()
     {
-        
+
         $menu = getMenu();
         $data = [
             'judul' => 'Statistik Relawan Surabaya Riset 1',
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby',$data);
-
+        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby', $data);
     }
     public function qualityassurance()
     {
-        
+
         $menu = getMenu();
         $data = [
             'judul' => 'Dasbor Riset 1',
             'menu' => $menu['riset1'],
         ];
-        return view('pvd/pages/dasbor/riset1/mpd/qualityassurance',$data);
-
+        return view('pvd/pages/dasbor/riset1/mpd/qualityassurance', $data);
     }
 
     public function double_counting_evaluasi()
     {
-        
+
         $menu = getMenu();
         $data = [
-            'judul' => 'Double Counting | Evaluasi',
+            'judul' => 'Double Counting Evaluasi Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/double_counting/evaluasi', $data);
@@ -76,7 +76,7 @@ class Riset1 extends BaseController
 
         $menu = getMenu();
         $data = [
-            'judul' => 'Family Grouping | Evaluasi | Riset 1',
+            'judul' => 'Family Grouping Evaluasi Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/family_grouping/visualisasi', $data);
@@ -87,7 +87,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara | Visualisasi | Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Visualisasi Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/wisnus/visualisasi', $data);
@@ -98,18 +98,18 @@ class Riset1 extends BaseController
         $menu = getMenu();
         $hasilpklriset1 = $this->hasilpklriset1->findAll();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara | Tabulasi | Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Tabulasi Riset 1',
             'hasilpklriset1' => $hasilpklriset1,
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/wisnus/tabulasi', $data);
     }
-    
+
     public function kuesioner_sby()
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Kuesioner | Kota Surabaya',
+            'judul' => 'Kuesioner Kota Surabaya Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/kuesioner/surabaya', $data);
@@ -119,7 +119,7 @@ class Riset1 extends BaseController
     {
         $menu = getMenu();
         $data = [
-            'judul' => 'Kuesioner | Kota Malang',
+            'judul' => 'Kuesioner Kota Malang Riset 1',
             'menu' => $menu['riset1'],
         ];
         return view('pvd/pages/dasbor/riset1/kuesioner/malang', $data);
@@ -127,7 +127,6 @@ class Riset1 extends BaseController
 
     public function unduhstatsrelawansby()
     {
-        $datapengunduh = new UnduhHasilPklModel();
         $menu = getMenu();
         $data = [
             'judul' => 'Statistik Relawan Surabaya Riset 1',
@@ -140,80 +139,73 @@ class Riset1 extends BaseController
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
-        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby',$data);
+        $this->datapengunduh->insert($data1);
+        return view('pvd/pages/dasbor/riset1/mpd/statistikrelawansby', $data);
     }
     public function unduhqa()
     {
-        $datapengunduh = new UnduhHasilPklModel();
         $menu = getMenu();
         $data = [
             'judul' => 'Quality Assurance Riset 1',
             'menu' => $menu['riset1'],
         ];
 
-
         $data1 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
-        return view('pvd/pages/dasbor/riset1/mpd/qualityassurance',$data);
+        $this->datapengunduh->insert($data1);
+        return view('pvd/pages/dasbor/riset1/mpd/qualityassurance', $data);
     }
 
     public function unduhdc()
     {
-        $datapengunduh = new UnduhHasilPklModel();
         $menu = getMenu();
         $data = [
-            'judul' => 'Double Counting | Evaluasi',
+            'judul' => 'Double Counting Evaluasi Riset 1',
             'menu' => $menu['riset1'],
         ];
-        
-
 
         $data1 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
+        $this->datapengunduh->insert($data1);
         return view('pvd/pages/dasbor/riset1/double_counting/evaluasi', $data);
     }
     public function unduhfg()
     {
-        $datapengunduh = new UnduhHasilPklModel();
         $menu = getMenu();
         $data = [
-            'judul' => 'Family Grouping | Evaluasi | Riset 1',
+            'judul' => 'Family Grouping Evaluasi Riset 1',
             'menu' => $menu['riset1'],
         ];
-        
+
         $data1 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
+        $this->datapengunduh->insert($data1);
         return view('pvd/pages/dasbor/riset1/family_grouping/visualisasi', $data);
     }
 
     public function unduhwisnus()
     {
-        $datapengunduh = new UnduhHasilPklModel();
         $menu = getMenu();
         $data = [
-            'judul' => 'Statistik Wisatawan Nusantara | Visualisasi | Riset 1',
+            'judul' => 'Statistik Wisatawan Nusantara Visualisasi Riset 1',
             'menu' => $menu['riset1'],
         ];
-        
+
         $data1 = [
             'email' => $this->request->getVar('email'),
             'nama' => $this->request->getVar('nama'),
             'instansi' => $this->request->getVar('instansi')
         ];
-        $datapengunduh->insert($data1);
+        $this->datapengunduh->insert($data1);
         return view('pvd/pages/dasbor/riset1/wisnus/visualisasi', $data);
     }
 }
