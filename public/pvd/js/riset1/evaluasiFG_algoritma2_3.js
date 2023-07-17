@@ -35,9 +35,7 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
             
 
         ],
-        // backgroundColor: ["#516296",],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#516296",
         pointStyle: 'circle',
@@ -61,9 +59,7 @@ const bar_fg_algoritma2_3 = new Chart(fg_algoritma2_3, {
             
             
         ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#C27D90",
         pointStyle: 'circle',

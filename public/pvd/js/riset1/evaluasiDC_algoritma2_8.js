@@ -38,9 +38,7 @@ const bar_dc_algoritma2_8 = new Chart(dc_algoritma2_8, {
             
 
         ],
-        // backgroundColor: ["#516296",],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#516296",
         pointStyle: 'circle',

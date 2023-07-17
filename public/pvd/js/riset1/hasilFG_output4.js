@@ -34,9 +34,7 @@ const bar_fg_output4 = new Chart(fg_output4, {
             0.52,
             
         ],
-        // backgroundColor: ["#516296",],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#FDAB01",
         pointStyle: 'circle',
@@ -61,9 +59,7 @@ const bar_fg_output4 = new Chart(fg_output4, {
             
             
         ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#516296",
         pointStyle: 'circle',
@@ -88,9 +84,7 @@ const bar_fg_output4 = new Chart(fg_output4, {
             
             
         ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#C27D90",
         pointStyle: 'circle',
