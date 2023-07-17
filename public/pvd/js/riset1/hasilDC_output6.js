@@ -128,19 +128,4 @@ function responsivefonts() {
   }
 }
 
-// const barChartAxisRelawan_output6 = document.getElementById("forBarChartAxisRelawan_output6");
-// barChartAxisRelawan_output6.addEventListener("click", update_value_relawan_output6(chk_bx));
 
-// function update_value_relawan_output6(chk_bx) {
-//   if (chk_bx.checked) {
-//     console.log("check");
-//     bar_relawan1.options.scales.x.display = true;
-//     bar_relawan1.options.scales.y.display = true;
-//     bar_relawan1.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_relawan1.options.scales.x.display = false;
-//     bar_relawan1.options.scales.y.display = false;
-//     bar_relawan1.update();
-//   }
-// }

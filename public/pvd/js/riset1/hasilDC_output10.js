@@ -106,21 +106,4 @@ const bar_output10 = new Chart(dc_output10, {
   
 });
 
-// const barChartAxis_output1 = document.getElementById("forBarChartAxis_output1");
-// barChartAxis_output1.addEventListener("click", update_value_output1(check_axis));
 
-// function update_value_output1(check_axis) {
-//   if (check_axis.checked) {
-//     console.log("check");
-//     bar_output10.options.scales.x.display = true;
-//     bar_output10.options.scales.y.display = true;
-//     bar_output10.options.plugins.datalabels.display = false;
-//     bar_output10.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_output10.options.scales.x.display = false;
-//     bar_output10.options.scales.y.display = false;
-//     bar_output10.options.plugins.datalabels.display = true;
-//     bar_output10.update();
-//   }
-// }
