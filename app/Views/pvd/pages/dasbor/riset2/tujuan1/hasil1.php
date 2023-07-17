@@ -8,17 +8,6 @@
       <p>Estimasi Banyak Wisatawan</p>
     </header>
     <hr class="hrjudul">
-
-    <!-- <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">Semua</li>
-          <li data-filter=".filter-riset2-hasiltujuan1-1">Banyak Wisatawan</li>
-          <li data-filter=".filter-riset2-hasiltujuan1-2">Banyak Perjalanan</li>
-          <li data-filter=".filter-riset2-hasiltujuan1-3">Tujuan Utama</li>
-        </ul>
-      </div>
-    </div> -->
     
     <div class="row portfolio-container">
       <?php include('dummy_hasil1.php') ?>
