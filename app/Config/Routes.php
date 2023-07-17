@@ -120,8 +120,6 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 1
         $routes->get('dasbor', 'Riset4::index');
 
-        $routes->post('dasbor', 'Riset4::index');
-
         // Menu 2
         $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
         $routes->get('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
@@ -150,12 +148,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 5
         $routes->get('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
 
-        $routes->post('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
-
         // Menu 6
         $routes->get('dokumen_terkait', 'Riset4::menu6'); // Menu 6
-
-        $routes->post('dokumen_terkait', 'Riset4::menu6'); // Menu 6
     });
 });
 
