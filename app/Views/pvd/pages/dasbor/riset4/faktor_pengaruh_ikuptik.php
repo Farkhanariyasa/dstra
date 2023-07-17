@@ -91,8 +91,6 @@
         </div>
     </div>
   </div>
-  <!-- Modal faktor pengaruh ikuptik -->
-  <?php include('modal_faktor_pengaruh_ikuptik.php') ?>
   </div>
 </section>
 
@@ -111,8 +109,6 @@
   <!-- Highchartjs Heatmap -->
   <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 
-  <!-- Fungsi Unduh Chart -->
-  <script src="<?= base_url('pvd/js/riset4/button_download_5.js') ?>"></script>
 </section>
 
 <?= $this->endSection(); ?>
