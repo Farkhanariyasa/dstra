@@ -12,25 +12,25 @@
 
       <li class="nav-item dropdown d-lg-none">
         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">
-          <?= 'Riset ' . substr($request->uri->getSegment(2), -1) ?>
+          <?= 'Riset ' . substr($request->getUri()->getSegment(2), -1) ?>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
-          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata">
+          <a class="dropdown-item preview-item <?= $request->getUri()->getSegment(2) == "riset1" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
               <h6 class="preview-subject font-weight-normal mb-1">Riset 1</h6>
             </div>
           </a>
-          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>" data-bs-toggle="tooltip" title="Pilot Survei Wisatawan Nusantara" href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>">
+          <a class="dropdown-item preview-item <?= $request->getUri()->getSegment(2) == "riset2" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>" data-bs-toggle="tooltip" title="Pilot Survei Wisatawan Nusantara">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
               <h6 class="preview-subject font-weight-normal mb-1">Riset 2</h6>
             </div>
           </a>
-          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" data-bs-toggle="tooltip" title="Tenaga Kerja di Industri Pariwisata">
+          <a class="dropdown-item preview-item <?= $request->getUri()->getSegment(2) == "riset3" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" data-bs-toggle="tooltip" title="Tenaga Kerja di Industri Pariwisata">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
               <h6 class="preview-subject font-weight-normal mb-1">Riset 3</h6>
             </div>
           </a>
-          <a class="dropdown-item preview-item <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" data-bs-toggle="tooltip" title="Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan Smart Tourism Destination">
+          <a class="dropdown-item preview-item <?= $request->getUri()->getSegment(2) == "riset4" ? "active" : "" ?>" href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" data-bs-toggle="tooltip" title="Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan Smart TogetUri()sm Destination">
             <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
               <h6 class="preview-subject font-weight-normal mb-1">Riset 4</h6>
             </div>
@@ -45,22 +45,22 @@
     </ul>
     <ul class="navbar-nav navbar-nav-right">
       <li class="nav-item d-none d-lg-block">
-        <a href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" class="nav-link  <?= $request->uri->getSegment(2) == "riset1" ? "active" : "" ?>">
+        <a href="<?= base_url('hasil-pkl/riset1/dasbor'); ?>" class="nav-link  <?= $request->getUri()->getSegment(2) == "riset1" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Kajian Pemanfaatan MPD dalam Menunjang Statistik Pariwisata">
           Riset 1
         </a>
       </li>
       <li class="nav-item d-none d-lg-block">
-        <a href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>" class="nav-link <?= $request->uri->getSegment(2) == "riset2" ? "active" : "" ?>">
+        <a href="<?= base_url('hasil-pkl/riset2/dasbor'); ?>" class="nav-link <?= $request->getUri()->getSegment(2) == "riset2" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Pilot Survei Wisatawan Nusantara">
           Riset 2
         </a>
       </li>
       <li class="nav-item d-none d-lg-block">
-        <a href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" class="nav-link <?= $request->uri->getSegment(2) == "riset3" ? "active" : "" ?>">
+        <a href="<?= base_url('hasil-pkl/riset3/dasbor'); ?>" class="nav-link <?= $request->getUri()->getSegment(2) == "riset3" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Tenaga Kerja di Industri Pariwisata">
           Riset 3
         </a>
       </li>
       <li class="nav-item d-none d-lg-block">
-        <a href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" class="nav-link <?= $request->uri->getSegment(2) == "riset4" ? "active" : "" ?>">
+        <a href="<?= base_url('hasil-pkl/riset4/dasbor'); ?>" class="nav-link <?= $request->getUri()->getSegment(2) == "riset4" ? "active" : "" ?>" data-bs-toggle="tooltip" title="Kesiapan Pemanfaatan TIK Unit Usaha Pariwisata Skala Mikro dan Kecil di Kota Batu dalam Menerapkan Smart TogetUri()sm Destination">
           Riset 4
         </a>
       </li>

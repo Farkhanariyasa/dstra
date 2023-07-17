@@ -11,7 +11,6 @@ class LandingPage extends BaseController
         $data = [
             'judul' => 'Beranda',
         ];
-        session()->set('riset', 'riset1');
         return view('pvd/pages/landing_page/index', $data);
     }
 

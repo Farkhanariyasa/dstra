@@ -45,7 +45,6 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('(:segment)', ['namespace' => 'App\Controllers\Pvd'], function ($routes) {
         // Tentang Riset
         $routes->get('/', 'LandingPage::riset/$1');
-        $routes->post('/', 'LandingPage::riset/$1');
 
         // Fungsi Unduh
         $routes->post('unduh', 'Tools::unduh/$1');
