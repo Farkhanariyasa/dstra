@@ -75,7 +75,7 @@ document.getElementById("relawan1").addEventListener("click", function (e) {
 
 document.getElementById("relawan2").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("relawan_output2").toDataURL();
+  let canvasUrl = document.getElementById("relawan_output2rev").toDataURL();
   // Create an anchor, and set the href value to our data URL
   const createEl = document.createElement("a");
   createEl.href = canvasUrl;
@@ -105,7 +105,7 @@ document.getElementById("relawan3").addEventListener("click", function (e) {
 
 document.getElementById("relawan4").addEventListener("click", function (e) {
   // Convert our canvas to a data URL
-  let canvasUrl = document.getElementById("relawan_output4").toDataURL();
+  let canvasUrl = document.getElementById("relawan_output4rev").toDataURL();
   // Create an anchor, and set the href value to our data URL
   const createEl = document.createElement("a");
   createEl.href = canvasUrl;
