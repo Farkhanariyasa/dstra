@@ -118,21 +118,4 @@ const bar_output2 = new Chart(fg_output2, {
   plugins: [ChartDataLabels],
 });
 
-// const barChartAxis_output1 = document.getElementById("forBarChartAxis_output1");
-// barChartAxis_output1.addEventListener("click", update_value_output1(check_axis));
 
-// function update_value_output1(check_axis) {
-//   if (check_axis.checked) {
-//     console.log("check");
-//     bar_output2.options.scales.x.display = true;
-//     bar_output2.options.scales.y.display = true;
-//     bar_output2.options.plugins.datalabels.display = false;
-//     bar_output2.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_output2.options.scales.x.display = false;
-//     bar_output2.options.scales.y.display = false;
-//     bar_output2.options.plugins.datalabels.display = true;
-//     bar_output2.update();
-//   }
-// }

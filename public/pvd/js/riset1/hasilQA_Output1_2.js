@@ -32,13 +32,7 @@ const line_output1_2 = new Chart(qa_output1_2, {
     data: data_qa_output1_2,
     options: {
         animations: {
-            // tension: {
-            //     duration: 1000,
-            //     easing: 'linear',
-            //     from: 1,
-            //     to: 0,
-            //     loop: true
-            // }
+            
         },
         scales: {
             y: { // defining min and max so hiding the dataset does not change scale range

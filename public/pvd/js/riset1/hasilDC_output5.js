@@ -34,9 +34,7 @@ const bar_dc_output5 = new Chart(dc_output5, {
             ,26.5
             
         ],
-        // backgroundColor: ["#516296",],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#FDAB01",
         pointStyle: 'circle',
@@ -61,9 +59,7 @@ const bar_dc_output5 = new Chart(dc_output5, {
             
             
         ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#516296",
         pointStyle: 'circle',
@@ -88,9 +84,7 @@ const bar_dc_output5 = new Chart(dc_output5, {
             
             
         ],
-        // backgroundColor: [ "#C27D90"],
-        // borderWidth: 1,
-        // borderRadius: 8,
+        
         fill: false,
         borderColor: "#C27D90",
         pointStyle: 'circle',
@@ -203,19 +197,4 @@ function responsivefonts() {
   }
 }
 
-// const barChartAxisRelawan_output1 = document.getElementById("forBarChartAxisRelawan_output1");
-// barChartAxisRelawan_output1.addEventListener("click", update_value_relawan_output1(chk_bx));
 
-// function update_value_relawan_output1(chk_bx) {
-//   if (chk_bx.checked) {
-//     console.log("check");
-//     bar_relawan1.options.scales.x.display = true;
-//     bar_relawan1.options.scales.y.display = true;
-//     bar_relawan1.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_relawan1.options.scales.x.display = false;
-//     bar_relawan1.options.scales.y.display = false;
-//     bar_relawan1.update();
-//   }
-// }

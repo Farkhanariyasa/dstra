@@ -104,21 +104,3 @@ const bar_output11 = new Chart(dc_output11, {
   plugins: [ChartDataLabels],
 });
 
-// const barChartAxis_output1 = document.getElementById("forBarChartAxis_output1");
-// barChartAxis_output1.addEventListener("click", update_value_output1(check_axis));
-
-// function update_value_output1(check_axis) {
-//   if (check_axis.checked) {
-//     console.log("check");
-//     bar_output11.options.scales.x.display = true;
-//     bar_output11.options.scales.y.display = true;
-//     bar_output11.options.plugins.datalabels.display = false;
-//     bar_output11.update();
-//   } else {
-//     console.log("uncheck");
-//     bar_output11.options.scales.x.display = false;
-//     bar_output11.options.scales.y.display = false;
-//     bar_output11.options.plugins.datalabels.display = true;
-//     bar_output11.update();
-//   }
-// }

@@ -28,38 +28,6 @@ const data_qa_output2_2 = {
   };
 
 
-// animation
-// const totalDuration = 10000;
-// const delayBetweenPoints = totalDuration / data_qa_output2_2.length;
-// const previousY = (ctx) => ctx.index === 0 ? ctx.chart.scales.y.getPixelForValue(100) : ctx.chart.getDatasetMeta(ctx.datasetIndex).data[ctx.index - 1].getProps(['y'], true).y;
-// const animation = {
-//   x: {
-//     type: 'number',
-//     easing: 'linear',
-//     duration: delayBetweenPoints,
-//     from: NaN, // the point is initially skipped
-//     delay(ctx) {
-//       if (ctx.type !== 'data' || ctx.xStarted) {
-//         return 0;
-//       }
-//       ctx.xStarted = true;
-//       return ctx.index * delayBetweenPoints;
-//     }
-//   },
-//   y: {
-//     type: 'number',
-//     easing: 'linear',
-//     duration: delayBetweenPoints,
-//     from: previousY,
-//     delay(ctx) {
-//       if (ctx.type !== 'data' || ctx.yStarted) {
-//         return 0;
-//       }
-//       ctx.yStarted = true;
-//       return ctx.index * delayBetweenPoints;
-//     }
-//   }
-// };
 
 const line_output2_2 = new Chart(qa_output2_2, {
     type: 'line',
@@ -67,13 +35,7 @@ const line_output2_2 = new Chart(qa_output2_2, {
     options: {
         // animation: animation,
         animations: {
-            // tension: {
-            //     duration: 1000,
-            //     easing: 'linear',
-            //     from: 1,
-            //     to: 0,
-            //     loop: true
-            // }
+            
         },
         scales: {
             y: { // defining min and max so hiding the dataset does not change scale range
