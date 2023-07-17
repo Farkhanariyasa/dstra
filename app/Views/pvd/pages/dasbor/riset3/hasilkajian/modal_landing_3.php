@@ -27,7 +27,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                        <button disabled type="submit" id="btndownloadLp_<?php echo $i ?>" class="tombolkonf">Konfirmasi</button>
+                        <button type="submit" id="btndownloadLp_<?php echo $i ?>" class="tombolkonf">Konfirmasi</button>
                     </div>
                 </form>
             </div>

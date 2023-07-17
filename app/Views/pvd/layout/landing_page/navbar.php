@@ -35,8 +35,11 @@
 							</a>
 						</div>
 					</li> -->
-					<li class="nav-item"><a href="<?= base_url("hasil-pkl/keluar") ?>" class="tombol btn-for"><span>Keluar <i class="fa-solid fa-right-from-bracket"></i></span></a></li>
-
+					<?php if ($request->uri->getSegment(2) == "") : ?>
+						<li class="nav-item"><a href="<?= base_url("hasil-pkl/keluar") ?>" class="tombol btn-for"><span>Keluar <i class="fa-solid fa-right-from-bracket"></i></span></a></li>
+					<?php else : ?>
+						<li class="nav-item"><a href="<?= base_url("hasil-pkl/") . $request->uri->getSegment(2) . '/dasbor'  ?>" class="tombol btn-for"><span>Hasil PKL <i class="fas fa-arrow-circle-right"></i></span></a></li>
+					<?php endif ?>
 				<?php else : ?>
 					<li class="nav-item"><a href="<?= base_url("hasil-pkl/masuk") ?>" class="tombol btn-for"><span>Masuk</span></a></li>
 				<?php endif ?>

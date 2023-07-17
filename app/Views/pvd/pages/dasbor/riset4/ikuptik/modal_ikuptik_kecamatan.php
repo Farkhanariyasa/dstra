@@ -26,7 +26,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
+                    <button type="submit" id="button-download-1" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-2" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                    <button type="submit" id="button-download-2" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-3" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
+                    <button type="submit" id="button-download-3" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-4" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
+                    <button type="submit" id="button-download-4" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
         </div>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                    <button disabled type="submit" id="button-download-5" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
+                    <button type="submit" id="button-download-5" class="tombolkonf" data-bs-dismiss="modal">Konfirmasi</button>
                 </div>
             </form>
         </div>

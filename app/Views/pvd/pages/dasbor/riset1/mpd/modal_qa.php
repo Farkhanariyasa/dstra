@@ -26,7 +26,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="tombol btn-danger" data-bs-dismiss="modal">Kembali</button>
-                        <button disabled type="submit" id="qa<?php echo $i ?>" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
+                        <button type="submit" id="qa<?php echo $i ?>" class="tombolkonf" data-bs-dismiss="modal" aria-label="Close">Konfirmasi</button>
                     </div>
                 </form>
             </div>
