@@ -37,14 +37,7 @@ new Chart(ctx, {
             },
             tooltip:{
                 enabled:true,
-                // callbacks:{
-                //     label: function(context){
-                //         var label = context.label,
-                //             currentvalue = context.raw;
-
-                //             return label
-                //     }
-                // }
+                
             },
             datalabels:{
                 display:true,
