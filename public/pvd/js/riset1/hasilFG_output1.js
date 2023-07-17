@@ -13,14 +13,7 @@ const bar_output1 = new Chart(fg_output1, {
         borderWidth: 1,
         borderRadius: 8,
       },
-    //   {
-    //     label: "False DC",
-    //     data: [1324329.68,1324329.68],
-    //     backgroundColor: "#516296",
-    //     borderWidth: 1,
-    //     borderRadius: 8,
-    //   },
-      //make treshold line 
+    
         
 
 
