@@ -1898,6 +1898,13 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dc-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height: 350px;">
                                     <canvas class="mt1" id="dc_output9"></canvas>
                                 </div>
@@ -1907,6 +1914,13 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dc-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height: 350px;">
                                     <canvas class="mt1" id="dc_output1"></canvas>
                                 </div>
@@ -3457,6 +3471,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output5"></canvas>
                                         </div>
@@ -3466,6 +3487,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output2"></canvas>
                                         </div>
@@ -5173,6 +5201,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output4"></canvas>
                                         </div>
@@ -5182,6 +5217,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output3"></canvas>
                                         </div>
@@ -6641,6 +6683,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-7" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output11"></canvas>
                                         </div>
@@ -6650,6 +6699,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-8" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output7"></canvas>
                                         </div>
@@ -8075,7 +8131,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="isi-tujuan shadow mt-5 mb-0">
                     <h4 class="card-title judul-card">Evaluasi</h4>
                     <div class="card-body">
@@ -8083,6 +8139,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-9" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output6"></canvas>
                                         </div>
@@ -8092,6 +8155,13 @@
                             <div class="col-lg-6 grid-margin stretch-card h-100">
                                 <div class="card shadow rounded-4">
                                     <div class="card-body">
+                                        <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                            <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                <button id="dc-10" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="chartBox" style="height: 350px;">
                                             <canvas class="mt1" id="dc_output10"></canvas>
                                         </div>
@@ -8105,3 +8175,6 @@
         </div>
     </div>
 </div>
+
+<!-- Modal -->
+<?php include('modal_dc.php') ?>
