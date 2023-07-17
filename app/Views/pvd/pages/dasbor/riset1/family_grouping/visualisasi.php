@@ -30,7 +30,7 @@
 </style>
 
 <section>
-<!-- <script>
+<script>
         window.addEventListener('DOMContentLoaded', (event) => {
             Swal.fire({
                 title: 'Informasi Penting',
@@ -56,7 +56,7 @@
 
 
         });
-    </script> -->
+    </script>
 </section>
 
 <section id="portfolio" class="portfolio section-bg">
