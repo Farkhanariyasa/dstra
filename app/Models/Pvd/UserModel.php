@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
     protected $table = 'pvd_users';
-    protected $allowedFields = ['username', 'platform_id', 'nama_lengkap', 'picture', 'email', 'instansi'];
+    protected $allowedFields = ['username', 'platform_id', 'nama_lengkap', 'picture', 'email', 'password', 'instansi'];
 
     // untuk ambil data
     public function getData($parameter)
