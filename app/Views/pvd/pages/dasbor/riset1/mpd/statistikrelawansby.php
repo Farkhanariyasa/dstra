@@ -44,10 +44,8 @@
 
 <!-- import chart -->
 <script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output1.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output2.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output2Rev.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output3.js') ?>"></script>
-<script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output4.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset1/hasilRelawan_Output4Rev.js') ?>"></script>
 
 <!-- Fungsi Unduh Chart -->
