@@ -10,12 +10,12 @@ class UserSeeder extends Seeder
     {
         $data = [
             [
-                'username' => 'akun',
-                'password' => password_hash('akun', PASSWORD_DEFAULT),
-                'nama_lengkap' => 'Akun Khusus',
-                'email' => 'akunkhusus@pkl.stis.local',
+                'username' => 'subjectmatter',
+                'password' => password_hash('subjectmatterbps', PASSWORD_DEFAULT),
+                'nama_lengkap' => 'Subject Matter',
+                'email' => 'pkl@stis.ac.id',
                 'instansi' => 'BPS',
-                'picture' => 'https://ui-avatars.com/api/?name=Akun+Khusus&color=7F9CF5&background=EBF4FF',
+                'picture' => 'https://ui-avatars.com/api/?name=Subject+Matter&color=7F9CF5&background=EBF4FF',
                 'platform_id' => ''
             ]
         ];
