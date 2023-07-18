@@ -660,19 +660,20 @@
         </section>
 
         <!-- Infografis -->
-        <!-- <section class="offset-header">
+        <section class="offset-header">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 30px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
-                    <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                <div class="konten third5 m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 50px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="info-item text-center">
+                      <img src="<?= base_url('pvd/img/landingpage/riset3/infografis_riset3.png') ?>" class="img-fluid">
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
