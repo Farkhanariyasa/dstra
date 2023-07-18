@@ -1,4 +1,4 @@
-<!-- Tabulasi 1 -->
+<!-- Tabulasi Tujuan 1 -->
 <div class="portfolio-item filter-riset2-hasil1">
     <div class="card">
         <div class="card-header">
