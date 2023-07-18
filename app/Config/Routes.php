@@ -38,7 +38,8 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->get('masuk', 'Auth::login');
     $routes->get('keluar', 'Auth::logout');
     $routes->get('loginstis', 'Auth::loginstis');
-    $routes->get('loginbps', 'Auth::loginbps');
+    $routes->get('loginmanual', 'Auth::loginmanual');
+    $routes->post('loginmanual', 'Auth::loginmanual');
 
     // Landing Page
     $routes->get('/', 'LandingPage::index');
