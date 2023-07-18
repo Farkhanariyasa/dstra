@@ -32,11 +32,7 @@
 
 <!-- Impor Chart -->
   <script src="<?= base_url('pvd/js/riset4/doughnut_dimensi_ikuptik.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/ikuptik_1_2_spider.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik_4_3_1.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu_4_3_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_4_1_1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset4/bar_4_1_2.js') ?>"></script>
 

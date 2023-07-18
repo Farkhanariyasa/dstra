@@ -1022,7 +1022,6 @@
     <script src="<?= base_url('pvd/js/riset4/dodge_jenis_aplikasi.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/dodge_skala_aplikasi.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/bar_kegiatan.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kegiatan.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/dodge_bar_1.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/dodge_bar_2.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/bar_media.js') ?>"></script>

@@ -121,7 +121,6 @@ function responsivefonts(){
 
 // Instantly assign Chart.js version
 const chartVersion6 = document.getElementById('chartVersion');
-chartVersion6.innerText = Chart.version;
 
 function randomValues(count, min, max){
     const delta = max-min;
