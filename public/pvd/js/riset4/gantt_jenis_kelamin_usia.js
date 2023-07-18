@@ -69,7 +69,6 @@ const data = {
         tooltip: {
             callbacks: {
                 title: (context) => {
-                    console.log(context[0].label);
                     return context[0].label.replaceAll(',',' ');
                 },
             },
@@ -94,4 +93,3 @@ const data = {
   
       // Instantly assign Chart.js version
       const chartVersion = document.getElementById('chartVersion');
-      chartVersion.innerText = Chart.version;

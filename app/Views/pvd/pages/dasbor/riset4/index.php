@@ -58,25 +58,11 @@
 
     <!-- Import Chart -->
     <script src="<?= base_url('pvd/js/riset4/doughnut_kota_batu.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/doughnut_kec_batu.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/doughnut_kec_junrejo.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/doughnut_kec_bumiaji.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_produksi.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kec_batu_produksi.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kec_junrejo_produksi.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kec_bumiaji_produksi.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_skala.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/pie_kec_batu_skala.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/pie_kec_junrejo_skala.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/pie_kec_bumiaji_skala.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/peta_batu_ikuptik.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/layer_dasar_peta_batu.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_ikuptik_jenis.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pendidikan.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_jenis.js') ?>"></script>
-    <script src="<?= base_url('pvd/js/riset4/pie_kota_batu_pemanfaatan_skala.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/bar_kota_batu_pemanfaatan.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/gantt_jenis_kelamin_usia.js') ?>"></script>
     <script src="<?= base_url('pvd/js/riset4/dasbor_doughnut_6.js') ?>"></script>
