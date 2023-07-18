@@ -66,6 +66,7 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         $routes->get('kuesioner-malang', 'Riset1::kuesioner_malang'); // Malang
 
         // Unduh
+        $routes->post('dasbor', 'Riset1::unduhdasbor');
         $routes->post('mpd-statistikarelawansurabaya', 'Riset1::unduhstatsrelawansby');
         $routes->post('mpd-qualityassurance', 'Riset1::unduhqa');
         $routes->post('mpd-doublecounting', 'Riset1::unduhdc');
