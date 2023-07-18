@@ -41,6 +41,8 @@ CREATE TABLE `pvd_users` (
 --
 -- Dumping data for table `pvd_users`
 --
+INSERT INTO `pvd_users` (`id`, `platform_id`, `username`, `nama_lengkap`, `email`, `password`, `instansi`, `picture`) VALUES
+(1, '', 'subjectmatter', 'Subject Matter', 'pkl@stis.ac.id', '$2y$10$SFfN/pF34a34iE/fQOF72euFIdXCCjlwiyF4n1wMkG4VkaEJY.8w2', 'BPS', 'https://ui-avatars.com/api/?name=Subject+Matter&color=7F9CF5&background=EBF4FF');
 --
 -- Indexes for dumped tables
 --
