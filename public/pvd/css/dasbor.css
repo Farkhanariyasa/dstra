@@ -20725,7 +20725,7 @@ td {
 }
 
 .auth form .form-group .form-control {
-  background: transparent;
+  /* background: transparent; */
   border-radius: 0;
   font-size: 0.9375rem;
 }

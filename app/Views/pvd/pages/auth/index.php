@@ -34,8 +34,10 @@
             <div class="mt-1">
               <a href="<?= base_url('hasil-pkl/loginstis'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
                 <img src="<?= base_url('pvd/img/landingpage/logostis.png') ?>" class="logo-login me-2" alt=""> Google STIS </a>
-              <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
-                <img src="<?= base_url('pvd/img/landingpage/logobps.png') ?>" class="logo-login me-2" alt=""> SSO BPS </a>
+              <a href="<?= base_url('hasil-pkl/loginmanual'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
+                <img src="<?= base_url('pvd/img/logo_pkl.png') ?>" class="logo-login me-2" alt=""> Akun Khusus</a>
+              <!-- <a href="<?= base_url('hasil-pkl/loginbps'); ?>" class="btn btn-block btn-login auth-form-btn mb-2">
+                <img src="<?= base_url('pvd/img/landingpage/logobps.png') ?>" class="logo-login me-2" alt=""> SSO BPS </a> -->
             </div>
           </div>
           <div class="col-lg-4 text-center my-5">
@@ -43,7 +45,6 @@
             <div class="brand-maskot">
               <img class="img-fluid" src="<?= base_url('pvd/img/maskot_pkl.png') ?>" alt="">
             </div>
-
           </div>
         </div>
       </div>
