@@ -24,13 +24,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Chart JS Plugin Sankey Chart -->
 <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-sankey"></script>
-<!-- Data Chart -->
-<script>
-  const datajeniskelamin = <?= json_encode($jk); ?>;
-  const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
-  const datapendidikantertinggi_riset2 = <?= json_encode($pt_2); ?>;
-  const datatujuanutama = <?= json_encode($tu); ?>;
-</script>
+
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_sankey.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_kec_malang.js') ?>"></script>

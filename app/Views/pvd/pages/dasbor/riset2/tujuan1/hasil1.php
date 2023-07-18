@@ -30,13 +30,6 @@
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
-<!-- Data Chart -->
-<script>
-  const datajeniskelamin = <?= json_encode($jk); ?>;
-  const datajenispekerjaanutama = <?= json_encode($jpu); ?>;
-  const datapendidikantertinggi_riset2 = <?= json_encode($pt_2); ?>;
-  const datatujuanutama = <?= json_encode($tu); ?>;
-</script>
 <!-- Impor Chart -->
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_t1_bar.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset2/hasilPKLRiset2_kec_malang.js') ?>"></script>
