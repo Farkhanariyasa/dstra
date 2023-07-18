@@ -66,7 +66,7 @@ document.getElementById("dc1").addEventListener("click", function (e) {
   createEl.href = canvasUrl;
 
   // This is the name of our downloaded file
-  createEl.download = "Grafik Perbandingan Rata-rata Haversine";
+  createEl.download = "[DC] Grafik Perbandingan Rata-rata Haversine";
 
   // Click the download button, causing a download, and then remove it
   createEl.click();
@@ -81,7 +81,7 @@ document.getElementById("dc2").addEventListener("click", function (e) {
     createEl.href = canvasUrl;
   
     // This is the name of our downloaded file
-    createEl.download = "Visualisasi Hasil Algoritma Haversine";
+    createEl.download = "[DC] Visualisasi Hasil Algoritma Haversine";
   
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -96,7 +96,7 @@ document.getElementById("dc3").addEventListener("click", function (e) {
     createEl.href = canvasUrl;
   
     // This is the name of our downloaded file
-    createEl.download = "Grafik Perbandingan Rata-rata No StayPoint";
+    createEl.download = "[DC] Grafik Perbandingan Rata-rata No StayPoint";
   
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -111,7 +111,7 @@ document.getElementById("dc4").addEventListener("click", function (e) {
     createEl.href = canvasUrl;
   
     // This is the name of our downloaded file
-    createEl.download = "Visualisasi Hasil Algoritma H3Geo No StayPoint";
+    createEl.download = "[DC] Visualisasi Hasil Algoritma H3Geo No StayPoint";
   
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -126,7 +126,7 @@ document.getElementById("dc5").addEventListener("click", function (e) {
     createEl.href = canvasUrl;
   
     // This is the name of our downloaded file
-    createEl.download = "Grafik Perbandingan Rata-rata with StayPoint";
+    createEl.download = "[DC] Grafik Perbandingan Rata-rata with StayPoint";
   
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -141,7 +141,7 @@ document.getElementById("dc6").addEventListener("click", function (e) {
     createEl.href = canvasUrl;
   
     // This is the name of our downloaded file
-    createEl.download = "Visualisasi Hasil Algoritma with StayPoint";
+    createEl.download = "[DC] Visualisasi Hasil Algoritma with StayPoint";
   
     // Click the download button, causing a download, and then remove it
     createEl.click();
@@ -156,7 +156,7 @@ document.getElementById("dc6").addEventListener("click", function (e) {
       createEl.href = canvasUrl;
     
       // This is the name of our downloaded file
-      createEl.download = "Grafik Perbandingan Rata-rata DTW";
+      createEl.download = "[DC] Grafik Perbandingan Rata-rata DTW";
     
       // Click the download button, causing a download, and then remove it
       createEl.click();
@@ -171,7 +171,7 @@ document.getElementById("dc6").addEventListener("click", function (e) {
       createEl.href = canvasUrl;
     
       // This is the name of our downloaded file
-      createEl.download = "Visualisasi Hasil Algoritma DTW";
+      createEl.download = "[DC] Visualisasi Hasil Algoritma DTW";
     
       // Click the download button, causing a download, and then remove it
       createEl.click();
@@ -186,7 +186,7 @@ document.getElementById("dc6").addEventListener("click", function (e) {
       createEl.href = canvasUrl;
     
       // This is the name of our downloaded file
-      createEl.download = "Visualisasi Hasil Algoritma Frechet";
+      createEl.download = "[DC] Visualisasi Hasil Algoritma Frechet";
     
       // Click the download button, causing a download, and then remove it
       createEl.click();
@@ -201,7 +201,7 @@ document.getElementById("dc6").addEventListener("click", function (e) {
       createEl.href = canvasUrl;
     
       // This is the name of our downloaded file
-      createEl.download = "Grafik Perbandingan Rata-rata Algoritma Frechet";
+      createEl.download = "[DC] Grafik Perbandingan Rata-rata Algoritma Frechet";
     
       // Click the download button, causing a download, and then remove it
       createEl.click();
