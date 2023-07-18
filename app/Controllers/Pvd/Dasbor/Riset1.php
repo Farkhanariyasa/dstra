@@ -125,6 +125,23 @@ class Riset1 extends BaseController
         return view('pvd/pages/dasbor/riset1/kuesioner/malang', $data);
     }
 
+    public function unduhdasbor()
+    {
+        $menu = getMenu();
+        $data = [
+            'judul' => 'Dasbor Riset 1',
+            'menu' => $menu['riset1'],
+        ];
+
+
+        $data1 = [
+            'email' => $this->request->getVar('email'),
+            'nama' => $this->request->getVar('nama'),
+            'instansi' => $this->request->getVar('instansi')
+        ];
+        $this->datapengunduh->insert($data1);
+        return view('pvd/pages/dasbor/riset1/index', $data);
+    }
     public function unduhstatsrelawansby()
     {
         $menu = getMenu();
