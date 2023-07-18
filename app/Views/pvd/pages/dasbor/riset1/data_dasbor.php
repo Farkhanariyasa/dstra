@@ -2,13 +2,11 @@
     .konten-teks {
         padding: 10%;
         color: #506396;
-        /* font-family: 'Poppins', 'Courier', 'monospace'; */
     }
 
     .konten-teks .card-title {
         font-weight: bold;
         font-size: 50px;
-        /* font-family: 'Poppins', 'Courier', 'monospace'; */
         color: #493a5a;
 
     }
@@ -20,7 +18,6 @@
     }
 
     .card-text {
-        /* font-family: 'Poppins', 'Courier', 'monospace'; */
         color: #506396;
     }
 </style>
@@ -36,17 +33,6 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <!-- <div>
-                                    <canvas class="mt1" id="riset1_hasil1"></canvas>
-                                </div><br>
-                                <div>
-                                    <p class="card-text text-justify">
-                                        Grafik menunjukkan banyaknya rumah tangga berdasarkan
-                                        jumlah anggota rumah tangga yang melakukan perjalanan wisata.
-                                        Terlihat bahwa hanya 5 rumah tangga (5,9%) yang
-                                        jumlah anggotanya sebesar 5 orang yang melakukan perjalanan wisata.
-                                    </p>
-                                </div> -->
                                 <div class="chartBox" style=" height:400px;">
                                     <canvas class="mt1" id="qa_output1_1"></canvas>
                                 </div>
@@ -56,22 +42,6 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <!-- <div>
-                                    <div>
-                                        <div class="card">
-                                            <div class="card-body konten-teks">
-                                                <p class="card-title">Jumlah RT <br>21 (24,7%) <br></p>
-                                                <p class="card-text subs">Dengan ART sebanyak 4 orang</p>
-                                                <p class="card-text text-justify">
-                                                    Banyaknya Rumah Tangga (RT) dengan anggota
-                                                    rumah tangga (ART) sebanyak 4 orang yang melakukan perjalanan
-                                                    yaitu sebesar 21 rumah tangga (24,7%) dari total 85 rumah tangga yang
-                                                    melakukan perjalanan.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
                                 <div class="chartBox" style=" height:400px;">
                                     <canvas class="mt1" id="qa_output1_2"></canvas>
                                 </div>
@@ -221,4 +191,3 @@
 <!-- </div> -->
 
 <!-- Modal Dasbor -->
-<?php include('modal_dasbor.php') ?>

@@ -89,7 +89,7 @@
   <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <!-- Fungsi Unduh Chart -->
-  <script src="<?= base_url('pvd/js/riset1/btn_Download.js') ?>"></script>
+  <script src="<?= base_url('pvd/js/riset1/btn_Download_dc.js') ?>"></script>
 </section><!-- End -->
 
 <?= $this->endSection(); ?>

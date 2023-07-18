@@ -120,42 +120,38 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
         // Menu 1
         $routes->get('dasbor', 'Riset4::index');
 
-        $routes->post('dasbor', 'Riset4::index');
+        $routes->post('dasbor', 'Riset4::unduh_dasbor');
 
         // Menu 2
-        $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->get('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
-        $routes->get('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
+        $routes->get('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::pemilik_atau_pengelola_usaha_pariwisata'); // Menu 2 Submenu 1
+        $routes->get('unit_usaha_pariwisata', 'Riset4::unit_usaha_pariwisata'); // Menu 2 Submenu 2
+        $routes->get('pemanfaatan_tik', 'Riset4::pemanfaatan_tik'); // Menu 2 Submenu 3
 
-        $routes->post('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::menu2submenu1'); // Menu 2 Submenu 1
-        $routes->post('unit_usaha_pariwisata', 'Riset4::menu2submenu2'); // Menu 2 Submenu 2
-        $routes->post('pemanfaatan_tik', 'Riset4::menu2submenu3'); // Menu 2 Submenu 3
+        $routes->post('pemilik_atau_pengelola_usaha_pariwisata', 'Riset4::unduh_pemilik_atau_pengelola_usaha_pariwisata'); // Menu 2 Submenu 1
+        $routes->post('unit_usaha_pariwisata', 'Riset4::unduh_unit_usaha_pariwisata'); // Menu 2 Submenu 2
+        $routes->post('pemanfaatan_tik', 'Riset4::unduh_pemanfaatan_tik'); // Menu 2 Submenu 3
 
         // Menu 3
-        $routes->get('karakteristik_kesiapan_uup', 'Riset4::menu3'); // Menu 3
+        $routes->get('karakteristik_kesiapan_uup', 'Riset4::karakteristik_kesiapan_uup'); // Menu 3
 
-        $routes->post('karakteristik_kesiapan_uup', 'Riset4::menu3'); // Menu 3
+        $routes->post('karakteristik_kesiapan_uup', 'Riset4::unduh_karakteristik_kesiapan_uup'); // Menu 3
 
         // Menu 4
-        $routes->get('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
-        $routes->get('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
-        $routes->get('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
-        $routes->get('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
+        $routes->get('deskripsi_singkat', 'Riset4::deskripsi_singkat'); // Menu 4 Submenu 1
+        $routes->get('dimensi', 'Riset4::dimensi'); // Menu 4 Submenu 2
+        $routes->get('kecamatan', 'Riset4::kecamatan'); // Menu 4 Submenu 3
+        $routes->get('jenis_unit_usaha', 'Riset4::jenis_unit_usaha'); // Menu 4 Submenu 4
 
-        $routes->post('deskripsi_singkat', 'Riset4::menu4submenu1'); // Menu 4 Submenu 1
-        $routes->post('dimensi', 'Riset4::menu4submenu2'); // Menu 4 Submenu 2
-        $routes->post('kecamatan', 'Riset4::menu4submenu3'); // Menu 4 Submenu 3
-        $routes->post('jenis_unit_usaha', 'Riset4::menu4submenu4'); // Menu 4 Submenu 4
+        $routes->post('deskripsi_singkat', 'Riset4::unduh_deskripsi_singkat'); // Menu 4 Submenu 1
+        $routes->post('dimensi', 'Riset4::unduh_dimensi'); // Menu 4 Submenu 2
+        $routes->post('kecamatan', 'Riset4::unduh_kecamatan'); // Menu 4 Submenu 3
+        $routes->post('jenis_unit_usaha', 'Riset4::unduh_jenis_unit_usaha'); // Menu 4 Submenu 4
 
         // Menu 5
-        $routes->get('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
-
-        $routes->post('faktor_pengaruh_ikuptik', 'Riset4::menu5'); // Menu 5
+        $routes->get('faktor_pengaruh_ikuptik', 'Riset4::faktor_pengaruh_ikuptik'); // Menu 5
 
         // Menu 6
-        $routes->get('dokumen_terkait', 'Riset4::menu6'); // Menu 6
-
-        $routes->post('dokumen_terkait', 'Riset4::menu6'); // Menu 6
+        $routes->get('dokumen_terkait', 'Riset4::dokumen_terkait'); // Menu 6
     });
 });
 

@@ -32,7 +32,7 @@
   <div class="row" id="row">
     <div class="row d-flex justify-content-center align-items-center">
       <div class="row" id="test">
-        <?php include('dummy_dasbor.php') ?>
+        <?php include('data_dasbor.php') ?>
       </div>
     </div>
   </div>
@@ -59,10 +59,6 @@
     
   </script>
   <!-- Grafik Dasbor -->
-  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_horizontalbar.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_ja_pie.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_stacked_bar.js') ?>"></script>
-  <script src="<?= base_url('pvd/js/riset1/hasilSPRiset1_line.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilWisnus_Output1.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilDC_output8.js') ?>"></script>
   <script src="<?= base_url('pvd/js/riset1/hasilFG_dasbor.js') ?>"></script>

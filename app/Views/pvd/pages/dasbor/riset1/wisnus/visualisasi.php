@@ -39,7 +39,7 @@
     <div class="row" id="row">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="row" id="test">
-                <?php include('dummy_submenu1.php') ?>
+                <?php include('data_visualisasi_wisnus.php') ?>
             </div>
         </div>
     </div>

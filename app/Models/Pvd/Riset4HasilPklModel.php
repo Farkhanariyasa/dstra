@@ -113,69 +113,6 @@ class Riset4HasilPklModel extends Model
         $result = array_column($result, "usia_pemilik_pengelola");
         return $result;
     }
-
-    // ke bawah adalah kode dummy
-    # fungsi agregat (count) untuk dua kolom kategori, semua indikator di blok SDM
-    public function getJumlahUUPSDM($kolomKec, $kolomSkala, $kec, $skala){
-        return $this->where([$kolomKec => $kec, $kolomSkala => $skala])->countAllResults();
-    }
-
-    public function getUnitUsahaTIK($uu){
-        return $this->where(["q221_409a" => $uu])->countAllResults();
-    }
-
-    public function getUnitUsahaTIK1($q231_401a){
-        return $this->where(["q231_401a" => $q231_401a])->countAllResults();
-    }
-
-    public function getUnitUsahaTIK2($q231_407a){
-        return $this->where(["q231_407a" => $q231_407a])->countAllResults();
-    }
-
-    public function getRataanIKUPTIK($jenis_usaha){
-        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
-        return $result['rataan'];
-    }
-
-    public function getRataanIKUPTIK2($jenis_usaha){
-        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
-        return $result['rataan'];
-    }
-
-    public function getRataanIKUPTIK3($jenis_usaha){
-        $result =  $this->where(["jenis_usaha" => $jenis_usaha])->select('avg(q231_407a) as rataan')->first();
-        return $result['rataan'];
-    }
-
-    public function getPendapatan(){
-        // get all row in column b309
-        $pendapatan = $this->select('b309')->findAll();
-
-        // delete row with value 0 
-        foreach ($pendapatan as $key => $value) {
-            if ($value['b309'] == 70000000 || $value['b309'] == 0) {
-                unset($pendapatan[$key]);
-            }
-        }
-
-        $pendapatan = array_column($pendapatan, 'b309');
-        return $pendapatan;
-    }
-
-    public function getUmur(){
-        // get all row in column b302
-        $umur = $this->select("b302")->findAll();
-        $umur = array_column($umur, 'b302');
-        return $umur;
-    }
-
-    public function getPendapatanNoFilter(){
-        // get all row in column b309
-        $pendapatan = $this->select("b309")->findAll();
-        $pendapatan = array_column($pendapatan, "b309");
-        return $pendapatan;
-    }
-
 }
 
 

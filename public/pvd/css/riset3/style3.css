@@ -392,10 +392,11 @@ div.tooltip {
 
 #reglogContainer > div {
   color: #4b395f;
+  font-size: 12px;
 }
 
 @media (max-width: 450px) {
   #reglogContainer > div {
-    font-size: 12px;
+    font-size: 10px;
   }
 }

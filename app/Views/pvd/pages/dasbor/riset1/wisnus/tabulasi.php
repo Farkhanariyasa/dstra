@@ -39,7 +39,7 @@
         <div class="row " id="row">
         <div class="row col-lg-12 d-flex justify-content-center mt-2">
             <div class="row id="test">
-                <?php include('dummy_submenu2.php') ?>
+                <?php include('data_tabulasi_wisnus.php') ?>
             </div>
         </div>
     </div>
