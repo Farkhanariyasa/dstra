@@ -33,6 +33,13 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dasbor-1" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style=" height:400px;">
                                     <canvas class="mt1" id="qa_output1_1"></canvas>
                                 </div>
@@ -42,6 +49,13 @@
                     <div class="col-lg-6 grid-margin stretch-card ">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dasbor-2" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style=" height:400px;">
                                     <canvas class="mt1" id="qa_output1_2"></canvas>
                                 </div>
@@ -72,6 +86,13 @@
                                     <div class="row">
                                         <div class="mb-0 col-lg-8 grid-margin">
                                             <div>
+                                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                        <button id="dasbor-3" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                                            <i class="fa-solid fa-download"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
                                                 <div class="chartBox" style=" height:400px;">
                                                     <canvas id="dc_output8"></canvas>
                                                 </div>
@@ -112,6 +133,13 @@
                                 <div class="row">
                                     <div class="mb-0 col-lg-8 grid-margin">
                                         <div>
+                                            <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                                <div class="me-1 mt-1 justify-content-end align-item-end">
+                                                    <button id="dasbor-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                        <i class="fa-solid fa-download"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
                                             <div class="chartBox" style=" height:400px;">
                                                 <canvas id="fg_dasbor"></canvas>
                                             </div>
@@ -148,6 +176,13 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dasbor-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
                                     <canvas class="mt1" id="wisnus_output1"></canvas>
                                 </div>
@@ -164,6 +199,13 @@
                     <div class="col-lg-6 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="dasbor-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            <i class="fa-solid fa-download"></i>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="chartBox" style="height:400px">
                                     <canvas class="mt1" id="wisnus_output2"></canvas>
                                 </div>
@@ -191,3 +233,4 @@
 <!-- </div> -->
 
 <!-- Modal Dasbor -->
+<?php include('modal_dasbor.php') ?>
