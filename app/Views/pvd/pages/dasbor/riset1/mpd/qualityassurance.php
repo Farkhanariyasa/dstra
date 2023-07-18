@@ -39,7 +39,7 @@
     <div class="row " id="row">
         <div class="row col-lg-12 d-flex justify-content-center mt-2">
             <div class="row" id="test">
-                <?php include('dummy_qa.php') ?>
+                <?php include('data_qa.php') ?>
             </div>
         </div>
     </div>
