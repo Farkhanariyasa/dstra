@@ -3,12 +3,14 @@ let idbutton = "";
 let idinput = "";
 let mailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-for (let i = 2; i < 6; i++) {
-  document.getElementById("download-" + [i]).addEventListener("click", (e) => {
-    idbutton = "button-download-" + [i];
-    console.log("download-" + [i] + " diklik");
-    idinput = i - 1;
-  });
+for (let i = 1; i < 5; i++) {
+    document
+      .getElementById("download-" + [i])
+      .addEventListener("click", (e) => {
+        idbutton = "button-download-" + [i];
+        console.log("download-" + [i] + " diklik");
+        idinput = i - 1;
+      });
 }
 
 function getvalue() {
@@ -57,24 +59,23 @@ function getvalue() {
 }
 
 // endOfValidasi
-
 iddownload = "";
-for (let i = 2; i < 6; i++) {
-  document
-    .getElementById("button-download-" + [i])
-    .addEventListener("click", function (e) {
-      // Convert our canvas to a data URL
-      let canvasUrl = document.getElementById("chart-" + [i]).toDataURL();
-      // Create an anchor, and set the href value to our data URL
-      const createEl = document.createElement("a");
-      createEl.href = canvasUrl;
+for (let i = 1; i < 5; i++) {
+    document
+      .getElementById("button-download-" + [i])
+      .addEventListener("click", function (e) {
+        // Convert our canvas to a data URL
+        let canvasUrl = document.getElementById("chart-" + [i]).toDataURL();
+        // Create an anchor, and set the href value to our data URL
+        const createEl = document.createElement("a");
+        createEl.href = canvasUrl;
 
-      // This is the name of our downloaded file
-      createEl.download = "Hasil PKL Riset 4 - Deskripsi Singkat - Chart " + [i];
+        // This is the name of our downloaded file
+        createEl.download = "Hasil PKL Riset 4 - Deskripsi Singkat - Chart " + [i];
 
-      // Click the download button, causing a download, and then remove it
-      createEl.click();
-      createEl.remove();
-    });
-  iddownload = i - 1;
+        // Click the download button, causing a download, and then remove it
+        createEl.click();
+        createEl.remove();
+      });
+    iddownload = i - 1;
 }

@@ -23,28 +23,7 @@ const data = {
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: "#ffab00"
-    },
-    // {
-    //     label: 'My Second Dataset',
-    //     data: [28, 48, 40, 19, 96, 27, 100],
-    //     fill: true,
-    //     backgroundColor: 'rgba(54, 162, 235, 0.2)',
-    //     borderColor: 'rgb(54, 162, 235)',
-    //     pointBackgroundColor: 'rgb(54, 162, 235)',
-    //     pointBorderColor: '#fff',
-    //     pointHoverBackgroundColor: '#fff',
-    //     pointHoverBorderColor: 'rgb(54, 162, 235)'
-    // }, {
-    //     label: 'My Third Dataset',
-    //     data: [45, 25, 16, 36, 67, 18, 76],
-    //     fill: true,
-    //     backgroundColor: 'rgba(255, 205, 86, 0.2)',
-    //     borderColor: 'rgb(255, 205, 86)',
-    //     pointBackgroundColor: 'rgb(255, 205, 86)',
-    //     pointBorderColor: '#fff',
-    //     pointHoverBackgroundColor: '#fff',
-    //     pointHoverBorderColor: 'rgb(255, 205, 86)'
-    // }    
+    },  
     ]
 };
 
@@ -59,20 +38,12 @@ new Chart(radar,{
                 beginAtZero: false,
                 suggestedMin: 10,
                 suggestedMax: 100,
-                // pointLabels: {
-                //     font: {
-                //       size: 10
-                //     }
-                // }
                 ticks: {
                     beginAtZero: true,
                     min: 10,
                     max: 100,
                     stepSize: 20
                 },
-                // pointLabels: {
-                //     fontSize: 16,
-                //   },
             },
         },
         responsive: true,
@@ -99,5 +70,4 @@ new Chart(radar,{
 
         },
     },
-    // plugins: [ChartDataLabels]
 });

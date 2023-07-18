@@ -64,23 +64,3 @@ const piePemanfaatanSkala_1 = new Chart(piePemanfaatanSkala1, {
     },
     plugins: [ChartDataLabels]
 });
-
-const pieKotaBatuPemanfaatanSkalaLegend = document.getElementById('pie-kota-batu-pemanfaatan-skala-legend');
-pieKotaBatuPemanfaatanSkalaLegend.addEventListener('click', update_value_pemanfaatan_skala1(chk_bx));
-
-function update_value_pemanfaatan_skala1(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        piePemanfaatanSkala_1.options.plugins.legend.display=true;
-        piePemanfaatanSkala_1.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        piePemanfaatanSkala_1.options.plugins.legend.display=false;
-        piePemanfaatanSkala_1.update();
-  
-    }
-}

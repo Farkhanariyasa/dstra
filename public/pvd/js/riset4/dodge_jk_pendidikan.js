@@ -66,24 +66,9 @@ const dodge_2 = new Chart(dodge2, {
                 },
                 position: 'bottom',
                 align: 'start',
-                labels: {
-                    // usePointStyle: true,  //<-- set this
-                    // maxWidth: 10,
-                 }
             },
             tooltip:{
                 enabled:true,
-                // callbacks: {
-                //     label: function(context){
-                //         var label = context.label,
-                //             currentValue = context.raw,
-                //             total = context.chart._metasets[context.datasetIndex].total;
-              
-                //         var percentage = parseFloat((currentValue/total*100).toFixed(1));
-              
-                //         return label + ": " +currentValue + ' (' + percentage + '%)';
-                //     }
-                // }
             },
             datalabels:{
                 display:true,

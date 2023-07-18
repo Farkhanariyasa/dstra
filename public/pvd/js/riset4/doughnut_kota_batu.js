@@ -73,23 +73,3 @@ const doughnut_1 = new Chart(doughnut1, {
     },
     plugins: [ChartDataLabels]
 });
-
-const doughnutKotaBatuLegend = document.getElementById('doughnut-kota-batu-legend');
-doughnutKotaBatuLegend.addEventListener('click', update_value_doughnut1(chk_bx));
-
-function update_value_doughnut1(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        doughnut_1.options.plugins.legend.display=true;
-        doughnut_1.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        doughnut_1.options.plugins.legend.display=false;
-        doughnut_1.update();
-  
-    }
-}

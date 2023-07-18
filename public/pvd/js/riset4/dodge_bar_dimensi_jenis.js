@@ -79,27 +79,8 @@ const bar_2 = new Chart(bar2, {
 });
 
 const barJenis1 = document.getElementById('bar-jenis-1');
-// const barJenis1Legend = document.getElementById('bar-jenis-1-legend');
 
 barJenis1.addEventListener('change', tampilData);
-// barJenis1Legend.addEventListener('click', update_value_legend_bar_jenis(chk_bx));
-
-// function update_value_legend_bar_jenis(chk_bx){
-  
-//     if(chk_bx.checked)
-//     {
-//         console.log('check');
-//         bar_2.options.plugins.legend.display=true;
-//         bar_2.update();
-//     }
-        
-//     else{
-//       console.log('uncheck');
-//       bar_2.options.plugins.legend.display=false;
-//       bar_2.update();
-  
-//     }
-//   }
 
 function tampilData(){
     if (barJenis1.value =='total') {

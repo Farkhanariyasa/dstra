@@ -625,13 +625,6 @@ class Riset4 extends BaseController
             'dimensi6' => $this->uup->getRataanGeo2('kecamatan', 'dimensi6', 'BUMIAJI'),
         ];
 
-        $q231_407a = [
-            'q231_407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
-            'q231_407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
-            'q231_407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
-            'q231_407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
-        ];
-
         $kecamatan1_jenis = [
             'transportasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 1, "BATU"),
             'makanminum' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 2, "BATU"),
@@ -657,7 +650,6 @@ class Riset4 extends BaseController
             'ikuptikPerDimensiBatu' => $ikuptikPerDimensiBatu,
             'ikuptikPerDimensiJunrejo' => $ikuptikPerDimensiJunrejo,
             'ikuptikPerDimensiBumiaji' => $ikuptikPerDimensiBumiaji,
-            'q231_407a' => $q231_407a,
             'kecamatan1_jenis' => $kecamatan1_jenis,
             'kecamatan2_jenis' => $kecamatan2_jenis,
             'kecamatan3_jenis' => $kecamatan3_jenis,
@@ -1377,13 +1369,6 @@ class Riset4 extends BaseController
             'dimensi6' => $this->uup->getRataanGeo2('kecamatan', 'dimensi6', 'BUMIAJI'),
         ];
 
-        $q231_407a = [
-            'q231_407a1' => $this->unitusahaTIK->getUnitUsahaTIK2(1),
-            'q231_407a2' => $this->unitusahaTIK->getUnitUsahaTIK2(2),
-            'q231_407a3' => $this->unitusahaTIK->getUnitUsahaTIK2(3),
-            'q231_407a4' => $this->unitusahaTIK->getUnitUsahaTIK2(4),
-        ];
-
         $kecamatan1_jenis = [
             'transportasi' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 1, "BATU"),
             'makanminum' => $this->unitusahaTIK->getRataanGeo3("jenis_usaha", "kecamatan", "geometrik_mean", 2, "BATU"),
@@ -1409,7 +1394,6 @@ class Riset4 extends BaseController
             'ikuptikPerDimensiBatu' => $ikuptikPerDimensiBatu,
             'ikuptikPerDimensiJunrejo' => $ikuptikPerDimensiJunrejo,
             'ikuptikPerDimensiBumiaji' => $ikuptikPerDimensiBumiaji,
-            'q231_407a' => $q231_407a,
             'kecamatan1_jenis' => $kecamatan1_jenis,
             'kecamatan2_jenis' => $kecamatan2_jenis,
             'kecamatan3_jenis' => $kecamatan3_jenis,

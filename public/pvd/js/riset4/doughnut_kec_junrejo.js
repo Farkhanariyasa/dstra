@@ -67,23 +67,3 @@ const doughnut_3 = new Chart(doughnut3, {
     },
     plugins: [ChartDataLabels]
 });
-
-const doughnutKecJunrejoLegend = document.getElementById('doughnut-kec-junrejo-legend');
-doughnutKecJunrejoLegend.addEventListener('click', update_value_doughnut3(chk_bx));
-
-function update_value_doughnut3(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        doughnut_3.options.plugins.legend.display=true;
-        doughnut_3.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        doughnut_3.options.plugins.legend.display=false;
-        doughnut_3.update();
-  
-    }
-}

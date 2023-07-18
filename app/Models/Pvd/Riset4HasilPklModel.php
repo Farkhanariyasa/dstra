@@ -40,11 +40,6 @@ class Riset4HasilPklModel extends Model
         return $result1 + $result2 + $result3;
     }
 
-    // # fungsi agregat (count) untuk dua kolom kategori, dua nilai continue
-    // public function getJumlahUUPDuaContinue($kolom1, $kolom2, $k1, $k21, $k22){
-    //     return $this->where([$kolom1 => $k1, $kolom2 >= $k21, $kolom2 <= $k22])->countAllResults();
-    // }
-
     # fungsi summary (min) untuk satu kolom kategorik dan satu kolom numerik
     public function getMin($kolom_kategorik, $kolom_numerik, $k1){
         $sub_query = 'min('.$kolom_numerik.') as minimum';
@@ -101,13 +96,14 @@ class Riset4HasilPklModel extends Model
         return $result;
     }
 
-    # fungsi no filter data dan me-retrieve-nya
+    # fungsi no filter data dan me-retrieve-nya untuk ikuptik
     public function getIKUPTIK2(){
         $result = $this->select("geometrik_mean")->findAll();
         $result = array_column($result, "geometrik_mean");
         return $result;
     }
 
+    # fungsi no filter data dan me-retrieve-nya untuk umur
     public function getUmur2(){
         $result = $this->select("usia_pemilik_pengelola")->findAll();
         $result = array_column($result, "usia_pemilik_pengelola");

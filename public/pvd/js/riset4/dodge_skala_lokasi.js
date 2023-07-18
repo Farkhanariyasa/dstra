@@ -114,35 +114,3 @@ function responsivefonts(){
         Chart.defaults.font.size=1;
     }
 };
-
-const dodgeBar6Axis = document.getElementById("dodge-bar-6-axis");
-dodgeBar6Axis.addEventListener("click", update_value_axis_dodge_bar_6(chk_bx));
-
-function update_value_axis_dodge_bar_6(chk_bx) {
-  if (chk_bx.checked) {
-    console.log("check");
-    dodge_6.options.scales.x.display = true;
-    dodge_6.options.scales.y.display = true;
-    dodge_6.update();
-  } else {
-    console.log("uncheck");
-    dodge_6.options.scales.x.display = false;
-    dodge_6.options.scales.y.display = false;
-    dodge_6.update();
-  }
-};
-
-const dodgeBar6Legend = document.getElementById("dodge-bar-6-legend");
-dodgeBar6Legend.addEventListener("click", update_value_legend_dodge_bar_6(chk_bx));
-
-function update_value_legend_dodge_bar_6(chk_bx) {
-    if (chk_bx.checked) {
-      console.log("check");
-      dodge_6.options.plugins.legend.display=true;
-      dodge_6.update();
-    } else {
-      console.log("uncheck");
-      dodge_6.options.plugins.legend.display=false;
-      dodge_6.update();
-    }
-};

@@ -64,23 +64,3 @@ const pie_4 = new Chart(pie4, {
     },
     plugins: [ChartDataLabels]
 });
-
-const pieKecBumiajiSkalaLegend = document.getElementById('pie-kec-bumiaji-skala-legend');
-pieKecBumiajiSkalaLegend.addEventListener('click', update_value4(chk_bx));
-
-function update_value4(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        pie_4.options.plugins.legend.display=true;
-        pie_4.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        pie_4.options.plugins.legend.display=false;
-        pie_4.update();
-  
-    }
-}

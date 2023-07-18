@@ -77,29 +77,11 @@ const stacked_2 = new Chart(stacked2, {
                 align: 'start',
             },
             tooltip:{
-                // enabled:true,
                 displayColors: false,
-                // callbacks: {
-                //     label: (context) => {
-                //         // console.log(context.parsed);
-                //         const boxplotValues =[
-                //             `Min: ${context.parsed.whiskerMin.toFixed(2)}`,
-                //             `Q1: ${context.parsed.q1.toFixed(2)}`,
-                //             `Median: ${context.parsed.median.toFixed(2)}`,
-                //             `Q3: ${context.parsed.q3.toFixed(2)}`,
-                //             `Max: ${context.parsed.whiskerMax.toFixed(2)}`,
-                //             `Mean: ${context.parsed.mean.toFixed(2)}`,
-                //         ];
-                //         return boxplotValues;
-                //     }
-                // }
             },
             datalabels:{
                 display:false,
                 color:'black',
-                // formatter: function(value, context) {
-                //     return  value + '%';
-                // },
             }
         },maintainAspectRatio: false,
         scales: {

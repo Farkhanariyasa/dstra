@@ -127,35 +127,3 @@ function responsivefonts(){
         Chart.defaults.font.size=1;
     }
 };
-
-const dodgeBar5SdmEkonomiAxis = document.getElementById("forDodgeBarSdmEkonomiAxis");
-dodgeBar5SdmEkonomiAxis.addEventListener("click", update_value_axis_dodge_bar5_sdm_ekonomi1(chk_bx));
-
-function update_value_axis_dodge_bar5_sdm_ekonomi1(chk_bx) {
-  if (chk_bx.checked) {
-    console.log("check");
-    bar5.options.scales.x.display = true;
-    bar5.options.scales.y.display = true;
-    bar5.update();
-  } else {
-    console.log("uncheck");
-    bar5.options.scales.x.display = false;
-    bar5.options.scales.y.display = false;
-    bar5.update();
-  }
-};
-
-const dodgebar5SdmEkonomiLegend = document.getElementById("forDodgebar5SdmEkonomiLegend");
-dodgebar5SdmEkonomiLegend.addEventListener("click", update_value_legend_dodge_bar5_sdm_ekonomi1(chk_bx));
-
-function update_value_legend_dodge_bar5_sdm_ekonomi1(chk_bx) {
-    if (chk_bx.checked) {
-      console.log("check");
-      bar5.options.plugins.legend.display=true;
-      bar5.update();
-    } else {
-      console.log("uncheck");
-      bar5.options.plugins.legend.display=false;
-      bar5.update();
-    }
-};

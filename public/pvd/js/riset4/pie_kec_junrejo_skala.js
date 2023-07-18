@@ -64,23 +64,3 @@ const pie_3 = new Chart(pie3, {
     },
     plugins: [ChartDataLabels]
 });
-
-const pieKecJunrejoSkalaLegend = document.getElementById('pie-kec-junrejo-skala-legend');
-pieKecJunrejoSkalaLegend.addEventListener('click', update_value3(chk_bx));
-
-function update_value3(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        pie_3.options.plugins.legend.display=true;
-        pie_3.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        pie_3.options.plugins.legend.display=false;
-        pie_3.update();
-  
-    }
-}

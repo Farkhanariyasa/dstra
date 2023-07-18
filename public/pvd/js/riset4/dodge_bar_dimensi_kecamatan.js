@@ -76,27 +76,8 @@ const bar_1 = new Chart(bar1, {
 });
 
 const barKecamatan1 = document.getElementById('bar-kecamatan-1');
-// const barKecamatan1Legend = document.getElementById('bar-kecamatan-1-legend');
 
 barKecamatan1.addEventListener('change', tampilData);
-// barKecamatan1Legend.addEventListener('click', update_value_legend_bar_kecamatan(chk_bx));
-
-// function update_value_legend_bar_kecamatan(chk_bx){
-  
-//     if(chk_bx.checked)
-//     {
-//         console.log('check');
-//         bar_1.options.plugins.legend.display=true;
-//         bar_1.update();
-//     }
-        
-//     else{
-//       console.log('uncheck');
-//       bar_1.options.plugins.legend.display=false;
-//       bar_1.update();
-  
-//     }
-//   }
 
 function tampilData(){
     if (barKecamatan1.value =='total') {

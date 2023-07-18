@@ -79,23 +79,3 @@ const doughnut_2 = new Chart(doughnut2, {
     },
     plugins: [ChartDataLabels]
 });
-
-const pieKotaBatuSkalaLegend = document.getElementById('pie-kota-batu-skala-legend');
-pieKotaBatuSkalaLegend.addEventListener('click', update_value1(chk_bx));
-
-function update_value1(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        doughnut_2.options.plugins.legend.display=true;
-        doughnut_2.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        doughnut_2.options.plugins.legend.display=false;
-        doughnut_2.update();
-  
-    }
-}

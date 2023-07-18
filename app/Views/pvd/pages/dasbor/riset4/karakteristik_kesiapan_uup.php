@@ -50,12 +50,6 @@
 <script src="<?= base_url('pvd/js/riset4/boxplot_skala.js') ?>"></script>
 <script src="<?= base_url('pvd/js/riset4/boxplot_ikuptik.js') ?>"></script>
 
-<!-- <script src="< ?= base_url('pvd/js/riset4/stacked_jenis_kelamin_tingkat.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/stacked_usia_tingkat.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/stacked_pendidikan_tingkat.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/stacked_jenis_usaha_tingkat.js') ?>"></script>
-<script src="< ?= base_url('pvd/js/riset4/stacked_skala_tingkat.js') ?>"></script> -->
-
 <!-- Fungsi Unduh Chart -->
 <script src="<?= base_url('pvd/js/riset4/button_download_3.js') ?>"></script>
 </section>

@@ -67,23 +67,3 @@ const doughnut_4 = new Chart(doughnut4, {
     },
     plugins: [ChartDataLabels]
 });
-
-const doughnutKecBumiajiLegend = document.getElementById('doughnut-kec-bumiaji-legend');
-doughnutKecBumiajiLegend.addEventListener('click', update_value_doughnut4(chk_bx));
-
-function update_value_doughnut4(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        doughnut_4.options.plugins.legend.display=true;
-        doughnut_4.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        doughnut_4.options.plugins.legend.display=false;
-        doughnut_4.update();
-  
-    }
-}

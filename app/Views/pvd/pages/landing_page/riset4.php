@@ -403,7 +403,6 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- <script src="< ?= base_url('pvd/js/riset4/latbel_linechart.js') ?>"></script> -->
 </section><!-- End -->
 
 <?= $this->endSection(); ?>

@@ -67,23 +67,3 @@ const piePemanfaatanJenis_1 = new Chart(piePemanfaatanJenis1, {
     },
     plugins: [ChartDataLabels]
 });
-
-const pieKotaBatuPemanfaatanJenisLegend = document.getElementById('pie-kota-batu-pemanfaatan-jenis-legend');
-pieKotaBatuPemanfaatanJenisLegend.addEventListener('click', update_value_pemanfaatan_jenis1(chk_bx));
-
-function update_value_pemanfaatan_jenis1(chk_bx){
-    if(chk_bx.checked)
-    {
-        console.log('check');
-        piePemanfaatanJenis_1.options.plugins.legend.display=true;
-        piePemanfaatanJenis_1.update();
-    }
-        
-    else
-    {
-        console.log('uncheck');
-        piePemanfaatanJenis_1.options.plugins.legend.display=false;
-        piePemanfaatanJenis_1.update();
-  
-    }
-}

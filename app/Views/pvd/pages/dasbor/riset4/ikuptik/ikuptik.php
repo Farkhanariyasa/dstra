@@ -109,7 +109,6 @@
 
         <div class="col-sm-4 my-2">
             <div class="card shadow rounded-4">
-                <!-- Turis -->
                 <div class="px-4 py-4 card-body text-center">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">
@@ -133,7 +132,6 @@
     <div class="row mt-3">
         <div class="col-sm-4 my-2">
             <div class="card shadow rounded-4">
-                <!-- Turis -->
                 <div class="px-4 py-4 card-body text-center">
                     <div style="line-height: 40px; color: #4b395f; font-size:25px;">
                         <img src="<?= base_url('pvd/img/dasbor/riset2/artboard_10.png') ?>" class="img-fluid" alt="" style="height: 50px; width:auto">

@@ -69,35 +69,15 @@ const dodge_17 = new Chart(dodge17, {
                 },
                 position: 'bottom',
                 align: 'start',
-                labels: {
-                    // usePointStyle: true,  //<-- set this
-                    // maxWidth: 10,
-                 }
             },
             tooltip:{
                 enabled:true,
-                // callbacks: {
-                //     label: function(context){
-                //         var label = context.label,
-                //             currentValue = context.raw,
-                //             total = context.chart._metasets[context.datasetIndex].total;
-              
-                //         var percentage = parseFloat((currentValue/total*100).toFixed(1));
-              
-                //         return label + ": " +currentValue + ' (' + percentage + '%)';
-                //     }
-                // }
             },
             datalabels:{
                 display:true,
                 color:'black',
                 anchor: 'end',
                 align: 'end',
-                // formatter: function(value, context) {
-                //     total = context.chart._metasets[context.datasetIndex].total;
-                //     percentage = parseFloat((value/total*100).toFixed(1));
-                //     return percentage + '%';
-                // }
             }
         },maintainAspectRatio: false,
         scales:{
@@ -110,11 +90,6 @@ const dodge_17 = new Chart(dodge17, {
                 grid:{
                     display:false
                 },
-                // ticks: {
-                //     format: {
-                //         style: 'percent'
-                //     }
-                // }
             }
         }
     },plugins:[ChartDataLabels]
