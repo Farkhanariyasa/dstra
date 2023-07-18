@@ -18,6 +18,7 @@ Silahkan tambahkan daftar perubahan yang telah dilakukan pada dokumen ini jika m
 - 14-07-2023 : Ditambahkan fitur login dengan akun google stis untuk mengakses dasbor. Lakukan `composer install` untuk menginstall library googleapi client. Kemudian lakukan migrasi untuk menambahkan tabel `pvd_user` dengan perintah `php spark migrate`. Tambahkan `CLIENT_ID_GOOGLESTIS` dan `CLIENT_SECRET_GOOGLESTIS` serta atur `REDIRECT_URI_GOOGLESTIS` pada file `.env` untuk mengatur konfigurasi login dengan akun google stis. Lihat contoh pada file `.env.example`.
 - 15-07-2023 : Ditambahkan fitur login dengan akun sso bps untuk mengakses dasbor. Lakukan `composer install` untuk menginstall library jkd sso. Tambahkan `CLIENT_ID_SSOBPS` dan `CLIENT_SECRET_SSOBPS` serta atur `REDIRECT_URI_SSOBPS` pada file `.env` untuk mengatur konfigurasi login dengan akun sso bps. Lihat contoh pada file `.env.example`.
 - 17-07-2023 : Repo utama pindah ke github. Dilakukan miroring dari git stis ke github
+- 18-07-2023 : SSO BPS tidak jadi digunakan. Ditambkan fitur login akun khusus. Maka tabel `pvd_users` ditambah kolom password. Lakukan `php spark migrate` untuk melakukan migrasi tabel. Untuk mencoba akun khusus, lakukan `php spark db:seed UserSeeder`
 
 ## Cara Instalasi
 
