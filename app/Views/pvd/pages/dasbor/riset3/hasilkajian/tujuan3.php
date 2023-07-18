@@ -337,8 +337,8 @@
       createMathJaxEquation(mathContainerId, equationLarge);
     }
   }
-  var equationSmall = "\\begin{align}\\ln&(\\frac{p_{i}}{1-p_{i}}) = -1,263 + 1,597ind(1)^* \\\\ &+ 1,750ind(2)^* + 0,648ind(3)^* \\\\ &- 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik \\\\ &- 0,021usia^* + 0,437kawin \\\\ &+ 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
-  var equationLarge = "\\begin{align}\\ln\\left(\\frac{p_{i}}{1-p_{i}}\\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^* \\\\ &+ 0,648ind(3)^* - 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik - 0,021usia^* \\\\ &+ 0,437kawin + 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  var equationSmall = "\\begin{align}\\ln&(\\frac{p_{i}}{1-p_{i}}) = -1,263 + 1,597ind(1)^* \\\\ &+ 1,750ind(2)^* + 0,648ind(3) \\\\ &- 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik \\\\ &- 0,021usia^* + 0,437kawin \\\\ &+ 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
+  var equationLarge = "\\begin{align}\\ln\\left(\\frac{p_{i}}{1-p_{i}}\\right) = &-1,263 + 1,597ind(1)^* + 1,750ind(2)^* \\\\ &+ 0,648ind(3) - 0,010ind(4) + 0,721ind(5) \\\\ &+ 0,347jk + 0,106didik - 0,021usia^* \\\\ &+ 0,437kawin + 0,319latih + 0,256umr \\\\ &+ 0,817geo^* + 0,850wil^* \\end{align}";
   createMathJaxEquationBasedOnWidth("reglogContainer", equationSmall, equationLarge);
 </script>
 
