@@ -28,7 +28,7 @@
                                     <?= session()->getFlashdata('gagal') ?>
                                 </div>
                             <?php endif ?>
-                            <form class="pt-2" action="" method="post">
+                            <form class="pt-2" action="<?= base_url('hasil-pkl/loginmanual') ?>" method="post">
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-lg" name="username" placeholder="Nama Pengguna">
                                 </div>

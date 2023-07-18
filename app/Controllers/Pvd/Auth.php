@@ -67,12 +67,12 @@ class Auth extends BaseController
                     ])) {
                         $data = $this->userModel->where('platform_id', $userInfo->id)->find();
                         $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'], $data[0]['picture'], $data[0]['email'], $data[0]['instansi'], TRUE, null);
-                        return redirect()->to('/hasil-pkl/' . session()->get('riset'));
+                        return redirect()->to('hasil-pkl');
                     }
                     return redirect()->back();
                 }
                 $this->_sessionAkun($data[0]['id'], $data[0]['username'], $data[0]['nama_lengkap'],  $data[0]['picture'], $data[0]['email'],  $data[0]['instansi'], TRUE, null);
-                return redirect()->to('/hasil-pkl/' . session()->get('riset'));
+                return redirect()->to('hasil-pkl');
             }
         }
         return redirect()->to($client->createAuthUrl());
@@ -148,7 +148,7 @@ class Auth extends BaseController
                 $verify_pass = password_verify($password, $pass);
                 if ($verify_pass) {
                     $this->_sessionAkun($data['id'], $data['username'], $data['nama_lengkap'],  $data['picture'], $data['email'],  $data['instansi'], TRUE, null);
-                    return redirect()->to('/hasil-pkl/' . session()->get('riset'));
+                    return redirect()->to('hasil-pkl');
                 } else {
                     session()->setFlashdata('gagal', 'Nama Pengguna atau Kata Sandi salah');
                     return redirect()->to('/hasil-pkl/loginmanual');
