@@ -1121,8 +1121,8 @@
                     <p class="text-justify">
                         <div>
                             <div class="text-center text-lg-start kontener">
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/infografis_riset2.jpg') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
-                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/infografis_riset2.jpg') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
+                                <div class="overlay rounded-3 d-block mx-auto d-flex justify-content-center">
                                     <div class="d-flex justify-content-center my-auto">
                                         <a href="<?= 'https://drive.google.com/file/d/1BnRSjQcsMxc61ppnnf4YshHa6mD6Rbxk/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                             <div class="text-center">
@@ -1156,8 +1156,8 @@
                     <p class="text-justify">
                         <div>
                             <div class="text-center text-lg-start kontener">
-                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.jpg') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
-                                <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.jpg') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
+                                <div class="overlay rounded-3 d-block mx-auto d-flex justify-content-center">
                                     <div class="d-flex justify-content-center my-auto">
                                         <a href="<?= 'https://drive.google.com/file/d/1dLE01Lm5UdYmmdsmdiqsBtCfxP4yWFhg/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                             <div class="text-center">
