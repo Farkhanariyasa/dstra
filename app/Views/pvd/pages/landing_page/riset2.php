@@ -255,7 +255,7 @@
 
                     <div>
                         <!-- Populasi -->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-users col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
@@ -271,7 +271,7 @@
                         </div>
 
                         <!-- Populasi Target-->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-friends col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
@@ -287,7 +287,7 @@
                         </div>
 
                         <!-- Unit Observasi-->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
@@ -349,7 +349,7 @@
 
                             <div class="col justify-content-center">
                                 <!-- Primary Sampling Unit -->
-                                <div class="align-items-center d-flex align-self-center">
+                                <div class="align-items-center d-flex align-self-center mt-3 d-flex">
                                     <div class="card-body text-center batasan2 shadow">
                                         <!-- <i class="fas fa-home col-1 ikon"></i> -->
                                         <div class="row-6 d-flex align-items-center justify-content-center">
@@ -367,7 +367,7 @@
                             </div>
                             <div class="col justify-content-center">
                                 <!-- Secondary Sampling Unit -->
-                                <div class="align-items-center d-flex align-self-center">
+                                <div class="align-items-center d-flex align-self-center mt-3 d-flex">
                                     <div class="card-body text-center batasan2 shadow">
                                         <!-- <i class="fas fa-city col-1 ikon"></i> -->
                                         <div class="row-6 d-flex align-items-center justify-content-center">
@@ -400,7 +400,7 @@
                         </div>
 
                         <!-- Unit Analisis-->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-user-alt col-1 ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
@@ -416,7 +416,7 @@
                         </div>
 
                         <!-- Kerangka Sampel -->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-clipboard-list ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
@@ -500,7 +500,7 @@
                         </div>
 
                         <!-- Metode Penarikan Sampel -->
-                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-3 align-items-center d-flex flex-column">
+                        <div class="card konten2 third5 par mx-auto mb-3 p-1 p-md-1 shadow box rounded-5 mt-4 align-items-center d-flex flex-column">
                             <div class="card-body text-center">
                                 <!-- <i class="fas fa-cubes ikon"></i> -->
                                 <div class="row-6 d-flex align-items-center justify-content-center">
