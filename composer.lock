@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "215dad43a109094b1b90bb349cc376ab",
+    "content-hash": "bd3aeb3ea8dc4b9ce81b5da8aca8390f",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -635,62 +635,6 @@
             "time": "2023-04-17T16:11:26+00:00"
         },
         {
-            "name": "irsadarief/jkd-sso",
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/irsadarief/jkd-sso.git",
-                "reference": "8154dea2df8ed703ca26d2367db2129fdbd770aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/irsadarief/jkd-sso/zipball/8154dea2df8ed703ca26d2367db2129fdbd770aa",
-                "reference": "8154dea2df8ed703ca26d2367db2129fdbd770aa",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "^4.0 || ^5.0",
-                "league/oauth2-client": "^2.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JKD\\SSO\\Client\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "JKD",
-                    "email": "jkd@bps.go.id",
-                    "homepage": "https://git.bps.go.id/"
-                }
-            ],
-            "description": "BPS Single Sign On Client For PHP",
-            "keywords": [
-                "SSO",
-                "authorisation",
-                "authorization",
-                "bps",
-                "client",
-                "keycloak",
-                "oauth2"
-            ],
-            "support": {
-                "issues": "https://github.com/irsadarief/jkd-sso/issues",
-                "source": "https://github.com/irsadarief/jkd-sso/tree/master"
-            },
-            "time": "2020-06-15T04:43:21+00:00"
-        },
-        {
             "name": "laminas/laminas-escaper",
             "version": "2.12.0",
             "source": {
@@ -751,76 +695,6 @@
                 }
             ],
             "time": "2022-10-10T10:11:09+00:00"
-        },
-        {
-            "name": "league/oauth2-client",
-            "version": "2.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "160d6274b03562ebeb55ed18399281d8118b76c8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/160d6274b03562ebeb55ed18399281d8118b76c8",
-                "reference": "160d6274b03562ebeb55ed18399281d8118b76c8",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.0 || ^7.0",
-                "paragonie/random_compat": "^1 || ^2 || ^9.99",
-                "php": "^5.6 || ^7.0 || ^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.3.5",
-                "php-parallel-lint/php-parallel-lint": "^1.3.1",
-                "phpunit/phpunit": "^5.7 || ^6.0 || ^9.5",
-                "squizlabs/php_codesniffer": "^2.3 || ^3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\OAuth2\\Client\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Bilbie",
-                    "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Woody Gilk",
-                    "homepage": "https://github.com/shadowhand",
-                    "role": "Contributor"
-                }
-            ],
-            "description": "OAuth 2.0 Client Library",
-            "keywords": [
-                "Authentication",
-                "SSO",
-                "authorization",
-                "identity",
-                "idp",
-                "oauth",
-                "oauth2",
-                "single sign on"
-            ],
-            "support": {
-                "issues": "https://github.com/thephpleague/oauth2-client/issues",
-                "source": "https://github.com/thephpleague/oauth2-client/tree/2.7.0"
-            },
-            "time": "2023-04-16T18:19:15+00:00"
         },
         {
             "name": "monolog/monolog",
