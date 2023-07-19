@@ -1106,19 +1106,42 @@
         </section>
 
         <!-- Infografis -->
-        <!-- <section class="offset-header mt-4">
+        <section class="offset-header mt-4">
             <div class="container-fluid turun">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="col-12 col-sm-12">
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
+                <!-- <div class="konten2 third5 par m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
                     <div class="info-item m-1" style="background-color: #ffbc33; height: 500px"></div>
+                </div> -->
+                <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
+                    <p class="text-justify">
+                        <div>
+                            <div class="text-center text-lg-start kontener">
+                                <img src="<?= base_url('pvd/img/landingpage/riset2/infografis_riset2.jpg') ?>" class="img-fluid rounded-3 w-50 mx-auto d-block shadow" alt="">
+                                <!-- <div class="overlay rounded-3 w-50 d-block mx-auto d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center my-auto">
+                                        <a href="<?= base_url("hasil-pkl/riset2") ?>" class="bukulaporan mx-auto">
+                                            <div class="text-center">
+                                                <button class="btn btn-primary gdrive" type="button">
+                                                    <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Unduh
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </p>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Buku Laporan -->
         <!-- <section class="offset-header mt-4">
