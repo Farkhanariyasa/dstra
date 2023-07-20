@@ -1,4 +1,4 @@
-<?php for ($i = 1; $i < 5; $i++) : ?>
+<?php for ($i = 1; $i < 7; $i++) : ?>
     <div class="modal fade" id="exampleModal<?php echo $i ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
