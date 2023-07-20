@@ -4,7 +4,7 @@ let idinput = "";
 let mailRegex =
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i < 7; i++) {
   document.getElementById("relawan-" + [i]).addEventListener("click", (e) => {
     idbutton = "relawan" + [i];
     console.log("relawan-" + [i] + " diklik");
@@ -116,4 +116,42 @@ document.getElementById("relawan4").addEventListener("click", function (e) {
   // Click the download button, causing a download, and then remove it
   createEl.click();
   createEl.remove();
+});
+
+document.getElementById('relawan5').addEventListener('click', function () {
+  // Get the image source
+  var imageSrc = document.getElementById('img1').src;
+
+  // Create an anchor element
+  const downloadLink = document.createElement('a');
+
+  // Set the anchor's href to the image source
+  downloadLink.href = imageSrc;
+
+  // Set the download attribute to give the file a name when downloaded
+  downloadLink.download = 'Jumlah Relawan';
+
+  // Simulate a click on the anchor element to trigger the download
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
+});
+
+document.getElementById('relawan6').addEventListener('click', function () {
+  // Get the image source
+  var imageSrc = document.getElementById('img2').src;
+
+  // Create an anchor element
+  const downloadLink = document.createElement('a');
+
+  // Set the anchor's href to the image source
+  downloadLink.href = imageSrc;
+
+  // Set the download attribute to give the file a name when downloaded
+  downloadLink.download = 'Jumlah Nomor';
+
+  // Simulate a click on the anchor element to trigger the download
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
 });
