@@ -188,14 +188,14 @@
                         <div class="card shadow rounded-4">
                             <div class="card-body">
                                 <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
-                                    <!-- <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                    <div class="me-1 mt-1 justify-content-end align-item-end">
+                                        <button id="relawan-5" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal5">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
-                                    </div> -->
+                                    </div>
                                 </div>
-                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%">
-                                    <img src="<?= base_url('pvd/img/Riset1/relawanAsset.png') ?>" class="img-fluid" alt="" style="height: 60vh; width:auto;">
+                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%;overflow-x:auto;">
+                                    <img src="<?= base_url('pvd/img/Riset1/relawanAsset.png') ?>" id="img1" alt="" style="max-height:60vh; max-width:100%; display:block; overflow-x:auto">
                                 </div>
                             </div>
                         </div>
@@ -223,15 +223,15 @@
                     <div class="col-lg-8 grid-margin stretch-card h-100">
                         <div class="card shadow rounded-4">
                             <div class="card-body">
-                                <!-- <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
+                                <div class="position-absolute top-0  end-0 d-flex flex-row justify-content-center align-item-center ">
                                     <div class="me-1 mt-1 justify-content-end align-item-end">
-                                        <button id="relawan-4" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        <button id="relawan-6" type="button" class="tombol btn-for" data-bs-toggle="modal" data-bs-target="#exampleModal6">
                                             <i class="fa-solid fa-download"></i>
                                         </button>
                                     </div>
-                                </div> -->
-                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%">
-                                    <img src="<?= base_url('pvd/img/Riset1/nomorAsset.png') ?>" class="img-fluid" alt="" style="height: 60vh; width:auto;">
+                                </div>
+                                <div class="row-6 d-flex align-items-center justify-content-center" style="width:100%;overflow-x:auto;">
+                                    <img src="<?= base_url('pvd/img/Riset1/nomorAsset.png') ?>" id="img2" alt="" style="max-height:60vh; max-width:100%; display:block; overflow-x:auto">
                                 </div>
                             </div>
                         </div>
