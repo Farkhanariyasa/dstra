@@ -87,16 +87,6 @@
             <?php
             tabplan3_3() ?>
           </div>
-          <!-- <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card">
-              <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
-                <div class="col-12 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -125,16 +115,6 @@
             <?php
             tabplan3_4() ?>
           </div>
-          <!-- <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card">
-              <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
-                <div class="col-12 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3><b>Grafik</b></h3>
@@ -163,16 +143,6 @@
             <?php
             tabplan3_5() ?>
           </div>
-          <!-- <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card">
-              <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
-                <div class="col-12 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3 class="fw-bold">Grafik</h3>
@@ -201,16 +171,6 @@
             <?php
             tabplan3_6() ?>
           </div>
-          <!-- <div class="col-lg-6 grid-margin stretch-card h-100">
-            <div class="card">
-              <h3><b>Interpretasi</b></h3>
-              <div class="card-body border rounded" style="padding: 1.5rem 0.5rem;">
-                <div class="col-12 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae voluptatum temporibus suscipit animi hic minus! Exercitationem ut vitae sunt consequuntur modi? Quisquam incidunt eligendi sed provident natus beatae! Obcaecati, libero esse vel quia consequatur error quasi sit eaque porro enim corporis aperiam doloribus tempora perferendis alias, quos non temporibus dolorem dolorum adipisci voluptate laudantium reiciendis, ab ipsa. At, quia.</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <h3 class="fw-bold">Grafik</h3>
@@ -240,24 +200,30 @@
             <h3 class="mb-3 fw-bold">Persamaan Regresi Logistik</h3>
             <div class="card-body p-2 border rounded">
                 <div id="reglogContainer"></div>
-                <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
-
+                <p>Keterangan: * signifikan pada tingkat signifikansi 5%</p>
                 <p class="fw-bold">Variabel yang signifikan</p>
                 <ul>
                     <li>Jenis industri (Penyediaan jasa makan dan minum serta perdagangan barang-barang pariwisata)</li>
                     <li>Usia</li>
                     <li>Letak geografis</li>
                     <li>Wilayah tempat tinggal</li>
-                </ul> 
+                </ul>
+                <p class="fw-bold">Kurva ROC</p>
+                <div class="chartBox img-hasil">
+                    <img src="<?= base_url('pvd/img/dasbor/riset3/kurva_roc.png') ?>" class="img-fluid" alt="">
+                </div>
+                <p>
+                Berdasarkan kurva ROC (<i>Receiver Operating Curve</i>) diperoleh luas area di bawah kurva ROC (<i>Area Under Curve</i>/AUC) sebesar 0,7287. Menurut Kleinbaum & Klein (2010), nilai AUC yang berada pada rentang 0,70 hingga 0,80 termasuk ke dalam kriteria <i>fair discrimination</i>. Dengan nilai AUC yang diperoleh, maka dapat menunjukkan bahwa model regresi logistik dengan PMLE sudah cukup presisi dalam menunjukkan hubungan antara variabel independen dengan jam kerja tenaga kerja di industri pariwisata.
+                </p>
             </div>
             <h3 class="mt-4 mb-3 fw-bold">Interpretasi</h3>
             <div class="card-body p-2 border rounded text-justify">
               <p>
-              Pada model MLE diperoleh 4 variabel penelitian yang signifikan dalam model yakni variabel Industri Pariwisata (dengan kategori yang signifikan adalah Penyedia Jasa Makan dan Minum, Perdagangan Barang-barang Pariwisata, dan Penyediaan Jasa Akomodasi bagi Wisatawan), Usia, Letak Geografis, dan Wilayah Tempat Tinggal.
+              Pada model PMLE diperoleh 4 variabel penelitian yang signifikan dalam model yakni variabel Industri Pariwisata (dengan kategori yang signifikan adalah Penyedia Jasa Makan dan Minum serta Perdagangan Barang-Barang Pariwisata), Usia, Letak Geografis, dan Wilayah Tempat Tinggal.
               </p>
 
               <p class="fw-bold">Industri Pariwisata</p>
-              <p>Regresi logistik PMLE yang dipilih sebagai model terbaik menunjukkan bahwa terdapat 2 industri yang berpengaruh terhadap jam kerja tenaga kerja di industri pariwisata, yaitu industri penyediaan jasa makan dan minum dan industri perdagangan barang-barang pariwisata. Berdasarkan nilai odds ratio yang diperoleh, dapat disimpulkan bahwa</p>
+              <p>Regresi logistik PMLE yang dipilih sebagai model terbaik menunjukkan bahwa terdapat 2 industri yang berpengaruh terhadap jam kerja tenaga kerja di industri pariwisata, yaitu industri penyediaan jasa makan dan minum dan industri perdagangan barang-barang pariwisata. Berdasarkan nilai odds ratio yang diperoleh, dapat disimpulkan bahwa:</p>
               <ul>
                 <li>Kecenderungan tenaga kerja untuk bekerja penuh waktu (dibandingkan dengan tidak penuh waktu) saat bekerja di industri penyediaan jasa makan dan minum adalah sebesar 4,936 kali dibandingkan dengan yang bekerja di industri pariwisata lainnya dengan asumsi variabel lain konstan.</li>
                 <li>Kecenderungan tenaga kerja untuk bekerja penuh waktu (dibandingkan dengan tidak penuh waktu) saat bekerja di industri perdagangan barang-barang pariwisata adalah sebesar 5,752 kali dibandingkan dengan yang bekerja di industri pariwisata lainnya dengan asumsi variabel lain konstan.</li>
@@ -276,7 +242,7 @@
               Berdasarkan hasil regresi logistik PMLE di atas, nilai odds ratio jenis kelamin sebesar 1,415. Hal ini berarti bahwa tenaga kerja yang berjenis kelamin laki-laki memiliki kecenderungan lebih besar, yaitu 1,415 kali untuk bekerja penuh waktu dibandingkan tenaga kerja yang berjenis kelamin perempuan, dengan asumsi variabel lain konstan. Berdasarkan hasil uji signifikansi parameter, variabel jenis kelamin tidak bernilai signifikan memengaruhi jam kerja tenaga kerja di industri pariwisata pada tingkat signifikansi 5%.
               </p>
               <p>
-              Temuan bahwa tidak terdapat perbedaan yang signifikan antara jam kerja laki-laki dengan perempuan menunjukkan bahwa tidak adanya persepsi breadwinners terhadap jenis kelamin laki-laki pada tenaga kerja di industri pariwisata.
+              Temuan bahwa tidak terdapat perbedaan yang signifikan antara jam kerja laki-laki dengan perempuan menunjukkan bahwa tidak adanya persepsi <i>breadwinners</i> terhadap jenis kelamin laki-laki pada tenaga kerja di industri pariwisata.
               </p>
 
               <p class="fw-bold">Letak Geografis</p>
@@ -319,6 +285,12 @@
 <!-- Rumus Reglog -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    displayIndent: "-3em"
+  });
+</script>
 <script>
   function createMathJaxEquation(mathContainerId, equation) {
     var script = document.createElement("script");
