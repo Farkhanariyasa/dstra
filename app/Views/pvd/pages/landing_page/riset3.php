@@ -455,11 +455,11 @@
                                                             <div>
                                                                 <p style="font-weight: bold;">Persamaan Regresi Logistik</p>
                                                                 <div id="reglogContainer"></div>
-                                                                <p>Ket: * signifikan pada tingkat signifikansi 5%</p>
+                                                                <p>Keterangan: * signifikan pada tingkat signifikansi 5%</p>
                                                             </div>
                                                             <div>
                                                                 <p style="font-weight: bold;">Variabel yang signifikan</p>
-                                                                <ul>
+                                                                <ul class="text-left">
                                                                     <li>Jenis industri (Penyediaan jasa makan dan minum serta perdagangan barang-barang pariwisata)</li>
                                                                     <li>Usia</li>
                                                                     <li>Letak geografis</li>
@@ -565,7 +565,12 @@
 <!-- Rumus Reglog -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    displayIndent: "-3em"
+  });
+</script>
 <script>
   function createMathJaxEquation(mathContainerId, equation) {
     var script = document.createElement("script");
