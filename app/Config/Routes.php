@@ -100,22 +100,20 @@ $routes->group('hasil-pkl', ['namespace' => 'App\Controllers\Pvd'], function ($r
     $routes->group('riset3', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
         // Menu 1
         $routes->get('dasbor', 'Riset3::index');
-        // $routes->get('tempviz', 'Riset3::tempviz');
         // Menu 2
-        $routes->get('hasilkajian1', 'Riset3::hasilkajian1'); // Hasil Kajian Tujuan 1
-        $routes->get('hasilkajian2', 'Riset3::hasilkajian2'); // Hasil Kajian Tujuan 2
-        $routes->get('hasilkajian3', 'Riset3::hasilkajian3'); // Hasil Kajian Tujuan 3
-        $routes->get('hasilkajian4', 'Riset3::hasilkajian4'); // Hasil Kajian Tujuan 4
+        $routes->get('hasilkajian1', 'Riset3::hasilkajian1');
+        $routes->get('hasilkajian2', 'Riset3::hasilkajian2');
+        $routes->get('hasilkajian3', 'Riset3::hasilkajian3');
+        $routes->get('hasilkajian4', 'Riset3::hasilkajian4');
 
         $routes->post('hasilkajian1', 'Riset3::unduhtujuan1');
         $routes->post('hasilkajian2', 'Riset3::unduhtujuan2');
         $routes->post('hasilkajian3', 'Riset3::unduhtujuan3');
         $routes->post('hasilkajian4', 'Riset3::unduhtujuan4');
 
-
         // Menu 3
-        $routes->get('kuesioner', 'Riset3::kuesioner'); // Menu 3 Submenu 1
-        $routes->get('bukupedoman', 'Riset3::bukupedoman'); // Menu 3 Submenu 2
+        $routes->get('kuesioner', 'Riset3::kuesioner');
+        $routes->get('bukupedoman', 'Riset3::bukupedoman');
     });
     // Dasbor Riset 4
     $routes->group('riset4', ['namespace' => 'App\Controllers\Pvd\Dasbor'], function ($routes) {
