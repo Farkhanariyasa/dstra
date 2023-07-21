@@ -2,6 +2,49 @@
 
 <?= $this->section('content'); ?>
 
+<style>
+    /* css untuk download */
+    .fourthSec .kontener {
+      position: relative;
+    }
+
+    .fourthSec .overlay {opacity: 0.5;
+      position: absolute;
+      top: 20;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: auto;
+      opacity: 0;
+      transition: 0.5s ease;
+      border-radius: 25px;
+      /* background-color: rgba(219, 215, 223, 0.65); */
+      color: #ffffff;
+    }
+
+    .fourthSec button {
+      color: #fff;
+      background-color: #7382ab;
+      border-color: #7382ab;
+      border-radius: 2.75rem;
+      align-items: center;
+      font-size: x-large;
+    }
+
+    .fourthSec button:hover {
+      color: #fff;
+      background-color: #506396;
+      border-color: #506396;
+      text-decoration: none;
+    }
+
+    .fourthSec .kontener:hover .overlay {
+      opacity: 1;
+      text-decoration: none;
+    }
+</style>
+
 <section>
     <section id="hero" class="hero d-flex align-items-center">
         <!-- Judul Landing Page -->
@@ -390,10 +433,50 @@
                 </div>
                 <div class="konten third5 par m-auto p-4 p-md-4 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 25px;" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="info-item m-1 shawdow-lg text-center">
-                        <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/dasbor/riset4/infografis_riset4_gambaranumum_rev1-4_1-01.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                        <div class="fourthSec">
+                            <div class="text-center text-lg-start kontener">
+                                <div>
+                                    <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_gambaranumum_rev1-4_1-01.png') ?>" class="img-fluid text-center" alt="Infografis 1" style="width: auto; height: 325px;">
+                                    <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
+                                        <div class="d-flex justify-content-center my-auto">
+                                            <a href="<?= 'https://drive.google.com/file/d/1YbfzYss9zXyjo1VhOY1Uk_xUTqYFTmtv/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                                <div class="text-center">
+                                                    <button class="btn btn-primary gdrive" type="button">
+                                                        <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Download
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
                     </div>
                     <div class="info-item m-1 shawdow-lg text-center">
-                        <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/dasbor/riset4/infografis_riset4_IKUPTIK_6-01.png') ?>" class="img-fluid text-center" alt="" style="width: auto; height: 350px;">
+                        <div class="fourthSec">
+                            <div class="text-center text-lg-start kontener">
+                                <div>
+                                    <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_IKUPTIK_6-01.png') ?>" class="img-fluid text-center" alt="Infografis 2" style="width: auto; height: 325px;">
+                                    <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
+                                        <div class="d-flex justify-content-center my-auto">
+                                            <a href="<?= 'https://drive.google.com/file/d/1aqfBBiA_GQUOOISatV-cQ9Q_LSrW5FtX/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                                <div class="text-center">
+                                                    <button class="btn btn-primary gdrive" type="button">
+                                                        <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Download
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
