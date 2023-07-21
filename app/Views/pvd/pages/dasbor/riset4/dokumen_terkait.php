@@ -46,7 +46,7 @@
                   <h4>Buku Laporan Hasil PKL</h4>
                 </div>        
                 <div class="text">
-                  <embed src="https://drive.google.com/file/d/1bxG3KxV4_t_0UCU9G2FQmlN08oYDKhaV/preview" type="application/pdf" width=100% height="500px" />
+                  <embed src="https://drive.google.com/file/d/1fE82lkHbYAJSSGm5oBd4voNrYsOQfp2K/preview" type="application/pdf" width=100% height="500px" />
                 </div>
                 
               </div>
