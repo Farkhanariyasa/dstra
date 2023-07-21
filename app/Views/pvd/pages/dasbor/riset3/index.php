@@ -34,7 +34,7 @@
         <h3 class="accordion-header" id="headingOne">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             <span class="fa-solid fa-map-location-dot pe-2"></span>  
-            Tujuan 1 (Gambaran sosiodemografi dan kualitas tenaga kerja di industri pariwisata)
+            Tujuan 1 (Gambaran Sosiodemografi dan Kualitas Tenaga Kerja di Industri Pariwisata)
           </button>
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -49,7 +49,7 @@
         <h3 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <span class="fa-solid fa-person-walking-luggage pe-2"></span>
-            Tujuan 2 (Dinamika tenaga kerja di industri pariwisata)
+            Tujuan 2 (Dinamika Tenaga Kerja di Industri Pariwisata)
           </button>
         </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -64,7 +64,7 @@
         <h3 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <span class="fa-solid fa-calendar-week pe-2"></span>
-            Tujuan 3 (Faktor-faktor yang memengaruhi jam kerja tenaga kerja lokal di industri pariwisata)
+            Tujuan 3 (Faktor-Faktor yang Memengaruhi Jam Kerja Tenaga Kerja Lokal di Industri Pariwisata)
           </button>
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -79,7 +79,7 @@
         <h3 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <span class="fa-solid fa-chart-simple pe-2"></span>
-            Tujuan 4 (Tingkat sadar wisata dari tenaga kerja industri pariwisata)
+            Tujuan 4 (Tingkat Sadar Wisata Tenaga Kerja di Industri Pariwisata)
           </button>
         </h3>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
