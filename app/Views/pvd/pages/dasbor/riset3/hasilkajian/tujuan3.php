@@ -209,7 +209,7 @@
                     <li>Wilayah tempat tinggal</li>
                 </ul>
                 <p class="fw-bold">Kurva ROC</p>
-                <div class="chartBox img-hasil">
+                <div class="chartBox img-hasil text-center">
                     <img src="<?= base_url('pvd/img/dasbor/riset3/kurva_roc.png') ?>" class="img-fluid" alt="">
                 </div>
                 <p>
