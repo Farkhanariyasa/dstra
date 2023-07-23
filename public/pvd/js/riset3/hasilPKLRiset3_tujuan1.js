@@ -272,27 +272,27 @@ function tampilData(){
 
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [12.56, 8.77, 12.71, 9.22];
-      tujuan1.data.datasets[0].barThickness= 90;
+      tujuan1.data.datasets[0].barThickness= 70;
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [39.07, 33.33, 19.49, 29.08];
-      tujuan1.data.datasets[1].barThickness= 90;
+      tujuan1.data.datasets[1].barThickness= 70;
 
       tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
       tujuan1.data.datasets[2].data = [9.30, 10.96, 13.56, 13.48];
-      tujuan1.data.datasets[2].barThickness= 90;
+      tujuan1.data.datasets[2].barThickness= 70;
 
       tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
       tujuan1.data.datasets[3].data = [12.56, 18.86, 20.34, 12.06];
-      tujuan1.data.datasets[3].barThickness= 90;
+      tujuan1.data.datasets[3].barThickness= 70;
 
       tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[4].data =  [17.21, 19.30, 25.42, 25.53];
-      tujuan1.data.datasets[4].barThickness= 90;
+      tujuan1.data.datasets[4].barThickness= 70;
 
       tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[5].data = [ 9.30, 8.77, 8.47, 10.64]; 
-      tujuan1.data.datasets[5].barThickness=90;
+      tujuan1.data.datasets[5].barThickness=70;
 
       tujuan1.data.labels = [
         '< Rp1.500.000',
@@ -341,27 +341,27 @@ function tampilData(){
       console.log(barChart.value);
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [14.55, 9.78, 4.74];
-      tujuan1.data.datasets[0].barThickness= 120,
+      tujuan1.data.datasets[0].barThickness= 110,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [23.81, 32.61, 44.83];
-      tujuan1.data.datasets[1].barThickness= 120,
+      tujuan1.data.datasets[1].barThickness= 110,
 
       tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
       tujuan1.data.datasets[2].data = [14.29, 14.13, 5.60];
-      tujuan1.data.datasets[2].barThickness= 120,
+      tujuan1.data.datasets[2].barThickness= 110,
 
       tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
       tujuan1.data.datasets[3].data = [23.28, 7.61, 6.90];
-      tujuan1.data.datasets[3].barThickness= 120,
+      tujuan1.data.datasets[3].barThickness= 110,
 
       tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[4].data =  [12.70, 23.91, 33.19];
-      tujuan1.data.datasets[4].barThickness= 120,
+      tujuan1.data.datasets[4].barThickness= 110,
 
       tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[5].data = [11.38, 11.96, 4.74]; 
-      tujuan1.data.datasets[5].barThickness= 120
+      tujuan1.data.datasets[5].barThickness= 110
       tujuan1.data.labels = [
         'Ya',
         'Tidak',
@@ -379,27 +379,27 @@ function tampilData(){
 
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [13.73, 9.09, 4.74];
-      tujuan1.data.datasets[0].barThickness= 120,
+      tujuan1.data.datasets[0].barThickness= 100,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [25.49, 27.27, 44.83];
-      tujuan1.data.datasets[1].barThickness= 120,
+      tujuan1.data.datasets[1].barThickness= 100,
 
       tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
       tujuan1.data.datasets[2].data = [14.60, 0.00, 5.60];
-      tujuan1.data.datasets[2].barThickness= 120,
+      tujuan1.data.datasets[2].barThickness= 100,
 
       tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
       tujuan1.data.datasets[3].data = [20.26, 18.18, 6.90];
-      tujuan1.data.datasets[3].barThickness= 120,
+      tujuan1.data.datasets[3].barThickness= 100,
 
       tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[4].data =  [14.38, 36.36, 33.19];
-      tujuan1.data.datasets[4].barThickness= 120,
+      tujuan1.data.datasets[4].barThickness= 100,
 
       tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[5].data = [  11.55, 9.09, 4.74]; 
-      tujuan1.data.datasets[5].barThickness= 120
+      tujuan1.data.datasets[5].barThickness= 100
       tujuan1.data.labels = [
         'Ya',
         'Tidak',
@@ -416,27 +416,27 @@ function tampilData(){
 
       tujuan1.data.datasets[0].label = 'Penyediaan Jasa Akomodasi Bagi Wisatawan';
       tujuan1.data.datasets[0].data = [15.34, 9.16, 4.74];
-tujuan1.data.datasets[0].barThickness= 120,
+tujuan1.data.datasets[0].barThickness= 100,
 
       tujuan1.data.datasets[1].label = 'Penyediaan Jasa Makan dan Minum';
       tujuan1.data.datasets[1].data = [22.71, 32.82, 44.83];
-      tujuan1.data.datasets[1].barThickness= 120,
+      tujuan1.data.datasets[1].barThickness= 100,
 
       tujuan1.data.datasets[2].label = 'Penyediaan Jasa Angkatan Darat Untuk Penumpang';
       tujuan1.data.datasets[2].data = [15.04, 12.21, 5.60];
-      tujuan1.data.datasets[2].barThickness= 120,
+      tujuan1.data.datasets[2].barThickness= 100,
 
       tujuan1.data.datasets[3].label = 'Penyediaan Jasa kebudayaan, Olahraga dan Rekreasi';
       tujuan1.data.datasets[3].data = [19.76, 21.37, 6.90];
-      tujuan1.data.datasets[3].barThickness= 120,
+      tujuan1.data.datasets[3].barThickness= 100,
 
       tujuan1.data.datasets[4].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[4].data =  [15.34, 13.74, 33.19];
-      tujuan1.data.datasets[4].barThickness= 120,
+      tujuan1.data.datasets[4].barThickness= 100,
 
       tujuan1.data.datasets[5].label = 'Aktivitas Perdagangan Barang-barang Pariwisata';
       tujuan1.data.datasets[5].data = [11.80, 10.69, 4.74]; 
-      tujuan1.data.datasets[5].barThickness= 120
+      tujuan1.data.datasets[5].barThickness= 100
       tujuan1.data.labels = [
         'Ya',
         'Tidak',
@@ -686,17 +686,17 @@ tujuan1.data.datasets[0].barThickness= 120,
       console.log(barChart.value);
 
       tujuan1.data.datasets[0].data = [7.89, 14.47, 14.29];
-      tujuan1.data.datasets[0].barThickness= 120,
+      tujuan1.data.datasets[0].barThickness= 100,
       tujuan1.data.datasets[1].data = [31.58, 31.58, 21.43];
-      tujuan1.data.datasets[1].barThickness= 120,
+      tujuan1.data.datasets[1].barThickness= 100,
       tujuan1.data.datasets[2].data = [15.79, 17.11, 7.14];
-      tujuan1.data.datasets[2].barThickness= 120,
+      tujuan1.data.datasets[2].barThickness= 100,
       tujuan1.data.datasets[3].data = [27.63, 18.42, 28.57];
-      tujuan1.data.datasets[3].barThickness= 120,
+      tujuan1.data.datasets[3].barThickness= 100,
       tujuan1.data.datasets[4].data = [13.16, 14.47, 7.14];
-      tujuan1.data.datasets[4].barThickness= 120,
+      tujuan1.data.datasets[4].barThickness= 100,
       tujuan1.data.datasets[5].data = [3.95, 3.95, 21.43]; 
-      tujuan1.data.datasets[5].barThickness= 120
+      tujuan1.data.datasets[5].barThickness= 100
       tujuan1.data.labels = [
         "Di Bawah SMA/SMK",
         "SMA/SMK",
