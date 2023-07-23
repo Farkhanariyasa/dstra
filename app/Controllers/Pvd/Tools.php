@@ -17,6 +17,9 @@ class Tools extends BaseController
       'instansi' => $this->request->getVar('instansi')
     ];
     $datapengunduh->insert($data);
+    if ($riset === 'riset3_landing_page') {
+      return redirect()->to('hasil-pkl/riset3');
+    }
     return redirect()->to('hasil-pkl/' . $riset . '/dasbor');
   }
 }
