@@ -4,7 +4,12 @@ const tujuan2_1 = document.getElementById('tujuan2_1');
 new Chart(tujuan2_1, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: '< 12 Bulan',
@@ -36,7 +41,8 @@ new Chart(tujuan2_1, {
           max: 100
         },
         y: {
-          stacked: true
+          stacked: true,
+          
         }  
      },
     plugins:{
@@ -66,7 +72,12 @@ const tujuan2_2 = document.getElementById('tujuan2_2');
 new Chart(tujuan2_2, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: 'Ya',
@@ -117,7 +128,12 @@ const tujuan2_3 = document.getElementById('tujuan2_3');
 new Chart(tujuan2_3, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: '1-2 Kali',
@@ -172,7 +188,12 @@ const tujuan2_4 = document.getElementById('tujuan2_4');
 new Chart(tujuan2_4, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: 'Ya',
@@ -222,7 +243,12 @@ const tujuan2_5 = document.getElementById('tujuan2_5');
 new Chart(tujuan2_5, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels:[["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: '1-2 Kali',
@@ -277,7 +303,12 @@ const tujuan2_6 = document.getElementById('tujuan2_6');
 new Chart(tujuan2_6, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels:[["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: 'Perempuan',
@@ -327,7 +358,12 @@ const tujuan2_7 = document.getElementById('tujuan2_7');
 new Chart(tujuan2_7, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: 'Tidak/Belum SD',
@@ -407,7 +443,12 @@ const tujuan2_8 = document.getElementById('tujuan2_8');
 new Chart(tujuan2_8, {
     type: 'bar',
     data: {
-    labels: ["Penyediaan Jasa\nAkomodasi\nBagi Wisatawan", "Penyediaan Jasa\nMakan dan Minum","Penyediaan Jasa\nAngkutan Darat Untuk Penumpang" , "Penyediaan Jasa\nKebudayaan, Olahraga\ndan Rekreasi", "Aktivitas Perdagangan\nBarang-barang Pariwisata", "Jenis Industri\nLainnya"],
+    labels: [["Penyediaan Jasa","Akomodasi Bagi Wisatawan"], 
+    ["Penyediaan Jasa","Makan dan Minum"],
+    ["Penyediaan Jasa","Angkutan Darat Untuk Penumpang"] , 
+    ["Penyediaan Jasa Kebudayaan,","Olahragadan Rekreasi"], 
+    ["Aktivitas Perdagangan","Barang-barang Pariwisata"],
+    ["Jenis Industri Lainnya"]],
     datasets: [
       {
         label: 'Belum Kawin',
