@@ -533,10 +533,28 @@
                         <h1 class="headline text-center">Infografis</h1>
                     </div>
                 </div>
-                <div class="konten third5 m-auto p-4 p-md-5 shadow box d-flex flex-column flex-lg-row justify-content-lg-center panel" style="line-height: 50px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class="info-item text-center">
-                      <img src="<?= base_url('pvd/img/landingpage/riset3/infografis_riset3.png') ?>" class="img-fluid">
-                    </div>
+                <div class="konten2 third5 par mx-auto mb-3 p-4 p-md-5 shadow box" style="line-height: 1.5;" data-aos="zoom-in" data-aos-duration="1000" id="fourthSec">
+                    <p class="text-justify">
+                        <div>
+                            <div class="text-center text-lg-start kontener">
+                                <img src="<?= base_url('pvd/img/landingpage/riset3/infografis_riset3.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
+                                <div class="overlay rounded-3 d-block mx-auto d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center my-auto">
+                                        <a href="<?= 'https://drive.google.com/file/d/1RvMQVUOJ_lIS98v9WO50NTH_dl6sU8ah/view' ?>" class="bukulaporan mx-auto">
+                                            <div class="text-center">
+                                                <button class="btn btn-primary gdrive" type="button">
+                                                    <div>
+                                                        <i class="fas fa-download"></i>
+                                                        Unduh
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
                 </div>
             </div>
         </section>
