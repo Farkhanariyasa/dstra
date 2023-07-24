@@ -152,6 +152,7 @@ function tampilData() {
       "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 80;
     batang.options.scales.x.title.text = "Jumlah Wisatawan (%)";
     batang.options.scales.y.title.text = "Maksud Utama Perjalanan";
     batang.update();
@@ -170,6 +171,7 @@ function tampilData() {
       "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 80;
     batang.options.scales.x.title.text = "Persentase (%)";
     batang.options.scales.y.title.text = "Akomodasi Utama";
     batang.update();
