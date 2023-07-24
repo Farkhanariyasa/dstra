@@ -32,16 +32,16 @@
           <div class="accordion-body rounded-bottom">
             <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil1') ?>" class="text-decoration-none fs-5">Estimasi Banyak Wisatawan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil1') ?>" class="text-decoration-none fs-6">Estimasi Banyak Wisatawan</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil2') ?>" class="text-decoration-none fs-5">Estimasi Banyak Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil2') ?>" class="text-decoration-none fs-6">Estimasi Banyak Perjalanan</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil3') ?>" class="text-decoration-none fs-5">Kategori Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-hasil3') ?>" class="text-decoration-none fs-6">Kategori Perjalanan</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan1-tabulasi') ?>" class="text-decoration-none fs-6">Tabulasi</a>
               </li>
             </ol>
           </div>
@@ -60,13 +60,13 @@
           <div class="accordion-body rounded-bottom">
             <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil1') ?>" class="text-decoration-none fs-5">Lama Kunjungan dan Bepergian Turis</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil1') ?>" class="text-decoration-none fs-6">Lama Kunjungan dan Bepergian Turis</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-5">Lama Kunjungan dan Bepergian Pelancong</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-hasil2') ?>" class="text-decoration-none fs-6">Lama Kunjungan dan Bepergian Pelancong</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan2-tabulasi') ?>" class="text-decoration-none fs-6">Tabulasi</a>
               </li>
             </ol>
           </div>
@@ -85,13 +85,13 @@
           <div class="accordion-body rounded-bottom">
             <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil1') ?>" class="text-decoration-none fs-5">Karakteristik Wisatawan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil1') ?>" class="text-decoration-none fs-6">Karakteristik Wisatawan</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil2') ?>" class="text-decoration-none fs-5">Karakteristik Perjalanan</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-hasil2') ?>" class="text-decoration-none fs-6">Karakteristik Perjalanan</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-tabulasi') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan3-tabulasi') ?>" class="text-decoration-none fs-6">Tabulasi</a>
               </li>
             </ol>
           </div>
@@ -110,13 +110,13 @@
           <div class="accordion-body rounded-bottom">
             <ul style="list-style-type: circle;" class="text-justify fs-5 ms-3">
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil1') ?>" class="text-decoration-none fs-5">Model Zero-Inflation ZINB</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil1') ?>" class="text-decoration-none fs-6">Model Zero-Inflation ZINB</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-5">Model Count ZINB</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-6">Model Count ZINB</a>
               </li>
               <li>
-                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-5">Tabulasi</a>
+                <a href="<?= base_url('hasil-pkl/riset2/tujuan4-hasil2') ?>" class="text-decoration-none fs-6">Tabulasi</a>
               </li>
             </ol>
           </div>
