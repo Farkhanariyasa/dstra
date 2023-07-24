@@ -153,8 +153,6 @@ function tampilData() {
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Jumlah Wisatawan (%)";
     batang.options.scales.y.title.text = "Maksud Utama Perjalanan";
-    // batang.data.datasets[0].label = "Jumlah";
-    // console.log(batang.data.datasets[0].data);
     batang.update();
   } else if (barchart.value == "b") {
     console.log(barchart.value);
@@ -173,7 +171,6 @@ function tampilData() {
     batang.options.indexAxis = "y";
     batang.options.scales.x.title.text = "Persentase (%)";
     batang.options.scales.y.title.text = "Akomodasi Utama";
-    // console.log(batang.data.datasets[0].data)
     batang.update();
   } else if (barchart.value == "c") {
     console.log(barchart.value);
@@ -307,13 +304,3 @@ function tampilData() {
     batang.update();
   } 
 }
-
-// function responsivefonts(){
-//     if (window.outerWidth < 414) {
-//         console.log(window.outerWidth);
-//         Chart.defaults.font.size=5;
-
-//     }if (window.outerWidth<380){
-//         Chart.defaults.font.size=1;
-//     }
-// };
