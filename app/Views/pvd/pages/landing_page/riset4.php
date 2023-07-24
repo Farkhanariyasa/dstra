@@ -193,7 +193,7 @@
                                             <p class="card-title text-center">
                                             <div style="line-height: 20px; color: #4b395f;"><strong>Lokus Penelitian</strong></div>
                                             <!-- <div class="angka">347</div> -->
-                                            <p style="line-height: 20px;">Kota Batu</p>
+                                            <p style="line-height: 20px;">Kota Batu, Jawa Timur</p>
                                             </p>
                                         </div>
                                     </div>
