@@ -395,6 +395,10 @@ div.tooltip {
   font-size: 12px;
 }
 
+.tp1-total {
+  background-color: #e0e4ec !important;
+}
+
 @media (max-width: 450px) {
   #reglogContainer > div {
     font-size: 10px;
