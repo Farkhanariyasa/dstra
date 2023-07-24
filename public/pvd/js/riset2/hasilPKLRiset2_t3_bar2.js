@@ -158,9 +158,8 @@ function tampilData() {
     batang.update();
   } else if (barchart.value == "b") {
     console.log(barchart.value);
-    batang.data.datasets[0].data = [95.84, 2.6, 1.22, 0.23, 0.11];
+    batang.data.datasets[0].data = [62.54, 29.31, 5.44, 2.72];
     batang.data.labels = [
-      "Tidak Menggunakan",
       "Rumah Teman/Keluarga",
       "Hotel",
       "Akomodasi Komersial Lainnya",
@@ -172,7 +171,7 @@ function tampilData() {
       "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
-    batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
+    batang.options.scales.x.title.text = "Persentase (%)";
     batang.options.scales.y.title.text = "Akomodasi Utama";
     // console.log(batang.data.datasets[0].data)
     batang.update();

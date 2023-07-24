@@ -130,10 +130,10 @@ function tampilData() {
     console.log(barchart.value);
     batang.data.datasets[0].data = [33330, 20393, 60322, 17052];
     batang.data.labels = [
-      "Anak-Anak (< 15 Tahun)",
-      "Remaja (15-24 Tahun)",
-      "Usia Menengah/Paruh baya-Pra Pensiun (25-54 Tahun)",
-      "Usia Lanjut/Pensiun (55 Tahun keatas)",
+      "< 15 Tahun",
+      "15-24 Tahun",
+      "25-54 Tahun",
+      "55 Tahun keatas",
     ];
     batang.options.plugins.title.text = [
       "Jumlah Wisatawan Menurut Kelompok Usia", 
@@ -166,7 +166,7 @@ function tampilData() {
     batang.update();
   } else if (barchart.value == "d") {
     console.log(barchart.value);    
-    batang.data.datasets[0].data = [75998, 34471, 31253, 15472, 12316, 10273, 6251, 5879, 2971, 2785];
+    batang.data.datasets[0].data = [20212, 9168, 8312, 4115, 3275, 2732, 1662, 1564, 790, 741];
     batang.data.labels = [
       "Tenaga Usaha Jasa dan Tenaga Penjualan",
       "Pekerja Kasar",
