@@ -436,7 +436,7 @@
                         <div class="fourthSec">
                             <div class="text-center text-lg-start kontener">
                                 <div>
-                                    <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_gambaranumum_rev1-4_1-01.png') ?>" class="img-fluid text-center" alt="Infografis 1" style="width: auto; height: 325px;">
+                                    <img class="shawdow-lg" id="viz-1" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_gambaranumum_rev1-4_1-01.png') ?>" class="img-fluid text-center" alt="Infografis 1" style="width: 80%; height: auto;">
                                     <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                                         <div class="d-flex justify-content-center my-auto">
                                             <a href="<?= 'https://drive.google.com/file/d/1znN325vYddiaETgUiZJGCdvVaxIRXwg-/view?usp=sharing' ?>" class="bukulaporan mx-auto">
@@ -459,7 +459,7 @@
                         <div class="fourthSec">
                             <div class="text-center text-lg-start kontener">
                                 <div>
-                                    <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_IKUPTIK_6-01.png') ?>" class="img-fluid text-center" alt="Infografis 2" style="width: auto; height: 325px;">
+                                    <img class="shawdow-lg" id="viz-2" src="<?= base_url('pvd/img/landingpage/riset4/infografis_riset4_IKUPTIK_6-01.png') ?>" class="img-fluid text-center" alt="Infografis 2" style="width: 80%; height: auto;">
                                     <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                                         <div class="d-flex justify-content-center my-auto">
                                             <a href="<?= 'https://drive.google.com/file/d/1r7MfzH35AAO7IBTYoGFTRF6qlGC2qSrt/view?usp=sharing' ?>" class="bukulaporan mx-auto">
