@@ -22,48 +22,48 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>26921.65</td>
-                        <td>84308.41</td>
+                        <td>26922</td>
+                        <td>84308</td>
                         <td>3.13</td>
                         <td>182693</td>
                         <td>14.74</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>33381.04</td>
-                        <td>102937.72</td>
+                        <td>33381</td>
+                        <td>102938</td>
                         <td>3.08</td>
                         <td>208741</td>
                         <td>15.99</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>14481.36</td>
-                        <td>65470.65</td>
+                        <td>14481</td>
+                        <td>65471</td>
                         <td>4.52</td>
                         <td>94039</td>
                         <td>15.4</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>30840.04</td>
-                        <td>135566.29</td>
+                        <td>30840</td>
+                        <td>135566</td>
                         <td>4.40</td>
                         <td>163964</td>
                         <td>18.81</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>25472.20</td>
-                        <td>62256.85</td>
+                        <td>25472</td>
+                        <td>62257</td>
                         <td>2.44</td>
                         <td>196689</td>
                         <td>12.95</td>
                     </tr>
                     <tr>
                         <th scope="row">Kota Malang</th>
-                        <td>131096.29</td>
-                        <td>450539.92</td>
+                        <td>131096</td>
+                        <td>450540</td>
                         <td>3.44</td>
                         <td>846126</td>
                         <td>15.49</td>
@@ -99,57 +99,57 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>2015.41</td>
-                        <td>9383.94</td>
-                        <td>7278.73</td>
-                        <td>20626.68</td>
-                        <td>4887.56</td>
-                        <td>44192.32</td>
+                        <td>2015</td>
+                        <td>9384</td>
+                        <td>7279</td>
+                        <td>20627</td>
+                        <td>4888</td>
+                        <td>44192</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>10041.39</td>
-                        <td>3692.38</td>
-                        <td>6975.45</td>
-                        <td>9458.64</td>
-                        <td>6699.80</td>
-                        <td>36867.66</td>
+                        <td>10041</td>
+                        <td>3692</td>
+                        <td>6975</td>
+                        <td>9459</td>
+                        <td>6700</td>
+                        <td>36868</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>52365.03</td>
-                        <td>74785.90</td>
-                        <td>37729.98</td>
-                        <td>81070.83</td>
-                        <td>45946.69</td>
-                        <td>291898.43</td>
+                        <td>52365</td>
+                        <td>74786</td>
+                        <td>37730</td>
+                        <td>81071</td>
+                        <td>45947</td>
+                        <td>291898</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>12912.90</td>
-                        <td>7058.35</td>
-                        <td>6387.84</td>
-                        <td>11646.67</td>
-                        <td>3990.59</td>
-                        <td>41996.35</td>
+                        <td>12913</td>
+                        <td>7058</td>
+                        <td>6388</td>
+                        <td>11647</td>
+                        <td>3991</td>
+                        <td>41996</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>6973.68</td>
-                        <td>8017.15</td>
-                        <td>7098.66</td>
-                        <td>12763.47</td>
-                        <td>732.22</td>
-                        <td>35585.18</td>
+                        <td>6974</td>
+                        <td>8017</td>
+                        <td>7099</td>
+                        <td>12763</td>
+                        <td>732</td>
+                        <td>35585</td>
                     </tr>
                     <tr>
                         <th scope="row">Kota Malang</th>
-                        <td>84308.41</td>
-                        <td>102937.72</td>
-                        <td>65470.66</td>
-                        <td>135566.29</td>
-                        <td>62256.86</td>
-                        <td>450539.94</td>
+                        <td>84308</td>
+                        <td>102938</td>
+                        <td>65471</td>
+                        <td>135566</td>
+                        <td>62257</td>
+                        <td>450540</td>
                     </tr>
                 </tbody>
             </table>
@@ -181,45 +181,45 @@
                 <tbody>
                     <tr>
                         <th scope="row">Kecamatan Blimbing</th>
-                        <td>44339.05</td>
-                        <td>766.93</td>
-                        <td>39202.43</td>
-                        <td>84308.41</td>
+                        <td>44339</td>
+                        <td>767</td>
+                        <td>39202</td>
+                        <td>84308</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Kedungkandang</th>
-                        <td>66483.16</td>
-                        <td>979.19</td>
-                        <td>35475.36</td>
-                        <td>102937.72</td>
+                        <td>66483</td>
+                        <td>979</td>
+                        <td>35475</td>
+                        <td>102938</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Klojen</th>
-                        <td>41454.64</td>
-                        <td>1260.51</td>
-                        <td>22755.51</td>
-                        <td>65470.65</td>
+                        <td>41455</td>
+                        <td>1261</td>
+                        <td>22756</td>
+                        <td>65471</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Lowokwaru</th>
-                        <td>54518.25</td>
-                        <td>1891.73</td>
-                        <td>79156.31</td>
-                        <td>135566.29</td>
+                        <td>54518</td>
+                        <td>1892</td>
+                        <td>79156</td>
+                        <td>135566</td>
                     </tr>
                     <tr>
                         <th scope="row">Kecamatan Sukun</th>
-                        <td>34066.45</td>
-                        <td>640.69</td>
-                        <td>27549.71</td>
-                        <td>62256.85</td>
+                        <td>34066</td>
+                        <td>641</td>
+                        <td>27550</td>
+                        <td>62257</td>
                     </tr>
                     <tr>
                         <th scope="row">Kota Malang</th>
-                        <td>240863.56</td>
-                        <td>5542.05</td>
-                        <td>204143.32</td>
-                        <td>450539.93</td>
+                        <td>240864</td>
+                        <td>5542</td>
+                        <td>204143</td>
+                        <td>450540</td>
                     </tr>
                 </tbody>
             </table>
