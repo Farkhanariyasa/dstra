@@ -1,14 +1,14 @@
 function getColor(d) {
   if (d == "Blimbing") {
-    return "#F5A300";
+    return "#febb33ff";
   } else if (d == "Kedungkandang") {
-    return "#4F6396";
+    return "#E09600";
   } else if (d == "Lowokwaru") {
-    return "#4C395F";
+    return "#ffab00ff";
   } else if (d == "Sukun") {
-    return "#F5A300";
+    return "#ffdd98ff";
   } else if (d == "Klojen") {
-    return "#B45C75";
+    return "#ffeecbff";
   }
 }
 
