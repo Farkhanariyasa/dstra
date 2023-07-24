@@ -1124,7 +1124,7 @@
                                 <img src="<?= base_url('pvd/img/landingpage/riset2/infografis_riset2.jpg') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                                 <div class="overlay rounded-3 d-block mx-auto d-flex justify-content-center">
                                     <div class="d-flex justify-content-center my-auto">
-                                        <a href="<?= 'https://drive.google.com/file/d/1BnRSjQcsMxc61ppnnf4YshHa6mD6Rbxk/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                        <a href="<?= 'https://drive.google.com/file/d/1tdC_cpt_GsT3s5eKFGkry6RTDf0knR7j/view?usp=drive_link' ?>" class="bukulaporan mx-auto">
                                             <div class="text-center">
                                                 <button class="btn btn-primary gdrive" type="button">
                                                     <div>
@@ -1159,7 +1159,7 @@
                                 <img src="<?= base_url('pvd/img/landingpage/riset2/buku_laporan.jpg') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                                 <div class="overlay rounded-3 d-block mx-auto d-flex justify-content-center">
                                     <div class="d-flex justify-content-center my-auto">
-                                        <a href="<?= 'https://drive.google.com/file/d/1dLE01Lm5UdYmmdsmdiqsBtCfxP4yWFhg/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                        <a href="<?= 'https://drive.google.com/file/d/1gcjttyowO9ickeRQzhFZmdyra-QaD5Xr/view?usp=drive_link' ?>" class="bukulaporan mx-auto">
                                             <div class="text-center">
                                                 <button class="btn btn-primary gdrive" type="button">
                                                     <div>
@@ -1195,7 +1195,7 @@
                             <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1" style="height: auto; width: 100%">
                                 <div class="row">
                                 <div>
-                                    <embed src="https://drive.google.com/file/d/1R0pWJ2IbRJr9GJsCkdRzKq_FzCkRN3ox/preview" type="application/pdf" width=100% height="600px" />
+                                    <embed src="https://drive.google.com/file/d/1auEtGPsPZavLRj_vI3rPv-oyJIFJgZNY/preview" type="application/pdf" width=100% height="600px" />
                                 </div>
                                 </div>
                             </div>
