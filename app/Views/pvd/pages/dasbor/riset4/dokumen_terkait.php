@@ -93,7 +93,7 @@
                         <img src="<?= base_url('pvd/img/dasbor/riset4/cover-buku-laporan.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                         <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                             <div class="d-flex justify-content-center my-auto">
-                                <a href="<?= 'https://drive.google.com/file/d/1fE82lkHbYAJSSGm5oBd4voNrYsOQfp2K/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                <a href="<?= 'https://drive.google.com/file/d/1AEqffdTuWLhV8idPPomyUilkAFQI1MaZ/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                     <div class="text-center">
                                         <button class="btn btn-primary gdrive" type="button">
                                             <div>
@@ -123,7 +123,7 @@
                         <img src="<?= base_url('pvd/img/dasbor/riset4/cover-pedoman-listing.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                         <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                             <div class="d-flex justify-content-center my-auto">
-                                <a href="<?= 'https://drive.google.com/file/d/1GV0lTxcA3fgkyaFZaOecmslS3Ku9z3jZ/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                <a href="<?= 'https://drive.google.com/file/d/1XsD4GcEbevZqoLVzMvGZc3taa_6d6MIZ/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                     <div class="text-center">
                                         <button class="btn btn-primary gdrive" type="button">
                                             <div>
@@ -152,7 +152,7 @@
                         <img src="<?= base_url('pvd/img/dasbor/riset4/cover-pedoman-pencacahan.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                         <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                             <div class="d-flex justify-content-center my-auto">
-                                <a href="<?= 'https://drive.google.com/file/d/1r0vX70wxYGFWQXGbjruG-wvSVx-YgLP3/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                <a href="<?= 'https://drive.google.com/file/d/1m29cYeOAnFxDEeOCvE_IxYS5T6OhKvpp/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                     <div class="text-center">
                                         <button class="btn btn-primary gdrive" type="button">
                                             <div>
@@ -181,7 +181,7 @@
                         <img src="<?= base_url('pvd/img/dasbor/riset4/cover-kuesioner-listing.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                         <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                             <div class="d-flex justify-content-center my-auto">
-                                <a href="<?= 'https://drive.google.com/file/d/1oMmVfkvY0H2iSVL1tRYPAPR6uemofhRP/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                <a href="<?= 'https://drive.google.com/file/d/13gpndcRxZNMM1l3Adk-3xFRtkAXc8vQz/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                     <div class="text-center">
                                         <button class="btn btn-primary gdrive" type="button">
                                             <div>
@@ -210,7 +210,7 @@
                         <img src="<?= base_url('pvd/img/dasbor/riset4/cover-kuesioner-pencacahan.png') ?>" class="img-fluid rounded-3 mx-auto d-block shadow" alt="">
                         <div class="overlay rounded-3 d-block mx-0 d-flex justify-content-center">
                             <div class="d-flex justify-content-center my-auto">
-                                <a href="<?= 'https://drive.google.com/file/d/19tEkaGEVqf5DXppWSexYUAuMAr3lGj4g/view?usp=sharing' ?>" class="bukulaporan mx-auto">
+                                <a href="<?= 'https://drive.google.com/file/d/1QK4NRSA5K2OnGtFglzDwGhgPwwGvWBaO/view?usp=sharing' ?>" class="bukulaporan mx-auto">
                                     <div class="text-center">
                                         <button class="btn btn-primary gdrive" type="button">
                                             <div>
