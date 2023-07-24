@@ -57,6 +57,7 @@ var batang = new Chart(t3_bar2, {
     responsive: true,
     scales: {
       x: {
+        max: 80,
         title: {
           display: true,
           text: "Jumlah Wisatawan (%)",
@@ -191,6 +192,7 @@ function tampilData() {
       "di Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 100;
     batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
     batang.options.scales.y.title.text = "Moda Angkutan Utama";
     batang.update();
@@ -217,6 +219,7 @@ function tampilData() {
       "Kota pada Perjalanan Terakhir di",
       "Kota Malang Oktober-Desember 2022",
     ];
+    batang.options.scales.x.max = 80;
     batang.options.scales.x.title.text = "Frekuenisi Kegiatan Wisata (%)";
     batang.options.scales.y.title.text = "Jenis Kegiatan Wisata";
     batang.update();
@@ -241,6 +244,7 @@ function tampilData() {
       "Kota Malang Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 60;
     batang.options.scales.x.title.text = "Frekuensi Digunakan (%)";
     batang.options.scales.y.title.text = "Media Informasi Utama";
     batang.update();
@@ -269,6 +273,7 @@ function tampilData() {
       "Perjalanan Terakhir Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 2000000;
     batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
     batang.options.scales.y.title.text = "Kategori Biaya";
     batang.data.datasets[0].label = "Pengeluaran";
@@ -298,6 +303,7 @@ function tampilData() {
       "Perjalanan Terakhir Oktober-Desember 2022",
     ];
     batang.options.indexAxis = "y";
+    batang.options.scales.x.max = 1500000;
     batang.options.scales.x.title.text = "Rata-Rata Pengeluaran (Rupiah)";
     batang.options.scales.y.title.text = "Kategori Biaya";
     batang.data.datasets[0].label = "Pengeluaran";
