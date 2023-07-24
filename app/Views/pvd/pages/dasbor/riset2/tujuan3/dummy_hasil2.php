@@ -26,7 +26,7 @@
 
             <div class="selectBox mt-2 d-flex flex-row justify-content-center align-item-center ">
                 <form action="">
-                    <select class="dropdownunduh1" id="forBarChart">
+                    <select class="dropdownunduh1" id="forBarChart" style="width: 200px;">
                         <option value="a">Maksud Utama</option>
                         <option value="b">Akomodasi Utama</option>
                         <option value="c">Angkutan Utama</option>
