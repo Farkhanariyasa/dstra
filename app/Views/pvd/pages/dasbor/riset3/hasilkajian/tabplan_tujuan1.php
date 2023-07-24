@@ -7,8 +7,7 @@
                     <th rowspan="2" colspan="2">KLB</th>
                     <th colspan="6" class="text-center">Jenis Industri Pariwisata</th>
                     
-                    <th rowspan="2">Jumlah</th>
-                    <th rowspan="2">Sampel</th>
+                    <th rowspan="2">Total</th>
                 </tr>
                 <tr>
                 	<th>Penyediaan jasa akomodasi bagi wisatawan</th>
@@ -21,7 +20,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Hubungan dengan KRT</td>
+                    <td rowspan="3" class="fw-bold">Hubungan dengan KRT</td>
                     <td>KRT</td>
                     <td>10.58</td>
                     <td>21.53</td>
@@ -30,7 +29,6 @@
                     <td>16.06</td>
                     <td>11.31</td>
                     <td>100.00</td>
-                    <td>39.03</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -42,10 +40,20 @@
                     <td>24.07</td>
                     <td>7.94</td>
                     <td>100.00</td>
-                    <td>60.97</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="5" class="fw-bold">Usia</td>
+                    <td rowspan="6" class="fw-bold">Usia</td>
                     <td>&lt;15 dan 15-24</td>
                     <td>10.40</td>
                     <td>40.46</td>
@@ -54,7 +62,6 @@
                     <td>21.39</td>
                     <td>5.78</td>
                     <td>100.00</td>
-                    <td>24.64</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -66,7 +73,6 @@
                     <td>21.98</td>
                     <td>14.84</td>
                     <td>100.00</td>
-                    <td>25.93</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -78,7 +84,6 @@
                     <td>18.66</td>
                     <td>12.69</td>
                     <td>100.00</td>
-                    <td>19.09</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -90,7 +95,6 @@
                     <td>28.33</td>
                     <td>3.33</td>
                     <td>100.00</td>
-                    <td>8.55</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -102,10 +106,20 @@
                     <td>16.13</td>
                     <td>6.45</td>
                     <td>100.00</td>
-                    <td>4.42</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Status Perkawinan</td>
+                    <td rowspan="3" class="fw-bold">Status Perkawinan</td>
                     <td>Belum Kawin</td>
                     <td>10.22</td>
                     <td>37.63</td>
@@ -114,7 +128,6 @@
                     <td>20.97</td>
                     <td>7.53</td>
                     <td>100.00</td>
-                    <td>26.50</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -126,10 +139,20 @@
                     <td>20.93</td>
                     <td>9.88</td>
                     <td>100.00</td>
-                    <td>73.50</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Jenis Kelamin</td>
+                    <td rowspan="3" class="fw-bold">Jenis Kelamin</td>
                     <td>Laki-laki</td>
                     <td>10.74</td>
                     <td>24.82</td>
@@ -138,7 +161,6 @@
                     <td>15.99</td>
                     <td>10.98</td>
                     <td>100.00</td>
-                    <td>56.69</td>
                 <tr>
                     <td style="display: none;"></td>
                     <td>Perempuan</td>
@@ -149,10 +171,20 @@
                     <td>28.27</td>
                     <td>6.71</td>
                     <td>100.00</td>
-                    <td>40.31</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="4" class="fw-bold">Jumlah Pendapatan</td>
+                    <td rowspan="5" class="fw-bold">Jumlah Pendapatan</td>
                     <td>&lt;Rp1.500.000</td>
                     <td>12.56</td>
                     <td>39.07</td>
@@ -161,7 +193,6 @@
                     <td>17.21</td>
                     <td>9.30</td>
                     <td>100.00</td>
-                    <td>30.63</td>
                 <tr>
                     <td style="display: none;"></td>
                     <td>Rp1.500.000-Rp2.500.000</td>
@@ -172,7 +203,6 @@
                     <td>19.30</td>
                     <td>8.77</td>
                     <td>100.00</td>
-                    <td>32.48</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -184,7 +214,6 @@
                     <td>25.42</td>
                     <td>8.47</td>
                     <td>100.00</td>
-                    <td>16.81</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -196,10 +225,20 @@
                     <td>25.53</td>
                     <td>10.64</td>
                     <td>100.00</td>
-                    <td>20.09</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Tempat Bekerja Menggunakan Internet</td>
+                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet</td>
                     <td>Ya</td>
                     <td>13.62</td>
                     <td>25.53</td>
@@ -208,7 +247,6 @@
                     <td>14.89</td>
                     <td>11.49</td>
                     <td>100.00</td>
-                    <td>66.95</td>
                 <tr>
                     <td style="display: none;"></td>
                     <td>Tidak</td>
@@ -219,10 +257,20 @@
                     <td>33.19</td>
                     <td>4.74</td>
                     <td>100.00</td>
-                    <td>33.05</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Promosi</td>
+                    <td rowspan="4" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Promosi</td>
                     <td>Ya</td>
                     <td>14.55</td>
                     <td>23.81</td>
@@ -231,7 +279,6 @@
                     <td>12.70</td>
                     <td>11.38</td>
                     <td>100.00</td>
-                    <td>53.85</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -243,7 +290,6 @@
                     <td>23.91</td>
                     <td>11.96</td>
                     <td>100.00</td>
-                    <td>13.11</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -255,10 +301,20 @@
                     <td>33.19</td>
                     <td>4.74</td>
                     <td>100.00</td>
-                    <td>33.05</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Komunikasi</td>
+                    <td rowspan="4" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Komunikasi</td>
                     <td>Ya</td>
                     <td>13.73</td>
                     <td>25.49</td>
@@ -267,7 +323,6 @@
                     <td>14.38</td>
                     <td>11.55</td>
                     <td>100.00</td>
-                    <td>65.38</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -279,7 +334,6 @@
                     <td>36.36</td>
                     <td>9.09</td>
                     <td>100.00</td>
-                    <td>1.57</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -291,10 +345,20 @@
                     <td>33.19</td>
                     <td>4.74</td>
                     <td>100.00</td>
-                    <td>33.05</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="3" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Transaksi</td>
+                    <td rowspan="4" class="fw-bold">Tempat Bekerja Menggunakan Internet untuk Transaksi</td>
                     <td>Ya</td>
                     <td>15.34</td>
                     <td>22.71</td>
@@ -303,7 +367,6 @@
                     <td>15.34</td>
                     <td>11.80</td>
                     <td>100.00</td>
-                    <td>48.29</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -315,7 +378,6 @@
                     <td>13.74</td>
                     <td>10.69</td>
                     <td>100.00</td>
-                    <td>18.66</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -327,10 +389,20 @@
                     <td>33.19</td>
                     <td>4.74</td>
                     <td>100.00</td>
-                    <td>33.05</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Keinginan untuk Menambah Pekerjaan</td>
+                    <td rowspan="3" class="fw-bold">Keinginan untuk Menambah Pekerjaan</td>
                     <td>Ya</td>
                     <td>8.04</td>
                     <td>26.22</td>
@@ -339,7 +411,6 @@
                     <td>19.23</td>
                     <td>11.89</td>
                     <td>100.00</td>
-                    <td>40.74</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -351,10 +422,20 @@
                     <td>22.12</td>
                     <td>7.45</td>
                     <td>100.00</td>
-                    <td>59.26</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Pekerjaan Utama</td>
+                    <td rowspan="3" class="fw-bold">Pekerjaan Utama</td>
                     <td>Ya</td>
                     <td>9.86</td>
                     <td>32.75</td>
@@ -363,7 +444,6 @@
                     <td>22.10</td>
                     <td>8.59</td>
                     <td>100.00</td>
-                    <td>89.60</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -375,10 +455,20 @@
                     <td>10.96</td>
                     <td>15.07</td>
                     <td>100.00</td>
-                    <td>10.40</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Lama Bekerja</td>
+                    <td rowspan="3" class="fw-bold">Lama Bekerja</td>
                     <td>&le;36 bulan</td>
                     <td>10.38</td>
                     <td>38.75</td>
@@ -387,7 +477,6 @@
                     <td>19.72</td>
                     <td>7.96</td>
                     <td>100.00</td>
-                    <td>41.17</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -399,10 +488,20 @@
                     <td>21.79</td>
                     <td>10.17</td>
                     <td>100.00</td>
-                    <td>58.83</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Kepunyaan Pekerjaan Sebelumnya</td>
+                    <td rowspan="3" class="fw-bold">Kepunyaan Pekerjaan Sebelumnya</td>
                     <td>Ya</td>
                     <td>9.30</td>
                     <td>35.66</td>
@@ -411,7 +510,6 @@
                     <td>22.48</td>
                     <td>9.30</td>
                     <td>100.00</td>
-                    <td>18.38</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -423,10 +521,20 @@
                     <td>20.59</td>
                     <td>9.25</td>
                     <td>100.00</td>
-                    <td>81.62</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</td>
+                    <td rowspan="3" class="fw-bold">Kepunyaan Pekerjaan di Sektor Pariwisata Sebelumnya</td>
                     <td>Ya</td>
                     <td>9.52</td>
                     <td>35.71</td>
@@ -435,7 +543,6 @@
                     <td>21.43</td>
                     <td>14.29</td>
                     <td>100.00</td>
-                    <td>5.98</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -447,10 +554,20 @@
                     <td>20.91</td>
                     <td>8.94</td>
                     <td>100.00</td>
-                    <td>94.02</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>)</td>
+                    <td rowspan="3" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>)</td>
                     <td>Ya</td>
                     <td>14.22</td>
                     <td>24.17</td>
@@ -459,7 +576,6 @@
                     <td>14.69</td>
                     <td>15.17</td>
                     <td>100.00</td>
-                    <td>30.06</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -471,10 +587,20 @@
                     <td>23.63</td>
                     <td>6.72</td>
                     <td>100.00</td>
-                    <td>69.94</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>) berdasarkan Jenis Kelamin</td>
+                    <td rowspan="3" class="fw-bold">Memiliki Pekerjaan Lainnya (<i>Multiple Jobs</i>) berdasarkan Jenis Kelamin</td>
                     <td>Laki-laki</td>
                     <td>11.80</td>
                     <td>18.63</td>
@@ -483,7 +609,6 @@
                     <td>13.04</td>
                     <td>17.39</td>
                     <td>100.00</td>
-                    <td>76.30</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -495,10 +620,20 @@
                     <td>20.00</td>
                     <td>8.00</td>
                     <td>100.00</td>
-                    <td>23.70</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Pendapatan Sampingan Lebih Besar daripadda Pendapatan Utama</td>
+                    <td rowspan="3" class="fw-bold">Pendapatan Sampingan Lebih Besar daripadda Pendapatan Utama</td>
                     <td>Ya</td>
                     <td>10.17</td>
                     <td>25.42</td>
@@ -507,7 +642,6 @@
                     <td>11.86</td>
                     <td>15.25</td>
                     <td>100.00</td>
-                    <td>27.96</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -519,10 +653,20 @@
                     <td>15.79</td>
                     <td>15.13</td>
                     <td>100.00</td>
-                    <td>72.04</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>     
                 <tr>
-                    <td rowspan="3" class="fw-bold">Pendidikan Tertinggi</td>
+                    <td rowspan="4" class="fw-bold">Pendidikan Tertinggi</td>
                     <td>Di Bawah SMA/SMK</td>
                     <td>7.89</td>
                     <td>31.58</td>
@@ -531,7 +675,6 @@
                     <td>13.16</td>
                     <td>3.95</td>
                     <td>100.00</td>
-                    <td>45.78</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -543,7 +686,6 @@
                     <td>14.47</td>
                     <td>3.95</td>
                     <td>100.00</td>
-                    <td>45.78</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -555,10 +697,20 @@
                     <td>7.14</td>
                     <td>21.43</td>
                     <td>100.00</td>
-                    <td>8.43</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Keikutsertaan dalam Pelatihan</td>
+                    <td rowspan="3" class="fw-bold">Keikutsertaan dalam Pelatihan</td>
                     <td>Ya</td>
                     <td>18.26</td>
                     <td>30.43</td>
@@ -567,7 +719,6 @@
                     <td>10.43</td>
                     <td>10.43</td>
                     <td>100.00</td>
-                    <td>16.38</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -579,10 +730,20 @@
                     <td>23.00</td>
                     <td>9.03</td>
                     <td>100.00</td>
-                    <td>83.62</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Penggunaan Bahasa Asing di Tempat Kerja</td>
+                    <td rowspan="3" class="fw-bold">Penggunaan Bahasa Asing di Tempat Kerja</td>
                     <td>Ya</td>
                     <td>17.81</td>
                     <td>27.40</td>
@@ -591,7 +752,6 @@
                     <td>13.01</td>
                     <td>12.33</td>
                     <td>100.00</td>
-                    <td>20.80</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -603,10 +763,20 @@
                     <td>23.02</td>
                     <td>8.45</td>
                     <td>100.00</td>
-                    <td>79.20</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Rumah Layak Huni</td>
+                    <td rowspan="3" class="fw-bold">Rumah Layak Huni</td>
                     <td>Layak Huni</td>
                     <td>14.80</td>
                     <td>34.53</td>
@@ -615,7 +785,6 @@
                     <td>14.35</td>
                     <td>7.62</td>
                     <td>100.00</td>
-                    <td>31.77</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -627,10 +796,20 @@
                     <td>24.01</td>
                     <td>10.02</td>
                     <td>100.00</td>
-                    <td>68.23</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Sumber Air Minum Bersih dan Akses Air Minum Layak</td>
+                    <td rowspan="3" class="fw-bold">Sumber Air Minum Bersih dan Akses Air Minum Layak</td>
                     <td>Sumber air minum bersih</td>
                     <td>10.42</td>
                     <td>32.29</td>
@@ -639,7 +818,6 @@
                     <td>21.28</td>
                     <td>8.48</td>
                     <td>100.00</td>
-                    <td>39.17</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -651,10 +829,20 @@
                     <td>15.27</td>
                     <td>8.00</td>
                     <td>100.00</td>
-                    <td>39.17</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="fw-bold">Sanitasi Layak</td>
+                    <td rowspan="3" class="fw-bold">Sanitasi Layak</td>
                     <td>Sanitasi Layak</td>
                     <td>11.53</td>
                     <td>32.36</td>
@@ -663,7 +851,6 @@
                     <td>19.10</td>
                     <td>8.95</td>
                     <td>100.00</td>
-                    <td>82.76</td>
                 </tr>
                 <tr>
                     <td style="display: none;"></td>
@@ -675,19 +862,28 @@
                     <td>29.75</td>
                     <td>10.74</td>
                     <td>100.00</td>
-                    <td>17.24</td>
+                </tr>
+                <tr class="tp1-total">
+                  <td style="display: none;"></td>
+                  <td class="fw-bold">Total</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="text-center fw-bold">Total</td>
-                    <td style="display: none;"></td>
-                    <td>10.83</td>
-                    <td>31.68</td>
-                    <td>12.21</td>
-                    <td>17.28</td>
-                    <td>19.47</td>
-                    <td>8.53</td>
-                    <td>100.00</td>
-                    <td></td>
+                  <td class="fw-bold" colspan="2">Total</td>
+                  <td style="display: none;"></td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
                 </tr>
             </tbody>
         </table>
