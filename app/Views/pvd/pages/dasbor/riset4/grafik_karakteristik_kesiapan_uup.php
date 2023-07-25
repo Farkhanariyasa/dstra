@@ -132,7 +132,7 @@
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                    Berdasarkan grafik, dapat terlihat bahwa secara visual tidak menunjukkan adanya perbedaan dari sebaran nilai indeks kesiapan unit usaha pariwisata dalam pemanfaatan TIK berdasarkan jenis kelaminnya.  Pada jenis kelamin laki-laki, memiliki nilai rataan indeks yang lebih besar dibandingkan dengan jenis kelamin perempuan. Mesi begitu, pada jenis kelamin perempuan memiliki nilai maksimum yang lebih tinggi dibandingkan laki-laki dengan indeks sebesar 85 dan termasuk ke dalam mild outlier.
+                                                    Berdasarkan grafik, dapat terlihat bahwa secara visual tidak menunjukkan adanya perbedaan dari sebaran nilai indeks kesiapan unit usaha pariwisata dalam pemanfaatan TIK berdasarkan jenis kelaminnya.  Pada jenis kelamin laki-laki, memiliki nilai rataan indeks yang lebih besar dibandingkan dengan jenis kelamin perempuan. Meski begitu, pada jenis kelamin perempuan memiliki nilai maksimum yang lebih tinggi dibandingkan laki-laki dengan indeks sebesar 85 dan termasuk ke dalam mild outlier.
                                                     </p>
                                                 </div>
                                             </div>
@@ -220,7 +220,7 @@
                                                 <div>
                                                     <h4>Interpretasi</h4>
                                                     <p id="interpretasi-0" class="text-justify">
-                                                    Pada visualisasi scatter plot, secara visual terlihat bahwa antara indeks kesiapan dalam pemanfaatan TIK dengan usia pemilik atau pengelola unit usaha pariwisatanya cenderung berkorelasi negatif. Hal ini berarti bahwa tiap bertambahnya usia maka kecenderungan untuk siap dalam pemanfaatan TIK pada unit usaha pariwisatanya cenderung berkurang. Pada Scatter plot juga terlihat terdapat dua amatan yang dapat dikatakan sebagai outlier dari segi usia pemilik atau pengelola.
+                                                    Pada visualisasi scatter plot (sumbu-x: usia (tahun) dan sumbu-y: IKUPTIK), secara visual terlihat bahwa antara indeks kesiapan dalam pemanfaatan TIK dengan usia pemilik atau pengelola unit usaha pariwisatanya cenderung berkorelasi negatif. Hal ini berarti bahwa tiap bertambahnya usia maka kecenderungan untuk siap dalam pemanfaatan TIK pada unit usaha pariwisatanya cenderung berkurang. Pada Scatter plot juga terlihat terdapat dua amatan yang dapat dikatakan sebagai outlier dari segi usia pemilik atau pengelola.
                                                     </p>
                                                 </div>
                                             </div>

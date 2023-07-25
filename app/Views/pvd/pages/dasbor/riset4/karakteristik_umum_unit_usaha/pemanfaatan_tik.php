@@ -639,13 +639,13 @@
                                         <div>
                                             <h4>Interpretasi</h4>
                                             <p class="text-justify">
-                                                Dari 82 unit usaha jasa transportasi wisata yang memanfaatkan TIK sebagai sarana promosi, Terlihat bahwa sarana marketplace paling banyak digunakan oleh unit usaha jasa transportasi wisata sebagai sarana promosi unit usaha.
+                                                Dari 82 unit usaha jasa transportasi wisata yang memanfaatkan TIK sebagai sarana promosi, terlihat bahwa sarana marketplace paling banyak digunakan oleh unit usaha jasa transportasi wisata sebagai sarana promosi unit usaha.
                                             </p>
                                             <p class="text-justify">
-                                                Kemudian, dari 407 unit usaha jasa penyediaan makanan dan minuman yang memanfaatkan TIK sebagai sarana promosi. Terlihat bahwa sarana media sosial paling banyak digunakan oleh unit usaha jasa penyediaan makanan dan minuman sebagai sarana promosi unit usaha.
+                                                Kemudian, dari 407 unit usaha jasa penyediaan makanan dan minuman yang memanfaatkan TIK sebagai sarana promosi, terlihat bahwa sarana media sosial paling banyak digunakan oleh unit usaha jasa penyediaan makanan dan minuman sebagai sarana promosi unit usaha.
                                             </p>
                                             <p class="text-justify">
-                                                Sementara itu, dari 57 unit usaha jasa penyediaan akomodasi yang memanfaatkan TIK sebagai sarana promosi, Terlihat bahwa unit usaha penyediaan akomodasi menggunakan media sosial dan marketplace secara bersamaan untuk kegiatan promosi unit usaha.
+                                                Sementara itu, dari 57 unit usaha jasa penyediaan akomodasi yang memanfaatkan TIK sebagai sarana promosi, terlihat bahwa unit usaha penyediaan akomodasi menggunakan media sosial dan marketplace secara bersamaan untuk kegiatan promosi unit usaha.
                                             </p>
                                         </div>
                                     </div>
@@ -967,7 +967,7 @@
                                             Berdasarkan hasil analisis, sarana transaksi berupa transfer bank dan e-wallet banyak 
                                             digunakan pada usaha mikro. Di sisi lain, penggunaan sarana transaksi yang digunakan pada unit usaha kecil 
                                             cenderung lebih merata. Berdasarkan grafik, terlihat bahwa 41 unit usaha menggunakan sarana transfer bank, 22 
-                                            unit usaha menggunakan sarana transaksi QRIS, dan 11 unit usaha menggunakan sarana transaksi dengan kartu. Dengan demikian, 
+                                            unit usaha menggunakan sarana transaksi e-wallet, 16 unit usaha menggunakan sarana transaksi QRIS, dan 11 unit usaha menggunakan sarana transaksi dengan kartu. Dengan demikian, 
                                             dapat disimpulkan bahwa sarana transaksi transfer bank dan e-wallet mendominasi untuk kedua skala unit usaha. 
                                             Penggunaan sarana transaksi QRIS dan kartu cukup banyak digunakan. Kemudian, hanya sebagian kecil unit usaha 
                                             yang menggunakan sarana transaksi lainnya.   
