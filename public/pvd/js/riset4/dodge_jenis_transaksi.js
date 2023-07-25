@@ -9,35 +9,35 @@ const dodge_20 = new Chart(dodge20, {
         datasets: [{
             label: 'Transfer Bank',
             data:[
-                225, 40, 54,
+                40, 225, 54,
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: 'E-wallet',
             data:[
-                178, 89, 8,
+                89, 178, 8,
             ],
             backgroundColor:"#506396",
             borderWidth:1
         },{
             label: 'QRIS',
             data:[
-                76, 6, 3,
+                6, 76, 3,
             ],
             backgroundColor:"#4b395f",
             borderWidth:1
         },{
             label: 'Pembayaran dengan kartu',
             data:[
-                21, 1, 5,
+                1, 21, 5,
             ],
             backgroundColor:"#b35c74",
             borderWidth:1
         },{
             label: 'Lainnya',
             data:[
-                3, 2, 0,
+                2, 3, 0,
             ],
             backgroundColor:"#ffbc33",
             borderWidth:1

@@ -103,6 +103,7 @@ const bar6 = new Chart(sdm_ekonomi2, {
         },maintainAspectRatio: false,
         scales:{
             x:{
+                max: 1000,
                 grid:{
                     display:false
                 },

@@ -9,21 +9,21 @@ const dodge_17 = new Chart(dodge17, {
         datasets: [{
             label: 'Media Sosial',
             data:[
-                225, 36, 28,
+                36, 225, 28,
             ],
             backgroundColor:"#ffab00",
             borderWidth:1
         },{
             label: 'Marketplace',
             data:[
-                53, 61, 7,
+                61, 53, 7,
             ],
             backgroundColor:"#4b395f",
             borderWidth:1
         },{
             label: 'Keduanya',
             data:[
-                138, 23, 24,
+                23, 138, 24,
             ],
             backgroundColor:"#506396",
             borderWidth:1
